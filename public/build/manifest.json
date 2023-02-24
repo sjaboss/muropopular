@@ -1,8 +1,4 @@
 {
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build"
-},
   "resources/css/app.css": {
     "file": "assets/app-e865295d.css",
     "isEntry": true,
