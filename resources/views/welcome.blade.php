@@ -228,7 +228,7 @@
                                     <figure>
                                         <a href="">
                                             <img class="h-48 w-full object-cover object-center"
-                                                src="img/FOTOS SVG/ddhh-2.svg" alt="">
+                                                src="img/FOTOS-SVG/ddhh-2.svg" alt="">
                                         </a>
                                     </figure>
                                     <div class=" py-4 px-6">
