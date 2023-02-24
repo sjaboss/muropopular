@@ -31,7 +31,7 @@
                 <li class=" bg-white rounded-lg shadow "> {{-- primera --}}
                     <article>
                         <figure>
-                            <img class=" w-full object-cover" src="img/politica-2.jpg" alt="">
+                            <img class=" w-full object-cover" src="img/83.png" alt="">
                         </figure>
                         <div class="py-4 px-4">
                             <h2 class="text-lg font-black">
