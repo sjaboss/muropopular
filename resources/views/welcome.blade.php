@@ -31,7 +31,7 @@
                 <li class=" bg-white rounded-lg shadow "> {{-- primera --}}
                     <article>
                         <figure>
-                            <img class=" w-full object-cover" src="img/FOTOS SVG/politica-2.svg" alt="">
+                            <img class=" w-full object-cover" src="img/politica-2.jpg" alt="">
                         </figure>
                         <div class="py-4 px-4">
                             <h2 class="text-lg font-black">
@@ -59,7 +59,7 @@
                 <li class=" bg-white rounded-lg shadow "> {{-- segunda --}}
                     <article>
                         <figure>
-                            <img class=" w-full object-cover "src="img/FOTOS SVG/s-1.svg" alt="">
+                            <img class=" w-full object-cover "src="img/s-1.jpg" alt="">
                         </figure>
                         <div class="py-4 px-4">
                             <h2 class="text-lg font-black">
@@ -87,7 +87,7 @@
                 <li class=" bg-white rounded-lg shadow "> {{-- tercera --}}
                     <article>
                         <figure>
-                            <img class=" w-full object-cover "src="img/FOTOS SVG/s-2.svg" alt="">
+                            <img class=" w-full object-cover "src="img/s-2.jpg" alt="">
                         </figure>
                         <div class="py-4 px-4">
                             <h2 class="text-lg font-black">
@@ -111,7 +111,7 @@
                 <li class=" bg-white rounded-lg shadow "> {{-- cuarta --}}
                     <article>
                         <figure>
-                            <img class=" w-full object-cover "src="img/FOTOS SVG/politica-1.svg" alt="">
+                            <img class=" w-full object-cover "src="img/politica-1.jpg" alt="">
                         </figure>
                         <div class="py-4 px-4">
                             <h2 class="text-lg font-black">
@@ -139,7 +139,7 @@
                 <li class=" bg-white rounded-lg shadow "> {{-- quinta --}}
                     <article>
                         <figure>
-                            <img class=" w-full object-cover "src="img/FOTOS SVG/policiales-1.svg" alt="">
+                            <img class=" w-full object-cover "src="img/policiales-1.jpg" alt="">
                         </figure>
                         <div class="py-4 px-4">
                             <h2 class="text-lg font-black">
@@ -197,7 +197,7 @@
                                     <figure>
                                         <a href="">
                                             <img class="h-48 w-full object-cover object-center"
-                                                src="img/FOTOS SVG/d-1.svg" alt="">
+                                                src="img/d-1.jpg" alt="">
                                         </a>
                                     </figure>
                                     <div class=" py-4 px-6">
@@ -228,7 +228,7 @@
                                     <figure>
                                         <a href="">
                                             <img class="h-48 w-full object-cover object-center"
-                                                src="img/FOTOS-SVG/ddhh-2.svg" alt="">
+                                                src="img/ddhh-2.jpg" alt="">
                                         </a>
                                     </figure>
                                     <div class=" py-4 px-6">
