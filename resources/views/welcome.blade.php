@@ -31,7 +31,8 @@
                 <li class=" bg-white rounded-lg shadow "> {{-- primera --}}
                     <article>
                         <figure>
-                            <img class=" w-full object-cover" src="img/83.png" alt="">
+                            <img class=" w-full object-cover" src="img/tapa1.jpeg
+                            " alt="">
                         </figure>
                         <div class="py-4 px-4">
                             <h2 class="text-lg font-black">
