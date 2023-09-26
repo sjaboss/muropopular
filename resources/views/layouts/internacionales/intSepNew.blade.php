@@ -211,6 +211,185 @@
                 </div>
 
             </section>
+        @elseif ($tituloSep == 'Internacionales-Noticia-Completa-int2')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+
+                        <ul>
+
+
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">PAÍSES DE TODA LA REGIÓN FIRMARON UNA DECLARACIÓN PARA
+                                                FORTALECER LA PAZ Y LA COOPERACIÓN</a>
+                                        </h2>
+                                        <p><i>Representantes de alto nivel de la región firmaron hoy la Declaración de
+                                                Buenos Aires, “El deber de hacer la paz”.</i></p>
+                                        <br>
+                                        <figure>
+                                            <img class="h-80 w-full object-cover" src="../img/int/int-paz2.svg"
+                                                alt="">
+
+                                        </figure>
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+
+
+
+                                                <p>Representantes de alto nivel de la región firmaron la Declaración de
+                                                    Buenos Aires,<u>“El deber de hacer la paz”</u>, como resultado de la
+                                                    II
+                                                    Conferencia de América Latina y del Caribe sobre Operaciones de Paz
+                                                    de la Organización de las Naciones Unidas (ALCONU), realizada en
+                                                    esta ciudad. Durante el plenario al que asistieron autoridades de 24
+                                                    países, también se aprobó el Estatuto Constitutivo que pone en
+                                                    funcionamiento la “Red Latinoamericana y del Caribe para la
+                                                    Cooperación del mantenimiento de la Paz” (RELACOPAZ), con el
+                                                    objetivo de consolidar la articulación de las políticas de las
+                                                    naciones participantes frente a las misiones internacionales
+                                                    dispuesta bajo mandato de la ONU. </p>
+                                                <br>
+
+
+                                                <p>Esta conferencia, que fue inaugurada con las palabras del presidente
+                                                    Alberto Fernández, el ministro Jorge Taiana, el canciller Santiago
+                                                    Cafiero y el secretario adjunto de la ONU Jean-Pierre Lacroix,
+                                                    estuvo organizada en cuatro módulos cuyos ejes temáticos se
+                                                    refirieron a: "Mecanismos regionales y subregionales, desafíos y
+                                                    oportunidades de cooperación para la paz"; "Participación de América
+                                                    Latina y el Caribe en las Operaciones de Mantenimiento de la Paz";
+                                                    "Formación y Tecnología en Operaciones de Mantenimiento de la Paz",
+                                                    y "Mujeres, Paz y Seguridad, las perspectivas de género en las
+                                                    Operaciones de Mantenimiento de la Paz de la ONU".
+                                                </p>
+
+
+                                                <p>Participaron los ministros de Defensa o equivalentes de Bahamas,
+                                                    Costa Rica, Haití, Paraguay, Uruguay; y autoridades de las áreas de
+                                                    Defensa y de las Fuerzas Armadas, de Brasil, Perú, Antigua y
+                                                    Barbuda, Barbados, Belize, Bolivia, Colombia, República Dominicana,
+                                                    Ecuador, Guatemala, Guyana y México. Asimismo, presenciaron en
+                                                    carácter de observadores representantes de España, Canadá, India,
+                                                    China, Eslovenia, Pakistán y Francia.
+                                                </p>
+                                                <br>
+                                                <figure>
+                                                    <img class="w-full object-cover" src="../img/int/int-paz1.svg"
+                                                        alt="">
+
+                                                </figure>
+                                                <br>
+                                                <p>En el panel de cierre, acompañaron al ministro Jorge Taiana, el
+                                                    secretario adjunto de la ONU Jean-Pierre Lacroix; el asesor militar
+                                                    del Departamento de Operaciones de Paz de la ONU, general Birame
+                                                    Diop; el viceministro de Políticas para la Defensa de la República
+                                                    de Perú, Jorge Luis Chaparro Pinto; el ministro de Defensa de
+                                                    Paraguay, Oscar Luis González Cañete, país elegido por los miembros
+                                                    de la conferencia para presidir la III edición que se llevará a cabo
+                                                    en 2025; y el secretario de Asuntos Internacionales para la Defensa,
+                                                    Francisco Cafiero.</p>
+                                                <br>
+                                                <p>El ministro Taiana durante el cierre de la conferencia, afirmó:<b>
+                                                        “En
+                                                        un contexto internacional complejo, marcado por conflictos, es
+                                                        importante ver la manera en que la participación de los países
+                                                        de
+                                                        América Latina y el Caribe en las Operaciones de Mantenimiento
+                                                        de la
+                                                        Paz refleja un lineamiento en común, regional, en virtud de un
+                                                        compromiso para la paz y que fomenta el respeto por los derechos
+                                                        humanos, la inclusión y la solidaridad, vinculado estrechamente
+                                                        al
+                                                        multilateralismo, en el sentido que evidencia la importancia de
+                                                        la
+                                                        cooperación entre Estados para prevenir y eliminar amenazas a la
+                                                        paz”</b>, aseveró el titular de Defensa argentino.
+                                                </p>
+                                                <br>
+                                                <p>Por su parte, el secretario adjunto de la ONU, Lacroix destacó que
+                                                    <b> "el mantenimiento de la paz de la ONU es una de las herramientas
+                                                        multilaterales más importantes de que disponemos para lograr una
+                                                        paz
+                                                        y un desarrollo sostenible. En colaboración con las comunidades
+                                                        locales y otros socios, más de 87.000 efectivos de mantenimiento
+                                                        de
+                                                        la paz protegen a la población civil, promueven soluciones
+                                                        políticas
+                                                        y ayudan a poner fin a los conflictos. En este esfuerzo, las
+                                                        continuas contribuciones y el compromiso de los Estados de
+                                                        América
+                                                        Latina y el Caribe con nuestras operaciones proporcionan un
+                                                        salvavidas de esperanza y ayuda en algunos de los entornos más
+                                                        peligrosos imaginables”</b>.
+                                                </p>
+                                                <br>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+                            </li>
+                        </ul>
+                        <br>
+
+                    </div>
+
+
+                    {{-- columna de la derecha chica --}}
+                    <aside>
+                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                            <div class=" col-span-6">
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/bener-leg2.png') }}" alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}" alt="">
+                                </a>
+
+                                <div id="app">
+
+                                    <div v-for="item in info">
+
+                                        <div class="flex-col pb-3">
+                                            <div
+                                                class="flex-col max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg"
+                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
+                                                        alt="" />
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5
+                                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                                            @{{ item.title }}</h5>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div v-for="va in clima">
+
+                                        <h5
+                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                            @{{ va }}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+
+                </div>
+
+            </section>
         @endif
 
 

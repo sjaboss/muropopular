@@ -246,7 +246,7 @@
                                             <div class="pt-2">
                                                 <h2>
                                                     @php
-                                                        $tituloSep = 'Internacionales-Noticia-Completa-int1#int1';
+                                                        $tituloSep = 'Internacionales-Noticia-Completa-int2#int2';
                                                 
                                                     @endphp
                                                     <a class="text-emerald-700 font-semibold hover:text-emerald-400 hover:underline"
