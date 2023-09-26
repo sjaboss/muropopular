@@ -255,6 +255,8 @@
                                                 </h2>
                                             </div>
 
+                                            
+
                                         
                                         </div>
                                         <p class="font-light  text-right text-gray-500">Publicado: 19/09/2023</p>
