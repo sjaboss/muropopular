@@ -4625,7 +4625,7 @@
                                                 <br>
 
 
-                                              {{--   <div class="text-start object-center">
+                                                {{--   <div class="text-start object-center">
                                                     <figure>
                                                         <img class="w-28 h-28  "
                                                             src="{{ asset('../img/pol/pablo.svg') }}"
@@ -4636,6 +4636,163 @@
 
                                                     </figure>
                                                 </div> --}}
+
+                                </article>
+                            </li>
+                        </ul>
+                    </div>
+
+
+                    {{-- columna de la derecha chica --}}
+                    <aside>
+                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                            <div class=" col-span-6">
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/baner-leg1.png') }}"
+                                        alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/APSE.gif') }}" alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
+                                        alt="">
+                                </a>
+
+
+
+                                <div id="app">
+
+                                    <div v-for="item in info">
+
+                                        <div class="flex-col pb-3">
+                                            <div
+                                                class="flex-col max-w-sm  border  border-gray-700 rounded-lg shadow bg-gray-800">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg"
+                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
+                                                        alt="" />
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5
+                                                            class="mb-2 text-2xl font-bold tracking-tight  text-white">
+                                                            @{{ item.title }}</h5>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div v-for="va in clima">
+
+                                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-white">
+                                            @{{ va }}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+
+                </div>
+
+            </section>
+        @elseif ($tituloSep == 'Politica-Noticia-Completa-pol30')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">ALLÍ DONDE LA “LIBERTAD” ARRASA</a>
+                                        </h2>
+
+                                        <p class="font-light text-gray-500">Por Pablo Arsegot.</p>
+                                        <br>
+                                        <figure>
+                                            <img class="w-full object-cover"
+                                                src="{{ asset('../img/pol/pol_libertad.svg') }}" alt="">
+
+                                        </figure>
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+                                                <p><i>¿Qué derechos voy a perder si no los tengo? ¿Para qué conservar un
+                                                    sistema político cuya acción no ha redundado en satisfacer mis
+                                                    demandas? Ahí es donde la “libertad” avanza.</i>
+                                                </p>
+                                                <br>
+                                                <p>En plena pandemia chequeado.com apuntaba que las plataformas de
+                                                    delivery se habían incrementado un 400 % en el contexto del
+                                                    aislamiento obligatorio. Esto significó el engrosamiento
+                                                    significativo de los trabajadores que usan las aplicaciones para el
+                                                    reparto de comida a domicilio y la consolidación de un colectivo que
+                                                    data de unos seis años afirmándose como un sujeto laboral ya
+                                                    insoslayable. Por entonces se había planteado la necesidad de una
+                                                    legislación tendiente a proteger a este nuevo actor en el escenario
+                                                    del trabajo informal.
+                                                </p>
+                                                <br>
+                                                <p>El artículo de Chequeado finaliza con un “aún no se envió el
+                                                    proyecto” y lo remarca en dos oportunidades. Otro antecedente es la
+                                                    presentación del proyecto por parte de Omar Plaini aprobado por el
+                                                    Senado de la Provincia de Buenos Aires, pero bloqueado en la cámara
+                                                    de Diputados. Dejando de lado los precedentes:<B> ¿De qué manera le ha
+                                                    hablado el sistema político a este sector? ¿Lo ha hecho? ¿O por el
+                                                    contrario dejó un vacío narrativo que ocupó un emergente como la
+                                                    Libertad Avanza?</B> Está claro que ninguna de las dos fuerzas hasta
+                                                    2019 mayoritarias han sido lo suficientemente creativa para
+                                                    interpelar a este colectivo compuesto mayormente por jóvenes menores
+                                                    de 30 años.
+                                                </p>
+                                                <br>
+                                                <p>Sintomáticamente hubo una fuerza política que sintonizó con el ánimo
+                                                    de esos sectores de la economía precarizada que no teniendo derechos
+                                                    laborales, al ver sus ingresos pauperizados por la creciente
+                                                    inflación, puede suponerse que se inclina por un cambio que rechaza
+                                                    al sistema político tradicional al sentir que lo ha dejado a la
+                                                    deriva, al trabajador formal a quien percibe como un privilegiado y
+                                                    a los políticos a los que considera como una casta que vive bien
+                                                    mientras él o ella ve aniquilada toda expectativa de mejorar su
+                                                    vida.</p>
+                                                <br>
+                                                <p>La retórica de la pérdida de derechos laborales es inadecuada porque
+                                                    surge la replica:<b> ¿Qué derechos voy a perder si no los tengo? ¿Para
+                                                    qué conservar un sistema político cuya acción no ha redundado en
+                                                    satisfacer mis demandas?</b> Ahí es donde la “libertad” avanza.</p>
+                                                <br>
+                                                <p>Es gracioso y patológico, de una patología de base sociopática, que
+                                                    Macri afirmé suelto de cuerpo que el populismo es contagioso. El
+                                                    populismo no es una política en sí, es una forma de hacer política.
+                                                    Las respuestas que propone difieren. Pueden ser progresivas o
+                                                    regresivas. A una problemática o demanda social real se le puede
+                                                    oponer diferentes clases de respuestas. Donald Trump es populista
+                                                    como lo fue Hugo Chávez. Lo que difería era la manera en que
+                                                    respondían a las demandas populares. Macri fue populista en 2015 con
+                                                    su estafa electoral, asegurando una continuidad de las políticas
+                                                    populares sin los vicios o defectos de la etapa anterior. Y hoy su
+                                                    candidato bis, Javier Milei, lo es. Solo que las respuestas que
+                                                    propone a problemas reales son las peores posibles.</p>
+                                                <br>
+
+                                                <div class="text-start object-center">
+                                                    <figure>
+                                                        <img class="w-28 h-28  "
+                                                            src="{{ asset('../img/pol/pablo.svg') }}"
+                                                            alt="">
+                                                        <p> <strong>Nota de Pablo Arsegot<strong></p>
+
+                                                        <p><strong><strong></p>
+
+                                                    </figure>
+                                                </div>
 
                                 </article>
                             </li>
@@ -4721,7 +4878,7 @@
                 mounted() {
 
 
-                    axios.get("https://api.dailymotion.com/videos?channel=news&limit=0")
+                    axios.get("https://api.dailymotion.com/videos?channel=news&limit=3")
                         .then(response => {
                             this.info = response.data.list
                         });

@@ -31,6 +31,9 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     {{-- flexSlaider --}}
     <link rel="stylesheet" href="{{ asset('vendor/FlexSlider/flexslider.css') }}">
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.css" rel="stylesheet" />
+
     {{-- vue --}}
     <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.min.js"></script>
 
@@ -83,7 +86,7 @@
 
     @stack('modals')
 
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.js"></>
 
     @livewireScripts
 

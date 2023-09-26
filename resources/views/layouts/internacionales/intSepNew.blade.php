@@ -224,15 +224,15 @@
 
                                     <div class="py-4 px-4 justify-between items-center">
                                         <h2 class="text-xl font-serif  font-bold pb-6">
-                                            <a href="">PAÍSES DE TODA LA REGIÓN FIRMARON UNA DECLARACIÓN PARA
+                                            <a href="../img/int/int-paz2.svg">PAÍSES DE TODA LA REGIÓN FIRMARON UNA DECLARACIÓN PARA
                                                 FORTALECER LA PAZ Y LA COOPERACIÓN</a>
                                         </h2>
                                         <p><i>Representantes de alto nivel de la región firmaron hoy la Declaración de
                                                 Buenos Aires, “El deber de hacer la paz”.</i></p>
                                         <br>
                                         <figure>
-                                            <img class="h-80 w-full object-cover" src="../img/int/int-paz2.svg"
-                                                alt="">
+                                          <a href="../img/int/int-paz2.svg">  <img class="h-80 w-full object-cover" src="../img/int/int-paz2.svg"
+                                                alt=""></a>
 
                                         </figure>
                                         <br>

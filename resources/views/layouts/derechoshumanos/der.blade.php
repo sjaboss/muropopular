@@ -1,6 +1,70 @@
 <x-app-layout>
     <div class="container ">
 
+        
+        {{--      VII ENCUENTRO FEDERAL DE DERECHOS HUMANOS --}}
+        <section>
+            <ul>
+                <li class=" bg-white rounded-lg shadow ">
+                    <article>
+                        <div class="py-4 px-4 justify-between items-center">
+                            <h2 class="text-xl font-serif  font-bold pb-6">
+                                <a href="">VII ENCUENTRO FEDERAL DE DERECHOS HUMANOS
+                                </a>
+
+                            </h2>
+                            <div
+                                class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                    <p><i>Ya está abierta la inscripción al VII Encuentro Federal de
+                                            Derechos Humanos en el Espacio de Memoria Ex ESMA</i></p>
+                                    <p>Podés inscribirte en el siguiente link:<a
+                                            class="text-emerald-700 font-semibold hover:text-emerald-400 hover:underline"
+                                            href="https://forms.gle/ZXQDEKoSFq3NmvDf6"> formulario de
+                                            inscripción</a></p>
+                                    <br>
+                                    <figure>
+                                        <a href="">
+                                            <img class="w-full object-cover object-center"
+                                                src="{{ asset('../img/der/der_encuentro.svg') }}"alt="">
+                                        </a>
+                                    </figure>
+                                    <br>
+                                    <p>La Red Federal por los Derechos Humanos convoca a participar del<b> VII
+                                        Encuentro Federal de Derechos Humanos, que se realizará el sábado 7
+                                        de octubre en el Espacio Memoria y Derechos Humanos Ex ESMA</b>, Av. del
+                                        Libertador 8151, Ciudad Autónoma de Buenos Aires.
+                                    </p>
+                                    <br>
+                                    <p>Durante la jornada, que se extenderá de 9 a 17 h,<b> se debatirá sobre
+                                        la profundización de los derechos humanos en cada rincón del país
+                                        bajo el lema “Sin memoria, verdad y justicia no hay libertad”</b>. </p>
+                                        <br>
+                                    <p>En el encuentro<b> habrá 14 comisiones simultáneas para trabajar y poner
+                                        en común experiencias sobre diferentes temáticas en clave de
+                                        derechos humanos:</b><i> violencia institucional, espacios de memoria, los
+                                        juicios de lesa humanidad, salud mental, diversidades, migración,
+                                        pueblos originarios, comunidades afroargentina y afrodescendientes,
+                                        discapacidad, identidad, trabajo y comunicación.</i> </p>
+                                        <br>
+                                    <p>Además, este año se agregará la comisión “Adultos mayores y derechos”
+                                        y se sumará el eje sobre la educación pública a la comisión sobre
+                                        participación estudiantil. </p>
+                                    <br>
+
+                                </div>
+                            </div>
+
+
+
+                        </div>
+                    </article>
+                </li>
+            </ul>
+        </section>
+        <br><br>
+
         {{--      NEGACIONISMO ¡NUNCA MAS! --}}
         <section>
             <ul>

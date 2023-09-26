@@ -25,109 +25,153 @@
             </div>
         @endif
 
-        {{-- carrucel/slider --}}
-        <div class="your-class">
 
-            <li class=" bg-white rounded-lg shadow ">
 
-                <article>
-                    <figure>
-                        <img class="h-96  w-full object-cover" src="../img/pol/pol_vtp2.svg" alt="">
 
-                    </figure>
-                    <div class="py-4 px-4">
-                        <h2 class="text-lg font-serif">
-                            <a href="">TOLOSA PAZ Y MASSA PRESENTARON EL REGISTRO ÚNICO DE SOLICITANTES DE LOTES</a>
-                        </h2>
-                        <p class="text-gray-700"></p>
-                        <br>
+        <div class="bg-white rounded-lg shadow-lg mb-4">
+            <p></p>
+        </div>
 
-                        <div>
-                            <h2>
-                                {{--      {{$titulo = 'Politica: Noticia Completa'}} --}}
-                                @php
-                                    $tituloSep = 'Politica-Noticia-Completa-pol26#pol26';
-                                    
-                                @endphp
-                                <a class="text-emerald-700 font-semibold hover:text-emerald-400 hover:underline"
-                                    href="{{ route('politicaSep.show', $tituloSep) }}">Ir a la Noticía</a>
 
-                            </h2>
+
+
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div class="grid gap-4">
+                <div id="custom-controls-gallery" class="relative w-full " data-carousel="slide">
+                    <!-- Carousel wrapper -->
+                    <div class="relative h-96 overflow-hidden rounded-lg md:h-96">
+
+                        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                            <article>
+                                <figure>
+                                    @php
+                                        $tituloSep = 'Politica-Noticia-Completa-pol26#pol26';
+                                    @endphp
+                                    <a class="text-emerald-700 font-semibold hover:text-emerald-400 hover:underline"
+                                        href="{{ route('politicaSep.show', $tituloSep) }}">
+                                        <img class="object-cover absolute block w-full  h-48 -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+                                            src="../img/pol/pol_vtp2.svg" alt="">
+                                        <div class="py-2 px-4">
+                                            <h2 class="text-lg font-serif">
+                                                <a href="{{ route('politicaSep.show', $tituloSep) }}"> TOLOSA
+                                                    PAZ Y MASSA PRESENTARON EL REGISTRO ÚNICO DE SOLICITANTES DE LOTES
+                                                </a>
+                                            </h2>
+                                            <p class="font-light mb-10 text-right text-gray-500">Publicado: 18/09/2023
+                                            </p>
+                                        </div>
+                                </figure>
+                            </article>
                         </div>
-                        <p class="font-light  text-right text-gray-500">Publicado: 18/09/2023</p>
+
+                        <!-- Item 2 -->
+                        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                            <article>
+                                <figure>
+                                    @php
+                                        $tituloSep = 'Cultura-Noticia-Completa-cul9#cul9';
+                                    @endphp
+                                    <a class="text-emerald-700 font-semibold hover:text-emerald-400 hover:underline"
+                                        href="{{ route('culturaSep.show', $tituloSep) }}">
+                                        <img class="object-cover absolute block w-full h-48 -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+                                            src="../img/cul/cul_lebon2.svg" alt="">
+                                        <div class="py-2 px-4">
+                                            <h2 class="text-lg font-serif">
+                                                <a href="{{ route('culturaSep.show', $tituloSep) }}">HAY MÚSICA QUE SE
+                                                    HEREDA Y HAY MÚSICA QUE ES HERENCIA</a>
+                                            </h2>
+                                            <p class="font-light mb-10 text-right text-gray-500">Publicado: 18/09/2023
+                                            </p>
+                                        </div>
+                                </figure>
+                            </article>
+                        </div>
+
+                        <!-- Item 3 -->
+
+                        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                            <article>
+                                <figure>
+                                    @php
+                                        $tituloSep = 'Agenda-Feminista-Completa-fem11#fem11';
+                                    @endphp
+                                    <a class="text-emerald-700 font-semibold hover:text-emerald-400 hover:underline"
+                                        href="{{ route('feministaSep.show', $tituloSep) }}">
+                                        <img class="object-cover absolute block w-full h-48 -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+                                            src="../img/fem/fem_expo2.svg" alt="">
+                                        <div class="py-2 px-4">
+                                            <h2 class="text-lg font-serif">
+                                                <a href="{{ route('feministaSep.show', $tituloSep) }}">MÁS DE 1500
+                                                    MUJERES PARTICIPARON DE LA II EXPO CONGRESO "NOSOTRAS
+                                                    PRODUCIMOS"</a>
+                                            </h2>
+                                            <p class="font-light  text-right text-gray-500">Publicado: 18/09/2023</p>
+                                        </div>
+                                </figure>
+                            </article>
+                        </div>
                     </div>
-                </article>
-            </li>
+                </div>
+            </div>
 
-            <li class=" bg-white rounded-lg shadow ">
+            {{-- dos notas con carrusel --}}
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
 
-                <article>
+                <div>
                     <figure>
-                        <img class="h-96 w-full object-cover" src="../img/cul/cul_lebon2.svg" alt="">
-
+                        @php
+                            $tituloSep = 'Derechos-Humanos-Noticia-Completa-der9#der9';
+                        @endphp
+                        <a class="text-emerald-700 font-semibold hover:text-emerald-400 hover:underline"
+                            href="{{ route('derechoSep.show', $tituloSep) }}">
+                            <img class="h-48 w-full object-cover object-center"
+                                src="{{ asset('../img/der/der_encuentro.svg') }}" alt="">
+                        </a>
                     </figure>
-                    <div class="py-4 px-4">
-                        <h2 class="text-lg font-serif">
-                            <a href="">HAY MÚSICA QUE SE HEREDA Y HAY MÚSICA QUE ES HERENCIA</a>
-                        </h2>
-                        <p class="text-gray-700"></p>
-                        
-                        <div>
-                            <h2>
-                                {{--      {{$titulo = 'Politica: Noticia Completa'}} --}}
-                                @php
-                                    $tituloSep = 'Cultura-Noticia-Completa-cul9#cul9';
-                                    
-                                @endphp
-                                <a class="text-emerald-700 font-semibold hover:text-emerald-400 hover:underline"
-                                    href="{{ route('culturaSep.show', $tituloSep) }}">Ir a la Noticía</a>
-
-                            </h2>
-                        </div>
-                        <p class="font-light  text-right text-gray-500">Publicado: 18/09/2023</p>
-                      </div>
-                        
-                    
-                </article>
-            </li>
-
-            <li class=" bg-white rounded-lg shadow ">
-
-                <article>
-                    <figure>
-                        <img class="h-96 w-full object-cover" src="../img/fem/fem_expo2.svg" alt="">
-
-                    </figure>
-                    <div class="py-4 px-4">
-                        <h2 class="text-lg font-serif">
-                            <a href="">MÁS DE 1500 MUJERES PARTICIPARON DE LA II EXPO CONGRESO "NOSOTRAS PRODUCIMOS" 
+                    <div class=" py-4 px-6">
+                        <h1 class="text-lg font-serif ">
+                            <a href="{{ route('sociedadSep.show', $tituloSep) }}">
+                                VII ENCUENTRO FEDERAL DE DERECHOS HUMANOS
                             </a>
-                        </h2>
-                        <p class="text-gray-700"></p>
-                        
-                        <div>
-                            <h2>
-                                {{--      {{$titulo = 'Politica: Noticia Completa'}} --}}
-                                @php
-                                    $tituloSep = 'Agenda-Feminista-Completa-fem11#fem11';
-                                    
-                                @endphp
-                                <a class="text-emerald-700 font-semibold hover:text-emerald-400 hover:underline"
-                                    href="{{ route('feministaSep.show', $tituloSep) }}">Ir a la Noticía</a>
-
-                            </h2>
+                        </h1>
+                        <p class="font-light  text-gray-500"></p>
+                        <div class="pt-4">
+                            <p class="font-light  text-right text-gray-500">Publicado: 26/09/2023</p>
                         </div>
-                        <p class="font-light  text-right text-gray-500">Publicado: 18/09/2023</p>
-                      </div>
-                        
-                    
-                </article>
-            </li>    
 
+                    </div>
+                </div>
+
+                <div>
+                    <figure>
+                        @php
+                            $tituloSep = 'Politica-Noticia-Completa-pol30#pol30';
+                        @endphp
+                        <a class="text-emerald-700 font-semibold hover:text-emerald-400 hover:underline"
+                            href="{{ route('politicaSep.show', $tituloSep) }}">
+                            <img class="h-48 w-full object-cover object-center"
+                                src="{{ asset('../img/pol/pol_libertad.svg') }}" alt="">
+                        </a>
+                    </figure>
+                    <div class=" py-4 px-6">
+                        <h1 class="text-lg font-serif ">
+                            <a href="{{ route('politicaSep.show', $tituloSep) }}">
+                                ALLÍ DONDE LA “LIBERTAD” ARRASA
+                            </a>
+                            <p class="font-light text-gray-500">Por Pablo Arsegot.</p>
+                        </h1>
+                        <p class="font-light  text-gray-500"></p>
+                        <div class="pt-4">
+                            <p class="font-light  text-right text-gray-500">Publicado: 26/09/2023</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
 
         </div>
 
-       
 
         {{-- cuerpo --}}
         <div>
@@ -156,7 +200,7 @@
                                         <figure>
                                             <a href="">
 
-                                                <img class=" h-48 w-full object-cover" src="../img/pol/pol_caso.svg">
+                                                <img class=" h-48 w-full object-cover" src="../img/pol/pol_caso1.svg">
                                             </a>
                                         </figure>
                                         <div class=" py-4 px-6">
@@ -198,7 +242,8 @@
                                                 <a href="">
                                                     <a href="">LA DESMEMORIA</a>
                                                 </a>
-                                                <p class="font-light text-gray-500">Por Oscár Chino Martínez Zemborain.</p>
+                                                <p class="font-light text-gray-500">Por Oscár Chino Martínez Zemborain.
+                                                </p>
                                             </h1>
 
                                             <p class="font-light text-gray-500"></p>
@@ -236,18 +281,19 @@
                                         <div class=" py-4 px-6">
                                             <h1 class="text-lg font-serif ">
                                                 <a href="">
-                                                    PAÍSES DE TODA LA REGIÓN FIRMARON UNA DECLARACIÓN PARA FORTALECER LA PAZ Y LA COOPERACIÓN
+                                                    PAÍSES DE TODA LA REGIÓN FIRMARON UNA DECLARACIÓN PARA FORTALECER LA
+                                                    PAZ Y LA COOPERACIÓN
                                                 </a>
                                             </h1>
                                             <p class="font-light  text-gray-500">
                                             </p>
                                             {{--    <p class="font-light text-gray-500"> Por: Eduardo García</p> --}}
-                                           
+
                                             <div class="pt-2">
                                                 <h2>
                                                     @php
                                                         $tituloSep = 'Internacionales-Noticia-Completa-int2#int2';
-                                                
+                                                        
                                                     @endphp
                                                     <a class="text-emerald-700 font-semibold hover:text-emerald-400 hover:underline"
                                                         href="{{ route('interSepNew.show', $tituloSep) }}">Ir a la
@@ -255,9 +301,9 @@
                                                 </h2>
                                             </div>
 
-                                            
 
-                                        
+
+
                                         </div>
                                         <p class="font-light  text-right text-gray-500">Publicado: 19/09/2023</p>
                                     </article>
@@ -306,7 +352,8 @@
                                         <div class=" py-4 px-6">
                                             <h1 class="text-lg font-serif ">
                                                 <a href="">
-                                                    LÍNEA 144: EN 10 AÑOS SE RECIBIERON MÁS DE 900 MIL COMUNICACIONES POR VIOLENCIA DE GÉNERO
+                                                    LÍNEA 144: EN 10 AÑOS SE RECIBIERON MÁS DE 900 MIL COMUNICACIONES
+                                                    POR VIOLENCIA DE GÉNERO
 
                                                 </a>
                                             </h1>
@@ -378,7 +425,7 @@
                                         <div class=" py-4 px-6">
                                             <h1 class="text-lg font-serif ">
                                                 <a href="">
-                                                    FESTIVAL FACAFF 
+                                                    FESTIVAL FACAFF
                                                 </a>
                                             </h1>
 
@@ -448,7 +495,8 @@
                                                 <figure>
                                                     <a href="">
                                                         <img class="h-80 w-full"
-                                                            src="{{ asset('../img/publi/Recurso 1.png') }}" alt="">
+                                                            src="{{ asset('../img/publi/Recurso 1.png') }}"
+                                                            alt="">
                                                     </a>
                                                 </figure>
 
@@ -490,29 +538,29 @@
                                         <figure>
                                             <a href="">
                                                 <img class="h-48 w-full object-cover object-center"
-                                                    src="{{ asset('../img/fem/fem_estela1.svg') }}" alt="">
+                                                    src="{{ asset('../img/leg/leg_tango.svg') }}" alt="">
                                             </a>
                                         </figure>
                                         <div class=" py-4 px-6">
                                             <h1 class="text-lg font-serif ">
                                                 <a href="">
-                                                    III CONGRESO ESTADO PRESENTE
+                                                    ES DE INTERÉS EL COLECTIVO “TANGO POR LA IDENTIDAD”
                                                 </a>
                                             </h1>
 
                                             <div class="pt-4">
                                                 <h2>
                                                     @php
-                                                        $tituloSep = 'Agenda-Feminista-Completa-fem10#fem10';
+                                                        $tituloSep = 'Legislatura-Noticia-Completa-leg13#leg13';
                                                     @endphp
                                                     <a class="text-emerald-700 font-semibold hover:text-emerald-400 hover:underline"
-                                                        href="{{ route('feministaSep.show', $tituloSep) }}">Ir a la
+                                                        href="{{ route('legislaturaSep.show', $tituloSep) }}">Ir a la
                                                         Noticía</a>
                                                 </h2>
                                             </div>
 
                                         </div>
-                                        <p class="font-light  text-right text-gray-500">Publicado: 05/09/2023</p>
+                                        <p class="font-light  text-right text-gray-500">Publicado: 26/09/2023</p>
                                     </article>
                                 </li>
 
@@ -590,7 +638,8 @@
                                         <div class=" py-4 px-6">
                                             <h1 class="text-lg font-serif ">
                                                 <a href="">
-                                                    SE VIENE LA 44° EXPOSICIÓN NACIONAL ANGUS DE PRIMAVERA CON LA FUERZA DE EXPOAGRO 
+                                                    SE VIENE LA 44° EXPOSICIÓN NACIONAL ANGUS DE PRIMAVERA CON LA FUERZA
+                                                    DE EXPOAGRO
                                                 </a>
                                             </h1>
                                             <p class="font-light  text-gray-500"></p>
@@ -619,8 +668,7 @@
                             <div class=" mt-4 col-span-6">
 
                                 <a href="" class="object-cover object-center h-35  " width="200">
-                                    <img class="pb-3" src="{{ asset('img/publi/Recurso 1.png') }}"
-                                        alt="">
+                                    <img class="pb-3" src="{{ asset('img/publi/Recurso 1.png') }}" alt="">
                                 </a>
 
                                 <a href="" class="object-cover object-center " width="200">
@@ -729,7 +777,7 @@
             </div>
         </div>
 
- {{-- gif --}}
+        {{-- gif --}}
         <div class="bg-white rounded-lg shadow-lg mb-4">
 
             <figure>

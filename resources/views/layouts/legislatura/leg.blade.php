@@ -1,5 +1,93 @@
 <x-app-layout>
     <div class="container ">
+
+          {{-- ES DE INTERÉS EL COLECTIVO “TANGO POR LA IDENTIDAD” --}}
+    <section >
+        <ul>
+            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                <article>
+
+                    <div class="py-4 px-4 justify-between items-center">
+                        <h2 class="text-xl font-serif  font-bold pb-6">
+                            <a href="">ES DE INTERÉS EL COLECTIVO “TANGO POR LA IDENTIDAD”</a>
+                        </h2>
+                        <p><i>El Cuerpo Legislativo destacó las actividades desarrolladas por la
+                                agrupación, a través de un proyecto presentado por el diputado, Juan
+                                Pablo O’Dezaille.</i></p>
+                        <br>
+                        <figure>
+                            <a href="">
+                                <img class="w-full object-cover object-center"
+                                    src="{{ asset('../img/leg/leg_tango.svg') }}" alt="">
+                            </a>
+                        </figure>
+                        <br>
+                        <div
+                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                            <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                <p>Los legisladores de la Ciudad declararon de Interés Cultural y para
+                                    los Derechos Humanos a las actividades desarrolladas por el
+                                    colectivo “Tango por la Identidad”. El acto, que se llevó a cabo en
+                                    el Salón Dorado, contó con la presencia del diputado y autor del
+                                    proyecto, Juan Pablo O’Dezaille; la legisladora, Victoria
+                                    Montenegro; el Gestor Cultural y Artístico de Tango por la
+                                    Identidad, Jorge Firpo; el integrante de la Comisión de Trabajo por
+                                    nuestra Identidad, Silvina Atencio; y la poeta y escritora, Marta
+                                    Pizzo.
+                                </p>
+                                <br>
+                                <p>Luego de dar la bienvenida, O’Dezaille destacó: “El tango es parte de
+                                    nuestra identidad, de los argentinos, de los porteños, y de la
+                                    Argentina en el mundo”. Y sumó: “Que haya Tango por la Identidad es
+                                    el otro gran logro y puestos en perspectiva de esperanza, de vida,
+                                    de memoria, verdad y justicia”.</b>
+
+                                </p>
+                                <br>
+                                <p>Finalmente, Firpo remarcó que Tango por la Identidad nació de la
+                                    fuerte convicción de que “el tango es un instrumento muy valioso”
+                                    para la transformación social, política y personal. También que en
+                                    todos sus lenguajes deben comprometerse y trabajar con el objetivo
+                                    principal de las Abuelas de Plaza de Mayo. Y concluyó: “Somos
+                                    activistas culturales y también militantes por los derechos
+                                    humanos”.</p>
+                                <br>
+                                <p>Tango por la Identidad es una iniciativa sociocultural de músicos,
+                                    cantantes, bailarines, compositores, coreógrafos, técnicos y
+                                    productores que se inscribe dentro del marco del género tanguero.
+                                    Como expresión viva del arte urbano de esta ciudad, y que tiene como
+                                    objetivo concientizar sobre la importancia de la identidad y el
+                                    derecho a conocerla.
+
+                                </p>
+                                <br>
+                                <p>En este sentido, el colectivo nace por la profunda necesidad de
+                                    articular legítimos mecanismos de defensa contra la brutalidad y el
+                                    horror que significan el delito de apropiación de bebés y niños. Y
+                                    la sustitución de sus identidades de un modo organizado y
+                                    sistemático, por parte de la última dictadura cívico-militar
+                                    argentina.</p>
+                                <br>
+                                <p>El proyecto fue creado por artistas, con el fin de apoyar la labor de
+                                    la organización Abuelas de Plaza de Mayo. Quienes desde hace más de
+                                    tres décadas siguen el rastro de cuatrocientos jóvenes que aún
+                                    tienen su identidad cambiada, recuperando hasta hoy a 132 nietos y
+                                    quienes restauraron su verdadera identidad.</p>
+                                <br>
+
+
+                            </div>
+
+
+
+                        </div>
+                    </div>
+                </article>
+            </li>
+        </ul>
+    </section>
+        <br><br>
  
     {{-- El documental “Ojos --}}
     <section >

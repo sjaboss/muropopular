@@ -1691,18 +1691,23 @@
 
                                                 <p>El Cuerpo Legislativo de la Ciudad <u>declaró de Interés para
                                                         la Cultura al documental “Ojos que no ven… Movimiento
-                                                        Espartaco”</u>, de la cineasta Ana Caride Burgos, y que a su vez es
-                                                        una coproducción entre la Universidad Tres de Febrero UNTREF
-                                                        MEDIA y el Colectivo Espartacas.
-                                                    </p>
+                                                        Espartaco”</u>, de la cineasta Ana Caride Burgos, y que a su vez
+                                                    es
+                                                    una coproducción entre la Universidad Tres de Febrero UNTREF
+                                                    MEDIA y el Colectivo Espartacas.
+                                                </p>
                                                 <br>
 
 
-                                                <p>El acto se llevó a cabo en el Salón Dorado y<b> contó con la presencia
-                                                    del autor del proyecto y diputado Juan Pablo O’Dezaille; la autora
-                                                    del film; el Director de la Escuela Superior de Educación Artística
-                                                    de Bellas Artes Manuel Belgrano, Gerardo Cianciolo; y la familiar y
-                                                    participante, Beatriz Mollari.</b>
+                                                <p>El acto se llevó a cabo en el Salón Dorado y<b> contó con la
+                                                        presencia
+                                                        del autor del proyecto y diputado Juan Pablo O’Dezaille; la
+                                                        autora
+                                                        del film; el Director de la Escuela Superior de Educación
+                                                        Artística
+                                                        de Bellas Artes Manuel Belgrano, Gerardo Cianciolo; y la
+                                                        familiar y
+                                                        participante, Beatriz Mollari.</b>
 
                                                 </p>
                                                 <br>
@@ -1719,8 +1724,9 @@
                                                 <br>
 
                                                 <p>Finalmente Caride Burgos <u>remarcó el trabajo en equipo para llevar
-                                                    adelante el documental y las dificultades que sobrepasaron para
-                                                    llevarla a cabo</u>. También informó que la película llevó cinco años de
+                                                        adelante el documental y las dificultades que sobrepasaron para
+                                                        llevarla a cabo</u>. También informó que la película llevó cinco
+                                                    años de
                                                     realización y “de rescate de memoria”. Y agradeció a O’Dezaille por
                                                     acompañar el proyecto.
                                                     El documental narra la historia de Malena, que inicia una búsqueda a
@@ -1741,6 +1747,151 @@
                                                     contexto político y social en el que tuvo lugar y lo que esto
                                                     significo para el grupo y sus familiares.
                                                 </p>
+                                                <br>
+
+
+                                            </div>
+
+
+
+                                        </div>
+                                    </div>
+                                </article>
+                            </li>
+                        </ul>
+                        <br>
+
+                    </div>
+
+
+                    {{-- columna de la derecha chica --}}
+                    <aside>
+                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                            <div class=" col-span-6">
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/bener-leg2.png') }}"
+                                        alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
+                                        alt="">
+                                </a>
+
+                                <div id="app">
+
+                                    <div v-for="item in info">
+
+                                        <div class="flex-col pb-3">
+                                            <div
+                                                class="flex-col max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg"
+                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
+                                                        alt="" />
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5
+                                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                                            @{{ item.title }}</h5>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div v-for="va in clima">
+
+                                        <h5
+                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                            @{{ va }}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+
+                </div>
+
+            </section>
+        @elseif ($tituloSep == 'Legislatura-Noticia-Completa-leg13')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">ES DE INTERÉS EL COLECTIVO “TANGO POR LA IDENTIDAD”</a>
+                                        </h2>
+                                        <p><i>El Cuerpo Legislativo destacó las actividades desarrolladas por la
+                                                agrupación, a través de un proyecto presentado por el diputado, Juan
+                                                Pablo O’Dezaille.</i></p>
+                                        <br>
+                                        <figure>
+                                            <a href="">
+                                                <img class="w-full object-cover object-center"
+                                                    src="{{ asset('../img/leg/leg_tango.svg') }}" alt="">
+                                            </a>
+                                        </figure>
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                                <p>Los legisladores de la Ciudad declararon de Interés Cultural y para
+                                                    los Derechos Humanos a las actividades desarrolladas por el
+                                                    colectivo “Tango por la Identidad”. El acto, que se llevó a cabo en
+                                                    el Salón Dorado, contó con la presencia del diputado y autor del
+                                                    proyecto, Juan Pablo O’Dezaille; la legisladora, Victoria
+                                                    Montenegro; el Gestor Cultural y Artístico de Tango por la
+                                                    Identidad, Jorge Firpo; el integrante de la Comisión de Trabajo por
+                                                    nuestra Identidad, Silvina Atencio; y la poeta y escritora, Marta
+                                                    Pizzo.
+                                                </p>
+                                                <br>
+                                                <p>Luego de dar la bienvenida, O’Dezaille destacó: “El tango es parte de
+                                                    nuestra identidad, de los argentinos, de los porteños, y de la
+                                                    Argentina en el mundo”. Y sumó: “Que haya Tango por la Identidad es
+                                                    el otro gran logro y puestos en perspectiva de esperanza, de vida,
+                                                    de memoria, verdad y justicia”.</b>
+
+                                                </p>
+                                                <br>
+                                                <p>Finalmente, Firpo remarcó que Tango por la Identidad nació de la
+                                                    fuerte convicción de que “el tango es un instrumento muy valioso”
+                                                    para la transformación social, política y personal. También que en
+                                                    todos sus lenguajes deben comprometerse y trabajar con el objetivo
+                                                    principal de las Abuelas de Plaza de Mayo. Y concluyó: “Somos
+                                                    activistas culturales y también militantes por los derechos
+                                                    humanos”.</p>
+                                                <br>
+                                                <p>Tango por la Identidad es una iniciativa sociocultural de músicos,
+                                                    cantantes, bailarines, compositores, coreógrafos, técnicos y
+                                                    productores que se inscribe dentro del marco del género tanguero.
+                                                    Como expresión viva del arte urbano de esta ciudad, y que tiene como
+                                                    objetivo concientizar sobre la importancia de la identidad y el
+                                                    derecho a conocerla.
+
+                                                </p>
+                                                <br>
+                                                <p>En este sentido, el colectivo nace por la profunda necesidad de
+                                                    articular legítimos mecanismos de defensa contra la brutalidad y el
+                                                    horror que significan el delito de apropiación de bebés y niños. Y
+                                                    la sustitución de sus identidades de un modo organizado y
+                                                    sistemático, por parte de la última dictadura cívico-militar
+                                                    argentina.</p>
+                                                <br>
+                                                <p>El proyecto fue creado por artistas, con el fin de apoyar la labor de
+                                                    la organización Abuelas de Plaza de Mayo. Quienes desde hace más de
+                                                    tres décadas siguen el rastro de cuatrocientos jóvenes que aún
+                                                    tienen su identidad cambiada, recuperando hasta hoy a 132 nietos y
+                                                    quienes restauraron su verdadera identidad.</p>
                                                 <br>
 
 
