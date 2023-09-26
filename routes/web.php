@@ -18,6 +18,7 @@ use App\Http\Controllers\DeportesSepController;
 use App\Http\Controllers\derechosHumanosSepController;
 use App\Http\Controllers\FeministaSepController;
 use App\Http\Controllers\GremialesSepController;
+use App\Http\Controllers\InternacinalesNewController;
 use App\Http\Controllers\LegislaturaController;
 use App\Http\Controllers\legislaturaSepController;
 use App\Http\Controllers\NosotrosController;
@@ -56,6 +57,7 @@ Route::get('culturaSep/{tituloSep}',[CulturaSepController::class,'show'])->name(
 
 Route::get('internacionales/{inter}',[InternacionalesController::class,'show'])->name('inter.show');
 Route::get('internacionalesSep/{tituloSep}',[InternacionalesSepController::class,'show'])->name('interSep.show');
+Route::get('internacionalesSepNew/{tituloSep}',[InternacinalesNewController::class,'show'])->name('interSepNew.show');
 
 Route::get('derechoshumanos/{der}',[DHumanosController::class,'show'])->name('derechos.show');
 Route::get('derechoshumanossep/{tituloSep}',[derechosHumanosSepController::class,'show'])->name('derechoSep.show');

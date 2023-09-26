@@ -250,7 +250,7 @@
                                                 
                                                     @endphp
                                                     <a class="text-emerald-700 font-semibold hover:text-emerald-400 hover:underline"
-                                                        href="{{ route('interSep.show', $tituloSep) }}">Ir a la
+                                                        href="{{ route('interSepNew.show', $tituloSep) }}">Ir a la
                                                         Noticía</a>
                                                 </h2>
                                             </div>
