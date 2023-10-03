@@ -196,15 +196,16 @@
                                         <figure>
                                             <a href="">
 
-                                                <img class=" h-48 w-full object-cover" src="../img/pol/pol_caso1.svg">
+                                                <img class=" h-56  w-full object-cover" src="../img/der/der_veloz.svg">
                                             </a>
                                         </figure>
                                         <div class=" py-4 px-6">
                                             <h1 class="text-lg font-serif ">
                                                 <a href="">
-                                                    <a href="">CASO TESTIGO A LA UNDÉCIMA POTENCIA</a>
+                                                    <a href="">COMPLICIDADES EMPRESARIALES DURANTE LA DICTADURA CÍVICO MILITAR ECLESIAL</a>
                                                 </a>
-                                                <p class="font-light text-gray-500">Por Pablo Arsegot.</p>
+                                                <p class="font-light text-gray-500">Por Adriana Zerdín.</p>
+                                                <p class="font-light text-gray-500">Foto: La Tinta</p>
                                             </h1>
 
                                             <p class="font-light text-gray-500"></p>
@@ -213,15 +214,15 @@
                                             <div class="pt-2">
                                                 <h2>
                                                     @php
-                                                        $tituloSep = 'Politica-Noticia-Completa-pol28#pol28';
+                                                        $tituloSep = 'Derechos-Humanos-Noticia-Completa-der10#der10';
                                                     @endphp
                                                     <a class="text-emerald-700 font-semibold hover:text-emerald-400 hover:underline"
-                                                        href="{{ route('politicaSep.show', $tituloSep) }}">Ir a la
+                                                        href="{{ route('derechoSep.show', $tituloSep) }}">Ir a la
                                                         Noticía</a>
                                                 </h2>
                                             </div>
                                         </div>
-                                        <p class="font-light  text-right text-gray-500">Publicado: 18/09/2023</p>
+                                        <p class="font-light  text-right text-gray-500">Publicado: 03/10/2023</p>
                                     </article>
                                 </li>
 
@@ -230,7 +231,7 @@
                                         <figure>
                                             <a href="">
 
-                                                <img class=" h-48 w-full object-cover" src="../img/pol/pol_desme.svg">
+                                                <img class=" h-56 w-full object-cover" src="../img/pol/pol_desme.svg">
                                             </a>
                                         </figure>
                                         <div class=" py-4 px-6">

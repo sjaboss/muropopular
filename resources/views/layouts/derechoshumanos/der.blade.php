@@ -1,6 +1,68 @@
 <x-app-layout>
     <div class="container ">
 
+         {{--      COMPLICIDADES EMPRESARIALES DURANTE LA DICTADURA CÍVICO MILITAR ECLESIAL --}}
+         <section>
+            <ul>
+                <li class=" bg-white rounded-lg shadow ">
+                    <article>
+                        <div class="py-4 px-4 justify-between items-center">
+                            <h2 class="text-xl font-serif  font-bold pb-6">
+                                <a href="">COMPLICIDADES EMPRESARIALES DURANTE LA DICTADURA CÍVICO MILITAR ECLESIAL
+                                </a>
+
+                            </h2>
+                            <div
+                                class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                    <p><i>Por segunda vez hoy comienza el segundo juicio a Marcos Jacobo Levin, quien fuera  propietario de la empresa de pasajeros LA VELOZ DEL NORTE,   y principal acusado por los crímenes de lesa humanidad perpetrados contra sus trabajadores.</i></p>
+                                    <br>
+                                    <figure>
+                                        <a href="">
+                                            <img class="w-full object-cover object-center"
+                                                src="{{ asset('../img/der/der_veloz.svg') }}"alt="">
+                                        </a>
+                                    </figure>
+                                    <p class="font-light text-gray-500">Foto: La Tinta</p>
+                                    <br>
+                                    <p>Participaron también de este hecho el Comisario Víctor Hugo Almirón, jefe de la Comisaría 4  de la Ciudad de SALTA, donde funcionó un CCDT -Centro Clandestino de Detención y Tortura- y  el ex jefe de personal, José Antonio Grueso,  quien había confeccionado el listado de los trabajadores que serían secuestrados. Ambos  también  directamente involucrados  por estos delitos.
+                                    </p>
+                                    <br>
+                                    <p>Del 20 al 24 de enero de 1977, 16 trabajadores y una trabajadora de la empresa, fueron detenidos ilegalmente por la policía provincial, por una falsa denuncia de fraude.. </p>
+                                        <br>
+                                    <p>Levin y Almirón están acusados por los secuestros y torturas a 15 trabajadores varones, Miguel Ángel Rodríguez, Ciriaco Nolberto Justiniano, Juan Alberto Alonso, Rubén Héctor Vrh, Manuel Eugenio Modad, Carlos Lídoro Aponte, Jorge Arturo Romero, Aurelio Rada, Oscar Horacio Espeche, Sebastián Lindor Gallará, Carlos Horacio Pereyra, Jorge Francisco Delaloye, Emilio Bórquez, Carlos Eugenio Bais y Norberto Bórquez, y por los mismos delitos en relación a la trabajadora Sonia Rey. </p>
+                                        <br>
+                                    <p>Una vez más Marcos Jacobo Levin, dueño de la más importante empresa de transportes norteña durante los años 70, estará nuevamente en el banquillo de los acusados como responsable de los delitos de lesa cometidos hace 46 años. Fue absuelto en un juicio realizado en 2016. </p>
+                                    <br>
+                                    <p>Este empresario que mantuvo estrechos vínculos con la policía local y que aportó varios de sus vehículos para trasladar a los trabajadores detenidos, enfrentará el segundo juicio en esta oportunidad , por el secuestro y las torturas sufridas por 17 trabajadores de la empresa La Veloz del Norte durante la última dictadura cívico militar eclesial.</p>
+                                    <br>
+                                    <p>Durante el primer juicio en 2016, el fallo que condenó a Levin, Almirón, y otros, fue apelado por la defensa. Un año después la Cámara Nacional de Casación Penal anuló la condena. Esta decisión también fue impugnada por la fiscalía y las querellas, y finalmente el año pasado la Corte Suprema de Justicia de la Nación revocó el fallo de Casación, con lo que la sentencia quedó firme.</p>
+                                    <br>
+                                    <p>Queda claro que los allanamientos y detenciones se hicieron sin orden judicial, lo que demuestra claramente que se trató de hechos cometidos dentro de la estructura criminal montada para la represión estatal ilegal en los años 70. </p>
+                                    <br>
+                                    <p>Una de la tantas complicidades civiles y empresariales durante la Dictadura cívico militar eclesial, evidencia que funcionó aceitadamente como plan sistemático para la imposición de un nuevo orden de disciplinamiento social a través del terror y con el claro objetivo de instalar un proyecto económico de despojo, saqueo y aniquilamiento de nuestra soberanía.</p>
+                                    <br>
+                                    
+                                    <figure>
+                                        <img class="w-28 h-28 ml-10  object-cover"
+                                            src="{{ asset('../img/der/Adri.svg') }}" alt="">
+                                        <p> <strong> Nota por Adriana Zerdín <strong></p></a>
+
+                                    </figure>
+                                
+
+                                </div>
+                            </div>
+
+
+
+                        </div>
+                    </article>
+                </li>
+            </ul>
+        </section>
+        <br><br>
         
         {{--      VII ENCUENTRO FEDERAL DE DERECHOS HUMANOS --}}
         <section>
