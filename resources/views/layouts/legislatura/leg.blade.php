@@ -1,6 +1,95 @@
 <x-app-layout>
     <div class="container ">
 
+         {{-- EL MUSEO ITINERANTE DE BOCA JUNIORS --}}
+    <section >
+        <ul>
+            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                <article>
+
+                    <div class="py-4 px-4 justify-between items-center">
+                        <h2 class="text-xl font-serif  font-bold pb-6">
+                            <a href="">EL MUSEO ITINERANTE DE BOCA JUNIORS FUE DECLARADO DE
+                                INTERÉS LEGISLATIVO</a>
+                        </h2>
+                        <p><i>La iniciativa llamada “PRESENTES. Siempre estuvimos, estamos y estaremos”
+                                obtuvo el reconocimiento del Cuerpo Legislativo, por medio de un
+                                proyecto presentado por la diputada, María Magdalena Tiesso.</i></p>
+                        <br>
+                        <figure>
+                            <a href="">
+                                <img class="w-full object-cover object-center"
+                                    src="{{ asset('../img/leg/leg_museo.svg') }}" alt="">
+                            </a>
+                        </figure>
+                        <br>
+                        <div
+                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                            <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                <p>El Cuerpo Legislativo declaró de Interés Deportivo y Cultural al
+                                    museo itinerante<b> “PRESENTES. Siempre estuvimos, estamos y
+                                    estaremos”</b>, del Departamento de Inclusión e Igualdad del Club
+                                    Atlético Boca Juniors. En el salón Presidente Perón se realizó el
+                                    acto, que contó con la presencia de la diputada y autora del
+                                    proyecto,<b> María Magdalena Tiesso</b>; y la vicepresidenta tercera del
+                                    club y presidenta del Departamento de Inclusión e Igualdad, Adriana
+                                    Bravo.
+                                </p>
+                                <br>
+                                <p>En el comienzo de las alocuciones,<b> Tiesso</b> agradeció la presencia de
+                                    la gente y destacó el “laburo inmenso” realizado por Bravo y el
+                                    Departamento de Inclusión e Igualdad de la institución. También
+                                    resaltó:<b> “Este museo reivindica y visibiliza a las mujeres que
+                                    fueron parte de la historia del club, y en Boca tenemos la historia
+                                    completa”</b>. Y abogó porque este trabajo sea el puntapié inicial para
+                                    que otros clubes reconozcan a las mujeres.
+
+                                </p>
+                                <br>
+                                <p>Por su parte,<b> Bravo</b> remarcó la importancia de saber que las mujeres
+                                    son parte de la historia del club y que dejaron su huella.<b> “Seremos
+                                    más las mujeres que seremos elegidas. Siempre hay que abrir caminos
+                                    y siempre seremos más las mujeres que trabajamos y queremos a
+                                    nuestro club. Ellas van a seguir siendo reconocidas y no vamos a dar
+                                    pasos hacia atrás”</b>, concluyó.</p>
+                                <br>
+                                <p>Esta exposición representa -simbólica y concretamente- una reparación
+                                    histórica para visibilizar a las mujeres que han transitado,
+                                    constituido y construido la memoria y biografía bostera a lo largo
+                                    de los años. Sin dejar de mencionar que esto ha sido en un ámbito de
+                                    profunda negación, invisibilización y banalización de la figura de
+                                    las mujeres.
+
+                                </p>
+                                <br>
+                                <p>De esta manera, el Departamento del club lució un recorrido compuesto
+                                    de fotografías, gigantografías, distintos archivos y documentos
+                                    históricos, trofeos, camisetas, reconocimientos, y representaciones
+                                    escenográficas del trabajo de las mujeres a lo largo de la historia
+                                    del club.</p>
+                                <br>
+                                <p>El museo itinerante es el resultado de un arduo trabajo de
+                                    revisionismo encabezado por Bravo, quien se convirtió en la primera
+                                    mujer en asumir un cargo en la vicepresidencia de Boca, y se propuso
+                                    contactar y atraer a muchas de las protagonistas, volviendo a abrir
+                                    las puertas que les habían sido cerradas años atrás, y dando lugar a
+                                    las que habitan cada día el club: deportistas, trabajadoras y
+                                    socias.</p>
+                                <br>
+
+
+                            </div>
+
+
+
+                        </div>
+                    </div>
+                </article>
+            </li>
+        </ul>
+    </section>
+        <br><br>
           {{-- ES DE INTERÉS EL COLECTIVO “TANGO POR LA IDENTIDAD” --}}
     <section >
         <ul>

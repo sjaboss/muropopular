@@ -1,6 +1,104 @@
 <x-app-layout>
     <div class="container ">
 
+                     {{--EL PEPE RONISMO DIGITAL --}}
+       <section>
+        <ul>
+            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                <article>
+
+                    <div class="py-4 px-4 justify-between items-center">
+                        <h2 class="text-xl font-serif  font-bold pb-6">
+                            <a href="">EL PEPE RONISMO DIGITAL</a>
+                        </h2>
+
+                        <p><i>¿Cómo hacer que un movimiento político de masas que surgió en la
+                            era analógica pueda convertirse en una vanguardia en este
+                            escenario de bombardeo digital donde el medio es el mensaje? Mas
+                            allá de dar respuestas la idea es plantear esta necesidad
+                            insoslayable de percibir que el tiempo está cambiando y junto a
+                            él los lenguajes y el espacio mismo en que se articula el debate
+                            público y la política en general.</i>
+                    </p>
+                        <br>
+                        <figure>
+                            <img class="w-full object-cover"
+                                src="{{ asset('../img/pol/pol_pepe.svg') }}" alt="">
+
+                        </figure>
+                        <br>
+                        <div
+                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                            <div class=" font-sans text-lg text-left col-span-6  ">
+                                
+                                <br>
+                                <p>Escucho a Pedro Rosenmblat en un segmento "Como la ves" del programa de
+                                    <b>Gabriel Sued en Futurock</b> hablar sobre la digitalización del
+                                    peronismo. ¿Cómo sería esto? ¿Cómo hacer que un movimiento político
+                                    de masas que surgió en la era analógica pueda convertirse en una
+                                    vanguardia en este escenario de bombardeo digital donde el medio es
+                                    el mensaje?
+                                </p>
+                                <br>
+                                <p>Mas allá de dar respuestas la idea es plantear esta necesidad
+                                    insoslayable de percibir que el tiempo está cambiando y junto a él
+                                    los lenguajes y el espacio mismo en que se articula el debate
+                                    público y la política en general. Habrá que pensarlo porque la
+                                    política entendida en términos absolutamente prácticos constituye un
+                                    medio para incidir en la organización de la sociedad, configura un
+                                    ordenamiento y una dirección hacia donde van a estar determinadas
+                                    las decisiones de carácter administrativo que afectan las diversas
+                                    esferas de la vida económica, ambiental, cultural, comunicacional,
+                                    social.
+                                </p>
+                                <br>
+                                <p>La política como una herramienta para satisfacer las demandas de los
+                                    diferentes sectores de una sociedad y para articularlos mediante el
+                                    estado cuya intervención limita el carácter desigualador y voraz del
+                                    mercado global. Pero en un tiempo donde lo digital -la velocidad de
+                                    lo digital- esa ruedita que cumple con nuestras expectativas en
+                                    apenas segundos ¿Cómo hace la política y el estado para satisfacer
+                                    las demandas? ¿De qué manera le habla a aquel cuya decisión busca
+                                    captar? ¿Cómo lo interpela?</p>
+                                <br>
+                                <p>Antes que nada la comunicación política, el peronismo digital podría
+                                    fijarse, como dice Mariana Moyano en su podcast Anaconda con
+                                    memoria, en las condiciones de recepción. En semiótica, la ciencia
+                                    que estudia los signos que permiten la comunicación humana, las
+                                    condiciones de recepción son fundamentales: se habla mucho de ellas
+                                    a la hora de imaginar un medio como una publicación gráfica, pero en
+                                    tiempos de lo digital esto se incrementa drásticamente porque el
+                                    medio es el mensaje y lo que se necesita es lograr la atención,
+                                    buscar que nos den bolilla y calcular cuántas horas les restamos a
+                                    otros intereses.
+                                </p>
+                                <br>
+                                <p>Nos guste o no, es una batalla por el tiempo en un nuevo tiempo: el
+                                    tiempo de lo inmediato, de lo digital. Y allí, en este nuevo tiempo,
+                                    las condiciones en que se recepciona el mensaje son sobre las que
+                                    hay que trabajar, no en las de producción. Pensando en las
+                                    condiciones del agua de la pileta en la cual nos tiramos. sean estas
+                                    o no las que consideremos las mas adecuadas, con nuestro estilo de
+                                    nado, que es valedero y tiene sus razones, debemos ejecutar nuestra
+                                    mejor performance.</p>
+                                <br>
+
+                                <div class="text-start object-center">
+                                    <figure>
+                                        <img class="w-28 h-28  "
+                                            src="{{ asset('../img/pol/pablo.svg') }}"
+                                            alt="">
+                                        <p> <strong>Nota de Pablo Arsegot<strong></p>
+
+                                        <p><strong><strong></p>
+
+                                    </figure>
+                                </div>
+
+                </article>
+            </li>
+        </ul>
+        <br><br>
              {{--ALLÍ DONDE LA “LIBERTAD” ARRASA --}}
        <section>
         <ul>

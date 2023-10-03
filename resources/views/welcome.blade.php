@@ -46,20 +46,20 @@
                             <article>
                                 <figure>
                                     @php
-                                        $tituloSep = 'Politica-Noticia-Completa-pol26#pol26';
+                                        $tituloSep = 'Politica-Noticia-Completa-pol31#pol31';
                                     @endphp
                                     <a class="text-emerald-700 font-semibold hover:text-emerald-400 hover:underline"
                                         href="{{ route('politicaSep.show', $tituloSep) }}">
-                                        <img class="object-cover absolute block w-full  h-48 -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-                                            src="../img/pol/pol_vtp2.svg" alt="">
+                                        <img class="object-cover absolute block w-full  h-60 -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+                                            src="../img/pol/pol_pepe.svg" alt="">
                                         <div class="py-2 px-4">
                                             <h2 class="text-lg font-serif">
-                                                <a href="{{ route('politicaSep.show', $tituloSep) }}"> TOLOSA
-                                                    PAZ Y MASSA PRESENTARON EL REGISTRO ÚNICO DE SOLICITANTES DE LOTES
+                                                <a href="{{ route('politicaSep.show', $tituloSep) }}"> EL PEPE RONISMO DIGITAL
                                                 </a>
+                                                <p class="font-light text-gray-500">Por Pablo Arsegot.</p>
                                             </h2>
-                                            <p class="font-light mb-10 text-right text-gray-500">Publicado: 18/09/2023
-                                            </p>
+                                            {{-- <p class="font-light mb-10 text-right text-gray-500">Publicado: 02/10/2023
+                                            </p> --}}
                                         </div>
                                 </figure>
                             </article>
@@ -70,19 +70,18 @@
                             <article>
                                 <figure>
                                     @php
-                                        $tituloSep = 'Cultura-Noticia-Completa-cul9#cul9';
+                                        $tituloSep = 'Legislatura-Noticia-Completa-leg14#leg14';
                                     @endphp
                                     <a class="text-emerald-700 font-semibold hover:text-emerald-400 hover:underline"
-                                        href="{{ route('culturaSep.show', $tituloSep) }}">
-                                        <img class="object-cover absolute block w-full h-48 -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-                                            src="../img/cul/cul_lebon2.svg" alt="">
+                                        href="{{ route('legislaturaSep.show', $tituloSep) }}">
+                                        <img class="object-cover absolute block w-full h-60 -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+                                            src="../img/leg/leg_museo.svg" alt="">
                                         <div class="py-2 px-4">
                                             <h2 class="text-lg font-serif">
-                                                <a href="{{ route('culturaSep.show', $tituloSep) }}">HAY MÚSICA QUE SE
-                                                    HEREDA Y HAY MÚSICA QUE ES HERENCIA</a>
+                                                <a href="{{ route('legislaturaSep.show', $tituloSep) }}">EL MUSEO ITINERANTE DE BOCA JUNIORS FUE DECLARADO DE INTERÉS LEGISLATIVO</a>
                                             </h2>
-                                            <p class="font-light mb-10 text-right text-gray-500">Publicado: 18/09/2023
-                                            </p>
+                                            {{-- <p class="font-light mb-10 text-right text-gray-500">Publicado: 02/10/2023
+                                            </p> --}}
                                         </div>
                                 </figure>
                             </article>
@@ -94,19 +93,17 @@
                             <article>
                                 <figure>
                                     @php
-                                        $tituloSep = 'Agenda-Feminista-Completa-fem11#fem11';
+                                        $tituloSep = 'Internacionales-Noticia-Completa-int3#int3';
                                     @endphp
                                     <a class="text-emerald-700 font-semibold hover:text-emerald-400 hover:underline"
-                                        href="{{ route('feministaSep.show', $tituloSep) }}">
-                                        <img class="object-cover absolute block w-full h-48 -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-                                            src="../img/fem/fem_expo2.svg" alt="">
+                                        href="{{ route('interSepNew.show', $tituloSep) }}">
+                                        <img class="object-cover absolute block w-full h-60 -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+                                            src="../img/int/int_ayotzi.svg" alt="">
                                         <div class="py-2 px-4">
                                             <h2 class="text-lg font-serif">
-                                                <a href="{{ route('feministaSep.show', $tituloSep) }}">MÁS DE 1500
-                                                    MUJERES PARTICIPARON DE LA II EXPO CONGRESO "NOSOTRAS
-                                                    PRODUCIMOS"</a>
+                                                <a href="{{ route('interSepNew.show', $tituloSep) }}">ANIVERSARIO DE LA MASACRE DE LOS 43 DE AYOTZINAPA</a>
                                             </h2>
-                                            <p class="font-light  text-right text-gray-500">Publicado: 18/09/2023</p>
+                                            {{-- <p class="font-light  text-right text-gray-500">Publicado: 02/10/2023</p> --}}
                                         </div>
                                 </figure>
                             </article>
@@ -146,24 +143,23 @@
                 <div>
                     <figure>
                         @php
-                            $tituloSep = 'Politica-Noticia-Completa-pol30#pol30';
+                            $tituloSep = 'Sociedad-Noticia-Completa-soc12#soc12';
                         @endphp
                         <a class="text-emerald-700 font-semibold hover:text-emerald-400 hover:underline"
-                            href="{{ route('politicaSep.show', $tituloSep) }}">
+                            href="{{ route('sociedadSep.show', $tituloSep) }}">
                             <img class="h-48 w-full object-cover object-center"
-                                src="{{ asset('../img/pol/pol_libertad.svg') }}" alt="">
+                                src="{{ asset('../img/soc/soc_carillo.svg') }}" alt="">
                         </a>
                     </figure>
                     <div class=" py-4 px-6">
                         <h1 class="text-lg font-serif ">
-                            <a href="{{ route('politicaSep.show', $tituloSep) }}">
-                                ALLÍ DONDE LA “LIBERTAD” ARRASA
+                            <a href="{{ route('sociedadSep.show', $tituloSep) }}">
+                                CARRILLO: EL FUNDADOR DEL SANITARISMO NACIONAL
                             </a>
-                            <p class="font-light text-gray-500">Por Pablo Arsegot.</p>
                         </h1>
                         <p class="font-light  text-gray-500"></p>
                         <div class="pt-4">
-                            <p class="font-light  text-right text-gray-500">Publicado: 26/09/2023</p>
+                            <p class="font-light  text-right text-gray-500">Publicado: 02/10/2023</p>
                         </div>
 
                     </div>
@@ -179,7 +175,7 @@
                 {{-- Titulo --}}
                 <div class="px-6 py-2 flex justify-between items-center ">
                     <h2 class="text-lg font-serif">
-                        <a href="">ADN POPULAR </a>
+                        <a href="">ADN POPULARES </a>
                     </h2>
                     <div class="grid-cols-2 border border-gray-200 divide-x divide-gray-200 text-gray-500 ">
                     </div>

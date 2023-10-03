@@ -1487,8 +1487,10 @@
                                             class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
                                             <div class=" font-sans text-lg text-left col-span-6  ">
 
-                                                <p>A través de un comunicado de prensa, la<strong> Unión de Comunicadores
-                                                    Audiovisuales y Afines, UCAYA</strong>, señaló “retomamos el compromiso de
+                                                <p>A través de un comunicado de prensa, la<strong> Unión de
+                                                        Comunicadores
+                                                        Audiovisuales y Afines, UCAYA</strong>, señaló “retomamos el
+                                                    compromiso de
                                                     convocarnos en un ámbito donde podamos continuar dialogando sobre la
                                                     situación actual de la comunicación en nuestros barrios, el país y
                                                     la región”.
@@ -1508,7 +1510,7 @@
                                                 </p>
                                                 <br>
                                                 <p>En este sentido remarcaron<strong> “La pluralidad como objetivo y la
-                                                    prioridad de la humanidad del mensaje“</strong>.</p>
+                                                        prioridad de la humanidad del mensaje“</strong>.</p>
                                                 <br>
                                                 <p>El sector de la comunicación es atravesado directamente por las
                                                     tecnologías y el Desarrollo de herramientas digitales que invitan a
@@ -1524,6 +1526,228 @@
                                                     pretenden dar más y mejor volumen, agregando valor a sus propuestas”
                                                     Expresó Guillermo Saucedo.</p>
                                                 <br>
+
+
+
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+                            </li>
+                        </ul>
+                        <br>
+                    </div>
+
+
+                    {{-- columna de la derecha chica --}}
+                    <aside>
+                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                            <div class=" col-span-6">
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/bener-leg2.png') }}"
+                                        alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
+                                        alt="">
+                                </a>
+
+                                <div id="app">
+
+                                    <div v-for="item in info">
+
+                                        <div class="flex-col pb-3">
+                                            <div
+                                                class="flex-col max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg"
+                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
+                                                        alt="" />
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5
+                                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                                            @{{ item.title }}</h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div v-for="va in clima">
+
+                                        <h5
+                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                            @{{ va }}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+                </div>
+            </section>
+        @elseif ($tituloSep == 'Sociedad-Noticia-Completa-soc12')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">CARRILLO: EL FUNDADOR DEL SANITARISMO NACIONAL </a>
+                                        </h2>
+                                        <p>En un contexto en el que un candidato presidencial está amenazando con
+                                            serruchar el servicio público de la salud, Baschetti recupera de su archivo
+                                            personal la historia y militancia del primer ministro de Salud de la
+                                            historia del país, nombrado por Juan Perón. Hoy los trabajadores de la salud
+                                            mantienen intacto su legado.
+                                        </p>
+                                        <br>
+                                        <figure>
+                                            <img class="w-full object-cover" src="../img/soc/soc_carillo.svg"
+                                                alt="">
+                                        </figure>
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                                <p>Por: Roberto Baschetti
+                                                    Sociólogo, historiador, investigador. Autor de más de 50 libros
+                                                    sobre el peronismo revolucionario. Socio fundador de la editorial
+                                                    Jirones de mi vida.
+                                                    Para: kranear.com.ar
+                                                </p>
+                                                <br>
+                                                <p>En estos momentos pre-electorales donde uno de los candidatos –Javier
+                                                    Milei- se propone en caso de triunfar en las elecciones
+                                                    presidenciales arrasar con la salud pública, me parece pertinente
+                                                    recordar a Ramón Carrillo.
+                                                </p>
+                                                <br>
+                                                <p>Fue un hombre de Santiago del Estero, nacido el 7 de marzo de 1906.
+                                                    Obtuvo su título de bachiller en 1923 con medalla de oro. Se recibió
+                                                    de médico en 1928 también con medalla de oro. Premio Nacional de
+                                                    Ciencia en 1937 por sus trabajos de investigación.
+                                                </p>
+                                                <br>
+                                                <p>En octubre de 1945 conoce al por entonces Coronel Perón, internado en
+                                                    el Hospital Militar; él era Jefe del Servicio de Neurología en dicho
+                                                    nosocomio. Un año más tarde el gobierno peronista lo nombra
+                                                    secretario de Salud Pública, y en 1949, reforma constitucional de
+                                                    por medio, se crea el Ministerio de Salud Pública y Carrillo será su
+                                                    primer ministro, llevando adelante un plan de salud que no dejará a
+                                                    ningún argentino sin atención médica.</p>
+                                                <br>
+                                                <p>Basó su labor en tres premisas: 1) Todos los hombres tienen igual
+                                                    derecho a la vida y a la salud. 2) No puede haber política sanitaria
+                                                    sin política social. 3) De nada sirven las conquistas de la técnica
+                                                    médica si éstas no pueden llegar al pueblo a través de los medios
+                                                    adecuados.
+                                                </p>
+                                                <br>
+                                                <p>A su inquietud y determinación se debe la creación de EMESTA, la
+                                                    primera fábrica nacional de medicamentos, que dando el apoyo a los
+                                                    laboratorios argentinos enfrentó a las transnacionales
+                                                    farmacéuticas.</p>
+                                                <br>
+                                                <p><b><i>Carrillo, peronista y primer ministro de Salud de la
+                                                            historia</i></b></p>
+                                                <br>
+                                                <p>Bajo su gestión se construyeron hospitales, sanatorios y policlínicos
+                                                    con los últimos adelantos técnicos y de confortabilidad (aire
+                                                    acondicionado, por ejemplo); centros de salud, hogares para ancianos
+                                                    y niños; puestos sanitarios de frontera.</p>
+                                                <br>
+                                                <p>Fallecida Evita en 1952, su gran compañera de causa y logros en lo
+                                                    social, su estrella comienza a declinar. Por problemas internos
+                                                    (puja con el vicepresidente Teisaire, que luego en los hechos
+                                                    demostró ser un pusilánime) renuncia a su cargo en julio de 1954 y
+                                                    parte hacia Estados Unidos para hacerse tratar una hipertensión
+                                                    arterial con cefaleas agudas que lo invalidaban por ciertos períodos
+                                                    de tiempo en el desempeño de sus actividades.</p>
+                                                <br>
+                                                <p>Estando en el país vecino del norte, lo sorprende el triunfo de la
+                                                    mal llamada “Revolución Libertadora”, que haciendo gala de un
+                                                    revanchismo primitivo lo acusa de enriquecimiento ilícito y le
+                                                    confisca sus contados bienes con que cuenta en nuestra patria. Don
+                                                    Ramón, necesitado de trabajo para poder subsistir, e imposibilitado
+                                                    de volver a su patria, se emplea en Belém do Pará, Brasil, como
+                                                    empleado de una compañía minera donde también ejercerá la medicina
+                                                    rural. Allá sufre un severo accidente cerebro-vascular y fallece el
+                                                    20 de diciembre de 1956 en la miseria.</p>
+                                                <br>
+                                                <p>Sus restos fueron repatriados y enterrados tal como él lo había
+                                                    deseado, en su Santiago del Estero natal, recién en 1972. A cien
+                                                    años de su nacimiento y a cincuenta de su deceso, el presidente
+                                                    Néstor Kirchner en nombre del Gobierno Nacional y como homenaje a su
+                                                    figura y a su obra, declaró al año 2006 como el “Año de Homenaje al
+                                                    Dr. Ramón J. Carrillo”.</p>
+                                                <br>
+                                                <p>Todavía resuenan las palabras premonitorias de este facultativo,
+                                                    brindadas en una conferencia pública en los años ‘50: “Las tareas de
+                                                    los higienistas no rendirán frutos si previamente no se consolidan
+                                                    las leyes obreras destinadas a dignificar la tarea en fábricas y
+                                                    oficinas, a mejorar sueldos y salarios y lograr los beneficios de
+                                                    jubilaciones y pensiones”.</p>
+                                                <br>
+                                                <p>Su vasta obra fue llevada al papel por la Editorial Universitaria de
+                                                    Buenos Aires (EUDEBA) entre 1973 y 1974 gracias a los servicios del
+                                                    Dr. Raúl Sciarreta que compiló todo el material existente en varios
+                                                    tomos, llevando por nombre los dos primeros: Teoría del Hospital y
+                                                    Contribuciones al Conocimiento Sanitario, respectivamente.</p>
+                                                <br>
+                                                <p>Los reconocimientos hacia su persona y su labor, por el Estado, por
+                                                    sus pares y/o intelectuales no ha cesado hasta el día de la fecha.
+                                                    Aquí se mencionan solo algunos ejemplos:</p>
+                                                <br>
+                                                <p>- 1972. Dr. Ramón Carrillo (Síntesis Biográfica). Superior Gobierno
+                                                    de la Provincia de Santiago del Estero. Comisión de Homenaje al Dr.
+                                                    Ramón Carrillo.</p>
+                                                <br>
+                                                <p>- 1988. Ramón Carrillo, el fundador del sanitarismo nacional. R.A.
+                                                    Alzugaray. CEAL/Biblioteca Política Argentina (2 tomos, números 225
+                                                    y 226).</p>
+                                                <br>
+                                                <p>- 1990. Homenaje al Profesor Dr. Ramón Carrillo. Precursor, creador e
+                                                    iniciador del Sanitarismo Latinoamericano. Ministerio de Educación y
+                                                    Justicia de la Nación.</p>
+                                                <br>
+                                                <p>- 2002. Dr. Ramón Carrillo. Primer Ministro de Salud Pública y
+                                                    Asistencia Social de la República Argentina (1946-1954). Jorge
+                                                    Campana. Subsecretaría de Cultura de la Provincia de Santa Fe.</p>
+                                                <br>
+                                                <p>- 2005. El olvidado de Belem. Vida y obra de Ramón Carrillo. Daniel
+                                                    Chiarenza. Adrifer Libros.</p>
+                                                <br>
+                                                <p>- 2005. Ministro Profesor Dr. Ramón Carrillo. Su alejamiento del
+                                                    cargo y exilio. Francisco Karsties. Edición de Autor.</p>
+                                                <br>
+                                                <p>- 2005. Ramón Carrillo. El hombre… el médico… el sanitarista. Arturo
+                                                    Carrillo. Edición del Autor. </p>
+                                                <br>
+                                                <p>- 2006. Dr. Ramón Carrillo. De Santiago del Estero a Belém do Pará.
+                                                    Homenagem. José María Barale. ALUBAR.</p>
+                                                <br>
+                                                <p>- 2006. Ramón Carrillo. Política sanitaria argentina. Textos
+                                                    elegidos. Ministerio de Salud y Ambiente de la Nación / Ministerio
+                                                    de Educación, Ciencia y Tecnología de la Nación. </p>
+                                                <br>
+                                                <p>- 2010. Santiago del Estero – Belém do Pará. Una vida, un destino …
+                                                    Ramón Carrillo. Daniel Alberto Chiarenza. Edición del Autor.</p>
+                                                <br>
+                                                <p><b>Como justo reconocimiento a su titánica labor, este año, 2023,
+                                                        comenzó a circular un billete de curso legal por el valor de
+                                                        2.000 pesos, en el que Carrillo comparte imagen con Cecilia
+                                                        Grierson (1859-1934) la primera doctora en Medicina en la
+                                                        República Argentina.</b></p>
+                                                <br>
+
 
 
 
@@ -1608,7 +1832,7 @@
                 mounted() {
 
 
-                    axios.get("https://api.dailymotion.com/videos?channel=news&limit=3")
+                    axios.get("https://api.dailymotion.com/videos?channel=news&limit=7")
                         .then(response => {
                             this.info = response.data.list
                         });

@@ -4725,8 +4725,8 @@
                                             class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
                                             <div class=" font-sans text-lg text-left col-span-6  ">
                                                 <p><i>¿Qué derechos voy a perder si no los tengo? ¿Para qué conservar un
-                                                    sistema político cuya acción no ha redundado en satisfacer mis
-                                                    demandas? Ahí es donde la “libertad” avanza.</i>
+                                                        sistema político cuya acción no ha redundado en satisfacer mis
+                                                        demandas? Ahí es donde la “libertad” avanza.</i>
                                                 </p>
                                                 <br>
                                                 <p>En plena pandemia chequeado.com apuntaba que las plataformas de
@@ -4744,10 +4744,13 @@
                                                     proyecto” y lo remarca en dos oportunidades. Otro antecedente es la
                                                     presentación del proyecto por parte de Omar Plaini aprobado por el
                                                     Senado de la Provincia de Buenos Aires, pero bloqueado en la cámara
-                                                    de Diputados. Dejando de lado los precedentes:<B> ¿De qué manera le ha
-                                                    hablado el sistema político a este sector? ¿Lo ha hecho? ¿O por el
-                                                    contrario dejó un vacío narrativo que ocupó un emergente como la
-                                                    Libertad Avanza?</B> Está claro que ninguna de las dos fuerzas hasta
+                                                    de Diputados. Dejando de lado los precedentes:<B> ¿De qué manera le
+                                                        ha
+                                                        hablado el sistema político a este sector? ¿Lo ha hecho? ¿O por
+                                                        el
+                                                        contrario dejó un vacío narrativo que ocupó un emergente como la
+                                                        Libertad Avanza?</B> Está claro que ninguna de las dos fuerzas
+                                                    hasta
                                                     2019 mayoritarias han sido lo suficientemente creativa para
                                                     interpelar a este colectivo compuesto mayormente por jóvenes menores
                                                     de 30 años.
@@ -4764,9 +4767,11 @@
                                                     vida.</p>
                                                 <br>
                                                 <p>La retórica de la pérdida de derechos laborales es inadecuada porque
-                                                    surge la replica:<b> ¿Qué derechos voy a perder si no los tengo? ¿Para
-                                                    qué conservar un sistema político cuya acción no ha redundado en
-                                                    satisfacer mis demandas?</b> Ahí es donde la “libertad” avanza.</p>
+                                                    surge la replica:<b> ¿Qué derechos voy a perder si no los tengo?
+                                                        ¿Para
+                                                        qué conservar un sistema político cuya acción no ha redundado en
+                                                        satisfacer mis demandas?</b> Ahí es donde la “libertad” avanza.
+                                                </p>
                                                 <br>
                                                 <p>Es gracioso y patológico, de una patología de base sociopática, que
                                                     Macri afirmé suelto de cuerpo que el populismo es contagioso. El
@@ -4780,6 +4785,165 @@
                                                     populares sin los vicios o defectos de la etapa anterior. Y hoy su
                                                     candidato bis, Javier Milei, lo es. Solo que las respuestas que
                                                     propone a problemas reales son las peores posibles.</p>
+                                                <br>
+
+                                                <div class="text-start object-center">
+                                                    <figure>
+                                                        <img class="w-28 h-28  "
+                                                            src="{{ asset('../img/pol/pablo.svg') }}"
+                                                            alt="">
+                                                        <p> <strong>Nota de Pablo Arsegot<strong></p>
+
+                                                        <p><strong><strong></p>
+
+                                                    </figure>
+                                                </div>
+
+                                </article>
+                            </li>
+                        </ul>
+                    </div>
+
+
+                    {{-- columna de la derecha chica --}}
+                    <aside>
+                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                            <div class=" col-span-6">
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/baner-leg1.png') }}"
+                                        alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/APSE.gif') }}" alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
+                                        alt="">
+                                </a>
+
+
+
+                                <div id="app">
+
+                                    <div v-for="item in info">
+
+                                        <div class="flex-col pb-3">
+                                            <div
+                                                class="flex-col max-w-sm  border  border-gray-700 rounded-lg shadow bg-gray-800">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg"
+                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
+                                                        alt="" />
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5
+                                                            class="mb-2 text-2xl font-bold tracking-tight  text-white">
+                                                            @{{ item.title }}</h5>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div v-for="va in clima">
+
+                                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-white">
+                                            @{{ va }}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+
+                </div>
+
+            </section>
+        @elseif ($tituloSep == 'Politica-Noticia-Completa-pol31')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">EL PEPE RONISMO DIGITAL</a>
+                                        </h2>
+
+                                        <p><i>¿Cómo hacer que un movimiento político de masas que surgió en la
+                                            era analógica pueda convertirse en una vanguardia en este
+                                            escenario de bombardeo digital donde el medio es el mensaje? Mas
+                                            allá de dar respuestas la idea es plantear esta necesidad
+                                            insoslayable de percibir que el tiempo está cambiando y junto a
+                                            él los lenguajes y el espacio mismo en que se articula el debate
+                                            público y la política en general.</i>
+                                    </p>
+                                        <br>
+                                        <figure>
+                                            <img class="w-full object-cover"
+                                                src="{{ asset('../img/pol/pol_pepe.svg') }}" alt="">
+
+                                        </figure>
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+                                                
+                                                <br>
+                                                <p>Escucho a Pedro Rosenmblat en un segmento "Como la ves" del programa de
+                                                    <b>Gabriel Sued en Futurock</b> hablar sobre la digitalización del
+                                                    peronismo. ¿Cómo sería esto? ¿Cómo hacer que un movimiento político
+                                                    de masas que surgió en la era analógica pueda convertirse en una
+                                                    vanguardia en este escenario de bombardeo digital donde el medio es
+                                                    el mensaje?
+                                                </p>
+                                                <br>
+                                                <p>Mas allá de dar respuestas la idea es plantear esta necesidad
+                                                    insoslayable de percibir que el tiempo está cambiando y junto a él
+                                                    los lenguajes y el espacio mismo en que se articula el debate
+                                                    público y la política en general. Habrá que pensarlo porque la
+                                                    política entendida en términos absolutamente prácticos constituye un
+                                                    medio para incidir en la organización de la sociedad, configura un
+                                                    ordenamiento y una dirección hacia donde van a estar determinadas
+                                                    las decisiones de carácter administrativo que afectan las diversas
+                                                    esferas de la vida económica, ambiental, cultural, comunicacional,
+                                                    social.
+                                                </p>
+                                                <br>
+                                                <p>La política como una herramienta para satisfacer las demandas de los
+                                                    diferentes sectores de una sociedad y para articularlos mediante el
+                                                    estado cuya intervención limita el carácter desigualador y voraz del
+                                                    mercado global. Pero en un tiempo donde lo digital -la velocidad de
+                                                    lo digital- esa ruedita que cumple con nuestras expectativas en
+                                                    apenas segundos ¿Cómo hace la política y el estado para satisfacer
+                                                    las demandas? ¿De qué manera le habla a aquel cuya decisión busca
+                                                    captar? ¿Cómo lo interpela?</p>
+                                                <br>
+                                                <p>Antes que nada la comunicación política, el peronismo digital podría
+                                                    fijarse, como dice Mariana Moyano en su podcast Anaconda con
+                                                    memoria, en las condiciones de recepción. En semiótica, la ciencia
+                                                    que estudia los signos que permiten la comunicación humana, las
+                                                    condiciones de recepción son fundamentales: se habla mucho de ellas
+                                                    a la hora de imaginar un medio como una publicación gráfica, pero en
+                                                    tiempos de lo digital esto se incrementa drásticamente porque el
+                                                    medio es el mensaje y lo que se necesita es lograr la atención,
+                                                    buscar que nos den bolilla y calcular cuántas horas les restamos a
+                                                    otros intereses.
+                                                </p>
+                                                <br>
+                                                <p>Nos guste o no, es una batalla por el tiempo en un nuevo tiempo: el
+                                                    tiempo de lo inmediato, de lo digital. Y allí, en este nuevo tiempo,
+                                                    las condiciones en que se recepciona el mensaje son sobre las que
+                                                    hay que trabajar, no en las de producción. Pensando en las
+                                                    condiciones del agua de la pileta en la cual nos tiramos. sean estas
+                                                    o no las que consideremos las mas adecuadas, con nuestro estilo de
+                                                    nado, que es valedero y tiene sus razones, debemos ejecutar nuestra
+                                                    mejor performance.</p>
                                                 <br>
 
                                                 <div class="text-start object-center">
@@ -4878,7 +5042,7 @@
                 mounted() {
 
 
-                    axios.get("https://api.dailymotion.com/videos?channel=news&limit=3")
+                    axios.get("https://api.dailymotion.com/videos?channel=news&limit=2")
                         .then(response => {
                             this.info = response.data.list
                         });

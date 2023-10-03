@@ -1,6 +1,72 @@
 <x-app-layout>
     <div class="container ">
 
+           {{--ANIVERSARIO DE LA MASACRE DE LOS 43 DE AYOTZINAPA --}}
+           <section >
+            <ul>
+
+
+                <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                    <article>
+
+                        <div class="py-4 px-4 justify-between items-center">
+                            <h2 class="text-xl font-serif  font-bold pb-6">
+                                <a href="../img/int/int-paz2.svg">ANIVERSARIO DE LA MASACRE DE LOS 43 DE
+                                    AYOTZINAPA</a>
+                            </h2>
+                            <div
+                                class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                    <p>En la noche del 26 de septiembre de 2014 en la localidad de Iguala,
+                                        en el
+                                        estado mexicano de Guerrero, desaparecen 43 estudiantes de la
+                                        Escuela Normal
+                                        Rural de la localidad de Ayotzinapa, Estado de Guerrero.</p>
+                                    <br>
+                                    <figure>
+                                        <a href="../img/int/int_ayotzi.svg"> <img class="w-full object-cover"
+                                                src="../img/int/int_ayotzi.svg" alt=""></a>
+
+                                    </figure>
+                                    <br>
+                                    <p>Los normalistas se dirigían al DF -capital mexicana- para participar
+                                        juntos a miles de estudiantes de todo el país, en manifestación por
+                                        memoria de la masacre estudiantil de Tlatelolco ocurrida el 2 de
+                                        octubre de 1968. El micro en el que circulaban fue interceptado por
+                                        las fuerzas de seguridad mexicanas. La conjetura era que los
+                                        estudiantes traficaban droga en el micro.</p>
+                                    <br>
+
+
+                                    <p>Persiguieron el micro en el que se movilizaban, bajaron a los jóvenes
+                                        y los acribillaron. Nunca más se supo del destino de los 43 ni dónde
+                                        estaban sus cuerpos. Este episodio conmovió al mundo entero.
+                                    </p>
+
+
+                                    <p>El Equipo Argentino de Antropología Forense (EAAF) actuó en la
+                                        búsqueda e identificación de las víctimas. Jamás se supo de sus
+                                        destinos.
+                                    </p>
+                                    <br>
+                                    <p>El gobierno del Presidente mexicano, Andrés Manuel López Obrador, lo
+                                        califica como "Crimen de Estado" e involucran a funcionarios de alta
+                                        jerarquía en el delito, acusados de tortura y desaparición forzada.
+                                        Sin embargo, luego de ardua tarea y pasados varios años, los
+                                        antropólogos localizaron e identificaron los restos de tres de las
+                                        víctimas. </p>
+                                    <br>
+
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </li>
+            </ul>
+        </section>
+        <br><br>
+
              {{--PAÍSES DE TODA LA REGIÓN FIRMARON UNA DECLARACIÓN PARA FORTALECER LA PAZ Y LA COOPERACIÓN  --}}
   <section >
     <ul>
