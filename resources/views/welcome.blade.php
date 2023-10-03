@@ -98,7 +98,7 @@
                                     <a class="text-emerald-700 font-semibold hover:text-emerald-400 hover:underline"
                                         href="{{ route('interSepNew.show', $tituloSep) }}">
                                         <img class="object-cover absolute block w-full h-56 -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-                                            src="../img/int/int_ayotzi.svg" alt="">
+                                            src="../img/int/int_ayotzi1.svg" alt="">
                                         <div class="py-2 px-4">
                                             <h2 class="text-lg font-serif">
                                                 <a href="{{ route('interSepNew.show', $tituloSep) }}">ANIVERSARIO DE LA MASACRE DE LOS 43 DE AYOTZINAPA</a>
