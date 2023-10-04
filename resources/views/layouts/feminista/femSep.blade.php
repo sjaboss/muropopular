@@ -1853,45 +1853,66 @@
                                                     estándares comunes de atención con las siguientes líneas nacionales:
                                                 </p>
                                                 <br>
-                                                <p><b>- 137</b> (violencia familiar y sexual, Ministerio de Justicia y Derechos Humanos)
+                                                <p><b>- 137</b> (violencia familiar y sexual, Ministerio de Justicia y
+                                                    Derechos Humanos)
                                                 </p>
                                                 <br>
-                                                <p><b>- 102</b> (atención especializada sobre derechos de NNyA, Ministerio de Desarrollo Social) 
+                                                <p><b>- 102</b> (atención especializada sobre derechos de NNyA,
+                                                    Ministerio de Desarrollo Social)
                                                 </p>
                                                 <br>
-                                                <p><b>- 145</b> (trata y/o explotación de personas, Ministerio de Justicia y Derechos Humanos) 
+                                                <p><b>- 145</b> (trata y/o explotación de personas, Ministerio de
+                                                    Justicia y Derechos Humanos)
                                                 </p>
                                                 <br>
-                                                <p><b>- 134</b> (violencia de género al interior de fuerzas de seguridad y desapariciones de personas, Ministerio de Seguridad) 
+                                                <p><b>- 134</b> (violencia de género al interior de fuerzas de seguridad
+                                                    y desapariciones de personas, Ministerio de Seguridad)
                                                 </p>
                                                 <br>
-                                                <p><b>- 0800</b> violencia institucional (Ministerio de Derechos Humanos de la Nación)  
+                                                <p><b>- 0800</b> violencia institucional (Ministerio de Derechos Humanos
+                                                    de la Nación)
                                                 </p>
                                                 <br>
-                                                <p><b>- 141</b> (consumo problemático, SEDRONAR)   
+                                                <p><b>- 141</b> (consumo problemático, SEDRONAR)
                                                 </p>
                                                 <br>
                                                 <figure>
-                                                    <img class="w-full object-cover"
-                                                        src="../img/fem/fem_144.svg" alt="">
+                                                    <img class="w-full object-cover" src="../img/fem/fem_144.svg"
+                                                        alt="">
                                                 </figure>
                                                 <br>
-                                                <p>El objetivo de la construcción de estas articulaciones es el fortalecimiento de la capacidad estatal de dar respuesta a situaciones de violencias y/o de otras vulneraciones de derechos, de manera ágil y garantizando el acompañamiento integral.
+                                                <p>El objetivo de la construcción de estas articulaciones es el
+                                                    fortalecimiento de la capacidad estatal de dar respuesta a
+                                                    situaciones de violencias y/o de otras vulneraciones de derechos, de
+                                                    manera ágil y garantizando el acompañamiento integral.
                                                 </p>
                                                 <br>
                                                 <p><u>Datos públicos de la Línea 144</u>
                                                 </p>
                                                 <br>
-                                                <p>Según los informes presentados por la Dirección Técnica de Registros y Bases de Datos del MMGyD a partir de la información de los llamados de todo el país recibidos en las tres sedes de la Línea, nación, provincia de Buenos Aires y Ciudad Autónoma de Buenos Aires, desde 2013 se recibieron 920.050 comunicaciones. El total de intervenciones realizadas en casos de violencia por motivos de género ascendió a 319.168 en diez años.</p>
+                                                <p>Según los informes presentados por la Dirección Técnica de Registros
+                                                    y Bases de Datos del MMGyD a partir de la información de los
+                                                    llamados de todo el país recibidos en las tres sedes de la Línea,
+                                                    nación, provincia de Buenos Aires y Ciudad Autónoma de Buenos Aires,
+                                                    desde 2013 se recibieron 920.050 comunicaciones. El total de
+                                                    intervenciones realizadas en casos de violencia por motivos de
+                                                    género ascendió a 319.168 en diez años.</p>
                                                 <br>
-                                                <p>Los datos también arrojan que, durante la pandemia, aumentaron las consultas por violencia de género a la Línea 144: durante los primeros ocho meses del Aislamiento Social, Preventivo y Obligatorio (ASPO), el promedio diario de comunicaciones aumentó un 18 % con respecto al período anterior. Con respecto a los datos del agresor, el 42,8 % involucra a la pareja actual y el 39 % a una expareja.</p>
+                                                <p>Los datos también arrojan que, durante la pandemia, aumentaron las
+                                                    consultas por violencia de género a la Línea 144: durante los
+                                                    primeros ocho meses del Aislamiento Social, Preventivo y Obligatorio
+                                                    (ASPO), el promedio diario de comunicaciones aumentó un 18 % con
+                                                    respecto al período anterior. Con respecto a los datos del agresor,
+                                                    el 42,8 % involucra a la pareja actual y el 39 % a una expareja.</p>
                                                 <br>
-                                                <p>En relación con los tipos y modalidades de violencia registrados, los datos elaborados por el Ministerio arrojaron lo siguiente: </p>
+                                                <p>En relación con los tipos y modalidades de violencia registrados, los
+                                                    datos elaborados por el Ministerio arrojaron lo siguiente: </p>
                                                 <br>
                                                 <p>- 95,5 % tuvo violencia psicológica.
                                                 </p>
                                                 <br>
-                                                <p>- 70,4 % refirió haber atravesado una situación de violencia física.</p>
+                                                <p>- 70,4 % refirió haber atravesado una situación de violencia física.
+                                                </p>
                                                 <br>
                                                 <p>- 40,2 % corresponde a la modalidad violencia simbólica.</p>
                                                 <br>
@@ -1914,8 +1935,164 @@
                             <div class=" col-span-6">
 
                                 <a href="" class="object-cover object-center " width="350">
-                                    <img class="pb-3" src="{{ asset('img/publi/recurso 1.png') }}"
+                                    <img class="pb-3" src="{{ asset('img/publi/recurso 1.png') }}" alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/APSE.gif') }}" alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
                                         alt="">
+                                </a>
+
+
+
+                                <div id="app">
+
+                                    <div v-for="item in info">
+
+                                        <div class="flex-col pb-3">
+                                            <div
+                                                class="flex-col max-w-sm  border  border-gray-700 rounded-lg shadow bg-gray-800">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg"
+                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
+                                                        alt="" />
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5 class="mb-2 text-2xl font-bold tracking-tight  text-white">
+                                                            @{{ item.title }}</h5>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div v-for="va in clima">
+
+                                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-white">
+                                            @{{ va }}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+
+                </div>
+
+            </section>
+        @elseif ($tituloSep == 'Agenda-Feminista-Completa-fem13')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">SE CUMPLEN 17 AÑOS DE LA SANCIÓN DE LA LEY ESI</a>
+                                        </h2>
+                                        <p><i>A 17 años de la sanción de la Ley 26.150 de Educación Sexual Integral, el
+                                                Ministerio de las Mujeres, Géneros y Diversidad reafirma su importancia
+                                                en la prevención de las violencias y en la construcción de una sociedad
+                                                con más igualdad.</i>
+                                        </p>
+                                        <br>
+                                        <figure>
+                                            <img class="w-full object-cover" src="../img/fem/fem_esi.svg"
+                                                alt="">
+                                        </figure>
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+                                                <p>El 4 de octubre se cumplen 17 años de la sanción de la<b> Ley 26.150 de
+                                                    Educación Sexual Integral (ESI)</b>, una norma fundamental que reconoce
+                                                    el derecho de niñas, niños, adolescentes, jóvenes y personas adultas
+                                                    a recibir educación sexual integral en todos los establecimientos
+                                                    educativos del país, de todos los niveles, modalidades y tipos de
+                                                    gestión.
+                                                </p>
+                                                <br>
+                                                <p>La propuesta pedagógica de la <b>ESI</b> aborda los conceptos de manera
+                                                    transversal y en espacios específicos. Incluye el desarrollo de
+                                                    saberes y habilidades sobre los cinco ejes conceptuales en los que
+                                                    se trabaja: el cuidado del propio cuerpo; la valoración de las
+                                                    emociones y de los sentimientos en las relaciones interpersonales;
+                                                    el reconocimiento de la perspectiva de género; el respeto de la
+                                                    diversidad; y el ejercicio de los derechos concernientes a la
+                                                    sexualidad. Además, promueve el trabajo articulado con centros de
+                                                    salud, organizaciones sociales y familias.
+                                                </p>
+                                                <br>
+                                                <p>En este marco, el Ministerio de las Mujeres, Géneros y Diversidad de
+                                                    la Nación (MMGyD) llevó adelante distintas acciones abordando los
+                                                    contenidos de la ESI en el marco del Programa Nacional de Prevención
+                                                    de las Violencias por Motivos de Género que es parte del <b>Plan
+                                                    Nacional de Acción contra las Violencias de Género 2020-2022 y
+                                                    2022-2024.</b> El objetivo principal es promover la perspectiva de
+                                                    género y diversidad en las trayectorias educativas desde un enfoque
+                                                    de derechos humanos.
+                                                </p>
+                                                <br>
+                                                <p><b>Acciones para pensar los contenidos de la ESI en clave de género y
+                                                    diversidad</b>
+                                                </p>
+                                                <br>
+                                                <p>En articulación con el Ministerio de Educación de la Nación, se
+                                                    continuó y finalizó el ciclo<b> “La ESI como herramienta para prevenir
+                                                    las violencias por motivos de género”</b> que llegó a todo el país con
+                                                    la participación de más de mil personas entre docentes, integrantes
+                                                    de equipos ESI del <b>Plan Nacional de Prevención del Embarazo no
+                                                    Intencional en la Adolescencia (ENIA)</b> y de áreas de género tanto
+                                                    provinciales como locales.
+                                                </p>
+                                                <br>
+                                                <p>Cada ciclo constó de 3 módulos: Introducción a nociones de género y
+                                                    diversidades. Amor romántico. Masculinidades; Del amor romántico a
+                                                    los vínculos responsables y diversos; y La ESI en la promoción de
+                                                    derechos: vínculos responsables y diversos y educación contra las
+                                                    violencias por motivos de género. En el primero se abordaron
+                                                    conceptos sobre género, diversidad e interseccionalidad; en el
+                                                    segundo, se desarrollaron herramientas para la erradicación de los
+                                                    estereotipos sexistas que refuerzan las violencias hacia las mujeres
+                                                    y LGBTI+, así como la promoción de vínculos responsables y diversos
+                                                    desde un enfoque no binario ni heteronormativo. Finalmente, el
+                                                    tercer módulo apuntó a la ESI como promoción de derechos y
+                                                    estrategia de prevención y erradicación de las violencias por
+                                                    motivos de género.
+                                                </p>
+                                                <br>
+                                                <p>Por último, el MMGyD y el Ministerio de Educación de la Nación
+                                                    elaboraron el material Violencias por motivos de género, propuestas
+                                                    para trabajar en las escuelas, en el marco del 25 de noviembre,<b> Día
+                                                    Internacional de la Eliminación de la Violencia contra las Mujeres,
+                                                    y la campaña internacional 16 días de activismo contra la violencia
+                                                    de género.</b> Se trata de un conjunto de herramientas para reflexionar
+                                                    sobre los tipos y modalidades de violencias y la importancia de
+                                                    construir entornos libres de estas.
+                                                </p>
+                                                <br>
+                                               
+                                            </div>
+                                        </div>
+                                </article>
+                            </li>
+                        </ul>
+                    </div>
+
+
+                    {{-- columna de la derecha chica --}}
+                    <aside>
+                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                            <div class=" col-span-6">
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/recurso 1.png') }}" alt="">
                                 </a>
 
                                 <a href="" class="object-cover object-center " width="350">
@@ -1985,7 +2162,7 @@
                 mounted() {
 
 
-                    axios.get("https://api.dailymotion.com/videos?channel=news&limit=5")
+                    axios.get("https://api.dailymotion.com/videos?channel=news&limit=3")
                         .then(response => {
                             this.info = response.data.list
                         });

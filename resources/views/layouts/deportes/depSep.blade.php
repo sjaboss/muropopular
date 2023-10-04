@@ -448,7 +448,6 @@
 
             </section>
         @elseif ($tituloSep == 'Deportes-Noticia-Completa-dep4')
-            {{-- este esta sin uso --}}
             <section>
                 <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
                     <div class=" col-span-4">
@@ -489,7 +488,8 @@
                                                     de futbol. Repasemos…
                                                 </p>
                                                 <br>
-                                                <p>Ya estamos con el arranque del <strong> Mundial Femenino de la FIFA </strong> (de esto
+                                                <p>Ya estamos con el arranque del <strong> Mundial Femenino de la FIFA
+                                                    </strong> (de esto
                                                     me encargaré de desglosar en una nota aparte, se lo merece), y en
                                                     pocos días retomará la Copa Libertadores y Copa Sudamericana desde
                                                     la fase que a todos nos encanta: desde los octavos de final.
@@ -506,7 +506,8 @@
 
                                                 </p>
                                                 <br>
-                                                <p>También está la  <strong>Copa Argentina </strong> que actualmente se encuentra en
+                                                <p>También está la <strong>Copa Argentina </strong> que actualmente se
+                                                    encuentra en
                                                     desarrollo en 16°avos de final. Durante esta semana están
                                                     compitiendo equipos como, por ejemplo, River, Boca y Racing. El
                                                     certamen finalizará casi al mismo tiempo que la “Copa de la Liga”.
@@ -515,7 +516,8 @@
                                                 <p>Por si esto fuese poco y no contemplando los inicios de las ligas
                                                     europeas que a mi tanto me encantan (pronto se hará el sorteo de la
                                                     Champions League), tendremos en Septiembre, Octubre y Noviembre una
-                                                    <strong> triple fecha FIFA </strong> en la cual “la Scaloneta” nos tendrá nuevamente
+                                                    <strong> triple fecha FIFA </strong> en la cual “la Scaloneta” nos
+                                                    tendrá nuevamente
                                                     como desquiciados tratando de sacar entradas virtuales y “haciendo
                                                     colas” con el celular en la mano desde el trabajo, el subte o
                                                     caminando en la calle. Si bien no están asignados los estadios, la
@@ -538,7 +540,180 @@
 
                                                 <p class="font-light text-gray-500">Por: Luis Bonfiglio.</p>
                                                 <p class="font-light text-gray-900 ">Periodista deportivo</p>
-    
+
+                                            </div>
+
+
+
+                                        </div>
+                                    </div>
+                                </article>
+                            </li>
+                        </ul>
+                        <br>
+
+                    </div>
+
+
+                    {{-- columna de la derecha chica --}}
+                    <aside>
+                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                            <div class=" col-span-6">
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
+                                        alt="">
+                                </a>
+
+                                <div id="app">
+
+                                    <div v-for="item in info">
+
+                                        <div class="flex-col pb-3">
+                                            <div
+                                                class="flex-col max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg"
+                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
+                                                        alt="" />
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5
+                                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                                            @{{ item.title }}</h5>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div v-for="va in clima">
+
+                                        <h5
+                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                            @{{ va }}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+
+                </div>
+
+            </section>
+        @elseif ($tituloSep == 'Deportes-Noticia-Completa-dep5')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">RESULTADOS DE LA FECHA 7 DE LA COPA DE LA LIGA ARGENTINA
+                                            </a>
+                                        </h2>
+                                        <br>
+                                        <figure>
+                                            <img class="w-full object-cover"
+                                                src="{{ asset('../img/dep/dep_fecha7.svg') }}" alt="">
+
+                                        </figure>
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                                <p><i>La séptima jornada de la Copa de la Liga Argentina brindó
+                                                    emocionantes enfrentamientos y sorpresas en todo el país, con
+                                                    empates, victorias ajustadas y destacadas actuaciones individuales.</i>
+                                                </p>
+                                                <br>
+                                                <p>A continuación, un resumen de los resultados de los partidos
+                                                    disputados:
+                                                </p>
+                                                <br>
+                                                <p><b>Tigre 0 - 0 Vélez:</b> En un partido que careció de goles, Tigre y Vélez
+                                                    demostraron solidez defensiva y se repartieron los puntos.
+                                                </p>
+                                                <br>
+                                                <p><b>Arsenal 1 - 0 Defensa y Justicia:</b> En un encuentro reñido, Arsenal se
+                                                    impuso a Defensa y Justicia con un gol de Juan Bautista Cejas de
+                                                    penal en el minuto 47.
+                                                </p>
+                                                <br>
+                                                <p><b>San Lorenzo 1 - 1 Huracán:</b> San Lorenzo y Huracán dividieron honores en
+                                                    un emocionante empate 1-1. Ignacio Pussetto anotó para Huracán en el
+                                                    minuto 16, mientras que Adam Bareiro igualó el marcador para San
+                                                    Lorenzo desde el punto de penal en el minuto 52.
+                                                </p>
+                                                <br>
+                                                <p><b>Rosario Central 1 - 0 Newell's:</b> Rosario Central se llevó la victoria
+                                                    gracias al gol de Ignacio Malcorra en el minuto 40 del segundo
+                                                    tiempo. </p>
+                                                <br>
+                                                <p><b>Racing 0-2 Independiente:</b> Independiente logró una importante victoria
+                                                    en el clásico de Avellaneda, derrotando a Racing 2-0. Alexis Canelo
+                                                    anotó temprano en el primer tiempo, y Braian Martínez convirtió un
+                                                    penal en el minuto 41 del segundo tiempo.</p>
+                                                <br>
+                                                <p><b>Banfield 1-0 Lanús:</b> Banfield se impuso a Lanús 1-0 con el gol de Juan
+                                                    Bisanz en el minuto 38 del primer tiempo.</p>
+                                                <br>
+                                                <p><b>Boca 0 - 2 River:</b> El Superclásico argentino no defraudó a los
+                                                    aficionados, y River Plate se llevó la victoria sobre Boca Juniors
+                                                    con un marcador de 2-0. Salomón Rondón abrió el marcador en el
+                                                    minuto 41 del primer tiempo, y Enzo Díaz vendió la victoria en el
+                                                    minuto 50 del segundo tiempo.</p>
+                                                <br>
+                                                <p><b>Colón 0 - 0 Unión:</b> En un enfrentamiento equilibrado, Colón y Unión no
+                                                    lograron romper el empate y finalizaron 0-0.</p>
+                                                <br>
+                                                <p><b>Estudiantes 0 - 0 Gimnasia:</b> El clásico platense terminó en empate sin
+                                                    goles, reflejando la paridad en el campo de juego.</p>
+                                                <br>
+                                                <p><b>Talleres 0-0 Belgrano:</b> Talleres y Belgrano no lograron marcar goles en
+                                                    un partido igualado.</p>
+                                                <br>
+                                                <p><b>Barracas Central 1-1 Sarmiento:</b> Barracas Central y Sarmiento empataron
+                                                    1-1 con goles tempranos de Juan Ignacio Díaz y Guido Mainero en los
+                                                    primeros minutos del partido.</p>
+                                                <br>
+                                                <p><b>Godoy Cruz 1-1 Instituto:</b> Godoy Cruz e Instituto dividieron honores en
+                                                    un emocionante empate 1-1. Jonás Acevedo escribió para Instituto en
+                                                    el primer tiempo, mientras que Tadeo Allende igualó para Godoy Cruz
+                                                    en el segundo tiempo.</p>
+                                                <br>
+                                                <p><b>Platense 0-0 Argentinos:</b> Platense y Argentinos Juniors no lograron
+                                                    abrir el marcador en un partido que terminó sin goles.</p>
+                                                <br>
+                                                <p><b>Atlético Tucumán 0-0 Central Córdoba (SdE)</b>: El partido entre Atlético
+                                                    Tucumán y Central Córdoba (Santiago del Estero) concluyó en empate
+                                                    0-0.
+                                                </p>
+                                                <br>
+                                                <p>Estos resultados de la Fecha 7 de la Copa de la Liga Argentina
+                                                    mantienen la emoción en el torneo, con equipos luchando por puntos
+                                                    vitales en su búsqueda de la gloria. El fútbol argentino continúa
+                                                    ofreciendo emocionantes partidos y sorpresas en cada jornada.</p>
+                                                <br>
+
+
+                                                <div class="text-start object-center">
+                                                    <figure>
+                                                        <img class="w-28 h-28  "
+                                                            src="{{ asset('../img/noteros/gus.svg') }}"
+                                                            alt="">
+                                                        <p> <strong>Por Gustavo Cano<strong></p>
+
+                                                        <p><strong><strong></p>
+
+                                                    </figure>
+                                                </div>
+                                                
+
                                             </div>
 
 
@@ -620,7 +795,7 @@
                 mounted() {
 
 
-                    axios.get("https://api.dailymotion.com/videos?channel=news&limit=4")
+                    axios.get("https://api.dailymotion.com/videos?channel=news&limit=5")
                         .then(response => {
                             this.info = response.data.list
                         });

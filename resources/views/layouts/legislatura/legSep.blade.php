@@ -1992,30 +1992,39 @@
 
                                                 <p>El Cuerpo Legislativo declaró de Interés Deportivo y Cultural al
                                                     museo itinerante<b> “PRESENTES. Siempre estuvimos, estamos y
-                                                    estaremos”</b>, del Departamento de Inclusión e Igualdad del Club
+                                                        estaremos”</b>, del Departamento de Inclusión e Igualdad del
+                                                    Club
                                                     Atlético Boca Juniors. En el salón Presidente Perón se realizó el
                                                     acto, que contó con la presencia de la diputada y autora del
-                                                    proyecto,<b> María Magdalena Tiesso</b>; y la vicepresidenta tercera del
+                                                    proyecto,<b> María Magdalena Tiesso</b>; y la vicepresidenta tercera
+                                                    del
                                                     club y presidenta del Departamento de Inclusión e Igualdad, Adriana
                                                     Bravo.
                                                 </p>
                                                 <br>
-                                                <p>En el comienzo de las alocuciones,<b> Tiesso</b> agradeció la presencia de
+                                                <p>En el comienzo de las alocuciones,<b> Tiesso</b> agradeció la
+                                                    presencia de
                                                     la gente y destacó el “laburo inmenso” realizado por Bravo y el
                                                     Departamento de Inclusión e Igualdad de la institución. También
                                                     resaltó:<b> “Este museo reivindica y visibiliza a las mujeres que
-                                                    fueron parte de la historia del club, y en Boca tenemos la historia
-                                                    completa”</b>. Y abogó porque este trabajo sea el puntapié inicial para
+                                                        fueron parte de la historia del club, y en Boca tenemos la
+                                                        historia
+                                                        completa”</b>. Y abogó porque este trabajo sea el puntapié
+                                                    inicial para
                                                     que otros clubes reconozcan a las mujeres.
 
                                                 </p>
                                                 <br>
-                                                <p>Por su parte,<b> Bravo</b> remarcó la importancia de saber que las mujeres
-                                                    son parte de la historia del club y que dejaron su huella.<b> “Seremos
-                                                    más las mujeres que seremos elegidas. Siempre hay que abrir caminos
-                                                    y siempre seremos más las mujeres que trabajamos y queremos a
-                                                    nuestro club. Ellas van a seguir siendo reconocidas y no vamos a dar
-                                                    pasos hacia atrás”</b>, concluyó.</p>
+                                                <p>Por su parte,<b> Bravo</b> remarcó la importancia de saber que las
+                                                    mujeres
+                                                    son parte de la historia del club y que dejaron su huella.<b>
+                                                        “Seremos
+                                                        más las mujeres que seremos elegidas. Siempre hay que abrir
+                                                        caminos
+                                                        y siempre seremos más las mujeres que trabajamos y queremos a
+                                                        nuestro club. Ellas van a seguir siendo reconocidas y no vamos a
+                                                        dar
+                                                        pasos hacia atrás”</b>, concluyó.</p>
                                                 <br>
                                                 <p>Esta exposición representa -simbólica y concretamente- una reparación
                                                     histórica para visibilizar a las mujeres que han transitado,
@@ -2108,6 +2117,160 @@
                 </div>
 
             </section>
+        @elseif ($tituloSep == 'Legislatura-Noticia-Completa-leg15')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">LA MUESTRA “ARGENTINO UNIVERSAL” ES DE INTERÉS PARA LA
+                                                CIUDAD</a>
+                                        </h2>
+                                        <p><i>Gracias a una iniciativa presentada por el legislador, Claudio Morresi, la
+                                                Legislatura destacó la exhibición ubicada en Museo Nacional del Cabildo
+                                                y la Revolución de Mayo.</i></p>
+                                        <br>
+                                        <figure>
+                                            <a href="">
+                                                <img class="w-full object-cover object-center"
+                                                    src="{{ asset('../img/leg/leg_muestra.svg') }}" alt="">
+                                            </a>
+                                        </figure>
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                                <p><b>El Cuerpo Legislativo declaró de Interés Cultural a la muestra
+                                                    Argentino Universal, que es organizada en el marco del proyecto
+                                                    Factor Francisco del Centro Nueva Tierra y ubicada en el Museo
+                                                    Nacional del Cabildo y la Revolución de Mayo.</b> El acto se realizó
+                                                    dentro del <b>salón Presidente Perón</b> del Palacio Legislativo. Y contó
+                                                    con la presencia <b>del legislador y autor de la iniciativa, Claudio
+                                                    Morresi, además de Santiago Barassi de Factor Francisco. Y el
+                                                    Secretario de Gestión Cultural del Ministerio de Cultura de la
+                                                    Nación, Federico Prieto.</b></p>
+                                                <br>
+                                                <p>En el inicio de las alocuciones, Morresi dio la bienvenida a “la Casa
+                                                    del Pueblo de la Ciudad de Buenos Aires, donde ingresó el Papa
+                                                    Francisco, el arte y la cultura”. Además destacó la importancia de
+                                                    contar con un representante latinoamericano de una de las religiones
+                                                    más importantes del mundo. Y sumó: “Que haya un grupo que haya
+                                                    tenido la inteligencia de crear esta muestra, que recorrió la
+                                                    Argentina, es abrir la cultura para todos y todas",</p>
+                                                <br>
+                                                <p>Por su parte, Barassi agradeció la distinción. También subrayó que el
+                                                    trabajo de la muestra es abordar el mensaje del Papa Francisco, en
+                                                    conectar “con la trascendencia de nuestra cultura, ideas e historia
+                                                    y ponerlo en perspectiva universal”. Y determinó que estamos en un
+                                                    momento “de universalización de Argentina y de América Latina”.</p>
+                                                <br>
+                                                <p>Por último, Prietto concluyó: “Estas son iniciativas que vienen del
+                                                    pueblo y que tratan de poner en valor ciertos criterios, que
+                                                    construyen pensamiento crítico. Y que nos hace pensar en un mundo
+                                                    más justo y lindo para todos”.
+                                                </p>
+                                                <br>
+                                                <p>En el marco institucional del Centro Nueva Tierra, el proyecto Factor
+                                                    Francisco pretende buscar construir “un sistema de palabras e
+                                                    imágenes que buscan saltar la tranquera de los lugares comunes de lo
+                                                    que se dice sobre el Papa Argentino”.</p>
+                                                <br>
+                                                <p>En este sentido, convocan a repensar las propias creencias sobre la
+                                                    espiritualidad, la relación entre la fe y la práctica cotidiana y
+                                                    también el aporte de la Argentina como comunidad con una filosofía y
+                                                    una teología propias a un mundo cada vez más caótico.</p>
+                                                <br>
+                                                <p>La muestra “Argentino Universal” propone una reflexión sobre el
+                                                    pontificado de Francisco y lo que de él se dice en nuestro país.
+                                                    Para esto, ofrece un recorrido de palabras, imágenes y colores que
+                                                    el artista plástico Daniel Santoro denominó “barroco pop
+                                                    latinoamericano”.</p>
+                                                <br>
+                                                <p>A su vez, la forma misma de la muestra en diferentes paneles da
+                                                    cuenta de la figura geométrica poliédrica porque toma la figura del
+                                                    Papa Argentino como multifacética. En esta relación, la exhibición
+                                                    ofrece conexiones posibles entre Francisco y figuras de la política
+                                                    y de la cultura contemporánea, como Gardel y Gilda, Diego Maradona y
+                                                    Borges, el Che Guevara y Mafalda, Lacan y la murga uruguaya Falta y
+                                                    resto. Pero también la relación del Papa con el mundo virtual, su
+                                                    discurso sobre la “casa común” –en relación al ambientalismo-, los
+                                                    pueblos originarios y las figuras de la historia latinoamericana.
+                                                </p>
+                                                <br>
+
+
+                                            </div>
+
+
+
+                                        </div>
+                                    </div>
+                                </article>
+                            </li>
+                        </ul>
+                        <br>
+
+                    </div>
+
+
+                    {{-- columna de la derecha chica --}}
+                    <aside>
+                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                            <div class=" col-span-6">
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/bener-leg2.png') }}"
+                                        alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
+                                        alt="">
+                                </a>
+
+                                <div id="app">
+
+                                    <div v-for="item in info">
+
+                                        <div class="flex-col pb-3">
+                                            <div
+                                                class="flex-col max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg"
+                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
+                                                        alt="" />
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5
+                                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                                            @{{ item.title }}</h5>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div v-for="va in clima">
+
+                                        <h5
+                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                            @{{ va }}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+
+                </div>
+
+            </section>
         @endif
 
     </div>
@@ -2130,7 +2293,7 @@
                 mounted() {
 
 
-                    axios.get("https://api.dailymotion.com/videos?channel=news&limit=2")
+                    axios.get("https://api.dailymotion.com/videos?channel=news&limit=3")
                         .then(response => {
                             this.info = response.data.list
                         });

@@ -1,6 +1,106 @@
 <x-app-layout>
     <div class="container ">
 
+    {{-- SE CUMPLEN 17 AÑOS DE LA SANCIÓN DE LA LEY ESI.... --}}
+        <section>
+            <ul>
+                <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                    <article>
+
+                        <div class="py-4 px-4 justify-between items-center">
+                            <h2 class="text-xl font-serif  font-bold pb-6">
+                                <a href="">SE CUMPLEN 17 AÑOS DE LA SANCIÓN DE LA LEY ESI</a>
+                            </h2>
+                            <p><i>A 17 años de la sanción de la Ley 26.150 de Educación Sexual Integral, el
+                                    Ministerio de las Mujeres, Géneros y Diversidad reafirma su importancia
+                                    en la prevención de las violencias y en la construcción de una sociedad
+                                    con más igualdad.</i>
+                            </p>
+                            <br>
+                            <figure>
+                                <img class="w-full object-cover" src="../img/fem/fem_esi.svg"
+                                    alt="">
+                            </figure>
+                            <br>
+                            <div
+                                class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                <div class=" font-sans text-lg text-left col-span-6  ">
+                                    <p>El 4 de octubre se cumplen 17 años de la sanción de la<b> Ley 26.150 de
+                                        Educación Sexual Integral (ESI)</b>, una norma fundamental que reconoce
+                                        el derecho de niñas, niños, adolescentes, jóvenes y personas adultas
+                                        a recibir educación sexual integral en todos los establecimientos
+                                        educativos del país, de todos los niveles, modalidades y tipos de
+                                        gestión.
+                                    </p>
+                                    <br>
+                                    <p>La propuesta pedagógica de la <b>ESI</b> aborda los conceptos de manera
+                                        transversal y en espacios específicos. Incluye el desarrollo de
+                                        saberes y habilidades sobre los cinco ejes conceptuales en los que
+                                        se trabaja: el cuidado del propio cuerpo; la valoración de las
+                                        emociones y de los sentimientos en las relaciones interpersonales;
+                                        el reconocimiento de la perspectiva de género; el respeto de la
+                                        diversidad; y el ejercicio de los derechos concernientes a la
+                                        sexualidad. Además, promueve el trabajo articulado con centros de
+                                        salud, organizaciones sociales y familias.
+                                    </p>
+                                    <br>
+                                    <p>En este marco, el Ministerio de las Mujeres, Géneros y Diversidad de
+                                        la Nación (MMGyD) llevó adelante distintas acciones abordando los
+                                        contenidos de la ESI en el marco del Programa Nacional de Prevención
+                                        de las Violencias por Motivos de Género que es parte del <b>Plan
+                                        Nacional de Acción contra las Violencias de Género 2020-2022 y
+                                        2022-2024.</b> El objetivo principal es promover la perspectiva de
+                                        género y diversidad en las trayectorias educativas desde un enfoque
+                                        de derechos humanos.
+                                    </p>
+                                    <br>
+                                    <p><b>Acciones para pensar los contenidos de la ESI en clave de género y
+                                        diversidad</b>
+                                    </p>
+                                    <br>
+                                    <p>En articulación con el Ministerio de Educación de la Nación, se
+                                        continuó y finalizó el ciclo<b> “La ESI como herramienta para prevenir
+                                        las violencias por motivos de género”</b> que llegó a todo el país con
+                                        la participación de más de mil personas entre docentes, integrantes
+                                        de equipos ESI del <b>Plan Nacional de Prevención del Embarazo no
+                                        Intencional en la Adolescencia (ENIA)</b> y de áreas de género tanto
+                                        provinciales como locales.
+                                    </p>
+                                    <br>
+                                    <p>Cada ciclo constó de 3 módulos: Introducción a nociones de género y
+                                        diversidades. Amor romántico. Masculinidades; Del amor romántico a
+                                        los vínculos responsables y diversos; y La ESI en la promoción de
+                                        derechos: vínculos responsables y diversos y educación contra las
+                                        violencias por motivos de género. En el primero se abordaron
+                                        conceptos sobre género, diversidad e interseccionalidad; en el
+                                        segundo, se desarrollaron herramientas para la erradicación de los
+                                        estereotipos sexistas que refuerzan las violencias hacia las mujeres
+                                        y LGBTI+, así como la promoción de vínculos responsables y diversos
+                                        desde un enfoque no binario ni heteronormativo. Finalmente, el
+                                        tercer módulo apuntó a la ESI como promoción de derechos y
+                                        estrategia de prevención y erradicación de las violencias por
+                                        motivos de género.
+                                    </p>
+                                    <br>
+                                    <p>Por último, el MMGyD y el Ministerio de Educación de la Nación
+                                        elaboraron el material Violencias por motivos de género, propuestas
+                                        para trabajar en las escuelas, en el marco del 25 de noviembre,<b> Día
+                                        Internacional de la Eliminación de la Violencia contra las Mujeres,
+                                        y la campaña internacional 16 días de activismo contra la violencia
+                                        de género.</b> Se trata de un conjunto de herramientas para reflexionar
+                                        sobre los tipos y modalidades de violencias y la importancia de
+                                        construir entornos libres de estas.
+                                    </p>
+                                    <br>
+                                   
+                                </div>
+                            </div>
+                    </article>
+                </li>
+            </ul>
+        </section>
+                     <br><br>
+
                  {{-- LÍNEA 144: EN 10 AÑOS SE RECIBIERON MÁS.... --}}
    <section>
     <ul>

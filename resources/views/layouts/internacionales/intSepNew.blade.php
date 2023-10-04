@@ -418,9 +418,10 @@
                                                     Rural de la localidad de Ayotzinapa, Estado de Guerrero.</p>
                                                 <br>
                                                 <figure>
-                                                    <a href="../img/int/int_ayotzi.svg"> <img class="w-full object-cover"
-                                                            src="../img/int/int_ayotzi.svg" alt=""></a>
-        
+                                                    <a href="../img/int/int_ayotzi.svg"> <img
+                                                            class="w-full object-cover" src="../img/int/int_ayotzi.svg"
+                                                            alt=""></a>
+
                                                 </figure>
                                                 <br>
                                                 <p>Los normalistas se dirigían al DF -capital mexicana- para participar
@@ -449,6 +450,139 @@
                                                     Sin embargo, luego de ardua tarea y pasados varios años, los
                                                     antropólogos localizaron e identificaron los restos de tres de las
                                                     víctimas. </p>
+                                                <br>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+                            </li>
+                        </ul>
+                        <br>
+
+                    </div>
+
+
+                    {{-- columna de la derecha chica --}}
+                    <aside>
+                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                            <div class=" col-span-6">
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/bener-leg2.png') }}" alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
+                                        alt="">
+                                </a>
+
+                                <div id="app">
+
+                                    <div v-for="item in info">
+
+                                        <div class="flex-col pb-3">
+                                            <div
+                                                class="flex-col max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg"
+                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
+                                                        alt="" />
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5
+                                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                                            @{{ item.title }}</h5>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div v-for="va in clima">
+
+                                        <h5
+                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                            @{{ va }}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+
+                </div>
+
+            </section>
+        @elseif ($tituloSep == 'Internacionales-Noticia-Completa-int4')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+
+                        <ul>
+                           <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="../img/int/int-paz2.svg">TRAGEDIA EN NIGERIA: NAUFRAGIO EN EL RIO
+                                                DEJA 40 DESAPARECIDOS</a>
+                                        </h2>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                                <p><i>Lagos, Nigeria, 3 de octubre de 2023 - Una tragedia sacudió a Nigeria
+                                                    hoy, cuando una embarcación que transportaba a más de cuarenta
+                                                    personas naufragó en el río Níger, dejando a todos sus ocupantes
+                                                    desaparecidos y consumiendo a las familias en una angustia
+                                                    inimaginable.</i></p>
+                                                <br>
+                                                <figure>
+                                                    <a href="../img/int/int_naufragio.svg"> <img
+                                                            class="w-full object-cover"
+                                                            src="../img/int/int_naufragio.svg" alt=""></a>
+
+                                                </figure>
+                                                <br>
+                                                <p>El accidente ocurrió en la mañana de hoy, cuando la embarcación, que
+                                                    se dirigía hacia una comunidad ribereña en el estado de Delta, se
+                                                    hundió repentinamente por razones aún desconocidas. Según testigos
+                                                    presenciales, el barco estaba sobrecargado de pasajeros y bienes, lo
+                                                    que pudo haber contribuido a su inestabilidad.</p>
+                                                <br>
+                                                <p>Las autoridades locales y los equipos de rescate se movilizaron
+                                                    inmediatamente en respuesta a la emergencia. Hasta el momento, se
+                                                    han recuperado algunos cuerpos sin vida, pero la mayoría de los
+                                                    pasajeros permanecen desaparecidos. Las operaciones de búsqueda y
+                                                    rescate continúan en curso, con la esperanza de encontrar a
+                                                    sobrevivientes entre los desaparecidos.</p>
+                                                <br>
+                                                <p>Las familias de los desaparecidos se han congregado en el lugar del
+                                                    naufragio, esperando ansiosamente noticias sobre sus seres queridos.
+                                                    La angustia y el dolor son palpables, ya que buscan desesperadamente
+                                                    información sobre el destino de sus familiares.
+                                                </p>
+                                                <br>
+                                                <p>El gobernador del estado de Delta, en una declaración emitida en
+                                                    respuesta a la tragedia, expresó sus condolencias a las familias
+                                                    afectadas y prometió que se llevará a cabo una investigación
+                                                    exhaustiva para determinar las causas del naufragio y tomar medidas
+                                                    para prevenir futuros incidentes similares.</p>
+                                                <br>
+                                                <p>Los naufragios son relativamente frecuentes en Nigeria, especialmente
+                                                    en ríos y cuerpos de agua que a menudo sirven como medios de
+                                                    transporte vitales en áreas remotas. La seguridad marítima y la
+                                                    regulación de embarcaciones son temas críticos que las autoridades
+                                                    nigerianas han estado abordando en los últimos años.</p>
+                                                <br>
+                                                <p>Esta trágica pérdida de vidas en el río Níger es un recordatorio de
+                                                    la importancia de abordar de manera efectiva las cuestiones de
+                                                    seguridad en el transporte fluvial y de garantizar que se tomen
+                                                    medidas para proteger a los pasajeros y prevenir accidentes en el
+                                                    futuro. La comunidad local y el país en su conjunto se unen en el
+                                                    luto y esperan que se encuentren respuestas y soluciones para evitar
+                                                    que tragedias como esta vuelvan a ocurrir.</p>
                                                 <br>
 
                                             </div>

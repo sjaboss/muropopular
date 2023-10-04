@@ -205,7 +205,7 @@
                                                     <a href="">COMPLICIDADES EMPRESARIALES DURANTE LA DICTADURA CÍVICO MILITAR ECLESIAL</a>
                                                 </a>
                                                 <p class="font-light text-gray-500">Por Adriana Zerdín.</p>
-                                                <p class="font-light text-gray-500">Foto: La Tinta</p>
+                                                <p class="font-light text-gray-500"></p>
                                             </h1>
 
                                             <p class="font-light text-gray-500"></p>
@@ -231,15 +231,15 @@
                                         <figure>
                                             <a href="">
 
-                                                <img class=" h-56 w-full object-cover" src="../img/pol/pol_desme.svg">
+                                                <img class=" h-56 w-full object-cover" src="../img/pol/pol_moneda.svg">
                                             </a>
                                         </figure>
                                         <div class=" py-4 px-6">
                                             <h1 class="text-lg font-serif ">
                                                 <a href="">
-                                                    <a href="">LA DESMEMORIA</a>
+                                                    <a href="">MONEDA DIGITAL ARGENTINA: CÓMO FUNCIONA Y POR QUÉ PODRÍA SER CLAVE</a>
                                                 </a>
-                                                <p class="font-light text-gray-500">Por Oscár Chino Martínez Zemborain.
+                                                <p class="font-light text-gray-500">Por Gustavo Cano
                                                 </p>
                                             </h1>
 
@@ -249,7 +249,7 @@
                                             <div class="pt-2">
                                                 <h2>
                                                     @php
-                                                        $tituloSep = 'Politica-Noticia-Completa-pol27#pol27';
+                                                        $tituloSep = 'Politica-Noticia-Completa-pol32#pol32';
                                                     @endphp
                                                     <a class="text-emerald-700 font-semibold hover:text-emerald-400 hover:underline"
                                                         href="{{ route('politicaSep.show', $tituloSep) }}">Ir a la
@@ -257,7 +257,7 @@
                                                 </h2>
                                             </div>
                                         </div>
-                                        <p class="font-light  text-right text-gray-500">Publicado: 18/09/2023</p>
+                                        <p class="font-light  text-right text-gray-500">Publicado: 03/10/2023</p>
                                     </article>
                                 </li>
                             </ul>
@@ -535,20 +535,20 @@
                                         <figure>
                                             <a href="">
                                                 <img class="h-48 w-full object-cover object-center"
-                                                    src="{{ asset('../img/leg/leg_tango.svg') }}" alt="">
+                                                    src="{{ asset('../img/leg/leg_muestra.svg') }}" alt="">
                                             </a>
                                         </figure>
                                         <div class=" py-4 px-6">
                                             <h1 class="text-lg font-serif ">
                                                 <a href="">
-                                                    ES DE INTERÉS EL COLECTIVO “TANGO POR LA IDENTIDAD”
+                                                    LA MUESTRA “ARGENTINO UNIVERSAL” ES DE INTERÉS PARA LA CIUDAD
                                                 </a>
                                             </h1>
 
                                             <div class="pt-4">
                                                 <h2>
                                                     @php
-                                                        $tituloSep = 'Legislatura-Noticia-Completa-leg13#leg13';
+                                                        $tituloSep = 'Legislatura-Noticia-Completa-leg15#leg15';
                                                     @endphp
                                                     <a class="text-emerald-700 font-semibold hover:text-emerald-400 hover:underline"
                                                         href="{{ route('legislaturaSep.show', $tituloSep) }}">Ir a la
@@ -557,7 +557,7 @@
                                             </div>
 
                                         </div>
-                                        <p class="font-light  text-right text-gray-500">Publicado: 26/09/2023</p>
+                                        <p class="font-light  text-right text-gray-500">Publicado: 03/10/2023</p>
                                     </article>
                                 </li>
 
@@ -566,30 +566,32 @@
                                         <figure>
                                             <a href="">
                                                 <img class="h-48 w-full object-cover object-center"
-                                                    src="{{ asset('../img/cul/cul_vencer.svg') }}" alt="">
+                                                    src="{{ asset('../img/dep/dep_fecha7.svg') }}" alt="">
                                             </a>
                                         </figure>
                                         <div class=" py-4 px-6">
                                             <h1 class="text-lg font-serif ">
                                                 <a href="">
-                                                    NUESTRA URGENCIA X VENCER
+                                                    RESULTADOS DE LA FECHA 7 DE LA COPA DE LA LIGA ARGENTINA
                                                 </a>
+                                                <p class="font-light text-gray-500">Por Gustavo Cano
+                                                </p>
                                             </h1>
                                             <p class="font-light  text-gray-500"></p>
                                             <p class="font-light  text-gray-500"></p>
                                             <div class="pt-4">
                                                 <h2>
                                                     @php
-                                                        $tituloSep = 'Cultura-Noticia-Completa-cul8#cul8';
+                                                        $tituloSep = 'Deportes-Noticia-Completa-dep5#dep5';
                                                     @endphp
                                                     <a class="text-emerald-700 font-semibold hover:text-emerald-400 hover:underline"
-                                                        href="{{ route('culturaSep.show', $tituloSep) }}">Ir a la
+                                                        href="{{ route('deportesSep.show', $tituloSep) }}">Ir a la
                                                         Noticía</a>
                                                 </h2>
                                             </div>
 
                                         </div>
-                                        <p class="font-light  text-right text-gray-500">Publicado: 05/09/2023</p>
+                                        <p class="font-light  text-right text-gray-500">Publicado: 03/10/2023</p>
                                     </article>
                                 </li>
 
@@ -598,29 +600,29 @@
                                         <figure>
                                             <a href="">
                                                 <img class="h-48 w-full object-cover object-center"
-                                                    src="{{ asset('../img/leg/leg_musico.svg') }}" alt="">
+                                                    src="{{ asset('../img/fem/fem_esi.svg') }}" alt="">
                                             </a>
                                         </figure>
                                         <div class=" py-4 px-6">
                                             <h1 class="text-lg font-serif ">
                                                 <a href="">
-                                                    EL MÚSICO MIGUEL DE CARO ES NUEVA PERSONALIDAD DESTACADA
+                                                    SE CUMPLEN 17 AÑOS DE LA SANCIÓN DE LA LEY ESI
                                                 </a>
                                             </h1>
 
                                             <div class="pt-4">
                                                 <h2>
                                                     @php
-                                                        $tituloSep = 'Legislatura-Noticia-Completa-leg10#leg10';
+                                                        $tituloSep = 'Agenda-Feminista-Completa-fem13#fem13';
                                                     @endphp
                                                     <a class="text-emerald-700 font-semibold hover:text-emerald-400 hover:underline"
-                                                        href="{{ route('legislaturaSep.show', $tituloSep) }}">Ir a la
+                                                        href="{{ route('feministaSep.show', $tituloSep) }}">Ir a la
                                                         Noticía</a>
                                                 </h2>
                                             </div>
 
                                         </div>
-                                        <p class="font-light  text-right text-gray-500">Publicado: 05/09/2023</p>
+                                        <p class="font-light  text-right text-gray-500">Publicado: 03/10/2023</p>
                                     </article>
                                 </li>
 
@@ -629,30 +631,29 @@
                                         <figure>
                                             <a href="">
                                                 <img class="h-48 w-full object-cover object-center"
-                                                    src="{{ asset('../img/soc/soc_angus.svg') }}" alt="">
+                                                    src="{{ asset('../img/int/int_naufragio.svg') }}" alt="">
                                             </a>
                                         </figure>
                                         <div class=" py-4 px-6">
                                             <h1 class="text-lg font-serif ">
                                                 <a href="">
-                                                    SE VIENE LA 44° EXPOSICIÓN NACIONAL ANGUS DE PRIMAVERA CON LA FUERZA
-                                                    DE EXPOAGRO
+                                                    TRAGEDIA EN NIGERIA: NAUFRAGIO EN EL RIO DEJA 40 DESAPARECIDOS
                                                 </a>
                                             </h1>
                                             <p class="font-light  text-gray-500"></p>
                                             <div class="pt-4">
                                                 <h2>
                                                     @php
-                                                        $tituloSep = 'Sociedad-Noticia-Completa-soc10#soc10';
+                                                        $tituloSep = 'Internacionales-Noticia-Completa-int4#int4';
                                                     @endphp
                                                     <a class="text-emerald-700 font-semibold hover:text-emerald-400 hover:underline"
-                                                        href="{{ route('sociedadSep.show', $tituloSep) }}">Ir a la
+                                                        href="{{ route('interSepNew.show', $tituloSep) }}">Ir a la
                                                         Noticía</a>
                                                 </h2>
                                             </div>
 
                                         </div>
-                                        <p class="font-light  text-right text-gray-500">Publicado: 05/09/2023</p>
+                                        <p class="font-light  text-right text-gray-500">Publicado: 03/10/2023</p>
                                     </article>
                                 </li>
                             </ul>

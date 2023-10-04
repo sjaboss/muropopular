@@ -1,7 +1,127 @@
 <x-app-layout>
     <div class="container ">
 
+{{-- RESULTADOS DE LA FECHA 7 DE LA COPA DE LA LIGA ARGENTINA  --}}
+<section>
+    <ul>
+        <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+            <article>
 
+                <div class="py-4 px-4 justify-between items-center">
+                    <h2 class="text-xl font-serif  font-bold pb-6">
+                        <a href="">RESULTADOS DE LA FECHA 7 DE LA COPA DE LA LIGA ARGENTINA
+                        </a>
+                    </h2>
+                    <br>
+                    <figure>
+                        <img class="w-full object-cover"
+                            src="{{ asset('../img/dep/dep_fecha7.svg') }}" alt="">
+
+                    </figure>
+                    <br>
+                    <div
+                        class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                        <div class=" font-sans text-lg text-left col-span-6  ">
+
+                            <p><i>La séptima jornada de la Copa de la Liga Argentina brindó
+                                emocionantes enfrentamientos y sorpresas en todo el país, con
+                                empates, victorias ajustadas y destacadas actuaciones individuales.</i>
+                            </p>
+                            <br>
+                            <p>A continuación, un resumen de los resultados de los partidos
+                                disputados:
+                            </p>
+                            <br>
+                            <p><b>Tigre 0 - 0 Vélez:</b> En un partido que careció de goles, Tigre y Vélez
+                                demostraron solidez defensiva y se repartieron los puntos.
+                            </p>
+                            <br>
+                            <p><b>Arsenal 1 - 0 Defensa y Justicia:</b> En un encuentro reñido, Arsenal se
+                                impuso a Defensa y Justicia con un gol de Juan Bautista Cejas de
+                                penal en el minuto 47.
+                            </p>
+                            <br>
+                            <p><b>San Lorenzo 1 - 1 Huracán:</b> San Lorenzo y Huracán dividieron honores en
+                                un emocionante empate 1-1. Ignacio Pussetto anotó para Huracán en el
+                                minuto 16, mientras que Adam Bareiro igualó el marcador para San
+                                Lorenzo desde el punto de penal en el minuto 52.
+                            </p>
+                            <br>
+                            <p><b>Rosario Central 1 - 0 Newell's:</b> Rosario Central se llevó la victoria
+                                gracias al gol de Ignacio Malcorra en el minuto 40 del segundo
+                                tiempo. </p>
+                            <br>
+                            <p><b>Racing 0-2 Independiente:</b> Independiente logró una importante victoria
+                                en el clásico de Avellaneda, derrotando a Racing 2-0. Alexis Canelo
+                                anotó temprano en el primer tiempo, y Braian Martínez convirtió un
+                                penal en el minuto 41 del segundo tiempo.</p>
+                            <br>
+                            <p><b>Banfield 1-0 Lanús:</b> Banfield se impuso a Lanús 1-0 con el gol de Juan
+                                Bisanz en el minuto 38 del primer tiempo.</p>
+                            <br>
+                            <p><b>Boca 0 - 2 River:</b> El Superclásico argentino no defraudó a los
+                                aficionados, y River Plate se llevó la victoria sobre Boca Juniors
+                                con un marcador de 2-0. Salomón Rondón abrió el marcador en el
+                                minuto 41 del primer tiempo, y Enzo Díaz vendió la victoria en el
+                                minuto 50 del segundo tiempo.</p>
+                            <br>
+                            <p><b>Colón 0 - 0 Unión:</b> En un enfrentamiento equilibrado, Colón y Unión no
+                                lograron romper el empate y finalizaron 0-0.</p>
+                            <br>
+                            <p><b>Estudiantes 0 - 0 Gimnasia:</b> El clásico platense terminó en empate sin
+                                goles, reflejando la paridad en el campo de juego.</p>
+                            <br>
+                            <p><b>Talleres 0-0 Belgrano:</b> Talleres y Belgrano no lograron marcar goles en
+                                un partido igualado.</p>
+                            <br>
+                            <p><b>Barracas Central 1-1 Sarmiento:</b> Barracas Central y Sarmiento empataron
+                                1-1 con goles tempranos de Juan Ignacio Díaz y Guido Mainero en los
+                                primeros minutos del partido.</p>
+                            <br>
+                            <p><b>Godoy Cruz 1-1 Instituto:</b> Godoy Cruz e Instituto dividieron honores en
+                                un emocionante empate 1-1. Jonás Acevedo escribió para Instituto en
+                                el primer tiempo, mientras que Tadeo Allende igualó para Godoy Cruz
+                                en el segundo tiempo.</p>
+                            <br>
+                            <p><b>Platense 0-0 Argentinos:</b> Platense y Argentinos Juniors no lograron
+                                abrir el marcador en un partido que terminó sin goles.</p>
+                            <br>
+                            <p><b>Atlético Tucumán 0-0 Central Córdoba (SdE)</b>: El partido entre Atlético
+                                Tucumán y Central Córdoba (Santiago del Estero) concluyó en empate
+                                0-0.
+                            </p>
+                            <br>
+                            <p>Estos resultados de la Fecha 7 de la Copa de la Liga Argentina
+                                mantienen la emoción en el torneo, con equipos luchando por puntos
+                                vitales en su búsqueda de la gloria. El fútbol argentino continúa
+                                ofreciendo emocionantes partidos y sorpresas en cada jornada.</p>
+                            <br>
+
+
+                            <div class="text-start object-center">
+                                <figure>
+                                    <img class="w-28 h-28  "
+                                        src="{{ asset('../img/noteros/gus.svg') }}"
+                                        alt="">
+                                    <p> <strong>Por Gustavo Cano<strong></p>
+
+                                    <p><strong><strong></p>
+
+                                </figure>
+                            </div>
+                            
+
+                        </div>
+
+
+
+                    </div>
+                </div>
+            </article>
+        </li>
+    </ul>
+</section>
+<br><br>  
 
        {{-- RIVER CAMPEON DE LA LIGA PROFESIONAL ARGENTINA: ¿QUE ES LO QUE SE VIENE?  --}}
         <section>

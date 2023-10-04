@@ -1,6 +1,114 @@
 <x-app-layout>
     <div class="container ">
 
+             {{--MONEDA DIGITAL ARGENTINA --}}
+             <section>
+                <ul>
+                    <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                        <article>
+
+                            <div class="py-4 px-4 justify-between items-center">
+                                <h2 class="text-xl font-serif  font-bold pb-6">
+                                    <a href="">MONEDA DIGITAL ARGENTINA: CÓMO FUNCIONA Y POR QUÉ PODRÍA
+                                        SER CLAVE</a>
+                                </h2>
+
+                                <p><i>En un esfuerzo por modernizar su sistema financiero y enfrentar los
+                                        desafíos económicos actuales, el Gobierno argentino está considerando la
+                                        creación de una Moneda Digital Argentina. Aquí explicamos cómo
+                                        funcionaría esta iniciativa y por qué podría ser clave para el país.</i>
+                                </p>
+                                <br>
+                                <figure>
+                                    <img class="w-full object-cover"
+                                        src="{{ asset('../img/pol/pol_moneda.svg') }}" alt="">
+
+                                </figure>
+                                <br>
+                                <div
+                                    class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                    <div class=" font-sans text-lg text-left col-span-6  ">
+                                        
+                                        <p>La moneda digital, un tema que ha ganado relevancia en la escena
+                                            financiera internacional, se encuentra en el centro de atención en
+                                            Argentina. En un esfuerzo por modernizar el sistema financiero y
+                                            abordar desafíos económicos, el gobierno argentino está considerando
+                                            la implementación de una Moneda Digital Argentina. Aquí, exploramos
+                                            cómo funciona y por qué podría ser clave para el país.
+                                        </p>
+                                        <br>
+                                        <p>¿Qué es una Moneda Digital? Una moneda digital es una forma de dinero
+                                            completamente digital que se basa en la tecnología blockchain. A
+                                            diferencia de las monedas tradicionales, no existen en forma física
+                                            y se almacenan en billeteras digitales en línea o en aplicaciones
+                                            móviles. Las transacciones con moneda digital se registran de manera
+                                            transparente y segura en la cadena de bloques, lo que garantiza la
+                                            trazabilidad y la seguridad.
+                                        </p>
+                                        <br>
+                                        <p>¿Cómo funcionaría el proyecto de Moneda Digital Argentina propuesto
+                                            por el gobierno que busca crear una moneda digital respaldada por el
+                                            Banco Central de Argentina? Funcionaría de manera similar a las
+                                            criptomonedas, pero tendría un respaldo oficial, lo que la haría más
+                                            estable y confiable. Los usuarios podrían adquirir Moneda Digital
+                                            Argentina a través de una plataforma gubernamental y utilizarla para
+                                            realizar transacciones, pagar servicios y realizar compras en línea.
+                                        </p>
+                                        <br>
+                                        <p><b>Ventajas Potenciales</b></p>
+                                        <br>
+                                        <p><i>1- <b>Reducción de la Informalidad:</b> Una moneda digital respaldada por el
+                                            gobierno podría ayudar a reducir la economía informal, ya que todas
+                                            las transacciones quedarían registradas en la cadena de bloques, lo
+                                            que dificultaría la evasión fiscal.</i></p>
+                                        <br>
+                                        <p><i>2- <b>Mayor Inclusión Financiera:</b> Facilitaría el acceso a servicios
+                                            financieros para personas no bancarizadas al permitirles abrir
+                                            billeteras digitales sin necesidad de una cuenta bancaria
+                                            tradicional.</i></p>
+                                        <br>
+                                        <p><i>3- <b>Transparencia y Seguridad:</b> Las transacciones en moneda digital son
+                                            transparentes y seguras debido a la tecnología blockchain, lo que
+                                            puede reducir el fraude y la corrupción.</i></p>
+                                        <br>
+                                        <p><i>4- <b>Reducción de Costos:</b> Podría disminuir los costos asociados con la
+                                            gestión y el manejo de efectivo, lo que sería una ventaja tanto para
+                                            el gobierno como para las empresas.</i></p>
+                                        <br>
+                                        <p>El Ministro de Economía, Sergio Massa, anunció que enviará un
+                                            proyecto de ley al Congreso para regular la Moneda Digital
+                                            Argentina. Se espera que el proyecto establezca las bases legales y
+                                            regulatorias para su implementación y funcionamiento. También se
+                                            prevé que aborde cuestiones relacionadas con la seguridad
+                                            cibernética, la protección del consumidor y la supervisión del Banco
+                                            Central.</p>
+                                        <br>
+                                        <p>El proyecto de ley será debatido en el Congreso en las próximas
+                                            semanas y se espera un intenso debate sobre su viabilidad y
+                                            beneficios. La Moneda Digital Argentina representa un paso audaz
+                                            hacia la modernización del sistema financiero argentino y podría
+                                            tener un impacto significativo en la economía y la inclusión
+                                            financiera del país. La decisión final del Congreso será crucial
+                                            para determinar si esta iniciativa se convierte en una realidad.</p>
+                                        <br>
+
+                                        <div class="text-start object-center">
+                                            <figure>
+                                                <img class="w-28 h-28  "
+                                                    src="{{ asset('../img/noteros/gus.svg') }}"
+                                                    alt="">
+                                                <p> <strong>Nota de Gustavo Cano<strong></p>
+
+                                                <p><strong><strong></p>
+
+                                            </figure>
+                                        </div>
+
+                        </article>
+                    </li>
+                </ul>
+                <br><br>
+
                      {{--EL PEPE RONISMO DIGITAL --}}
        <section>
         <ul>
