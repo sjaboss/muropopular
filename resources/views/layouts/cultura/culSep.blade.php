@@ -977,7 +977,8 @@
                                                     compositores) de los cuales hoy, se conocen los otros 3 temas, esta
                                                     vez en formato acústico. </p>
                                                 <br>
-                                                <p><strong> HERENCIA LEBÓN 2</strong> comienza con una exquisita versión del clásico de
+                                                <p><strong> HERENCIA LEBÓN 2</strong> comienza con una exquisita versión
+                                                    del clásico de
                                                     Serú Girán “Desarma y sangra”, de su amigo Charly García. El aporte
                                                     del violinista ruso Alexey Musatov, junto al piano de Leandro
                                                     Bulacio, hacen que la canción llegue directo al corazón.
@@ -1081,7 +1082,9 @@
                                             class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
                                             <div class=" font-sans text-lg text-left col-span-6  ">
 
-                                                <p><i>Cuarteto La Púa y Victoria Di Raimondo, Fernández Fierro y Dúo Huillier-Seren Miércoles 20 de septiembre 21 hs. Club Atlético Fernández Fierro Sánchez de Bustamante 772 – CABA</i></p>
+                                                <p><i>Cuarteto La Púa y Victoria Di Raimondo, Fernández Fierro y Dúo
+                                                        Huillier-Seren Miércoles 20 de septiembre 21 hs. Club Atlético
+                                                        Fernández Fierro Sánchez de Bustamante 772 – CABA</i></p>
                                                 <br>
                                                 <figure>
                                                     <a href="">
@@ -1091,7 +1094,12 @@
                                                     </a>
                                                 </figure>
                                                 <br>
-                                                <p>Cuarteto La Púa y Victoria Di Raimondo continúan presentando “Canciones con niebla”, un álbum de canciones propias donde consolidan su contundente estilo, con una mirada del tango que aporta nuevos elementos para el crecimiento y la innovación del género. Sonarán también canciones de “Mariposa Muerta” y adelantos de su próximo trabajo.
+                                                <p>Cuarteto La Púa y Victoria Di Raimondo continúan presentando
+                                                    “Canciones con niebla”, un álbum de canciones propias donde
+                                                    consolidan su contundente estilo, con una mirada del tango que
+                                                    aporta nuevos elementos para el crecimiento y la innovación del
+                                                    género. Sonarán también canciones de “Mariposa Muerta” y adelantos
+                                                    de su próximo trabajo.
                                                 </p>
                                                 <br>
                                                 <p>Victoria Di Raimondo: voz
@@ -1106,11 +1114,191 @@
                                                 <br>
                                                 <p>Pablo Sensottera guitarrón criollo</p>
                                                 <br>
-                                                <p>Fernández Fierro ha revolucionado la escena del tango con su violenta sonoridad y puesta en escena, así como por el inédito proyecto colectivo que llevan adelante: el grupo se organiza en forma cooperativa, impulsa una radio on-line de tango ([RadioCAFF] (edita sus discos de manera independiente y administra su propio club: el Club Atlético Fernández Fierro (CAFF) espacio ineludible de la escena independiente.
+                                                <p>Fernández Fierro ha revolucionado la escena del tango con su violenta
+                                                    sonoridad y puesta en escena, así como por el inédito proyecto
+                                                    colectivo que llevan adelante: el grupo se organiza en forma
+                                                    cooperativa, impulsa una radio on-line de tango ([RadioCAFF] (edita
+                                                    sus discos de manera independiente y administra su propio club: el
+                                                    Club Atlético Fernández Fierro (CAFF) espacio ineludible de la
+                                                    escena independiente.
                                                 </p>
                                                 <br>
                                                 <p>Anticipadas en <u>www.caff.ar o tickethoy</u>
                                                 </p>
+                                                <br>
+
+
+                                            </div>
+
+
+
+                                        </div>
+                                    </div>
+                                </article>
+                            </li>
+                        </ul>
+                        <br>
+
+                    </div>
+
+
+                    {{-- columna de la derecha chica --}}
+                    <aside>
+                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                            <div class=" col-span-6">
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/bener-leg2.png') }}"
+                                        alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
+                                        alt="">
+                                </a>
+
+                                <div id="app">
+
+                                    <div v-for="item in info">
+
+                                        <div class="flex-col pb-3">
+                                            <div
+                                                class="flex-col max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg"
+                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
+                                                        alt="" />
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5
+                                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                                            @{{ item.title }}</h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div v-for="va in clima">
+
+                                        <h5
+                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                            @{{ va }}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+
+                </div>
+
+            </section>
+        @elseif ($tituloSep == 'Cultura-Noticia-Completa-cul11')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">FESTIVAL CULTURAL "17 DE OCTUBRE" CELEBRA LA HISTORIA Y
+                                                LA CULTURA ARGENTINA EN MÙLTIPLES LOCALIDADES </a>
+                                        </h2>
+
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                                <p><i>Auspiciado por el Instituto Nacional Juan Domingo Perón y
+                                                        amadrinado por Nora Lafon, este festival abarca actividades en
+                                                        la Ciudad de Buenos Aires, Buenos Aires, Córdoba, Entre Ríos y
+                                                        Santa Fe.</i></p>
+                                                <br>
+                                                <figure>
+                                                    <a href="">
+                                                        <img class="w-full object-cover object-center"
+                                                            src="{{ asset('../img/cul/cul_17o.svg') }}"
+                                                            alt="">
+                                                    </a>
+                                                </figure>
+                                                <br>
+                                                <p>Del 8 al 17 de octubre de 2023, se lleva a cabo el Festival Cultural
+                                                    "17 de Octubre", un evento multilocal que celebra la historia y la
+                                                    cultura de Argentina. Auspiciado por el Instituto Nacional Juan
+                                                    Domingo Perón y amadrinado por Nora Lafon, este festival abarca
+                                                    actividades en la Ciudad de Buenos Aires, Buenos Aires, Córdoba,
+                                                    Entre Ríos y Santa Fe.
+                                                </p>
+                                                <br>
+                                                <p>Este festival tiene como objetivo conmemorar el acto fundacional y la
+                                                    mística que rodea la gran historia de amor del pueblo argentino.
+                                                    Durante estos días, se llevarán a cabo una serie de eventos
+                                                    culturales, artísticos y educativos que resaltan la importancia de
+                                                    esta fecha histórica en la vida de la nación.
+                                                </p>
+                                                <figure>
+                                                    <a href="">
+                                                        <img class="w-full object-cover object-center"
+                                                            src="{{ asset('../img/cul/cul_17o1.svg') }}"
+                                                            alt="">
+                                                    </a>
+                                                </figure>
+                                                <br>
+                                                <p><b>Programación Resumida</b></p>
+                                                <br>
+                                                <p>El festival se inicia el domingo 8 de octubre, con una apertura en la
+                                                    Ciudad de Buenos Aires que incluirá la proyección del ciclo de cine
+                                                    peronista "Solo dolor" y una charla sobre los edificios de la
+                                                    residencia presidencial de Perón y Evita. También se realizará una
+                                                    procesión a Evita con una ofrenda floral en el Monumento a Evita de
+                                                    Av. Del Libertador y Austria.
+                                                </p>
+                                                <br>
+                                                <p>El lunes 9, en la Ciudad de Buenos Aires, se presentará una biografía
+                                                    cinematográfica de Juan Domingo Perón y gastronomía temática en el
+                                                    restaurante "El Perón Perón". En la Provincia de Buenos Aires, se
+                                                    llevará a cabo un mural en homenaje a Enrique Santos Discépolo y una
+                                                    conmemoración del natalicio de Juan Domingo Perón y del 17 de
+                                                    octubre en el Museo de las y los Trabajadores Eva Perón en La Plata.
+                                                </p>
+                                                <br>
+                                                <p>El martes 10, se realizará una charla sobre el proyecto para todos
+                                                    los porteños en la Ciudad de Buenos Aires y se continuará con el
+                                                    ciclo de cine peronista. Además, se abrirá una exposición de artes
+                                                    visuales en el Centro Cultural Carlos Mugica en El Victorial. En la
+                                                    Provincia de Buenos Aires, se llevará a cabo una recorrida por la
+                                                    Fundación Eva Perón en Chapadmalal, Mar del Plata.</p>
+                                                <br>
+                                                <p>El miércoles 11, se proyectará un documental sobre el bombardeo de
+                                                    Plaza de Mayo en 1955 y se llevarán a cabo charlas relacionadas en
+                                                    el Museo Nacional del Cabildo de Buenos Aires. También se
+                                                    presentarán seminarios y obras de teatro en distintas localidades.
+                                                </p>
+                                                <br>
+                                                <p>El festival continúa con una amplia variedad de actividades
+                                                    culturales en los días siguientes, que incluyen ciclos de cine,
+                                                    charlas, exposiciones, teatro, música, narración oral y mucho más,
+                                                    en diferentes localidades de Argentina y hasta en España,
+                                                    Galicia.
+                                                </p>
+                                                <br>
+                                                <p>El punto culminante del festival se celebra el martes 17 de octubre,
+                                                    el Día de la Lealtad, con celebraciones en todas las plazas de
+                                                    Argentina en honor a Alfredo Carlino y el cierre del Festival
+                                                    Cultural "17 de Octubre".</p>
+                                                <br>
+                                                <p>Para obtener información detallada sobre la programación completa y
+                                                    los horarios de todas las actividades, puedes visitar el sitio web
+                                                    oficial del festival en https://festivalcultural17deoctubre.com.ar.
+                                                </p>
+                                                <br>
+                                                <p>Este Festival Cultural "17 de Octubre" representa una oportunidad
+                                                    para los argentinos y amantes de la cultura en general de celebrar y
+                                                    reflexionar sobre un momento crucial en la historia del país, al
+                                                    tiempo que rinde homenaje a una figura icónica, Juan Domingo Perón,
+                                                    y a los ideales que han marcado la historia argentina.</p>
                                                 <br>
 
 
@@ -1199,7 +1387,7 @@
                 mounted() {
 
 
-                    axios.get("https://api.dailymotion.com/videos?channel=news&limit=2")
+                    axios.get("https://api.dailymotion.com/videos?channel=news&limit=5")
                         .then(response => {
                             this.info = response.data.list
                         });

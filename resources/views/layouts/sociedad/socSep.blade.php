@@ -1810,6 +1810,157 @@
                     </aside>
                 </div>
             </section>
+        @elseif ($tituloSep == 'Sociedad-Noticia-Completa-soc13')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">CADE LANZA SU CURSO "ENLATADOS CADE: ADMINISTRACIÓN DE
+                                                COOPERATIVAS DE TRABAJO" </a>
+                                        </h2>
+                                        <p><i>Una nueva oportunidad de capacitación y formación se presenta para aquellas
+                                            personas interesadas en el mundo de las cooperativas y la economía social y
+                                            solidaria. La Cooperativa Capacitación y Desarrollo (CaDe) anuncia el
+                                            lanzamiento de su curso "Enlatados CaDe: Administración de Cooperativas de
+                                            Trabajo"</i>.
+                                        </p>
+                                        <br>
+                                        <figure>
+                                            <img class="w-full object-cover" src="../img/soc/soc_cade1.svg"
+                                                alt="">
+                                        </figure>
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                                <p>El escenario político argentino se mantiene en constante ebullición a
+                                                    medida que se acercan las elecciones presidenciales. Dos encuestas
+                                                    recientes, realizadas por las consultoras Aresco y Zuban Córdoba,
+                                                    confirman una tendencia interesante: un posible ballotage entre
+                                                    Javier Milei y Sergio Massa. La capacitación estará a cargo de
+                                                    Cecilia Mariel Ratovicius, una profesional con amplia experiencia en
+                                                    el ámbito de la gestión de pymes y la administración de cooperativas
+                                                    y mutuales con enfoque en derechos humanos. El curso se llevará a
+                                                    cabo de manera virtual, permitiendo a los participantes acceder
+                                                    desde cualquier lugar, y constará de 8 clases en vivo (sincrónicas)
+                                                    que se llevarán a cabo los días jueves de 18:30 a 21:00 hs., además
+                                                    de 4 clases grabadas (asincrónicas), trabajos grupales y una
+                                                    evaluación final.
+                                                </p>
+                                                <br>
+                                                <p>El objetivo de este curso es proporcionar a los participantes las
+                                                    herramientas necesarias para la administración efectiva de
+                                                    cooperativas de trabajo. Se abordarán temas claves relacionados con
+                                                    la gestión de estas entidades, incluyendo aspectos legales,
+                                                    financieros, administrativos y de organización. Los participantes
+                                                    podrán aprender de manera práctica y aplicable a situaciones reales
+                                                    de trabajo cooperativo.
+                                                </p>
+                                                <br>
+                                                <p><b>Detalles del curso:</b>
+                                                </p>
+                                                <br>
+                                                <p><b>Inicio de cursada:</b> Jueves 19 de octubre.</p>
+                                                <br>
+                                                <p><b>Fin de cursada:</b> Jueves 7 de diciembre.
+                                                </p>
+                                                <br>
+                                                <p><b>Metodología:</b> Clases en vivo por medio de Zoom, clases grabadas,
+                                                    trabajos grupales y evaluación final.</p>
+                                                <br>
+                                                <p><b>Herramientas digitales utilizadas:</b> Google Classroom y Zoom.</p>
+                                                <br>
+                                                <p><b>Requisitos para la certificación:</b> Se requiere al menos el 75% de
+                                                    asistencia a las clases sincrónicas y la aprobación de las
+                                                    evaluaciones por módulo.</p>
+                                                <br>
+                                                <p>El valor del curso es de $20.000, pero se ofrece un descuento
+                                                    especial para cooperativas que inscriban a más de 3 personas. Si
+                                                    deseas obtener más información o solicitar el descuento para tu
+                                                    cooperativa, puedes escribir a<u> capacitacionescoopcade@gmail.com</u> 
+                                                </p>
+                                                <br>
+                                                <p>Si estás interesado en formarte y contribuir al fortalecimiento de
+                                                    las cooperativas de trabajo, esta es una oportunidad única para
+                                                    adquirir conocimientos sólidos y prácticos en administración
+                                                    cooperativa. Puedes inscribirte en el curso a través del siguiente
+                                                    enlace: <a
+                                                    class="text-emerald-700 font-semibold hover:text-emerald-400 hover:underline"
+                                                    href="https://forms.gle/Q2hg1JiHoXfbYU6MA"> Formulario de
+                                                    Inscripción</a></p></p>
+                                                <br>
+                                                <p>No dejes pasar esta oportunidad de crecimiento y aprendizaje en el
+                                                    mundo de la economía social y solidaria. ¡Inscríbete ahora y forma
+                                                    parte de este proceso de capacitación con CaDe!
+                                                </p>
+                                                <br>
+
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+                            </li>
+                        </ul>
+                        <br>
+                    </div>
+
+
+                    {{-- columna de la derecha chica --}}
+                    <aside>
+                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                            <div class=" col-span-6">
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/bener-leg2.png') }}"
+                                        alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
+                                        alt="">
+                                </a>
+
+                                <div id="app">
+
+                                    <div v-for="item in info">
+
+                                        <div class="flex-col pb-3">
+                                            <div
+                                                class="flex-col max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg"
+                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
+                                                        alt="" />
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5
+                                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                                            @{{ item.title }}</h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div v-for="va in clima">
+
+                                        <h5
+                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                            @{{ va }}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+                </div>
+            </section>
         @endif
 
     </div>
@@ -1832,7 +1983,7 @@
                 mounted() {
 
 
-                    axios.get("https://api.dailymotion.com/videos?channel=news&limit=7")
+                    axios.get("https://api.dailymotion.com/videos?channel=news&limit=4")
                         .then(response => {
                             this.info = response.data.list
                         });

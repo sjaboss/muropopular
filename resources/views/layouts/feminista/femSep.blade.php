@@ -2141,6 +2141,112 @@
                 </div>
 
             </section>
+        @elseif ($tituloSep == 'Agenda-Feminista-Completa-fem14')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">LIBERTAD A YESSICA BONNEFOI CARRIQUEO ANTIMIL: UN LLAMADO URGENTE A LA JUSTICIA </a>
+                                        </h2>
+                                        <p><i>Desde el Movimiento de Mujeres y Diversidades Indígenas por el Buen Vivir, se alza la voz en un grito de indignación y solidaridad hacia la lamngen Yessica Bonnefoi Carriqueo Antimil, quien se encuentra privada de su libertad en circunstancias que claramente evidencian la persecución y criminalización continua del pueblo Mapuche por parte del Estado.</i>
+                                        </p>
+                                        <br>
+                                        <figure>
+                                            <img class="w-full object-cover" src="../img/fem/fem_mapuche.svg"
+                                                alt="">
+                                        </figure>
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+                                                <p>La historia de la "conquista del desierto" puede haber quedado en los anales de la historia, pero su impacto sigue resonando en la vida de los pueblos originarios, y es un recordatorio constante de la brutalidad y el racismo que enfrentan. El Estado, en lugar de reconocer los derechos y la dignidad de los pueblos indígenas, continúa perpetuando prácticas de persecución, encarcelamiento y violencia.
+                                                </p>
+                                                <br>
+                                                <p>Yessica Bonnefoi Carriqueo Antimil es una víctima más de esta realidad. Fue condenada a 6 meses en suspenso en lo que parece ser una causa armada con el único propósito de criminalizar a un miembro más del pueblo Mapuche. Es importante destacar que Yessica es una presa política Mapuche, cuyo único "delito" es ser parte de una comunidad que busca defender sus derechos y su tierra ancestral.
+                                                </p>
+                                                <br>
+                                                <p>Lo que es aún más alarmante es el trato inhumano al que se ve sometida Yessica mientras está privada de su libertad. Lleva más de 40 días en una celda de dimensiones mínimas (2 x 1,5 metros) en condiciones que son indignas de cualquier ser humano. Su situación es un reflejo del abuso de poder y la negligencia que sufren los miembros de la comunidad Mapuche que se atreven a levantar la voz.
+                                                </p>
+                                                <br>
+                                                <p>El 11 de octubre se conmemora el último día de libertad de los pueblos indígenas, un recordatorio sombrío de la opresión histórica que han enfrentado. En Puelmapu y en todo el territorio indígena, persiste un sistema colonizador que no ha terminado y que sigue avanzando con impunidad sobre la vida y la libertad de personas como Yessica, así como sobre todas aquellas que luchan por sus derechos y su identidad.
+                                                </p>
+                                                <br>
+                                                <p>Se hace un llamado urgente a la justicia y a la solidaridad internacional. Se exige la inmediata liberación de Yessica Bonnefoi Carriqueo Antimil y el cese de la persecución contra el pueblo Mapuche. Es hora de que el Estado reconozca los derechos y la dignidad de los pueblos originarios y ponga fin a esta injusticia que ha perdurado durante demasiado tiempo.
+                                                </p>
+                                                <br>
+                                                <p><b>¡LIBERTAD YA PARA LA LAMIEN YESSICA BONNEFOI CARRIQUEO ANTIMIL!</b>
+                                                </p>
+                                                <br>
+                                               
+                                               
+                                            </div>
+                                        </div>
+                                </article>
+                            </li>
+                        </ul>
+                    </div>
+
+
+                    {{-- columna de la derecha chica --}}
+                    <aside>
+                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                            <div class=" col-span-6">
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/recurso 1.png') }}" alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/APSE.gif') }}" alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
+                                        alt="">
+                                </a>
+
+
+
+                                <div id="app">
+
+                                    <div v-for="item in info">
+
+                                        <div class="flex-col pb-3">
+                                            <div
+                                                class="flex-col max-w-sm  border  border-gray-700 rounded-lg shadow bg-gray-800">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg"
+                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
+                                                        alt="" />
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5 class="mb-2 text-2xl font-bold tracking-tight  text-white">
+                                                            @{{ item.title }}</h5>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div v-for="va in clima">
+
+                                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-white">
+                                            @{{ va }}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+
+                </div>
+
+            </section>
         @endif
     </div>
 

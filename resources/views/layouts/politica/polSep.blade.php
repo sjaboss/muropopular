@@ -5051,7 +5051,7 @@
                                         <div
                                             class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
                                             <div class=" font-sans text-lg text-left col-span-6  ">
-                                                
+
                                                 <p>La moneda digital, un tema que ha ganado relevancia en la escena
                                                     financiera internacional, se encuentra en el centro de atención en
                                                     Argentina. En un esfuerzo por modernizar el sistema financiero y
@@ -5080,23 +5080,31 @@
                                                 <br>
                                                 <p><b>Ventajas Potenciales</b></p>
                                                 <br>
-                                                <p><i>1- <b>Reducción de la Informalidad:</b> Una moneda digital respaldada por el
-                                                    gobierno podría ayudar a reducir la economía informal, ya que todas
-                                                    las transacciones quedarían registradas en la cadena de bloques, lo
-                                                    que dificultaría la evasión fiscal.</i></p>
+                                                <p><i>1- <b>Reducción de la Informalidad:</b> Una moneda digital
+                                                        respaldada por el
+                                                        gobierno podría ayudar a reducir la economía informal, ya que
+                                                        todas
+                                                        las transacciones quedarían registradas en la cadena de bloques,
+                                                        lo
+                                                        que dificultaría la evasión fiscal.</i></p>
                                                 <br>
-                                                <p><i>2- <b>Mayor Inclusión Financiera:</b> Facilitaría el acceso a servicios
-                                                    financieros para personas no bancarizadas al permitirles abrir
-                                                    billeteras digitales sin necesidad de una cuenta bancaria
-                                                    tradicional.</i></p>
+                                                <p><i>2- <b>Mayor Inclusión Financiera:</b> Facilitaría el acceso a
+                                                        servicios
+                                                        financieros para personas no bancarizadas al permitirles abrir
+                                                        billeteras digitales sin necesidad de una cuenta bancaria
+                                                        tradicional.</i></p>
                                                 <br>
-                                                <p><i>3- <b>Transparencia y Seguridad:</b> Las transacciones en moneda digital son
-                                                    transparentes y seguras debido a la tecnología blockchain, lo que
-                                                    puede reducir el fraude y la corrupción.</i></p>
+                                                <p><i>3- <b>Transparencia y Seguridad:</b> Las transacciones en moneda
+                                                        digital son
+                                                        transparentes y seguras debido a la tecnología blockchain, lo
+                                                        que
+                                                        puede reducir el fraude y la corrupción.</i></p>
                                                 <br>
-                                                <p><i>4- <b>Reducción de Costos:</b> Podría disminuir los costos asociados con la
-                                                    gestión y el manejo de efectivo, lo que sería una ventaja tanto para
-                                                    el gobierno como para las empresas.</i></p>
+                                                <p><i>4- <b>Reducción de Costos:</b> Podría disminuir los costos
+                                                        asociados con la
+                                                        gestión y el manejo de efectivo, lo que sería una ventaja tanto
+                                                        para
+                                                        el gobierno como para las empresas.</i></p>
                                                 <br>
                                                 <p>El Ministro de Economía, Sergio Massa, anunció que enviará un
                                                     proyecto de ley al Congreso para regular la Moneda Digital
@@ -5190,6 +5198,448 @@
                 </div>
 
             </section>
+        @elseif ($tituloSep == 'Politica-Noticia-Completa-pol33')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">ALBERTO FERNÁNDEZ RECIBE A INTEGRANTES DE INSTITUCIONES
+                                                ARMENIAS</a>
+                                        </h2>
+
+                                        <p><i>Alberto Fernández, mantuvo una importante reunión en la Casa Rosada en la
+                                                mañana de este viernes con representantes de Instituciones Armenias de
+                                                la República Argentina (IARA).</i>
+                                        </p>
+                                        <br>
+                                        <figure>
+                                            <img class="w-full object-cover"
+                                                src="{{ asset('../img/pol/pol_albert.svg') }}" alt="">
+
+                                        </figure>
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                                <p>En un encuentro significativo, se destacó la continuidad de la
+                                                    política del Estado argentino en defensa de la causa armenia y la
+                                                    valiosa ayuda brindada por Cascos Blancos destinada a la población
+                                                    afectada por la emergencia que vive Armenia.
+                                                </p>
+                                                <br>
+                                                <p>La audiencia contó con la presencia del presidente de IARA, Alejandro
+                                                    Artín Aram Kalpakian, así como los distinguidos miembros de la
+                                                    institución, Eduardo Costanian, Antonio Sarafian, Alfonso José
+                                                    Tabakian, Nechan Ricardo Ichkhanian, Daniel Agop Rizzian, Adriana
+                                                    Aida Camara Kasparian, Maral Masrian , Sergio Juan Tchabrassian,
+                                                    Onik Boyadjian y Miguel Harutiunian.
+                                                </p>
+                                                <br>
+                                                <p>Durante el encuentro, los representantes de IARA expresaron su
+                                                    profundo agradecimiento al presidente Alberto Fernández por el apoyo
+                                                    inquebrantable brindado en los foros internacionales. La reunión se
+                                                    convirtió en una oportunidad para destacar la importancia de la
+                                                    cooperación entre Argentina y Armenia en asuntos de interés mutuo,
+                                                    así como para reafirmar el compromiso argentino en la defensa de la
+                                                    causa armenia.
+                                                </p>
+                                                <br>
+                                                <p>El Gobierno argentino, a través de su política de Estado, ha sido un
+                                                    aliado constante de la comunidad armenia en Argentina y en todo el
+                                                    mundo, respaldando sus esfuerzos para preservar su cultura, historia
+                                                    y luchar por el reconocimiento internacional de los acontecimientos
+                                                    históricos ocurridos durante el Genocidio Armenio.</p>
+                                                <br>
+                                                <p>Además, se subrayó la relevante contribución de Cascos Blancos, una
+                                                    entidad argentina especializada en la gestión de situaciones de
+                                                    emergencia, que ha brindado asistencia crucial a la población
+                                                    afectada en Armenia. Esta ayuda refleja el compromiso de Argentina
+                                                    con la solidaridad internacional y la cooperación humanitaria en
+                                                    momentos críticos.</p>
+                                                <br>
+                                                <p>La reunión entre el presidente Alberto Fernández y los representantes
+                                                    de IARA sirvió como un recordatorio de la importancia de mantener y
+                                                    fortalecer las relaciones entre Argentina y la comunidad armenia,
+                                                    así como de la firme determinación de Argentina de seguir apoyando
+                                                    la causa armenia en el escenario mundial. </p>
+                                                <br>
+
+                                            </div>
+
+                                </article>
+                            </li>
+                        </ul>
+                    </div>
+
+
+                    {{-- columna de la derecha chica --}}
+                    <aside>
+                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                            <div class=" col-span-6">
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/baner-leg1.png') }}"
+                                        alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/APSE.gif') }}" alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
+                                        alt="">
+                                </a>
+
+
+
+                                <div id="app">
+
+                                    <div v-for="item in info">
+
+                                        <div class="flex-col pb-3">
+                                            <div
+                                                class="flex-col max-w-sm  border  border-gray-700 rounded-lg shadow bg-gray-800">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg"
+                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
+                                                        alt="" />
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5
+                                                            class="mb-2 text-2xl font-bold tracking-tight  text-white">
+                                                            @{{ item.title }}</h5>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div v-for="va in clima">
+
+                                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-white">
+                                            @{{ va }}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+
+                </div>
+
+            </section>
+        @elseif ($tituloSep == 'Politica-Noticia-Completa-pol34')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">DOS ENCUESTAS CONFIRMAN LA TENDENCIA DE UN ESCENARIO DE
+                                                BALLOTAGE ENTRE JAVIER MILEI Y SERGIO MASSA</a>
+                                        </h2>
+
+                                        <p><i>En medio de un clima político cada vez más candente, dos nuevas encuestas
+                                                han arrojado resultados que apuntan a un escenario de ballotage
+                                                altamente probable entre los candidatos Javier Milei y Sergio Massa.</i>
+                                        </p>
+
+                                        <p><i>El escenario político argentino se mantiene en constante ebullición a
+                                                medida que se acercan las elecciones presidenciales. Dos encuestas
+                                                recientes, realizadas por las consultoras Aresco y Zuban Córdoba,
+                                                confirman una tendencia interesante: un posible ballotage entre Javier
+                                                Milei y Sergio Massa.</i>
+                                        </p>
+                                        <br>
+                                        <figure>
+                                            <img class="w-full object-cover"
+                                                src="{{ asset('../img/pol/pol_encuesta.svg') }}" alt="">
+
+                                        </figure>
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                                <p><b>Aresco muestra una disputa cerrada</b>
+                                                </p>
+                                                <br>
+                                                <p>La encuesta de Aresco, realizada antes del debate presidencial,
+                                                    revela que Javier Milei lidera con un 32,9% de intención de voto,
+                                                    seguido de cerca por Sergio Massa, quien cuenta con un 30,2%. La
+                                                    tercera posición en esta encuesta la ocupa Patricia Bullrich, con un
+                                                    24,3%. Estos números se basan en la intención de voto de los
+                                                    encuestados antes de considerar la proyección de indecisos.
+                                                </p>
+                                                <br>
+                                                <p>Sin embargo, cuando se proyecta la intención de voto de los
+                                                    indecisos, Milei sube al 35%, acercándose peligrosamente al umbral
+                                                    del 50% necesario para evitar un ballotage. En caso de llegar a la
+                                                    segunda vuelta, Aresco otorga a Milei una ventaja, aunque estrecha,
+                                                    sobre Massa o Bullrich. En el primer caso, Milei alcanza el 48,7%,
+                                                    mientras que en el segundo se queda en el 39,3%. En este último
+                                                    escenario, Patricia Bullrich logra acortar la brecha, situándose en
+                                                    un 36,6%, aunque todavía distante de Milei.
+                                                </p>
+                                                <br>
+                                                <p><b>Zuban Córdoba confirma la tendencia</b></p>
+                                                <br>
+                                                <p>La encuesta realizada por Zuban Córdoba se llevó a cabo después del
+                                                    debate presidencial y muestra resultados similares. Milei lidera con
+                                                    un 34,7% de intención de voto, seguido nuevamente por Massa con un
+                                                    32,7% y Bullrich con un 25%. En un eventual balotaje, Milei mide un
+                                                    sólido 42,9% contra el 36,9% de Massa, consolidando su posición como
+                                                    un contendiente fuerte.</p>
+                                                <br>
+                                                <p>En cuanto a la provincia de Buenos Aires, Massa se distingue como
+                                                    líder en intención de voto, sacando una ventaja de casi 7 puntos a
+                                                    Milei y de 12 puntos a Bullrich. En la carrera por la gobernación,
+                                                    Axel Kicillof lidera con un 35,3%, seguido por Néstor Grindetti con
+                                                    un 25,4% y Carolina Piparo con un 21,4%. </p>
+                                                <br>
+                                                <p>Estas encuestas reflejan la volatilidad y la incertidumbre que
+                                                    caracterizan a la política argentina en un momento crucial. A medida
+                                                    que se acercan las elecciones, los candidatos deberán luchar por
+                                                    cada voto, y los resultados podrían cambiar en cualquier momento. La
+                                                    disputa por la presidencia promete ser reñida, y el escenario de un
+                                                    posible ballotage entre Milei y Massa agrega un elemento adicional
+                                                    de intriga a la contienda electoral.</p>
+                                                <br>
+                                            </div>
+
+                                </article>
+                            </li>
+                        </ul>
+                    </div>
+
+
+                    {{-- columna de la derecha chica --}}
+                    <aside>
+                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                            <div class=" col-span-6">
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/baner-leg1.png') }}"
+                                        alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/APSE.gif') }}" alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
+                                        alt="">
+                                </a>
+
+
+
+                                <div id="app">
+
+                                    <div v-for="item in info">
+
+                                        <div class="flex-col pb-3">
+                                            <div
+                                                class="flex-col max-w-sm  border  border-gray-700 rounded-lg shadow bg-gray-800">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg"
+                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
+                                                        alt="" />
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5
+                                                            class="mb-2 text-2xl font-bold tracking-tight  text-white">
+                                                            @{{ item.title }}</h5>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div v-for="va in clima">
+
+                                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-white">
+                                            @{{ va }}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+
+                </div>
+
+            </section>
+        @elseif ($tituloSep == 'Politica-Noticia-Completa-pol35')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">¿UNA TRAICIÓN A LA SOBERANÍA ARGENTINA?</a>
+                                        </h2>
+
+                                        <p><i>En declaraciones recientes, Mondino argumentó que respetar los derechos de
+                                                los isleños implica abrir la puerta a la autodeterminación, una posición
+                                                que se ha mantenido de manera consistente por parte del Reino Unido.
+                                            </i>
+                                        </p>
+                                        <br>
+                                        <p>Diana Mondino, candidata a diputada de La Libertad Avanza y postulante a
+                                            canciller en caso de una victoria de Javier Milei en las elecciones, ha
+                                            desatado un encendido debate en la política argentina al manifestar su
+                                            posición sobre el conflicto de las Islas Malvinas y su relación con el Reino
+                                            Unido. Lo que más ha sorprendido a muchos es su apoyo a respetar los
+                                            derechos de los isleños, una postura que parece alinearse sorprendentemente
+                                            con la histórica posición británica.
+                                        </p>
+                                        <br>
+                                        <figure>
+                                            <img class="w-full object-cover"
+                                                src="{{ asset('../img/pol/pol_traicion.svg') }}" alt="">
+
+                                        </figure>
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                                <p>Su declaración ganó notoriedad cuando fue publicada en un artículo de
+                                                    su autoría en el prestigioso diario londinense The Telegraph, bajo
+                                                    el título "Los derechos de los isleños serán respetados si Javier
+                                                    Milei gana las elecciones en la Argentina".
+                                                </p>
+                                                <br>
+                                                <p>La cuestión de las Islas Malvinas ha sido un conflicto prolongado
+                                                    entre nuestro país y el Reino Unido. Argentina reclama la soberanía
+                                                    de las Islas Malvinas, Georgia del Sur y las Islas Sandwich del Sur.
+                                                    El Reino Unido, en contrapartida, sostiene que los habitantes de las
+                                                    Islas Malvinas tienen el derecho de determinar su propio estatus
+                                                    político.
+                                                </p>
+                                                <br>
+                                                <p>La propuesta de Mondino, que defiende el respeto a los derechos de
+                                                    los isleños a través de la autodeterminación, es un marcado
+                                                    alejamiento de la tradicional posición argentina, que insiste en la
+                                                    soberanía indiscutible sobre las Islas Malvinas.
+                                                </p>
+                                                <br>
+                                                <p>Históricamente, Argentina ha mantenido una postura inquebrantable en
+                                                    relación a la soberanía de las Malvinas, lo que ha llevado a
+                                                    numerosos conflictos diplomáticos y tensiones con el Reino Unido. La
+                                                    guerra de las Malvinas en 1982 representa uno de los momentos más
+                                                    trágicos en la historia de estas islas disputadas, cuando Argentina
+                                                    intentó recuperar el control de las mismas, pero finalmente fue
+                                                    derrotada por las fuerzas británicas.</p>
+                                                <br>
+                                                <p>Desde una perspectiva económica, el conflicto en torno a las Islas
+                                                    Malvinas tiene implicaciones significativas. La región que rodea a
+                                                    las Malvinas es rica en recursos naturales, incluyendo petróleo, gas
+                                                    y pesca. La explotación de estos recursos podría tener un impacto
+                                                    sustancial en la economía argentina. Sin embargo, mientras persista
+                                                    el conflicto, Argentina se ve privada de la oportunidad de
+                                                    beneficiarse económicamente de estas vastas riquezas.</p>
+                                                <br>
+                                                <p>La posición de Mondino plantea interrogantes cruciales sobre la
+                                                    estrategia de Argentina en relación a las Islas Malvinas y su
+                                                    vínculo con el Reino Unido. Su postura es controvertida en el
+                                                    contexto político argentino, no representa un intento de abordar
+                                                    este conflicto de larga data desde una perspectiva divergente, sino
+                                                    una traición a la soberanía y a los intereses nacionales. </p>
+                                                <br>
+                                                <p>La pregunta que queda en el aire es, ¿Alguien puede votar a quienes
+                                                    proponen una traición a la soberanía Argentina?</p>
+                                                <br>
+                                                <div class="text-start object-center">
+                                                    <figure>
+                                                        <img class="w-28 h-28  "
+                                                            src="{{ asset('../img/noteros/gus.svg') }}"
+                                                            alt="">
+                                                        <p> <b>Nota de Gustavo Cano</b></p>
+
+                                                        
+
+                                                    </figure>
+                                                </div>
+                                            </div>
+
+                                </article>
+                            </li>
+                        </ul>
+                    </div>
+
+
+                    {{-- columna de la derecha chica --}}
+                    <aside>
+                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                            <div class=" col-span-6">
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/baner-leg1.png') }}"
+                                        alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/APSE.gif') }}" alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
+                                        alt="">
+                                </a>
+
+
+
+                                <div id="app">
+
+                                    <div v-for="item in info">
+
+                                        <div class="flex-col pb-3">
+                                            <div
+                                                class="flex-col max-w-sm  border  border-gray-700 rounded-lg shadow bg-gray-800">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg"
+                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
+                                                        alt="" />
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5
+                                                            class="mb-2 text-2xl font-bold tracking-tight  text-white">
+                                                            @{{ item.title }}</h5>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div v-for="va in clima">
+
+                                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-white">
+                                            @{{ va }}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+
+                </div>
+
+            </section>
         @endif
     </div>
 
@@ -5211,7 +5661,7 @@
                 mounted() {
 
 
-                    axios.get("https://api.dailymotion.com/videos?channel=news&limit=3")
+                    axios.get("https://api.dailymotion.com/videos?channel=news&limit=2")
                         .then(response => {
                             this.info = response.data.list
                         });

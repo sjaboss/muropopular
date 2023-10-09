@@ -1,5 +1,89 @@
 <x-app-layout>
     <div class="container ">
+        
+{{--NARGES MOHAMMADI.... --}}
+<section >
+    <ul>
+        <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+            <article>
+
+                <div class="py-4 px-4 justify-between items-center">
+                    <h2 class="text-xl font-serif  font-bold pb-6">
+                        <a href="../img/int/int-paz2.svg">NARGES MOHAMMADI RECIBE EL PREMIO NOBEL
+                            DE LA PAZ 2023</a>
+                    </h2>
+                    <div
+                        class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                        <div class=" font-sans text-lg text-left col-span-6  ">
+
+                            <p><i>Este reconocimiento mundial destaca su incansable lucha por los
+                                    derechos de las mujeres, su firme oposición al uso obligatorio
+                                    del velo y su valiente denuncia de la pena de muerte en
+                                    Irán.</i></p>
+                            <br>
+                            <figure>
+                                <a href="../img/int/int_narges.svg"> <img
+                                        class="w-full object-cover"
+                                        src="../img/int/int_narges.svg" alt=""></a>
+
+                            </figure>
+                            <br>
+                            <p>En un emocionante y conmovedor giro de los acontecimientos, Narges
+                                Mohammadi, una incansable activista feminista iraní, ha sido honrada
+                                con el Premio Nobel de la Paz 2023. Esta distinción no solo reconoce
+                                su valiente lucha por los derechos de las mujeres, sino que también
+                                arroja luz sobre las atroces violaciones de derechos humanos que
+                                persisten en Irán.</p>
+                            <br>
+                            <p>Mohammadi se ha destacado por ser una ferviente opositora del uso
+                                obligatorio del velo y la pena de muerte en su país natal, Irán. A
+                                lo largo de los años, ha abrazado su papel como defensora de los
+                                derechos humanos y ha luchado incansablemente por la igualdad de
+                                género y la justicia en una nación donde las mujeres a menudo
+                                enfrentan restricciones y discriminación sistemática.</p>
+                            <br>
+                            <p>Sin embargo, su compromiso con la causa la llevó a un alto precio
+                                personal. Mohammadi fue condenada a una sentencia draconiana de 31
+                                años de prisión y 154 latigazos, una forma brutal de castigo y
+                                disciplinamiento impuesto por el régimen teocrático que rige en
+                                Irán. Su delito, en esencia, fue alzar la voz en nombre de las
+                                mujeres y denunciar las injusticias que presenciaba a su alrededor.
+                            </p>
+                            <br>
+                            <p>A sus 51 años, Narges Mohammadi es una mujer de múltiples facetas:
+                                licenciada en física, periodista y escritora. Su libro "White
+                                Torture" (Tortura Blanca) es un testimonio desgarrador que arroja
+                                luz sobre las condiciones inhumanas que enfrentan las prisioneras en
+                                las cárceles iraníes, especialmente aquellas en aislamiento. A
+                                través de su narrativa valiente y en primera persona, revela los
+                                horrores y abusos que ella misma experimentó mientras estuvo en
+                                prisión.</p>
+                            <br>
+                            <p>El Comité de Evaluación del Premio Nobel de la Paz destacó que esta
+                                distinción también tiene un propósito más amplio: "reconocer a los
+                                cientos de miles de personas que el año pasado se manifestaron
+                                contra las políticas de discriminación y opresión del régimen
+                                teocrático de Irán contra las mujeres". La valentía de Mohammadi y
+                                su firme defensa de los derechos humanos han servido como faro de
+                                esperanza y movilización para todos aquellos que anhelan un cambio
+                                positivo en Irán y en todo el mundo.</p>
+                            <br>
+                            <p>El galardón otorgado a Narges Mohammadi no solo honra su dedicación y
+                                valentía, sino que también resalta la urgente necesidad de abordar
+                                las violaciones de derechos humanos en Irán y en otros lugares. Su
+                                trabajo y su premio son un recordatorio de que la lucha por la
+                                igualdad de género y la justicia es una causa universal que merece
+                                nuestro apoyo y solidaridad.</p>
+                            <br>
+
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </li>
+    </ul>
+</section>
+<br><br>
 
 {{--TRAGEDIA EN NIGERIA: --}}
 <section >

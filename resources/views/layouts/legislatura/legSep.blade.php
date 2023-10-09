@@ -2147,14 +2147,16 @@
                                             <div class=" font-sans text-lg text-left col-span-6  ">
 
                                                 <p><b>El Cuerpo Legislativo declaró de Interés Cultural a la muestra
-                                                    Argentino Universal, que es organizada en el marco del proyecto
-                                                    Factor Francisco del Centro Nueva Tierra y ubicada en el Museo
-                                                    Nacional del Cabildo y la Revolución de Mayo.</b> El acto se realizó
-                                                    dentro del <b>salón Presidente Perón</b> del Palacio Legislativo. Y contó
+                                                        Argentino Universal, que es organizada en el marco del proyecto
+                                                        Factor Francisco del Centro Nueva Tierra y ubicada en el Museo
+                                                        Nacional del Cabildo y la Revolución de Mayo.</b> El acto se
+                                                    realizó
+                                                    dentro del <b>salón Presidente Perón</b> del Palacio Legislativo. Y
+                                                    contó
                                                     con la presencia <b>del legislador y autor de la iniciativa, Claudio
-                                                    Morresi, además de Santiago Barassi de Factor Francisco. Y el
-                                                    Secretario de Gestión Cultural del Ministerio de Cultura de la
-                                                    Nación, Federico Prieto.</b></p>
+                                                        Morresi, además de Santiago Barassi de Factor Francisco. Y el
+                                                        Secretario de Gestión Cultural del Ministerio de Cultura de la
+                                                        Nación, Federico Prieto.</b></p>
                                                 <br>
                                                 <p>En el inicio de las alocuciones, Morresi dio la bienvenida a “la Casa
                                                     del Pueblo de la Ciudad de Buenos Aires, donde ingresó el Papa
@@ -2271,6 +2273,144 @@
                 </div>
 
             </section>
+        @elseif ($tituloSep == 'Legislatura-Noticia-Completa-leg16')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">DECLARAN DE INTERÉS EL LIBRO "EL PARTIDO. ARGENTINA -
+                                                INGLATERRA 1986" DE ANDRÉS BURGO</a>
+                                        </h2>
+                                        <p><i>La obra escrita por Andrés Burgo y editado por Tusquets, fue reconocido
+                                                por medio de un proyecto de declaración presentado por el diputado,
+                                                Claudio Morresi.</i></p>
+                                        <br>
+                                        <figure>
+                                            <a href="">
+                                                <img class="w-full object-cover object-center"
+                                                    src="{{ asset('../img/leg/leg_libro.svg') }}" alt="">
+                                            </a>
+                                        </figure>
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                                <p>En una emotiva ceremonia celebrada en el Salón Presidente Perón de la
+                                                    Ciudad de Buenos Aires, los legisladores de la Ciudad declararon de
+                                                    Interés para el Deporte y la Comunicación Social al libro "El
+                                                    partido. Argentina - Inglaterra 1986", escrito por Andrés Burgo. El
+                                                    acto contó con la destacada presencia del diputado Claudio Morresi,
+                                                    impulsor de la iniciativa, así como del propio autor de la obra,
+                                                    Andrés Burgo, y el reconocido periodista deportivo Ezequiel
+                                                    Fernández Moores.</p>
+                                                <br>
+                                                <p>El libro de Andrés Burgo arroja luz sobre uno de los momentos más
+                                                    icónicos en la historia del fútbol argentino: el partido entre
+                                                    Argentina e Inglaterra que se jugó el 22 de junio de 1986. Este
+                                                    encuentro tuvo un significado especial para Argentina, ya que no
+                                                    solo fue un evento deportivo de gran relevancia, sino que también
+                                                    tuvo un profundo impacto político y emocional.</p>
+                                                <br>
+                                                <p>El partido se llevó a cabo en el marco de la Copa Mundial de la FIFA
+                                                    de 1986, que se celebró en México. La victoria de Argentina en el
+                                                    Mundial de 1986 y, en particular, en el partido contra Inglaterra,
+                                                    simbólicamente aumentó el valor de ese triunfo y se convirtió en un
+                                                    motivo de orgullo nacional.
+                                                </p>
+                                                <br>
+                                                <p>El partido en sí mismo está grabado en la memoria del fútbol mundial
+                                                    por una serie de detalles icónicos. Uno de los momentos más
+                                                    emblemáticos fue el famoso "Gol del Siglo" de Diego Maradona, en el
+                                                    que el astro argentino dejó atrás a varios jugadores ingleses y
+                                                    luego anotó un gol espectacular. Además, en ese mismo partido,
+                                                    Maradona marcó otro gol legendario conocido como la "Mano de Dios",
+                                                    en el que utilizó la mano para tocar la pelota y engañar al árbitro.
+                                                </p>
+                                                <br>
+                                                <p>El partido Argentina-Inglaterra 1986 es recordado no solo por su
+                                                    importancia deportiva, sino también por su carga emocional y
+                                                    política. La victoria de Argentina se convirtió en un símbolo de
+                                                    resistencia y superación para el país, y el libro de Andrés Burgo
+                                                    arroja luz sobre todos estos aspectos, rindiendo homenaje a un
+                                                    evento que dejó una huella imborrable en la historia del fútbol y en
+                                                    la memoria colectiva de Argentina.</p>
+                                                <br>
+
+
+
+                                            </div>
+
+
+
+                                        </div>
+                                    </div>
+                                </article>
+                            </li>
+                        </ul>
+                        <br>
+
+                    </div>
+
+
+                    {{-- columna de la derecha chica --}}
+                    <aside>
+                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                            <div class=" col-span-6">
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/bener-leg2.png') }}"
+                                        alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
+                                        alt="">
+                                </a>
+
+                                <div id="app">
+
+                                    <div v-for="item in info">
+
+                                        <div class="flex-col pb-3">
+                                            <div
+                                                class="flex-col max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg"
+                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
+                                                        alt="" />
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5
+                                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                                            @{{ item.title }}</h5>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div v-for="va in clima">
+
+                                        <h5
+                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                            @{{ va }}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+
+                </div>
+
+            </section>
         @endif
 
     </div>
@@ -2293,7 +2433,7 @@
                 mounted() {
 
 
-                    axios.get("https://api.dailymotion.com/videos?channel=news&limit=3")
+                    axios.get("https://api.dailymotion.com/videos?channel=news&limit=2")
                         .then(response => {
                             this.info = response.data.list
                         });

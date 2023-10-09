@@ -1,6 +1,126 @@
 <x-app-layout>
     <div class="container ">
 
+   {{-- FESTIVAL CULTURAL "17 DE OCTUBRE"--}}
+   <section>
+    <ul>
+        <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+            <article>
+
+                <div class="py-4 px-4 justify-between items-center">
+                    <h2 class="text-xl font-serif  font-bold pb-6">
+                        <a href="">FESTIVAL CULTURAL "17 DE OCTUBRE" CELEBRA LA HISTORIA Y
+                            LA CULTURA ARGENTINA EN MÙLTIPLES LOCALIDADES </a>
+                    </h2>
+
+                    <div
+                        class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                        <div class=" font-sans text-lg text-left col-span-6  ">
+
+                            <p><i>Auspiciado por el Instituto Nacional Juan Domingo Perón y
+                                    amadrinado por Nora Lafon, este festival abarca actividades en
+                                    la Ciudad de Buenos Aires, Buenos Aires, Córdoba, Entre Ríos y
+                                    Santa Fe.</i></p>
+                            <br>
+                            <figure>
+                                <a href="">
+                                    <img class="w-full object-cover object-center"
+                                        src="{{ asset('../img/cul/cul_17o.svg') }}"
+                                        alt="">
+                                </a>
+                            </figure>
+                            <br>
+                            <p>Del 8 al 17 de octubre de 2023, se lleva a cabo el Festival Cultural
+                                "17 de Octubre", un evento multilocal que celebra la historia y la
+                                cultura de Argentina. Auspiciado por el Instituto Nacional Juan
+                                Domingo Perón y amadrinado por Nora Lafon, este festival abarca
+                                actividades en la Ciudad de Buenos Aires, Buenos Aires, Córdoba,
+                                Entre Ríos y Santa Fe.
+                            </p>
+                            <br>
+                            <p>Este festival tiene como objetivo conmemorar el acto fundacional y la
+                                mística que rodea la gran historia de amor del pueblo argentino.
+                                Durante estos días, se llevarán a cabo una serie de eventos
+                                culturales, artísticos y educativos que resaltan la importancia de
+                                esta fecha histórica en la vida de la nación.
+                            </p>
+                            <figure>
+                                <a href="">
+                                    <img class="w-full object-cover object-center"
+                                        src="{{ asset('../img/cul/cul_17o1.svg') }}"
+                                        alt="">
+                                </a>
+                            </figure>
+                            <br>
+                            <p><b>Programación Resumida</b></p>
+                            <br>
+                            <p>El festival se inicia el domingo 8 de octubre, con una apertura en la
+                                Ciudad de Buenos Aires que incluirá la proyección del ciclo de cine
+                                peronista "Solo dolor" y una charla sobre los edificios de la
+                                residencia presidencial de Perón y Evita. También se realizará una
+                                procesión a Evita con una ofrenda floral en el Monumento a Evita de
+                                Av. Del Libertador y Austria.
+                            </p>
+                            <br>
+                            <p>El lunes 9, en la Ciudad de Buenos Aires, se presentará una biografía
+                                cinematográfica de Juan Domingo Perón y gastronomía temática en el
+                                restaurante "El Perón Perón". En la Provincia de Buenos Aires, se
+                                llevará a cabo un mural en homenaje a Enrique Santos Discépolo y una
+                                conmemoración del natalicio de Juan Domingo Perón y del 17 de
+                                octubre en el Museo de las y los Trabajadores Eva Perón en La Plata.
+                            </p>
+                            <br>
+                            <p>El martes 10, se realizará una charla sobre el proyecto para todos
+                                los porteños en la Ciudad de Buenos Aires y se continuará con el
+                                ciclo de cine peronista. Además, se abrirá una exposición de artes
+                                visuales en el Centro Cultural Carlos Mugica en El Victorial. En la
+                                Provincia de Buenos Aires, se llevará a cabo una recorrida por la
+                                Fundación Eva Perón en Chapadmalal, Mar del Plata.</p>
+                            <br>
+                            <p>El miércoles 11, se proyectará un documental sobre el bombardeo de
+                                Plaza de Mayo en 1955 y se llevarán a cabo charlas relacionadas en
+                                el Museo Nacional del Cabildo de Buenos Aires. También se
+                                presentarán seminarios y obras de teatro en distintas localidades.
+                            </p>
+                            <br>
+                            <p>El festival continúa con una amplia variedad de actividades
+                                culturales en los días siguientes, que incluyen ciclos de cine,
+                                charlas, exposiciones, teatro, música, narración oral y mucho más,
+                                en diferentes localidades de Argentina y hasta en España,
+                                Galicia.
+                            </p>
+                            <br>
+                            <p>El punto culminante del festival se celebra el martes 17 de octubre,
+                                el Día de la Lealtad, con celebraciones en todas las plazas de
+                                Argentina en honor a Alfredo Carlino y el cierre del Festival
+                                Cultural "17 de Octubre".</p>
+                            <br>
+                            <p>Para obtener información detallada sobre la programación completa y
+                                los horarios de todas las actividades, puedes visitar el sitio web
+                                oficial del festival en https://festivalcultural17deoctubre.com.ar.
+                            </p>
+                            <br>
+                            <p>Este Festival Cultural "17 de Octubre" representa una oportunidad
+                                para los argentinos y amantes de la cultura en general de celebrar y
+                                reflexionar sobre un momento crucial en la historia del país, al
+                                tiempo que rinde homenaje a una figura icónica, Juan Domingo Perón,
+                                y a los ideales que han marcado la historia argentina.</p>
+                            <br>
+
+
+                        </div>
+
+
+
+                    </div>
+                </div>
+            </article>
+        </li>
+    </ul>
+    <br>
+</section>
+    <br><br>
+
           {{-- FESTIVAL FACAFF--}}
           <section>
             <ul>
