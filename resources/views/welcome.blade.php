@@ -381,8 +381,9 @@
                                             <h1 class="text-lg font-serif ">
                                                 <a href="">
                                                     ¿UNA TRAICIÓN A LA SOBERANÍA ARGENTINA?
-
                                                 </a>
+                                                <p class="font-light text-gray-500">Por Gustavo Cano
+                                                </p>
                                             </h1>
                                             <p class="font-light text-gray-500"></p>
                                             <p class="font-light text-gray-900 "></p>
