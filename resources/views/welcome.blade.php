@@ -188,7 +188,7 @@
             dark:bg-gray-700
             dark:border-gray-600
             dark:placeholder-gray-400
-            dark:text-white
+            dark:text-gray-900
             dark:focus:ring-blue-500
             dark:focus:border-blue-500"
                 value="{{ $now->format('d-m-Y') }}">
