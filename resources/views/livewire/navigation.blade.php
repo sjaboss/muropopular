@@ -17,10 +17,13 @@
             <img src="{{ asset('img/publi/logo_blanco.svg') }}" class="block  h-28 w-auto">
         </a>
 
+        
+
          <div class="flex-1 hidden md:block">
            {{--   @livewire('search')  --}}
         </div> 
 
+        {{--     <a href="">{{ $now->format('d-m-Y'  ) }}</a>  --}}
 
         {{-- Redes Seociales --}}
         <div class="flex justify-end pt-6 pb-6 gap-3">

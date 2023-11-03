@@ -25,17 +25,10 @@
             </div>
         @endif
 
-
-
-
         <div class="bg-white rounded-lg shadow-lg mb-4">
             <p></p>
         </div>
-
-
-
-
-
+        <!-- Carousel -->
         <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
             <div class="grid gap-4">
                 <div id="custom-controls-gallery" class="relative w-full " data-carousel="slide">
@@ -54,7 +47,8 @@
                                             src="../img/pol/pol_pepe.svg" alt="">
                                         <div class="py-2 px-4">
                                             <h2 class="text-lg font-serif">
-                                                <a href="{{ route('politicaSep.show', $tituloSep) }}"> EL PEPE RONISMO DIGITAL
+                                                <a href="{{ route('politicaSep.show', $tituloSep) }}"> EL PEPE RONISMO
+                                                    DIGITAL
                                                 </a>
                                                 <p class="font-light text-gray-500">Por Pablo Arsegot.</p>
                                             </h2>
@@ -78,7 +72,8 @@
                                             src="../img/leg/leg_museo.svg" alt="">
                                         <div class="py-2 px-4">
                                             <h2 class="text-lg font-serif">
-                                                <a href="{{ route('legislaturaSep.show', $tituloSep) }}">EL MUSEO ITINERANTE DE BOCA JUNIORS FUE DECLARADO DE INTERÉS LEGISLATIVO</a>
+                                                <a href="{{ route('legislaturaSep.show', $tituloSep) }}">EL MUSEO
+                                                    ITINERANTE DE BOCA JUNIORS FUE DECLARADO DE INTERÉS LEGISLATIVO</a>
                                             </h2>
                                             {{-- <p class="font-light mb-10 text-right text-gray-500">Publicado: 02/10/2023
                                             </p> --}}
@@ -101,7 +96,8 @@
                                             src="../img/int/int_ayotzi1.svg" alt="">
                                         <div class="py-2 px-4">
                                             <h2 class="text-lg font-serif">
-                                                <a href="{{ route('interSepNew.show', $tituloSep) }}">ANIVERSARIO DE LA MASACRE DE LOS 43 DE AYOTZINAPA</a>
+                                                <a href="{{ route('interSepNew.show', $tituloSep) }}">ANIVERSARIO DE LA
+                                                    MASACRE DE LOS 43 DE AYOTZINAPA</a>
                                             </h2>
                                             {{-- <p class="font-light  text-right text-gray-500">Publicado: 02/10/2023</p> --}}
                                         </div>
@@ -165,23 +161,55 @@
                     </div>
                 </div>
             </div>
-
         </div>
 
+        {{-- fecha --}}
+        <div class="flex pb-2">
+            <span
+                class="inline-flex items-center text-sm
+        text-gray-900
+        bg-gray-200 
+            border border-r-0
+            border-gray-300 
+            rounded-l-md
+            dark:bg-gray-600
+            dark:text-gray-400
+                dark:border-gray-600">
+                <a href="">ADN POPULARES</a>
+            </span>
+            <input type="text" id="website-admin"
+                class="rounded-none 
+            bg-gray-50 border
+            border-gray-300
+            text-gray-900
+            focus:ring-blue-500
+            focus:border-blue-500
+                block flex-1 min-w-0 w-full text-sm   text-center
+            dark:bg-gray-700
+            dark:border-gray-600
+            dark:placeholder-gray-400
+            dark:text-white
+            dark:focus:ring-blue-500
+            dark:focus:border-blue-500"
+                value="{{ $now->format('d-m-Y') }}">
+            <span
+                class="inline-flex items-center 
+                text-sm
+            text-gray-900
+            bg-gray-200 
+                border border-l-0 
+                border-gray-300 
+                rounded-r-md
+                dark:bg-gray-600
+                    dark:text-gray-400
+                    dark:border-gray-600">
+                <a href="">ADN POPULARES</a>
+            </span>
+        </div>
 
         {{-- cuerpo --}}
         <div>
             <div class="bg-white rounded-lg shadow-lg mb-4">
-                {{-- Titulo --}}
-                <div class="px-6 py-2 flex justify-between items-center ">
-                    <h4 class="text-lg text-center font-serif ">
-                        <a href="">ADN POPULARES </a>
-                    </h4>
-                   
-                </div>
-
-
-
 
                 {{-- notas --}}
                 <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
@@ -201,7 +229,8 @@
                                         <div class=" py-4 px-6">
                                             <h1 class="text-lg font-serif animate-fade-right ">
                                                 <a href="">
-                                                    <a href="">COMPLICIDADES EMPRESARIALES DURANTE LA DICTADURA CÍVICO MILITAR ECLESIAL</a>
+                                                    <a href="">COMPLICIDADES EMPRESARIALES DURANTE LA DICTADURA
+                                                        CÍVICO MILITAR ECLESIAL</a>
                                                 </a>
                                                 <p class="font-light text-gray-500">Por Adriana Zerdín.</p>
                                                 <p class="font-light text-gray-500"></p>
@@ -236,7 +265,8 @@
                                         <div class=" py-4 px-6">
                                             <h1 class="text-lg font-serif ">
                                                 <a href="">
-                                                    <a href="">MONEDA DIGITAL ARGENTINA: CÓMO FUNCIONA Y POR QUÉ PODRÍA SER CLAVE</a>
+                                                    <a href="">MONEDA DIGITAL ARGENTINA: CÓMO FUNCIONA Y POR QUÉ
+                                                        PODRÍA SER CLAVE</a>
                                                 </a>
                                                 <p class="font-light text-gray-500">Por Gustavo Cano
                                                 </p>
@@ -288,7 +318,7 @@
                                                 <h2>
                                                     @php
                                                         $tituloSep = 'Internacionales-Noticia-Completa-int5#int5';
-                                                        
+
                                                     @endphp
                                                     <a class="text-emerald-700 font-semibold hover:text-emerald-400 hover:underline"
                                                         href="{{ route('interSepNew.show', $tituloSep) }}">Ir a la
@@ -347,7 +377,8 @@
                                         <div class=" py-4 px-6">
                                             <h1 class="text-lg font-serif ">
                                                 <a href="">
-                                                    DOS ENCUESTAS CONFIRMAN LA TENDENCIA DE UN ESCENARIO DE BALLOTAGE ENTRE JAVIER MILEI Y SERGIO MASSA
+                                                    DOS ENCUESTAS CONFIRMAN LA TENDENCIA DE UN ESCENARIO DE BALLOTAGE
+                                                    ENTRE JAVIER MILEI Y SERGIO MASSA
 
                                                 </a>
                                             </h1>
@@ -420,7 +451,8 @@
                                         <div class=" py-4 px-6">
                                             <h1 class="text-lg font-serif ">
                                                 <a href="">
-                                                    DECLARAN DE INTERÉS EL LIBRO "EL PARTIDO. ARGENTINA - INGLATERRA 1986" DE ANDRÉS BURGO
+                                                    DECLARAN DE INTERÉS EL LIBRO "EL PARTIDO. ARGENTINA - INGLATERRA
+                                                    1986" DE ANDRÉS BURGO
                                                 </a>
                                             </h1>
 
@@ -451,7 +483,8 @@
                                         <div class=" py-4 px-6">
                                             <h1 class="text-lg font-serif ">
                                                 <a href="">
-                                                    CADE LANZA SU CURSO "ENLATADOS CADE: ADMINISTRACIÓN DE COOPERATIVAS DE TRABAJO"
+                                                    CADE LANZA SU CURSO "ENLATADOS CADE: ADMINISTRACIÓN DE COOPERATIVAS
+                                                    DE TRABAJO"
                                                 </a>
                                             </h1>
                                             {{--     <p class="font-light text-gray-500">En el marco de las acciones destinadas
@@ -538,7 +571,8 @@
                                         <div class=" py-4 px-6">
                                             <h1 class="text-lg font-serif ">
                                                 <a href="">
-                                                    FESTIVAL CULTURAL "17 DE OCTUBRE" CELEBRA LA HISTORIA Y LA CULTURA ARGENTINA EN MÙLTIPLES LOCALIDADES
+                                                    FESTIVAL CULTURAL "17 DE OCTUBRE" CELEBRA LA HISTORIA Y LA CULTURA
+                                                    ARGENTINA EN MÙLTIPLES LOCALIDADES
                                                 </a>
                                             </h1>
 
@@ -569,7 +603,8 @@
                                         <div class=" py-4 px-6">
                                             <h1 class="text-lg font-serif ">
                                                 <a href="">
-                                                    LIBERTAD A YESSICA BONNEFOI CARRIQUEO ANTIMIL: UN LLAMADO URGENTE A LA JUSTICIA
+                                                    LIBERTAD A YESSICA BONNEFOI CARRIQUEO ANTIMIL: UN LLAMADO URGENTE A
+                                                    LA JUSTICIA
                                                 </a>
                                                 <p class="font-light text-gray-500">
                                                 </p>
