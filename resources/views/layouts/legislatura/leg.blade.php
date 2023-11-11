@@ -1,6 +1,176 @@
 <x-app-layout>
     <div class="container ">
+        
+           {{--AJUSTES EN ABL Y PATENTES BASADAS... --}}
+           <section >
+            <ul>
+                <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                    <article>
 
+                        <div class="py-4 px-4 justify-between items-center">
+                            <h2 class="text-xl font-serif  font-bold pb-6">
+                                <a href="">AJUSTES EN ABL Y PATENTES BASADAS EN LA INFLACIÓN:
+                                    PRESUPUESTO PORTEÑO 2024</a>
+                            </h2>
+                            <p><i>El proyecto de presupuesto para el próximo año en la Ciudad de Buenos
+                                    Aires no contempla incrementos en impuestos ni la creación de nuevos
+                                    tributos. Los ajustes en el impuesto de Alumbrado, Barrido y Limpieza
+                                    Territorial de Pavimento y Aceras (ABL) y en las patentes estarán
+                                    ligados a la inflación, según lo expuesto por el gobierno local.</i></p>
+                            <br>
+                            <figure>
+                                <a href="">
+                                    <img class="w-full object-cover object-center"
+                                        src="{{ asset('../img/leg/leg_macri.svg') }}" alt="">
+                                </a>
+                            </figure>
+                            <br>
+                            <div
+                                class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                    <p>La Ciudad de Buenos Aires presentó el proyecto de presupuesto para el
+                                        año 2024, que contempla ajustes en el impuesto de Alumbrado, Barrido
+                                        y Limpieza Territorial de Pavimento y Aceras (ABL) y en las
+                                        patentes, basados ​​en la inflación de la ciudad. La iniciativa no
+                                        incluye aumentos en los impuestos existentes ni la creación de
+                                        nuevos tributos.</p>
+                                    <br>
+                                    <p>El Gobierno de la Ciudad propone mantener la actualización mensual de
+                                        la tasa de ABL de acuerdo con el Índice de Precios al Consumidor de
+                                        la Ciudad, buscando un ajuste progresivo.</p>
+                                    <br>
+                                    <p>En cuanto a las patentes, el impuesto que los propietarios de
+                                        vehículos deberán abonar en 2024 tendrá como límite la inflación
+                                        registrada entre noviembre de 2022 y octubre de 2023. Esta medida
+                                        tiene como objetivo mitigar el impacto de los aumentos en el valor
+                                        de los automóviles en el mercado automotriz.
+                                    </p>
+                                    <br>
+                                    <p>El ministro de Hacienda y Finanzas de la Ciudad de Buenos Aires,
+                                        Martín Mura, comparará ante la Comisión de Presupuesto de la
+                                        Legislatura para brindar detalles del proyecto a los legisladores.
+                                    </p>
+                                    <br>
+                                    <p>Según la propuesta, el presupuesto contempla un total de gastos de
+                                        5,8 billones de pesos y un total de recursos equivalentes. El
+                                        Gobierno porteño basa su proyecto en las pautas macroeconómicas
+                                        establecidas en la proyección presupuestaria nacional, que prevé un
+                                        crecimiento del 2,7% en la actividad económica, una inflación
+                                        estimada del 69,5% y un tipo de cambio de 607 pesos por dólar para
+                                        multas del próximo año.</p>
+                                    <br>
+                                    <p>El Gobierno destaca que este es el tercer año consecutivo en el que
+                                        presenta un proyecto de presupuesto con equilibrio financiero, es
+                                        decir, con déficit cero.</p>
+                                    <br>
+
+
+                                </div>
+
+
+
+                            </div>
+                        </div>
+                    </article>
+                </li>
+            </ul>
+        </section>
+            <br><br>
+
+              {{--KEVIN JOHANSEN ES PERSONALIDAD DESTACADA DE LA CIUDAD... --}}
+   <section >
+    <ul>
+        <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+            <article>
+
+                <div class="py-4 px-4 justify-between items-center">
+                    <h2 class="text-xl font-serif  font-bold pb-6">
+                        <a href="">KEVIN JOHANSEN ES PERSONALIDAD DESTACADA DE LA CIUDAD</a>
+                    </h2>
+                    <p><i>El Cuerpo Legislativo reconoció al artista, compositor y músico, por medio
+                            de un proyecto presentado por el diputado, Franco Vitali.</i></p>
+                    <br>
+                    <figure>
+                        <a href="">
+                            <img class="w-full object-cover object-center"
+                                src="{{ asset('../img/leg/leg_kevin.svg') }}" alt="">
+                        </a>
+                    </figure>
+                    <br>
+                    <div
+                        class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                        <div class=" font-sans text-lg text-left col-span-6  ">
+
+                            <p><b>Los legisladores de la Ciudad declararon como Personalidad Destacada
+                                de la cultura al músico y compositor, Kevin Johansen.</b> El acto se
+                                llevó a cabo en el Salón Dorado del Palacio Legislativo y contó con
+                                la presencia del <b>diputado y co-autor, Juan Modarelli –en reemplazo
+                                del legislador y autor del proyecto, Franco Vitali-; el homenajeado;
+                                Mariana Biro; el abogado, Daniel Divinsky; Karina Johansen; y el
+                                percusionista, Enrique ‘Zurdo’ Roizner.</b></p>
+                            <br>
+                            <p>En el inicio de los discursos, Modarelli destacó que en la música y
+                                el arte de Johansen se expresa a América Latina, la diversidad y el
+                                respeto a ella. Y agregó: “Quiero agradecerle porque su música le
+                                baja el tono a la discusión. A veces rompiendo las formas, no rompes
+                                el fondo, pero descontracturando cierto lenguaje o manera de
+                                entender la música, el mensaje sigue estando”.</p>
+                            <br>
+                            <p><i>“Buenos Aires es una ciudad nuestra, desde mucho antes por cuna por
+                                madre argentinísima y nos nutrió de la argentinidad”</i>, resaltó
+                                Johansen, luego de recordar a su madre. También agradeció a todos
+                                los presentes. Y concluyó, previo a cantar: “Es retribuir y
+                                agradecer de la mejor manera que conozco”.
+                            </p>
+                            <br>
+                            <p>Kevin Johansen nació en 1964 en Alaska, de madre argentina y padre
+                                “gringo” -como él dice- objetor de conciencia de la guerra de
+                                Vietnam. Creció en una familia muy musical, y a los cinco años se
+                                mudó de Alaska a San Francisco. Desde sus 12 años vivió en Buenos
+                                Aires con su mamá, que lo crió rodeado de discos de Tita Merello y
+                                Violeta Parra, pero también de Los Beatles y Bob Dylan. Vivió
+                                brevemente en Montevideo, Uruguay, donde se enamoró de la música
+                                rioplatense y empezó a tocar la guitarra. De vuelta en Buenos Aires,
+                                devino rockero y tuvo un breve éxito con su banda Instrucción Cívica
+                                ("Obediencia Debida", 1985, que fue disco de oro en Perú).
+                            </p>
+                            <br>
+                            <p>Con 25 años, el 12 de octubre de 1990, se fue a redescubrir la
+                                América del Norte de su infancia. Al poco tiempo de arribar, el
+                                dueño de un reconocido club de música punk y new wave de Nueva York,
+                                donde vivió casi diez años, lo invitó a participar de su futuro
+                                sello. Allí, durante los 90 grabó y tocó como banda de la casa,
+                                entre otros lugares. También fue portero en una milonga, como luego
+                                supo narrar en uno de sus temas (“El de la puerta”).</p>
+                            <br>
+                            <p>Con un disco bajo el brazo, “The Nada”, tarjeta de presentación que
+                                daría nombre a su banda, en el 2000 Kevin regresó a Buenos Aires,
+                                donde se instaló definitivamente al año siguiente. Esa mezcla entre
+                                lo anglo y lo criollo sería para siempre distintiva de su obra.</p>
+                            <br>
+                            <p>Su música es reflejo de su espíritu nómade, una fusión irreverente de
+                                ritmos, idiomas y culturas. Johansen suele definirse a sí mismo como
+                                “desgenerado”, cuando le preguntan por su estilo musical, algo que
+                                quedó claro desde su primer e icónico tema “Guacamole”. Su obra es
+                                un canto a la mixutra (“mixtura es el futuro”, el eslogan de su
+                                primer disco), lo híbrido, lo anfibio, lo mestizo y el sincretismo.
+                            </p>
+                            <br>
+
+
+
+                        </div>
+
+
+
+                    </div>
+                </div>
+            </article>
+        </li>
+    </ul>
+</section>
+    <br><br>
          {{-- DECLARAN DE INTERÉS EL LIBRO... --}}
    <section >
     <ul>

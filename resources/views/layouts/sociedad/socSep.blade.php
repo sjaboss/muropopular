@@ -1824,11 +1824,14 @@
                                             <a href="">CADE LANZA SU CURSO "ENLATADOS CADE: ADMINISTRACIÓN DE
                                                 COOPERATIVAS DE TRABAJO" </a>
                                         </h2>
-                                        <p><i>Una nueva oportunidad de capacitación y formación se presenta para aquellas
-                                            personas interesadas en el mundo de las cooperativas y la economía social y
-                                            solidaria. La Cooperativa Capacitación y Desarrollo (CaDe) anuncia el
-                                            lanzamiento de su curso "Enlatados CaDe: Administración de Cooperativas de
-                                            Trabajo"</i>.
+                                        <p><i>Una nueva oportunidad de capacitación y formación se presenta para
+                                                aquellas
+                                                personas interesadas en el mundo de las cooperativas y la economía
+                                                social y
+                                                solidaria. La Cooperativa Capacitación y Desarrollo (CaDe) anuncia el
+                                                lanzamiento de su curso "Enlatados CaDe: Administración de Cooperativas
+                                                de
+                                                Trabajo"</i>.
                                         </p>
                                         <br>
                                         <figure>
@@ -1872,19 +1875,23 @@
                                                 <p><b>Fin de cursada:</b> Jueves 7 de diciembre.
                                                 </p>
                                                 <br>
-                                                <p><b>Metodología:</b> Clases en vivo por medio de Zoom, clases grabadas,
+                                                <p><b>Metodología:</b> Clases en vivo por medio de Zoom, clases
+                                                    grabadas,
                                                     trabajos grupales y evaluación final.</p>
                                                 <br>
-                                                <p><b>Herramientas digitales utilizadas:</b> Google Classroom y Zoom.</p>
+                                                <p><b>Herramientas digitales utilizadas:</b> Google Classroom y Zoom.
+                                                </p>
                                                 <br>
-                                                <p><b>Requisitos para la certificación:</b> Se requiere al menos el 75% de
+                                                <p><b>Requisitos para la certificación:</b> Se requiere al menos el 75%
+                                                    de
                                                     asistencia a las clases sincrónicas y la aprobación de las
                                                     evaluaciones por módulo.</p>
                                                 <br>
                                                 <p>El valor del curso es de $20.000, pero se ofrece un descuento
                                                     especial para cooperativas que inscriban a más de 3 personas. Si
                                                     deseas obtener más información o solicitar el descuento para tu
-                                                    cooperativa, puedes escribir a<u> capacitacionescoopcade@gmail.com</u> 
+                                                    cooperativa, puedes escribir a<u>
+                                                        capacitacionescoopcade@gmail.com</u>
                                                 </p>
                                                 <br>
                                                 <p>Si estás interesado en formarte y contribuir al fortalecimiento de
@@ -1892,15 +1899,631 @@
                                                     adquirir conocimientos sólidos y prácticos en administración
                                                     cooperativa. Puedes inscribirte en el curso a través del siguiente
                                                     enlace: <a
-                                                    class="text-emerald-700 font-semibold hover:text-emerald-400 hover:underline"
-                                                    href="https://forms.gle/Q2hg1JiHoXfbYU6MA"> Formulario de
-                                                    Inscripción</a></p></p>
+                                                        class="text-emerald-700 font-semibold hover:text-emerald-400 hover:underline"
+                                                        href="https://forms.gle/Q2hg1JiHoXfbYU6MA"> Formulario de
+                                                        Inscripción</a></p>
+                                                </p>
                                                 <br>
                                                 <p>No dejes pasar esta oportunidad de crecimiento y aprendizaje en el
                                                     mundo de la economía social y solidaria. ¡Inscríbete ahora y forma
                                                     parte de este proceso de capacitación con CaDe!
                                                 </p>
                                                 <br>
+
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+                            </li>
+                        </ul>
+                        <br>
+                    </div>
+
+
+                    {{-- columna de la derecha chica --}}
+                    <aside>
+                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                            <div class=" col-span-6">
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/bener-leg2.png') }}"
+                                        alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
+                                        alt="">
+                                </a>
+
+                                <div id="app">
+
+                                    <div v-for="item in info">
+
+                                        <div class="flex-col pb-3">
+                                            <div
+                                                class="flex-col max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg"
+                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
+                                                        alt="" />
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5
+                                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                                            @{{ item.title }}</h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div v-for="va in clima">
+
+                                        <h5
+                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                            @{{ va }}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+                </div>
+            </section>
+        @elseif ($tituloSep == 'Sociedad-Noticia-Completa-soc14')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">LA FRAGATA ARA “LIBERTAD” CULMINÓ SU 51° VIAJE DE
+                                                INSTRUCCIÓN</a>
+                                        </h2>
+                                        <p><i>Se realizó la ceremonia de recibimiento por el regreso del buque escuela
+                                                de la Armada Argentina que arribó hoy al Apostadero Naval Buenos Aires
+                                                en Dársena Norte, tras un periplo de más de cinco meses, que incluyó
+                                                visitas a diez ciudades de países americanos y cuatro argentinas.</i>.
+                                        </p>
+                                        <br>
+                                        <figure>
+                                            <img class="w-full object-cover" src="../img/soc/soc_fragata1.svg"
+                                                alt="">
+                                        </figure>
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                                <p>La Fragata Libertad, embajadora de los mares, cumplió una vez más con
+                                                    su misión principal: la de completar la formación profesional de las
+                                                    distintas promociones de guardiamarinas, al incrementar sus
+                                                    conocimientos náuticos y acrecentar los vínculos de amistad y
+                                                    cooperación con los países visitados. Allí estuvieron presentes el
+                                                    secretario de Asuntos Internacionales, Francisco Cafiero y el jefe
+                                                    de la Armada, almirante Julio Guardia.
+                                                </p>
+                                                <br>
+                                                <p>La Fragata comenzó su 51 ° Viaje de Instrucción el sábado 27 de mayo
+                                                    último cuando zarpó del Apostadero Naval, al mando del capitán de
+                                                    Navío Gonzalo Horacio Nieto. A bordo se encontraban los
+                                                    guardiamarinas en Comisión integrantes de las Promociones 152 ° del
+                                                    Escalafón Comando Naval, 87 ° del Escalafón Infantería de Marina, y
+                                                    108 ° del Cuerpo Profesional, Escalafón Intendencia de la Escuela
+                                                    Naval Militar.
+
+                                                </p>
+                                                <br>
+                                                <p>La tripulación de la Fragata, de 270 personas, de las cuales 48 son
+                                                    mujeres, estuvo compuesta por 26 oficiales, 51 guardiamarinas en
+                                                    Comisión (de los cuales dos son becados de las Armada de Bolivia y
+                                                    de Panamá) y 192 suboficiales. Además, navegaron oficiales invitados
+                                                    de institutos de formación de la Armada Argentina (de los Liceos
+                                                    Navales Militares “Almirante Guillermo Brown” y “Almirante Storni”,
+                                                    de la Escuela de Náutica “Manuel Belgrano” y de la Escuela Nacional
+                                                    Fluvial "Comodoro Antonio Somellera"); de otras Fuerzas Armadas
+                                                    (Ejército Argentino y Fuerza Aérea Argentina); de Fuerzas de
+                                                    Seguridad (Gendarmería Nacional y Prefectura Naval Argentina), y del
+                                                    Instituto del Servicio Exterior de la Nación.
+
+                                                </p>
+                                                <br>
+                                                <p>Asimismo, a lo largo del viaje participaron oficiales de las Armadas
+                                                    de Bolivia, Brasil, Chile, España, Estados Unidos Mexicanos, Italia,
+                                                    Paraguay, Perú y Portugal.</p>
+                                                <br>
+                                                <p>Durante su itinerario, que tuvo una duración de poco más de cinco
+                                                    meses, recorrió un total de 18.260 millas náuticas (aproximadamente
+                                                    33.800 kilómetros). El buque estuvo 161 días fuera de su apostadero
+                                                    natural, de los cuales navegó durante 116 días y permaneció 45 en
+                                                    puertos durante su visita a 10 ciudades extranjeras de América y
+                                                    cuatro de Argentina: Salvador de Bahía (Brasil), Puerto España
+                                                    (Trinidad y Tobago), Baltimore (Estados Unidos de América),
+                                                    Cartagena de Indias (Colombia), Veracruz (Estados Unidos Mexicanos),
+                                                    Limón (Costa Rica), Balboa (Panamá), Guayaquil (Ecuador), El Callao
+                                                    (Perú), Valparaíso (Chile), Ushuaia (Argentina), Comodoro Rivadavia
+                                                    (Argentina), Puerto Madryn (Argentina), finalizando su recorrido en
+                                                    la Ciudad Autónoma de Buenos Aires.
+                                                </p>
+                                                <br>
+                                                <p><b>Viaje de Instrucción</b> </p>
+                                                <br>
+                                                <p>El plan de formación que se lleva a cabo en la Escuela Naval Militar
+                                                    requiere que, a lo largo del trayecto educativo en esa Unidad
+                                                    Académica, los cadetes vayan adaptándose progresivamente a las
+                                                    particularidades, costumbres y tradiciones de la vida a bordo,
+                                                    desarrollando a su vez la práctica efectiva de las actividades
+                                                    profesionales, cuyo sustento académico proviene de los conocimientos
+                                                    impartidos en ese Instituto.
+                                                </p>
+                                                <br>
+                                                <p>En ese sentido, el embarco en el buque escuela Fragata ARA “Libertad”
+                                                    como quinto ciclo de formación teórico-práctico, es parte del Plan
+                                                    de Estudios y materializa la culminación de su etapa formativa
+                                                    donde, a partir de una práctica profesional integrada desarrollada
+                                                    en forma intensiva, se procura consolidar las aptitudes básicas
+                                                    adquiridas, obteniendo mediante un embarco prolongado, la adecuada
+                                                    aplicación y evaluación de los conocimientos aprendidos, una
+                                                    integral adaptación a la vida en el mar y satisfacer las
+                                                    competencias de egreso de los futuros Oficiales de la Armada.</p>
+                                                <br>
+                                                <p>La misión de la Fragata ARA “Libertad” es completar la formación
+                                                    general y profesional de los guardiamarinas en Comisión, acrecentar
+                                                    los vínculos de amistad y cooperación con los países visitados y
+                                                    fomentar la integración interinstitucional con invitados nacionales
+                                                    y extranjeros a fin de cumplir con las exigencias del plan de
+                                                    estudios de la Escuela Naval Militar y representar protocolarmente a
+                                                    la Institución y a la República Argentina.
+                                                </p>
+                                                <br>
+
+
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+                            </li>
+                        </ul>
+                        <br>
+                    </div>
+
+
+                    {{-- columna de la derecha chica --}}
+                    <aside>
+                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                            <div class=" col-span-6">
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/bener-leg2.png') }}"
+                                        alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
+                                        alt="">
+                                </a>
+
+                                <div id="app">
+
+                                    <div v-for="item in info">
+
+                                        <div class="flex-col pb-3">
+                                            <div
+                                                class="flex-col max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg"
+                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
+                                                        alt="" />
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5
+                                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                                            @{{ item.title }}</h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div v-for="va in clima">
+
+                                        <h5
+                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                            @{{ va }}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+                </div>
+            </section>
+        @elseif ($tituloSep == 'Sociedad-Noticia-Completa-soc15')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">TAIANA HIZO ENTREGA DE EQUIPAMIENTO PARA EL ARMA DE
+                                                INGENIEROS</a>
+                                        </h2>
+                                        <p><i>Estuvieron presentes en la entrega el subsecretario de Planeamiento y
+                                                Coordinación Ejecutiva en Emergencias, Martín Fiorenza; el subjefe del
+                                                Estado Mayor General del Ejército, general de División, Diego López
+                                                Blanco; el director de Acciones Pre Escriturarias, Gustavo Alarcón; el
+                                                subsecretario de Hábitat bonaerense, Ruben Pascolini; el director
+                                                general de Ingenieros y Infraestructura del Ejército Argentino, general
+                                                de brigada Jorge Alberto Puebla; y el comandante de Adiestramiento y
+                                                Alistamiento, general de División Gustavo Garcés Luzuriaga.</i>.
+                                        </p>
+                                        <br>
+                                        <figure>
+                                            <img class="w-full object-cover" src="../img/soc/soc_taiana.svg"
+                                                alt="">
+                                        </figure>
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                                <p>El ministro de Defensa, Jorge Taiana, acompañado del jefe del
+                                                    Ejército, teniente general Guillermo Olegario Pereda, encabezó hoy
+                                                    en Campo de Mayo el acto de presentación de la segunda incorporación
+                                                    en el año de equipamiento para el Arma de Ingenieros del Ejército
+                                                    Argentino con recursos provenientes del Fondo Nacional de la Defensa
+                                                    (FONDEF). Esta adquisición de 16 máquinas, que refuerza las
+                                                    capacidades específicas del Arma, es la más importante de las
+                                                    últimas cuatro décadas para este sector de la Fuerza.
+                                                </p>
+                                                <br>
+                                                <p><b>“Este material que costó mucho esfuerzo concretar es de
+                                                        extraordinaria importancia para la recuperación de capacidades
+                                                        del
+                                                        Ejército. Y merece un reconocimiento, ya que se trata de la
+                                                        segunda
+                                                        entrega que hacemos en el año de un equipamiento tan
+                                                        importante”</b>,
+                                                    aseveró Taiana y explicó que “este equipamiento será distribuido en
+                                                    las distintas unidades con presencia de Ingenieros a lo largo y
+                                                    ancho de todo el territorio”.
+                                                </p>
+                                                <br>
+                                                <p>Asimismo, el ministro destacó: “Es un orgullo presentar toda esta
+                                                    maquinaria y ver cómo las Fuerzas Armadas van recuperando
+                                                    capacidades y adquiriendo mayor modernización de sus instrumentos.
+                                                    Esto les permite realizar su tarea de manera más acorde con los
+                                                    tiempos que vivimos, con las necesidades que tenemos y con la
+                                                    presencia activa de las fuerzas listas para defender la soberanía y
+                                                    cumplir eficazmente con las misiones subsidiarias de apoyo a la
+                                                    comunidad”.
+                                                </p>
+                                                <br>
+                                                <p>“Esta nueva adquisición nos estimula a seguir avanzando -afirmó
+                                                    Taiana- a continuar en la tarea de tener un Ejército que esté en las
+                                                    mejores condiciones de defender nuestra soberanía, nuestras
+                                                    riquezas, nuestra democracia y sobre todo, defender lo más valioso
+                                                    que tenemos, nuestro pueblo.”.
+                                                    A su turno, Pereda afirmó que esta entrega “es producto de la
+                                                    inversión que estamos haciendo con los aportes que otorga la ley del
+                                                    FONDEF. En el tercer año de gestión de este fondo, en la cual
+                                                    estamos entrando en un ciclo virtuoso que nos permite tener una
+                                                    mirada de fortalecimiento del Ejército en su conjunto, en sus
+                                                    capacidades”.
+                                                </p>
+                                                <br>
+                                                <p>La incorporación de este equipamiento refuerza las capacidades
+                                                    específicas del Arma de Ingenieros, que se dedica a tareas de
+                                                    construcción, mantenimiento y reparación de infraestructura vial,
+                                                    ferroviaria, hídrica y aeroportuaria, así como a la ejecución de
+                                                    obras de defensa civil y apoyo a la comunidad.
+                                                    En esta oportunidad, se incorporaron seis motoniveladoras, cuatro
+                                                    excavadoras a oruga, cuatro manipuladores telescópicos y dos
+                                                    acoplados tipo semirremolque con cuello desmontable.
+                                                </p>
+                                                <br>
+                                                <p>Las motoniveladoras son equipos altamente versátiles que permiten
+                                                    nivelar terrenos, refinar taludes con diversos ángulos de
+                                                    inclinación y llevar a cabo otras tareas de construcción básica de
+                                                    caminos.
+                                                </p>
+                                                <br>
+                                                <p>Asimismo, las excavadoras sobre orugas se utilizan para excavar,
+                                                    realizar demoliciones, desmontes y limpieza de terrenos. Por otro
+                                                    lado, los manipuladores telescópicos tienen la capacidad de manejar
+                                                    cargas de hasta 5.400 kilogramos y se utilizan para elevar, mover y
+                                                    ubicar material pesado y voluminoso, como vigas, columnas y otros
+                                                    elementos de construcción.
+                                                </p>
+
+                                                <br>
+
+
+
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+                            </li>
+                        </ul>
+                        <br>
+                    </div>
+
+
+                    {{-- columna de la derecha chica --}}
+                    <aside>
+                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                            <div class=" col-span-6">
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/bener-leg2.png') }}"
+                                        alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
+                                        alt="">
+                                </a>
+
+                                <div id="app">
+
+                                    <div v-for="item in info">
+
+                                        <div class="flex-col pb-3">
+                                            <div
+                                                class="flex-col max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg"
+                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
+                                                        alt="" />
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5
+                                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                                            @{{ item.title }}</h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div v-for="va in clima">
+
+                                        <h5
+                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                            @{{ va }}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+                </div>
+            </section>
+        @elseif ($tituloSep == 'Sociedad-Noticia-Completa-soc16')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">TESTIMONIO DE UNA LUCHA: ANA FERNÁNDEZ Y SU LLAMADO POR
+                                                LA DEMOCRACIA EN EL SUBTE</a>
+                                        </h2>
+                                        <p><i>Hija de una sobreviviente de la dictadura argentina, Ana Fernández
+                                                advierte sobre las peligrosas posturas de La Libertad Avanza y su
+                                                reivindicación del terrorismo de Estado.</i>.
+                                        </p>
+                                        <br>
+                                        <figure>
+                                            <img class="w-full object-cover" src="../img/soc/soc_ana.svg"
+                                                alt="">
+                                        </figure>
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                                <p>La lucha por la defensa de la democracia y los derechos humanos se
+                                                    hace visible en cada rincón de la sociedad. En esta ocasión,<b> Ana
+                                                        Fernández, hija de Ana María Careaga y nieta de Esther
+                                                        Ballestrino,
+                                                        fundadora de Madres de Plaza de Mayo</b>, se ha convertido en
+                                                    una voz
+                                                    que interpela a los ciudadanos en el subte, instándoles a no votar
+                                                    por la opción que amenaza. los valores democráticos.
+                                                </p>
+                                                <br>
+                                                <p>Ana relató la trágica historia de su madre, quien fue secuestrada a
+                                                    los 16 años cuando estaba embarazada de ella, su abuela y su destino
+                                                    fatal. Su mensaje apela a la memoria y la defensa de los logros
+                                                    obtenidos después de largas luchas por la democracia y los derechos
+                                                    humanos.
+                                                </p>
+                                                <br>
+                                                <p>La micromilitancia y la exposición clara de lo que representa la
+                                                    ultraderecha se convierte en armas para quienes se movilizan ante la
+                                                    amenaza que supondría un posible gobierno de La Libertad Avanza y su
+                                                    candidato, Javier Milei, y la negacionista Victoria Villarruel.
+                                                </p>
+                                                <br>
+                                                <p>El valiente testimonio de Ana Fernández resuena en un contexto en el
+                                                    que diversas intervenciones en el espacio público cobran fuerza. Su
+                                                    relación personal, marcada por la historia de su familia atravesada
+                                                    por el terrorismo de Estado, <b>refleja la urgencia de preservar los
+                                                        valores democráticos</b>. Este llamado resuena en un contexto en
+                                                    el que
+                                                    testimonios en primera persona, como el de una madre de tres hijos
+                                                    con discapacidad y una víctima de violencia de género, se suman para
+                                                    advertir sobre las propuestas del "libertario" y sus implicaciones
+                                                    para la sociedad.
+
+                                                </p>
+                                                <br>
+                                                <p>Los ciudadanos, movilizados por la necesidad de preservar la memoria,
+                                                    la verdad y la justicia, buscan a través de relaciones personales
+                                                    concientizar y exponer la peligrosidad de ciertas propuestas
+                                                    políticas que amenazan con desandar un pacto civilizatorio forjado
+                                                    con luchas y sacrificios. Ana, cuyo testimonio se viralizó,
+                                                    representa un grito por la democracia, la memoria y los derechos
+                                                    conquistados tras años de resistencia.
+                                                </p>
+                                                <br>
+
+
+
+
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+                            </li>
+                        </ul>
+                        <br>
+                    </div>
+
+
+                    {{-- columna de la derecha chica --}}
+                    <aside>
+                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                            <div class=" col-span-6">
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/bener-leg2.png') }}"
+                                        alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
+                                        alt="">
+                                </a>
+
+                                <div id="app">
+
+                                    <div v-for="item in info">
+
+                                        <div class="flex-col pb-3">
+                                            <div
+                                                class="flex-col max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg"
+                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
+                                                        alt="" />
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5
+                                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                                            @{{ item.title }}</h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div v-for="va in clima">
+
+                                        <h5
+                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                            @{{ va }}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+                </div>
+            </section>
+        @elseif ($tituloSep == 'Sociedad-Noticia-Completa-soc17')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">ESTUDIANTES SE MOVILIZAN CONTRA LOS VOUCHERS DE MILEI</a>
+                                        </h2>
+                                        <p><i>Bajo la consigna "No al Voucher, no al arancel: educación pública en
+                                                alerta", el movimiento estudiantil argentino se pronuncia en contra de
+                                                las propuestas de Milei que amenazan la gratuidad de la educación. </i>.
+                                        </p>
+                                        <br>
+                                        <figure>
+                                            <img class="w-full object-cover" src="../img/soc/soc_vales.svg"
+                                                alt="">
+                                        </figure>
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                                <p>El movimiento estudiantil argentino ha levantado su voz en una
+                                                    protesta masiva, convocada por la Federación Universitaria Argentina
+                                                    (FUA), en rechazo a los vales propuestos por el candidato
+                                                    presidencial de La Libertad Avanza, Javier Milei. En un contexto
+                                                    previo al balotaje, estudiantes de las tres facultades de la
+                                                    Universidad de Buenos Aires y el Ciclo Básico Común (CBC) lanzaron
+                                                    una campaña de afiches y stickers bajo el lema "Los estudiantes no
+                                                    votamos a Milei". Este acto de movilización es una expresión
+                                                    contundente contra las posturas que atentan contra la educación y
+                                                    universidad públicas.
+                                                </p>
+                                                <br>
+                                                <p>Piera Fernández De Piccoli, presidenta de la FUA, enfatizó que el
+                                                    movimiento estudiantil argentino se encuentra en estado de alerta
+                                                    debido a las amenazas constantes a la educación pública, un pilar
+                                                    fundamental de la sociedad argentina. Las propuestas de Milei, que
+                                                    promueven la implementación de vales, son vistas con preocupación
+                                                    por parte de los estudiantes, quienes argumentan que este sistema ha
+                                                    fracasado en otros países y no ha demostrado mejoras en la calidad
+                                                    educativa.
+                                                </p>
+                                                <br>
+                                                <p>El uso de vales, que "subsidian la demanda", otorga a las
+                                                    instituciones educativas el poder de seleccionar a qué estudiantes
+                                                    aceptar y cuáles rechazar, lo que profundiza la desigualdad. Para
+                                                    los estudiantes, esta es una amenaza directa a la educación pública
+                                                    y gratuita en Argentina. La movilización se centró en la Facultad de
+                                                    Derecho de la UBA y congregó a cientos de estudiantes de todo el
+                                                    país.
+                                                </p>
+                                                <br>
+                                                <p>En el marco de esta alerta, estudiantes y docentes realizarán una
+                                                    convocatoria multisectorial en defensa de la Educación Pública con
+                                                    una vigilancia que se llevará a cabo en todas las universidades
+                                                    públicas del país antes de la veda electoral. La movilización busca
+                                                    destacar la importancia de preservar la gratuidad de la educación
+                                                    como un pilar de la sociedad argentina.
+                                                </p>
+                                                <br>
+                                                <p>Este acto de resistencia estudiantil coincide con la campaña de
+                                                    afiches y stickers lanzada en las facultades y sedes del CBC de la
+                                                    UBA, donde los estudiantes expresan su contundente rechazo a las
+                                                    propuestas de Milei. Además, en la Universidad Nacional de San
+                                                    Martín y la Universidad de Tucumán, las organizaciones estudiantiles
+                                                    que lucharon contra la dictadura en los años ochenta llamaron a
+                                                    votar por Sergio Massa, expresando su preocupación por el avance de
+                                                    ideas autoritarias disfrazadas de libertad en la elección actual.
+                                                    presidencial. Las propuestas de campaña de UxP, que incluyen un
+                                                    aumento del presupuesto educativo y la creación de nuevas
+                                                    universidades nacionales, son consideradas por los estudiantes como
+                                                    fundamentales para combatir las desigualdades y garantizar una
+                                                    educación pública, gratuita y de calidad. </p>
+                                                <br>
+
+
+
 
 
                                             </div>
@@ -1983,7 +2606,7 @@
                 mounted() {
 
 
-                    axios.get("https://api.dailymotion.com/videos?channel=news&limit=4")
+                    axios.get("https://api.dailymotion.com/videos?channel=news&limit=3")
                         .then(response => {
                             this.info = response.data.list
                         });

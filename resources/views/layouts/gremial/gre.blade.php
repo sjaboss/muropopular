@@ -1,6 +1,411 @@
 <x-app-layout>
     <div class="container ">
 
+         {{--EN LAS PRÓXIMAS ELECCIONES NO SEREMOS NEUTRALES.. --}} 
+         <section >
+            <ul>
+                <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                    <article>
+
+                        <div class="py-4 px-4 justify-between items-center">
+                            <h2 class="text-xl font-serif  font-bold pb-6">
+                                <a href="">EN LAS PRÓXIMAS ELECCIONES NO SEREMOS NEUTRALES
+                                </a>
+                            </h2>
+                            <p><i>En las próximas elecciones no seremos neutrales. Votaremos, en defensa
+                                    propia a la opción que defiende los postulados básicos de nuestro
+                                    compromiso social y que no implica un retroceso inadmisible a las etapas
+                                    más oscuras de nuestra historia.</i>
+                            </p>
+                            <br>
+
+                            <figure>
+                                <img class=" w-full object-cover" src="../img/grem/grem_actores.svg"
+                                    alt="">
+                            </figure>
+                            <br>
+                            <div
+                                class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                <div class=" font-sans text-lg text-left col-span-6  ">
+                                    <p>Dentro de pocos días se definirá cuál de dos modelos de país será el
+                                        que se desarrolle en los próximos cuatro años. El estatuto de la AAA
+                                        dice taxativamente: “se impone la prohibición de toda acción
+                                        política partidista”. Pero también en el mismo párrafo dice que “se
+                                        establece la obligatoriedad de colaborar en el afianzamiento y
+                                        respeto del régimen democrático y las libertades republicanas”.</b>
+                                    </p>
+                                    <br>
+                                    <p>¿Qué hacer cuando una de las opciones partidarias representa lo
+                                        contrario de lo que el estatuto obliga a defender? ¿Qué hacer cuando
+                                        uno de los candidatos expresa desembozadamente el autoritarismo,
+                                        reivindicando todos los postulados económicos, políticos e incluso
+                                        el accionar represivo de la dictadura y representa un ataque directo
+                                        a los derechos conseguidos después de largas luchas?
+                                    </p>
+                                    <br>
+                                    <p>En estas circunstancias especiales, creemos que es necesario un
+                                        compromiso especial, activo, sin falsas “neutralidades”, y ello
+                                        implica concurrir a votar por el proyecto que mejor represente los
+                                        intereses de la población y de nuestro sector. Como ya lo advertimos
+                                        cuando las propuestas eran meras declaraciones periodísticas de uno
+                                        de los candidatos, hoy reafirmadas en su plataforma electoral:
+                                        actuaremos en defensa propia.
+                                    </p>
+                                    <br>
+                                    <p>Porque es propia la esperanza de que a través de la <b>MEMORIA</b> se
+                                        llegue a la <b>VERDAD</b> que imponga la <b>JUSTICIA</b> para las
+                                        víctimas del terrorismo de Estado perpetrado por la última dictadura
+                                        cívico militar (Son 30.000, y entre ellos están nuestros 28
+                                        compañeros y compañeras detenidos/desaparecidos).
+                                    </p>
+                                    <br>
+                                    <p>Porque son propios los derechos laborales que amenazan con
+                                        arrebatarnos. Porque es propio un sistema jubilatorio estatal al que
+                                        accedimos luego de muchos años de lucha para ser considerados
+                                        trabajadores en relación de dependencia a través de nuestra Ley del
+                                        Actor.
+                                    </p>
+                                    <br>
+                                    <p>Porque son propias las fuentes laborales que se generan con subsidios
+                                        del INCAA, el INT, y otros organismos de fomento provinciales y
+                                        nacionales que son amenazados en forma directa, y es nuestra (y de
+                                        todxs) la cultura e identidad que generan en cada rincón del país.
+                                    </p>
+                                    <br>
+                                    <p>Porque es propio nuestro sistema solidario de salud implementado a
+                                        través de nuestra Obra Social de Actores (OSA) que, como todo
+                                        sistema solidario, sería arrasado con la quita de subsidios.</p>
+                                    <br>
+                                    <p>Porque es propia la estructura sindical que construimos a lo largo de
+                                        104 años de existencia respetando la convivencia democrática. Y,
+                                        sobre todo, porque es propia la democracia misma y los avances
+                                        logrados en materia de derechos civiles, derechos de la mujer y
+                                        diversidades. Es propia la salud y la educación pública.</p>
+                                    <br>
+                                    <p>Por lo tanto, en las próximas elecciones no seremos neutrales.
+                                        Votaremos, en defensa propia a la opción que defiende los postulados
+                                        básicos de nuestro compromiso social y que no implica un retroceso
+                                        inadmisible a las etapas más oscuras de nuestra historia.</p>
+                                    <br>
+                                    <p><b>Consejo Integral Asociación Argentina de Actores y Actrices</b>
+                                    </p>
+                                    <br>
+
+
+
+                                </div>
+                            </div>
+                    </article>
+                </li>
+            </ul>
+        </section>
+        <br><br>
+
+        {{--LA CGT ENVÍA UN PETITORIO DE 15 PUNTOS.. --}} 
+        <section >
+            <ul>
+                <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                    <article>
+
+                        <div class="py-4 px-4 justify-between items-center">
+                            <h2 class="text-xl font-serif  font-bold pb-6">
+                                <a href="">LA CGT ENVÍA UN PETITORIO DE 15 PUNTOS A MASSA Y MILEI EN
+                                    DEFENSA DE LOS TRABAJADORES Y SUS DERECHOS
+                                </a>
+                            </h2>
+                            <p><i>La central obrera busca clarificar la postura de los candidatos sobre
+                                    legislación laboral a pocos días del balotaje.</i>
+                            </p>
+                            <br>
+
+                            <figure>
+                                <img class=" w-full object-cover" src="../img/grem/grem_15puntos.svg"
+                                    alt="">
+                            </figure>
+                            <br>
+                            <div
+                                class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                <div class=" font-sans text-lg text-left col-span-6  ">
+                                    <p>La Confederación General del Trabajo (CGT) presentó un petitorio de
+                                        15 puntos dirigido a los candidatos Sergio Massa y Javier Milei,
+                                        enfocado en la defensa de los derechos laborales y la aclaración de
+                                        sus posturas sobre legislación laboral. Durante una conferencia de
+                                        prensa, los triunviros Héctor Daer, Pablo Moyano y Carlos Acuña,
+                                        acompañados por la ministra de Trabajo, Raquel Kelly Olmos,
+                                        revelaron este documento para obtener respuestas públicas de los
+                                        candidatos respecto a temas laborales.</b>
+                                    </p>
+                                    <br>
+                                    <p>Entre los puntos más destacados del petitorio se encuentran: la
+                                        ratificación del derecho al trabajo según lo establecido en la
+                                        Constitución Nacional, la defensa de los derechos colectivos e
+                                        individuales a través de convenios colectivos y paritarias libres,
+                                        la progresividad de los derechos laborales y sociales para una
+                                        sociedad más justa y la convocatoria regular al Consejo de Salario
+                                        Mínimo, Vital y Móvil.
+                                    </p>
+                                    <br>
+                                    <p>Durante la presentación, Daer destacó la importancia de estas
+                                        respuestas para los indecisos, subrayando que "las respuestas de los
+                                        candidatos van a ayudar a los indecisos a tomar una decisión". Sin
+                                        embargo, Moyano sugirió que ya tenían una idea de las respuestas que
+                                        darían ambos candidatos, mientras Daer reiteró la preferencia por
+                                        Massa y cuestionó las políticas que podría implementar Milei,
+                                        mencionando que "si dicen que va a recortar el 15 por ciento del
+                                        presupuesto, olvídense que puedan estar pensando en la Constitución
+                                        Nacional".
+                                    </p>
+                                    <br>
+                                    <p>El petitorio, que incluye aspectos que van desde el derecho al
+                                        trabajo hasta la promoción de empleabilidad y el fortalecimiento de
+                                        la educación pública, busca poner en foco los temas fundamentales
+                                        que la CGT considera trascendentales para la protección y desarrollo
+                                        de los trabajadores en el país.
+                                    </p>
+                                    <br>
+                                    <p><b>El petitorio, respaldado por la CGT, apunta a lograr que los
+                                        candidatos se pronuncien sobre los siguientes puntos clave:</b>
+                                    </p>
+                                    <br>
+                                    <p>1- Ratificar la plena vigencia del derecho al trabajo, como lo
+                                        establece la Constitución Nacional.</p>
+                                    <br>
+                                    <p>2- Defender los derechos colectivos e individuales de los
+                                        trabajadores, incluyendo la protección laboral, paritarias libres y
+                                        una mejor distribución del ingreso.</p>
+                                    <br>
+                                    <p>3- Promover la progresividad de los derechos laborales y sociales
+                                        para construir una sociedad más justa.</p>
+                                    <br>
+                                    <p>4- Convocar regularmente al Consejo de Salario Mínimo, Vital y Móvil,
+                                        el cual establece el salario mínimo de los trabajadores.</p>
+                                    <br>
+                                    <p>5- Garantizar la implementación y funcionamiento del Consejo
+                                        Económico y Social (CES), un órgano de participación ciudadana para
+                                        debatir prioridades estratégicas para el desarrollo del país.</p>
+                                    <br>
+                                    <p>6- Establecer los fueros de la Justicia del Trabajo como el único
+                                        órgano jurisdiccional para cuestiones laborales.</p>
+                                    <br>
+                                    <p>7- Promover el trabajo registrado y digno con remuneración justa,
+                                        acceso a la salud, la educación y el esparcimiento.</p>
+                                    <br>
+                                    <p>8- Asegurar el pleno funcionamiento y financiamiento adecuado de los
+                                        sistemas de seguridad social, que incluyen atención médica,
+                                        seguridad laboral, jubilaciones y pensiones.</p>
+                                    <br>
+                                    <p>9- Fomentar la empleabilidad a través del aprendizaje continuo y la
+                                        formación técnico-profesional de los trabajadores para aumentar la
+                                        productividad.</p>
+                                    <br>
+                                    <p>10- Implementar el Convenio número 190 y las Recomendaciones 206 de
+                                        la Organización Internacional del Trabajo (OIT) sobre la violencia y
+                                        el acoso en el trabajo, garantizando igualdad de género y
+                                        diversidad.</p>
+                                    <br>
+                                    <p>11- Involucrar a los sindicatos en las políticas de vivienda para
+                                        satisfacer las necesidades de los trabajadores y sus familias.</p>
+                                    <br>
+                                    <p>12- Proteger a los trabajadores y sus familias a través del sistema
+                                        previsional y de seguridad social, garantizando jubilaciones
+                                        ajustables automáticamente con los promedios de salario establecidos
+                                        en los convenios colectivos.</p>
+                                    <br>
+                                    <p>13- Reducir la jornada laboral acordada mediante convenios colectivos
+                                        y adaptada a diferentes realidades.</p>
+                                    <br>
+                                    <p>14- Preservar la educación pública, obligatoria y gratuita en
+                                        Argentina, conforme a las leyes nacionales.</p>
+                                    <br>
+                                    <p>15- Invertir en obras públicas que impulsen políticas energéticas,
+                                        viales, educativas y de salud, además de la participación del Estado
+                                        en empresas de servicios públicos.</p>
+                                    <br>
+
+
+                                </div>
+                            </div>
+                    </article>
+                </li>
+            </ul>
+        </section>
+        <br><br>
+
+           {{--CGT PROPONE MINISTERIO DE DEPORTES EN GESTIÓN MASSA.. --}} 
+           <section >
+            <ul>
+                <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                    <article>
+
+                        <div class="py-4 px-4 justify-between items-center">
+                            <h2 class="text-xl font-serif  font-bold pb-6">
+                                <a href="">CGT PROPONE MINISTERIO DE DEPORTES EN GESTIÓN MASSA
+                                </a>
+                            </h2>
+                            <p><i>La Confederación General del Trabajo (CGT), en colaboración con un amplio
+                                    espectro de entidades deportivas y políticas, ha presentado una
+                                    propuesta: la creación de un ministerio de deportes bajo una eventual
+                                    presidencia de Sergio Massa tras el balotaje del 19 de noviembre. Este
+                                    proyecto tiene como objetivo principal mejorar la calidad de vida de la
+                                    sociedad argentina a través de la cultura física y el deporte.</i>
+                            </p>
+                            <br>
+                           
+                            <figure>
+                                <img class=" w-full object-cover" src="../img/grem/grem_cgt.svg"
+                                    alt="">
+                            </figure>
+                            <br>
+                            <div
+                                class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                <div class=" font-sans text-lg text-left col-span-6  ">
+                                    <p>En una reunión masiva en la sede de la CGT, la Mesa Nacional del Deporte,
+                                        integrada por diversos sectores sociales y políticos, ha elaborado un
+                                        detallado documento donde se manifiesta la necesidad de un ministerio
+                                        dedicado al deporte. El texto enfatiza <b>la importancia de diseñar e
+                                        implementar políticas públicas que promuevan el deporte en todas sus formas,
+                                        subrayando la necesidad de reactivar organismos como el Consejo Nacional del
+                                        Deporte y los Consejos Provinciales y Municipales del Deporte.</b>
+                                    </p>
+                                    <br>
+                                    <p>La propuesta cuenta con un amplio respaldo de figuras relevantes en
+                                        el ámbito deportivo y político. Entre los participantes se
+                                        encontraban dirigentes de la CTA, el Comité Olímpico Argentino,
+                                        sindicatos, federaciones, clubes de barrio y agrupaciones políticas
+                                        que convergen bajo el paraguas de Unión por la Patria. También
+                                        asistieron funcionarios provinciales y municipales, deportistas
+                                        reconocidos y exfuncionarios del ámbito deportivo.
+                                    </p>
+                                    <br>
+                                    <p>Entre los puntos clave del proyecto se encuentra la transformación de
+                                        los jugadores en clubes deportivos, la promoción de competencias
+                                        nacionales, el fomento de deportes adaptados y programas de
+                                        desarrollo, así como la implementación de leyes que garantizan
+                                        igualdad de género en el deporte y mejoras en infraestructuras
+                                        deportivas en clubes y colegios.
+                                    </p>
+                                    <br>
+                                    <p>En palabras de <b>Fernando "Pato" Galmarini</b>, exsecretario de Deportes de
+                                        la Nación, <b>"el deporte es esencial para la construcción de una
+                                        sociedad más justa".</b> Asimismo, se destaca la necesidad de un apoyo
+                                        sostenido desde el gobierno nacional para potenciar la identidad y
+                                        proyectos deportivos de largo alcance.
+                                    </p>
+                                    <br>
+                                    <p>La Mesa Nacional del Deporte plantea esta propuesta como una
+                                        herramienta para marcar el rumbo del país en los próximos años y
+                                        como una visión estratégica de referencia para las próximas dos
+                                        décadas. Se enfoca en implementar regulaciones y leyes que impulsen
+                                        la actividad deportiva a nivel nacional y promuevan el desarrollo
+                                        sostenible en este ámbito.
+                                    </p>
+                                    <br>
+                                    <p>La iniciativa apunta a la creación de un bloque normativo que regule
+                                        la actividad deportiva a través de leyes ya existentes y
+                                        modificaciones para fortalecer el marco legal. Es vista como un paso
+                                        esencial para una planificación estratégica que impulsará el deporte
+                                        argentino en los próximos años y décadas, en sintonía con un enfoque
+                                        de progreso a largo plazo.
+                                    </p>
+                                    <br>
+
+
+                                </div>
+                            </div>
+                    </article>
+                </li>
+            </ul>
+        </section>
+        <br><br>
+
+               {{--DANIEL CATALANO: FIRMEZA Y UNIDAD..... --}} 
+               <section >
+                <ul>
+                    <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                        <article>
+
+                            <div class="py-4 px-4 justify-between items-center">
+                                <h2 class="text-xl font-serif  font-bold pb-6">
+                                    <a href="">DANIEL CATALANO: FIRMEZA Y UNIDAD PARA ENFRENTAR DESAFÍOS
+                                        POLÍTICOS
+                                    </a>
+                                </h2>
+                                <p><i>En un acto multitudinario, Daniel Catalano asume un nuevo mandato en ATE
+                                    Capital y llama a la unidad de los trabajadores para afrontar los desafíos
+                                    electorales y construir una política alternativa en la Ciudad.</i>
+                                </p>
+                                <br>
+                                <p>En un acto que reunió a un variado espectro político del campo nacional y
+                                    popular, así como a figuras destacadas de sindicatos, organizaciones
+                                    sociales, políticas y de derechos humanos, Daniel Catalano asumió un nuevo
+                                    mandato al frente de ATE Capital. En este evento, se delinearon los desafíos
+                                    que la organización enfrentará en el futuro cercano, incluyendo la
+                                    construcción de una alternativa política real a la derecha en la Ciudad de
+                                    Buenos Aires.
+                                </p>
+                                <br>
+                                <figure>
+                                    <img class=" w-full object-cover" src="../img/grem/grem_tano.svg"
+                                        alt="">
+                                </figure>
+                                <br>
+                                <div
+                                    class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                    <div class=" font-sans text-lg text-left col-span-6  ">
+                                        <p>Con un auditorio repleto de afiliados y militantes, el humorista,
+                                            director y conductor Dady Brieva ofreció un discurso que combinó
+                                            reflexión y humor. Posteriormente, a través de un video
+                                            institucional, se repasaron los logros y desafíos de ATE Capital
+                                            desde 2015, cuando Catalano ganó la dirección del sindicato.
+                                        </p>
+                                        <br>
+                                        <p>Hugo Yasky, Diputado Nacional y Secretario General de la CTA-T,
+                                            expresó su agradecimiento por la continuación del legado de Germán
+                                            Abdala y el compromiso de formar líderes políticos a la altura de
+                                            las circunstancias.
+                                        </p>
+                                        <br>
+                                        <p>Agustina Panissa, Secretaria Adjunta reelecta, afirmó: "Estamos
+                                            convencidos de que esta conducción está a la altura del momento,
+                                            frente al avance de las derechas más reaccionarias". Subrayó la
+                                            importancia de la unidad de los trabajadores que comparten un
+                                            proyecto de país basado en la igualdad, los derechos y la justicia
+                                            social.
+                                        </p>
+                                        <br>
+                                        <p>En su discurso, Daniel Catalano llamó a "buscar a cada uno de los
+                                            argentinos que eligieron a Javier Milei" y enfatizó la necesidad de
+                                            un "debate profundo" en las bases. Aseguró que no están dispuestos a
+                                            naturalizar el surgimiento de la ultraderecha en el país y subrayó
+                                            su determinación para enfrentar cualquier desafío que surja.
+                                        </p>
+                                        <br>
+                                        <p>El Secretario General destacó que están preparados para dar todas las
+                                            batallas necesarias y que la responsabilidad es buscar la unidad con
+                                            todos los trabajadores que compartan la visión de un país más
+                                            igualitario, con más derechos y justicia social.
+                                        </p>
+                                        <br>
+                                        <p>El acto tuvo lugar en el Auditorio "Roberto Carri" de la Facultad de
+                                            Ciencias Sociales de la UBA y contó con la presencia de destacadas
+                                            personalidades, entre ellas Kelly Olmos, Taty Almeida, Hugo Yasky,
+                                            Amado Boudou, Marta Pujadas, y muchos otros. Catalano concluyó su
+                                            discurso llamando a la movilización ya votar en el balotaje el
+                                            próximo 19 de noviembre en apoyo a la fórmula de Unidad por la
+                                            Patria, liderada por Sergio Massa y Agustín Rossi. El auditorio
+                                            respondió con una ovación y de pie.
+                                        </p>
+                                        <br>
+
+
+                                    </div>
+                                </div>
+                        </article>
+                    </li>
+                </ul>
+            </section>
+            <br><br>
+
           {{--PRIMER CONGRESO NACIONAL DE LA RED INTERSINDICAL..... --}} 
         <section >
             <ul>

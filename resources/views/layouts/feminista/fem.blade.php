@@ -1,6 +1,101 @@
 <x-app-layout>
     <div class="container ">
 
+{{-- EL GOBIERNO NACIONAL IMPULSA LA GEOLOCALIZACÓN.... --}}
+<section>
+    <ul>
+        <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+            <article>
+
+                <div class="py-4 px-4 justify-between items-center">
+                    <h2 class="text-xl font-serif  font-bold pb-6">
+                        <a href="">EL GOBIERNO NACIONAL IMPULSA LA GEOLOCALIZACÓN DE
+                            CUIDADORAS Y CUIDADORES CON LA ACTUALIZACIÓN DEL MAPA FEDERAL DEL
+                            CUIDADO </a>
+                    </h2>
+                    <p><i>Se trata de una iniciativa del Ministerio de las Mujeres, Géneros y
+                            Diversidad, que ahora permite geolocalizar a 8.800 cuidadoras y
+                            cuidadores domiciliarios en todo el país.</i>
+                    </p>
+                    <br>
+                    <figure>
+                        <img class="w-full object-cover" src="../img/fem/fem_geoloca.svg"
+                            alt="">
+                    </figure>
+                    <br>
+                    <div
+                        class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                        <div class=" font-sans text-lg text-left col-span-6  ">
+                            <p>El Gobierno Nacional de Argentina ha presentado las nuevas
+                                funcionalidades del Mapa Federal del Cuidado, una iniciativa del
+                                Ministerio de las Mujeres, Géneros y Diversidad, que ahora permite
+                                geolocalizar a 8.800 cuidadoras y cuidadores domiciliarios en todo
+                                el país. Con más de 34.000 espacios de cuidado y 1.000 espacios de
+                                formación georreferenciados, esta herramienta se convierte en un
+                                recurso clave para las familias que buscan servicios de cuidado y
+                                para los trabajadores del cuidado en busca de oportunidades
+                                laborales.
+                            </p>
+                            <br>
+                            <p>La actualización, en vigor desde noviembre de 2023, facilita a las
+                                familias encontrar trabajadores certificados en su localidad para
+                                servicios de cuidado, mientras que ofrece a los trabajadores del
+                                cuidado una plataforma para localizar oportunidades laborales en sus
+                                áreas de residencia, promoviendo así la economía local.
+                            </p>
+                            <br>
+                            <p>La presentación tuvo lugar en la última reunión de la Mesa
+                                Interministerial de Políticas de Cuidado, encabezada por la ministra
+                                de las Mujeres, Géneros y Diversidad, Ayelén Mazzina, la ministra de
+                                Trabajo, Empleo y Seguridad Social, Kelly Olmos, y el jefe de
+                                Gabinete. de Ministros, Agustín Rossi. Esta mesa, que reúne a 15
+                                organismos del Poder Ejecutivo Nacional, ha desempeñado un papel
+                                fundamental en la implementación de políticas de cuidado en
+                                Argentina.
+                            </p>
+                            <br>
+                            <p>La ministra Mazzina destacó los logros de los últimos cuatro años al
+                                poner los cuidados en el centro de las políticas públicas y la
+                                agenda de género. Enfatizó la importancia de pensar en el modelo de
+                                país que se desea y subrayó que la independencia económica de las
+                                mujeres y la comunidad LGBTI+ son prioridades para una Argentina
+                                justa.
+                            </p>
+                            <br>
+                            <p>El jefe de Gabinete, Agustín Rossi, resaltó la necesidad de sostener
+                                y aumentar las políticas de cuidado, mencionando el compromiso del
+                                gobierno con la igualdad salarial entre hombres y mujeres.
+                            </p>
+                            <br>
+                            <p>Kelly Olmos, ministra de Trabajo, expresó que se ha avanzado
+                                significativamente en reconocer los derechos de las trabajadoras y
+                                trabajadores del cuidado y abogó por mantener el objetivo de
+                                alcanzar a todos en el sistema de derechos. </p>
+                            <br>
+                            <p>La actualización del Mapa Federal del Cuidado incluye información
+                                sobre más de 8,000 trabajadores y trabajadores con formación
+                                específica en cuidado gerontológico, cuidados para la primera
+                                infancia, cooperativas de cuidado, y más. Además, se presentó el 3°
+                                Informe Anual de Políticas de Cuidado, destacando los avances
+                                realizados en 2023 y la necesidad de continuar reorganizando los
+                                cuidados en la sociedad.</p>
+                            <br>
+                            <p>Con estas iniciativas, el Gobierno argentino reafirma su compromiso
+                                con la equidad de género, la valoración del trabajo de cuidado y la
+                                construcción de una sociedad más justa. La Mesa Interministerial de
+                                Políticas de Cuidado continuará su labor para impulsar políticas y
+                                acciones que beneficien a todos y todos en el sistema de derechos.
+                            </p>
+                            <br>
+
+
+                        </div>
+                    </div>
+            </article>
+        </li>
+    </ul>
+ </section>
+  <br><br>
 {{-- LIBERTAD A YESSICA BONNEFOI CARRIQUEO ANTIMIL.... --}}
 <section>
    <ul>

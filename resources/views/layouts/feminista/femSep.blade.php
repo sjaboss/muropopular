@@ -2010,15 +2010,18 @@
                                         <div
                                             class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
                                             <div class=" font-sans text-lg text-left col-span-6  ">
-                                                <p>El 4 de octubre se cumplen 17 años de la sanción de la<b> Ley 26.150 de
-                                                    Educación Sexual Integral (ESI)</b>, una norma fundamental que reconoce
+                                                <p>El 4 de octubre se cumplen 17 años de la sanción de la<b> Ley 26.150
+                                                        de
+                                                        Educación Sexual Integral (ESI)</b>, una norma fundamental que
+                                                    reconoce
                                                     el derecho de niñas, niños, adolescentes, jóvenes y personas adultas
                                                     a recibir educación sexual integral en todos los establecimientos
                                                     educativos del país, de todos los niveles, modalidades y tipos de
                                                     gestión.
                                                 </p>
                                                 <br>
-                                                <p>La propuesta pedagógica de la <b>ESI</b> aborda los conceptos de manera
+                                                <p>La propuesta pedagógica de la <b>ESI</b> aborda los conceptos de
+                                                    manera
                                                     transversal y en espacios específicos. Incluye el desarrollo de
                                                     saberes y habilidades sobre los cinco ejes conceptuales en los que
                                                     se trabaja: el cuidado del propio cuerpo; la valoración de las
@@ -2033,22 +2036,26 @@
                                                     la Nación (MMGyD) llevó adelante distintas acciones abordando los
                                                     contenidos de la ESI en el marco del Programa Nacional de Prevención
                                                     de las Violencias por Motivos de Género que es parte del <b>Plan
-                                                    Nacional de Acción contra las Violencias de Género 2020-2022 y
-                                                    2022-2024.</b> El objetivo principal es promover la perspectiva de
+                                                        Nacional de Acción contra las Violencias de Género 2020-2022 y
+                                                        2022-2024.</b> El objetivo principal es promover la perspectiva
+                                                    de
                                                     género y diversidad en las trayectorias educativas desde un enfoque
                                                     de derechos humanos.
                                                 </p>
                                                 <br>
                                                 <p><b>Acciones para pensar los contenidos de la ESI en clave de género y
-                                                    diversidad</b>
+                                                        diversidad</b>
                                                 </p>
                                                 <br>
                                                 <p>En articulación con el Ministerio de Educación de la Nación, se
-                                                    continuó y finalizó el ciclo<b> “La ESI como herramienta para prevenir
-                                                    las violencias por motivos de género”</b> que llegó a todo el país con
+                                                    continuó y finalizó el ciclo<b> “La ESI como herramienta para
+                                                        prevenir
+                                                        las violencias por motivos de género”</b> que llegó a todo el
+                                                    país con
                                                     la participación de más de mil personas entre docentes, integrantes
                                                     de equipos ESI del <b>Plan Nacional de Prevención del Embarazo no
-                                                    Intencional en la Adolescencia (ENIA)</b> y de áreas de género tanto
+                                                        Intencional en la Adolescencia (ENIA)</b> y de áreas de género
+                                                    tanto
                                                     provinciales como locales.
                                                 </p>
                                                 <br>
@@ -2069,15 +2076,19 @@
                                                 <br>
                                                 <p>Por último, el MMGyD y el Ministerio de Educación de la Nación
                                                     elaboraron el material Violencias por motivos de género, propuestas
-                                                    para trabajar en las escuelas, en el marco del 25 de noviembre,<b> Día
-                                                    Internacional de la Eliminación de la Violencia contra las Mujeres,
-                                                    y la campaña internacional 16 días de activismo contra la violencia
-                                                    de género.</b> Se trata de un conjunto de herramientas para reflexionar
+                                                    para trabajar en las escuelas, en el marco del 25 de noviembre,<b>
+                                                        Día
+                                                        Internacional de la Eliminación de la Violencia contra las
+                                                        Mujeres,
+                                                        y la campaña internacional 16 días de activismo contra la
+                                                        violencia
+                                                        de género.</b> Se trata de un conjunto de herramientas para
+                                                    reflexionar
                                                     sobre los tipos y modalidades de violencias y la importancia de
                                                     construir entornos libres de estas.
                                                 </p>
                                                 <br>
-                                               
+
                                             </div>
                                         </div>
                                 </article>
@@ -2151,9 +2162,14 @@
 
                                     <div class="py-4 px-4 justify-between items-center">
                                         <h2 class="text-xl font-serif  font-bold pb-6">
-                                            <a href="">LIBERTAD A YESSICA BONNEFOI CARRIQUEO ANTIMIL: UN LLAMADO URGENTE A LA JUSTICIA </a>
+                                            <a href="">LIBERTAD A YESSICA BONNEFOI CARRIQUEO ANTIMIL: UN LLAMADO
+                                                URGENTE A LA JUSTICIA </a>
                                         </h2>
-                                        <p><i>Desde el Movimiento de Mujeres y Diversidades Indígenas por el Buen Vivir, se alza la voz en un grito de indignación y solidaridad hacia la lamngen Yessica Bonnefoi Carriqueo Antimil, quien se encuentra privada de su libertad en circunstancias que claramente evidencian la persecución y criminalización continua del pueblo Mapuche por parte del Estado.</i>
+                                        <p><i>Desde el Movimiento de Mujeres y Diversidades Indígenas por el Buen Vivir,
+                                                se alza la voz en un grito de indignación y solidaridad hacia la lamngen
+                                                Yessica Bonnefoi Carriqueo Antimil, quien se encuentra privada de su
+                                                libertad en circunstancias que claramente evidencian la persecución y
+                                                criminalización continua del pueblo Mapuche por parte del Estado.</i>
                                         </p>
                                         <br>
                                         <figure>
@@ -2164,26 +2180,207 @@
                                         <div
                                             class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
                                             <div class=" font-sans text-lg text-left col-span-6  ">
-                                                <p>La historia de la "conquista del desierto" puede haber quedado en los anales de la historia, pero su impacto sigue resonando en la vida de los pueblos originarios, y es un recordatorio constante de la brutalidad y el racismo que enfrentan. El Estado, en lugar de reconocer los derechos y la dignidad de los pueblos indígenas, continúa perpetuando prácticas de persecución, encarcelamiento y violencia.
+                                                <p>La historia de la "conquista del desierto" puede haber quedado en los
+                                                    anales de la historia, pero su impacto sigue resonando en la vida de
+                                                    los pueblos originarios, y es un recordatorio constante de la
+                                                    brutalidad y el racismo que enfrentan. El Estado, en lugar de
+                                                    reconocer los derechos y la dignidad de los pueblos indígenas,
+                                                    continúa perpetuando prácticas de persecución, encarcelamiento y
+                                                    violencia.
                                                 </p>
                                                 <br>
-                                                <p>Yessica Bonnefoi Carriqueo Antimil es una víctima más de esta realidad. Fue condenada a 6 meses en suspenso en lo que parece ser una causa armada con el único propósito de criminalizar a un miembro más del pueblo Mapuche. Es importante destacar que Yessica es una presa política Mapuche, cuyo único "delito" es ser parte de una comunidad que busca defender sus derechos y su tierra ancestral.
+                                                <p>Yessica Bonnefoi Carriqueo Antimil es una víctima más de esta
+                                                    realidad. Fue condenada a 6 meses en suspenso en lo que parece ser
+                                                    una causa armada con el único propósito de criminalizar a un miembro
+                                                    más del pueblo Mapuche. Es importante destacar que Yessica es una
+                                                    presa política Mapuche, cuyo único "delito" es ser parte de una
+                                                    comunidad que busca defender sus derechos y su tierra ancestral.
                                                 </p>
                                                 <br>
-                                                <p>Lo que es aún más alarmante es el trato inhumano al que se ve sometida Yessica mientras está privada de su libertad. Lleva más de 40 días en una celda de dimensiones mínimas (2 x 1,5 metros) en condiciones que son indignas de cualquier ser humano. Su situación es un reflejo del abuso de poder y la negligencia que sufren los miembros de la comunidad Mapuche que se atreven a levantar la voz.
+                                                <p>Lo que es aún más alarmante es el trato inhumano al que se ve
+                                                    sometida Yessica mientras está privada de su libertad. Lleva más de
+                                                    40 días en una celda de dimensiones mínimas (2 x 1,5 metros) en
+                                                    condiciones que son indignas de cualquier ser humano. Su situación
+                                                    es un reflejo del abuso de poder y la negligencia que sufren los
+                                                    miembros de la comunidad Mapuche que se atreven a levantar la voz.
                                                 </p>
                                                 <br>
-                                                <p>El 11 de octubre se conmemora el último día de libertad de los pueblos indígenas, un recordatorio sombrío de la opresión histórica que han enfrentado. En Puelmapu y en todo el territorio indígena, persiste un sistema colonizador que no ha terminado y que sigue avanzando con impunidad sobre la vida y la libertad de personas como Yessica, así como sobre todas aquellas que luchan por sus derechos y su identidad.
+                                                <p>El 11 de octubre se conmemora el último día de libertad de los
+                                                    pueblos indígenas, un recordatorio sombrío de la opresión histórica
+                                                    que han enfrentado. En Puelmapu y en todo el territorio indígena,
+                                                    persiste un sistema colonizador que no ha terminado y que sigue
+                                                    avanzando con impunidad sobre la vida y la libertad de personas como
+                                                    Yessica, así como sobre todas aquellas que luchan por sus derechos y
+                                                    su identidad.
                                                 </p>
                                                 <br>
-                                                <p>Se hace un llamado urgente a la justicia y a la solidaridad internacional. Se exige la inmediata liberación de Yessica Bonnefoi Carriqueo Antimil y el cese de la persecución contra el pueblo Mapuche. Es hora de que el Estado reconozca los derechos y la dignidad de los pueblos originarios y ponga fin a esta injusticia que ha perdurado durante demasiado tiempo.
+                                                <p>Se hace un llamado urgente a la justicia y a la solidaridad
+                                                    internacional. Se exige la inmediata liberación de Yessica Bonnefoi
+                                                    Carriqueo Antimil y el cese de la persecución contra el pueblo
+                                                    Mapuche. Es hora de que el Estado reconozca los derechos y la
+                                                    dignidad de los pueblos originarios y ponga fin a esta injusticia
+                                                    que ha perdurado durante demasiado tiempo.
                                                 </p>
                                                 <br>
-                                                <p><b>¡LIBERTAD YA PARA LA LAMIEN YESSICA BONNEFOI CARRIQUEO ANTIMIL!</b>
+                                                <p><b>¡LIBERTAD YA PARA LA LAMIEN YESSICA BONNEFOI CARRIQUEO
+                                                        ANTIMIL!</b>
                                                 </p>
                                                 <br>
-                                               
-                                               
+
+
+                                            </div>
+                                        </div>
+                                </article>
+                            </li>
+                        </ul>
+                    </div>
+
+
+                    {{-- columna de la derecha chica --}}
+                    <aside>
+                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                            <div class=" col-span-6">
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/recurso 1.png') }}" alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/APSE.gif') }}" alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
+                                        alt="">
+                                </a>
+
+
+
+                                <div id="app">
+
+                                    <div v-for="item in info">
+
+                                        <div class="flex-col pb-3">
+                                            <div
+                                                class="flex-col max-w-sm  border  border-gray-700 rounded-lg shadow bg-gray-800">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg"
+                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
+                                                        alt="" />
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5 class="mb-2 text-2xl font-bold tracking-tight  text-white">
+                                                            @{{ item.title }}</h5>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div v-for="va in clima">
+
+                                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-white">
+                                            @{{ va }}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+
+                </div>
+
+            </section>
+        @elseif ($tituloSep == 'Agenda-Feminista-Completa-fem15')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">EL GOBIERNO NACIONAL IMPULSA LA GEOLOCALIZACÓN DE
+                                                CUIDADORAS Y CUIDADORES CON LA ACTUALIZACIÓN DEL MAPA FEDERAL DEL
+                                                CUIDADO </a>
+                                        </h2>
+                                        <p><i>Se trata de una iniciativa del Ministerio de las Mujeres, Géneros y
+                                                Diversidad, que ahora permite geolocalizar a 8.800 cuidadoras y
+                                                cuidadores domiciliarios en todo el país.</i>
+                                        </p>
+                                        <br>
+                                        <figure>
+                                            <img class="w-full object-cover" src="../img/fem/fem_geoloca.svg"
+                                                alt="">
+                                        </figure>
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+                                                <p>El Gobierno Nacional de Argentina ha presentado las nuevas
+                                                    funcionalidades del Mapa Federal del Cuidado, una iniciativa del
+                                                    Ministerio de las Mujeres, Géneros y Diversidad, que ahora permite
+                                                    geolocalizar a 8.800 cuidadoras y cuidadores domiciliarios en todo
+                                                    el país. Con más de 34.000 espacios de cuidado y 1.000 espacios de
+                                                    formación georreferenciados, esta herramienta se convierte en un
+                                                    recurso clave para las familias que buscan servicios de cuidado y
+                                                    para los trabajadores del cuidado en busca de oportunidades
+                                                    laborales.
+                                                </p>
+                                                <br>
+                                                <p>La actualización, en vigor desde noviembre de 2023, facilita a las
+                                                    familias encontrar trabajadores certificados en su localidad para
+                                                    servicios de cuidado, mientras que ofrece a los trabajadores del
+                                                    cuidado una plataforma para localizar oportunidades laborales en sus
+                                                    áreas de residencia, promoviendo así la economía local.
+                                                </p>
+                                                <br>
+                                                <p>La presentación tuvo lugar en la última reunión de la Mesa
+                                                    Interministerial de Políticas de Cuidado, encabezada por la ministra
+                                                    de las Mujeres, Géneros y Diversidad, Ayelén Mazzina, la ministra de
+                                                    Trabajo, Empleo y Seguridad Social, Kelly Olmos, y el jefe de
+                                                    Gabinete. de Ministros, Agustín Rossi. Esta mesa, que reúne a 15
+                                                    organismos del Poder Ejecutivo Nacional, ha desempeñado un papel
+                                                    fundamental en la implementación de políticas de cuidado en
+                                                    Argentina.
+                                                </p>
+                                                <br>
+                                                <p>La ministra Mazzina destacó los logros de los últimos cuatro años al
+                                                    poner los cuidados en el centro de las políticas públicas y la
+                                                    agenda de género. Enfatizó la importancia de pensar en el modelo de
+                                                    país que se desea y subrayó que la independencia económica de las
+                                                    mujeres y la comunidad LGBTI+ son prioridades para una Argentina
+                                                    justa.
+                                                </p>
+                                                <br>
+                                                <p>El jefe de Gabinete, Agustín Rossi, resaltó la necesidad de sostener
+                                                    y aumentar las políticas de cuidado, mencionando el compromiso del
+                                                    gobierno con la igualdad salarial entre hombres y mujeres.
+                                                </p>
+                                                <br>
+                                                <p>Kelly Olmos, ministra de Trabajo, expresó que se ha avanzado
+                                                    significativamente en reconocer los derechos de las trabajadoras y
+                                                    trabajadores del cuidado y abogó por mantener el objetivo de
+                                                    alcanzar a todos en el sistema de derechos. </p>
+                                                <br>
+                                                <p>La actualización del Mapa Federal del Cuidado incluye información
+                                                    sobre más de 8,000 trabajadores y trabajadores con formación
+                                                    específica en cuidado gerontológico, cuidados para la primera
+                                                    infancia, cooperativas de cuidado, y más. Además, se presentó el 3°
+                                                    Informe Anual de Políticas de Cuidado, destacando los avances
+                                                    realizados en 2023 y la necesidad de continuar reorganizando los
+                                                    cuidados en la sociedad.</p>
+                                                <br>
+                                                <p>Con estas iniciativas, el Gobierno argentino reafirma su compromiso
+                                                    con la equidad de género, la valoración del trabajo de cuidado y la
+                                                    construcción de una sociedad más justa. La Mesa Interministerial de
+                                                    Políticas de Cuidado continuará su labor para impulsar políticas y
+                                                    acciones que beneficien a todos y todos en el sistema de derechos.
+                                                </p>
+                                                <br>
+
+
                                             </div>
                                         </div>
                                 </article>
