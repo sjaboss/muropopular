@@ -1297,23 +1297,33 @@
                                                     </a>
                                                 </figure>
                                                 <br>
-                                                <p>La Red Federal por los Derechos Humanos convoca a participar del<b> VII
-                                                    Encuentro Federal de Derechos Humanos, que se realizará el sábado 7
-                                                    de octubre en el Espacio Memoria y Derechos Humanos Ex ESMA</b>, Av. del
+                                                <p>La Red Federal por los Derechos Humanos convoca a participar del<b>
+                                                        VII
+                                                        Encuentro Federal de Derechos Humanos, que se realizará el
+                                                        sábado 7
+                                                        de octubre en el Espacio Memoria y Derechos Humanos Ex ESMA</b>,
+                                                    Av. del
                                                     Libertador 8151, Ciudad Autónoma de Buenos Aires.
                                                 </p>
                                                 <br>
-                                                <p>Durante la jornada, que se extenderá de 9 a 17 h,<b> se debatirá sobre
-                                                    la profundización de los derechos humanos en cada rincón del país
-                                                    bajo el lema “Sin memoria, verdad y justicia no hay libertad”</b>. </p>
-                                                    <br>
-                                                <p>En el encuentro<b> habrá 14 comisiones simultáneas para trabajar y poner
-                                                    en común experiencias sobre diferentes temáticas en clave de
-                                                    derechos humanos:</b><i> violencia institucional, espacios de memoria, los
-                                                    juicios de lesa humanidad, salud mental, diversidades, migración,
-                                                    pueblos originarios, comunidades afroargentina y afrodescendientes,
-                                                    discapacidad, identidad, trabajo y comunicación.</i> </p>
-                                                    <br>
+                                                <p>Durante la jornada, que se extenderá de 9 a 17 h,<b> se debatirá
+                                                        sobre
+                                                        la profundización de los derechos humanos en cada rincón del
+                                                        país
+                                                        bajo el lema “Sin memoria, verdad y justicia no hay
+                                                        libertad”</b>. </p>
+                                                <br>
+                                                <p>En el encuentro<b> habrá 14 comisiones simultáneas para trabajar y
+                                                        poner
+                                                        en común experiencias sobre diferentes temáticas en clave de
+                                                        derechos humanos:</b><i> violencia institucional, espacios de
+                                                        memoria, los
+                                                        juicios de lesa humanidad, salud mental, diversidades,
+                                                        migración,
+                                                        pueblos originarios, comunidades afroargentina y
+                                                        afrodescendientes,
+                                                        discapacidad, identidad, trabajo y comunicación.</i> </p>
+                                                <br>
                                                 <p>Además, este año se agregará la comisión “Adultos mayores y derechos”
                                                     y se sumará el eje sobre la educación pública a la comisión sobre
                                                     participación estudiantil. </p>
@@ -1391,7 +1401,8 @@
                                 <article>
                                     <div class="py-4 px-4 justify-between items-center">
                                         <h2 class="text-xl font-serif  font-bold pb-6">
-                                            <a href="">COMPLICIDADES EMPRESARIALES DURANTE LA DICTADURA CÍVICO MILITAR ECLESIAL
+                                            <a href="">COMPLICIDADES EMPRESARIALES DURANTE LA DICTADURA CÍVICO
+                                                MILITAR ECLESIAL
                                             </a>
 
                                         </h2>
@@ -1399,7 +1410,10 @@
                                             class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
                                             <div class=" font-sans text-lg text-left col-span-6  ">
 
-                                                <p><i>Por segunda vez hoy comienza el segundo juicio a Marcos Jacobo Levin, quien fuera  propietario de la empresa de pasajeros LA VELOZ DEL NORTE,   y principal acusado por los crímenes de lesa humanidad perpetrados contra sus trabajadores.</i></p>
+                                                <p><i>Por segunda vez hoy comienza el segundo juicio a Marcos Jacobo
+                                                        Levin, quien fuera propietario de la empresa de pasajeros LA
+                                                        VELOZ DEL NORTE, y principal acusado por los crímenes de lesa
+                                                        humanidad perpetrados contra sus trabajadores.</i></p>
                                                 <br>
                                                 <figure>
                                                     <a href="">
@@ -1409,31 +1423,288 @@
                                                 </figure>
                                                 <p class="font-light text-gray-500">Foto: La Tinta</p>
                                                 <br>
-                                                <p>Participaron también de este hecho el Comisario Víctor Hugo Almirón, jefe de la Comisaría 4  de la Ciudad de SALTA, donde funcionó un CCDT -Centro Clandestino de Detención y Tortura- y  el ex jefe de personal, José Antonio Grueso,  quien había confeccionado el listado de los trabajadores que serían secuestrados. Ambos  también  directamente involucrados  por estos delitos.
+                                                <p>Participaron también de este hecho el Comisario Víctor Hugo Almirón,
+                                                    jefe de la Comisaría 4 de la Ciudad de SALTA, donde funcionó un CCDT
+                                                    -Centro Clandestino de Detención y Tortura- y el ex jefe de
+                                                    personal, José Antonio Grueso, quien había confeccionado el listado
+                                                    de los trabajadores que serían secuestrados. Ambos también
+                                                    directamente involucrados por estos delitos.
                                                 </p>
                                                 <br>
-                                                <p>Del 20 al 24 de enero de 1977, 16 trabajadores y una trabajadora de la empresa, fueron detenidos ilegalmente por la policía provincial, por una falsa denuncia de fraude.. </p>
-                                                    <br>
-                                                <p>Levin y Almirón están acusados por los secuestros y torturas a 15 trabajadores varones, Miguel Ángel Rodríguez, Ciriaco Nolberto Justiniano, Juan Alberto Alonso, Rubén Héctor Vrh, Manuel Eugenio Modad, Carlos Lídoro Aponte, Jorge Arturo Romero, Aurelio Rada, Oscar Horacio Espeche, Sebastián Lindor Gallará, Carlos Horacio Pereyra, Jorge Francisco Delaloye, Emilio Bórquez, Carlos Eugenio Bais y Norberto Bórquez, y por los mismos delitos en relación a la trabajadora Sonia Rey. </p>
-                                                    <br>
-                                                <p>Una vez más Marcos Jacobo Levin, dueño de la más importante empresa de transportes norteña durante los años 70, estará nuevamente en el banquillo de los acusados como responsable de los delitos de lesa cometidos hace 46 años. Fue absuelto en un juicio realizado en 2016. </p>
+                                                <p>Del 20 al 24 de enero de 1977, 16 trabajadores y una trabajadora de
+                                                    la empresa, fueron detenidos ilegalmente por la policía provincial,
+                                                    por una falsa denuncia de fraude.. </p>
                                                 <br>
-                                                <p>Este empresario que mantuvo estrechos vínculos con la policía local y que aportó varios de sus vehículos para trasladar a los trabajadores detenidos, enfrentará el segundo juicio en esta oportunidad , por el secuestro y las torturas sufridas por 17 trabajadores de la empresa La Veloz del Norte durante la última dictadura cívico militar eclesial.</p>
+                                                <p>Levin y Almirón están acusados por los secuestros y torturas a 15
+                                                    trabajadores varones, Miguel Ángel Rodríguez, Ciriaco Nolberto
+                                                    Justiniano, Juan Alberto Alonso, Rubén Héctor Vrh, Manuel Eugenio
+                                                    Modad, Carlos Lídoro Aponte, Jorge Arturo Romero, Aurelio Rada,
+                                                    Oscar Horacio Espeche, Sebastián Lindor Gallará, Carlos Horacio
+                                                    Pereyra, Jorge Francisco Delaloye, Emilio Bórquez, Carlos Eugenio
+                                                    Bais y Norberto Bórquez, y por los mismos delitos en relación a la
+                                                    trabajadora Sonia Rey. </p>
                                                 <br>
-                                                <p>Durante el primer juicio en 2016, el fallo que condenó a Levin, Almirón, y otros, fue apelado por la defensa. Un año después la Cámara Nacional de Casación Penal anuló la condena. Esta decisión también fue impugnada por la fiscalía y las querellas, y finalmente el año pasado la Corte Suprema de Justicia de la Nación revocó el fallo de Casación, con lo que la sentencia quedó firme.</p>
+                                                <p>Una vez más Marcos Jacobo Levin, dueño de la más importante empresa
+                                                    de transportes norteña durante los años 70, estará nuevamente en el
+                                                    banquillo de los acusados como responsable de los delitos de lesa
+                                                    cometidos hace 46 años. Fue absuelto en un juicio realizado en 2016.
+                                                </p>
                                                 <br>
-                                                <p>Queda claro que los allanamientos y detenciones se hicieron sin orden judicial, lo que demuestra claramente que se trató de hechos cometidos dentro de la estructura criminal montada para la represión estatal ilegal en los años 70. </p>
+                                                <p>Este empresario que mantuvo estrechos vínculos con la policía local y
+                                                    que aportó varios de sus vehículos para trasladar a los trabajadores
+                                                    detenidos, enfrentará el segundo juicio en esta oportunidad , por el
+                                                    secuestro y las torturas sufridas por 17 trabajadores de la empresa
+                                                    La Veloz del Norte durante la última dictadura cívico militar
+                                                    eclesial.</p>
                                                 <br>
-                                                <p>Una de la tantas complicidades civiles y empresariales durante la Dictadura cívico militar eclesial, evidencia que funcionó aceitadamente como plan sistemático para la imposición de un nuevo orden de disciplinamiento social a través del terror y con el claro objetivo de instalar un proyecto económico de despojo, saqueo y aniquilamiento de nuestra soberanía.</p>
+                                                <p>Durante el primer juicio en 2016, el fallo que condenó a Levin,
+                                                    Almirón, y otros, fue apelado por la defensa. Un año después la
+                                                    Cámara Nacional de Casación Penal anuló la condena. Esta decisión
+                                                    también fue impugnada por la fiscalía y las querellas, y finalmente
+                                                    el año pasado la Corte Suprema de Justicia de la Nación revocó el
+                                                    fallo de Casación, con lo que la sentencia quedó firme.</p>
                                                 <br>
-                                                
+                                                <p>Queda claro que los allanamientos y detenciones se hicieron sin orden
+                                                    judicial, lo que demuestra claramente que se trató de hechos
+                                                    cometidos dentro de la estructura criminal montada para la represión
+                                                    estatal ilegal en los años 70. </p>
+                                                <br>
+                                                <p>Una de la tantas complicidades civiles y empresariales durante la
+                                                    Dictadura cívico militar eclesial, evidencia que funcionó
+                                                    aceitadamente como plan sistemático para la imposición de un nuevo
+                                                    orden de disciplinamiento social a través del terror y con el claro
+                                                    objetivo de instalar un proyecto económico de despojo, saqueo y
+                                                    aniquilamiento de nuestra soberanía.</p>
+                                                <br>
+
                                                 <figure>
                                                     <img class="w-28 h-28 ml-10  object-cover"
                                                         src="{{ asset('../img/der/Adri.svg') }}" alt="">
-                                                    <p> <strong> Nota por Adriana Zerdín <strong></p></a>
+                                                    <p> <strong> Nota por Adriana Zerdín </strong></p></a>
 
                                                 </figure>
-                                            
+
+
+                                            </div>
+                                        </div>
+
+
+
+                                    </div>
+                                </article>
+                            </li>
+                        </ul>
+                    </div>
+
+                    {{-- columna de la derecha chica --}}
+                    <aside>
+                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                            <div class=" col-span-6">
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/bener-leg2.png') }}"
+                                        alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
+                                        alt="">
+                                </a>
+
+                                <div id="app">
+
+                                    <div v-for="item in info">
+
+                                        <div class="flex-col pb-3">
+                                            <div
+                                                class="flex-col max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg"
+                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
+                                                        alt="" />
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5
+                                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                                            @{{ item.title }}</h5>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div v-for="va in clima">
+
+                                        <h5
+                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                            @{{ va }}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+                </div>
+
+            </section>
+        @elseif ($tituloSep == 'Derechos-Humanos-Noticia-Completa-der11')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow ">
+                                <article>
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">CPresentación del Proyecto de Ley “Ley Antinegacionista
+                                                por los 40 años de democracia – Dictadura Nunca Mas”
+                                            </a>
+                                        </h2>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                                <p><i>Desde el Área Jurídica de la Fundación Luisa Hairabedian queremos
+                                                        anunciar que en el día de hoy, se ha presentado en la Honorable
+                                                        Cámara de Diputados de la Nación un proyecto de ley para
+                                                        penalizar el negacionismo del terrorismo estado, el Genocidio
+                                                        Armenio el Holocausto entre otros. </i></p>
+                                                <br>
+                                                <figure>
+                                                    <a href="">
+                                                        <img class="w-full object-cover object-center"
+                                                            src="{{ asset('../img/der/der_ley.svg') }}"alt="">
+                                                    </a>
+                                                </figure>
+                                                <p class="font-light text-gray-500">Foto: La Tinta</p>
+                                                <br>
+                                                <p>A 40 años de la recuperación de la democracia y con la motivación de
+                                                    nuestra lucha, desde Abuelas de Plaza de Mayo, la Agrupación
+                                                    H.I.J.O.S. Regional Capital y la Fundación Luisa Hairabedian hemos
+                                                    trabajado e ingresado un proyecto de ley contra el negacionismo en
+                                                    la Argentina, que tiene el apoyo de Familiares de Desaparecidos y
+                                                    Detenidos por Razones Políticas, de organizaciones de la
+                                                    colectividad judía, de la comunidad Armenia y de agrupaciones de
+                                                    pueblos originarios, como también de la académica Valeria Thus,
+                                                    especializada en el tema.
+                                                </p>
+                                                <br>
+                                                <p>El proyecto fue presentado hoy martes 7 de noviembre a las 10 horas
+                                                    en el anexo C del Congreso de la Nación en la reunión de la Comisión
+                                                    de Derechos Humanos. La presentación está encabezada por la diputada
+                                                    Carolina Gaillard y además tiene las firmas de las diputadas y los
+                                                    diputados Hugo Yasky, Germán Martínez, Daniel Gustavo Gollán, Mónica
+                                                    Macha, Eduardo Valdés, Mara Brawer, Alejandro Rodríguez, Sergio
+                                                    Palazzo, Gisela Marziotta, Leonardo Grosso, Eduardo Toniolli,
+                                                    Ricardo Daives, Rosana Bertone y Susana Landriscini. </p>
+                                                <br>
+                                                <p>Federico Gaitan Hairabedian, abogado de la Fundación Luisa
+                                                    Hairabedian y uno de los impulsores del proyecto dijo: “se trata de
+                                                    un día histórico, pese a la presión de los negacionistas como
+                                                    Victoria Villarruel y de los intento de la Embajada de Turquía de
+                                                    clausurar el debate, logramos, junto a los organismos de derechos
+                                                    humanos argentinos dar el primer paso hacia la consolidación de los
+                                                    principios de Memoria Verdad y Justicia para alcanzar el Nunca Mas
+                                                    universal. Con este proyecto no sólo honramos la memoria de las
+                                                    víctimas del genocidio, como mis antepasados armenios, sino que
+                                                    ubicamos a la Argentina entre los países del mundo que le dicen NO a
+                                                    quienes intentan manchar la memoria de las víctimas con mentiras y
+                                                    tergiversaciones.” </p>
+                                                <br>
+                                                <p>El contexto de esta presentación es la gran preocupación que nos
+                                                    generan desde ya hace algún tiempo las prácticas y expresiones
+                                                    negacionistas y apologistas del terrorismo de Estado, como también
+                                                    los discursos y acciones de odio. Por eso, hace tiempo empezamos a
+                                                    preguntarnos y reflexionar sobre qué acciones son necesarias para
+                                                    prevenir, sancionar y erradicar este tipo de hechos.
+                                                </p>
+                                                <br>
+                                                <p>Proponemos un proyecto integral de ley que consta de partes: la
+                                                    definición de un organismo competente en la materia, el INADI (que
+                                                    pasaría a llamarse INADIN), la formación en derechos humanos de
+                                                    manera obligatoria para todas las personas que ocupen cargos y
+                                                    funciones públicas, como también para trabajadores y trabajadoras
+                                                    del Estado (símil Ley Micaela), y la tipificación penal, en este
+                                                    caso destinado únicamente a funcionarios públicos, con la pena de
+                                                    inhabilitación.</p>
+                                                <br>
+                                                <p>La base y motivo de este proyecto es combatir al negacionismo a
+                                                    través de la educación, previniéndolo y erradicando los discursos de
+                                                    odio, poniéndole un límite a quienes respaldan el negacionismo como
+                                                    la etapa final del genocidio y defendiendo la democracia que tanto
+                                                    nos costó conseguir y nos cuesta defender.</p>
+                                                <br>
+                                                <p>La primera parte del proyecto propone la modificación del nombre y
+                                                    las competencias del INADI, pasándose a llamar “Instituto Nacional
+                                                    contra la discriminación, la xenofobia, el racismo y el
+                                                    negacionismo”, y en cuyo objeto, a las funciones existentes se
+                                                    sumará la de trabajar sobre el negacionismo de genocidios y crímenes
+                                                    de lesa humanidad. </p>
+                                                <br>
+                                                <p>La segunda parte toma la formulación de la Ley Micaela. De la misma
+                                                    manera, proponemos una formación obligatoria para funcionarios/as y
+                                                    empleados/as de los tres poderes del Estado con un curso de derechos
+                                                    humanos, cuya autoridad de aplicación sería el INADIN, que tendría a
+                                                    su cargo la realización del contenido del programa a desarrollarse,
+                                                    recayendo en cada organismo público la responsabilidad de realizar
+                                                    el curso para sus trabajadores/as.</p>
+                                                <br>
+                                                <p>Por último, y en torno a la tipificación penal, el proyecto promueve
+                                                    penalizar solamente a funcionarios/as públicos/as de los tres
+                                                    poderes del Estado. Consideramos necesario avanzar en un instrumento
+                                                    legislativo que prohíba ciertas conductas en el ámbito de la
+                                                    administración pública. Aquí lo que se protege son las expectativas
+                                                    ciudadanas sobre quienes son funcionarios/as públicos/as: decencia,
+                                                    decoro, apego a la legalidad, valores democráticos y, sobre todo, la
+                                                    coherencia con los compromisos internacionales asumidos por el
+                                                    Estado nacional en materia de Memoria, Verdad y Justicia, derecho a
+                                                    la verdad y garantía de no repetición.</p>
+                                                    <br>
+                                                <p>El negacionismo es incompatible con la función pública y las
+                                                    obligaciones de quienes son funcionarios/as para con ese bien
+                                                    jurídico. Así, proponemos que sea “reprimido con pena de
+                                                    inhabilitación especial de 3 meses a 4 años, el/la funcionario/a
+                                                    público/a que, en el ejercicio del empleo, cargo o función, negare,
+                                                    minimizare, justificare o revindicare públicamente y por cualquier
+                                                    medio genocidios o crímenes contra la humanidad reconocidos
+                                                    oficialmente como tales por el Estado Argentino.” Una vez aplicada
+                                                    la inhabilitación, para acceder a la rehabilitación en el cargo será
+                                                    obligatorio realizar por lo menos alguno de los programas educativos
+                                                    sobre negacionismo de genocidios y crímenes contra la humanidad
+                                                    dictados por el INADIN.</p>
+                                                    <br>
+                                                <p>Este proyecto no sólo abarca al período del Terrorismo de Estado
+                                                    comprendido por la dictadura cívico-militar (1976/1983), sino a
+                                                    todos los crímenes contra la humanidad reconocidos por el Estado,
+                                                    como son el holocausto, el genocidio armenio, la masacre de Napalpí
+                                                    de pueblos originarios, o la triple A, entre otros. </p>
+                                                    <br>
+                                                <p>La sanción de este marco regulatorio convertiría a la Argentina en
+                                                    pionera en la región, ya que este delito sólo se encuentra
+                                                    tipificado en países europeos como Alemania, España, Portugal,
+                                                    Suiza, Bélgica, Francia, Austria, Holanda, Luxemburgo, República
+                                                    Checa, Ucrania, Lituania, Polonia, Rumania, Liechtenstein, Malta,
+                                                    Eslovenia, Andorra, Hungría, Letonia, Croacia, Bulgaria, Chipre,
+                                                    Italia, Grecia. Además, lo prevén Israel, Nueva Zelanda, Australia,
+                                                    Sudáfrica, Ruanda, Camboya.</p>
+                                                    <br>
+                                                <p>Es fundamental para el pueblo argentino que los delitos de lesa
+                                                    humanidad cometidos durante el terrorismo de Estado no se repitan,
+                                                    como así también que ningún funcionario público los revindique,
+                                                    niegue o justifique, lo que significaría una nueva ofensa a las
+                                                    víctimas.</p>
+                                                    <br>
+                                                <p>Por eso convocamos a las organizaciones de la comunidad armenia a
+                                                    interiorizarse y participar de este proceso acercándose a la
+                                                    Fundación Luisa Hairabedian o contactándose a través de algunas de
+                                                    nuestras redes.</p>
+<br>
+                                               <figure>
+                                                Publicado: 12/11/2023
+
+                                                </figure> 
+
 
                                             </div>
                                         </div>

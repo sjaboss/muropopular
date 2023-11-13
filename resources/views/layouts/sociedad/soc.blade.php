@@ -1,6 +1,69 @@
 <x-app-layout>
     <div class="container ">
 
+    {{--Mario Bonino: 30 años de impunidad..  --}}
+    <section>
+     
+        <ul>
+            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                <article>
+
+                    <div class="py-4 px-4 justify-between items-center">
+                        <h2 class="text-xl font-serif  font-bold pb-6">
+                            <a href="">Mario Bonino: 30 años de impunidad</a>
+                        </h2>
+                        <p><i>A 30 años del asesinato de Mario Bonino desde estas líneas ADN populares y quien escribe intentaremos no solo mantener viva la memoria de Mario Bonino, sino también reclamar Justicia por su asesinato. </i>.
+                        </p>
+                        <br>
+                        <figure>
+                            <img class="w-full object-cover" src="../img/soc/soc_bonino.svg"
+                                alt="">
+                        </figure>
+                        <br>
+                        <div
+                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                            <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                <p>Mario Bonino, el primer periodista asesinado desde el regreso de la democracia en 1983, continúa siendo un nombre desconocido para la mayoría de los argentinos. A pesar de recibir el premio que lleva su nombre, su historia ha sido relegada al olvido, en gran parte por la falta de cobertura de los grandes medios de comunicación. Hoy, a 30 años de su asesinato, su memoria resurge como un recordatorio de la importancia de la justicia y la verdad en nuestra sociedad.
+                                </p>
+                                <br>
+                                <p>En noviembre de 1993, los resultados de las pericias judiciales revelaron que Mario Bonino, periodista y militante sindical, fue asesinado y arrojado a las aguas del Riachuelo. El juez de instrucción, Raúl Irigoyen, aclaró que "se ha excluido el diagnóstico de muerte por inmersión" y que "tampoco se han detectado rastros de sustancias tóxicas en los restos". A pesar de estas evidencias, la causa Bonino sufrió una parálisis típica de la justicia de la era menemista y posteriormente fue olvidada por la sociedad y los medios de comunicación.
+                                </p>
+                                <br>
+                                <p>Mario Bonino, que trabajó como cronista deportivo en varios medios gráficos, se destacó por su honestidad y su pasión por la política y el fútbol. En 1993, se desempeñaba en el área de Comunicación de la Unión de Trabajadores de Prensa de Buenos Aires (UTPBA), donde difundía informes de prensa y actividades en defensa de los trabajadores. Su compromiso político y su lucha por los derechos de los periodistas lo llevaron a enfrentar amenazas de muerte y agresiones.
+                                </p>
+                                <br>
+                                <p>El jueves 11 de noviembre de 1993, Bonino se había ocupado especialmente del caso de varios periodistas de San Luis que estaban siendo amenazados. Salió de la sede de la UTPBA, ​​jugó con su hijo y prometió traerle unas figuritas a la vuelta. Sin embargo, nunca regresó a su hogar. Su desaparición desencadenó una serie de amenazas a la sede de la UTPBA y la posterior aparición de su cuerpo en el Riachuelo.
+                                </p>
+                                <br>
+                                <p>A pesar de las claras evidencias de asesinato, el fiscal Luis González Warcalde, designado por el gobierno, intentó sostener la teoría del suicidio. Durante años, la causa Bonino fue un ejemplo de impunidad y obstáculos para la justicia, en un contexto de ataques y amenazas a periodistas en la década de los '90.
+                                </p>
+                                <br>
+                                <p>A diferencia de otros casos que generaron movilizaciones populares, como el asesinato de José Luis Cabezas, el caso Bonino no recibió la misma atención de los medios de comunicación y la sociedad en general. Mas allá de los esfuerzos de la UTPBA, ​​la Federación Latinoamericana de Periodistas y la Organización Internacional de Periodistas, la causa de Bonino sigue sin resolverse. </p>
+                                <br>
+                                <p>Ante la falta de atención mediática, la Unión de Trabajadores de Prensa de Buenos Aires (UTPBA) ha mantenido viva la memoria de Mario Bonino y su lucha por la justicia. Cada año, se entrega el Premio Mario Bonino a periodistas que destacan por su compromiso en defensa de la verdad y contra la injusticia, lo que representa un acto de reconocimiento y homenaje a un mártir de la democracia.</p>
+                              
+
+                                <div class="text-start object-center">
+                                    <figure>
+                                        <img class="w-28 h-28  "
+                                            src="{{ asset('../img/noteros/Gus.svg') }}"
+                                            alt="">
+                                        Publicado: 13/11/2023
+                                        <p> <strong>Nota de Gustavo Cano</strong></p>
+
+                                    </figure>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </li>
+        </ul>
+            <br>
+     </section>
+
+
          {{--ESTUDIANTES SE MOVILIZAN CONTRA LOS VOUCHERS DE MILEI..  --}}
          <section>
             <ul>
