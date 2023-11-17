@@ -1,6 +1,84 @@
 <x-app-layout>
     <div class="container ">
 
+    {{-- POR LA DEFENSA DE UNA ARGENTINA INCLUSIVA Y EL RECHAZO AL AVANCE DEL FASCISMO --}}
+    <section>
+        <ul>
+            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                <article>
+                    <div class="py-4 px-4 justify-between items-center">
+                        <h2 class="text-xl font-serif  font-bold pb-6">
+                            <a href="">POR LA DEFENSA DE UNA ARGENTINA INCLUSIVA Y EL RECHAZO AL AVANCE DEL FASCISMO</a>
+                        </h2>
+                        <p><i>Editorial del programa “Al Borde del Abismo” del 14 de noviembre de 2023, que conducen Gustavo Cano, Pepo Benitez y Pablo Arsegot los Martes 21 a 23 hs por Radio Grafica FM 89.3 / www.radiografica.org.ar
+
+                            </i>
+                        </p>
+                        <br>
+
+                        <figure>
+                            <img class="w-full object-cover"
+                                src="{{ asset('../img/pol/pol_Alborde.svg') }}" alt="">
+
+                        </figure>
+                        <br>
+                        <div
+                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                            <div class=" font-sans text-lg text-left col-span-6  ">
+
+                               
+                                <p>Alguna vez nos escucharon como parte del campo nacional y popular reivindicar una narrativa criminal? justificar el atentado individual por parte de las organizaciones armadas? 
+                                </p>
+                                <br>
+                                <p> No, lo hemos condenado, hemos repudiado el asesinato selectivo y el secuestro para exaltar y poner en valor las acciones políticas territoriales y pacíficas de la militancia de base sin dejar de exponer el contexto en que tuvieron lugar esos crímenes pero no los celebramos, no decimos que se trataron de excesos o los exhibimos como una equivocación. 
+                                </p>
+                                <br>
+                                <p>Fueron crímenes sí dentro de un contexto histórico en dónde la violencia política era cotidiana y había empezado con un golpe de estado contra el gobierno democrático de Juan Domingo Perón y contemporáneos a una militancia que ayudaba al otro trasuntando barrios carenciados y villas. Ninguno de esos hechos, ninguno, habilitaban un plan sistemático de exterminio a nivel continental conocido como el plan cóndor ejecutado a partir del 24 de marzo de 1976.
+                                </p>
+                                <br>
+                                <p>"El camino que lleva a Milei no es la izquierda  -dice Bregman-  es  el ajuste".  Tal vez se refiera al ajuste de los recursos públicos,  a la disparada del precio del dólar por la escasez histórica de divisas de nuestro país que no tiene la máquina para producir dólares y  que tras la toma de una deuda de 47 mil millones de dólares con el FMI a pagar en dólares su gobierno ve reducida la cantidad disponible a utilizar.  Este desajuste aumenta, y por reflejo aumentan los productos de primera necesidad sobre todo los que se exportan generando ingresos en dólares, y para sostener sus ganancias unos y sueldos los otros, empresarios y trabajadores entran en el espiral de la puja distributiva: aumentan los precios, alquileres mientras los salarios por convenio suben pero en menor medida, con lo cual disminuye la capacidad de consumo de los sectores populares y se deteriora su calidad de vida, su expectativa de futuro deteniéndose la movilidad social ascendente, la aspiración de que los hijos estén mejor que sus padres y abuelos. 
+                                </p>
+                                <br>
+                                <p>Entre todo esto: la pandemia, la digitalización creciente de las actividades sociales y económicas, el aislamiento, la pérdida del contacto y la diversidad social y la brindada por el sistema educativo, por ende la no enseñanza de los contenidos escolares, en definitiva un año perdido.
+                                </p>
+                                <br>
+                                <p>Internas a cielo abierto, exhibiendo impotencia en un sistema presidencialista dónde el presidente toma las decisiones exclusivamente y un Alberto Fernández que no estuvo a la altura. 
+                                </p>
+                                <br>
+                                <p>El trabajo informal de las aplicaciones se multiplica durante la pandemia y el gobierno no interpela a este sector con medidas concretas apenas salimos de la crisis sanitaria global.</p>
+                                <p>Errores de la actual gestión, sí, pero errores lidiando con la criminalidad que supuso la toma de una deuda a cien años por Mauricio Macri cuando no era para nada necesario. Y de serlo en que se invirtió? Se sabe que fue para sostener a los bancos y a los grupos empresariales que fugaron los dolares. 
+                                </p>
+                                <p>Delito contra todo el pueblo argentino. Y a esto nos llevó la deuda con el FMI, deuda tomada por Juntos por el cambio que disminuyeron, socavaron la capacidad de la política para mejorar las condiciones de vida, que bajó el salario que era el mas alto de América latina a niveles por debajo de Uruguay y Brasil, un mandatario Mauricio Macri junto a un sector político que hicieron lo contrario a lo que prometieron en campaña diciendo que las advertencias de Scioli eran campaña del miedo y terminaron tomando la deuda más alta de la historia, dinero que no fue a escuelas, caminos, hospitales jardines de infantes, ciencia y tecnología, tampoco a mejorar el espacio público. </p>
+                                <p>Y sí el gobierno de Alberto después de una correcta gestión sanitaria de la pandemia, dilapido su legitimidad y ahi están las fotos de la fiesta de Fabiola, la vuelta atrás con Vicentin, el acuerdo inflacionario con el FMI firmado por Guzman, deficiente en tanto el establecimiento de los plazos de vencimientos de los pagos y las condiciones. 
+
+                                </p>
+                                <br>
+                                <p>El reconocimiento de esos errores fue relevar al actual primer mandatario de la posibilidad de postularse para una reelección y consagrar a un candidato de la unidad cuya potencialidad de gestión, su enorme pericia como presidente de la cámara de diputados, su formación, su gestión en economía que frenó una sangría y un adelantamiento de la entrega de la presidencia, intendente más joven, director ejecutivo de Anses, jefe de gabinete y armador de su propio espacio a nivel nacional lo ponen al frente del gran desafío de recuperar las variables económicas del país y gestionar el estado para devolver la expectativas de un futuro mejor y privilegiar a los trabajadores de todos los sectores y sacar al FMI de la Argentina. 
+
+                                </p>
+                                <br>
+                                <p>Con el desafío y las herramientas para construir el país que soñamos con mayor inclusión, mejor calidad de vida, más poder adquisitivo para los sectores populares y clases medias, una expectativa real de futuro. Un candidato que incluso pidió perdón e invita a la escucha activa. Y en contraposición: dos candidatos, uno a presidente y la otra a vicepresidenta, cuyo marco teórico reivindica la venta de órganos, la libre portación de armas, el terrorismo de estado la desaparición física de personas, la tortura, el asesinato, las violaciones y apropiacion de menores, que insulta al Papa, que plantea romper relaciones comerciales con Brasil nuestro principal socio comercial y con China, que proclama a Menem como el mejor presidente, que admira a Margaret Tatcher, que renuncia a la soberanía de Malvinas ignorando el dolor de los familiares de caídos y los veteranos, que mercantiliza la vida al punto de que si un diabético no tiene para insulina el estado no tiene por qué hacerse cargo y entonces que se muera, que propone Vouchers para que los estudiantes elijan donde estudiar, contraigan deudas y pasen años de su vida trabajando para pagarla, que la salud se privatice, que te pagues la universidad parásito, sí a vos estudiante del conurbano pagatela con la tuya no seas rata dicen los partidarios de la libertad avanza, que en su plataforma anuncian el retorno de las afjp, que reivindican el bullying, que le dice mogolico a una persona con discapacidad, que disfrutan humillando a una mujer, que sienten placer ante la quiebra de una pyme, que usan términos de la guerra fría y los personeros de la dictadura cuando dicen zurdos de mierda o socialistas de manera despectiva, que hablan con un perro muerto al que clonó Milei, que tiene una relación dudosa con una actriz que se cristalizó en plena campaña, que buscan destruir el Banco Central -cosa inédita en el mundo y en los países que quieren imitar- que no creen en el sistema democrático en el que participan para llegar al poder porque no pueden utilizar a las fuerzas armadas, que incentivan trolls que agreden, que intimidan que insultan, que lastiman, que incitan a la violencia verbal para que eso derive en violencia física, que proponen el exterminio del otro o la otra porque no sostienen las aberraciones que ellos exaltan, que desacreditan a Lali Esposito porque no los votaría, que usan canciones que nadie los autorizó, que plagian libros, que utizan las fake news y difaman al candidato contra el que compiten, que te invitan a suicidarte colectivamente. Vos elegís este 19 de noviembre con plena conciencia tras lo que te dije, después... después, no tenes excusas.
+                                </p>
+                                <br>
+                             
+
+                                <div class="text-start object-center">
+                                    <figure>
+                                        <img class="w-28 h-28  "
+                                            src="{{ asset('../img/noteros/Gus.svg') }}"
+                                            alt="">
+                                        Publicado: 13/11/2023
+                                        <p> <strong>Nota de Gustavo Cano</strong></p>
+
+                                    </figure>
+                                </div>
+                            </div>
+                </article>
+            </li>
+        </ul>
+
+    </section>
+
      {{-- SERGIO MASSA Y JAVIER MILEI: PROPUESTAS EN CONTRASTE--}}
      <section>
         <ul>
@@ -125,6 +203,7 @@
 
     </section>
     <br><br>
+
         {{-- LA CUCARACHA DE MILEI --}}
         <section>
             <ul>

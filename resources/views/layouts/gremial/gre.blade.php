@@ -1,6 +1,59 @@
 <x-app-layout>
     <div class="container ">
 
+{{--NUEVAS AUTORIDADES DE APSEE: CARLOS MINUCCI LIDERA CON UN ENFOQUE DECIDIDO HACIA LA RECUPERACIÓN ESTATAL  --}}
+
+<section>
+    <ul>
+        <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+            <article>
+
+                <div class="py-4 px-4 justify-between items-center">
+                    <h2 class="text-xl font-serif  font-bold pb-6">
+                        <a href="">NUEVAS AUTORIDADES DE APSEE: CARLOS MINUCCI LIDERA CON UN ENFOQUE DECIDIDO HACIA LA RECUPERACIÓN ESTATAL
+                        </a>
+                    </h2>
+                    <p><i>En un acto cargado de compromiso y reivindicación sindical, Carlos Minucci asumió su cargo como Secretario General de APSEE.</i>
+                    </p>
+                    <br>
+
+                    <figure>
+                        <img class=" w-full object-cover" src="../img/grem/grem_APSE.svg"
+                            alt="">
+                    </figure>
+                    <br>
+                    <div
+                        class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                        <div class=" font-sans text-lg text-left col-span-6  ">
+                       
+                            <p>En un acto cargado de compromiso y reivindicación sindical, Carlos Minucci asumió su cargo como Secretario General de la Asociación del Personal Superior de Empresas de Energía (APSEE), junto con la nueva Comisión Directiva, con un mandato extendido hasta el 2027. Durante la ceremonia, Minucci reafirmó su enfoque en la protección y recuperación de las empresas estatales en un contexto desafiante.
+                            </p>
+                            <br>
+                            <p>"Vamos a recuperar las empresas del Estado, le guste a quien le guste", estas palabras resuenan como el llamado a la acción más significativa del discurso pronunciado por Minucci durante su reasunción. A través de su intervención, señaló los desafíos presentes en el actual escenario sindical y apuntó hacia la defensa de los intereses laborales en el contexto de las transformaciones en las empresas estatales.
+                            </p>
+                            <br>
+                            <p>Minucci hizo hincapié en la lucha histórica del sindicalismo, resaltando la importancia de unir esfuerzos para contrarrestar las amenazas que enfrenta el movimiento obrero en la actualidad. "Estamos aquí para recuperar lo que generaciones anteriores han defendido. Los grupos financieros están destruyendo lo que con tanto esfuerzo se construyó", expresó con convicción.
+
+                            </p>
+                            <br>
+                            <p>En un llamado a la unidad, apeló a la memoria histórica del movimiento obrero, recordando que la lucha sindical siempre ha sido parte del legado peronista y que esta nueva gestión tiene un compromiso firme con los trabajadores y trabajadoras. Minucci destacó el compromiso de su gestión para liderar una Confederación General del Trabajo (CGT) representativa y fiel a los intereses de los trabajadores.
+
+                            </p>
+                            <br>
+                            <p>El evento de asunción contó con la presencia de figuras destacadas del sindicalismo y del ámbito político. La diputada Vanesa Siley, el diputado y la diputada nacional María Rosa Martínez, así como el presidente de YPF Gas, Federico Basualdo, y el ministro de Trabajo bonaerense, Walter Correa, se hicieron presentes en apoyo a esta nueva etapa del sindicalismo energético.
+
+                            </p>
+                            <br>
+                            <p>La amplia asistencia de representantes de diversos sectores sindicales y políticos reflejó el respaldo a la nueva dirección de APSEE. Este evento marcó el inicio de un período clave en el que se espera una firme defensa de los derechos laborales y una ardua lucha por la recuperación de las empresas estatales, en un contexto desafiante para el movimiento sindical argentino.
+                            </p>                                         
+                            <br>
+                        </div>
+                    </div>
+            </article>
+        </li>
+    </ul>
+    <br><br>
+</section>
          {{--EN LAS PRÓXIMAS ELECCIONES NO SEREMOS NEUTRALES.. --}} 
          <section >
             <ul>

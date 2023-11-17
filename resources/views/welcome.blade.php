@@ -39,17 +39,17 @@
                             <article>
                                 <figure>
                                     @php
-                                        $tituloSep = 'Politica-Noticia-Completa-pol36#pol36';
+                                        $tituloSep = 'Politica-Noticia-Completa-pol39#pol39';
                                     @endphp
                                     <a class="text-emerald-700 font-semibold hover:text-emerald-400 hover:underline"
                                         href="{{ route('politicaSep.show', $tituloSep) }}">
                                         <img class="object-cover absolute block w-full  h-56 -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-                                            src="../img/pol/pol_locura.svg" alt="">
+                                            src="../img/pol/pol_Alborde.svg" alt="">
                                         <div class="py-2 px-4">
                                             <h2 class="text-lg font-serif">
-                                                <a href="{{ route('politicaSep.show', $tituloSep) }}"> Detrás de la locura de Milei puede haber “Gato encerrado”
+                                                <a href="{{ route('politicaSep.show', $tituloSep) }}">POR LA DEFENSA DE UNA ARGENTINA INCLUSIVA Y EL RECHAZO AL AVANCE DEL FASCISMO
                                                 </a>
-                                                <p class="font-light text-gray-500"> Nota: Del Tomate A Sumido  </p>
+                                            {{--     <p class="font-light text-gray-500"> Nota: Del Tomate A Sumido  </p> --}}
                                                {{--  <p class="font-light mb-10 text-right text-gray-500">Publicado: 27/11/2023
                                                 </p> --}}
                                             </h2>
@@ -89,15 +89,15 @@
                             <article>
                                 <figure>
                                     @php
-                                          $tituloDer = 'Derechos-Humanos-Noticia-Completa-der11#der11';
+                                             $tituloDer = 'Gremiales-Noticia-Completa-gre11#gre11';
                                     @endphp
                                     <a class="text-emerald-700 font-semibold hover:text-emerald-400 hover:underline"
-                                    href="{{ route('derechoSep.show', $tituloDer) }}">
+                                    href="{{ route('gremialSep.show', $tituloDer) }}">
                                         <img class="object-cover absolute block w-full h-56 -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-                                            src="../img/der/der_ley.svg" alt="">
+                                        src="{{ asset('../img/grem/grem_APSE.svg') }}" alt="">
                                         <div class="py-2 px-4">
                                             <h2 class="text-lg font-serif">
-                                                <a  href="{{ route('derechoSep.show', $tituloDer) }}">Presentación del Proyecto de Ley “Ley Antinegacionista por los 40 años de democracia Dictadura Nunca Mas” </a>
+                                                <a  h href="{{ route('gremialSep.show', $tituloDer) }}">NUEVAS AUTORIDADES DE APSEE: CARLOS MINUCCI LIDERA CON UN ENFOQUE DECIDIDO HACIA LA RECUPERACIÓN ESTATAL </a>
                                             </h2>
                                             {{-- <p class="font-light  text-right text-gray-500">Publicado: 02/10/2023</p> --}}
                                         </div>
