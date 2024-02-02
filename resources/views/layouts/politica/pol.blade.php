@@ -1,5 +1,258 @@
 <x-app-layout>
     <div class="container ">
+{{-- REPRESIÓN DESATADA--}}
+<section>
+    <ul>
+        <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+            <article>
+                <div class="py-4 px-4 justify-between items-center">
+                    <h2 class="text-xl font-serif  font-bold pb-6">
+                        <a href="">REPRESIÓN DESATADA: VIOLENCIA Y DESPRECIO DEMOCRÁTICO EN
+                            EL OPERATIVO POLICIAL</a>
+                    </h2>
+                    <p><i>Una vez más, las fuerzas de seguridad bajo el mando de Patricia Bullrich
+                            protagonizan un operativo desmedido, utilizando la violencia para
+                            acallar la protesta contra la Ley Ómnibus. Balas de goma, gases y palos
+                            en un día trágico para la democracia argentina.</i>
+                    </p>
+                    <br>
+
+                    <figure>
+                        <img class="w-full object-cover"
+                            src="{{ asset('../img/pol/pol_represion.svg') }}" alt="">
+
+                    </figure>
+                    <br>
+                    <div
+                        class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                        <div class=" font-sans text-lg text-left col-span-6  ">
+
+
+                            <p>En una escena que rememora los momentos más oscuros de la historia argentina, el despliegue policial frente al Congreso durante la manifestación contra la Ley Ómnibus se convirtió en un capítulo vergonzoso de represión indiscriminada. Patricia Bullrich, con su historial marcado por tácticas represivas, lideró un operativo que dejó un rastro de heridos, detenidos y una clara violación a los principios democráticos.
+                            </p>
+                            <br>
+                            <p>Lo que inicialmente debería haber sido un despeje de calles se convirtió en una cacería despiadada contra manifestantes pacíficos, periodistas y diputados opositores. El uso excesivo de la fuerza, balas de goma disparadas a mansalva y el gas pimienta, fueron las herramientas de un régimen que parece dispuesto a todo con tal de sofocar cualquier expresión de disidencia.
+                            </p>
+                            <br>
+                            <p>La ministra de Seguridad podría argumentar la aplicación del protocolo de "calles liberadas", pero la realidad es que las fuerzas a su cargo mantuvieron cortadas las avenidas Entre Ríos y Rivadavia durante horas, contradiciendo su propia bandera de "calles liberadas". El resultado fue una jornada de terror con al menos 60 heridos, incluyendo a un abogado vinculado a derechos humanos que podría perder un ojo.
+                            </p>
+                            <br>
+                            <p>La utilización de un nuevo gas pimienta generó alarma entre profesionales médicos, quienes denuncian graves lesiones dermatológicas y problemas respiratorios. La diputada Miriam Bregman anunció acciones legales contra el uso de este "gas ilegal". Mientras el gobierno de Milei avanza con su proyecto de Ley Ómnibus, la represión se erige como método para acallar la voz del pueblo.
+                            </p>
+                            <br>
+                            <p>En una Argentina donde la violencia policial parece ser la respuesta predeterminada, se desvía la atención de los problemas estructurales que enfrenta el país. La brutalidad policial no solo atenta contra la democracia, sino que también refleja la prioridad dada a la represión en lugar de buscar soluciones para los desafíos reales de la sociedad.
+                            </p>
+                            <br>
+                            
+
+
+
+                            <div class="text-start object-center">
+                                {{-- <figure>
+                                    <img class="w-28 h-28  "
+                                        src="{{ asset('../img/der/Adri.svg') }}" alt="">
+
+                                    <p> <strong>Adriana Zerdín</strong></p>
+
+                                </figure> --}}
+                            </div>
+                        </div>
+            </article>
+        </li>
+    </ul>
+                        
+</section>
+
+    {{-- IMPACTO MILEI:--}}
+     <section>
+        <ul>
+            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                <article>
+                    <div class="py-4 px-4 justify-between items-center">
+                        <h2 class="text-xl font-serif  font-bold pb-6">
+                            <a href="">IMPACTO MILEI: KICILLOF ALERTA POR CRISIS EN LA COSTA
+                                BONAERENSE</a>
+                        </h2>
+                        <p><i>Desde la costa bonaerense, el gobernador alerta sobre la pérdida
+                                vertiginosa del poder adquisitivo y señala a Milei como responsable.</i>
+                        </p>
+                        <br>
+
+                        <figure>
+                            <img class="w-full object-cover"
+                                src="{{ asset('../img/pol/pol_impacto.svg') }}" alt="">
+
+                        </figure>
+                        <br>
+                        <div
+                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                            <div class=" font-sans text-lg text-left col-span-6  ">
+
+
+                                <p>En su segunda conferencia de verano, realizada en Villa Gesell, Axel Kicillof, el gobernador de Buenos Aires, abordó con preocupación la situación económica de la provincia. Con un discurso directo, afirmó que "llegó Milei y pinchó la economía de la provincia de Buenos Aires", señalando una drástica caída en el poder adquisitivo, perceptible en los precios que se exhiben en la región.
+                                </p>
+                                <br>
+                                <p>A pesar de que la afluencia turística no ha disminuido, Kicillof destacó un desplome en el consumo y la ocupación hotelera. Durante los últimos quince días de enero, los destinos bonaerenses recibieron 3 millones 324 mil turistas, un 1,3% más que en 2023. A lo largo de enero, la cifra ascendió a 6 millones 500 mil visitantes, registrando un aumento del 4% respecto al año anterior. No obstante, el ministro de Producción, Augusto Costa, advirtió sobre un cambio en el perfil turístico, fragmentado y dual, especialmente en municipios de alta gama frente a localidades populares.
+                                </p>
+                                <br>
+                                <p>Costa detalló que el alojamiento hotelero se desplomó, dando paso a un aumento en el alojamiento en casas de familiares, con estadías más cortas y ocasionales. El gasto se redujo, y los turistas limitaron sus actividades a la playa, reflejando un comportamiento diferente al de temporadas anteriores. Destacó el impacto positivo de la Cuenta DNI en el sostenimiento del consumo.
+                                </p>
+                                <br>
+                                <p>En el contexto de la Ley Bases, en la Cámara de Diputados, los funcionarios del gabinete provincial expusieron la situación turística, previo a la conferencia. Kicillof se reunió con más de 200 representantes de sectores productivos en Mar de Ajó, abordando cómo el plan económico de Javier Milei ha golpeado a la provincia.
+                                </p>
+                                <br>
+                                <p>La subsecretaria de Turismo bonaerense, Soledad Martínez, expresó previamente la necesidad de un "acompañamiento nacional" en el sector turístico. La designación de Daniel Scioli como Secretario de Turismo, Ambiente y Deportes generó opiniones divididas entre los presentes.
+                                </p>
+                                <br>
+                                <p>Ante intendentes de la región y diversos sectores productivos, Kicillof subrayó la importancia del turismo para la provincia, posicionándose como la quinta actividad productiva que más ingresos genera. Walter Wischnivetzky, alcalde de Mar Chiquita, describió la temporada como "rara, compleja y dual", con sectores favorecidos y afectados. La preocupación se acentuó debido al tratamiento de la ley en el Congreso, que según Kicillof, no favorece a los bonaerenses.
+                                </p>
+                                <br>
+                                <p>El gobernador criticó al gobierno nacional, sosteniendo que el ajuste no solo afecta a la "casta" como se planteó inicialmente, sino también a trabajadores, empresarios y productores presentes en la conferencia.</p>
+                                <br>
+                                <p>Luego del encuentro, el ministro Augusto Costa destacó la importancia de comprender la situación de cada sector y criticó al Gobierno nacional por no brindar respuestas concretas. El intendente de La Costa, Juan de Jesús, describió la reunión como un "espacio de escucha y acompañamiento activo" frente a la incertidumbre en la población.</p>
+                                <br>
+                                <p>En el marco del programa “Mi Provincia Recicla”, Kicillof visitó la planta de reciclaje en Mar de Ajó, entregando un camión para la recolección diferenciada de residuos. Esta iniciativa, liderada por Daniela Vilar, busca fortalecer la capacidad de trabajo y logística para la recolección de residuos urbanos, con una inversión de casi 5 mil millones de pesos en maquinarias y equipamientos distribuidos en más de 60 municipios. El camión se suma a las herramientas entregadas previamente a la Cooperativa Reciclando Vidas.</p>
+                                <br>
+
+
+
+                                <div class="text-start object-center">
+                                    {{-- <figure>
+                                        <img class="w-28 h-28  "
+                                            src="{{ asset('../img/der/Adri.svg') }}" alt="">
+
+                                        <p> <strong>Adriana Zerdín</strong></p>
+
+                                    </figure> --}}
+                                </div>
+                            </div>
+                </article>
+            </li>
+        </ul>
+                            
+    </section>
+ {{-- BABO EL CALOR POLÍTICO: RESISTENCIA ANTE UN GOBIERNO
+                            MESIÁNICO --}}
+   <section>
+    <ul>
+        <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+            <article>
+                <div class="py-4 px-4 justify-between items-center">
+                    <h2 class="text-xl font-serif  font-bold pb-6">
+                        <a href="">BABO EL CALOR POLÍTICO: RESISTENCIA ANTE UN GOBIERNO
+                            MESIÁNICO</a>
+                    </h2>
+                    <p><i>En la ola de calor político, un gobierno ultra derechista amenaza el bienestar. En la Cámara de Diputados, decisiones cruciales se toman mientras la resistencia se organiza ante un futuro incierto.
+                        </i>
+                    </p>
+                    <br>
+
+                    <figure>
+                        <img class="w-full object-cover"
+                            src="{{ asset('../img/pol/pol_bajo.svg') }}" alt="">
+
+                    </figure>
+                    <br>
+                    <div
+                        class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                        <div class=" font-sans text-lg text-left col-span-6  ">
+
+
+                            <p>En medio de una ola de calor abrasante, las garras mesiánicas de un gobierno ultra derechista, fascistoide, y autoritario nos están ahogando hasta dejarnos con apenas un hilo de oxígeno. Los intereses de las grandes corporaciones monopólicas, las sociedades de inversión transnacionales, socios ávidos por enajenar recursos naturales y bienes del Estado, con los cubiertos en la mano esperando hincar los colmillos en el primer bocado.
+                            </p>
+                            <br>
+                            <p>Mientras en la Cámara de Diputados se está jugando el destino de la Patria, y en las manos alzadas de aquellos que voten a favor de un mamotreto que cambiaría la esencia y el espíritu de lo que conocimos como estado de bienestar y derecho, aparecen inevitables interrogantes. 
+                            </p>
+                            <br>
+                            <p>La pregunta surge por sí sola: cómo los votantes ingenuos (sí, ingenuos), que no pudieron hacer un análisis sencillo, breve, lineal, sobre lo que significaba hacer campaña con una motosierra y el valor simbólico de destrucción que conllevaba, sumado a un candidato- personaje de historietas, panelista de la TV, sin formación intelectual, con particularidades bizarras, riesgosas y mesiánicas de personalidad.
+                            </p>
+                            <br>
+                            <p>Agrego: decepción por el gobierno que antecedió, enclenque, indeciso, con una guerra interna indisimulable y librada a cielo abierto de cara a la ciudadanía. Y como frutilla del postre el infaltable antiperonismo serril confrontando dos modelos antagónicos, uno con derechos plenos a les ciudadanes y el otro con la lisa y llana supresión de derechos. 
+                            </p>
+                            <br>
+                            <p>Preguntas que siguen vigentes y que deberíamos seguir pensando y reflexionando sobre todo lo hecho y lo abandonado a su suerte, por cuanto esta nueva etapa que nos toca transitar no nos da tregua ni respiro. La sesión acaba de comenzar y quedará expuesta la decisión, la voluntad y la convicción de cada une de nuestros representantes. Mientras tanto, nos vamos organizando en una, también inevitable, resistencia a las impensadas horas que nos esperan.
+
+                            </p>
+                            <br>
+
+
+
+                            <div class="text-start object-center">
+                                <figure>
+                                    <img class="w-28 h-28  "
+                                        src="{{ asset('../img/der/Adri.svg') }}" alt="">
+
+                                    <p> <strong>Adriana Zerdín</strong></p>
+
+                                </figure>
+                            </div>
+                        </div>
+            </article>
+        </li>
+    </ul>
+
+     </section>
+
+     {{-- INTELIGENCIA REPRESIVA --}}
+   <section>
+    <ul>
+        <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+            <article>
+                <div class="py-4 px-4 justify-between items-center">
+                    <h2 class="text-xl font-serif  font-bold pb-6">
+                        <a href="">INTELIGENCIA REPRESIVA</a>
+                    </h2>
+                    <p><i>Por Oscar Martínez Zemborain
+                        </i>
+                    </p>
+                    <br>
+
+                    <figure>
+                        <img class="w-full object-cover"
+                            src="{{ asset('../img/pol/pol_intel.svg') }}" alt="">
+
+                    </figure>
+                    <br>
+                    <div
+                        class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                        <div class=" font-sans text-lg text-left col-span-6  ">
+
+
+                            <p>En las grandes ciudades en las que proliferan animales no deseados y combatidos de mil maneras, porque entre otras cosas son portadores de enfermedades como la rabia y otras, sus habitantes recurren a métodos varios para protegerse. Desde mosquiteros en las entradas, hasta la contratación de empresas especializadas que administran venenos caros a los muy debilitados bolsillos del contribuyente.
+                            </p>
+                            <br>
+                            <p>Años atrás y ante una plaga de murcièlagos invasores que tantas veces hacían nido en los portarrollos de las ventanas exteriores, especialistas desarrollaron y pusieron en prueba un sistema de ultrasonido, que siendo imperceptible al oído humano espantaba a los indeseables. 
+                            </p>
+                            <br>
+                            <p>El recurso fue y es estudiado por las inteligencias militares tanto de EE.UU. como de Israel, pero para aplicaciones de otra índole. En ambos casos, el objeto del recurso dejó de ser las plagas, para direccionarlo a los hombres y mujeres víctimas de decisiones del poder que practican la discriminación y persecución política, económica y de derechos ya adquiridos.
+                            </p>
+                            <br>
+                            <p>Mientras se sigue investigando y desarrollando esta herramienta represiva, hubo países que ya probaron el método, como fue el caso de Irak, en ocasión del ataque e invasión que costó la vida a 600.000 personas y la destitución y muerte de Sadam Hussein. O frente a la embajada de Brasil, donde se refugió el destituido presidente hondureño, Manuel Zelaya. Los ensayos muestran que las personas no pueden soportar la emisión del ultrasonido y se dispersan sin más ni más.
+                            </p>
+                            <br>
+                            <p>Cabe recordar, por otra parte, que, durante el gobierno de Mauricio Macri, la hoy también ministra de Seguridad, Patricia Bullrich, a través de su pareja, Guillermo Yanco, de fuertes vínculos con el gobierno de Tel Aviv, compró cuatro lanchas “rápidas” para combatir el narcotráfico. Entonces, no faltaron las fuertes críticas por lo inservible de la compra y el costo de 50 millones de dólares, con una denuncia por sobreprecios. El cuestionamiento adicional lo formuló la Oficina Anticorrupción (OA).
+
+                            </p>
+                            <br>
+                            
+
+
+                            <div class="text-start object-center">
+                                <figure>
+                                    <img class="w-28 h-28  "
+                                        src="{{ asset('../img/pol/Chino.svg') }}"
+                                        alt="">
+                                    
+                                    <p> <strong>Oscar Martínez Zemborain</strong></p>
+
+                                </figure>
+                            </div>
+                        </div>
+            </article>
+        </li>
+    </ul>
+
+     </section>
 
     {{-- POR LA DEFENSA DE UNA ARGENTINA INCLUSIVA Y EL RECHAZO AL AVANCE DEL FASCISMO --}}
     <section>

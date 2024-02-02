@@ -1,6 +1,56 @@
 <x-app-layout>
     <div class="container ">
 
+        {{--Unión Sindical Contra las Medidas de Milei:  --}}
+
+<section>
+    <ul>
+        <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+            <article>
+
+                <div class="py-4 px-4 justify-between items-center">
+                    <h2 class="text-xl font-serif  font-bold pb-6">
+                        <a href="">Unión Sindical Contra las Medidas de Milei: CGT y Gremios
+                            Anuncian Resistencia
+                        </a>
+                    </h2>
+                    <p><i>Las confederaciones CATT, CATHEDA y la CGT acuerdan acciones sindicales y judiciales para frenar el DNU y la polémica ley "Bases".</i>
+                    </p>
+                    <br>
+
+                    <figure>
+                        <img class=" w-full object-cover" src="../img/grem/grem_union.svg"
+                            alt="">
+                    </figure>
+                    <br>
+                    <div
+                        class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                        <div class=" font-sans text-lg text-left col-span-6  ">
+
+                            <p>En un gesto de unidad y resistencia, las confederaciones de Trabajadores Del Transporte (CATT) y de Trabajadores y Empleados De Los Hidrocarburos, Energía, Combustibles, Derivados y Afines (CATHEDA), junto a la Confederación General del Trabajo (CGT), han decidido plantar cara al gobierno de Javier Milei. Tras una reunión celebrada en la sede de la CGT, los líderes sindicales acordaron llevar a cabo acciones sindicales y judiciales en rechazo tanto al polémico DNU 70/2023 como al proyecto de ley "Bases y Puntos de Partida para la Libertad de los Argentinos".
+                            </p>
+                            <br>
+                            <p>En el encuentro, en el cual participaron figuras prominentes como Hugo y Pablo Moyano, Omar Pérez de Camioneros, Juan Carlos Schmid de Dragado y Balizamiento-FeMPINRA, entre otros, se evaluaron los resultados del paro general y la movilización del 24 de enero. La conclusión fue clara: la necesidad de resistir las medidas del gobierno de Milei que consideran una amenaza a derechos laborales y a la estabilidad económica y social.
+                            </p>
+                            <br>
+                            <p>Desde la CATT, se expresó que se están evaluando todas las alternativas, siguiendo de cerca los acontecimientos en la Cámara de Diputados con respecto a la Ley Ómnibus. Se subrayó la preocupación ante la posibilidad de una desregulación brutal de la economía y la derogación de leyes protectoras en áreas cruciales como empleo, salud y educación.
+                            </p>
+                            <br>
+                            <p>"Vamos a hacer todo lo que esté a nuestro alcance contra la amenaza de las privatizaciones, contra nuestra industria nacional acechada por la apertura indiscriminada de importaciones y para evitar la primarización y extranjerización de nuestros recursos naturales", declaró la CATT.
+                            </p>
+                            <br>
+                            <p>La resistencia sindical se presenta como un frente unido para proteger los intereses de los trabajadores y evitar medidas que consideran perjudiciales para el tejido social y económico de Argentina. La batalla sindical se anticipa como un capítulo importante en la lucha por la preservación de derechos y la estabilidad laboral en el país.
+                            </p>
+                            <br>
+                            
+                        </div>
+                    </div>
+            </article>
+        </li>
+    </ul>
+    <br><br>
+</section>
+
 {{--NUEVAS AUTORIDADES DE APSEE: CARLOS MINUCCI LIDERA CON UN ENFOQUE DECIDIDO HACIA LA RECUPERACIÓN ESTATAL  --}}
 
 <section>

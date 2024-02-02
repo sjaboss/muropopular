@@ -64,17 +64,17 @@
                             <article>
                                 <figure>
                                     @php
-                                        $tituloSep = 'Politica-Noticia-Completa-pol37#pol37';
+                                        $tituloSep = 'Politica-Noticia-Completa-pol43#pol43';
                                     @endphp
                                     <a class="text-emerald-700 font-semibold hover:text-emerald-400 hover:underline"
                                         href="{{ route('politicaSep.show', $tituloSep) }}">
                                         <img class="object-cover absolute block w-full  h-56 -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-                                            src="../img/pol/pol_cucaracha.svg" alt="">
+                                            src="../img/pol/pol_represion.svg" alt="">
                                         <div class="py-2 px-4">
                                             <h2 class="text-lg font-serif">
-                                                <a href="{{ route('politicaSep.show', $tituloSep) }}">LA CUCARACHA DE MILEI
+                                                <a href="{{ route('politicaSep.show', $tituloSep) }}">REPRESIÓN DESATADA: VIOLENCIA Y DESPRECIO DEMOCRÁTICO EN EL OPERATIVO POLICIAL
                                                 </a>
-                                                <p class="font-light text-gray-500">Nota: de Oscar “el Chino” Martínez Zemborain   </p>
+                                                <p class="font-light text-gray-500"></p>
                                                {{--  <p class="font-light mb-10 text-right text-gray-500">Publicado: 27/11/2023
                                                 </p> --}}
                                             </h2>
@@ -116,23 +116,24 @@
                 <div>
                     <figure>
                         @php
-                            $tituloSep = 'Sociedad-Noticia-Completa-soc17#soc17';
+                            $tituloSep = 'Politica-Noticia-Completa-pol40#pol40';
                         @endphp
                         <a class="text-emerald-700 font-semibold hover:text-emerald-400 hover:underline"
-                            href="{{ route('sociedadSep.show', $tituloSep) }}">
+                            href="{{ route('politicaSep.show', $tituloSep) }}">
                             <img class="h-48 w-full object-cover object-center"
-                                src="{{ asset('../img/soc/soc_vales.svg') }}" alt="">
+                                src="{{ asset('../img/pol/pol_intel.svg') }}" alt="">
                         </a>
                     </figure>
                     <div class=" py-4 px-6">
                         <h1 class="text-lg font-serif ">
-                            <a href="{{ route('sociedadSep.show', $tituloSep) }}">
-                                ESTUDIANTES SE MOVILIZAN CONTRA LOS VOUCHERS DE MILEI
+                            <a href="{{ route('politicaSep.show', $tituloSep) }}">
+                                INTELIGENCIA REPRESIVA
+                                <p> <i>Por Oscar Martínez Zemborain</i></p>
                             </a>
                         </h1>
                         <p class="font-light  text-gray-500"></p>
                         <div class="pt-4">
-                            <p class="font-light  text-right text-gray-500">Publicado: 10/11/2023</p>
+                            <p class="font-light  text-right text-gray-500">Publicado: 02/02/2024</p>
                         </div>
 
                     </div>
@@ -141,23 +142,23 @@
                 <div>
                     <figure>
                         @php
-                            $tituloSep = 'Sociedad-Noticia-Completa-soc16#soc16';
+                            $tituloSep = 'Gremiales-Noticia-Completa-gre12#gre12';
                         @endphp
                         <a class="text-emerald-700 font-semibold hover:text-emerald-400 hover:underline"
-                            href="{{ route('sociedadSep.show', $tituloSep) }}">
+                            href="{{ route('gremialSep.show', $tituloSep) }}">
                             <img class="h-48 w-full object-cover object-center"
-                                src="{{ asset('../img/soc/soc_ana.svg') }}" alt="">
+                                src="{{ asset('../img/grem/grem_union.svg') }}" alt="">
                         </a>
                     </figure>
                     <div class=" py-4 px-6">
                         <h1 class="text-lg font-serif ">
-                            <a href="{{ route('sociedadSep.show', $tituloSep) }}">
-                                TESTIMONIO DE UNA LUCHA: ANA FERNÁNDEZ Y SU LLAMADO POR LA DEMOCRACIA EN EL SUBTE
+                            <a href="{{ route('gremialSep.show', $tituloSep) }}">
+                                UNIÓN SINDICAL CONTRA LAS MEDIDAS DE MILEI: CGT Y GREMIOS ANUNCIAN RESISTENCIA
                             </a>
                         </h1>
                         <p class="font-light  text-gray-500"></p>
                         <div class="pt-4">
-                            <p class="font-light  text-right text-gray-500">Publicado: 10/11/2023</p>
+                            <p class="font-light  text-right text-gray-500">Publicado: 02/02/2024</p>
                         </div>
 
                     </div>
@@ -225,19 +226,20 @@
                                         <figure>
                                             <a href="">
 
-                                                <img class=" h-56  w-full object-cover" src="../img/pol/pol_debate.svg">
+                                                <img class=" h-56  w-full object-cover" src="../img/pol/pol_bajo.svg">
                                             </a>
                                         </figure>
                                         <div class=" py-4 px-6">
                                             <h1 class="text-lg font-serif animate-fade-right ">
                                                 <a href="">
-                                                    <a href="">SERGIO MASSA Y JAVIER MILEI: PROPUESTAS EN CONTRASTE</a>
+                                                    <a href="">BABO EL CALOR POLÍTICO: RESISTENCIA ANTE UN GOBIERNO MESIÁNICO</a>
+                                                    <p><i>Por Adriana Zerdín</i></p>
                                                 </a>                                      
                                             </h1>
                                             <div class="pt-2">
                                                 <h2>
                                                     @php
-                                                      $tituloSep = 'Politica-Noticia-Completa-pol38#pol38';
+                                                      $tituloSep = 'Politica-Noticia-Completa-pol41#pol41';
                                                     @endphp
                                                     <a class="text-emerald-700 font-semibold hover:text-emerald-400 hover:underline"
                                                         href="{{ route('politicaSep.show', $tituloSep) }}">Ir a la
@@ -245,7 +247,7 @@
                                                 </h2>
                                             </div>
                                         </div>
-                                        <p class="font-light  text-right text-gray-500">Publicado: 13/11/2023</p>
+                                        <p class="font-light  text-right text-gray-500">Publicado: 02/02/2024</p>
                                     </article>
                                 </li>
 
@@ -254,13 +256,13 @@
                                         <figure>
                                             <a href="">
 
-                                                <img class=" h-56 w-full object-cover"   src="{{ asset('../img/soc/soc_bonino.svg') }}">
+                                                <img class=" h-56 w-full object-cover"   src="{{ asset('../img/pol/pol_impacto.svg') }}">
                                             </a>
                                         </figure>
                                         <div class=" py-4 px-6">
                                             <h1 class="text-lg font-serif ">
                                                 <a href="">
-                                                    <a href="">Mario Bonino: 30 años de impunidad</a>
+                                                    <a href="">IMPACTO MILEI: KICILLOF ALERTA POR CRISIS EN LA COSTA BONAERENSE</a>
                                                 </a>
                                                 {{-- <p class="font-light text-gray-500">Por Gustavo Cano
                                                 </p> --}}
@@ -272,15 +274,15 @@
                                             <div class="pt-2">
                                                 <h2>
                                                     @php
-                                                         $tituloSep = 'Sociedad-Noticia-Completa-soc18#soc18';
+                                                         $tituloSep = 'Politica-Noticia-Completa-pol42#pol42';
                                                     @endphp
                                                     <a class="text-emerald-700 font-semibold hover:text-emerald-400 hover:underline"
-                                                    href="{{ route('sociedadSep.show', $tituloSep) }}">Ir a la
+                                                    href="{{ route('politicaSep.show', $tituloSep) }}">Ir a la
                                                         Noticía</a>
                                                 </h2>
                                             </div>
                                         </div>
-                                        <p class="font-light  text-right text-gray-500">Publicado: 10/11/2023</p>
+                                        <p class="font-light  text-right text-gray-500">Publicado: 02/02/2024</p>
                                     </article>
                                 </li>
                             </ul>
