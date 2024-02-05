@@ -2998,7 +2998,7 @@
                                 <article>
                                     <div class="py-4 px-4 justify-between items-center">
                                         <h2 class="text-xl font-serif  font-bold pb-6">
-                                            <a href="">DADO EL CALOR POLÍTICO: RESISTENCIA ANTE UN GOBIERNO
+                                            <a href="">BAJO EL CALOR POLÍTICO: RESISTENCIA ANTE UN GOBIERNO
                                                 MESIÁNICO</a>
                                         </h2>
                                         <p><i>En la ola de calor político, un gobierno ultra derechista amenaza el

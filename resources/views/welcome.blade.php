@@ -232,7 +232,7 @@
                                         <div class=" py-4 px-6">
                                             <h1 class="text-lg font-serif animate-fade-right ">
                                                 <a href="">
-                                                    <a href="">DADO EL CALOR POLÍTICO: RESISTENCIA ANTE UN GOBIERNO MESIÁNICO</a>
+                                                    <a href="">BAJO EL CALOR POLÍTICO: RESISTENCIA ANTE UN GOBIERNO MESIÁNICO</a>
                                                     <p><i>Por Adriana Zerdín</i></p>
                                                 </a>                                      
                                             </h1>
