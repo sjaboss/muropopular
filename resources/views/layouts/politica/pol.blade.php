@@ -1,5 +1,98 @@
 <x-app-layout>
     <div class="container ">
+
+        {{-- PETRI ENCABEZÓ LA PRESENTACIÓN--}}
+<section>
+    <ul>
+        <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+            <article>
+                <div class="py-4 px-4 justify-between items-center">
+                    <h2 class="text-xl font-serif  font-bold pb-6">
+                        <a href="">PETRI ENCABEZÓ LA PRESENTACIÓN DEL NUEVO AVIÓN EMBRAER
+                            ERJ 140 LR DE LA FUERZA AÉREA ARGENTINA</a>
+                    </h2>
+                    <p><i>El arribo del Embraer ERJ 140 LR representa un avance significativo en la
+                            modernización de la Fuerza Aérea Argentina, potenciando su capacidad
+                            operativa y reafirmando su compromiso con la defensa nacional y la
+                            seguridad ciudadana.</i>
+                    </p>
+                    <br>
+
+                    <figure>
+                        <img class="w-full object-cover"
+                            src="{{ asset('../img/pol/pol_petri.svg') }}" alt="">
+
+                    </figure>
+                    <br>
+                    <div
+                        class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                        <div class=" font-sans text-lg text-left col-span-6  ">
+
+
+                            <p>El ministro de Defensa, Luis Petri, encabezó esta tarde en la base
+                                aérea “El Palomar” la presentación del nuevo avión Embraer ERJ 140
+                                LR (Long Range), un bimotor de alcance regional destinado a
+                                fortalecer las capacidades operativas de la I Brigada Aérea de la
+                                Fuerza Aérea Argentina.
+                            </p>
+                            <br>
+                            <p>“Con la llegada del Embraer 140 que se suma a la Fuerza Aérea para
+                                reforzar la flota de transporte estamos reafirmando la necesidad de
+                                tener memoria histórica y de reconstruir el valor, la historia de
+                                las Fuerzas Armadas y la contribución que ellas hacen a la Patria”,
+                                afirmó el titular de Defensa, y continuó: “Porque aunque el desafío
+                                para las Fuerzas Armadas no es el mismo que en los tiempos de San
+                                Martín, que luchó por la independencia y la libertad, en estos
+                                momentos hay un mismo desafío que es también importante para la
+                                Fuerza Aérea, el Ejército y la Armada: ser custodios y garantes de
+                                los intereses vitales de la patria".
+                            </p>
+                            <br>
+                            <p>Durante el acto, se llevó a cabo el pasaje aéreo y el simbólico
+                                puente de agua, que bautiza oficialmente la aeronave, como gesto de
+                                buena fortuna y seguridad en los vuelos futuros.
+                            </p>
+                            <br>
+                            <p>Con una capacidad para 43 pasajeros, este avión puede alcanzar
+                                altitudes de hasta 37,000 pies y tiene un alcance de más de 2,500
+                                km. Su peso máximo de despegue es de 21,100 kg, y presenta un diseño
+                                con alas bajas y cola en T. La velocidad máxima de crucero es de
+                                Mach 0.78, lo que lo hace eficiente en distancias cortas. Además,
+                                está presurizado para brindar comodidad a altitudes elevadas.
+                            </p>
+                            <br>
+                            <p>El Embraer ERJ 140 LR también está equipado con una avanzada
+                                aviónica, que incluye una pantalla Flight Dynamics para aterrizajes
+                                CAT II, cinco pantallas electrónicas de sistema de información y
+                                vuelo, y un sistema de gestión de vuelo UNIVERSAL con doble FMS y
+                                GPS.
+                            </p>
+                            <br>
+                            <p>Esta aeronave se incorporará al Escuadrón Aéreo II, del Grupo 1 de
+                                Transporte Aéreo, en la I Brigada Aérea aumentando la capacidad de
+                                transporte aéreo operacional y mejorando la movilidad táctica de
+                                mediano alcance. La misma será utilizada mayormente en operaciones
+                                militares y en el ámbito de la protección civil, así como también en
+                                tareas de apoyo a la comunidad y ayuda humanitaria.</p>
+                            <br>
+
+
+
+
+                            <div class="text-start object-center">
+                                {{-- <figure>
+                                    <img class="w-28 h-28  "
+                                        src="{{ asset('../img/der/Adri.svg') }}" alt="">
+
+                                    <p> <strong>Adriana Zerdín</strong></p>
+
+                                </figure> --}}
+                            </div>
+                        </div>
+            </article>
+        </li>
+    </ul>
+</section>
 {{-- REPRESIÓN DESATADA--}}
 <section>
     <ul>

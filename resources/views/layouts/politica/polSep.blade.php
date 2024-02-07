@@ -3343,22 +3343,49 @@
                                             <div class=" font-sans text-lg text-left col-span-6  ">
 
 
-                                                <p>En una escena que rememora los momentos más oscuros de la historia argentina, el despliegue policial frente al Congreso durante la manifestación contra la Ley Ómnibus se convirtió en un capítulo vergonzoso de represión indiscriminada. Patricia Bullrich, con su historial marcado por tácticas represivas, lideró un operativo que dejó un rastro de heridos, detenidos y una clara violación a los principios democráticos.
+                                                <p>En una escena que rememora los momentos más oscuros de la historia
+                                                    argentina, el despliegue policial frente al Congreso durante la
+                                                    manifestación contra la Ley Ómnibus se convirtió en un capítulo
+                                                    vergonzoso de represión indiscriminada. Patricia Bullrich, con su
+                                                    historial marcado por tácticas represivas, lideró un operativo que
+                                                    dejó un rastro de heridos, detenidos y una clara violación a los
+                                                    principios democráticos.
                                                 </p>
                                                 <br>
-                                                <p>Lo que inicialmente debería haber sido un despeje de calles se convirtió en una cacería despiadada contra manifestantes pacíficos, periodistas y diputados opositores. El uso excesivo de la fuerza, balas de goma disparadas a mansalva y el gas pimienta, fueron las herramientas de un régimen que parece dispuesto a todo con tal de sofocar cualquier expresión de disidencia.
+                                                <p>Lo que inicialmente debería haber sido un despeje de calles se
+                                                    convirtió en una cacería despiadada contra manifestantes pacíficos,
+                                                    periodistas y diputados opositores. El uso excesivo de la fuerza,
+                                                    balas de goma disparadas a mansalva y el gas pimienta, fueron las
+                                                    herramientas de un régimen que parece dispuesto a todo con tal de
+                                                    sofocar cualquier expresión de disidencia.
                                                 </p>
                                                 <br>
-                                                <p>La ministra de Seguridad podría argumentar la aplicación del protocolo de "calles liberadas", pero la realidad es que las fuerzas a su cargo mantuvieron cortadas las avenidas Entre Ríos y Rivadavia durante horas, contradiciendo su propia bandera de "calles liberadas". El resultado fue una jornada de terror con al menos 60 heridos, incluyendo a un abogado vinculado a derechos humanos que podría perder un ojo.
+                                                <p>La ministra de Seguridad podría argumentar la aplicación del
+                                                    protocolo de "calles liberadas", pero la realidad es que las fuerzas
+                                                    a su cargo mantuvieron cortadas las avenidas Entre Ríos y Rivadavia
+                                                    durante horas, contradiciendo su propia bandera de "calles
+                                                    liberadas". El resultado fue una jornada de terror con al menos 60
+                                                    heridos, incluyendo a un abogado vinculado a derechos humanos que
+                                                    podría perder un ojo.
                                                 </p>
                                                 <br>
-                                                <p>La utilización de un nuevo gas pimienta generó alarma entre profesionales médicos, quienes denuncian graves lesiones dermatológicas y problemas respiratorios. La diputada Miriam Bregman anunció acciones legales contra el uso de este "gas ilegal". Mientras el gobierno de Milei avanza con su proyecto de Ley Ómnibus, la represión se erige como método para acallar la voz del pueblo.
+                                                <p>La utilización de un nuevo gas pimienta generó alarma entre
+                                                    profesionales médicos, quienes denuncian graves lesiones
+                                                    dermatológicas y problemas respiratorios. La diputada Miriam Bregman
+                                                    anunció acciones legales contra el uso de este "gas ilegal".
+                                                    Mientras el gobierno de Milei avanza con su proyecto de Ley Ómnibus,
+                                                    la represión se erige como método para acallar la voz del pueblo.
                                                 </p>
                                                 <br>
-                                                <p>En una Argentina donde la violencia policial parece ser la respuesta predeterminada, se desvía la atención de los problemas estructurales que enfrenta el país. La brutalidad policial no solo atenta contra la democracia, sino que también refleja la prioridad dada a la represión en lugar de buscar soluciones para los desafíos reales de la sociedad.
+                                                <p>En una Argentina donde la violencia policial parece ser la respuesta
+                                                    predeterminada, se desvía la atención de los problemas estructurales
+                                                    que enfrenta el país. La brutalidad policial no solo atenta contra
+                                                    la democracia, sino que también refleja la prioridad dada a la
+                                                    represión en lugar de buscar soluciones para los desafíos reales de
+                                                    la sociedad.
                                                 </p>
                                                 <br>
-                                                
+
 
 
 
@@ -3414,6 +3441,159 @@
                                                 <div class="p-5">
                                                     <a href="#">
                                                         <h5 class="mb-2 text-2xl font-bold tracking-tight  text-white">
+                                                            @{{ item.title }}</h5>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div v-for="va in clima">
+
+                                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-white">
+                                            @{{ va }}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+
+                </div>
+
+            </section>
+        @elseif ($tituloSep == 'Politica-Noticia-Completa-pol44')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">PETRI ENCABEZÓ LA PRESENTACIÓN DEL NUEVO AVIÓN EMBRAER
+                                                ERJ 140 LR DE LA FUERZA AÉREA ARGENTINA</a>
+                                        </h2>
+                                        <p><i>El arribo del Embraer ERJ 140 LR representa un avance significativo en la
+                                                modernización de la Fuerza Aérea Argentina, potenciando su capacidad
+                                                operativa y reafirmando su compromiso con la defensa nacional y la
+                                                seguridad ciudadana.</i>
+                                        </p>
+                                        <br>
+
+                                        <figure>
+                                            <img class="w-full object-cover"
+                                                src="{{ asset('../img/pol/pol_petri.svg') }}" alt="">
+
+                                        </figure>
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+
+
+                                                <p>El ministro de Defensa, Luis Petri, encabezó esta tarde en la base
+                                                    aérea “El Palomar” la presentación del nuevo avión Embraer ERJ 140
+                                                    LR (Long Range), un bimotor de alcance regional destinado a
+                                                    fortalecer las capacidades operativas de la I Brigada Aérea de la
+                                                    Fuerza Aérea Argentina.
+                                                </p>
+                                                <br>
+                                                <p>“Con la llegada del Embraer 140 que se suma a la Fuerza Aérea para
+                                                    reforzar la flota de transporte estamos reafirmando la necesidad de
+                                                    tener memoria histórica y de reconstruir el valor, la historia de
+                                                    las Fuerzas Armadas y la contribución que ellas hacen a la Patria”,
+                                                    afirmó el titular de Defensa, y continuó: “Porque aunque el desafío
+                                                    para las Fuerzas Armadas no es el mismo que en los tiempos de San
+                                                    Martín, que luchó por la independencia y la libertad, en estos
+                                                    momentos hay un mismo desafío que es también importante para la
+                                                    Fuerza Aérea, el Ejército y la Armada: ser custodios y garantes de
+                                                    los intereses vitales de la patria".
+                                                </p>
+                                                <br>
+                                                <p>Durante el acto, se llevó a cabo el pasaje aéreo y el simbólico
+                                                    puente de agua, que bautiza oficialmente la aeronave, como gesto de
+                                                    buena fortuna y seguridad en los vuelos futuros.
+                                                </p>
+                                                <br>
+                                                <p>Con una capacidad para 43 pasajeros, este avión puede alcanzar
+                                                    altitudes de hasta 37,000 pies y tiene un alcance de más de 2,500
+                                                    km. Su peso máximo de despegue es de 21,100 kg, y presenta un diseño
+                                                    con alas bajas y cola en T. La velocidad máxima de crucero es de
+                                                    Mach 0.78, lo que lo hace eficiente en distancias cortas. Además,
+                                                    está presurizado para brindar comodidad a altitudes elevadas.
+                                                </p>
+                                                <br>
+                                                <p>El Embraer ERJ 140 LR también está equipado con una avanzada
+                                                    aviónica, que incluye una pantalla Flight Dynamics para aterrizajes
+                                                    CAT II, cinco pantallas electrónicas de sistema de información y
+                                                    vuelo, y un sistema de gestión de vuelo UNIVERSAL con doble FMS y
+                                                    GPS.
+                                                </p>
+                                                <br>
+                                                <p>Esta aeronave se incorporará al Escuadrón Aéreo II, del Grupo 1 de
+                                                    Transporte Aéreo, en la I Brigada Aérea aumentando la capacidad de
+                                                    transporte aéreo operacional y mejorando la movilidad táctica de
+                                                    mediano alcance. La misma será utilizada mayormente en operaciones
+                                                    militares y en el ámbito de la protección civil, así como también en
+                                                    tareas de apoyo a la comunidad y ayuda humanitaria.</p>
+                                                <br>
+
+
+
+
+                                                <div class="text-start object-center">
+                                                    {{-- <figure>
+                                                        <img class="w-28 h-28  "
+                                                            src="{{ asset('../img/der/Adri.svg') }}" alt="">
+
+                                                        <p> <strong>Adriana Zerdín</strong></p>
+
+                                                    </figure> --}}
+                                                </div>
+                                            </div>
+                                </article>
+                            </li>
+                        </ul>
+                    </div>
+
+
+                    {{-- columna de la derecha chica --}}
+                    <aside>
+                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                            <div class=" col-span-6">
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/baner-leg1.png') }}"
+                                        alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/APSE.gif') }}" alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
+                                        alt="">
+                                </a>
+
+
+
+                                <div id="app">
+
+                                    <div v-for="item in info">
+
+                                        <div class="flex-col pb-3">
+                                            <div
+                                                class="flex-col max-w-sm  border  border-gray-700 rounded-lg shadow bg-gray-800">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg"
+                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
+                                                        alt="" />
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5
+                                                            class="mb-2 text-2xl font-bold tracking-tight  text-white">
                                                             @{{ item.title }}</h5>
 
                                                 </div>

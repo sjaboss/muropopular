@@ -1,6 +1,53 @@
 <x-app-layout>
     <div class="container ">
 
+{{--MUERE EL EX PRESIDENTE SEBASTIÁN PIÑERA... --}}
+    <section >
+        <ul>
+            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                <article>
+
+                    <div class="py-4 px-4 justify-between items-center">
+                        <h2 class="text-xl font-serif  font-bold pb-6">
+                            <a href="">MUERE EL EX PRESIDENTE SEBASTIÁN PIÑERA EN TRÁGICO ACCIDENTE DE HELICÓPTERO</a>
+                        </h2>
+                        <p><i>Chile de luto: El país y líderes latinoamericanos lamentan la pérdida de quien fuera presidente en dos ocasiones.</i>
+                        </p>
+                        <br>
+                        <figure>
+                            <img class=" w-full object-cover" src="../img/int/int_pinera.svg"
+                                alt="">
+
+                        </figure>
+                        <br>
+                        <div
+                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                            <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                <p>El martes 6 de febrero de 2024, Chile se sumió en el luto tras la trágica caída del exmandatario Sebastián Piñera en un accidente de helicóptero ocurrido en la comuna de Lago Ranco, Región de Los Ríos, alrededor de las 15 horas.</p>
+                                <br>
+                                <p>Según fuentes gubernamentales, el ex mandatario viajaba en la aeronave junto a su hija, nieta y yerno. Afortunadamente, estos últimos tres ocupantes lograron sobrevivir al accidente, mientras que Piñera perdió la vida en el incidente. El helicóptero se habría hundido a unos 40 metros de profundidad.</p>
+                                <br>
+                                <p>El Servicio Nacional de Prevención y Respuesta ante Desastres (Senapred) informó sobre la caída del helicóptero en el Sector de Iliue de la comuna de Lago Ranco, destacando que se registraron tres lesionados y un fallecido.
+                                </p>
+                                <br>
+                                <p>La noticia del trágico suceso no tardó en generar reacciones de pesar y condolencias tanto a nivel nacional como internacional. Desde el gobierno argentino se emitió un comunicado expresando el pesar por la pérdida de Piñera, quien ocupó la presidencia de Chile durante los períodos 2010-2014 y 2018-2022. Mandatarios y ex mandatarios de países latinoamericanos también se unieron al duelo, destacando la figura de Piñera y su legado.</p>
+                                <br>
+                                <p>El ex presidente de Colombia, Iván Duque, lamentó profundamente la partida de su "gran amigo y compañero", destacando la integridad y el apoyo que Piñera brindó a Colombia durante su gestión. Asimismo, el presidente de Uruguay, Luis Lacalle Pou, recordó la actitud positiva y el apoyo brindado por Piñera hacia Uruguay, especialmente durante la pandemia, expresando sus condolencias a los chilenos y la familia del ex mandatario.</b>.
+                                </p>
+                                <br>
+                            </div>
+
+
+
+                        </div>
+                    </div>
+                </article>
+            </li>
+        </ul>
+    </section>
+                        <br><br>
+
                         {{--CUBA SE ENFRENTA AL DESAFÍO DE MEJORAR.... --}}
 <section >
     <ul>

@@ -16,6 +16,7 @@ use App\Http\Controllers\SociedadController;
 use App\Http\Controllers\DeportesController;
 use App\Http\Controllers\DeportesSepController;
 use App\Http\Controllers\derechosHumanosSepController;
+use App\Http\Controllers\EconomiaSepController;
 use App\Http\Controllers\FeministaSepController;
 use App\Http\Controllers\GremialesSepController;
 use App\Http\Controllers\InternacinalesNewController;
@@ -47,7 +48,9 @@ Route::get('sociedad/{sociedad}',[sociedadController::class,'show'])->name('soci
 Route::get('sociedadsep/{sociedad}',[SociedadSepController::class,'show'])->name('sociedadSep.show');
 
 Route::get('policial/{policial}',[PolicialesController::class,'show'])->name('policial.show');
+
 Route::get('economia/{economia}',[EconomiaController::class,'show'])->name('economia.show');
+Route::get('economiasep/{economia}',[EconomiaSepController::class,'show'])->name('economiaSep.show');
 
 Route::get('gremial/{gremial}',[GremialesController::class,'show'])->name('gremial.show');
 Route::get('gremialSep/{tituloSep}',[GremialesSepController::class,'show'])->name('gremialSep.show');

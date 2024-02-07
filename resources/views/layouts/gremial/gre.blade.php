@@ -1,6 +1,153 @@
 <x-app-layout>
     <div class="container ">
 
+                        {{--OPOSICIÓN A LA REFORMA LABORAL DE MILEI SE HACE EVIDENTE  --}}
+<section>
+    <ul>
+        <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+            <article>
+
+                <div class="py-4 px-4 justify-between items-center">
+                    <h2 class="text-xl font-serif  font-bold pb-6">
+                        <a href="">OPOSICIÓN A LA REFORMA LABORAL DE MILEI SE HACE EVIDENTE
+                        </a>
+                    </h2>
+                    <p><i>Tras el intento fallido de implementar la Reforma Laboral a través del
+                            DNU, la oposición al gobierno de Milei se fortalece, denunciando
+                            estrategias que vulneran los derechos laborales.</i>
+                    </p>
+                    <br>
+
+                    <figure>
+                        <img class=" w-full object-cover" src="../img/grem/grem_reforma.svg"
+                            alt="">
+                    </figure>
+                    <br>
+                    <div
+                        class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                        <div class=" font-sans text-lg text-left col-span-6  ">
+
+                            <p>La batalla por la reforma laboral en Argentina toma un nuevo rumbo
+                                tras el revés sufrido por el gobierno de Milei en su intento de
+                                implementarla mediante un Decreto de Necesidad y Urgencia (DNU). La
+                                estrategia de llevarla al Congreso, anunciada por Oscar Zago, jefe
+                                del bloque oficialista, despierta críticas y desconfianza entre los
+                                sectores sindicales y políticos opositores.
+                            </p>
+                            <br>
+                            <p>La implementación de la reforma laboral ha sido un objetivo
+                                prioritario para el gobierno de Milei, quien busca adaptar el marco
+                                laboral argentino a los cambios del mundo actual. Sin embargo, las
+                                medidas propuestas han generado un fuerte rechazo en diversos
+                                sectores de la sociedad, que ven en ellas una amenaza directa a los
+                                derechos laborales conquistados con esfuerzo a lo largo de los años.
+                            </p>
+                            <br>
+                            <p>La resistencia se hace evidente tanto en el Congreso como en las
+                                calles. Diputados de la oposición, como Emilio Monzó de Hacemos
+                                Coalición Federal, han expresado su rechazo a ciertos puntos de la
+                                reforma, señalando que vulneran derechos fundamentales de los
+                                trabajadores. Asimismo, organizaciones sindicales como la CGT
+                                intensifican sus movilizaciones y analizan la protesta, incluyendo
+                                la posibilidad de un nuevo paro general.
+                            </p>
+                            <br>
+                            <p>La propuesta de reforma laboral enfrenta obstáculos significativos.
+                                Aspectos como el banco de horas, la modificación de los aportes
+                                sindicales y la limitación de las actividades gremiales encuentran
+                                una fuerte oposición, mientras que otros como la redeterminación de
+                                multas y el período de prueba podrían generar un debate más amplio
+                                en el Congreso.
+                            </p>
+                            <br>
+                            <p>El escenario político argentino se torna cada vez más complejo, con
+                                un gobierno empeñado en imponer una reforma laboral cuestionada por
+                                amplios sectores de la sociedad. La lucha por la defensa de los
+                                derechos laborales se intensifica, marcando un punto de inflexión en
+                                el devenir político del país.</p>
+                            <br>
+
+
+                        </div>
+                    </div>
+            </article>
+        </li>
+    </ul>
+    <br><br>
+</section>
+
+                {{--CAMARAZO DE REPORTERXS...  --}}
+
+<section>
+    <ul>
+        <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+            <article>
+
+                <div class="py-4 px-4 justify-between items-center">
+                    <h2 class="text-xl font-serif  font-bold pb-6">
+                        <a href="">CAMARAZO DE REPORTERXS GRÁFICXS FRENTE AL CONGRESO TRAS
+                            REPRESIÓN DE BULLRICH
+                        </a>
+                    </h2>
+                    <p><i>Trabajadores de prensa denuncian agresión y piden libertad para ejercer su
+                            trabajo en democracia.</i>
+                    </p>
+                    <br>
+
+                    <figure>
+                        <img class=" w-full object-cover" src="../img/grem/grem_camarazo.svg"
+                            alt="">
+                    </figure>
+                    <br>
+                    <div
+                        class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                        <div class=" font-sans text-lg text-left col-span-6  ">
+
+                            <p>En una contundente muestra de repudio, integrantes de la Asociación
+                                de Reporterxs Gráficxs de la República Argentina (Argra), el
+                                Sindicato de Prensa de Buenos Aires (Sipreba) y la Federación
+                                Argentina de Trabajadores de Prensa (Fatpren) llevaron a cabo este
+                                martes un camarazo. frente al Congreso Nacional en rechazo a la
+                                represión desatada por la ministra de Seguridad, Patricia Bullrich,
+                                durante el tratamiento de la Ley Ómnibus la semana pasada.
+                            </p>
+                            <br>
+                            <p>En su convocatoria, los trabajadores de Argra expresaron su rechazo
+                                contundente a la represión indiscriminada del Gobierno nacional, que
+                                arremetió contra el pueblo argentino manifestándose en defensa de
+                                sus derechos. Denunciaron que la brutalidad policial, promovida por
+                                la Ministra Bullrich, constituye un ataque directo a los
+                                trabajadores de prensa, quienes fueron víctimas de agresiones
+                                físicas y detenciones arbitrarias.
+                            </p>
+                            <br>
+                            <p>Sebastian Vricella, integrante de ARGRA y participante del camarazo,
+                                explicó que la actividad fue concebida como un acto simbólico para
+                                repudiar la violencia ejercida por el Ministerio de Seguridad y las
+                                fuerzas de seguridad. Vricella lamentó que la represión, perpetrada
+                                bajo el manto de la democracia, se repita de manera recurrente y
+                                afecta la integridad de los trabajadores de prensa, quienes solo
+                                buscan ejercer su trabajo de manera libre y segura.
+                            </p>
+                            <br>
+                            <p>Las palabras de Vricella reflejan el sentimiento de toda una
+                                comunidad que exige respeto por su trabajo y por los derechos
+                                fundamentales en un Estado democrático. El camarazo, convertido en
+                                un símbolo de resistencia, destaca la importancia de la libertad de
+                                expresión y la protección de los trabajadores de prensa en la
+                                construcción de una sociedad justa y democrática.
+                            </p>
+                            <br>
+
+
+                        </div>
+                    </div>
+            </article>
+        </li>
+    </ul>
+    <br><br>
+</section>
+
         {{--Unión Sindical Contra las Medidas de Milei:  --}}
 
 <section>
