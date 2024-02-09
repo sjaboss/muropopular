@@ -2597,7 +2597,9 @@
                                         <h2 class="text-xl font-serif  font-bold pb-6">
                                             <a href="">Mario Bonino: 30 años de impunidad</a>
                                         </h2>
-                                        <p><i>A 30 años del asesinato de Mario Bonino desde estas líneas ADN populares y quien escribe intentaremos no solo mantener viva la memoria de Mario Bonino, sino también reclamar Justicia por su asesinato. </i>.
+                                        <p><i>A 30 años del asesinato de Mario Bonino desde estas líneas ADN populares y
+                                                quien escribe intentaremos no solo mantener viva la memoria de Mario
+                                                Bonino, sino también reclamar Justicia por su asesinato. </i>.
                                         </p>
                                         <br>
                                         <figure>
@@ -2609,25 +2611,66 @@
                                             class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
                                             <div class=" font-sans text-lg text-left col-span-6  ">
 
-                                                <p>Mario Bonino, el primer periodista asesinado desde el regreso de la democracia en 1983, continúa siendo un nombre desconocido para la mayoría de los argentinos. A pesar de recibir el premio que lleva su nombre, su historia ha sido relegada al olvido, en gran parte por la falta de cobertura de los grandes medios de comunicación. Hoy, a 30 años de su asesinato, su memoria resurge como un recordatorio de la importancia de la justicia y la verdad en nuestra sociedad.
+                                                <p>Mario Bonino, el primer periodista asesinado desde el regreso de la
+                                                    democracia en 1983, continúa siendo un nombre desconocido para la
+                                                    mayoría de los argentinos. A pesar de recibir el premio que lleva su
+                                                    nombre, su historia ha sido relegada al olvido, en gran parte por la
+                                                    falta de cobertura de los grandes medios de comunicación. Hoy, a 30
+                                                    años de su asesinato, su memoria resurge como un recordatorio de la
+                                                    importancia de la justicia y la verdad en nuestra sociedad.
                                                 </p>
                                                 <br>
-                                                <p>En noviembre de 1993, los resultados de las pericias judiciales revelaron que Mario Bonino, periodista y militante sindical, fue asesinado y arrojado a las aguas del Riachuelo. El juez de instrucción, Raúl Irigoyen, aclaró que "se ha excluido el diagnóstico de muerte por inmersión" y que "tampoco se han detectado rastros de sustancias tóxicas en los restos". A pesar de estas evidencias, la causa Bonino sufrió una parálisis típica de la justicia de la era menemista y posteriormente fue olvidada por la sociedad y los medios de comunicación.
+                                                <p>En noviembre de 1993, los resultados de las pericias judiciales
+                                                    revelaron que Mario Bonino, periodista y militante sindical, fue
+                                                    asesinado y arrojado a las aguas del Riachuelo. El juez de
+                                                    instrucción, Raúl Irigoyen, aclaró que "se ha excluido el
+                                                    diagnóstico de muerte por inmersión" y que "tampoco se han detectado
+                                                    rastros de sustancias tóxicas en los restos". A pesar de estas
+                                                    evidencias, la causa Bonino sufrió una parálisis típica de la
+                                                    justicia de la era menemista y posteriormente fue olvidada por la
+                                                    sociedad y los medios de comunicación.
                                                 </p>
                                                 <br>
-                                                <p>Mario Bonino, que trabajó como cronista deportivo en varios medios gráficos, se destacó por su honestidad y su pasión por la política y el fútbol. En 1993, se desempeñaba en el área de Comunicación de la Unión de Trabajadores de Prensa de Buenos Aires (UTPBA), donde difundía informes de prensa y actividades en defensa de los trabajadores. Su compromiso político y su lucha por los derechos de los periodistas lo llevaron a enfrentar amenazas de muerte y agresiones.
+                                                <p>Mario Bonino, que trabajó como cronista deportivo en varios medios
+                                                    gráficos, se destacó por su honestidad y su pasión por la política y
+                                                    el fútbol. En 1993, se desempeñaba en el área de Comunicación de la
+                                                    Unión de Trabajadores de Prensa de Buenos Aires (UTPBA), donde
+                                                    difundía informes de prensa y actividades en defensa de los
+                                                    trabajadores. Su compromiso político y su lucha por los derechos de
+                                                    los periodistas lo llevaron a enfrentar amenazas de muerte y
+                                                    agresiones.
                                                 </p>
                                                 <br>
-                                                <p>El jueves 11 de noviembre de 1993, Bonino se había ocupado especialmente del caso de varios periodistas de San Luis que estaban siendo amenazados. Salió de la sede de la UTPBA, ​​jugó con su hijo y prometió traerle unas figuritas a la vuelta. Sin embargo, nunca regresó a su hogar. Su desaparición desencadenó una serie de amenazas a la sede de la UTPBA y la posterior aparición de su cuerpo en el Riachuelo.
+                                                <p>El jueves 11 de noviembre de 1993, Bonino se había ocupado
+                                                    especialmente del caso de varios periodistas de San Luis que estaban
+                                                    siendo amenazados. Salió de la sede de la UTPBA, ​​jugó con su hijo
+                                                    y prometió traerle unas figuritas a la vuelta. Sin embargo, nunca
+                                                    regresó a su hogar. Su desaparición desencadenó una serie de
+                                                    amenazas a la sede de la UTPBA y la posterior aparición de su cuerpo
+                                                    en el Riachuelo.
                                                 </p>
                                                 <br>
-                                                <p>A pesar de las claras evidencias de asesinato, el fiscal Luis González Warcalde, designado por el gobierno, intentó sostener la teoría del suicidio. Durante años, la causa Bonino fue un ejemplo de impunidad y obstáculos para la justicia, en un contexto de ataques y amenazas a periodistas en la década de los '90.
+                                                <p>A pesar de las claras evidencias de asesinato, el fiscal Luis
+                                                    González Warcalde, designado por el gobierno, intentó sostener la
+                                                    teoría del suicidio. Durante años, la causa Bonino fue un ejemplo de
+                                                    impunidad y obstáculos para la justicia, en un contexto de ataques y
+                                                    amenazas a periodistas en la década de los '90.
                                                 </p>
                                                 <br>
-                                                <p>A diferencia de otros casos que generaron movilizaciones populares, como el asesinato de José Luis Cabezas, el caso Bonino no recibió la misma atención de los medios de comunicación y la sociedad en general. Mas allá de los esfuerzos de la UTPBA, ​​la Federación Latinoamericana de Periodistas y la Organización Internacional de Periodistas, la causa de Bonino sigue sin resolverse. </p>
+                                                <p>A diferencia de otros casos que generaron movilizaciones populares,
+                                                    como el asesinato de José Luis Cabezas, el caso Bonino no recibió la
+                                                    misma atención de los medios de comunicación y la sociedad en
+                                                    general. Mas allá de los esfuerzos de la UTPBA, ​​la Federación
+                                                    Latinoamericana de Periodistas y la Organización Internacional de
+                                                    Periodistas, la causa de Bonino sigue sin resolverse. </p>
                                                 <br>
-                                                <p>Ante la falta de atención mediática, la Unión de Trabajadores de Prensa de Buenos Aires (UTPBA) ha mantenido viva la memoria de Mario Bonino y su lucha por la justicia. Cada año, se entrega el Premio Mario Bonino a periodistas que destacan por su compromiso en defensa de la verdad y contra la injusticia, lo que representa un acto de reconocimiento y homenaje a un mártir de la democracia.</p>
-                                              
+                                                <p>Ante la falta de atención mediática, la Unión de Trabajadores de
+                                                    Prensa de Buenos Aires (UTPBA) ha mantenido viva la memoria de Mario
+                                                    Bonino y su lucha por la justicia. Cada año, se entrega el Premio
+                                                    Mario Bonino a periodistas que destacan por su compromiso en defensa
+                                                    de la verdad y contra la injusticia, lo que representa un acto de
+                                                    reconocimiento y homenaje a un mártir de la democracia.</p>
+
 
                                                 <div class="text-start object-center">
                                                     <figure>
@@ -2638,6 +2681,116 @@
                                                         <p> <strong>Nota de Gustavo Cano</strong></p>
 
                                                     </figure>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+                            </li>
+                        </ul>
+                        <br>
+                    </div>
+
+
+                    {{-- columna de la derecha chica --}}
+                    <aside>
+                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                            <div class=" col-span-6">
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/bener-leg2.png') }}"
+                                        alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
+                                        alt="">
+                                </a>
+
+                                <div id="app">
+
+                                    <div v-for="item in info">
+
+                                        <div class="flex-col pb-3">
+                                            <div
+                                                class="flex-col max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg"
+                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
+                                                        alt="" />
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5
+                                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                                            @{{ item.title }}</h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div v-for="va in clima">
+
+                                        <h5
+                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                            @{{ va }}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+                </div>
+            </section>
+        @elseif ($tituloSep == 'Sociedad-Noticia-Completa-soc19')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">GOBIERNO SUSPENDE PROGRAMA VITAL PARA PERSONAS
+                                                VULNERABLES</a>
+                                        </h2>
+                                        <p><i>La medida del Ministerio de Capital Humano deja desamparados a pacientes
+                                                con cáncer y enfermedades crónicas. </i>.
+                                        </p>
+                                        <br>
+                                        <figure>
+                                            <img class="w-full object-cover" src="../img/soc/soc_peto.svg"
+                                                alt="">
+                                        </figure>
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                                <p>El Gobierno Nacional ha dado un golpe devastador a las personas más vulnerables de nuestra sociedad al suspender el programa Dadse, una iniciativa crucial que brindaba asistencia médica a quienes carecen de cobertura de salud, especialmente en el ámbito de enfermedades crónicas y cáncer. Esta decisión, anunciada por el secretario de Niñez, Adolescencia y Familia, Pablo de la Torre, bajo la excusa de "revisar los circuitos administrativos", deja en la desesperación a miles de argentinos que dependen de esta ayuda para sobrellevar sus condiciones de salud.
+                                                </p>
+                                                <br>
+                                                <p>La Dirección de Asistencia Directa por Situaciones Especiales (Dadse) ha sido una tabla de salvación para muchos, proporcionando subsidios para medicamentos, insumos y productos médicos necesarios para el tratamiento y la gestión de enfermedades crónicas y patologías agudas urgentes. Sin embargo, esta crucial red de apoyo ahora se encuentra en pausa, en un momento en que la necesidad de asistencia médica es más urgente que nunca.
+                                                </p>
+                                                <br>
+                                                <p>La suspensión de Dadse no solo es un golpe a los más vulnerables, sino que también revela las prioridades del gobierno de Javier Milei, quien parece priorizar las demandas del Fondo Monetario Internacional sobre las necesidades básicas de su propio pueblo. En medio de una escalada de precios y una crisis económica que afecta desproporcionadamente a los sectores más pobres de la sociedad, esta medida es un cruel recordatorio de la falta de empatía y sensibilidad del gobierno hacia quienes más lo necesitan.
+                                                </p>
+                                                <br>
+                                                <p>Es inaceptable que en un momento de crisis social y económica, el gobierno opte por suspender un programa vital como Dadse, en lugar de buscar soluciones que protejan a los más desfavorecidos. La excusa de revisar los circuitos administrativos no es más que una cortina de humo para encubrir una decisión insensible y despiadada que dejará a muchas personas sin acceso a la atención médica que necesitan desesperadamente.
+                                                </p>
+                                                <br>
+                                                <p>Es hora de que el gobierno de Milei priorice el bienestar de su propio pueblo sobre las demandas de los organismos financieros internacionales. La suspensión de Dadse es una afrenta a la justicia social y un recordatorio de la necesidad de un cambio de dirección en las políticas gubernamentales. Los argentinos merecen un gobierno que esté verdaderamente comprometido con su bienestar y que tome medidas concretas para proteger a los más vulnerables de nuestra sociedad.
+                                                </p>
+                                                <br>                                               
+                                                <div class="text-start object-center">
+                                                   {{--  <figure>
+                                                        <img class="w-28 h-28  "
+                                                            src="{{ asset('../img/noteros/Gus.svg') }}"
+                                                            alt="">
+                                                        Publicado: 13/11/2023
+                                                        <p> <strong>Nota de Gustavo Cano</strong></p>
+
+                                                    </figure> --}}
                                                 </div>
                                             </div>
                                         </div>

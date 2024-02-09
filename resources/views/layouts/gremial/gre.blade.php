@@ -1,5 +1,55 @@
 <x-app-layout>
     <div class="container ">
+{{--OPOSICIÓN A LA REFORMA LABORAL DE MILEI SE HACE EVIDENTE  --}}
+    <section>
+        <ul>
+            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                <article>
+
+                    <div class="py-4 px-4 justify-between items-center">
+                        <h2 class="text-xl font-serif  font-bold pb-6">
+                            <a href="">UNIENDO FUERZAS EN TIEMPOS DE CRISIS
+                            </a>
+                        </h2>
+                        <p><i>Organizaciones sociales y sindicales se reúnen para abordar la situación actual y coordinar acciones en defensa del pueblo argentino.</i>
+                        </p>
+                        <br>
+
+                        <figure>
+                            <img class=" w-full object-cover" src="../img/grem/grem_uniendo.svg"
+                                alt="">
+                        </figure>
+                        <br>
+                        <div
+                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                            <div class=" font-sans text-lg text-left col-span-6  ">
+                                <p>En un contexto de aguda crisis social y económica, las diversas organizaciones que integran la Multisectorial por el Trabajo, la Producción y la Soberanía Nacional se congregaron en la sede nacional de la CTA-T para analizar la situación y definir estrategias de acción.
+                                </p>
+                                <br>
+                                <p>En el encuentro participaron representantes de las dos CTA, la UTEP, la Mesa de Organismos de Derechos Humanos, la confederación de PyMes, el MP25M y otras entidades comprometidas con la defensa de los derechos del pueblo argentino.
+                                </p>
+                                <br>
+                                <p>Uno de los temas centrales abordados fue el reciente avance de la ley Ómnibus en el Congreso, una medida que ha despertado fuertes críticas y preocupaciones en diversos sectores de la sociedad. Se destacó especialmente la represión violenta y desproporcionada contra los manifestantes que se congregaron frente al Congreso para expresar su rechazo a esta ley.
+                                </p>
+                                <br>
+                                <p>Además, se evaluó el proceso de formación de multisectoriales en distintas regiones del país, con el objetivo de fortalecer la unidad de los distintos sectores sociales y sindicales en la lucha por los derechos y la justicia.
+                                </p>
+                                <br>
+                                <p>En este sentido, se hizo un llamado a apoyar las iniciativas de los movimientos sociales, como la "Fila contra el hambre" impulsada por la UTEP, que busca visibilizar la situación de vulnerabilidad de miles de familias argentinas afectadas por la crisis económica.</p>
+                                <br>
+                                <p>También se repudiaron enfáticamente las declaraciones de la Ministra de Seguridad, Patricia Bullrich, quien justificó la represión policial y anunció la continuidad de estas prácticas en futuras manifestaciones.</p>
+                                <br>
+                                <p>Por último, se acordó participar activamente en el "Congreso de las chicas y los chicos del pueblo", una iniciativa que busca dar voz a la juventud y promover la participación ciudadana en la construcción de un país más justo y solidario.</p>
+                                <br>
+                                <p>La Multisectorial por el Trabajo, la Producción y la Soberanía Nacional reafirmó su compromiso de seguir trabajando en la articulación de acciones y la defensa de los derechos del pueblo argentino frente a las políticas regresivas y autoritarias impulsadas por el gobierno de Javier Milei.</p>
+                                <br>
+                            </div>
+                        </div>
+                </article>
+            </li>
+        </ul
+    <br><br>
+    </section>
 
                         {{--OPOSICIÓN A LA REFORMA LABORAL DE MILEI SE HACE EVIDENTE  --}}
 <section>

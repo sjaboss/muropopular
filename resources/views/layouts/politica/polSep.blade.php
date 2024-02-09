@@ -3614,6 +3614,118 @@
                 </div>
 
             </section>
+        @elseif ($tituloSep == 'Politica-Noticia-Completa-pol45')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">GOBIERNO SUFRE UNA DURA DERROTA EN LA LEY ÓMNIBUS</a>
+                                        </h2>
+                                        <p><i>El retiro de la Ley Ómnibus en el Congreso desata críticas y tensiones políticas en Argentina.</i>
+                                        </p>
+                                        <br>
+
+                                        <figure>
+                                            <img class="w-full object-cover"
+                                                src="{{ asset('../img/pol/pol_omnibus.svg') }}" alt="">
+
+                                        </figure>
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+                                                <p>En un giro sorprendente en el Congreso argentino, el gobierno ha sufrido una contundente derrota con la retirada de la Ley Ómnibus del tratamiento en el recinto. Esta medida, que representa un duro revés para las políticas impulsadas por el oficialismo, ha generado un profundo malestar en las filas del gobierno y un aire de triunfo entre la oposición y el pueblo argentino.
+                                                </p>
+                                                <br>
+                                                <p>La Ley Ómnibus, presentada por el presidente Javier Milei como una supuesta solución a los problemas del país, ha sido objeto de intensos debates y protestas desde su introducción. Con más de 660 artículos, este mega proyecto buscaba introducir cambios profundos en diversos aspectos de la vida nacional, desde la economía hasta la educación y el medio ambiente.
+                                                </p>
+                                                <br>
+                                                <p>Sin embargo, su contenido altamente polémico y regresivo ha encontrado una fuerte resistencia tanto en el Congreso como en la sociedad en general. La propuesta de privatizar empresas estatales, recortar derechos laborales y limitar las libertades individuales ha despertado un rechazo generalizado, incluso dentro de las propias filas del oficialismo.
+                                                </p>
+                                                <br>
+                                                <p>La retirada de la Ley Ómnibus del tratamiento en el Congreso representa una victoria para aquellos que defienden la justicia social y los valores democráticos en Argentina. Ha dejado en evidencia la falta de consenso y respaldo político para las políticas neoliberales y autoritarias propuestas por el gobierno, y ha fortalecido la posición de aquellos que abogan por una Argentina más inclusiva y solidaria.
+                                                </p>
+                                                <br>
+                                                <p>Esta derrota del gobierno en el Congreso no solo es un golpe político, sino también un llamado de atención sobre la necesidad de escuchar la voz del pueblo y respetar sus derechos y aspiraciones. En un contexto de creciente polarización y tensiones políticas, es fundamental que las autoridades actúen con responsabilidad y busquen consensos que beneficien a toda la sociedad argentina.
+                                                </p>
+                                                <br>
+                                                <div class="text-start object-center">
+                                                    {{-- <figure>
+                                                        <img class="w-28 h-28  "
+                                                            src="{{ asset('../img/der/Adri.svg') }}" alt="">
+
+                                                        <p> <strong>Adriana Zerdín</strong></p>
+
+                                                    </figure> --}}
+                                                </div>
+                                            </div>
+                                </article>
+                            </li>
+                        </ul>
+                    </div>
+
+
+                    {{-- columna de la derecha chica --}}
+                    <aside>
+                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                            <div class=" col-span-6">
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/baner-leg1.png') }}"
+                                        alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/APSE.gif') }}" alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
+                                        alt="">
+                                </a>
+
+
+
+                                <div id="app">
+
+                                    <div v-for="item in info">
+
+                                        <div class="flex-col pb-3">
+                                            <div
+                                                class="flex-col max-w-sm  border  border-gray-700 rounded-lg shadow bg-gray-800">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg"
+                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
+                                                        alt="" />
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5
+                                                            class="mb-2 text-2xl font-bold tracking-tight  text-white">
+                                                            @{{ item.title }}</h5>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div v-for="va in clima">
+
+                                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-white">
+                                            @{{ va }}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+
+                </div>
+
+            </section>
         @endif
 
     </div>

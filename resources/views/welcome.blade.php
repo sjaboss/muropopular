@@ -367,13 +367,13 @@
                                         <figure>
                                             <a href="">
                                                 <img class="h-48  w-full object-cover object-center"
-                                                    src="{{ asset('../img/grem/grem_tano.svg') }}"alt="">
+                                                    src="{{ asset('../img/grem/grem_uniendo.svg') }}"alt="">
                                             </a>
                                         </figure>
                                         <div class=" py-4 px-6">
                                             <h1 class="text-lg font-serif ">
                                                 <a href="">
-                                                    DANIEL CATALANO: FIRMEZA Y UNIDAD PARA ENFRENTAR DESAFÍOS POLÍTICOS
+                                                    UNIENDO FUERZAS EN TIEMPOS DE CRISIS
 
 
                                                 </a>
@@ -384,7 +384,7 @@
                                             <div class="pt-2">
                                                 <h2>
                                                     @php
-                                                        $tituloSep = 'Gremiales-Noticia-Completa-gre7#gre7';
+                                                        $tituloSep = 'Gremiales-Noticia-Completa-gre15#gre15';
                                                     @endphp
                                                     <a class="text-emerald-700 font-semibold hover:text-emerald-400 hover:underline"
                                                         href="{{ route('gremialSep.show', $tituloSep) }}">Ir a la
@@ -392,7 +392,7 @@
                                                 </h2>
                                             </div>
                                         </div>
-                                        <p class="font-light  text-right text-gray-500">Publicado: 10/11/2023</p>
+                                        <p class="font-light  text-right text-gray-500">Publicado: 08/02/2024</p>
                                     </article>
                                 </li>
 
@@ -441,27 +441,27 @@
                                     <article>
                                         <figure>
                                             <img class="h-60 w-full object-cover object-center"
-                                                src="{{ asset('../img/fem/fem_geoloca.svg') }}" alt="">
+                                                src="{{ asset('../img/cul/cul_vuelve.svg') }}" alt="">
                                         </figure>
                                         <div class=" py-4 px-6">
                                             <h1 class="text-lg font-serif ">
                                                 <a href="">
-                                                    EL GOBIERNO NACIONAL IMPULSA LA GEOLOCALIZACÓN DE CUIDADORAS Y CUIDADORES CON LA ACTUALIZACIÓN DEL MAPA FEDERAL DEL CUIDADO                                              </a>
+                                                    VUELVE "YA NADIE RECUERDA A FRÉDÉRIC CHOPIN": UNA OBRA TEATRAL QUE DESPIERTA LA MEMORIA Y EL DEBATE</a>
                                             </h1>
 
                                             <div class="pt-4">
                                                 <h2>
 
                                                     @php
-                                                        $tituloPo = 'Agenda-Feminista-Completa-fem15#fem15';
+                                                        $tituloPo = 'Cultura-Noticia-Completa-cul12#cul12';
                                                     @endphp
                                                     <a class="text-emerald-700 font-semibold hover:text-emerald-400 hover:underline"
-                                                        href="{{ route('feministaSep.show', $tituloPo) }}">Ir a la
+                                                        href="{{ route('culturaSep.show', $tituloPo) }}">Ir a la
                                                         Noticía</a>
                                                 </h2>
                                             </div>
                                         </div>
-                                        <p class="font-light  text-right text-gray-500">Publicado: 10/11/2023</p>
+                                        <p class="font-light  text-right text-gray-500">Publicado: 08/02/2024</p>
                                     </article>
                                 </li>
 
@@ -470,13 +470,13 @@
                                         <figure>
                                             <a href="">
                                                 <img class="h-60 w-full object-cover object-center"
-                                                    src="{{ asset('../img/int/int_uribe.svg') }}" alt="">
+                                                    src="{{ asset('../img/pol/pol_omnibus.svg') }}" alt="">
                                             </a>
                                         </figure>
                                         <div class=" py-4 px-6">
                                             <h1 class="text-lg font-serif ">
                                                 <a href="">
-                                                    DENUNCIAN A ÁLVARO URIBE EN ARGENTINA  POR PRESUNTA IMPLICACIÓN EN FALSOS POSITIVOS
+                                                    GOBIERNO SUFRE UNA DURA DERROTA EN LA LEY ÓMNIBUS
                                                 </a>
                                             </h1>
                                             {{--     <p class="font-light text-gray-500">En el marco de las acciones destinadas
@@ -489,15 +489,15 @@
                                             <div class="pt-2">
                                                 <h2>
                                                     @php
-                                                        $tituloSep = 'Internacionales-Noticia-Completa-int7#int7';
+                                                        $tituloSep = 'Politica-Noticia-Completa-pol45#pol45';
                                                     @endphp
                                                     <a class="text-emerald-700 font-semibold hover:text-emerald-400 hover:underline"
-                                                        href="{{ route('interSepNew.show', $tituloSep) }}">Ir a la
+                                                        href="{{ route('politicaSep.show', $tituloSep) }}">Ir a la
                                                         Noticía</a>
                                                 </h2>
                                             </div>
                                         </div>
-                                        <p class="font-light  text-right text-gray-500">Publicado: 09/11/2023</p>
+                                        <p class="font-light  text-right text-gray-500">Publicado: 08/02/2024</p>
                                     </article>
                                 </li>
                             </ul>
@@ -557,20 +557,20 @@
                                         <figure>
                                             <a href="">
                                                 <img class="h-48 w-full object-cover object-center"
-                                                    src="{{ asset('../img/soc/soc_taiana.svg') }}" alt="">
+                                                    src="{{ asset('../img/soc/soc_peto.svg') }}" alt="">
                                             </a>
                                         </figure>
                                         <div class=" py-4 px-6">
                                             <h1 class="text-lg font-serif ">
                                                 <a href="">
-                                                    TAIANA HIZO ENTREGA DE EQUIPAMIENTO PARA EL ARMA DE INGENIEROS 
+                                                    GOBIERNO SUSPENDE PROGRAMA VITAL PARA PERSONAS VULNERABLES
                                                 </a>
                                             </h1>
 
                                             <div class="pt-4">
                                                 <h2>
                                                     @php
-                                                        $tituloSep = 'Sociedad-Noticia-Completa-soc15#soc15';
+                                                        $tituloSep = 'Sociedad-Noticia-Completa-soc19#soc19';
                                                     @endphp
                                                     <a class="text-emerald-700 font-semibold hover:text-emerald-400 hover:underline"
                                                         href="{{ route('sociedadSep.show', $tituloSep) }}">Ir a la
@@ -579,7 +579,7 @@
                                             </div>
 
                                         </div>
-                                        <p class="font-light  text-right text-gray-500">Publicado: 09/11/2023</p>
+                                        <p class="font-light  text-right text-gray-500">Publicado: 08/02/2024</p>
                                     </article>
                                 </li>
 

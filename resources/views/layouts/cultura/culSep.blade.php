@@ -1366,6 +1366,114 @@
                 </div>
 
             </section>
+        @elseif ($tituloSep == 'Cultura-Noticia-Completa-cul12')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">VUELVE "YA NADIE RECUERDA A FRÉDÉRIC CHOPIN": UNA OBRA TEATRAL QUE DESPIERTA LA MEMORIA Y EL DEBATE </a>
+                                        </h2>
+
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                                <p><i>El clásico de Tito Cossa regresa al Teatro La Máscara con funciones de debate, ofreciendo una experiencia teatral inolvidable y reflexiva.</i></p>
+                                                <br>
+                                                <figure>
+                                                    <a href="">
+                                                        <img class="w-full object-cover object-center"
+                                                            src="{{ asset('../img/cul/cul_vuelve.svg') }}"
+                                                            alt="">
+                                                    </a>
+                                                </figure>
+                                                <br>
+                                                <p>El próximo sábado 17 de febrero, a las 18:00 horas, el Teatro La Máscara abrirá sus puertas para el re-estreno de "Ya nadie recuerda a Frédéric Chopin", una obra escrita por el reconocido dramaturgo Roberto "Tito" Cossa. Pero esta vez, la experiencia va más allá de la simple observación teatral. Tras la función, el público tendrá la oportunidad de participar en un enriquecedor debate con el elenco, el director Norberto Gonzalo, y el periodista Fernando Borroni.
+                                                </p>
+                                                <br>
+                                                <p>La obra, que forma parte de la segunda temporada del Teatro La Máscara, es una invitación a explorar los recuerdos y las memorias en un viaje a través de la magia de la palabra y la interpretación. En "Ya nadie recuerda a Frédéric Chopin", Tito Cossa nos sumerge en la plazoleta de Villa del Parque, donde los muertos cobran vida y los vivos envejecen sin resolver completamente sus vidas.
+                                                </p>
+                                                <br>
+                                                <p>Programación ResumidaLa dirección de Norberto Gonzalo ha sido aclamada por su excelente puesta en escena, logrando ambientar de manera magistral los dos espacios físicos donde transcurre la obra. El experimentado elenco, integrado por Daniel Dibiase, Amancay Espíndola, Brenda Fabregat, Stella Matute, Leonardo Odierna y Claudio Pazos, ofrece una actuación impecable que cautiva al espectador desde el primer momento.</p>
+                                                <br>
+                                                <p>La pieza, escrita en 1982, aborda temas profundos y universales, como la añoranza, las ausencias y la fragilidad de la memoria. Aunque no menciona directamente al peronismo, la obra ofrece referencias al histórico 17 de octubre, generando una reflexión sobre la historia y la identidad argentina.
+                                                </p>
+                                                <br>
+                                                <p>"Ya nadie recuerda a Frédéric Chopin" es más que una obra teatral; es una experiencia transformadora que invita al público a cuestionar y a debatir sobre los temas que plantea. No te pierdas la oportunidad de ser parte de este encuentro único entre el arte y la reflexión.
+                                                </p>
+                                                <br>
+                                                <p>Para más información y reservas, puedes contactar al Teatro La Máscara al teléfono 4307-0566 o visitar su página web: www.lamascara-teatro.blogspot.com </p>
+                                                <br>
+                                            </div>
+
+
+
+                                        </div>
+                                    </div>
+                                </article>
+                            </li>
+                        </ul>
+                        <br>
+
+                    </div>
+
+
+                    {{-- columna de la derecha chica --}}
+                    <aside>
+                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                            <div class=" col-span-6">
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/bener-leg2.png') }}"
+                                        alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
+                                        alt="">
+                                </a>
+
+                                <div id="app">
+
+                                    <div v-for="item in info">
+
+                                        <div class="flex-col pb-3">
+                                            <div
+                                                class="flex-col max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg"
+                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
+                                                        alt="" />
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5
+                                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                                            @{{ item.title }}</h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div v-for="va in clima">
+
+                                        <h5
+                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                            @{{ va }}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+
+                </div>
+
+            </section>
         @endif
     </div>
 
@@ -1387,7 +1495,7 @@
                 mounted() {
 
 
-                    axios.get("https://api.dailymotion.com/videos?channel=news&limit=5")
+                    axios.get("https://api.dailymotion.com/videos?channel=news&limit=3")
                         .then(response => {
                             this.info = response.data.list
                         });

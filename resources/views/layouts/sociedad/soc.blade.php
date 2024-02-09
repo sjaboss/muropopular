@@ -1,5 +1,62 @@
 <x-app-layout>
     <div class="container ">
+        {{--GOBIERNO SUSPENDE PROGRAMA VITAL PARA PERSONAS VULNERABLES  --}}
+    <section> 
+        <ul>
+            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                <article>
+
+                    <div class="py-4 px-4 justify-between items-center">
+                        <h2 class="text-xl font-serif  font-bold pb-6">
+                            <a href="">GOBIERNO SUSPENDE PROGRAMA VITAL PARA PERSONAS
+                                VULNERABLES</a>
+                        </h2>
+                        <p><i>La medida del Ministerio de Capital Humano deja desamparados a pacientes
+                                con cáncer y enfermedades crónicas. </i>.
+                        </p>
+                        <br>
+                        <figure>
+                            <img class="w-full object-cover" src="../img/soc/soc_peto.svg"
+                                alt="">
+                        </figure>
+                        <br>
+                        <div
+                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                            <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                <p>El Gobierno Nacional ha dado un golpe devastador a las personas más vulnerables de nuestra sociedad al suspender el programa Dadse, una iniciativa crucial que brindaba asistencia médica a quienes carecen de cobertura de salud, especialmente en el ámbito de enfermedades crónicas y cáncer. Esta decisión, anunciada por el secretario de Niñez, Adolescencia y Familia, Pablo de la Torre, bajo la excusa de "revisar los circuitos administrativos", deja en la desesperación a miles de argentinos que dependen de esta ayuda para sobrellevar sus condiciones de salud.
+                                </p>
+                                <br>
+                                <p>La Dirección de Asistencia Directa por Situaciones Especiales (Dadse) ha sido una tabla de salvación para muchos, proporcionando subsidios para medicamentos, insumos y productos médicos necesarios para el tratamiento y la gestión de enfermedades crónicas y patologías agudas urgentes. Sin embargo, esta crucial red de apoyo ahora se encuentra en pausa, en un momento en que la necesidad de asistencia médica es más urgente que nunca.
+                                </p>
+                                <br>
+                                <p>La suspensión de Dadse no solo es un golpe a los más vulnerables, sino que también revela las prioridades del gobierno de Javier Milei, quien parece priorizar las demandas del Fondo Monetario Internacional sobre las necesidades básicas de su propio pueblo. En medio de una escalada de precios y una crisis económica que afecta desproporcionadamente a los sectores más pobres de la sociedad, esta medida es un cruel recordatorio de la falta de empatía y sensibilidad del gobierno hacia quienes más lo necesitan.
+                                </p>
+                                <br>
+                                <p>Es inaceptable que en un momento de crisis social y económica, el gobierno opte por suspender un programa vital como Dadse, en lugar de buscar soluciones que protejan a los más desfavorecidos. La excusa de revisar los circuitos administrativos no es más que una cortina de humo para encubrir una decisión insensible y despiadada que dejará a muchas personas sin acceso a la atención médica que necesitan desesperadamente.
+                                </p>
+                                <br>
+                                <p>Es hora de que el gobierno de Milei priorice el bienestar de su propio pueblo sobre las demandas de los organismos financieros internacionales. La suspensión de Dadse es una afrenta a la justicia social y un recordatorio de la necesidad de un cambio de dirección en las políticas gubernamentales. Los argentinos merecen un gobierno que esté verdaderamente comprometido con su bienestar y que tome medidas concretas para proteger a los más vulnerables de nuestra sociedad.
+                                </p>
+                                <br>                                               
+                                <div class="text-start object-center">
+                                   {{--  <figure>
+                                        <img class="w-28 h-28  "
+                                            src="{{ asset('../img/noteros/Gus.svg') }}"
+                                            alt="">
+                                        Publicado: 13/11/2023
+                                        <p> <strong>Nota de Gustavo Cano</strong></p>
+
+                                    </figure> --}}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </li>
+        </ul>
+            <br>
+     </section>
 
     {{--Mario Bonino: 30 años de impunidad..  --}}
     <section>

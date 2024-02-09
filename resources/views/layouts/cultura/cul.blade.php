@@ -1,7 +1,60 @@
 <x-app-layout>
     <div class="container ">
 
-   {{-- FESTIVAL CULTURAL "17 DE OCTUBRE"--}}
+        {{-- VUELVE "YA NADIE RECUERDA A FRÉDÉRIC CHOPIN":--}}
+   <section>
+    <ul>
+        <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+            <article>
+
+                <div class="py-4 px-4 justify-between items-center">
+                    <h2 class="text-xl font-serif  font-bold pb-6">
+                        <a href="">VUELVE "YA NADIE RECUERDA A FRÉDÉRIC CHOPIN": UNA OBRA TEATRAL QUE DESPIERTA LA MEMORIA Y EL DEBATE </a>
+                    </h2>
+
+                    <div
+                        class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                        <div class=" font-sans text-lg text-left col-span-6  ">
+
+                            <p><i>El clásico de Tito Cossa regresa al Teatro La Máscara con funciones de debate, ofreciendo una experiencia teatral inolvidable y reflexiva.</i></p>
+                            <br>
+                            <figure>
+                                <a href="">
+                                    <img class="w-full object-cover object-center"
+                                        src="{{ asset('../img/cul/cul_vuelve.svg') }}"
+                                        alt="">
+                                </a>
+                            </figure>
+                            <br>
+                            <p>El próximo sábado 17 de febrero, a las 18:00 horas, el Teatro La Máscara abrirá sus puertas para el re-estreno de "Ya nadie recuerda a Frédéric Chopin", una obra escrita por el reconocido dramaturgo Roberto "Tito" Cossa. Pero esta vez, la experiencia va más allá de la simple observación teatral. Tras la función, el público tendrá la oportunidad de participar en un enriquecedor debate con el elenco, el director Norberto Gonzalo, y el periodista Fernando Borroni.
+                            </p>
+                            <br>
+                            <p>La obra, que forma parte de la segunda temporada del Teatro La Máscara, es una invitación a explorar los recuerdos y las memorias en un viaje a través de la magia de la palabra y la interpretación. En "Ya nadie recuerda a Frédéric Chopin", Tito Cossa nos sumerge en la plazoleta de Villa del Parque, donde los muertos cobran vida y los vivos envejecen sin resolver completamente sus vidas.
+                            </p>
+                            <br>
+                            <p>Programación ResumidaLa dirección de Norberto Gonzalo ha sido aclamada por su excelente puesta en escena, logrando ambientar de manera magistral los dos espacios físicos donde transcurre la obra. El experimentado elenco, integrado por Daniel Dibiase, Amancay Espíndola, Brenda Fabregat, Stella Matute, Leonardo Odierna y Claudio Pazos, ofrece una actuación impecable que cautiva al espectador desde el primer momento.</p>
+                            <br>
+                            <p>La pieza, escrita en 1982, aborda temas profundos y universales, como la añoranza, las ausencias y la fragilidad de la memoria. Aunque no menciona directamente al peronismo, la obra ofrece referencias al histórico 17 de octubre, generando una reflexión sobre la historia y la identidad argentina.
+                            </p>
+                            <br>
+                            <p>"Ya nadie recuerda a Frédéric Chopin" es más que una obra teatral; es una experiencia transformadora que invita al público a cuestionar y a debatir sobre los temas que plantea. No te pierdas la oportunidad de ser parte de este encuentro único entre el arte y la reflexión.
+                            </p>
+                            <br>
+                            <p>Para más información y reservas, puedes contactar al Teatro La Máscara al teléfono 4307-0566 o visitar su página web: www.lamascara-teatro.blogspot.com </p>
+                            <br>
+                        </div>
+
+
+
+                    </div>
+                </div>
+            </article>
+        </li>
+    </ul>
+    <br>
+   </section>
+    <br><br>
+{{-- FESTIVAL CULTURAL "17 DE OCTUBRE"--}}
    <section>
     <ul>
         <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
@@ -118,7 +171,7 @@
         </li>
     </ul>
     <br>
-</section>
+   </section>
     <br><br>
 
           {{-- FESTIVAL FACAFF--}}
