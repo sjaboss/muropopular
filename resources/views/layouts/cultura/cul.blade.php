@@ -32,7 +32,7 @@
                             <p>La obra, que forma parte de la segunda temporada del Teatro La Máscara, es una invitación a explorar los recuerdos y las memorias en un viaje a través de la magia de la palabra y la interpretación. En "Ya nadie recuerda a Frédéric Chopin", Tito Cossa nos sumerge en la plazoleta de Villa del Parque, donde los muertos cobran vida y los vivos envejecen sin resolver completamente sus vidas.
                             </p>
                             <br>
-                            <p>Programación ResumidaLa dirección de Norberto Gonzalo ha sido aclamada por su excelente puesta en escena, logrando ambientar de manera magistral los dos espacios físicos donde transcurre la obra. El experimentado elenco, integrado por Daniel Dibiase, Amancay Espíndola, Brenda Fabregat, Stella Matute, Leonardo Odierna y Claudio Pazos, ofrece una actuación impecable que cautiva al espectador desde el primer momento.</p>
+                            <p>La dirección de Norberto Gonzalo ha sido aclamada por su excelente puesta en escena, logrando ambientar de manera magistral los dos espacios físicos donde transcurre la obra. El experimentado elenco, integrado por Daniel Dibiase, Amancay Espíndola, Brenda Fabregat, Stella Matute, Leonardo Odierna y Claudio Pazos, ofrece una actuación impecable que cautiva al espectador desde el primer momento.</p>
                             <br>
                             <p>La pieza, escrita en 1982, aborda temas profundos y universales, como la añoranza, las ausencias y la fragilidad de la memoria. Aunque no menciona directamente al peronismo, la obra ofrece referencias al histórico 17 de octubre, generando una reflexión sobre la historia y la identidad argentina.
                             </p>

@@ -23,6 +23,7 @@ use App\Http\Controllers\InternacinalesNewController;
 use App\Http\Controllers\LegislaturaController;
 use App\Http\Controllers\legislaturaSepController;
 use App\Http\Controllers\NosotrosController;
+use App\Http\Controllers\policialSepController;
 use App\Http\Controllers\PoliticaSepController;
 use App\Http\Controllers\SociedadSepController;
 
@@ -48,6 +49,7 @@ Route::get('sociedad/{sociedad}',[sociedadController::class,'show'])->name('soci
 Route::get('sociedadsep/{sociedad}',[SociedadSepController::class,'show'])->name('sociedadSep.show');
 
 Route::get('policial/{policial}',[PolicialesController::class,'show'])->name('policial.show');
+Route::get('policialSep/{policial}',[policialSepController::class,'show'])->name('policialSep.show');
 
 Route::get('economia/{economia}',[EconomiaController::class,'show'])->name('economia.show');
 Route::get('economiasep/{economia}',[EconomiaSepController::class,'show'])->name('economiaSep.show');

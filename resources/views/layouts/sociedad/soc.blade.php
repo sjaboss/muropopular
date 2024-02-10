@@ -1,5 +1,140 @@
 <x-app-layout>
     <div class="container ">
+    {{--ABANDONO DEL CANAL MAGDALENA  --}}
+    <section> 
+        <ul>
+            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                <article>
+
+                    <div class="py-4 px-4 justify-between items-center">
+                        <h2 class="text-xl font-serif  font-bold pb-6">
+                            <a href="">ABANDONO DEL CANAL MAGDALENA: ¿TRAICIÓN A LA PATRIA?/a>
+                        </h2>
+                        <p><i>Decisión polémica decisión del gobierno de Milei desata críticas y alertas
+                                sobre el futuro de la soberanía argentina en torno al acceso al océano
+                                Atlántico. </i>.
+                        </p>
+                        <br>
+                        <figure>
+                            <img class="w-full object-cover" src="../img/soc/soc_canal.svg"
+                                alt="">
+                        </figure>
+                        <br>
+                        <div
+                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                            <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                <p>En el marco de la reciente decisión del presidente Javier Milei de abandonar la construcción del Canal Magdalena, un proyecto crucial para la conexión marítima del país, Luciano Orellano, referente del Foro por la Recuperación del Paraná, compartió su opinión y preocupaciones sobre este hecho que ha generado debate en la opinión pública argentina.
+                                </p>
+                                <br>
+                                <p>En abril de 2023, durante la gestión del entonces presidente Alberto Fernández y el gobernador de Buenos Aires, Axel Kicillof, se anunció la licitación para la realización del Canal Magdalena, un proyecto destinado a establecer un corredor logístico nacional para el comercio exterior. Sin embargo, tras meses de espera y errores en el proceso licitatorio, el proyecto quedó en pausa.
+                                <br>
+                                <p>La nueva administración encabezada por Milei decidió descartar definitivamente la construcción del canal, optando en cambio por aprobar planes de expansión en el puerto de Montevideo, una medida que ha sido celebrada en Uruguay pero que ha generado preocupación en sectores argentinos preocupados por la soberanía nacional.
+                                </p>
+                                <br>
+                                <p>Luciano Orellano, autor del libro "Argentina sangra por las barrancas del río Paraná", advierte sobre las implicaciones de esta decisión. Para él, renunciar al Canal Magdalena significa perder una oportunidad histórica para fortalecer la soberanía argentina y su acceso directo al océano Atlántico. Además, señala que esta medida beneficia a empresas extranjeras y socava la capacidad del país para ejercer control sobre sus recursos marítimos.
+                                </p>
+                                <br>
+                                <p>El referente del Foro por la Recuperación del Paraná critica la falta de visión estratégica del gobierno de Milei y su aparente prioridad por servir a intereses extranjeros en lugar de proteger los intereses nacionales. Según Orellano, esta decisión representa una claudicación total al pueblo argentino y a la patria, y lamenta el rumbo que está tomando el país en términos de soberanía y desarrollo nacional.
+                                </p>
+                                <br>
+                                <p>Ante este panorama, el Foro por la Recuperación del Paraná planea continuar su lucha en defensa de la soberanía nacional, organizando exposiciones y encuentros para concienciar a la población sobre la importancia de proteger los recursos y territorios argentinos. Sin embargo, el camino hacia la soberanía parece cada vez más desafiante en un contexto político dominado por intereses extranjeros y decisiones que parecen ignorar las necesidades y aspiraciones del pueblo argentino.
+                                </p>
+                                <br>
+                                <div class="text-start object-center">
+                                    {{--  <figure>
+                                        <img class="w-28 h-28  "
+                                            src="{{ asset('../img/noteros/Gus.svg') }}"
+                                            alt="">
+                                        Publicado: 13/11/2023
+                                        <p> <strong>Nota de Gustavo Cano</strong></p>
+
+                                    </figure> --}}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </li>
+        </ul>
+        <br>
+    </section>
+
+    {{--NECESITA UN MEDICAMENTO  --}}
+    <section> 
+        <ul>
+            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                <article>
+
+                    <div class="py-4 px-4 justify-between items-center">
+                        <h2 class="text-xl font-serif  font-bold pb-6">
+                            <a href="">“NECESITA UN MEDICAMENTO PARA NO MORIR”: PIDE AYUDA ANTE
+                                LA INDIFERENCIA DEL ESTADO</a>
+                        </h2>
+                        <p><i><b>A pesar de la promesa de los gobiernos nacional y provincial de entregar
+                                la medicación en 4 a 6 meses, Sandra esposa de un paciente oncológico se
+                                ve obligada a iniciar una dolorosa batalla que va más allá del
+                                sufrimiento de su marido.</b> </i>.
+                        </p>
+                        <br>
+                        <figure>
+                            <img class="w-full object-cover" src="../img/soc/soc_necesita.svg"
+                                alt="">
+                        </figure>
+                        <br>
+                        <div
+                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                            <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                <p><b>Sandra Cabero</b>, residente de Salta, enfrenta una angustiosa odisea en busca de la vital medicación de quimioterapia para su esposo, <b>Daniel Oxandaburu</b>, quien libra una feroz batalla contra el cáncer.
+                                </p>
+                                <br>
+                                <p>Este tormentoso viaje no es la primera aflicción para la familia. Sandra relata episodios anteriores, desde 2019 hasta diciembre de 2022, dónde han tenido que rogar por diferentes tratamientos oncológicos. En un desesperado llamado de auxilio, Sandra solicita ayuda a la población y manifiesta la falta de respuestas a pesar de la declaración del ministro el 22 de enero, que prometió la entrega de la medicación indicada para todos los pacientes oncológicos.
+                                <br>
+                                <p>La situación se torna aún más dramática cuando revela que, en los meses de espera, a Daniel le diagnosticaron otro tumor en las vértebras cervicales. La urgencia de las drogas es apremiante, y Sandra se pregunta en voz alta,<b> “¿Por qué nos castigan de esta forma?“</b>, señalando la contradicción entre la supuesta falta de fondos para medicamentos y los gastos superfluos del gobierno nacional.
+                                </p>
+                                <br>
+                                <p>La espera se hace insostenible al conocer que la droga <b>POMALIDOMIDA</b> 4 mg por 21 comprimidos, vital para el tratamiento, y está a cargo del gobierno nacional, pero con una demora de 4 a 6 meses. <b>En un acto de desesperación, la familia ofrece devolver la medicación cuando el Estado finalmente la provea.</b>
+                                </p>
+                                <br>
+                                <p>La situación se agrava al revelar que, a pesar de la urgencia, las autoridades nacionales demoran meses en suministrar una de las drogas necesarias. Sandra, consciente de los altos costos, comparte sus datos bancarios solicitando ayuda económica para al menos cubrir el primer mes, mientras continúa su lucha por la intervención del Estado.
+                                </p>
+                                <br>
+                                <p><b>"El cáncer no espera”</b>, exclama Sandra, llamando la atención de las autoridades locales y nacionales. La trágica realidad de los pacientes oncológicos en la provincia se ve marcada por procesos de mediatización y judicialización, subrayando la urgente necesidad de reformas en el sistema de atención médica.</p>
+                                <br>
+                                <p>La solicitud final de Sandra es clara: difundir su situación para que el mundo conozca la falta de atención a la salud y la necesidad de solidaridad para salvar vidas.</p>
+                                <br>
+                                <p>La familia comparte su CBU y alias, esperando que esta llamada desesperada no caiga en oídos sordos, confiando en la conciencia pública y la empatía para prevalecer.</p>
+                                <br>
+                                <p><b>Aquí compartimos el CBU: 0170087940000037064435</b></p>
+                                
+                                <p><b>Alias: sanydany</b></p>
+                                
+                                <p><b>Sandra Cabero</b></p>
+                                
+                                <p><b>Banco Francés</b></p>
+                                <br>
+                                <br>
+                                <p><i>Fuente Diario InfoSalta: https://diarioinfosalta.com/2024/02/02/necesita-un-medicamento-para-no-morir-pide-ayuda-ante-la-indiferencia-del-estado/ </i></p>
+                                <br>
+                                <div class="text-start object-center">
+                                    {{--  <figure>
+                                        <img class="w-28 h-28  "
+                                            src="{{ asset('../img/noteros/Gus.svg') }}"
+                                            alt="">
+                                        Publicado: 13/11/2023
+                                        <p> <strong>Nota de Gustavo Cano</strong></p>
+
+                                    </figure> --}}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </li>
+        </ul>
+        <br>
+    </section>
         {{--GOBIERNO SUSPENDE PROGRAMA VITAL PARA PERSONAS VULNERABLES  --}}
     <section> 
         <ul>
@@ -55,12 +190,12 @@
                 </article>
             </li>
         </ul>
-            <br>
-     </section>
+        <br>
+    </section>
 
     {{--Mario Bonino: 30 años de impunidad..  --}}
     <section>
-     
+    
         <ul>
             <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
                 <article>
@@ -118,11 +253,11 @@
             </li>
         </ul>
             <br>
-     </section>
+    </section>
 
 
-         {{--ESTUDIANTES SE MOVILIZAN CONTRA LOS VOUCHERS DE MILEI..  --}}
-         <section>
+{{--ESTUDIANTES SE MOVILIZAN CONTRA LOS VOUCHERS DE MILEI..  --}}
+    <section>
             <ul>
                 <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
                     <article>
@@ -210,7 +345,7 @@
                 </li>
             </ul>
                 <br>
-         </section>
+    </section>
 
         {{--TESTIMONIO DE UNA LUCHA....  --}}
         <section>

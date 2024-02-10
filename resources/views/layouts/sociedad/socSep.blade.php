@@ -2767,23 +2767,57 @@
                                             class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
                                             <div class=" font-sans text-lg text-left col-span-6  ">
 
-                                                <p>El Gobierno Nacional ha dado un golpe devastador a las personas más vulnerables de nuestra sociedad al suspender el programa Dadse, una iniciativa crucial que brindaba asistencia médica a quienes carecen de cobertura de salud, especialmente en el ámbito de enfermedades crónicas y cáncer. Esta decisión, anunciada por el secretario de Niñez, Adolescencia y Familia, Pablo de la Torre, bajo la excusa de "revisar los circuitos administrativos", deja en la desesperación a miles de argentinos que dependen de esta ayuda para sobrellevar sus condiciones de salud.
+                                                <p>El Gobierno Nacional ha dado un golpe devastador a las personas más
+                                                    vulnerables de nuestra sociedad al suspender el programa Dadse, una
+                                                    iniciativa crucial que brindaba asistencia médica a quienes carecen
+                                                    de cobertura de salud, especialmente en el ámbito de enfermedades
+                                                    crónicas y cáncer. Esta decisión, anunciada por el secretario de
+                                                    Niñez, Adolescencia y Familia, Pablo de la Torre, bajo la excusa de
+                                                    "revisar los circuitos administrativos", deja en la desesperación a
+                                                    miles de argentinos que dependen de esta ayuda para sobrellevar sus
+                                                    condiciones de salud.
                                                 </p>
                                                 <br>
-                                                <p>La Dirección de Asistencia Directa por Situaciones Especiales (Dadse) ha sido una tabla de salvación para muchos, proporcionando subsidios para medicamentos, insumos y productos médicos necesarios para el tratamiento y la gestión de enfermedades crónicas y patologías agudas urgentes. Sin embargo, esta crucial red de apoyo ahora se encuentra en pausa, en un momento en que la necesidad de asistencia médica es más urgente que nunca.
+                                                <p>La Dirección de Asistencia Directa por Situaciones Especiales (Dadse)
+                                                    ha sido una tabla de salvación para muchos, proporcionando subsidios
+                                                    para medicamentos, insumos y productos médicos necesarios para el
+                                                    tratamiento y la gestión de enfermedades crónicas y patologías
+                                                    agudas urgentes. Sin embargo, esta crucial red de apoyo ahora se
+                                                    encuentra en pausa, en un momento en que la necesidad de asistencia
+                                                    médica es más urgente que nunca.
                                                 </p>
                                                 <br>
-                                                <p>La suspensión de Dadse no solo es un golpe a los más vulnerables, sino que también revela las prioridades del gobierno de Javier Milei, quien parece priorizar las demandas del Fondo Monetario Internacional sobre las necesidades básicas de su propio pueblo. En medio de una escalada de precios y una crisis económica que afecta desproporcionadamente a los sectores más pobres de la sociedad, esta medida es un cruel recordatorio de la falta de empatía y sensibilidad del gobierno hacia quienes más lo necesitan.
+                                                <p>La suspensión de Dadse no solo es un golpe a los más vulnerables,
+                                                    sino que también revela las prioridades del gobierno de Javier
+                                                    Milei, quien parece priorizar las demandas del Fondo Monetario
+                                                    Internacional sobre las necesidades básicas de su propio pueblo. En
+                                                    medio de una escalada de precios y una crisis económica que afecta
+                                                    desproporcionadamente a los sectores más pobres de la sociedad, esta
+                                                    medida es un cruel recordatorio de la falta de empatía y
+                                                    sensibilidad del gobierno hacia quienes más lo necesitan.
                                                 </p>
                                                 <br>
-                                                <p>Es inaceptable que en un momento de crisis social y económica, el gobierno opte por suspender un programa vital como Dadse, en lugar de buscar soluciones que protejan a los más desfavorecidos. La excusa de revisar los circuitos administrativos no es más que una cortina de humo para encubrir una decisión insensible y despiadada que dejará a muchas personas sin acceso a la atención médica que necesitan desesperadamente.
+                                                <p>Es inaceptable que en un momento de crisis social y económica, el
+                                                    gobierno opte por suspender un programa vital como Dadse, en lugar
+                                                    de buscar soluciones que protejan a los más desfavorecidos. La
+                                                    excusa de revisar los circuitos administrativos no es más que una
+                                                    cortina de humo para encubrir una decisión insensible y despiadada
+                                                    que dejará a muchas personas sin acceso a la atención médica que
+                                                    necesitan desesperadamente.
                                                 </p>
                                                 <br>
-                                                <p>Es hora de que el gobierno de Milei priorice el bienestar de su propio pueblo sobre las demandas de los organismos financieros internacionales. La suspensión de Dadse es una afrenta a la justicia social y un recordatorio de la necesidad de un cambio de dirección en las políticas gubernamentales. Los argentinos merecen un gobierno que esté verdaderamente comprometido con su bienestar y que tome medidas concretas para proteger a los más vulnerables de nuestra sociedad.
+                                                <p>Es hora de que el gobierno de Milei priorice el bienestar de su
+                                                    propio pueblo sobre las demandas de los organismos financieros
+                                                    internacionales. La suspensión de Dadse es una afrenta a la justicia
+                                                    social y un recordatorio de la necesidad de un cambio de dirección
+                                                    en las políticas gubernamentales. Los argentinos merecen un gobierno
+                                                    que esté verdaderamente comprometido con su bienestar y que tome
+                                                    medidas concretas para proteger a los más vulnerables de nuestra
+                                                    sociedad.
                                                 </p>
-                                                <br>                                               
+                                                <br>
                                                 <div class="text-start object-center">
-                                                   {{--  <figure>
+                                                    {{--  <figure>
                                                         <img class="w-28 h-28  "
                                                             src="{{ asset('../img/noteros/Gus.svg') }}"
                                                             alt="">
@@ -2850,7 +2884,283 @@
                     </aside>
                 </div>
             </section>
-        @endif
+        @elseif ($tituloSep == 'Sociedad-Noticia-Completa-soc20')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">“NECESITA UN MEDICAMENTO PARA NO MORIR”: PIDE AYUDA ANTE
+                                                LA INDIFERENCIA DEL ESTADO</a>
+                                        </h2>
+                                        <p><i><b>A pesar de la promesa de los gobiernos nacional y provincial de
+                                                    entregar
+                                                    la medicación en 4 a 6 meses, Sandra esposa de un paciente
+                                                    oncológico se
+                                                    ve obligada a iniciar una dolorosa batalla que va más allá del
+                                                    sufrimiento de su marido.</b> </i>.
+                                        </p>
+                                        <br>
+                                        <figure>
+                                            <img class="w-full object-cover" src="../img/soc/soc_necesita.svg"
+                                                alt="">
+                                        </figure>
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                                <p><b>Sandra Cabero</b>, residente de Salta, enfrenta una angustiosa
+                                                    odisea en busca de la vital medicación de quimioterapia para su
+                                                    esposo, <b>Daniel Oxandaburu</b>, quien libra una feroz batalla
+                                                    contra el cáncer.
+                                                </p>
+                                                <br>
+                                                <p>Este tormentoso viaje no es la primera aflicción para la familia.
+                                                    Sandra relata episodios anteriores, desde 2019 hasta diciembre de
+                                                    2022, dónde han tenido que rogar por diferentes tratamientos
+                                                    oncológicos. En un desesperado llamado de auxilio, Sandra solicita
+                                                    ayuda a la población y manifiesta la falta de respuestas a pesar de
+                                                    la declaración del ministro el 22 de enero, que prometió la entrega
+                                                    de la medicación indicada para todos los pacientes oncológicos.</p>
+                                                    <br>
+                                                <p>La situación se torna aún más dramática cuando revela que, en los
+                                                    meses de espera, a Daniel le diagnosticaron otro tumor en las
+                                                    vértebras cervicales. La urgencia de las drogas es apremiante, y
+                                                    Sandra se pregunta en voz alta,<b> “¿Por qué nos castigan de esta
+                                                        forma?“</b>, señalando la contradicción entre la supuesta falta
+                                                    de fondos para medicamentos y los gastos superfluos del gobierno
+                                                    nacional.
+                                                </p>
+                                                <br>
+                                                <p>La espera se hace insostenible al conocer que la droga
+                                                    <b>POMALIDOMIDA</b> 4 mg por 21 comprimidos, vital para el
+                                                    tratamiento, y está a cargo del gobierno nacional, pero con una
+                                                    demora de 4 a 6 meses. <b>En un acto de desesperación, la familia
+                                                        ofrece devolver la medicación cuando el Estado finalmente la
+                                                        provea.</b>
+                                                </p>
+                                                <br>
+                                                <p>La situación se agrava al revelar que, a pesar de la urgencia, las
+                                                    autoridades nacionales demoran meses en suministrar una de las
+                                                    drogas necesarias. Sandra, consciente de los altos costos, comparte
+                                                    sus datos bancarios solicitando ayuda económica para al menos cubrir
+                                                    el primer mes, mientras continúa su lucha por la intervención del
+                                                    Estado.
+                                                </p>
+                                                <br>
+                                                <p><b>"El cáncer no espera”</b>, exclama Sandra, llamando la atención de
+                                                    las autoridades locales y nacionales. La trágica realidad de los
+                                                    pacientes oncológicos en la provincia se ve marcada por procesos de
+                                                    mediatización y judicialización, subrayando la urgente necesidad de
+                                                    reformas en el sistema de atención médica.</p>
+                                                <br>
+                                                <p>La solicitud final de Sandra es clara: difundir su situación para que
+                                                    el mundo conozca la falta de atención a la salud y la necesidad de
+                                                    solidaridad para salvar vidas.</p>
+                                                <br>
+                                                <p>La familia comparte su CBU y alias, esperando que esta llamada
+                                                    desesperada no caiga en oídos sordos, confiando en la conciencia
+                                                    pública y la empatía para prevalecer.</p>
+                                                <br>
+                                                <p><b>Aquí compartimos el CBU: 0170087940000037064435</b></p>
+
+                                                <p><b>Alias: sanydany</b></p>
+
+                                                <p><b>Sandra Cabero</b></p>
+
+                                                <p><b>Banco Francés</b></p>
+                                                <br>
+                                                <br>
+                                                <p><i>Fuente Diario InfoSalta:
+                                                        https://diarioinfosalta.com/2024/02/02/necesita-un-medicamento-para-no-morir-pide-ayuda-ante-la-indiferencia-del-estado/
+                                                    </i></p>
+                                                <br>
+                                                <div class="text-start object-center">
+                                                    {{--  <figure>
+                                                        <img class="w-28 h-28  "
+                                                            src="{{ asset('../img/noteros/Gus.svg') }}"
+                                                            alt="">
+                                                        Publicado: 13/11/2023
+                                                        <p> <strong>Nota de Gustavo Cano</strong></p>
+
+                                                    </figure> --}}
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+                            </li>
+                        </ul>
+                        <br>
+                    </div>
+
+
+                    {{-- columna de la derecha chica --}}
+                    <aside>
+                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                            <div class=" col-span-6">
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/bener-leg2.png') }}"
+                                        alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
+                                        alt="">
+                                </a>
+
+                                <div id="app">
+
+                                    <div v-for="item in info">
+
+                                        <div class="flex-col pb-3">
+                                            <div
+                                                class="flex-col max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg"
+                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
+                                                        alt="" />
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5
+                                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                                            @{{ item.title }}</h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div v-for="va in clima">
+
+                                        <h5
+                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                            @{{ va }}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+                </div>
+            </section>
+        @elseif ($tituloSep == 'Sociedad-Noticia-Completa-soc21')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">ABANDONO DEL CANAL MAGDALENA: ¿TRAICIÓN A LA PATRIA?</a>
+                                        </h2>
+                                        <p><i>Decisión polémica decisión del gobierno de Milei desata críticas y alertas sobre el futuro de la soberanía argentina en torno al acceso al océano Atlántico.</i>.
+                                        </p>
+                                        <br>
+                                        <figure>
+                                            <img class="w-full object-cover" src="../img/soc/soc_canal.svg"
+                                                alt="">
+                                        </figure>
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                                <p>En el marco de la reciente decisión del presidente Javier Milei de abandonar la construcción del Canal Magdalena, un proyecto crucial para la conexión marítima del país, Luciano Orellano, referente del Foro por la Recuperación del Paraná, compartió su opinión y preocupaciones sobre este hecho que ha generado debate en la opinión pública argentina.
+                                                </p>
+                                                <br>
+                                                <p>En abril de 2023, durante la gestión del entonces presidente Alberto Fernández y el gobernador de Buenos Aires, Axel Kicillof, se anunció la licitación para la realización del Canal Magdalena, un proyecto destinado a establecer un corredor logístico nacional para el comercio exterior. Sin embargo, tras meses de espera y errores en el proceso licitatorio, el proyecto quedó en pausa.</p>
+                                                <br>
+                                                <p>La nueva administración encabezada por Milei decidió descartar definitivamente la construcción del canal, optando en cambio por aprobar planes de expansión en el puerto de Montevideo, una medida que ha sido celebrada en Uruguay pero que ha generado preocupación en sectores argentinos preocupados por la soberanía nacional.
+                                                </p>
+                                                <br>
+                                                <p>Luciano Orellano, autor del libro "Argentina sangra por las barrancas del río Paraná", advierte sobre las implicaciones de esta decisión. Para él, renunciar al Canal Magdalena significa perder una oportunidad histórica para fortalecer la soberanía argentina y su acceso directo al océano Atlántico. Además, señala que esta medida beneficia a empresas extranjeras y socava la capacidad del país para ejercer control sobre sus recursos marítimos.
+                                                </p>
+                                                <br>
+                                                <p>El referente del Foro por la Recuperación del Paraná critica la falta de visión estratégica del gobierno de Milei y su aparente prioridad por servir a intereses extranjeros en lugar de proteger los intereses nacionales. Según Orellano, esta decisión representa una claudicación total al pueblo argentino y a la patria, y lamenta el rumbo que está tomando el país en términos de soberanía y desarrollo nacional.
+                                                </p>
+                                                <br>
+                                                <p>Ante este panorama, el Foro por la Recuperación del Paraná planea continuar su lucha en defensa de la soberanía nacional, organizando exposiciones y encuentros para concienciar a la población sobre la importancia de proteger los recursos y territorios argentinos. Sin embargo, el camino hacia la soberanía parece cada vez más desafiante en un contexto político dominado por intereses extranjeros y decisiones que parecen ignorar las necesidades y aspiraciones del pueblo argentino.</p>
+                                                <br>
+                                                
+                                              
+                                                <div class="text-start object-center">
+                                                    {{--  <figure>
+                                                        <img class="w-28 h-28  "
+                                                            src="{{ asset('../img/noteros/Gus.svg') }}"
+                                                            alt="">
+                                                        Publicado: 13/11/2023
+                                                        <p> <strong>Nota de Gustavo Cano</strong></p>
+
+                                                    </figure> --}}
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+                            </li>
+                        </ul>
+                        <br>
+                    </div>
+
+
+                    {{-- columna de la derecha chica --}}
+                    <aside>
+                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                            <div class=" col-span-6">
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/bener-leg2.png') }}"
+                                        alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
+                                        alt="">
+                                </a>
+
+                                <div id="app">
+
+                                    <div v-for="item in info">
+
+                                        <div class="flex-col pb-3">
+                                            <div
+                                                class="flex-col max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg"
+                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
+                                                        alt="" />
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5
+                                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                                            @{{ item.title }}</h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div v-for="va in clima">
+
+                                        <h5
+                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                            @{{ va }}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+                </div>
+            </section>
+    @endif
 
     </div>
 
@@ -2879,7 +3189,7 @@
 
                     /*    axios.get( */
                     /*      "https://api.weatherbit.io/v2.0/current?lat=35.7796&lon=-78.6382&key=f2207d043ea74a359ff232a1d03d0c72&include=minutely"
-                     )*/
+                    )*/
                     axios.get(
                             "https://api.openweathermap.org/2.5/wheater?q=BURNOS AIRESlat=35.7796&lon=-78.6382&key=f2207d043ea74a359ff232a1d03d0c72&include=minutely"
                         )
