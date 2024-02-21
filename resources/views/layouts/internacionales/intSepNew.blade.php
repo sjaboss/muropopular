@@ -1489,6 +1489,113 @@
                 </div>
 
             </section>
+        @elseif ($tituloSep == 'Internacionales-Noticia-Completa-int10')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">CAMERON EN MALVINAS: DESAFÍO BRITÁNICO</a>
+                                        </h2>
+                                        <p><i>El canciller británico David Cameron declaró que las Islas Malvinas seguirán siendo británicas "para siempre", desatando la furia de los gobernadores peronistas y reavivando la disputa de soberanía.</i>
+                                        </p>
+                                        <br>
+                                        <figure>
+                                            <img class=" w-full object-cover" src="../img/int/int_cameron.svg"
+                                                alt="">
+
+                                        </figure>
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                                <p>En otro gesto desafiante hacia Argentina, David Cameron afirmó durante su visita a Malvinas que el Reino Unido mantendrá su soberanía sobre las islas "para siempre". Este mensaje, pronunciado frente a los colonos británicos en el archipiélago, generó fuertes críticas por parte de los gobernadores peronistas, quienes rechazaron la presencia del ministro inglés en el territorio y lo declararon "Persona Non Grata". Entre ellos, el gobernador de Tierra del Fuego, Gustavo Melella, acusó a Cameron de "mancillar la memoria y el sacrificio eterno de nuestros Héroes de Malvinas".</p>
+                                                <br>
+                                                <p>Al repudio se sumaron varios mandatarios peronistas, no así de radicales ni del resto de gobernadores aliados al gobierno de Javier Milei. Axel Kicillof calificó de “provocación” a la presencia de Cameron en las Islas y sostuvo que Malvinas “es una cuestión de soberanía pero también de identidad para nuestro pueblo”. “No hay ninguna duda desde el punto de vista del derecho y de la historia que las Malvinas son y serán siempre argentinas", posteó en sus redes sociales.</p>
+                                                <br>
+                                                <p>Los gobernadores de Santiago del Estero y La Rioja, Gerardo Zamora y Ricardo Quintela, respectivamente, adhirieron al comunicado de Melella, que "expresa el repudio a la visita” del canciller británico y consideró que ese hecho “incumple las resoluciones de las Naciones Unidas”.
+                                                </p>
+                                                <br>
+                                                <p>Por su parte, el rionegrino Alberto Weretilneck indicó que la visita británica es “una falta de respeto al derecho internacional y una ofensa a nuestros excombatientes y a todo el pueblo argentino".</p>
+                                                <br>
+                                                <p>A los repudios se sumó también el pampeano Sergio Ziliotto, quien en las redes sociales aseguró que “con la misma fuerza y decisión con la que luchamos por evitar la desmalvinización de la memoria nacional, repudiamos y rechazamos esta nueva agresión británica que reafirma su decisión de seguir ocupando ilegalmente nuestras Islas Malvinas”.</b>.
+                                                </p>
+                                                <br>
+                                                <p>Por su parte, el intendente de Río Grande, Martín Pérez, instó a Cameron a “acatar las resoluciones de Naciones Unidas” y llamó a evitar este tipo de "provocaciones", en alusión a la visita del canciller al archipiélago.</p>
+                                                <br>
+                                                <p>La presencia de Cameron en las Malvinas se produce en un momento tenso, a menos de un mes de su reunión con el presidente argentino Javier Milei en Davos. Este nuevo capítulo en la disputa por las Islas Malvinas evidencia la persistencia del conflicto y la firme postura británica respecto a su soberanía sobre el territorio, desoyendo los reclamos argentinos y las resoluciones de Naciones Unidas que instan a la negociación bilateral sobre la soberanía de las islas.</p>
+                                                <br>
+                                            </div>
+
+
+
+                                        </div>
+                                    </div>
+                                </article>
+                            </li>
+                        </ul>
+                        <br>
+
+                    </div>
+
+
+                    {{-- columna de la derecha chica --}}
+                    <aside>
+                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                            <div class=" col-span-6">
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/bener-leg2.png') }}"
+                                        alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
+                                        alt="">
+                                </a>
+
+                                <div id="app">
+
+                                    <div v-for="item in info">
+
+                                        <div class="flex-col pb-3">
+                                            <div
+                                                class="flex-col max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg"
+                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
+                                                        alt="" />
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5
+                                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                                            @{{ item.title }}</h5>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div v-for="va in clima">
+
+                                        <h5
+                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                            @{{ va }}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+
+                </div>
+
+            </section>
         @endif
 
 
@@ -1512,7 +1619,7 @@
                 mounted() {
 
 
-                    axios.get("https://api.dailymotion.com/videos?channel=news&limit=2")
+                    axios.get("https://api.dailymotion.com/videos?channel=news&limit=3")
                         .then(response => {
                             this.info = response.data.list
                         });

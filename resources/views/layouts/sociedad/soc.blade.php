@@ -1,5 +1,61 @@
 <x-app-layout>
     <div class="container ">
+        {{--TURISMO SOCIAL EN RIESGO:  --}}
+    <section> 
+        <ul>
+            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                <article>
+
+                    <div class="py-4 px-4 justify-between items-center">
+                        <h2 class="text-xl font-serif  font-bold pb-6">
+                            <a href="">TURISMO SOCIAL EN RIESGO: PELIGRA EL FUTURO DE HOTELES ESTATALES</a>
+                        </h2>
+                        <p><i>Peligra el Futuro de los Hoteles Estatales en Chapadmalal y Embalse. La posible privatización de estos establecimientos pone en riesgo la accesibilidad al turismo para sectores vulnerables y la preservación de un patrimonio nacional.</i>.
+                        </p>
+                        <br>
+                        <figure>
+                            <img class="w-full object-cover" src="../img/soc/soc_turismo.svg"
+                                alt="">
+                        </figure>
+                        <br>
+                        <div
+                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                            <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                <p>El turismo social en Argentina enfrenta un desafío sin precedentes con el posible cierre de los hoteles estatales en Chapadmalal y Embalse. Estas unidades, que han sido durante décadas un bastión de accesibilidad al turismo para sectores de bajos recursos, ahora se ven amenazadas por decisiones gubernamentales que apuntan a su privatización.
+                                </p>
+                                <br>
+                                <p>La Cooperativa de Santa Fe, responsable de organizar contingentes para estas unidades turísticas, ha recibido la noticia de que a partir de marzo no podrán enviar más grupos, debido a que el gobierno no renovará las concesiones. Esto significa que miles de trabajadores y trabajadoras que dependen de estas actividades se verán afectados, así como también los beneficiarios del turismo social, quienes podrían perder una de sus pocas oportunidades de acceder a vacaciones dignas.</p>
+                                <br>
+                                <p>En Embalse, las negociaciones con empresarios españoles para privatizar la Unidad Turística están avanzadas. Aunque se asegura que parte de la infraestructura se mantendría para el turismo social, la incertidumbre y la preocupación entre los trabajadores y la comunidad en general es palpable. La declaración de la unidad como Monumento Histórico Nacional en 2013 añade un elemento de complejidad legal a este proceso de enajenación.
+                                </p>
+                                <br>
+                                <p>Por otro lado, la subsecretaria de Turismo del Ministerio del Interior, Yanina Martínez, ha mencionado que se trabaja en un programa para lograr la autosuficiencia de estas unidades. Si bien se busca mantener el turismo social, la falta de detalles sobre este programa genera incertidumbre sobre su efectividad y continuidad en el tiempo.
+                                </p>
+                                <br>
+                                <p>La privatización de los hoteles estatales en Chapadmalal y Embalse representaría un retroceso significativo en términos de inclusión social y acceso igualitario al turismo. Estos establecimientos han sido durante décadas una herramienta fundamental para garantizar que personas de bajos recursos puedan disfrutar de vacaciones dignas y accesibles. Privatizarlos significaría poner en manos de empresas privadas un servicio que debería ser un derecho garantizado por el Estado, lo que podría resultar en un aumento de los costos y en una exclusión de aquellos que no puedan pagar tarifas más altas. 
+                                </p>
+                                <br>
+                                <p>Además, la privatización podría llevar a una pérdida de identidad y de valor cultural, al poner en riesgo la preservación de estos espacios históricos que forman parte del patrimonio nacional. Es fundamental que se busquen alternativas que permitan mantener estos hoteles bajo control estatal, garantizando así su función social y su importancia como patrimonio histórico y cultural de Argentina.</p>
+                                <br>
+                                <div class="text-start object-center">
+                                    {{--  <figure>
+                                        <img class="w-28 h-28  "
+                                            src="{{ asset('../img/noteros/Gus.svg') }}"
+                                            alt="">
+                                        Publicado: 13/11/2023
+                                        <p> <strong>Nota de Gustavo Cano</strong></p>
+
+                                    </figure> --}}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </li>
+        </ul>
+        <br>
+    </section>
     {{--ABANDONO DEL CANAL MAGDALENA  --}}
     <section> 
         <ul>

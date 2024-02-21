@@ -1,5 +1,69 @@
 <x-app-layout>
     <div class="container ">
+        {{-- SE APROXIMA LA JORNADA DE CLÁSICOS EN LA COPA DE LA LIGA ARGENTINA  --}}
+<section>
+    <ul>
+        <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+            <article>
+
+                <div class="py-4 px-4 justify-between items-center">
+                    <h2 class="text-xl font-serif  font-bold pb-6">
+                        <a href="">SE APROXIMA LA JORNADA DE CLÁSICOS EN LA COPA DE LA LIGA ARGENTINA
+                        </a>
+                    </h2>
+                    <p><i>River Plate, Boca Juniors, Independiente y Racing Club se Preparan para Enfrentarse en Duelos Históricos y Cargados de Emoción.</i>
+                </p>
+                    <br>
+                    <figure>
+                        <img class="w-full object-cover"
+                            src="{{ asset('../img/dep/dep_ligar.svg') }}" alt="">
+
+                    </figure>
+                    <br>
+                    <div
+                        class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                        <div class=" font-sans text-lg text-left col-span-6  ">
+
+                            <p>En un contexto de alta expectativa y pasión desbordante, la Copa de la Liga Argentina se prepara para vivir una jornada trascendental con los clásicos más emblemáticos del fútbol nacional. Los cuatro grandes del balompié argentino, River Plate, Boca Juniors, Independiente y Racing Club, se alistan para enfrentarse en duelos cargados de historia, rivalidad y emoción, que capturan la atención de millones de fanáticos en todo el país.
+                            </p>
+                            <br>
+                            <p>El plato fuerte de la fecha será el Superclásico entre River Plate y Boca Juniors, que se disputará en el majestuoso estadio Monumental el domingo a las 17 horas. Este enfrentamiento, considerado uno de los más apasionantes y trascendentales a nivel mundial, promete una vez más desatar la pasión y la intensidad propias de este histórico duelo.
+                            </p>
+                            <br>
+                            <p>Por su parte, Independiente y Racing Club revivirán su clásico enfrentamiento en el estadio Libertadores de América-Ricardo Bochini el sábado a las 15 horas, en un encuentro que promete emociones fuertes y un ambiente cargado de rivalidad y fervor futbolístico.
+                            </p>
+                            <br>
+                            <p>El clásico platense entre Gimnasia y Estudiantes, así como el clásico rosarino entre Newell's Old Boys y Rosario Central, completarán esta jornada llena de adrenalina y pasión por el fútbol. Estos encuentros, más allá de ser eventos deportivos de alto nivel, representan una oportunidad para que los hinchas celebren la identidad y la historia de sus equipos, en un país donde el fútbol es mucho más que un deporte, es una pasión que une a toda una nación.
+                            </p>
+                            <br>
+                            <p>Así, con la expectativa en su punto máximo y la emoción en el aire, los clásicos argentinos prometen brindar un espectáculo inolvidable y reafirmar una vez más la grandeza y la intensidad del fútbol en Argentina. Que comience la fiesta del fútbol argentino, donde la pasión y la rivalidad se viven en cada gol, en cada jugada, en cada clásico.
+                            </p>
+                            <br>
+                            
+                            <div class="text-start object-center">
+                                <figure>
+                                    <img class="w-28 h-28  "
+                                        src="{{ asset('../img/noteros/gus.svg') }}"
+                                        alt="">
+                                    <p> <strong>Por Gustavo Cano<strong></p>
+
+                                    <p><strong><strong></p>
+
+                                </figure>
+                            </div>
+
+
+                        </div>
+
+
+
+                    </div>
+                </div>
+            </article>
+        </li>
+    </
+</section>
+<br><br>  
 
 {{-- RESULTADOS DE LA FECHA 7 DE LA COPA DE LA LIGA ARGENTINA  --}}
 <section>

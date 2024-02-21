@@ -788,24 +788,25 @@
                 </div>
 
             </section>
-      
+        @elseif ($tituloSep == 'Deportes-Noticia-Completa-dep6')
             <section>
                 <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
                     <div class=" col-span-4">
-
                         <ul>
                             <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
                                 <article>
 
                                     <div class="py-4 px-4 justify-between items-center">
                                         <h2 class="text-xl font-serif  font-bold pb-6">
-                                            <a href="">Presentación del Proyecto de Ley “Ley Antinegacionista por los 40 años de democracia – Dictadura Nunca Mas”
+                                            <a href="">SE APROXIMA LA JORNADA DE CLÁSICOS EN LA COPA DE LA LIGA ARGENTINA
                                             </a>
                                         </h2>
+                                        <p><i>River Plate, Boca Juniors, Independiente y Racing Club se Preparan para Enfrentarse en Duelos Históricos y Cargados de Emoción.</i>
+                                    </p>
                                         <br>
                                         <figure>
                                             <img class="w-full object-cover"
-                                                src="{{ asset('../img/dep/dep_fecha7.svg') }}" alt="">
+                                                src="{{ asset('../img/dep/dep_ligar.svg') }}" alt="">
 
                                         </figure>
                                         <br>
@@ -813,95 +814,22 @@
                                             class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
                                             <div class=" font-sans text-lg text-left col-span-6  ">
 
-                                                <p><i>La séptima jornada de la Copa de la Liga Argentina brindó
-                                                        emocionantes enfrentamientos y sorpresas en todo el país, con
-                                                        empates, victorias ajustadas y destacadas actuaciones
-                                                        individuales.</i>
+                                                <p>En un contexto de alta expectativa y pasión desbordante, la Copa de la Liga Argentina se prepara para vivir una jornada trascendental con los clásicos más emblemáticos del fútbol nacional. Los cuatro grandes del balompié argentino, River Plate, Boca Juniors, Independiente y Racing Club, se alistan para enfrentarse en duelos cargados de historia, rivalidad y emoción, que capturan la atención de millones de fanáticos en todo el país.
                                                 </p>
                                                 <br>
-                                                <p>A continuación, un resumen de los resultados de los partidos
-                                                    disputados:
+                                                <p>El plato fuerte de la fecha será el Superclásico entre River Plate y Boca Juniors, que se disputará en el majestuoso estadio Monumental el domingo a las 17 horas. Este enfrentamiento, considerado uno de los más apasionantes y trascendentales a nivel mundial, promete una vez más desatar la pasión y la intensidad propias de este histórico duelo.
                                                 </p>
                                                 <br>
-                                                <p><b>Tigre 0 - 0 Vélez:</b> En un partido que careció de goles, Tigre y
-                                                    Vélez
-                                                    demostraron solidez defensiva y se repartieron los puntos.
+                                                <p>Por su parte, Independiente y Racing Club revivirán su clásico enfrentamiento en el estadio Libertadores de América-Ricardo Bochini el sábado a las 15 horas, en un encuentro que promete emociones fuertes y un ambiente cargado de rivalidad y fervor futbolístico.
                                                 </p>
                                                 <br>
-                                                <p><b>Arsenal 1 - 0 Defensa y Justicia:</b> En un encuentro reñido,
-                                                    Arsenal se
-                                                    impuso a Defensa y Justicia con un gol de Juan Bautista Cejas de
-                                                    penal en el minuto 47.
+                                                <p>El clásico platense entre Gimnasia y Estudiantes, así como el clásico rosarino entre Newell's Old Boys y Rosario Central, completarán esta jornada llena de adrenalina y pasión por el fútbol. Estos encuentros, más allá de ser eventos deportivos de alto nivel, representan una oportunidad para que los hinchas celebren la identidad y la historia de sus equipos, en un país donde el fútbol es mucho más que un deporte, es una pasión que une a toda una nación.
                                                 </p>
                                                 <br>
-                                                <p><b>San Lorenzo 1 - 1 Huracán:</b> San Lorenzo y Huracán dividieron
-                                                    honores en
-                                                    un emocionante empate 1-1. Ignacio Pussetto anotó para Huracán en el
-                                                    minuto 16, mientras que Adam Bareiro igualó el marcador para San
-                                                    Lorenzo desde el punto de penal en el minuto 52.
+                                                <p>Así, con la expectativa en su punto máximo y la emoción en el aire, los clásicos argentinos prometen brindar un espectáculo inolvidable y reafirmar una vez más la grandeza y la intensidad del fútbol en Argentina. Que comience la fiesta del fútbol argentino, donde la pasión y la rivalidad se viven en cada gol, en cada jugada, en cada clásico.
                                                 </p>
                                                 <br>
-                                                <p><b>Rosario Central 1 - 0 Newell's:</b> Rosario Central se llevó la
-                                                    victoria
-                                                    gracias al gol de Ignacio Malcorra en el minuto 40 del segundo
-                                                    tiempo. </p>
-                                                <br>
-                                                <p><b>Racing 0-2 Independiente:</b> Independiente logró una importante
-                                                    victoria
-                                                    en el clásico de Avellaneda, derrotando a Racing 2-0. Alexis Canelo
-                                                    anotó temprano en el primer tiempo, y Braian Martínez convirtió un
-                                                    penal en el minuto 41 del segundo tiempo.</p>
-                                                <br>
-                                                <p><b>Banfield 1-0 Lanús:</b> Banfield se impuso a Lanús 1-0 con el gol
-                                                    de Juan
-                                                    Bisanz en el minuto 38 del primer tiempo.</p>
-                                                <br>
-                                                <p><b>Boca 0 - 2 River:</b> El Superclásico argentino no defraudó a los
-                                                    aficionados, y River Plate se llevó la victoria sobre Boca Juniors
-                                                    con un marcador de 2-0. Salomón Rondón abrió el marcador en el
-                                                    minuto 41 del primer tiempo, y Enzo Díaz vendió la victoria en el
-                                                    minuto 50 del segundo tiempo.</p>
-                                                <br>
-                                                <p><b>Colón 0 - 0 Unión:</b> En un enfrentamiento equilibrado, Colón y
-                                                    Unión no
-                                                    lograron romper el empate y finalizaron 0-0.</p>
-                                                <br>
-                                                <p><b>Estudiantes 0 - 0 Gimnasia:</b> El clásico platense terminó en
-                                                    empate sin
-                                                    goles, reflejando la paridad en el campo de juego.</p>
-                                                <br>
-                                                <p><b>Talleres 0-0 Belgrano:</b> Talleres y Belgrano no lograron marcar
-                                                    goles en
-                                                    un partido igualado.</p>
-                                                <br>
-                                                <p><b>Barracas Central 1-1 Sarmiento:</b> Barracas Central y Sarmiento
-                                                    empataron
-                                                    1-1 con goles tempranos de Juan Ignacio Díaz y Guido Mainero en los
-                                                    primeros minutos del partido.</p>
-                                                <br>
-                                                <p><b>Godoy Cruz 1-1 Instituto:</b> Godoy Cruz e Instituto dividieron
-                                                    honores en
-                                                    un emocionante empate 1-1. Jonás Acevedo escribió para Instituto en
-                                                    el primer tiempo, mientras que Tadeo Allende igualó para Godoy Cruz
-                                                    en el segundo tiempo.</p>
-                                                <br>
-                                                <p><b>Platense 0-0 Argentinos:</b> Platense y Argentinos Juniors no
-                                                    lograron
-                                                    abrir el marcador en un partido que terminó sin goles.</p>
-                                                <br>
-                                                <p><b>Atlético Tucumán 0-0 Central Córdoba (SdE)</b>: El partido entre
-                                                    Atlético
-                                                    Tucumán y Central Córdoba (Santiago del Estero) concluyó en empate
-                                                    0-0.
-                                                </p>
-                                                <br>
-                                                <p>Estos resultados de la Fecha 7 de la Copa de la Liga Argentina
-                                                    mantienen la emoción en el torneo, con equipos luchando por puntos
-                                                    vitales en su búsqueda de la gloria. El fútbol argentino continúa
-                                                    ofreciendo emocionantes partidos y sorpresas en cada jornada.</p>
-                                                <br>
-
-
+                                                
                                                 <div class="text-start object-center">
                                                     <figure>
                                                         <img class="w-28 h-28  "
@@ -996,7 +924,7 @@
                 mounted() {
 
 
-                    axios.get("https://api.dailymotion.com/videos?channel=news&limit=5")
+                    axios.get("https://api.dailymotion.com/videos?channel=news&limit=3")
                         .then(response => {
                             this.info = response.data.list
                         });

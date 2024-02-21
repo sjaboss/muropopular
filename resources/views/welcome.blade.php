@@ -39,17 +39,15 @@
                             <article>
                                 <figure>
                                     @php
-                                        $tituloSep = 'Politica-Noticia-Completa-pol44#pol44';
+                                        $tituloSep = 'Gremiales-Noticia-Completa-gre16#gre16';
                                     @endphp
                                     <a class="text-emerald-700 font-semibold hover:text-emerald-400 hover:underline"
-                                        href="{{ route('politicaSep.show', $tituloSep) }}">
+                                        href="{{ route('gremialSep.show', $tituloSep) }}">
                                         <img class="object-cover absolute block w-full  h-56 -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-                                            src="../img/pol/pol_petri.svg" alt="">
+                                            src="../img/grem/grem_bancaria1.svg" alt="">
                                         <div class="py-2 px-4">
                                             <h2 class="text-lg font-serif">
-                                                <a href="{{ route('politicaSep.show', $tituloSep) }}">PETRI ENCABEZÓ LA
-                                                    PRESENTACIÓN DEL NUEVO AVIÓN EMBRAER ERJ 140 LR DE LA FUERZA AÉREA
-                                                    ARGENTINA
+                                                <a href="{{ route('gremialSep.show', $tituloSep) }}">LA BANCARIA Y LA CGT UNIDAS CONTRA LA PRIVATIZACIÓN DEL BANCO NACIÓN
                                                 </a>
                                                 {{--     <p class="font-light text-gray-500"> Nota: Del Tomate A Sumido  </p> --}}
                                                 {{--  <p class="font-light mb-10 text-right text-gray-500">Publicado: 27/11/2023
@@ -66,16 +64,15 @@
                             <article>
                                 <figure>
                                     @php
-                                        $tituloSep = 'Politica-Noticia-Completa-pol43#pol43';
+                                        $tituloSep = 'Politica-Noticia-Completa-pol46#pol46';
                                     @endphp
                                     <a class="text-emerald-700 font-semibold hover:text-emerald-400 hover:underline"
                                         href="{{ route('politicaSep.show', $tituloSep) }}">
                                         <img class="object-cover absolute block w-full  h-56 -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-                                            src="../img/pol/pol_represion.svg" alt="">
+                                            src="../img/pol/pol_macri.svg" alt="">
                                         <div class="py-2 px-4">
                                             <h2 class="text-lg font-serif">
-                                                <a href="{{ route('politicaSep.show', $tituloSep) }}">REPRESIÓN
-                                                    DESATADA: VIOLENCIA Y DESPRECIO DEMOCRÁTICO EN EL OPERATIVO POLICIAL
+                                                <a href="{{ route('politicaSep.show', $tituloSep) }}">MACRI SE CONSOLIDA COMO PRÓXIMO PRESIDENTE DEL PRO 
                                                 </a>
                                                 <p class="font-light text-gray-500"></p>
                                                 {{--  <p class="font-light mb-10 text-right text-gray-500">Publicado: 27/11/2023
@@ -92,16 +89,15 @@
                             <article>
                                 <figure>
                                     @php
-                                        $tituloDer = 'Gremiales-Noticia-Completa-gre13#gre13';
+                                        $tituloDer = 'Deportes-Noticia-Completa-dep6#dep6';
                                     @endphp
                                     <a class="text-emerald-700 font-semibold hover:text-emerald-400 hover:underline"
-                                        href="{{ route('gremialSep.show', $tituloDer) }}">
+                                        href="{{ route('deportesSep.show', $tituloDer) }}">
                                         <img class="object-cover absolute block w-full h-56 -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-                                            src="{{ asset('../img/grem/grem_camarazo.svg') }}" alt="">
+                                            src="{{ asset('../img/dep/dep_ligar.svg') }}" alt="">
                                         <div class="py-2 px-4">
                                             <h2 class="text-lg font-serif">
-                                                <a h href="{{ route('gremialSep.show', $tituloDer) }}">CAMARAZO DE
-                                                    REPORTERXS GRÁFICXS FRENTE AL CONGRESO TRAS REPRESIÓN DE BULLRICH
+                                                <a h href="{{ route('deportesSep.show', $tituloDer) }}">SE APROXIMA LA JORNADA DE CLÁSICOS EN LA COPA DE LA LIGA ARGENTINA
                                                 </a>
                                             </h2>
                                             {{-- <p class="font-light  text-right text-gray-500">Publicado: 02/10/2023</p> --}}
@@ -121,24 +117,23 @@
                 <div>
                     <figure>
                         @php
-                            $tituloSep = 'Politica-Noticia-Completa-pol40#pol40';
+                            $tituloSep = 'Internacionales-Noticia-Completa-int10#int10';
                         @endphp
                         <a class="text-emerald-700 font-semibold hover:text-emerald-400 hover:underline"
-                            href="{{ route('politicaSep.show', $tituloSep) }}">
+                            href="{{ route('interSepNew.show', $tituloSep) }}">
                             <img class="h-48 w-full object-cover object-center"
-                                src="{{ asset('../img/pol/pol_intel.svg') }}" alt="">
+                                src="{{ asset('../img/int/int_cameron.svg') }}" alt="">
                         </a>
                     </figure>
                     <div class=" py-4 px-6">
                         <h1 class="text-lg font-serif ">
-                            <a href="{{ route('politicaSep.show', $tituloSep) }}">
-                                INTELIGENCIA REPRESIVA
-                                <p> <i>Por Oscar Martínez Zemborain</i></p>
+                            <a href="{{ route('interSepNew.show', $tituloSep) }}">
+                                CAMERON EN MALVINAS: DESAFÍO BRITÁNICO
                             </a>
                         </h1>
                         <p class="font-light  text-gray-500"></p>
                         <div class="pt-4">
-                            <p class="font-light  text-right text-gray-500">Publicado: 02/02/2024</p>
+                            <p class="font-light  text-right text-gray-500">Publicado: 20/02/2024</p>
                         </div>
 
                     </div>
@@ -147,23 +142,23 @@
                 <div>
                     <figure>
                         @php
-                            $tituloSep = 'Gremiales-Noticia-Completa-gre12#gre12';
+                            $tituloSep = 'Sociedad-Noticia-Completa-soc22#soc22';
                         @endphp
                         <a class="text-emerald-700 font-semibold hover:text-emerald-400 hover:underline"
-                            href="{{ route('gremialSep.show', $tituloSep) }}">
+                            href="{{ route('sociedadSep.show', $tituloSep) }}">
                             <img class="h-48 w-full object-cover object-center"
-                                src="{{ asset('../img/grem/grem_union.svg') }}" alt="">
+                                src="{{ asset('../img/soc/soc_turismo.svg') }}" alt="">
                         </a>
                     </figure>
                     <div class=" py-4 px-6">
                         <h1 class="text-lg font-serif ">
-                            <a href="{{ route('gremialSep.show', $tituloSep) }}">
-                                UNIÓN SINDICAL CONTRA LAS MEDIDAS DE MILEI: CGT Y GREMIOS ANUNCIAN RESISTENCIA
+                            <a href="{{ route('sociedadSep.show', $tituloSep) }}">
+                                TURISMO SOCIAL EN RIESGO: PELIGRA EL FUTURO DE HOTELES ESTATALES
                             </a>
                         </h1>
                         <p class="font-light  text-gray-500"></p>
                         <div class="pt-4">
-                            <p class="font-light  text-right text-gray-500">Publicado: 02/02/2024</p>
+                            <p class="font-light  text-right text-gray-500">Publicado: 20/02/2024</p>
                         </div>
 
                     </div>

@@ -2008,7 +2008,8 @@
                                             <a href="">UNIENDO FUERZAS EN TIEMPOS DE CRISIS
                                             </a>
                                         </h2>
-                                        <p><i>Organizaciones sociales y sindicales se reúnen para abordar la situación actual y coordinar acciones en defensa del pueblo argentino.</i>
+                                        <p><i>Organizaciones sociales y sindicales se reúnen para abordar la situación
+                                                actual y coordinar acciones en defensa del pueblo argentino.</i>
                                         </p>
                                         <br>
 
@@ -2020,25 +2021,166 @@
                                         <div
                                             class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
                                             <div class=" font-sans text-lg text-left col-span-6  ">
-                                                <p>En un contexto de aguda crisis social y económica, las diversas organizaciones que integran la Multisectorial por el Trabajo, la Producción y la Soberanía Nacional se congregaron en la sede nacional de la CTA-T para analizar la situación y definir estrategias de acción.
+                                                <p>En un contexto de aguda crisis social y económica, las diversas
+                                                    organizaciones que integran la Multisectorial por el Trabajo, la
+                                                    Producción y la Soberanía Nacional se congregaron en la sede
+                                                    nacional de la CTA-T para analizar la situación y definir
+                                                    estrategias de acción.
                                                 </p>
                                                 <br>
-                                                <p>En el encuentro participaron representantes de las dos CTA, la UTEP, la Mesa de Organismos de Derechos Humanos, la confederación de PyMes, el MP25M y otras entidades comprometidas con la defensa de los derechos del pueblo argentino.
+                                                <p>En el encuentro participaron representantes de las dos CTA, la UTEP,
+                                                    la Mesa de Organismos de Derechos Humanos, la confederación de
+                                                    PyMes, el MP25M y otras entidades comprometidas con la defensa de
+                                                    los derechos del pueblo argentino.
                                                 </p>
                                                 <br>
-                                                <p>Uno de los temas centrales abordados fue el reciente avance de la ley Ómnibus en el Congreso, una medida que ha despertado fuertes críticas y preocupaciones en diversos sectores de la sociedad. Se destacó especialmente la represión violenta y desproporcionada contra los manifestantes que se congregaron frente al Congreso para expresar su rechazo a esta ley.
+                                                <p>Uno de los temas centrales abordados fue el reciente avance de la ley
+                                                    Ómnibus en el Congreso, una medida que ha despertado fuertes
+                                                    críticas y preocupaciones en diversos sectores de la sociedad. Se
+                                                    destacó especialmente la represión violenta y desproporcionada
+                                                    contra los manifestantes que se congregaron frente al Congreso para
+                                                    expresar su rechazo a esta ley.
                                                 </p>
                                                 <br>
-                                                <p>Además, se evaluó el proceso de formación de multisectoriales en distintas regiones del país, con el objetivo de fortalecer la unidad de los distintos sectores sociales y sindicales en la lucha por los derechos y la justicia.
+                                                <p>Además, se evaluó el proceso de formación de multisectoriales en
+                                                    distintas regiones del país, con el objetivo de fortalecer la unidad
+                                                    de los distintos sectores sociales y sindicales en la lucha por los
+                                                    derechos y la justicia.
                                                 </p>
                                                 <br>
-                                                <p>En este sentido, se hizo un llamado a apoyar las iniciativas de los movimientos sociales, como la "Fila contra el hambre" impulsada por la UTEP, que busca visibilizar la situación de vulnerabilidad de miles de familias argentinas afectadas por la crisis económica.</p>
+                                                <p>En este sentido, se hizo un llamado a apoyar las iniciativas de los
+                                                    movimientos sociales, como la "Fila contra el hambre" impulsada por
+                                                    la UTEP, que busca visibilizar la situación de vulnerabilidad de
+                                                    miles de familias argentinas afectadas por la crisis económica.</p>
                                                 <br>
-                                                <p>También se repudiaron enfáticamente las declaraciones de la Ministra de Seguridad, Patricia Bullrich, quien justificó la represión policial y anunció la continuidad de estas prácticas en futuras manifestaciones.</p>
+                                                <p>También se repudiaron enfáticamente las declaraciones de la Ministra
+                                                    de Seguridad, Patricia Bullrich, quien justificó la represión
+                                                    policial y anunció la continuidad de estas prácticas en futuras
+                                                    manifestaciones.</p>
                                                 <br>
-                                                <p>Por último, se acordó participar activamente en el "Congreso de las chicas y los chicos del pueblo", una iniciativa que busca dar voz a la juventud y promover la participación ciudadana en la construcción de un país más justo y solidario.</p>
+                                                <p>Por último, se acordó participar activamente en el "Congreso de las
+                                                    chicas y los chicos del pueblo", una iniciativa que busca dar voz a
+                                                    la juventud y promover la participación ciudadana en la construcción
+                                                    de un país más justo y solidario.</p>
                                                 <br>
-                                                <p>La Multisectorial por el Trabajo, la Producción y la Soberanía Nacional reafirmó su compromiso de seguir trabajando en la articulación de acciones y la defensa de los derechos del pueblo argentino frente a las políticas regresivas y autoritarias impulsadas por el gobierno de Javier Milei.</p>
+                                                <p>La Multisectorial por el Trabajo, la Producción y la Soberanía
+                                                    Nacional reafirmó su compromiso de seguir trabajando en la
+                                                    articulación de acciones y la defensa de los derechos del pueblo
+                                                    argentino frente a las políticas regresivas y autoritarias
+                                                    impulsadas por el gobierno de Javier Milei.</p>
+                                                <br>
+                                            </div>
+                                        </div>
+                                </article>
+                            </li>
+                        </ul>
+                    </div>
+
+
+                    {{-- columna de la derecha chica --}}
+                    <aside>
+                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                            <div class=" col-span-6">
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/bener-leg2.png') }}"
+                                        alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/APSE.gif') }}" alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
+                                        alt="">
+                                </a>
+
+
+
+                                <div id="app">
+
+                                    <div v-for="item in info">
+
+                                        <div class="flex-col pb-3">
+                                            <div
+                                                class="flex-col max-w-sm  border  border-gray-700 rounded-lg shadow bg-gray-800">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg"
+                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
+                                                        alt="" />
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5 class="mb-2 text-2xl font-bold tracking-tight  text-white">
+                                                            @{{ item.title }}</h5>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div v-for="va in clima">
+
+                                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-white">
+                                            @{{ va }}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+
+                </div>
+
+            </section>
+        @elseif ($tituloSep == 'Gremiales-Noticia-Completa-gre16')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">LA BANCARIA Y LA CGT UNIDAS CONTRA LA PRIVATIZACIÓN DEL
+                                                BANCO NACIÓN
+                                            </a>
+                                        </h2>
+                                        <p><i>La fuerza sindical se levanta: Trabajadores bancarios contra la
+                                                privatización del Banco Nación, respaldados por la CGT y la CTA de los
+                                                Trabajadores.</i>
+                                        </p>
+                                        <br>
+
+                                        <figure>
+                                            <img class=" w-full object-cover" src="../img/grem/grem_bancaria2.svg"
+                                                alt="">
+                                        </figure>
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+                                                <p>En un acto de firmeza y unidad, la Asociación Bancaria, liderada por Sergio Palazzo, y la Confederación General del Trabajo (CGT), encabezada por el triunvirato Daer, Acuña y Moyano, se unieron en un rechazo contundente a la privatización del Banco Nación propuesta por el gobierno de Javier Milei. La masiva asamblea, que congregó a 3,000 trabajadores bancarios en el edificio del Banco Nación, marcó un hito en la defensa de una entidad emblemática para el país.
+                                                </p>
+                                                <br>
+                                                <p>El secretario general de La Bancaria, Sergio Palazzo, expresó con firmeza la postura del gremio: "El Banco Nación no se vende, se defiende". Palazzo agradeció el respaldo de las centrales obreras y destacó su papel en la protección de los derechos laborales. En este sentido, hizo referencia a las acciones judiciales que impidieron una avanzada reforma laboral, señalando que "el movimiento obrero fue clave en esta batalla".
+                                                </p>
+                                                <br>
+                                                <p>Por su parte, los líderes de la CGT, Héctor Daer, Carlos Acuña y Pablo Moyano, manifestaron su apoyo irrestricto a la lucha de La Bancaria y reafirmaron su compromiso con la defensa de los derechos de los trabajadores. Daer destacó la importancia de la unidad sindical en momentos de crisis y llamó a fortalecerla para enfrentar los desafíos que se presentan.
+                                                </p>
+                                                <br>
+                                                <p>El respaldo de la CTA de los Trabajadores, representada por Hugo Yasky, y de otros sindicatos como SUTEBA, liderado por Roberto Baradel, evidencia la amplitud y la fuerza del movimiento obrero organizado en su rechazo a la privatización del Banco Nación.
+                                                </p>
+                                                <br>
+                                                <p>El acto culminó con un abrazo simbólico al Banco Nación, en el que participaron dirigentes políticos, empresariales, pymes y diversos sectores sociales, demostrando que la defensa de la entidad bancaria pública trasciende las fronteras gremiales y se convierte en un símbolo de resistencia y unidad en tiempos de incertidumbre.</p>
+                                                <br>
+                                                <p>En definitiva, la asamblea de La Bancaria y la CGT dejó en claro que la privatización del Banco Nación no será aceptada sin una fuerte resistencia por parte de los trabajadores y de la sociedad en su conjunto. Es un mensaje claro al gobierno de Milei y a cualquier intento de desmantelar las instituciones públicas en beneficio de intereses privados. La unidad y la firmeza de los trabajadores son la mejor garantía para defender lo que es de todos los argentinos.</p>
+                                                <br>
+                                                <p>Por último, se acordó participar activamente en el "Congreso de las
+                                                    chicas y los chicos del pueblo", una iniciativa que busca dar voz a
+                                                    la juventud y promover la participación ciudadana en la construcción
+                                                    de un país más justo y solidario.</p>
                                                 <br>
                                             </div>
                                         </div>

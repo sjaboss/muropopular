@@ -1,5 +1,59 @@
 <x-app-layout>
     <div class="container ">
+        {{--LA BANCARIA Y LA CGT UNIDAS CONTRA LA PRIVATIZACIÓN DEL BANCO NACIÓN  --}}
+    <section>
+        <ul>
+            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                <article>
+
+                    <div class="py-4 px-4 justify-between items-center">
+                        <h2 class="text-xl font-serif  font-bold pb-6">
+                            <a href="">LA BANCARIA Y LA CGT UNIDAS CONTRA LA PRIVATIZACIÓN DEL
+                                BANCO NACIÓN
+                            </a>
+                        </h2>
+                        <p><i>La fuerza sindical se levanta: Trabajadores bancarios contra la
+                                privatización del Banco Nación, respaldados por la CGT y la CTA de los
+                                Trabajadores.</i>
+                        </p>
+                        <br>
+
+                        <figure>
+                            <img class=" w-full object-cover" src="../img/grem/grem_bancaria2.svg"
+                                alt="">
+                        </figure>
+                        <br>
+                        <div
+                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                            <div class=" font-sans text-lg text-left col-span-6  ">
+                                <p>En un acto de firmeza y unidad, la Asociación Bancaria, liderada por Sergio Palazzo, y la Confederación General del Trabajo (CGT), encabezada por el triunvirato Daer, Acuña y Moyano, se unieron en un rechazo contundente a la privatización del Banco Nación propuesta por el gobierno de Javier Milei. La masiva asamblea, que congregó a 3,000 trabajadores bancarios en el edificio del Banco Nación, marcó un hito en la defensa de una entidad emblemática para el país.
+                                </p>
+                                <br>
+                                <p>El secretario general de La Bancaria, Sergio Palazzo, expresó con firmeza la postura del gremio: "El Banco Nación no se vende, se defiende". Palazzo agradeció el respaldo de las centrales obreras y destacó su papel en la protección de los derechos laborales. En este sentido, hizo referencia a las acciones judiciales que impidieron una avanzada reforma laboral, señalando que "el movimiento obrero fue clave en esta batalla".
+                                </p>
+                                <br>
+                                <p>Por su parte, los líderes de la CGT, Héctor Daer, Carlos Acuña y Pablo Moyano, manifestaron su apoyo irrestricto a la lucha de La Bancaria y reafirmaron su compromiso con la defensa de los derechos de los trabajadores. Daer destacó la importancia de la unidad sindical en momentos de crisis y llamó a fortalecerla para enfrentar los desafíos que se presentan.
+                                </p>
+                                <br>
+                                <p>El respaldo de la CTA de los Trabajadores, representada por Hugo Yasky, y de otros sindicatos como SUTEBA, liderado por Roberto Baradel, evidencia la amplitud y la fuerza del movimiento obrero organizado en su rechazo a la privatización del Banco Nación.
+                                </p>
+                                <br>
+                                <p>El acto culminó con un abrazo simbólico al Banco Nación, en el que participaron dirigentes políticos, empresariales, pymes y diversos sectores sociales, demostrando que la defensa de la entidad bancaria pública trasciende las fronteras gremiales y se convierte en un símbolo de resistencia y unidad en tiempos de incertidumbre.</p>
+                                <br>
+                                <p>En definitiva, la asamblea de La Bancaria y la CGT dejó en claro que la privatización del Banco Nación no será aceptada sin una fuerte resistencia por parte de los trabajadores y de la sociedad en su conjunto. Es un mensaje claro al gobierno de Milei y a cualquier intento de desmantelar las instituciones públicas en beneficio de intereses privados. La unidad y la firmeza de los trabajadores son la mejor garantía para defender lo que es de todos los argentinos.</p>
+                                <br>
+                                <p>Por último, se acordó participar activamente en el "Congreso de las
+                                    chicas y los chicos del pueblo", una iniciativa que busca dar voz a
+                                    la juventud y promover la participación ciudadana en la construcción
+                                    de un país más justo y solidario.</p>
+                                <br>
+                            </div>
+                        </div>
+                </article>
+            </li>
+        </ul>
+    <br><br>
+    </section>
 {{--OPOSICIÓN A LA REFORMA LABORAL DE MILEI SE HACE EVIDENTE  --}}
     <section>
         <ul>
