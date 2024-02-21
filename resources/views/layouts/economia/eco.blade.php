@@ -1,6 +1,60 @@
 <x-app-layout>
     <div class="container ">
- 
+{{--¡PRECIOS AL GALOPE! INFLACIÓN EN ENERO: 20,6%  --}}
+<section >
+    <ul>
+        <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+            <article>
+
+                <div class="py-4 px-4 justify-between items-center">
+                    <h2 class="text-xl font-serif  font-bold pb-6">
+                        <a href="">¡PRECIOS AL GALOPE! INFLACIÓN EN ENERO: 20,6% </a>
+                    </h2>
+                    <p><i>Precios al galope: Enero cierra con una inflación del 20,6%, agravando la situación económica y poniendo en jaque el bienestar de los argentinos.</i>
+                    </p>
+                    <br>
+                    <figure>
+                        <img class=" w-full object-cover" src="../img/eco/eco_precio.svg"
+                            alt="">
+                    </figure>
+                    <br>
+                    <div
+                        class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                        <div class=" font-sans text-lg text-left col-span-6  ">
+                            <p>El Indec informó que el Índice de Precios al Consumidor (IPC) alcanzó un preocupante 20,6% en enero, manteniendo la tendencia de dos dígitos. La inflación interanual se sitúa en un alarmante 254,2%, dejando en evidencia la profunda crisis económica que atraviesa el país.
+                            </p>
+                            <br>
+                            <p><b>Rubros afectados</b></p>
+                            <br>
+                            <p>Los rubros que sufrieron mayores aumentos en enero fueron Bienes y servicios varios, con un 44,4%, seguido de Transporte con un 26,3% y Comunicación con un 25,1%. La quita de subsidios al transporte, impulsada por el Gobierno de Javier Milei, ha tenido un impacto directo en el bolsillo de los argentinos, con aumentos en el boleto que aún no se han reflejado por completo en las estadísticas.
+                            </p>
+                            <br>
+                            <p><b>Pronósticos y realidad</b></p>
+                            <br>
+                            <p>Las consultoras privadas estimaban una inflación del 21,9% para enero, lo que indica una subestimación de la realidad económica por parte de los analistas. Para febrero, se espera una inflación del 18%, con una proyección anual del 227%.
+                            </p>
+                            <br>
+                            <p><b>Impacto en las familias</b></p>
+                            <br>
+                            <p>En la Ciudad de Buenos Aires, la inflación de enero alcanzó el 21,7%, afectando especialmente a los sectores más vulnerables. La Canasta Básica Total (CBT) aumentó un 27%, lo que significa que un grupo familiar necesitó ingresos por $ 495.798 para no ser considerado en situación de pobreza. La Canasta Básica Alimentaria (CBA) subió un 30,1%, elevando el umbral de ingresos para no caer en la indigencia a $ 240.678.</p>
+                            <br>
+                            <p>Ante esta situación, se hace evidente la necesidad de políticas económicas que protejan el bolsillo de los argentinos y promuevan la justicia social, reivindicando la presencia activa del Estado como ente regulador y promotor del bienestar social.</p>
+                            <br>
+                            {{-- <figure>
+                                {{-- <img class="w-28 h-28  "
+                                    src="{{ asset('../img/noteros/ramiro.svg') }}" alt=""> --}}
+                               {{--  <p> <b><i>Nota de Adrián Rojze</i></b></p></a>
+                                <p><b><i>Economista y Politólogo</i></b></p>
+                            </figure>  --}}
+                            <br>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </li>
+    </ul>
+</section>
+                    <br><br>
 {{--LA FUNCIÓN DE LOS OUTSIDERS... --}}
 <section >
     <ul>

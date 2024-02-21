@@ -1,5 +1,118 @@
 <x-app-layout>
     <div class="container ">
+        {{--¡VUELOS SECRETOS PONEN EN JAQUE LA SOBERANÍA!--}}
+    <section> 
+        <ul>
+            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                <article>
+
+                    <div class="py-4 px-4 justify-between items-center">
+                        <h2 class="text-xl font-serif  font-bold pb-6">
+                            <a href="">¡VUELOS SECRETOS PONEN EN JAQUE LA SOBERANÍA!</a>
+                        </h2>
+                        <p><i>Ex combatientes alertan sobre vuelos clandestinos a Malvinas que desafían la soberanía nacional. Acusan al gobierno de complicidad y exigen respuestas urgentes.</i>.
+                        </p>
+                        <br>
+                        <figure>
+                            <img class="w-full object-cover" src="../img/soc/soc_vuelo2.svg"
+                                alt="">
+                        </figure>
+                        <br>
+                        <div
+                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                            <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                <p>El Centro de Ex Combatientes Islas Malvinas (Cecim) La Plata ha lanzado una advertencia contundente: vuelos de dudosa procedencia hacia las Islas Malvinas podrían comprometer la soberanía nacional. En una declaración pública, los ex combatientes denuncian la aparente falta de acción del gobierno argentino frente a estas operaciones, que consideran violatorias de resoluciones de la ONU, en particular la Zona de Paz y Cooperación en el Atlántico Sur (ZPCAS).
+                                </p>
+                                <br>
+                                <p>Según el Cecim, el Ministerio de Defensa, a cargo de Luis Petri, habría creado un "Triángulo de las Malvinas" donde desaparecen aviones, especialmente británicos, y otros de dudosa procedencia. Durante la semana del 22 al 26 de enero, se registraron vuelos que, según los ex combatientes, requieren una investigación detallada y la intervención urgente de las agencias estatales correspondientes.</p>
+                                <br>
+                                <p>Uno de los vuelos que generó mayor preocupación fue realizado por la aeronave Bombardier Learjet Matrícula LV-GQR de la empresa Pacific Ocean S.A., que despegó desde el Aeropuerto de San Fernando con destino a Monte Agradable, Islas Malvinas. El Cecim cuestiona la falta de información sobre la autorización de este vuelo y la identidad de sus pasajeros, planteando la posibilidad de que estén relacionados con actividades petroleras en la región.
+                                </p>
+                                <br>
+                                <p>En un comunicado, los ex combatientes de La Plata manifestaron: “Estamos ante una situación de gravedad institucional inaudita, que está en riesgo la soberanía nacional ante un plan de entrega que se advierte por los propios dichos del presidente Milei, de la Canciller Mondino y de la vicepresidenta Villarruel”.
+                                </p>
+                                <br>
+                                <p>El silencio de la canciller Diana Mondino también fue objeto de crítica, así como la supuesta complacencia del gobierno uruguayo al permitir desde Montevideo el puente aéreo hacia Malvinas desde la Base Militar Brize Norton en Oxfordshire, Reino Unido.
+                                </p>
+                                <br>
+                                <p>En un contexto donde la soberanía nacional parece estar en riesgo, el Cecim hace un llamado urgente a las autoridades argentinas para que tomen medidas concretas que protejan los intereses del país en las Islas Malvinas. Esta situación, según los ex combatientes, podría ser parte de un plan de entrega de la soberanía en beneficio de intereses extranjeros, especialmente en relación con la explotación petrolera en la región.</p>
+                                <br>
+                                <p>La comunidad internacional debe prestar atención a estas denuncias y respaldar los esfuerzos de Argentina por proteger su soberanía en las Islas Malvinas.</p>
+                                <br>
+                                <div class="text-start object-center">
+                                    {{-- <figure>
+                                        <img class="w-28 h-28  "
+                                            src="{{ asset('../img/noteros/Gus.svg') }}"
+                                            alt="">
+                                        
+                                        <p> <strong>Nota de Gustavo Cano</strong></p>
+
+                                    </figure> --}}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </li>
+        </ul>
+        <br>
+    </section>
+    {{--DOLARIZACIÓN: EL ENGAÑO QUE BENEFICIA  --}}
+    <section> 
+        <ul>
+            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                <article>
+
+                    <div class="py-4 px-4 justify-between items-center">
+                        <h2 class="text-xl font-serif  font-bold pb-6">
+                            <a href="">DOLARIZACIÓN: EL ENGAÑO QUE BENEFICIA A LOS PODEROSOS Y CONDENA A LOS TRABAJADORES</a>
+                        </h2>
+                        <p><i>La dolarización en Argentina: ¿Salvación económica o condena social? Un análisis detallado de los impactos que esta medida tendría en los trabajadores y la sociedad en su conjunto.</i>.
+                        </p>
+                        <br>
+                        <figure>
+                            <img class="w-full object-cover" src="../img/soc/soc_dolar.svg"
+                                alt="">
+                        </figure>
+                        <br>
+                        <div
+                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                            <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                <p>La propuesta de dolarizar la economía argentina ha generado un intenso debate, con defensores que ven en esta medida una solución a los problemas de inflación y estabilidad económica. Sin embargo, esta aparente solución presenta riesgos significativos que podrían llevar al país por un camino de dependencia económica y pérdida de soberanía monetaria.
+                                </p>
+                                <br>
+                                <p>En el contexto actual, la dolarización de la economía argentina tendría consecuencias devastadoras para los trabajadores. La fijación de los salarios en dólares resultaría en una pérdida significativa del poder adquisitivo de los trabajadores, especialmente en un contexto de devaluación del peso argentino frente al dólar. Esto llevaría a un aumento de la pobreza y la desigualdad, afectando principalmente a los sectores más vulnerables de la sociedad.</p>
+                                <br>
+                                <p>Además, la dolarización llevaría a una mayor precarización laboral, ya que las empresas ajustarían los salarios y las condiciones laborales para mantener su competitividad en un entorno dolarizado. Esto resultaría en una disminución de la calidad de vida de los trabajadores y sus familias, así como en un aumento de la informalidad laboral y la inestabilidad económica.
+                                </p>
+                                <br>
+                                <p>Por otro lado, la subsecretaria de Turismo del Ministerio del Interior, Yanina Martínez, ha mencionado que se trabaja en un programa para lograr la autosuficiencia de estas unidades. Si bien se busca mantener el turismo social, la falta de detalles sobre este programa genera incertidumbre sobre su efectividad y continuidad en el tiempo.Por otro lado, la dolarización solo beneficiaría a un grupo minúsculo de grandes empresarios exportadores, que verían facilitada su actividad al eliminar el riesgo cambiario y al tener una moneda estable para sus transacciones internacionales. Estos empresarios, que representan una minoría en la economía argentina, se verían favorecidos en detrimento de la mayoría de los trabajadores y pequeños empresarios del país.
+                                </p>
+                                <br>
+                                <p>En resumen, la dolarización de la economía argentina sería un riesgo para los trabajadores y un beneficio para los pocos privilegiados. Antes de tomar una decisión tan trascendental, es necesario evaluar cuidadosamente todos los riesgos y considerar alternativas que puedan ofrecer una solución más equitativa y sostenible para el país.
+                                </p>
+                                <br>
+                                <p>La dolarización no es la solución mágica a los problemas económicos de Argentina. Más bien, es un paso en falso que tendría consecuencias devastadoras para la economía y la sociedad en su conjunto. Es hora de considerar otras opciones que nos permitan mantener nuestra soberanía monetaria y construir un futuro más próspero y equitativo para todos los argentinos.</p>
+                                <br>
+                                <div class="text-start object-center">
+                                    <figure>
+                                        <img class="w-28 h-28  "
+                                            src="{{ asset('../img/noteros/Gus.svg') }}"
+                                            alt="">
+                                        <p> <strong>Nota de Gustavo Cano</strong></p>
+
+                                    </figure>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </li>
+        </ul>
+        <br>
+    </section>
         {{--TURISMO SOCIAL EN RIESGO:  --}}
     <section> 
         <ul>

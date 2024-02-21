@@ -1,8 +1,57 @@
 <x-app-layout>
     <div class="container ">
+{{-- ANALÍA COBAS PRESENTA SU PRIMER LIBRO EN LA FERIA DE AGRONOMÍA--}}
+<section>
+    <ul>
+        <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+            <article>
 
-        {{-- VUELVE "YA NADIE RECUERDA A FRÉDÉRIC CHOPIN":--}}
-   <section>
+                <div class="py-4 px-4 justify-between items-center">
+                    <h2 class="text-xl font-serif  font-bold pb-6">
+                        <a href="">ANALÍA COBAS PRESENTA SU PRIMER LIBRO EN LA FERIA DE AGRONOMÍA </a>
+                    </h2>
+
+                    <div
+                        class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                        <div class=" font-sans text-lg text-left col-span-6  ">
+
+                            <p><i>"Analía Cobas, reconocida comunicadora, presenta su primer libro 'La Protagonista' en la Feria de Agronomía. Una obra que invita a reflexionar sobre la vida, el amor y la sociedad actual. ¡No te pierdas esta oportunidad de sumergirte en su universo literario!"</i></p>
+                            <br>
+                            <figure>
+                                <a href="">
+                                    <img class="w-full object-cover object-center"
+                                        src="{{ asset('../img/cul/cul_analia2.svg') }}"
+                                        alt="">
+                                </a>
+                            </figure>
+                            <br>
+                            <p>La reconocida comunicadora y docente Analía Cobas se prepara para presentar su primer libro, titulado "La Protagonista", en un evento especial que se llevará a cabo en la Feria de Agronomía. La presentación está programada para el domingo 18 de febrero a las 13:00 horas en la Carpa Cultural de la Feria, ubicada en Av. San Martín 4453, CABA.
+                            </p>
+                            <br>
+                            <p>"La Protagonista" promete ser una obra que impactará a sus lectores, ya que Cobas ha demostrado su destreza en la descripción fotográfica de historias, abordando tópicos vitales como el desamor, la imaginación, el deseo, la violencia, la belleza, los vínculos, la tecnología, la contaminación, la maternidad y otros temas profundos que nos interpelan en la actualidad.
+                            </p>
+                            <br>
+                            <p>La autora, quien ha sido reconocida y valorada por su trabajo en el ámbito cultural, ofrece en su libro un conjunto de relatos que invitan al lector a sumergirse en distintos universos, con una mirada crítica del mundo y un ritmo atrapante que asegura una lectura enriquecedora y reflexiva.</p>
+                            <br>
+                            <p>El evento contará con la moderación de la Licenciada Guadalupe Morales Sosa, especialista en género de la UBA, y ofrecerá además lectura, charla-debate y firma de ejemplares. La entrada es libre y gratuita, por lo que se espera una gran concurrencia de público interesado en la obra de esta talentosa autora.
+                            </p>
+                            <br>
+                            <p>"La Protagonista" es, en palabras de la propia Analía Cobas, "una semilla que se nutre de preguntas que remiten a nuestra humanidad", y promete ser un libro que dejará una profunda impresión en todos aquellos que se adentren en sus páginas.
+                            </p>
+                            <br>
+                        </div>
+
+
+
+                    </div>
+                </div>
+            </article>
+        </li>
+    </ul>
+    <br>
+</section>
+{{-- VUELVE "YA NADIE RECUERDA A FRÉDÉRIC CHOPIN":--}}
+<section>
     <ul>
         <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
             <article>
@@ -52,7 +101,7 @@
         </li>
     </ul>
     <br>
-   </section>
+</section>
     <br><br>
 {{-- FESTIVAL CULTURAL "17 DE OCTUBRE"--}}
    <section>
