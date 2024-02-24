@@ -1,5 +1,57 @@
 <x-app-layout>
     <div class="container ">
+        {{-- EL EQUIPO DE "PAJARITA" SE REÚNE EN EL TEATRO--}}
+<section>
+    <ul>
+        <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+            <article>
+
+                <div class="py-4 px-4 justify-between items-center">
+                    <h2 class="text-xl font-serif  font-bold pb-6">
+                        <a href="">EL EQUIPO DE "PAJARITA" SE REÚNE EN EL TEATRO DEL PUEBLO PARA PRESENTAR UNA OBRA IMPACTANTE </a>
+                    </h2>
+                    <p class="font-light  text-right text-gray-500">Publicado: 22/02/2024</p>
+                    <div
+                        class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                        <div class=" font-sans text-lg text-left col-span-6  ">
+
+                            <p><i>El mito y la tragedia se entrelazan en el regreso de "Pajarita", la obra de Guillermo Parodi que invita a reflexionar sobre el cuerpo, la memoria y lo sobrenatural.</i></p>
+                            <br>
+                            <figure>
+                                <a href="">
+                                    <img class="w-full object-cover object-center"
+                                        src="{{ asset('../img/cul/cul_paja2.svg') }}"
+                                        alt="">
+                                </a>
+                            </figure>
+                            <br>
+                            <p>El próximo sábado 9 de marzo, el Teatro del Pueblo será testigo del regreso de uno de los equipos teatrales más destacados de los últimos tiempos. El elenco de "Pajarita" se reunirá nuevamente, casi en su totalidad, para presentar una obra escrita y dirigida por Guillermo Parodi, que promete cautivar al público con su profundidad y originalidad.
+                            </p>
+                            <br>
+                            <p>La obra, que lleva por título "Mandinga", cuenta con un elenco de lujo, integrado por Lorena Szekely, Marcelo Rodríguez, Lucía Palacios, Camilo Parodi, Julia Funari, Natalia Rey y Lucas Soriano. Además, se suman a la puesta en escena dos talentosos músicos, Juan Pablo Martini y Nahuel del Valle, quienes contribuyen con una banda sonora única y envolvente.
+                            </p>
+                            <br>
+                            <p>La trama de "Mandinga" se desarrolla en una plantación de naranjos en la provincia de Corrientes, donde una misteriosa capilla negra, conocida como la Capilla del Diablo, desata una serie de eventos sobrenaturales que ponen en juego la vida y la cordura de los personajes. . La historia, inspirada en hechos reales, indaga en temas como el engaño, la traición y el miedo, llevando al espectador a un viaje emocionante y perturbador.</p>
+                            <br>
+                            <p>Guillermo Parodi, autor y director de la obra, ha trabajado durante años en la dramaturgia, explorando las profundidades del alma humana y llevando a escena historias que desafiaban los límites de lo convencional. En "Mandinga", Parodi se sumerge en el mito rural de la Capilla del Diablo para reflexionar sobre la actualidad del país y los cuerpos que lo habitan, en un contexto marcado por la crisis y la incertidumbre.
+                            </p>
+                            <br>
+                            <p>La elección de esta historia no es casual. Parodi ha manifestado que "Mandinga" surge en un momento de profunda crisis social, donde el país se ve sacudido por eventos traumáticos y la memoria colectiva se ve confrontada con su pasado y su presente. La obra busca, a través del teatro, poner en escena los conflictos y las contradicciones de una sociedad en crisis, invitando al público a reflexionar sobre su propio lugar en el mundo.
+                            </p>
+                            <br>
+                            <p>El estreno de "Mandinga" promete ser un evento imperdible para los amantes del teatro y la cultura en general. Con un elenco de primer nivel, una historia impactante y una puesta en escena innovadora, esta obra promete ser uno de los puntos destacados de la temporada teatral. Las funciones se llevarán a cabo los sábados a las 22h en la Sala Somigliana del Teatro del Pueblo, con entradas disponibles en Alternativa Teatral a $7000, con descuentos para jubilados, estudiantes y vecinos. ¡No te pierdas esta oportunidad de disfrutar de una experiencia teatral única y conmovedora!</p>
+                            <br>
+                        </div>
+
+
+
+                    </div>
+                </div>
+            </article>
+        </li>
+    </ul>
+    <br>
+</section>
 {{-- ANALÍA COBAS PRESENTA SU PRIMER LIBRO EN LA FERIA DE AGRONOMÍA--}}
 <section>
     <ul>

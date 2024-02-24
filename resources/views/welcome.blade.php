@@ -226,6 +226,175 @@
                                         <figure>
                                             <a href="">
 
+                                                <img class=" h-56  w-full object-cover" src="../img/pol/pol_pulti.svg">
+                                            </a>
+                                        </figure>
+                                        <div class=" py-4 px-6">
+                                            <h1 class="text-lg font-serif animate-fade-right ">
+                                                <a href="">
+                                                    <a href="">PULTI PROPONE FRENAR EL DESFINANCIAMIENTO EN ARGENTINA</a>
+                                                    {{-- <p class="font-light text-gray-500">Por Gustavo Cano
+                                                    </p> --}}
+                                                </a>
+                                            </h1>
+                                            <div class="pt-2">
+                                                <h2>
+                                                    @php
+                                                        $tituloSep = 'Politica-Noticia-Completa-pol47#pol47';
+                                                    @endphp
+                                                    <a class="text-emerald-700 font-semibold hover:text-emerald-400 hover:underline"
+                                                        href="{{ route('politicaSep.show', $tituloSep) }}">Ir a la
+                                                        Noticía</a>
+                                                </h2>
+                                            </div>
+                                        </div>
+                                        <p class="font-light  text-right text-gray-500">Publicado: 22/02/2024</p>
+                                    </article>
+                                </li>
+
+                                <li class=" bg-white rounded-lg shadow  ">
+                                    <article>
+                                        <figure>
+                                            <a href="">
+
+                                                <img class=" h-56 w-full object-cover"
+                                                    src="{{ asset('../img/leg/leg_audi1.svg') }}">
+                                            </a>
+                                        </figure>
+                                        <div class=" py-4 px-6">
+                                            <h1 class="text-lg font-serif ">
+                                                <a href="">
+                                                    <a href="">AUDIENCIA PÚBLICA EN LA LEGISLATURA DE LA CIUDAD POR DESIGNACIÓN DE AUTORIDADES CLAVE</a>
+                                                </a>
+                                                {{-- <p class="font-light text-gray-500">Por Gustavo Cano
+                                                </p> --}}
+                                            </h1>
+
+                                            <p class="font-light text-gray-500"></p>
+                                            <p class="font-light text-gray-900 "></p>
+
+                                            <div class="pt-2">
+                                                <h2>
+                                                    @php
+                                                        $tituloSep = 'Legislatura-Noticia-Completa-leg19#leg19';
+                                                    @endphp
+                                                    <a class="text-emerald-700 font-semibold hover:text-emerald-400 hover:underline"
+                                                        href="{{ route('legislaturaSep.show', $tituloSep) }}">Ir a la
+                                                        Noticía</a>
+                                                </h2>
+                                            </div>
+                                        </div>
+                                        <p class="font-light  text-right text-gray-500">Publicado: 22/02/2024</p>
+                                    </article>
+                                </li>
+                            </ul>
+                        </section>
+
+                        {{-- segunda linea de noticias --}}
+                        <section>
+                            <ul class="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4  gap-6 py-4">
+
+                                <li class=" bg-white rounded-lg shadow  ">
+                                    <article>
+                                        <figure>
+                                            <a href="">
+                                                <img class="h-48 w-full object-cover object-center"
+                                                    src="{{ asset('../img/pol/pol_pla.svg') }}" alt="">
+                                            </a>
+                                        </figure>
+                                        <div class=" py-4 px-6">
+                                            <h1 class="text-lg font-serif ">
+                                                <a href="">
+                                                    ROMINA DEL PLÁ: "RECHAZAMOS EL DNU Y LUCHAREMOS HASTA DERROTARLO"
+                                                </a>
+                                            </h1>
+
+                                            <div class="pt-4">
+                                                <h2>
+                                                    @php
+                                                        $tituloSep = 'Politica-Noticia-Completa-pol48#pol48';
+                                                    @endphp
+                                                    <a class="text-emerald-700 font-semibold hover:text-emerald-400 hover:underline"
+                                                        href="{{ route('politicaSep.show', $tituloSep) }}">Ir a la
+                                                        Noticía</a>
+                                                </h2>
+                                            </div>
+
+                                        </div>
+                                        <p class="font-light  text-right text-gray-500">Publicado: 22/02/2024</p>
+                                    </article>
+                                </li>
+
+                                <li class=" bg-white rounded-lg shadow  ">
+                                    <article>
+                                        <figure>
+                                            <a href="">
+                                                <img class="h-48  w-full object-cover object-center"
+                                                    src="{{ asset('../img/soc/soc_gabo1.svg') }}"alt="">
+                                            </a>
+                                        </figure>
+                                        <div class=" py-4 px-6">
+                                            <h1 class="text-lg font-serif ">
+                                                <a href="">
+                                                    CARTA ABIERTA DE GABO RUGIERO</a>
+                                                {{-- <p class="font-light text-gray-500">Por Gustavo Cano
+                                                </p> --}}
+                                            </h1>
+                                            <p class="font-light text-gray-500"></p>
+                                            <p class="font-light text-gray-900 "></p>
+
+                                            <div class="pt-2">
+                                                <h2>
+                                                    @php
+                                                        $tituloSep = 'Sociedad-Noticia-Completa-soc25#soc25';
+                                                    @endphp
+                                                    <a class="text-emerald-700 font-semibold hover:text-emerald-400 hover:underline"
+                                                        href="{{ route('sociedadSep.show', $tituloSep) }}">Ir a la
+                                                        Noticía</a>
+                                                </h2>
+                                            </div>
+                                        </div>
+                                        <p class="font-light  text-right text-gray-500">Publicado: 22/02/2024</p>
+                                    </article>
+                                </li>
+
+                                <li class=" bg-white rounded-lg shadow  ">
+                                    <article>
+                                        <figure>
+                                            <a href="">
+                                                <img class="h-48  w-full object-cover object-center"
+                                                    src="{{ asset('../img/cul/cul_paja1.svg') }}"alt="">
+                                            </a>
+                                        </figure>
+                                        <div class=" py-4 px-6">
+                                            <h1 class="text-lg font-serif ">
+                                                <a href="">
+                                                    EL EQUIPO DE "PAJARITA" SE REÚNE EN EL TEATRO DEL PUEBLO PARA PRESENTAR UNA OBRA IMPACTANTE
+                                                </a>
+                                            </h1>
+                                            <p class="font-light text-gray-500"></p>
+                                            <p class="font-light text-gray-900 "></p>
+
+                                            <div class="pt-2">
+                                                <h2>
+                                                    @php
+                                                        $tituloSep = 'Cultura-Noticia-Completa-cul14#cul14';
+                                                    @endphp
+                                                    <a class="text-emerald-700 font-semibold hover:text-emerald-400 hover:underline"
+                                                        href="{{ route('culturaSep.show', $tituloSep) }}">Ir a la
+                                                        Noticía</a>
+                                                </h2>
+                                            </div>
+                                        </div>
+                                        <p class="font-light  text-right text-gray-500">Publicado: 22/02/2024</p>
+                                    </article>
+                                </li>
+
+                                <li class=" bg-white rounded-lg shadow  ">
+                                    <article>
+                                        <figure>
+                                            <a href="">
+
                                                 <img class=" h-56  w-full object-cover" src="../img/soc/soc_dolar.svg">
                                             </a>
                                         </figure>
@@ -249,6 +418,45 @@
                                             </div>
                                         </div>
                                         <p class="font-light  text-right text-gray-500">Publicado: 15/02/2024</p>
+                                    </article>
+                                </li>
+
+
+                            </ul>
+                        </section>
+
+                        {{-- tercera linea de noticias --}}
+                        <section>
+                            <ul class="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-2  gap-6 py-4">
+
+
+
+                                <li class=" bg-white rounded-lg shadow  ">
+                                    <article>
+                                        <figure>
+                                            <img class="h-60 w-full object-cover object-center"
+                                                src="{{ asset('../img/cul/cul_vuelve.svg') }}" alt="">
+                                        </figure>
+                                        <div class=" py-4 px-6">
+                                            <h1 class="text-lg font-serif ">
+                                                <a href="">
+                                                    VUELVE "YA NADIE RECUERDA A FRÉDÉRIC CHOPIN": UNA OBRA TEATRAL QUE
+                                                    DESPIERTA LA MEMORIA Y EL DEBATE</a>
+                                            </h1>
+
+                                            <div class="pt-4">
+                                                <h2>
+
+                                                    @php
+                                                        $tituloPo = 'Cultura-Noticia-Completa-cul12#cul12';
+                                                    @endphp
+                                                    <a class="text-emerald-700 font-semibold hover:text-emerald-400 hover:underline"
+                                                        href="{{ route('culturaSep.show', $tituloPo) }}">Ir a la
+                                                        Noticía</a>
+                                                </h2>
+                                            </div>
+                                        </div>
+                                        <p class="font-light  text-right text-gray-500">Publicado: 08/02/2024</p>
                                     </article>
                                 </li>
 
@@ -290,10 +498,53 @@
                             </ul>
                         </section>
 
-                        {{-- segunda linea de noticias --}}
+                        {{-- videos --}}
+                        <section>
+                            <ul class="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-2  gap-6 py-4">
+                                <div>
+                                    <article>
+
+                                        <li class=" bg-white rounded-lg shadow  ">
+                                            <article>
+                                                <figure>
+                                                    <a href="">
+                                                        <img class="h-80 w-full "
+                                                            src="{{ asset('../img/publi/Recurso 1.png') }}"
+                                                            alt="">
+                                                    </a>
+                                                </figure>
+
+                                            </article>
+                                        </li>
+
+                                        {{--   <figure>
+                                            <iframe class="w-full aspect-video"
+                                                src="https://www.youtube.com/embed/JSf5Zj3tlxU"
+                                                title="YouTube video"frameborder="0"
+                                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                                allowfullscreen></iframe>
+                                        </figure> --}}
+
+                                    </article>
+                                </div>
+
+                                <div>
+
+                                    <article>
+                                        <iframe class="w-full aspect-video"
+                                            src="https://www.youtube.com/embed/HWemIM7ML-E"
+                                            title="YouTube video player" frameborder="0"
+                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                            allowfullscreen></iframe>
+                                    </article>
+
+                                </div>
+                            </ul>
+                        </section>
+
+                        {{-- cuarta linea de noticias --}}
                         <section>
                             <ul class="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4  gap-6 py-4">
-
                                 <li class=" bg-white rounded-lg shadow  ">
                                     <article>
                                         <figure>
@@ -421,268 +672,6 @@
                                             </div>
                                         </div>
                                         <p class="font-light  text-right text-gray-500">Publicado: 09/02/2024</p>
-                                    </article>
-                                </li>
-
-
-                            </ul>
-                        </section>
-
-                        {{-- tercera linea de noticias --}}
-                        <section>
-                            <ul class="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-2  gap-6 py-4">
-
-
-
-                                <li class=" bg-white rounded-lg shadow  ">
-                                    <article>
-                                        <figure>
-                                            <img class="h-60 w-full object-cover object-center"
-                                                src="{{ asset('../img/cul/cul_vuelve.svg') }}" alt="">
-                                        </figure>
-                                        <div class=" py-4 px-6">
-                                            <h1 class="text-lg font-serif ">
-                                                <a href="">
-                                                    VUELVE "YA NADIE RECUERDA A FRÉDÉRIC CHOPIN": UNA OBRA TEATRAL QUE
-                                                    DESPIERTA LA MEMORIA Y EL DEBATE</a>
-                                            </h1>
-
-                                            <div class="pt-4">
-                                                <h2>
-
-                                                    @php
-                                                        $tituloPo = 'Cultura-Noticia-Completa-cul12#cul12';
-                                                    @endphp
-                                                    <a class="text-emerald-700 font-semibold hover:text-emerald-400 hover:underline"
-                                                        href="{{ route('culturaSep.show', $tituloPo) }}">Ir a la
-                                                        Noticía</a>
-                                                </h2>
-                                            </div>
-                                        </div>
-                                        <p class="font-light  text-right text-gray-500">Publicado: 08/02/2024</p>
-                                    </article>
-                                </li>
-
-                                <li class=" bg-white rounded-lg shadow  ">
-                                    <article>
-                                        <figure>
-                                            <a href="">
-                                                <img class="h-60 w-full object-cover object-center"
-                                                    src="{{ asset('../img/pol/pol_omnibus.svg') }}" alt="">
-                                            </a>
-                                        </figure>
-                                        <div class=" py-4 px-6">
-                                            <h1 class="text-lg font-serif ">
-                                                <a href="">
-                                                    GOBIERNO SUFRE UNA DURA DERROTA EN LA LEY ÓMNIBUS
-                                                </a>
-                                            </h1>
-                                            {{--     <p class="font-light text-gray-500">En el marco de las acciones destinadas
-                                                a
-                                                fortalecer el abordaje de las situaciones de violencia por razones de
-                                                género
-                                                en la administración pública bonaerense, nos reunimos con el equipo
-                                                interdisciplinario de Fiscalía de Estado.</p> --}}
-
-                                            <div class="pt-2">
-                                                <h2>
-                                                    @php
-                                                        $tituloSep = 'Politica-Noticia-Completa-pol45#pol45';
-                                                    @endphp
-                                                    <a class="text-emerald-700 font-semibold hover:text-emerald-400 hover:underline"
-                                                        href="{{ route('politicaSep.show', $tituloSep) }}">Ir a la
-                                                        Noticía</a>
-                                                </h2>
-                                            </div>
-                                        </div>
-                                        <p class="font-light  text-right text-gray-500">Publicado: 08/02/2024</p>
-                                    </article>
-                                </li>
-                            </ul>
-                        </section>
-
-                        {{-- videos --}}
-                        <section>
-                            <ul class="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-2  gap-6 py-4">
-                                <div>
-                                    <article>
-
-                                        <li class=" bg-white rounded-lg shadow  ">
-                                            <article>
-                                                <figure>
-                                                    <a href="">
-                                                        <img class="h-80 w-full "
-                                                            src="{{ asset('../img/publi/Recurso 1.png') }}"
-                                                            alt="">
-                                                    </a>
-                                                </figure>
-
-                                            </article>
-                                        </li>
-
-                                        {{--   <figure>
-                                            <iframe class="w-full aspect-video"
-                                                src="https://www.youtube.com/embed/JSf5Zj3tlxU"
-                                                title="YouTube video"frameborder="0"
-                                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                                allowfullscreen></iframe>
-                                        </figure> --}}
-
-                                    </article>
-                                </div>
-
-                                <div>
-
-                                    <article>
-                                        <iframe class="w-full aspect-video"
-                                            src="https://www.youtube.com/embed/HWemIM7ML-E"
-                                            title="YouTube video player" frameborder="0"
-                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                            allowfullscreen></iframe>
-                                    </article>
-
-                                </div>
-                            </ul>
-                        </section>
-
-                        {{-- cuarta linea de noticias --}}
-                        <section>
-                            <ul class="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4  gap-6 py-4">
-                                <li class=" bg-white rounded-lg shadow  ">
-                                    <article>
-                                        <figure>
-                                            <a href="">
-                                                <img class="h-48  w-full object-cover object-center"
-                                                    src="{{ asset('../img/grem/grem_uniendo.svg') }}"alt="">
-                                            </a>
-                                        </figure>
-                                        <div class=" py-4 px-6">
-                                            <h1 class="text-lg font-serif ">
-                                                <a href="">
-                                                    UNIENDO FUERZAS EN TIEMPOS DE CRISIS
-
-
-                                                </a>
-                                            </h1>
-                                            <p class="font-light text-gray-500"></p>
-                                            <p class="font-light text-gray-900 "></p>
-
-                                            <div class="pt-2">
-                                                <h2>
-                                                    @php
-                                                        $tituloSep = 'Gremiales-Noticia-Completa-gre15#gre15';
-                                                    @endphp
-                                                    <a class="text-emerald-700 font-semibold hover:text-emerald-400 hover:underline"
-                                                        href="{{ route('gremialSep.show', $tituloSep) }}">Ir a la
-                                                        Noticía</a>
-                                                </h2>
-                                            </div>
-                                        </div>
-                                        <p class="font-light  text-right text-gray-500">Publicado: 08/02/2024</p>
-                                    </article>
-                                </li>
-
-                                <li class=" bg-white rounded-lg shadow  ">
-                                    <article>
-                                        <figure>
-                                            <a href="">
-                                                <img class="h-48  w-full object-cover object-center"
-                                                    src="{{ asset('../img/int/int_pinera.svg') }}"alt="">
-                                            </a>
-                                        </figure>
-                                        <div class=" py-4 px-6">
-                                            <h1 class="text-lg font-serif ">
-                                                <a href="">
-                                                    MUERE EL EX PRESIDENTE SEBASTIÁN PIÑERA EN TRÁGICO ACCIDENTE DE
-                                                    HELICÓPTERO</a>
-                                                {{-- <p class="font-light text-gray-500">Por Gustavo Cano --}}
-                                                </p>
-                                            </h1>
-                                            <p class="font-light text-gray-500"></p>
-                                            <p class="font-light text-gray-900 "></p>
-
-                                            <div class="pt-2">
-                                                <h2>
-                                                    @php
-                                                        $tituloSep = 'Internacionales-Noticia-Completa-int9#int9';
-                                                    @endphp
-                                                    <a class="text-emerald-700 font-semibold hover:text-emerald-400 hover:underline"
-                                                        href="{{ route('interSepNew.show', $tituloSep) }}">Ir a la
-                                                        Noticía</a>
-                                                </h2>
-                                            </div>
-                                        </div>
-                                        <p class="font-light  text-right text-gray-500">Publicado: 06/02/2024</p>
-                                    </article>
-                                </li>
-
-                                <li class=" bg-white rounded-lg shadow  ">
-                                    <article>
-                                        <figure>
-                                            <a href="">
-                                                <img class="h-48 w-full object-cover object-center"
-                                                    src="{{ asset('../img/eco/eco_largo.svg') }}" alt="">
-                                            </a>
-                                        </figure>
-                                        <div class=" py-4 px-6">
-                                            <h1 class="text-lg font-serif ">
-                                                <a href="">
-                                                    LA FUNCIÓN DE LOS OUTSIDERS. UNA LECTURA DE ECONOMÍA POLÍTICA
-                                                </a>
-                                                <p><i>Por Adrián Rojze Economista y Politólogo</i></p>
-                                            </h1>
-                                            <p class="font-light  text-gray-500">
-                                            </p>
-                                            {{--    <p class="font-light text-gray-500"> Por: Eduardo García</p> --}}
-                                            <div class="pt-2">
-                                                <h2>
-                                                    @php
-                                                        $tituloSep = 'Economia-Noticia-Completa-eco1#eco1';
-                                                    @endphp
-                                                    <a class="text-emerald-700 font-semibold hover:text-emerald-400 hover:underline"
-                                                        href="{{ route('economiaSep.show', $tituloSep) }}">Ir a la
-                                                        Noticía</a>
-                                                </h2>
-                                            </div>
-                                        </div>
-                                        <p class="font-light  text-right text-gray-500">Publicado: 06/02/2024</p>
-                                    </article>
-                                </li>
-
-                                <li class=" bg-white rounded-lg shadow  ">
-                                    <article>
-                                        <figure>
-                                            <a href="">
-                                                <img class="h-48 w-full object-cover object-center"
-                                                    src="{{ asset('../img/grem/grem_reforma.svg') }}" alt="">
-                                            </a>
-                                        </figure>
-                                        <div class=" py-4 px-6">
-                                            <h1 class="text-lg font-serif ">
-                                                <a href="">
-                                                    OPOSICIÓN A LA REFORMA LABORAL DE MILEI SE HACE EVIDENTE </a>
-                                            </h1>
-                                            <p class="font-light  text-gray-500">
-                                            </p>
-                                            {{--    <p class="font-light text-gray-500"> Por: Eduardo García</p> --}}
-
-                                            <div class="pt-2">
-                                                <h2>
-                                                    @php
-                                                        $tituloSep = 'Gremiales-Noticia-Completa-gre14#gre14';
-
-                                                    @endphp
-                                                    <a class="text-emerald-700 font-semibold hover:text-emerald-400 hover:underline"
-                                                        href="{{ route('gremialSep.show', $tituloSep) }}">Ir a la
-                                                        Noticía</a>
-                                                </h2>
-                                            </div>
-
-
-
-
-                                        </div>
-                                        <p class="font-light  text-right text-gray-500">Publicado: 06/02/2024</p>
                                     </article>
                                 </li>
                             </ul>

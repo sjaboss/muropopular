@@ -1,8 +1,58 @@
 <x-app-layout>
     <div class="container ">
-        
-           {{--AJUSTES EN ABL Y PATENTES BASADAS... --}}
-           <section >
+        {{--AJUSTES EN ABL Y PATENTES BASADAS... --}}
+            <section >
+                <ul>
+                    <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                        <article>
+
+                            <div class="py-4 px-4 justify-between items-center">
+                                <h2 class="text-xl font-serif  font-bold pb-6">
+                                    <a href="">AUDIENCIA PÚBLICA EN LA LEGISLATURA DE LA CIUDAD POR DESIGNACIÓN DE AUTORIDADES CLAVE</a>
+                                </h2>
+                                <p class="font-light  text-right text-gray-500">Publicado: 22/02/2024</p>
+                                <p><i>Designación de autoridades en la Ciudad: Audiencia pública debate la designación del Procurador General y del Banco de la Ciudad, destacando la participación ciudadana y la autonomía institucional.</i></p>
+                                <br>
+                                <figure>
+                                    <a href="">
+                                        <img class="w-full object-cover object-center"
+                                            src="{{ asset('../img/leg/leg_audi2.svg') }}" alt="">
+                                    </a>
+                                </figure>
+                                <br>
+                                <div
+                                    class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                    <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                        <p>En una jornada cargada de expectativas y debates, la Legislatura de la Ciudad Autónoma de Buenos Aires fue escenario de una Audiencia Pública crucial para la designación de dos cargos fundamentales: el Procurador General de la Ciudad y las autoridades del Banco de la Ciudad. Presidida por la diputada María Luisa González Estevarena, titular de la Junta de Ética, la audiencia contó con la presencia del presidente de la Comisión de Asuntos Constitucionales, el diputado Hernán Reyes, y la presidenta de la Comisión de Presupuesto, Paola Michielotto.</p>
+                                        <br>
+                                        <p>El Salón San Martín de la Legislatura fue testigo de la presentación de los expedientes 2826-J-2023 y 2828-J-2023, referentes a la designación del Procurador General de la Ciudad y las autoridades del Banco de la Ciudad, respectivamente. El primero en tomar la palabra fue Martín Ocampo, postulante al cargo de Procurador General, quien destacó la importancia de estos actos como herramientas de participación ciudadana y expresó su agradecimiento al Jefe de Gobierno, Jorge Macri, por la oportunidad.</p>
+                                        <br>
+                                        <p>"Estos actos son una de las herramientas de la participación ciudadana que tiene nuestra constitución, son muy importantes y distinguen a la Ciudad de Buenos Aires como un emblema de la democracia participativa", señaló Ocampo en su discurso inicial. Además, hizo hincapié en el papel primordial que el Procurador tiene en la defensa de la autonomía de la Ciudad y en la lucha por los derechos de los ciudadanos.
+                                        </p>
+                                        <br>
+                                        <p>Tras la presentación de Ocampo, se dio inicio a la Audiencia Pública para la designación de las autoridades del Banco de la Ciudad. Los candidatos fueron presentados de la siguiente manera: Guillermo Alejandro Laje como Presidente, Guillermo Andrés Romero como Vicepresidente, Pablo María Videla, María Delfina Rossi, Gastón Leonardo Rossi y Ezequiel Sabor como Vocales, y Paula Beatriz Villalba como Síndica.
+                                        </p>
+                                        <br>
+                                        <p>Posteriormente, se convocó a una reunión conjunta de la Junta de Ética, la Comisión de Asuntos Constitucionales y la Comisión de Presupuesto, Hacienda, Administración Financiera y Política Tributaria. El objetivo de la reunión fue considerar la idoneidad de los candidatos propuestos por el Poder Ejecutivo de la Ciudad para los cargos en cuestión. Tras un análisis exhaustivo, se concluye que no existen elementos objetivos que afecten la idoneidad y capacidad técnica de los postulantes.</p>
+                                        <br>
+                                        <p>En este sentido, el dictamen conjunto quedó en la firma de las legisladoras y legisladores que integraron la reunión, lo que indica un respaldo generalizado a las designaciones propuestas. La jornada culminó con la certeza de que la designación de estas autoridades clave se llevará a cabo con el respaldo y la legitimidad que otorga un proceso transparente y participativo como el vivido en la Audiencia Pública de la Legislatura de la Ciudad.</p>
+                                        <br>
+
+
+                                    </div>
+
+
+
+                                </div>
+                            </div>
+                        </article>
+                    </li>
+                </ul>
+            </section>
+                <br><br>
+    {{--AJUSTES EN ABL Y PATENTES BASADAS... --}}
+        <section >
             <ul>
                 <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
                     <article>
@@ -78,7 +128,7 @@
         </section>
             <br><br>
 
-              {{--KEVIN JOHANSEN ES PERSONALIDAD DESTACADA DE LA CIUDAD... --}}
+    {{--KEVIN JOHANSEN ES PERSONALIDAD DESTACADA DE LA CIUDAD... --}}
    <section >
     <ul>
         <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}

@@ -3489,6 +3489,116 @@
                     </aside>
                 </div>
             </section>
+        @elseif ($tituloSep == 'Sociedad-Noticia-Completa-soc25')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">CARTA ABIERTA DE GABO RUGIERO</a>
+                                        </h2>
+                                        <p class="font-light  text-right text-gray-500">Publicado: 22/02/2024</p>
+                                        <p><i>En relación al cierre del INADI, el querido Brujito Maya emitió esta carta abierta que reproducimos.</i>.
+                                        </p>
+                                        <br>
+                                        <figure>
+                                            <img class="w-full object-cover" src="../img/soc/soc_gabo1.svg"
+                                                alt="">
+                                        </figure>
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                                <p>Estimados compañeres:
+                                                </p>
+                                                <br>
+                                                <p>Como homosexual siento que este es el principio del fin de nuestros derechos. La amenaza del cierre del INADI no es un acto inocente, es una clara operación de avasallamiento a todas y cada una de nuestras conquistas sociales. Se nos dio un lugar de igualdad y legitimidad con la Ley de Matrimonio Igualitario en el 2010, y la Ley de Identidad de Género en el 2012. La Ley nos ampara frente a cualquier acto de discriminación y desigualdad. El cierre del INADI es una manera de decirnos que esos derechos no serán protegidos y respetados, y que no tendremos una institución que nos respalde y asegure la continuidad del cumplimiento de la Ley. El cierre del INADI no solo nos afecta a la comunidad LGTBIQ, es una bandera blanca a favor del racismo y la xenofobia. Como docentes debemos decir NO a la sistematización de las operaciones de derecha y del gobierno de Javier Milei que atentan con la igualdad social y nuestros derechos. Queremos una Argentina libre y democrática, exigimos que se respalde la continuidad de cada una de las instituciones que nos protegen y el INADI. </p>
+                                                <br>
+                                                <p>Uno de los vuelos que generó mayor preocupación fue realizado por la aeronave Bombardier Learjet Matrícula LV-GQR de la empresa Pacific Ocean S.A., que despegó desde el Aeropuerto de San Fernando con destino a Monte Agradable, Islas Malvinas. El Cecim cuestiona la falta de información sobre la autorización de este vuelo y la identidad de sus pasajeros, planteando la posibilidad de que estén relacionados con actividades petroleras en la región.
+                                                </p>
+                                                <br>
+                                                <p>Gabo Rugiero
+                                                </p>
+                                                
+                                                <p>Artista. Docente. Homosexual
+                                                </p>
+                                                
+                                                <p>Buenos Aires, 22 de febrero 2024</p>
+                                                <br>
+                                                <div class="text-start object-center">
+                                                    {{-- <figure>
+                                                        <img class="w-28 h-28  "
+                                                            src="{{ asset('../img/noteros/Gus.svg') }}"
+                                                            alt="">
+                                                        
+                                                        <p> <strong>Nota de Gustavo Cano</strong></p>
+
+                                                    </figure> --}}
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+                            </li>
+                        </ul>
+                        <br>
+                    </div>
+
+
+                    {{-- columna de la derecha chica --}}
+                    <aside>
+                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                            <div class=" col-span-6">
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/bener-leg2.png') }}"
+                                        alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
+                                        alt="">
+                                </a>
+
+                                <div id="app">
+
+                                    <div v-for="item in info">
+
+                                        <div class="flex-col pb-3">
+                                            <div
+                                                class="flex-col max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg"
+                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
+                                                        alt="" />
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5
+                                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                                            @{{ item.title }}</h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div v-for="va in clima">
+
+                                        <h5
+                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                            @{{ va }}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+                </div>
+            </section>
     @endif
 
     </div>

@@ -1,5 +1,103 @@
 <x-app-layout>
     <div class="container ">
+{{-- ROMINA DEL PLÁ: "RECHAZAMOS EL DNU Y LUCHAREMOS HASTA DERROTARLO"--}}
+<section>
+    <ul>
+        <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+            <article>
+                <div class="py-4 px-4 justify-between items-center">
+                    <h2 class="text-xl font-serif  font-bold pb-6">
+                        <a href="">ROMINA DEL PLÁ: "RECHAZAMOS EL DNU Y LUCHAREMOS HASTA DERROTARLO"</a>
+                    </h2>
+                    <p class="font-light  text-right text-gray-500">Publicado: 22/02/2024</p>
+                    <p><i>Romina Del Plá denuncia el intento de imponer un régimen de excepción que beneficia a sectores privilegiados, en la Bicameral de Tratamiento Legislativo.</i>
+                    </p>
+                    <br>
+
+                    <figure>
+                        <img class="w-full object-cover"
+                            src="{{ asset('../img/pol/pol_pla.svg') }}" alt="">
+
+                    </figure>
+                    <br>
+                    <div
+                        class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                        <div class=" font-sans text-lg text-left col-span-6  ">
+                            <p>Al tomar la palabra en la reunión constitutiva de la Bicameral de Tratamiento Legislativo la Diputada Nacional del Partido Obrero en el Bloque Frente de Izquierda y de los Trabajadores-Unidad Romina Del Plá cuestionó el nombramiento como presidente de la Bicameral del diputado riojano Juan Carlos Pagotto, conocido defensor de represores y genocidas denunciado por los organismos de derechos humanos.
+                            </p>
+                            <br>
+                            <p>Romina Del Plá dijo que: “El presidente Milei tiene la idea de gobernar por decreto y esa idea es la de imponer un régimen de excepción y no precisamente para beneficiar a la población trabajadora, sino a un puñado de patronales, banqueros y especuladores. El DNU 70/2023 arrasa con más de 300 leyes que son el resultado de luchas de décadas de la clase obrera.".
+                            </p>
+                            <br>
+                            <p>Y sostuvo que: “Para la composición de la comisión acudieron a todo tipo de maniobras, asimismo pretenden estirar todos los plazos, negando la convocatoria a sesiones especiales pedida para tratar el decreto. Quieren imponer el plan motosierra de cualquier manera, llevando a la población a una situación cada vez más grave y lo que van a lograr es que cada vez más trabajadores, trabajadoras, jóvenes y jubilados ganen las calles como ya ocurrió durante el tratamiento de la ley ómnibus donde día tras día se enfrentó la ley y el protocolo antipiquete de Bullrich”.
+                            </p>
+                            <br>
+                            <p>“Con este decreto el gobierno pretender imponer, por ejemplo, la esencialidad docente, una medida que ya ha sido rechazada por la justicia. Viola, además, las leyes al no transferir los fondos para el pago del incentivo docente, para los programas educativos, infraestructura y para los comedores: en este momento la docencia está discutiendo un plan de lucha ya que el ajuste que el gobierno traslada a las provincias los gobernadores se lo trasladan automáticamente a la educación pública”. Enfatizó la diputada respecto a decisión del gobierno sobre suspender las transferencias del FONID, y para finalizar dijo que “Rechazamos el DNU y todo el régimen de excepción, lucharemos hasta derrotarlo”.
+                            </p>
+                            <br>
+                            <div class="text-start object-center">
+                                {{-- <figure>
+                                    <img class="w-28 h-28  "
+                                        src="{{ asset('../img/der/Adri.svg') }}" alt="">
+
+                                    <p> <strong>Adriana Zerdín</strong></p>
+
+                                </figure> --}}
+                            </div>
+                        </div>
+            </article>
+        </li>
+    </ul>
+</section>
+    {{-- PULTI PROPONE FRENAR EL DESFINANCIAMIENTO EN ARGENTINA--}}
+<section>
+    <ul>
+        <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+            <article>
+                <div class="py-4 px-4 justify-between items-center">
+                    <h2 class="text-xl font-serif  font-bold pb-6">
+                        <a href="">PULTI PROPONE FRENAR EL DESFINANCIAMIENTO EN ARGENTINA</a>
+                    </h2>
+                    <p class="font-light  text-right text-gray-500">Publicado: 22/02/2024</p>
+                    <p><i>Enfrentando el desmantelamiento educativo: Pulti propone un frente federal para resguardar la educación en Argentina, ¿qué implicancias tiene esta propuesta?</i>
+                    </p>
+                    <br>
+
+                    <figure>
+                        <img class="w-full object-cover"
+                            src="{{ asset('../img/pol/pol_pulti.svg') }}" alt="">
+
+                    </figure>
+                    <br>
+                    <div
+                        class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                        <div class=" font-sans text-lg text-left col-span-6  ">
+                            <p>El diputado provincial Gustavo Pulti ha presentado un proyecto para evitar el desfinanciamiento ilegítimo de la educación en Argentina. Proponer la creación de un "Frente Federal en Defensa de la Educación", invitando a los 135 municipios de la provincia de Buenos Aires a sumarse a la iniciativa y llamando a la participación activa de toda la comunidad educativa.
+                            </p>
+                            <br>
+                            <p>Pulti argumenta que la educación tiene una tutela especial en la Constitución Nacional y en la de la provincia de Buenos Aires, así como en Múltiples instrumentos internacionales con jerarquía constitucional. Destaca que desde los orígenes de la construcción de la Nación Argentina, la educación ha sido considerada "un interés vital" para cimentar una sociedad democrática e inteligente.
+                            </p>
+                            <br>
+                            <p>Además, denuncia que el Gobierno nacional ha desconocido las disposiciones contenidas en las Leyes Nacionales 25.053 y 26.075 de Financiamiento Educativo, afectando los derechos tanto de los docentes (con una disminución salarial del 10% al 15%) como de los educandos. Pulti califica esta conducta como cuasidelictual y llama al Ministerio Público a investigarla.
+                            </p>
+                            <br>
+                            <p>En ese contexto, el diputado solicita al Gobernador de la Provincia de Buenos Aires adoptar todas las conductas necesarias para subsanar la crisis educativa generada por el Gobierno nacional. Entre las medidas propuestas están la convocatoria a formar un Frente Federal en Defensa de la Educación, y la invitación a los municipios a crear Frentes Municipales en Defensa de la Educación, como espacios de diálogo y reunión de la comunidad educativa.
+                            </p>
+                            <br>
+                            <div class="text-start object-center">
+                                {{-- <figure>
+                                    <img class="w-28 h-28  "
+                                        src="{{ asset('../img/der/Adri.svg') }}" alt="">
+
+                                    <p> <strong>Adriana Zerdín</strong></p>
+
+                                </figure> --}}
+                            </div>
+                        </div>
+            </article>
+        </li>
+    </ul>
+</section>
 {{-- MACRI SE CONSOLIDA COMO PRÓXIMO PRESIDENTE DEL PRO--}}
 <section>
     <ul>
