@@ -4087,6 +4087,236 @@
                 </div>
 
             </section>
+        @elseif ($tituloSep == 'Politica-Noticia-Completa-pol49')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">KICILLOF DENUNCIA ROBO DE FONDOS POR PARTE DEL GOBIERNO DE MILEI</a>
+                                        </h2>
+                                        <p class="font-light  text-right text-gray-500">Publicado: 28/02/2024</p>
+                                        <p><i>Gobernador Kicillof llevará a la Justicia la eliminación del Fondo de Fortalecimiento Fiscal de Buenos Aires por el Gobierno nacional.</i>
+                                        </p>
+                                        <br>
+                                        <article>
+                                            <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/cKmevL0Jgeg?si=v15MDd7wvBu2vayz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                            
+                                        </article>
+                                        {{-- <figure>
+                                            <img class="w-full object-cover"
+                                                src="{{ asset('../img/pol/pol_pla.svg') }}" alt="">
+
+                                        </figure> --}}
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+                                                <p>El gobernador de Buenos Aires, Axel Kicillof, anunció que llevará a la Justicia la eliminación del Fondo de Fortalecimiento Fiscal de la provincia, medida tomada por el Gobierno de Javier Milei. Este fondo, creado durante la gestión de Alberto Fernández, destinaba un porcentaje de los recursos coparticipables adicionales que la ciudad de Buenos Aires recibía por el traspaso de la Policía Federal hacia la provincia. Kicillof calificó la decisión como un acto de "robo" y anunció la posibilidad de convocar a una cumbre de gobernadores para frenar los decretos de Milei.
+                                                </p>
+                                                <br>
+                                                <p>El conflicto por el Fondo de Fortalecimiento Fiscal se remonta a 2016, cuando el entonces presidente Mauricio Macri aumentó por decreto la coparticipación de CABA, utilizando como justificación la transferencia de la Policía Federal a la ciudad. Para corregir esa inequidad, en 2020, durante la pandemia, Alberto Fernández creó el Fondo para el Fortalecimiento Fiscal de la Provincia de Buenos Aires.
+                                                </p>
+                                                <br>
+                                                <p>La eliminación de este fondo, según el decreto de Milei, se fundamenta en que afectó los intereses generales de la Nación en su conjunto, privando al Estado Nacional de recursos necesarios para el ordenamiento de las cuentas públicas. Sin embargo, para Kicillof, estas decisiones no son contra los gobernadores, sino contra todos los argentinos y argentinas.
+                                                </p>
+                                                <br>
+                                                <p>En respuesta a estas medidas, la presidenta del bloque de senadores bonaerenses por Unión por la Patria (UxP), Teresa García, afirmó que el retiro de fondos por parte del Gobierno nacional a la provincia de Buenos Aires es un "avasallamiento al federalismo", mientras que la senadora nacional del Frente de Todos, Juliana Di Tullio, señaló que la eliminación del Fondo de Fortalecimiento Fiscal afecta a los bonaerenses y quita recursos para políticas públicas como seguridad, educación, salud y rutas.
+                                                </p>
+                                                <br>
+                                                <p>La eliminación del Fondo de Fortalecimiento Fiscal de la provincia de Buenos Aires ha generado un fuerte rechazo por parte de las autoridades provinciales y ha avivado el debate sobre la distribución de recursos entre la Nación y las provincias. La decisión de Kicillof de llevar el caso a la Corte Suprema marca un nuevo capítulo en este conflicto que promete continuar en los próximos días.</p>
+                                                <br>
+                                                <div class="text-start object-center">
+                                                    {{-- <figure>
+                                                        <img class="w-28 h-28  "
+                                                            src="{{ asset('../img/der/Adri.svg') }}" alt="">
+
+                                                        <p> <strong>Adriana Zerdín</strong></p>
+
+                                                    </figure> --}}
+                                                </div>
+                                            </div>
+                                </article>
+                            </li>
+                        </ul>
+                    </div>
+
+
+                    {{-- columna de la derecha chica --}}
+                    <aside>
+                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                            <div class=" col-span-6">
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/baner-leg1.png') }}"
+                                        alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/APSE.gif') }}" alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
+                                        alt="">
+                                </a>
+
+
+
+                                <div id="app">
+
+                                    <div v-for="item in info">
+
+                                        <div class="flex-col pb-3">
+                                            <div
+                                                class="flex-col max-w-sm  border  border-gray-700 rounded-lg shadow bg-gray-800">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg"
+                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
+                                                        alt="" />
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5
+                                                            class="mb-2 text-2xl font-bold tracking-tight  text-white">
+                                                            @{{ item.title }}</h5>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div v-for="va in clima">
+
+                                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-white">
+                                            @{{ va }}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+
+                </div>
+
+            </section>
+        @elseif ($tituloSep == 'Politica-Noticia-Completa-pol50')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">VICTORIA TOLOSA PAZ: “MILEI ES UN SECUESTRADOR Y EXTORSIONADOR”</a>
+                                        </h2>
+                                        <p class="font-light  text-right text-gray-500">Publicado: 28/02/2024</p>
+                                        <p><i>La diputada de Unión por la Patria, Victoria Tolosa Paz, arremete contra Milei: 'Es un secuestrador y extorsionador', advirtiendo sobre una grave situación institucional.</i>
+                                        </p>
+                                        <br>
+                                        <article>
+                                            <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/_bPQiSzfFxo?si=dNK9SBhfeNQ6hqYP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                            
+                                        </article>
+                                        {{-- <figure>
+                                            <img class="w-full object-cover"
+                                                src="{{ asset('../img/pol/pol_pla.svg') }}" alt="">
+
+                                        </figure> --}}
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+                                                <p>En un discurso encendido, la diputada nacional Victoria Tolosa Paz se arremetió contra el presidente Javier Milei, acusándolo de comportarse como un "secuestrador de recursos" y de extorsionar a los gobernadores de Argentina. En sus declaraciones, Tolosa Paz denunció una grave situación de violencia institucional, señalando que el presidente estaría vulnerando la Constitución y la soberanía de los gobernadores.
+                                                </p>
+                                                <br>
+                                                <p>Según Tolosa Paz, Milei estaría afectando gravemente al pueblo argentino al privarlos de los recursos necesarios para garantizar una educación pública de calidad, acceso a alimentos básicos y una seguridad ciudadana adecuada. En sus palabras, el presidente estaría "manoteando" las cuentas y recursos de los gobernadores, dejando a la población vulnerable y desamparada.
+                                                </p>
+                                                <br>
+                                                <p>"Estamos frente a una situación sin precedentes, donde un presidente se comporta como un auténtico secuestrador de recursos, afectando directamente a los trabajadores ya los sectores más vulnerables de nuestra sociedad", afirmó Tolosa Paz.
+                                                </p>
+                                                <br>
+                                                <p>La diputada nacional también hizo hincapié en la necesidad de que los gobernadores y el gobierno nacional trabajen juntos para garantizar el bienestar de la población. En este sentido, instó a los gobernadores a resistir las presiones y extorsiones del presidente, ya defender los intereses de sus provincias y ciudadanos.
+                                                </p>
+                                                <br>
+                                                <p>Por último, Tolosa Paz llamó a la unidad de todos los sectores políticos y sociales para enfrentar lo que considera un grave ataque a la democracia y la institucionalidad del país. "Es hora de que nos unamos en defensa de nuestros derechos y de nuestra soberanía. No podemos permitir que un presidente se comporte como un dictador, vulnerando nuestras libertades y derechos fundamentales", concluyó la diputada nacional.</p>
+                                                <br>
+                                                <div class="text-start object-center">
+                                                    {{-- <figure>
+                                                        <img class="w-28 h-28  "
+                                                            src="{{ asset('../img/der/Adri.svg') }}" alt="">
+
+                                                        <p> <strong>Adriana Zerdín</strong></p>
+
+                                                    </figure> --}}
+                                                </div>
+                                            </div>
+                                </article>
+                            </li>
+                        </ul>
+                    </div>
+
+
+                    {{-- columna de la derecha chica --}}
+                    <aside>
+                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                            <div class=" col-span-6">
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/baner-leg1.png') }}"
+                                        alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/APSE.gif') }}" alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
+                                        alt="">
+                                </a>
+
+
+
+                                <div id="app">
+
+                                    <div v-for="item in info">
+
+                                        <div class="flex-col pb-3">
+                                            <div
+                                                class="flex-col max-w-sm  border  border-gray-700 rounded-lg shadow bg-gray-800">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg"
+                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
+                                                        alt="" />
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5
+                                                            class="mb-2 text-2xl font-bold tracking-tight  text-white">
+                                                            @{{ item.title }}</h5>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div v-for="va in clima">
+
+                                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-white">
+                                            @{{ va }}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+
+                </div>
+
+            </section>
         @endif
 
     </div>

@@ -1,5 +1,59 @@
 <x-app-layout>
     <div class="container ">
+        {{-- ¡DE REGRESO AL ESCENARIO: 'UN MAR DE LUTO' EN EL PORTÓN DE SÁNCHEZ!--}}
+<section>
+    <ul>
+        <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+            <article>
+
+                <div class="py-4 px-4 justify-between items-center">
+                    <h2 class="text-xl font-serif  font-bold pb-6">
+                        <a href="">¡DE REGRESO AL ESCENARIO: 'UN MAR DE LUTO' EN EL PORTÓN DE SÁNCHEZ!</a>
+                    </h2>
+                    <p class="font-light  text-right text-gray-500">Publicado: 28/02/2024</p>
+                    <div
+                        class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                        <div class=" font-sans text-lg text-left col-span-6  ">
+
+                            <p><i>El mito y la tragedia se entrelazan en el regreso de "Pajarita", la obra de Guillermo Parodi que invita a reflexionar sobre el cuerpo, la memoria y lo sobrenatural.</i></p>
+                            <br>
+                            <figure>
+                                <a href="">
+                                    <img class="w-full object-cover object-center"
+                                        src="{{ asset('../img/cul/cul_luto2.svg') }}"
+                                        alt="">
+                                </a>
+                            </figure>
+                            <br>
+                            <p>La obra teatral "Un Mar de Luto" regresa a escena con una propuesta audaz que desafía los roles de género tradicionales. Dirigida por Alfredo Martín, esta versión de "La Casa de Bernarda Alba" de Federico García Lorca presenta un elenco compuesto exclusivamente por actores varones, quienes asumen los roles originalmente escritos para mujeres. Esta reinterpretación, basada en la lectura de textos de la teórica Judith Butler, busca cuestionar y subvertir los mandatos de género impuestos por la sociedad.
+                            </p>
+                            <br>
+                            <p>La trama de "Un Mar de Luto" sigue fielmente la historia original de García Lorca. Tras la muerte de su segundo esposo, Bernarda Alba impone un luto riguroso y una estricta reclusión a sus hijas. La llegada de un pretendiente para la hija mayor, Angustias, desencadena una serie de conflictos y tensiones que culminan en un desenlace trágico.
+                            </p>
+                            <br>
+                            <p>El elenco, encabezado por Marcelo Bucossi en el papel de Bernarda Alba, ofrece interpretaciones poderosas y matizadas que exploran las complejidades de los personajes. Destacan también las actuaciones de Osqui Ferrero como Adela, la hija rebelde que desafía las normas impuestas por su madre, y Marcelo Rodríguez como Poncia, la criada que actúa como confidente y consejera de las hijas de Bernarda.</p>
+                            <br>
+                            <p>La puesta en escena, a cargo de Ariel Vaccaro, se caracteriza por su sobriedad y su capacidad para crear una atmósfera opresiva que refleja la claustrofobia y la represión presentes en la obra. La iluminación de Ricardo Sica y el vestuario de Alejandro Mateo contribuyen a la creación de este ambiente asfixiante.
+                            </p>
+                            <br>
+                            <p>"Un Mar de Luto" ha sido elogiada por la crítica y el público por su capacidad para provocar reflexiones sobre el género, el poder y la represión en la sociedad. La elección de un elenco masculino para interpretar a los personajes femeninos de la obra original plantea preguntas sobre la naturaleza de la identidad de género y la performatividad de los roles sociales.
+                            </p>
+                            <br>
+                            <p>La obra se presenta en El Portón de Sánchez, ubicado en Sánchez de Bustamante 1034, en la Ciudad Autónoma de Buenos Aires (CABA). Vuelve en un nuevo horario a partir del domingo 3 de marzo a las 20h, con funciones todos los domingos a la misma hora. Las entradas tienen un costo de $7000, con descuentos disponibles a $5000.</p>
+                            <br>
+                            <p>En resumen, "Un Mar de Luto" es una propuesta teatral valiente y provocadora que invita al público a cuestionar las normas y los mandatos de género establecidos. A través de una interpretación innovadora de un clásico del teatro, esta obra desafía las convenciones y ofrece una mirada fresca y relevante sobre temas fundamentales de la sociedad contemporánea.</p>
+                            <br>
+                        </div>
+
+
+
+                    </div>
+                </div>
+            </article>
+        </li>
+    </ul>
+    <br>
+</section>
         {{-- EL EQUIPO DE "PAJARITA" SE REÚNE EN EL TEATRO--}}
 <section>
     <ul>

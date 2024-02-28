@@ -39,15 +39,15 @@
                             <article>
                                 <figure>
                                     @php
-                                        $tituloSep = 'Gremiales-Noticia-Completa-gre16#gre16';
+                                        $tituloSep = 'Politica-Noticia-Completa-pol49#pol49';
                                     @endphp
                                     <a class="text-emerald-700 font-semibold hover:text-emerald-400 hover:underline"
-                                        href="{{ route('gremialSep.show', $tituloSep) }}">
+                                        href="{{ route('politicaSep.show', $tituloSep) }}">
                                         <img class="object-cover absolute block w-full  h-56 -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-                                            src="../img/grem/grem_bancaria1.svg" alt="">
+                                            src="../img/pol/pol_axelito.svg" alt="">
                                         <div class="py-2 px-4">
                                             <h2 class="text-lg font-serif">
-                                                <a href="{{ route('gremialSep.show', $tituloSep) }}">LA BANCARIA Y LA CGT UNIDAS CONTRA LA PRIVATIZACIÓN DEL BANCO NACIÓN
+                                                <a href="{{ route('politicaSep.show', $tituloSep) }}">KICILLOF DENUNCIA ROBO DE FONDOS POR PARTE DEL GOBIERNO DE MILEI
                                                 </a>
                                                 {{--     <p class="font-light text-gray-500"> Nota: Del Tomate A Sumido  </p> --}}
                                                 {{--  <p class="font-light mb-10 text-right text-gray-500">Publicado: 27/11/2023
@@ -64,15 +64,15 @@
                             <article>
                                 <figure>
                                     @php
-                                        $tituloSep = 'Politica-Noticia-Completa-pol46#pol46';
+                                        $tituloSep = 'Gremiales-Noticia-Completa-gre17#gre17';
                                     @endphp
                                     <a class="text-emerald-700 font-semibold hover:text-emerald-400 hover:underline"
-                                        href="{{ route('politicaSep.show', $tituloSep) }}">
+                                        href="{{ route('gremialSep.show', $tituloSep) }}">
                                         <img class="object-cover absolute block w-full  h-56 -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-                                            src="../img/pol/pol_macri.svg" alt="">
+                                            src="../img/grem/grem_sonia.svg" alt="">
                                         <div class="py-2 px-4">
                                             <h2 class="text-lg font-serif">
-                                                <a href="{{ route('politicaSep.show', $tituloSep) }}">MACRI SE CONSOLIDA COMO PRÓXIMO PRESIDENTE DEL PRO 
+                                                <a href="{{ route('gremialSep.show', $tituloSep) }}">CONTUNDENTE PARO NACIONAL DE CTERA 
                                                 </a>
                                                 <p class="font-light text-gray-500"></p>
                                                 {{--  <p class="font-light mb-10 text-right text-gray-500">Publicado: 27/11/2023
@@ -89,15 +89,15 @@
                             <article>
                                 <figure>
                                     @php
-                                        $tituloDer = 'Deportes-Noticia-Completa-dep6#dep6';
+                                        $tituloDer = 'Cultura-Noticia-Completa-cul15#cul15';
                                     @endphp
                                     <a class="text-emerald-700 font-semibold hover:text-emerald-400 hover:underline"
-                                        href="{{ route('deportesSep.show', $tituloDer) }}">
+                                        href="{{ route('culturaSep.show', $tituloDer) }}">
                                         <img class="object-cover absolute block w-full h-56 -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-                                            src="{{ asset('../img/dep/dep_ligar.svg') }}" alt="">
+                                            src="{{ asset('../img/cul/cul_luto1.svg') }}" alt="">
                                         <div class="py-2 px-4">
                                             <h2 class="text-lg font-serif">
-                                                <a h href="{{ route('deportesSep.show', $tituloDer) }}">SE APROXIMA LA JORNADA DE CLÁSICOS EN LA COPA DE LA LIGA ARGENTINA
+                                                <a h href="{{ route('culturaSep.show', $tituloDer) }}">¡DE REGRESO AL ESCENARIO: 'UN MAR DE LUTO' EN EL PORTÓN DE SÁNCHEZ!
                                                 </a>
                                             </h2>
                                             {{-- <p class="font-light  text-right text-gray-500">Publicado: 02/10/2023</p> --}}
@@ -117,23 +117,23 @@
                 <div>
                     <figure>
                         @php
-                            $tituloSep = 'Internacionales-Noticia-Completa-int10#int10';
+                            $tituloSep = 'Legislatura-Noticia-Completa-leg20#leg20';
                         @endphp
                         <a class="text-emerald-700 font-semibold hover:text-emerald-400 hover:underline"
-                            href="{{ route('interSepNew.show', $tituloSep) }}">
+                            href="{{ route('legislaturaSep.show', $tituloSep) }}">
                             <img class="h-48 w-full object-cover object-center"
-                                src="{{ asset('../img/int/int_cameron.svg') }}" alt="">
+                                src="{{ asset('../img/leg/leg_roldan.svg') }}" alt="">
                         </a>
                     </figure>
                     <div class=" py-4 px-6">
                         <h1 class="text-lg font-serif ">
-                            <a href="{{ route('interSepNew.show', $tituloSep) }}">
-                                CAMERON EN MALVINAS: DESAFÍO BRITÁNICO
+                            <a href="{{ route('legislaturaSep.show', $tituloSep) }}">
+                                AVANZA DESIGNACIÓN DE VICTORIA ROLDÁN MÉNDEZ PARA PRESIDIR ÓRGANO DE ACCESO A INFORMACIÓN
                             </a>
                         </h1>
                         <p class="font-light  text-gray-500"></p>
                         <div class="pt-4">
-                            <p class="font-light  text-right text-gray-500">Publicado: 20/02/2024</p>
+                            <p class="font-light  text-right text-gray-500">Publicado: 28/02/2024</p>
                         </div>
 
                     </div>
@@ -142,23 +142,23 @@
                 <div>
                     <figure>
                         @php
-                            $tituloSep = 'Sociedad-Noticia-Completa-soc22#soc22';
+                            $tituloSep = 'Politica-Noticia-Completa-pol50#pol50';
                         @endphp
                         <a class="text-emerald-700 font-semibold hover:text-emerald-400 hover:underline"
-                            href="{{ route('sociedadSep.show', $tituloSep) }}">
+                            href="{{ route('politicaSep.show', $tituloSep) }}">
                             <img class="h-48 w-full object-cover object-center"
-                                src="{{ asset('../img/soc/soc_turismo.svg') }}" alt="">
+                                src="{{ asset('../img/pol/pol_tolo.svg') }}" alt="">
                         </a>
                     </figure>
                     <div class=" py-4 px-6">
                         <h1 class="text-lg font-serif ">
-                            <a href="{{ route('sociedadSep.show', $tituloSep) }}">
-                                TURISMO SOCIAL EN RIESGO: PELIGRA EL FUTURO DE HOTELES ESTATALES
+                            <a href="{{ route('politicaSep.show', $tituloSep) }}">
+                                VICTORIA TOLOSA PAZ: “MILEI ES UN SECUESTRADOR Y EXTORSIONADOR”
                             </a>
                         </h1>
                         <p class="font-light  text-gray-500"></p>
                         <div class="pt-4">
-                            <p class="font-light  text-right text-gray-500">Publicado: 20/02/2024</p>
+                            <p class="font-light  text-right text-gray-500">Publicado: 28/02/2024</p>
                         </div>
 
                     </div>

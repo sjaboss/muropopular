@@ -2811,6 +2811,115 @@
                 </div>
 
             </section>
+        @elseif ($tituloSep == 'Legislatura-Noticia-Completa-leg20')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">AVANZA DESIGNACIÓN DE VICTORIA ROLDÁN MÉNDEZ PARA PRESIDIR ÓRGANO DE ACCESO A INFORMACIÓN</a>
+                                        </h2>
+                                        <p class="font-light  text-right text-gray-500">Publicado: 28/02/2024</p>
+                                        <p><i>Victoria Roldán Méndez, ex legisladora porteña, podría presidir el Órgano Garante del Acceso a la Información Pública tras ser considerada en Audiencia Pública. Destacó la importancia de la transparencia y la participación ciudadana en el gobierno.</i></p>
+                                        <br>
+                                        <figure>
+                                            <a href="">
+                                                <img class="w-full object-cover object-center"
+                                                    src="{{ asset('../img/leg/leg_roldan.svg') }}" alt="">
+                                            </a>
+                                        </figure>
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                                <p>La Legislatura de la Ciudad Autónoma de Buenos Aires fue escenario de una Audiencia Pública que tuvo como eje central la designación del próximo titular del Órgano Garante del Derecho de Acceso a la Información Pública (OGDAI). En esta instancia, se trató la postulación de Victoria Roldán Méndez, ex legisladora porteña y reconocida defensora de la transparencia y la participación ciudadana.</p>
+                                                <br>
+                                                <p>El OGDAI, creado por la ley de la Ciudad 104, tiene como objetivo fundamental asegurar el cumplimiento de los preceptos de libre acceso a la información pública y transparencia de los datos. Entre sus funciones principales se encuentra la resolución de reclamos por falta de respuestas a solicitudes de información o por contestaciones incorrectas.</p>
+                                                <br>
+                                                <p>Durante la Audiencia Pública, los legisladores Hernán Reyes, Inés Parry y María Lúisa González Estebarena, en sus condiciones de presidentes de las comisiones de Asuntos Constitucionales, de Justicia, y de la Junta de Ética, Acuerdos y Organismos de Control, respectivamente, junto a las diputadas Gimena Villafruela y Sol Méndez, tuvieron a cargo la evaluación de la postulante Roldán Méndez.
+                                                </p>
+                                                <br>
+                                                <p>La trayectoria de Victoria Roldán Méndez en el ámbito político y legislativo porteño la posiciona como una candidata idónea para ocupar este cargo. Durante su gestión como legisladora, se destacó por su compromiso con la transparencia y la participación ciudadana, valores que considera fundamentales en toda gestión gubernamental.
+                                                </p>
+                                                <br>
+                                                <p>En su intervención ante la Audiencia Pública, Roldán Méndez hizo hincapié en la importancia de garantizar la transparencia en la gestión pública y promover la participación ciudadana en la toma de decisiones. Asimismo, destacó la relevancia de contar con un órgano garante que vele por el cumplimiento del derecho de acceso a la información pública, un derecho fundamental en cualquier democracia moderna.</p>
+                                                <br>
+                                                <p>La postulación de Victoria Roldán Méndez fue considerada de forma positiva, resaltando sus cualidades y antecedentes en el ámbito legislativo y su compromiso con la transparencia y la participación ciudadana. Se espera que en breve se confirme su designación al frente del Órgano Garante del Derecho de Acceso a la Información Pública, en lo que sería un paso importante hacia la consolidación de la transparencia y el acceso a la información en la Ciudad de Buenos Aires.</p>
+                                                <br>
+
+
+                                            </div>
+
+
+
+                                        </div>
+                                    </div>
+                                </article>
+                            </li>
+                        </ul>
+                        <br>
+
+                    </div>
+
+
+                    {{-- columna de la derecha chica --}}
+                    <aside>
+                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                            <div class=" col-span-6">
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/bener-leg2.png') }}"
+                                        alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
+                                        alt="">
+                                </a>
+
+                                <div id="app">
+
+                                    <div v-for="item in info">
+
+                                        <div class="flex-col pb-3">
+                                            <div
+                                                class="flex-col max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg"
+                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
+                                                        alt="" />
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5
+                                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                                            @{{ item.title }}</h5>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div v-for="va in clima">
+
+                                        <h5
+                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                            @{{ va }}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+
+                </div>
+
+            </section>
         @endif
 
     </div>

@@ -2246,6 +2246,117 @@
                 </div>
 
             </section>
+        @elseif ($tituloSep == 'Gremiales-Noticia-Completa-gre17')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">CONTUNDENTE PARO NACIONAL DE CTERA
+                                            </a>
+                                        </h2>
+                                        <p class="font-light  text-right text-gray-500">Publicado: 27/02/2024</p>
+                                        <p><i>CTERA encabeza contundente paro docente nacional en reclamo de mejores condiciones laborales y educativas. Docentes de todo el país exigen paritarias y fondos para la educación.</i>
+                                        </p>
+                                        <br>
+                                        <article>
+                                            <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/7UFyJXVkSJQ?si=ANptzOsNboMJdowo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                            
+                                        </article>
+                                       {{--  <figure>
+                                            <img class=" w-full object-cover" src="../img/grem/grem_bancaria2.svg"
+                                                alt="">
+                                        </figure> --}}
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+                                                <p>En una demostración de unidad y determinación, el paro nacional docente convocado por la Confederación de Trabajadores de la Educación de la República Argentina (CTERA) ha obtenido un 80% de adhesión en las diez jurisdicciones que debían iniciar el ciclo lectivo. Este paro, más que una medida de protesta por salarios dignos y condiciones laborales justas, es un llamado urgente ante la crisis que afecta la educación pública y los derechos de los trabajadores de la enseñanza.
+                                                </p>
+                                                <br>
+                                                <p>A lo largo y ancho del país, se han desarrollado actos, concentraciones y movilizaciones en los que miles de docentes han levantado su voz exigiendo una Paritaria Nacional Docente, el pago integral del Fondo Nacional de Incentivo Docente (FONID) y del Fondo Compensador de Desigualdades. Salarios, así como fondos destinados a comedores escolares y programas educativos. Estas demandas son esenciales para asegurar una educación de calidad y el bienestar de los trabajadores del sector, incluyendo a los jubilados.
+                                                </p>
+                                                <br>
+                                                <p>En la Ciudad de Buenos Aires, el epicentro de la protesta fue el Palacio Pizzurno, donde la Secretaria General de CTERA, Sonia Alesso, recordó las luchas del gremio: "Veo caras de compañeros con quienes compartimos la Carpa Blanca, compañeros con quienes resistimos el ajuste de los 90". Estas palabras resaltan la persistencia de los docentes argentinos en la defensa de sus derechos a lo largo de los años.
+                                                </p>
+                                                <br>
+                                                <p>La realidad en las escuelas y comunidades vulnerables es crítica: los recursos destinados a comedores escolares y apoyo educativo son insuficientes, dejando a muchos docentes y alumnos sin las herramientas necesarias para el aprendizaje. Esta situación refleja una profunda desigualdad que va en contra del principio de una educación inclusiva y equitativa para todos.
+                                                </p>
+                                                <br>
+                                                <p>Alesso agregó: "Luchamos para que no haya diferencias salariales basadas en el lugar de nacimiento. Todos merecen oportunidades justas para enseñar y aprender". Esta lucha por la igualdad de oportunidades y por una educación pública de calidad impulsa a los docentes a seguir adelante.</p>
+                                                <br>
+                                                <p>El paro docente es también un llamado al gobierno nacional para que responda a estas demandas con políticas educativas que promuevan la equidad y el bienestar de toda la comunidad educativa. Mañana, la CTERA se reunirá con el gobierno, y el miércoles evaluará la situación en un encuentro de Secretarios Generales.</p>
+                                                <br>
+                                                <p>La lucha continúa bajo la lluvia, con los trabajadores de la educación exigiendo paritarias justas y fondos adecuados para la educación. La CTERA, votando unánimemente un plan de lucha nacional, demuestra su compromiso con la defensa de los derechos de los trabajadores y una educación pública de calidad para todos.</p>
+                                                <br>
+                                            </div>
+                                        </div>
+                                </article>
+                            </li>
+                        </ul>
+                    </div>
+
+
+                    {{-- columna de la derecha chica --}}
+                    <aside>
+                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                            <div class=" col-span-6">
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/bener-leg2.png') }}"
+                                        alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/APSE.gif') }}" alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
+                                        alt="">
+                                </a>
+
+
+
+                                <div id="app">
+
+                                    <div v-for="item in info">
+
+                                        <div class="flex-col pb-3">
+                                            <div
+                                                class="flex-col max-w-sm  border  border-gray-700 rounded-lg shadow bg-gray-800">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg"
+                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
+                                                        alt="" />
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5 class="mb-2 text-2xl font-bold tracking-tight  text-white">
+                                                            @{{ item.title }}</h5>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div v-for="va in clima">
+
+                                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-white">
+                                            @{{ va }}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+
+                </div>
+
+            </section>
         @endif
     </div>
     {{-- aca arrancamos vue --}}
