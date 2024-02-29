@@ -697,7 +697,7 @@
                                 </a>
 
 
-
+{{-- 
                                 <h2 class="font-semibold text-center mt-4 mb-2">Notas de Opinión</h2>
 
 
@@ -729,7 +729,7 @@
                                             </h2>
                                             <br>
                                         </div>
-                                    </div>
+                                    </div> --}}
 
 
 
@@ -755,7 +755,10 @@
                                             </h2>
                                         </div>
                                     </div>
-
+                                    <br>
+                                    <a href="" class="object-cover object-center h-35  " width="200">
+                                        <img class="pb-3" src="{{ asset('img/publi/karate.jpeg') }}" alt="">
+                                    </a>
 
                                 </article>
 
