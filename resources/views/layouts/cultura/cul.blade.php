@@ -69,7 +69,7 @@
                         class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
                         <div class=" font-sans text-lg text-left col-span-6  ">
 
-                            <p><i>El mito y la tragedia se entrelazan en el regreso de "Pajarita", la obra de Guillermo Parodi que invita a reflexionar sobre el cuerpo, la memoria y lo sobrenatural.</i></p>
+                            <p><i>El mito y la tragedia se entrelazan en el regreso de "Mandinga", la obra de Guillermo Parodi que invita a reflexionar sobre el cuerpo, la memoria y lo sobrenatural.</i></p>
                             <br>
                             <figure>
                                 <a href="">
