@@ -3599,6 +3599,229 @@
                     </aside>
                 </div>
             </section>
+        @elseif ($tituloSep == 'Sociedad-Noticia-Completa-soc26')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">EL SILENCIAMIENTO DE TÉLAM: UN GOLPE A LA LIBERTAD DE PRENSA</a>
+                                        </h2>
+                                        <p class="font-light  text-right text-gray-500">Publicado: 07/03/2024</p>
+                                        <p><i>Como colega periodista, expreso mi más profundo apoyo y solidaridad con mis compañeros de Télam, quienes ven peligrar su fuente de trabajo y su medio de vida.</i>.
+                                        </p>
+                                        <br>
+                                        <figure>
+                                            <img class="w-full object-cover" src="../img/soc/soc_telam2.svg"
+                                                alt="">
+                                        </figure>
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                                <p>En los últimos días, Argentina ha sido sacudida por una noticia que ha generado preocupación y repudio en toda la sociedad: el anuncio del cierre de la emblemática Agencia Télam. Este acto, perpetrado por el gobierno de Javier Milei, no solo representa un golpe a la libertad de prensa, sino que también amenaza con socavar uno de los pilares fundamentales de cualquier democracia: el derecho a la información.
+                                                </p>
+                                                <br>
+                                                <p>El presidente Milei ha justificado su decisión argumentando que Télam era una agencia "militante", pero esta afirmación está infundada. Télam, con sus más de 70 años de historia, ha sido mucho más que una simple agencia de noticias. Ha sido una fuente confiable de información para millones de argentinos, proporcionando noticias objetivas y verificadas en un momento en el que la verdad parece ser cada vez más esquiva. </p>
+                                                <br>
+                                                <p>La importancia de Télam trasciende las fronteras nacionales. En comparación con otras agencias similares de la región, como la Agencia Brasil o la Agencia Andina, Télam se destaca por su cobertura exhaustiva y su compromiso con la objetividad y la veracidad de la información. Además, al compararla con agencias de renombre a nivel mundial, como Reuters o Associated Press, queda claro que Télam ocupa un lugar destacado en el panorama mediático internacional, siendo reconocida como una de las mejores agencias de noticias del mundo.
+                                                </p>
+                                                <br>
+                                                <p>Es crucial destacar que ningún país serio del mundo cierra su agencia de noticias. El cierre de Télam no solo afectaría a los más de 700 trabajadores que dependen de ella para sostener a sus familias, sino que también privaría a la sociedad argentina de una fuente invaluable de información veraz y objetiva.
+                                                </p>
+                                                <br>
+                                                <p>Detrás de la decisión de cerrar Télam se esconde un intento flagrante de silenciar una voz incómoda y consolidar el control sobre la información. Sin embargo, es importante recordar que la lucha de los trabajadores y del pueblo argentino puede ser crucial para evitar que se consolide.
+                                                </p>
+                                                <br>
+                                                <p>Es hora de que la sociedad argentina se una en solidaridad con los trabajadores de Télam y en defensa de la libertad de prensa y el derecho a la información. El cierre de Télam no solo sería un golpe a la libertad de prensa en Argentina, sino un ataque a uno de los pilares fundamentales de nuestra democracia. Es hora de levantar nuestras voces y exigir que se revierta esta decisión injusta y antidemocrática.</p>
+                                                <br>
+                                                <div class="text-start object-center">
+                                                    <figure>
+                                                        <img class="w-28 h-28  "
+                                                            src="{{ asset('../img/noteros/Gus.svg') }}"
+                                                            alt="">
+                                                        
+                                                        <p> <strong>Nota de Gustavo Cano</strong></p>
+
+                                                    </figure>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+                            </li>
+                        </ul>
+                        <br>
+                    </div>
+
+
+                    {{-- columna de la derecha chica --}}
+                    <aside>
+                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                            <div class=" col-span-6">
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/bener-leg2.png') }}"
+                                        alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
+                                        alt="">
+                                </a>
+
+                                <div id="app">
+
+                                    <div v-for="item in info">
+
+                                        <div class="flex-col pb-3">
+                                            <div
+                                                class="flex-col max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg"
+                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
+                                                        alt="" />
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5
+                                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                                            @{{ item.title }}</h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div v-for="va in clima">
+
+                                        <h5
+                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                            @{{ va }}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+                </div>
+            </section>
+        @elseif ($tituloSep == 'Sociedad-Noticia-Completa-soc27')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">ARGENTINA: DOS MODELOS EN PUGNA</a>
+                                        </h2>
+                                        <p class="font-light  text-right text-gray-500">Publicado: 07/03/2024</p>
+                                        <p><i>En una reciente declaración, el Dr. Jorge Rachid expuso su visión sobre la situación política argentina, describiendo una división entre dos modelos políticos claramente opuestos.</i>.
+                                        </p>
+                                        <br>
+                                        {{-- <figure>
+                                            <img class="w-full object-cover" src="../img/soc/soc_telam2.svg"
+                                                alt="">
+                                        </figure> --}}
+                                        <article>
+                                            <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/UqID0Ip36fk?si=YLUh3qCeGsHV25ll" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                            
+                                        </article>
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                                <p>Según Rachid, uno de estos modelos representa un enfoque nacional, federal, popular y solidario, mientras que el otro está más orientado a los intereses de sectores que históricamente han buscado el saqueo de Argentina y Latinoamérica. Este último modelo, en palabras del Dr. Rachid, está respaldado por intereses concretos, como fondos de inversión y la Embajada de Estados Unidos, y busca la privatización y el saqueo de los recursos nacionales.
+                                                </p>
+                                                <br>
+                                                <p>El primer modelo, según Rachid, se ha representado por gobernadores como Axel Kicillof, Gildo Insfrán y otros, que buscan recuperar la soberanía y promover modelos solidarios centrados en la salud, la educación y la recuperación de la infraestructura nacional.</p>
+                                                <br>
+                                                <p>Rachid destaca la confrontación entre estos dos modelos, que, según él, se resuelve en la calle y en la movilización popular, con el pueblo argentino como el sujeto que construye la historia. Además, expresa la visión de volver a integrarse con países y bloques como los BRICS y el Oriente, en contraposición a una supuesta alineación exclusiva con Estados Unidos e Inglaterra.
+                                                </p>
+                                                <br>
+                                                <p><b>"En Argentina, dos modelos políticos se enfrentan: uno entreguista y colonial, representado por el presidente, y otro que busca soberanía y solidaridad, encarnado por gobernadores provinciales. La disputa se resolverá en la calle, con el pueblo como protagonista."</b>
+                                                </p>
+                                                <br>
+                                                <p>En resumen, Jorge Rachid plantea una clara dicotomía entre dos modelos políticos en Argentina, destacando la importancia de la movilización popular y la necesidad de rectificar errores para colocar a Argentina en un lugar destacado en el mundo multipolar.
+                                                </p>
+                                                <br>
+                                                
+                                                <div class="text-start object-center">
+                                                    {{-- <figure>
+                                                        <img class="w-28 h-28  "
+                                                            src="{{ asset('../img/noteros/Gus.svg') }}"
+                                                            alt="">
+                                                        
+                                                        <p> <strong>Nota de Gustavo Cano</strong></p>
+
+                                                    </figure> --}}
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+                            </li>
+                        </ul>
+                        <br>
+                    </div>
+
+
+                    {{-- columna de la derecha chica --}}
+                    <aside>
+                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                            <div class=" col-span-6">
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/bener-leg2.png') }}"
+                                        alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
+                                        alt="">
+                                </a>
+
+                                <div id="app">
+
+                                    <div v-for="item in info">
+
+                                        <div class="flex-col pb-3">
+                                            <div
+                                                class="flex-col max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg"
+                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
+                                                        alt="" />
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5
+                                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                                            @{{ item.title }}</h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div v-for="va in clima">
+
+                                        <h5
+                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                            @{{ va }}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+                </div>
+            </section>
     @endif
 
     </div>

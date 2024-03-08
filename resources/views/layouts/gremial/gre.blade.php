@@ -1,5 +1,104 @@
 <x-app-layout>
     <div class="container ">
+        {{--CGT: DEFENSA FIRME DE LOS TRABAJADORES....  --}}
+    <section>
+        <ul>
+            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                <article>
+
+                    <div class="py-4 px-4 justify-between items-center">
+                        <h2 class="text-xl font-serif  font-bold pb-6">
+                            <a href="">LAS TRABAJADORAS Y LOS TRABAJADORES FUIMOS, SOMOS Y SEREMOS QUIENES GARANTIZAMOS LA DEMOCRACIA
+
+                            </a>
+                        </h2>
+                        <p class="font-light  text-right text-gray-500">Publicado: 07/03/2024</p>
+                        <p><i>Declaraciones de la Secretaria de Género de la CGT, Noé Ruiz hacia el 8M, Día Internacional de la Mujer Trabajadora en la CGT.</i>
+                        </p>
+                        <br>
+                      {{--   <article>
+                            <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/7UFyJXVkSJQ?si=ANptzOsNboMJdowo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            
+                        </article> --}}
+                        <figure>
+                            <img class=" w-full object-cover" src="../img/grem/grem_noe2.svg"
+                                alt="">
+                        </figure>
+                        <br>
+                        <div
+                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                            <div class=" font-sans text-lg text-left col-span-6  ">
+                                <p>La secretaria de Género de la CGT, Noé Ruiz, ante las declaraciones del presidente Milei en la apertura de sesiones señaló que “es necesario extremar nuestros esfuerzos para poner límite a las políticas con las que el gobierno nacional agrede a las y los trabajadores". Luego sostuvo: "Estamos padeciendo una dominación por carencias y limitaciones. Esto abarca la salud, la educación, la vivienda, el hambre, todo. Ello nos hace esforzarnos a reflexionar sobre las formas de la organización y profundizar la unidad. El Gobierno quiere abolir los temas de género, la diversidad, la cultura. Quiere borrar de un plumazo los derechos de las trabajadoras y los trabajadores. Quiere negarnos los espacios de diálogo y de debate, por eso desprecia al Parlamento. Pero las trabajadoras y los trabajadores fuimos, somos y seremos quienes garantizamos la democracia”. 
+                                </p>
+                                <br>
+                                <p>Además expresó que "ante el avance del ajuste que golpea a las compañeras trabajadoras en su posibilidad de acceso a la vivienda, en temas de salud, de educación, de las familias, en complicaciones y mayores exigencias en cuestiones de cuidado y la imposibilidad de los adultos mayores de tener una jubilación que les permita comer y acceder la salud, la feminización de la pobreza está creciendo de forma exponencial".
+                                </p>
+                                <br>
+                                <p>"Es necesario que seamos muy cuidadosas en cómo ocupar las calles y los esquemas de seguridad y cuidado por un 8M en Paz , sin provocaciones y enfaticemos nuestros reclamos. Es muy triste ver ver las pérdidas de trabajo y los despidos en el sector público" dijo y enfatizó: “basta de violencias y femicidios”.
+                                </p>
+                                <br>
+                                <p>Asimismo, respecto de la amenaza de cierre de Télam, declaró que que “es lamentable que el gobierno quiera quitarle el derecho a la voz al pueblo y negar la libertad de prensa, y acuerdos internacionales, muy negativo, afectará la visión de Argentina ante el mundo."
+                                </p>
+                                <br>
+                                <p>“Hoy más que nunca es necesario rescatar la lucha de las mujeres trabajadoras en huelga, a principios del siglo XX, que lucharon por iguales salarios y Derechos. No daremos un paso atrás en los derechos adquiridos, puede haber reformas por cambios en el mundo del trabajo, consensuadas emtre trabajo y capital, pero no somos la casta, somos trabajadoras. Las mujeres hemos demostrado en nuestro país y el mundo que estamos preparadas para afrontar los desafios. Es necesaria la Justicia social con trabajo digno, no más violencia y paz social para todas y todos lo argentinos, esa es hoy nuestra lucha”, concluyó Noé Ruiz.</p>
+                                <br>
+                                
+                            </div>
+                        </div>
+                </article>
+            </li>
+        </ul>
+    <br><br>
+    </section>
+           {{--CGT: DEFENSA FIRME DE LOS TRABAJADORES....  --}}
+    <section>
+        <ul>
+            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                <article>
+
+                    <div class="py-4 px-4 justify-between items-center">
+                        <h2 class="text-xl font-serif  font-bold pb-6">
+                            <a href="">CGT: DEFENSA FIRME DE LOS TRABAJADORES FRENTE A POLÍTICAS LABORALES DEL GOBIERNO
+                            </a>
+                        </h2>
+                        <p class="font-light  text-right text-gray-500">Publicado: 07/03/2024</p>
+                        <p><i>La CGT, firme en su defensa de los trabajadores, enfrenta las políticas laborales del gobierno con determinación y unidad</i>
+                        </p>
+                        <br>
+                      {{--   <article>
+                            <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/7UFyJXVkSJQ?si=ANptzOsNboMJdowo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            
+                        </article> --}}
+                        <figure>
+                            <img class=" w-full object-cover" src="../img/grem/grem_cgtpario.svg"
+                                alt="">
+                        </figure>
+                        <br>
+                        <div
+                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                            <div class=" font-sans text-lg text-left col-span-6  ">
+                                <p>En un contexto político marcado por la confrontación y las medidas controvertidas del gobierno nacional, la Confederación General del Trabajo (CGT) se erige como un bastión de resistencia, defendiendo los derechos de los trabajadores frente a las políticas neoliberales impulsadas por el presidente Javier Milei.
+                                </p>
+                                <br>
+                                <p>El anuncio del mandatario durante la Asamblea Legislativa, donde propuso una reforma laboral y la limitación de los mandatos sindicales, entre otras, ha sido recibido con medidas firmes de rechazo por parte de la central obrera. Ante esta situación, la CGT ha optado por una estrategia de confrontación activa, buscando aliados en los ámbitos políticos y legislativos para frenar estas iniciativas que atentan contra los derechos laborales conquistados con años de lucha y sacrificio.
+                                </p>
+                                <br>
+                                <p>En este sentido, Pablo Moyano, líder del sindicato de Camioneros y referente destacado de la CGT, ha convocado a los gobernadores y legisladores peronistas a unirse en defensa de los intereses de los trabajadores. La central obrera ha dejado en claro que no permitirá que se vulneren los derechos laborales adquiridos, y que luchará con todas sus fuerzas contra las políticas que buscan precarizar el empleo y flexibilizar las condiciones laborales.
+                                </p>
+                                <br>
+                                <p>La propuesta de Milei de priorizar los acuerdos específicos entre trabajadores por sobre los convenios colectivos del sector ha generado un profundo malestar en la CGT, que considera que esto significaría un retroceso en materia de derechos laborales. Héctor Daer, titular de Sanidad y miembro influyente de la central obrera, ha advertido sobre los verdaderos objetivos del gobierno, que buscan debilitar a los sindicatos y favorecer a los sectores empresariales.
+                                </p>
+                                <br>
+                                <p>En conclusión, la CGT se encuentra en la primera línea de resistencia ante las embestidas del gobierno nacional, defendiendo los derechos de los trabajadores y luchando por un país más justo y solidario. En este contexto, la unidad del movimiento sindical y su compromiso con la defensa de los derechos laborales se presentan como herramientas fundamentales para enfrentar los desafíos que se avecinan.</p>
+                                <br>
+                                
+                            </div>
+                        </div>
+                </article>
+            </li>
+        </ul>
+    <br><br>
+    </section>
              {{--CONTUNDENTE PARO NACIONAL DE CTERA  --}}
     <section>
         <ul>

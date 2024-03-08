@@ -1,5 +1,115 @@
 <x-app-layout>
     <div class="container ">
+        {{--LA LEGISLADORA INÉS PARRY PRESENTÓ PROYECTO... --}}
+        <section >
+            <ul>
+                <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                    <article>
+
+                        <div class="py-4 px-4 justify-between items-center">
+                            <h2 class="text-xl font-serif  font-bold pb-6">
+                                <a href=""> LA LEGISLADORA INÉS PARRY PRESENTÓ PROYECTO QUE EXPRESA EXTREMA PREOCUPACIÓN POR EL AJUSTE PRESUPUESTARIO EN LAS UNIVERSIDADES NACIONALES</a>
+                            </h2>
+                            <p class="font-light  text-right text-gray-500">Publicado: 07/03/2024</p>
+                            <p><i>Este proyecto es acompañado por todo el bloque UCR- Evolución, el bloque Confianza Pública y por el diputado Alejandro Grillo de Unión por la Patria</i></p>
+                            <br>
+                            <figure>
+                                <a href="">
+                                    <img class="w-full object-cover object-center"
+                                        src="{{ asset('../img/leg/leg_ines.svg') }}" alt="">
+                                </a>
+                            </figure>
+                            <br>
+                            <div
+                                class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                    <p>La legisladora Inés Parry (UCR-Evolución), en una acción dirigida a proteger la educación superior y la estabilidad laboral de miles de docentes e investigadores, ha presentado un proyecto de declaración en la Legislatura porteña.</p>
+                                    <br>
+                                    <p>Busca que la Legislatura porteña exprese la profunda inquietud ante el ajuste del 72% del presupuesto de las universidades nacionales por parte del Gobierno Nacional, medida que pone en riesgo el funcionamiento continuo de las instituciones académicas, así como las fuentes de trabajo y la trayectoria académica de más de 3 millones de estudiantes.</p>
+                                    <br>
+                                    <p><b>"Es imperativo que actuemos ante esta situación crítica que enfrentan nuestras universidades nacionales"</b>, afirmó la legisladora Parry</p>
+                                    <br>
+                                    <p>El proyecto de declaración destaca que este recorte presupuestario representa una caída real del monto de transferencia mensual de más de 2/3 en comparación con el año anterior, medida que no se ajusta a la inflación actual, la cual supera el 254%.
+                                    </p>
+                                    <br>
+                                    <p>Parry subrayó que los fondos de funcionamiento están congelados e incluso para gastos de mantenimiento básico de los edificios (gas, luz, limpieza), lo que afecta gravemente el poder adquisitivo y la calidad de vida de la comunidad universitaria. Además este ajuste impacta directamente en los estudiantes de menores ingresos, ya que afecta las becas de estudio.</p>
+                                    <br>
+                                    <p>La legisladora destacó que este recorte presupuestario no solo afecta a las universidades, sino también a los colegios preuniversitarios, hospitales, institutos asistenciales y otras instituciones dependientes de las universidades nacionales.</p>
+                                    <br>
+                                    <p><b>"El congelamiento salarial y los recortes presupuestarios ponen en riesgo la calidad de la enseñanza y el normal funcionamiento de nuestras instituciones educativas"</b>.</p>
+                                    <br>
+                                    <p>El proyecto de declaración también señala la preocupación por la suspensión unilateral de la creación e inicio de actividades académicas en cinco universidades nacionales, a raíz de la resolución 45/24 del Ministerio de Capital Humano de la Nación, medida que contraviene leyes aprobadas por el Congreso Nacional.</p>
+                                    <br>
+                                    <p>Parry se refiere a la Universidades de Delta, de Pilar, Ezeiza , Río Tercero y Madres de Plaza Mayo.  "Este tipo de decisiones atentan contra la división de poderes y debilitan las bases de nuestro sistema constitucional, el Ejecutivo no puede dejar sin efecto el cumplimiento de una ley del Congreso", afirmó Parry.</p>
+                                    <br>
+                                    <p><b>"Sin educación pública no hay libertad posible"</b>, afirmó Parry, quien instó a la Legislatura porteña a aprobar el proyecto de declaración en apoyo a la educación superior y a los principios democráticos fundamentales.</p>
+                                    <br>
+                                </div>
+
+
+
+                            </div>
+                        </div>
+                    </article>
+                </li>
+            </ul>
+        </section>
+            <br><br>
+        {{--SALVÁ TU PIEL, DE INTERÉS PARA LA CIUDAD... --}}
+        <section >
+            <ul>
+                <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                    <article>
+
+                        <div class="py-4 px-4 justify-between items-center">
+                            <h2 class="text-xl font-serif  font-bold pb-6">
+                                <a href="">SALVÁ TU PIEL, DE INTERÉS PARA LA CIUDAD</a>
+                            </h2>
+                            <p class="font-light  text-right text-gray-500">Publicado: 07/03/2024</p>
+                            <p><i>La campaña del laboratorio La Roche-Posay cumplió 10 años y brinda más de 45 mil controles de piel gratis por año en todo el país para prevenir enfermedades y concientizar sobre el cáncer de piel.</i></p>
+                            <br>
+                            <figure>
+                                <a href="">
+                                    <img class="w-full object-cover object-center"
+                                        src="{{ asset('../img/leg/leg_piel1.svg') }}" alt="">
+                                </a>
+                            </figure>
+                            <br>
+                            <div
+                                class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                    <p>La campaña “Salva tu piel” de la firma La Roche-Posay fue declarada de Interés Social por la Legislatura de la Ciudad en una ceremonia realizada hoy, martes, en el Salón Presidente Alfonsín. El proyecto fue presentado por la diputada (mandato cumplido) Ana María Bou Pérez y lo retomó la legisladora María Sol Méndez, con el objetivo de destacar el trabajo educativo y preventivo realizado por el laboratorio. Además estuvo presente la Gerenta de Asuntos Corporativos de L’Oréal, Brenda Bianquet; y Soledad Zambrini, del área de Comunicación de Marca de La Roche-Posay.</p>
+                                    <br>
+                                    <p>En el inicio de las alocuciones, Méndez destacó: “Esto demuestra que la articulación público-privada es muy importante , sobre todo en estos temas de salud pública; y en un tema que hace unos años atrás no se hablaba, como es el cáncer de piel". A su vez remarcó la importancia de que el mensaje se traslade a toda la sociedad y extendió sus felicitaciones al equipo que presentó el proyecto de ley.</p>
+                                    <br>
+                                    <p>Luego, Bou Pérez subrayó: "Es un placer acompañar esta campaña como en otros años; y  que es tan importante porque lo más difícil en salud es cambiar hábitos”. Y señaló la necesidad que la campaña persista, ya que “recién se están viendo los primeros resultados de la concientización de la gente a cuidarse la piel”.
+                                    </p>
+                                    <br>
+                                    <p>Por último, Bianquet explicó: “Es una semilla más que aportamos a visibilizar lo que es nuestra misión, que es democratizar el acceso a la dermatología a todas las personas que viven en el mundo, y específicamente en Argentina”. Y recordó que el cáncer de piel se puede prevenir a tiempo y recomendó visitar a un dermatólogo una vez al año.
+                                    </p>
+                                    <br>
+                                    <p>Con 11 ediciones consecutivas en temporadas de mayor temperatura, “Salva tu piel” ofrece asistencia, chequeos e información clave sobre el cáncer de piel, que abarca 1 de cada 3 casos de esta enfermedad. Sin embargo, el 90% de los casos pueden ser curados.</p>
+                                    <br>
+                                    <p>A través de un plan nacional que cuenta con tres pasos esenciales, el laboratorio brinda su colaboración de manera gratuita y distribuida a lo largo del país. El primer paso consta en una difusión de información educativa en medios de comunicación, para concientizar sobre el asunto, sus medidas de precaución y demás factores a tener en cuenta, como los recomendables y necesarios controles dermatológicos anuales. Como siguiente instancia, La Roche-Posay ofrece chequeos presenciales de lunares con dermatólogos en consultorios móviles que se trasladan por diversos puntos de Argentina, como también puntos fijos en puntos de atención primaria y dependencias de la Liga Argentina de Lucha Contra el Cáncer. La tercera parte de la campaña, inaugurada post pandemia, se enfoca en la consulta y la enseñanza para autochequeos de manera virtual, también gratuitamente, para así llegar a más y más pacientes.</p>
+                                    <br>
+                                    <p>La propuesta de La Roche-Posay aumenta año tras año y sus objetivos se superan con cada edición. En la campaña 2022/23, 33.000 personas accedieron a los controles presenciales y otras 1.200, a las charlas educativas. Además, se estima que el alcance comunicacional llegó a más de 24 millones de personas. Para esta última campaña, los objetivos de la compañía se fijaron en 45.000 controles de lunares, 2.500 para las charlas y 45 millones más a través de la difusión de la propia campaña.</p>
+                                    <br>
+                                    <p>La campaña híbrida entre la difusión de información esencial para prevenir el cáncer de piel y el control anual y la asistencia presencial y virtual generó un gran alcance en el país gracias al laboratorio, que finalizó a fines de febrero su 11° año consecutivo con su despliegue nacional, con 13 provincias alcanzadas con atención directa, entre dos camiones equipados con consultorios móviles y más de 50 puntos fijos de atención.</p>
+                                    <br>
+
+                                </div>
+
+
+
+                            </div>
+                        </div>
+                    </article>
+                </li>
+            </ul>
+        </section>
+            <br><br>
         {{--AVANZA DESIGNACIÓN DE VICTORIA ROLDÁN... --}}
         <section >
             <ul>

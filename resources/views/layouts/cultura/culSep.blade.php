@@ -1798,6 +1798,116 @@
                 </div>
 
             </section>
+        @elseif ($tituloSep == 'Cultura-Noticia-Completa-cul16')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">FERNANDO SAMARTIN, HOMENAJE A SANDRO</a>
+                                        </h2>
+                                        <p class="font-light  text-right text-gray-500">Publicado: 07/03/2024</p>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                                <p><i>El próximo sábado 23 de marzo llega un nuevo show de Fernando Samartin, "Homenaje a Sandro", con los músicos del gitano. El espectáculo comenzará a las 20:30 horas y las entradas se pueden adquirir Tu Entrada, Ticketek y en las boleterías del teatro. </i></p>
+                                                <br>
+                                                <figure>
+                                                    <a href="">
+                                                        <img class="w-full object-cover object-center"
+                                                            src="{{ asset('../img/cul/cul_sandro.svg') }}"
+                                                            alt="">
+                                                    </a>
+                                                </figure>
+                                                <br>
+                                                <p>Es sabida la trayectoria de Samartin y su show homenaje; recorre Latinoamérica llevando como bandera insignia el estilo, la música y por sobre todas las cosas, la magia única de Sandro.
+                                                </p>
+                                                <br>
+                                                <p>Fernando es acompañado por los músicos del Gitano, quienes formaban parte de la banda desde principios de los 80's hasta su último Gran Rex, en el 2004; dando un color especial y distintivo. La banda no suena como la de Sandro, simplemente lo es.
+                                                </p>
+                                                <br>
+                                                <p>En este nuevo espectáculo recorre los más grandes éxitos del ídolo. Además, y en una magnífica transformación escénica, Fernando repasa las distintas edades de Roberto Sánchez; en su juventud, cuando grabó sus canciones más famosas, y en su madurez, cuando engalanaba el teatro Gran Rex con su sola presencia.</p>
+                                                <br>
+                                                <p>Fernando, ganador de un premio ACE y un premio Hugo a revelación por la comedia musical "Por amor a Sandro", recorrió los escenarios más prestigiosos del país (Gran Rex, Teatro Ópera, Luna Park, entre otros.), y algunos de los lugares más exclusivos de Latinoamérica (Teatro Caupolicán y Nescafé de las Artes, en Sgo. de Chile, Conrad de Punta del Este, Melisco Salazar de Costa Rica, como invitado de la prestigiosa Orquesta Filarmónica).
+                                                </p>
+                                                <br>
+                                                <p>Cuenta también con un amplio recorrido por los programas de TV más famosos e influyentes de nuestro país: Showmatch, Susana Gimenez en varias oportunidades, el especial 50 años de Almorzando con Mirtha Legrand, los musicales de Solamente Vos con Adrian Suar y Natalia Oreiro, Polémica en el Bar, Animales Sueltos y muchísimos más.
+                                                </p>
+                                                <br>
+                                                <p>Grandes figuras de la música y amigo de Sandro compartieron dúos musicales con Fernando en distintas oportunidades: Palito Ortega, Patricia Soca, Jairo, César "Banana" Pueyrredón, Juan Carlos Baglietto, Chico Novarro, entre otros, engalanaron el homenaje con su voz, talento y amor hacia el Gitano.</p>
+                                                <br>
+                                                <p>En resumen, es un show único e imperdible donde el respeto hacía su figura de ídolo popular es lo primero. El fuego continúa.</p>
+                                                <br>
+                                            </div>
+
+
+
+                                        </div>
+                                    </div>
+                                </article>
+                            </li>
+                        </ul>
+                        <br>
+
+                    </div>
+
+
+                    {{-- columna de la derecha chica --}}
+                    <aside>
+                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                            <div class=" col-span-6">
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/bener-leg2.png') }}"
+                                        alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
+                                        alt="">
+                                </a>
+
+                                <div id="app">
+
+                                    <div v-for="item in info">
+
+                                        <div class="flex-col pb-3">
+                                            <div
+                                                class="flex-col max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg"
+                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
+                                                        alt="" />
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5
+                                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                                            @{{ item.title }}</h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div v-for="va in clima">
+
+                                        <h5
+                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                            @{{ va }}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+
+                </div>
+
+            </section>
         @endif
     </div>
 
