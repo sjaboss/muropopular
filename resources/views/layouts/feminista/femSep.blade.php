@@ -2444,6 +2444,111 @@
                 </div>
 
             </section>
+        @elseif ($tituloSep == 'Agenda-Feminista-Completa-fem16')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">LAS MUJERES BONAERENSES MARCHARON CONTRA EL AJUSTE DE MILEI</a>
+                                        </h2>
+                                        <p><i>Con las consignas <b>“Por nuestros derechos, contra el ajuste de Milei y abajo el DNU”</b>, miles de mujeres y diversidades se movilizaron desde numerosos puntos de la provincia para pronunciarse contra las políticas económicas de ajuste y el retroceso de derechos que lleva adelante el Gobierno nacional.</i>
+                                        </p>
+                                        <br>
+                                        <figure>
+                                            <img class="w-full object-cover" src="../img/fem/fem_8m2.svg"
+                                                alt="">
+                                        </figure>
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+                                                <p>En el marco del <b>Día Internacional de las Mujeres Trabajadoras</b>, la vicegobernadora, <b>Verónica Magario</b>, la ministra de Mujeres y Diversidad, <b>Estela Díaz</b>, las intendentas <b>Mayra Mendoza</b> (Quilmes), <b>Maria Cecilia Gianini</b> (Carlos Tejedor) y <b>Mariel Fernández</b> (Moreno) y la jefa de Gabinete del municipio de Avellaneda <b>Magdalena Sierra</b>, junto a integrantes del gabinete provincial, legisladoras, referentas de sindicatos y organizaciones sociales, encabezaron la columna de <b>Mujeres Bonaerenses</b> que marchó hacia el Congreso de la Nación.
+                                                </p>
+                                                <br>
+                                                <p>En este marco, la vicegobernadora Verónica Magario expresó: “Hoy las mujeres trabajadoras queremos decir que la lucha no se detiene, se multiplica. Marchamos contra el ajuste del Gobierno nacional, contra la pérdida del poder adquisitivo y contra el hambre”.
+                                                </p>
+                                                <br>
+                                                <p>La ministra de Mujeres y Diversidad, Estela Díaz, partió desde la Estación de Trenes de La Plata y, en el marco de la movilización, señaló: “Las mujeres luchamos y nos encontramos para defender los derechos conquistados. Ellos saben que tenemos capacidad de movilizarnos, de construir con alegría, masivamente y en nuestros barrios. La causa de ellos es el odio: una causa individualista, que no tiene una convocatoria que abrace” y agregó: “Tener un Ministerio es producto de la lucha en las calles y por eso participamos”.
+                                                </p>
+                                                <br>
+                                                <p>A su vez, la jefa de Asesores del Gobernador de la provincia de Buenos Aires, Cristina Álvarez Rodríguez sostuvo: “Las mujeres y diversidades tenemos un rol muy importante en la defensa de una provincia y de un país más justo e inclusivo. Porque históricamente las políticas de ajuste recayeron con más fuerza sobre nosotras y porque durante los últimos años hemos protagonizado la lucha por los derechos y la igualdad”.
+                                                </p>
+                                                <br>
+                                                <p>La jefa de Gabinete de la municipalidad de Avellaneda, Magdalena Sierra, afirmó: “Este 8M nos encuentra nuevamente en las calles, unidas para decirle NO al DNU de Milei y en contra del recorte de nuestros derechos. Las mujeres bonaerenses vamos a resistir con fuerza para defender nuestras conquistas y seguir construyendo una patria libre, con equidad y, por sobre todas las cosas, profundamente feminista”.
+                                                </p>
+                                                <br>
+                                                <p>También se expresó la Secretaria de Mujeres, Géneros e Infancias del municipio de San Martín, Marcela Ferri, quien señaló: “Este 8 de marzo más que nunca nos manifestamos por una patria justa, igualitaria y libre de violencias y contra el ajuste del Gobierno nacional. Renovamos la lucha por nuestros derechos, los conquistados y los que nos quedan por conquistar. Fue muy emocionante venir todas juntas desde San Martín para encontrarnos con la columna de Mujeres Bonaerenses”.</p>
+                                                <br>
+                                                <p>“Esta jornada muestra la vitalidad y la fortaleza de este feminismo popular y de las mujeres organizadas en todo nuestro territorio para decir que estamos presentes, en las calles y vamos a seguir defendiendo los derechos conquistados”, concluyó la ministra Estela Díaz.</p>
+                                                <br>
+                                            </div>
+                                        </div>
+                                </article>
+                            </li>
+                        </ul>
+                    </div>
+
+
+                    {{-- columna de la derecha chica --}}
+                    <aside>
+                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                            <div class=" col-span-6">
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/recurso 1.png') }}" alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/APSE.gif') }}" alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
+                                        alt="">
+                                </a>
+
+
+
+                                <div id="app">
+
+                                    <div v-for="item in info">
+
+                                        <div class="flex-col pb-3">
+                                            <div
+                                                class="flex-col max-w-sm  border  border-gray-700 rounded-lg shadow bg-gray-800">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg"
+                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
+                                                        alt="" />
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5 class="mb-2 text-2xl font-bold tracking-tight  text-white">
+                                                            @{{ item.title }}</h5>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div v-for="va in clima">
+
+                                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-white">
+                                            @{{ va }}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+
+                </div>
+
+            </section>
         @endif
     </div>
 
@@ -2465,7 +2570,7 @@
                 mounted() {
 
 
-                    axios.get("https://api.dailymotion.com/videos?channel=news&limit=3")
+                    axios.get("https://api.dailymotion.com/videos?channel=news&limit=2")
                         .then(response => {
                             this.info = response.data.list
                         });

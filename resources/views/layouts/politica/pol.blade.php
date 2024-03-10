@@ -1,5 +1,113 @@
 <x-app-layout>
     <div class="container ">
+        {{-- APOYO A LA REVISTA ANFIBIA--}}
+<section>
+    <ul>
+        <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+            <article>
+                <div class="py-4 px-4 justify-between items-center">
+                    <h2 class="text-xl font-serif  font-bold pb-6">
+                        <a href="">SOLIDARIDAD EN LA ADVERSIDAD: APOYO A LA REVISTA ANFIBIA TRAS EL INCENDIO</a>
+                    </h2>
+                    <p class="font-light  text-right text-gray-500">Publicado: 07/03/2024</p>
+                    <div class=" font-sans text-lg text-left col-span-6  ">
+                    <p>En la madrugada del 5 de marzo de 2024, la redacción de la Revista ANFIBIA quedó reducida a cenizas. Pareciera que un cortocircuito se llevó el sueño de 12 años de un grupo de periodistas y trabajadores de prensa, que con pasión y compromiso sostuvieron a lo largo de este tramo de la historia, construyendo una comunidad de lectores no solamente en nuestro país sino en el mundo entero. ANFIBIA se había constituido en una publicación de excelencia, creando una manera de narrar y retratar la coyuntura que los distinguió por sus exquisitos textos y sus cuidadas temáticas. La revista depende de la Universidad Nacional de San Martín (UNSAM).
+                    </p>
+                    <br>
+                    {{-- <article>
+                        <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/_bPQiSzfFxo?si=dNK9SBhfeNQ6hqYP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        
+                    </article> --}}
+                    <figure>
+                        <img class="w-full object-cover"
+                            src="{{ asset('../img/pol/pol_anfi.svg') }}" alt="">
+
+                    </figure>
+                    <br>
+                    <div
+                        class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                        <div class=" font-sans text-lg text-left col-span-6  ">
+                            <p>ADN Populares y la Cooperativa El Faro Comunicaciones se solidarizan con el colega Cristian Alarcón, director de la publicación, y con todos los trabajadores del medio siniestrado, con la certeza de que más temprano que tarde, volveremos a disfrutar esas lecturas imprescindibles.
+                            </p>
+                            <br>
+                            <p>ANFIBIA lanzó de inmediato la campaña "DAME EL FUEGO DE TU AMOR", de apoyo económico. Desde Argentina, se pueden hacer aportes solidarios a la cuenta: cuenta.cronos y desde el exterior por medio de PayPal: paypal.me/revistaanfibia.
+                            </p>
+                            <br>
+                            <p>Por más periodismo, por más libertad de prensa, por más libertad de expresión.
+                            </p>
+                            <br>
+                            
+                            <div class="text-start object-center">
+                                <figure>
+                                    <img class="w-28 h-28  "
+                                        src="{{ asset('../img/der/Adri.svg') }}" alt="">
+
+                                    <p> <strong>Adriana Zerdín</strong></p>
+
+                                </figure>
+                            </div>
+                        </div>
+            </article>
+        </li>
+    </ul>
+</section>
+{{-- MAYRA CONTRA EL AJUSTE DEL GOBIERNO NACIONAL--}}
+<section>
+    <ul>
+        <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+            <article>
+                <div class="py-4 px-4 justify-between items-center">
+                    <h2 class="text-xl font-serif  font-bold pb-6">
+                        <a href="">MAYRA CONTRA EL AJUSTE DEL GOBIERNO NACIONAL: “VAMOS A DEFENDER A LOS QUILMEÑOS”</a>
+                    </h2>
+                    <p class="font-light  text-right text-gray-500">Publicado: 07/03/2024</p>
+                    <div class=" font-sans text-lg text-left col-span-6  ">
+                    <p>La intendenta de Quilmes, Mayra Mendoza, encabezó este martes la apertura del período 142º de sesiones ordinarias del Honorable Concejo Deliberante (HCD) de Quilmes, que tuvo lugar en el Teatro Municipal, ubicado en la calle Mitre 721, en Quilmes Centro.
+                    </p>
+                    <br>
+                    <article>
+                        <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/YElDMxWtpio?si=B21D4BO6vjuKVj0Z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        
+                    </article>
+                    {{-- <figure>
+                        <img class="w-full object-cover"
+                            src="{{ asset('../img/pol/pol_anfi.svg') }}" alt="">
+
+                    </figure> --}}
+                    <br>
+                    <div
+                        class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                        <div class=" font-sans text-lg text-left col-span-6  ">
+                            <p><b>La intendenta de Quilmes, Mayra Mendoza, destacó en su discurso el respaldo recibido en las elecciones de octubre y agradeció la confianza de los ciudadanos, resaltando que su gobierno es el segundo en la historia democrática en revalidar su mandato y el primero en lograrlo con más del 50% de los votos.</b>
+                            </p>
+                            <br>
+                            <p>En relación al recorte de fondos a las provincias, la intendenta advirtió sobre los problemas presupuestarios que enfrenta la Provincia de Buenos Aires debido a la desigual distribución establecida por la coparticipación nacional. Subrayó la necesidad de defender y recuperar los fondos que le corresponden a la Provincia, destacando que a pesar de ser el 38% de la población del país y aportar el 40% de los recursos coparticipables, solo se les devuelve el 22%.
+                            </p>
+                            <br>
+                            <p>Mendoza también se refirió a los efectos del primer período de gestión del Gobierno nacional, mencionando el ajuste sobre trabajadores y jubilados, la caída del consumo, la recesión y la inflación desmedida. Ante esta situación, enfatizó las dificultades que implicaría para el municipio la falta de acompañamiento del Estado Nacional en los próximos años.
+                            </p>
+                            <br>
+                            <p>En un llamado a la unidad, la intendenta afirmó que es imprescindible que todos los intendentes, legisladores y la comunidad bonaerense en su conjunto defiendan la posición del gobernador para lograr una justa recuperación de fondos, sin perjudicar a ninguna otra provincia pero en defensa de los bonaerenses.</p>
+                            <br>
+                            <p>En cuanto a los proyectos futuros, Mendoza destacó la continuidad del plan de pavimentos e infraestructura deportiva, la construcción de la primera Veterinaria Municipal, la bajada de la autopista en Ezpeleta y la creación de una Biblioteca y Espacio Cultural en el barrio IAPI. Además, subrayó la política en materia de seguridad, anunciando la compra de más patrulleros, cámaras y lectores de patentes.</p>
+                            <br>
+                            <p>En el cierre de su discurso, la intendenta llamó a construir una nueva mayoría popular que resuelva los problemas estructurales de Argentina y a dar la discusión en todos los barrios, escuchando y hablando con cada vecino. Participaron en la actividad diversas personalidades políticas y funcionarios, así como vecinos y militantes.</p>
+                            <br>
+                            
+                            <div class="text-start object-center">
+                                {{-- <figure>
+                                    <img class="w-28 h-28  "
+                                        src="{{ asset('../img/der/Adri.svg') }}" alt="">
+
+                                    <p> <strong>Adriana Zerdín</strong></p>
+
+                                </figure> --}}
+                            </div>
+                        </div>
+            </article>
+        </li>
+    </ul>
+</section>
         {{-- VICTORIA TOLOSA PAZ: “MILEI ES UN SECUESTRADOR Y EXTORSIONADOR”--}}
 <section>
     <ul>

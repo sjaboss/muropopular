@@ -3822,6 +3822,129 @@
                     </aside>
                 </div>
             </section>
+        @elseif ($tituloSep == 'Sociedad-Noticia-Completa-soc28')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">JAVIER MILEI, ¿UN NUEVO SAVONAROLA?</a>
+                                        </h2>
+                                        <p class="font-light  text-right text-gray-500">Publicado: 07/03/2024</p>
+                                        <div class=" font-sans text-lg text-left col-span-6  ">
+                                        <p>En 1494, en la Florencia renacentista, llegó al poder Girolamo Savonarola, un fray dominicano carismático que instituyó un régimen despótico inspirado en ideas religiosas ultramontanas. Accedió al gobierno criticando los excesos de los ricos y prometiendo combatir la corrupción de la Iglesia, algo que agradaba al pueblo, así como Milei se impuso en el balotaje con la promesa de acabar con “la casta” política y los privilegios de “los de siempre”. En ambos casos, fueron promesas incumplidas ya que terminaron aliándose a la flor y nata de los que proclamaban combatir: los Médicis en Florencia y Macri, capitán de la ‘patria contratista’ en Argentina.
+                                        </p>
+                                        <br>
+                                        <figure>
+                                            <img class="w-full object-cover" src="../img/soc/soc_savo1.svg"
+                                                alt="">
+                                        </figure>
+                                        {{-- <article>
+                                            <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/UqID0Ip36fk?si=YLUh3qCeGsHV25ll" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                            
+                                        </article> --}}
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                                <p>Si trazamos un paralelismo entre ambas figuras políticas, podemos ver que si el gobernante florentino,  prometía la salvación eterna a cambio de despojarse de los placeres mundanos (como las fiestas populares, la literatura, la pintura, las ropas suntuosas, etc.), por su vez, Javier Milei, en nombre del “dios mercado”, promete la prosperidad futura siempre que nos resignemos a abandonar los “lujos” en el presente, tales como salir de vacaciones, ir al cine, llenar el tanque de combustible, tener salud y transporte, etc.
+                                                </p>
+                                                <br>
+                                                <p>En lo político, ambas figuras también se asemejan: así como Savonarola usaba al Papa Alejandro VI como blanco de críticas para  construir y legitimar su poder, Milei (como lo hizo Macri entre 2015-2019) se vale de la figura de los Kirchner. El hombre nacido en Ferrara, por otro lado, tenía “enemigos menores” como los clérigos apóstatas y los nobles corruptos, así como Milei se la carga contra los sindicalistas, los herejes populistas…. o socialistas/comunistas y/o keynesianos, etc.</p>
+                                                <br>
+                                                <p>En su mesianismo teocrático extremo, Savonarola defendía que Cristo era el Rey de Florencia y que la ciudad debía ser gobernada por principios religiosos, contraponiendo el ascetismo religioso a la Renascenza italiana.  En su mesianismo economicista, Milei desprecia las normas de la administración pública (que muchas veces desconoce) que rigen el funcionamiento del Estado y propone suplantarlas por las alocadas soluciones dictadas por la escuela austríaca de economía, que de tan radicales nunca fueron aplicadas íntegramente en ningún país.
+                                                </p>
+                                                <br>
+                                                <p>Para su propósito moralizador, Savonarola organizaba la ‘hoguera de las vanidades’ en la plaza della Signoria en la que quemaba los objetos suntuosos ofrecidos por la nobleza o decomisados por las milicias de sus firmes seguidores. También le cortaba la lengua a los blasfemos, creó un impuesto para quienes llevasen una vida desordenada y una pena pesadísima para los homosexuales. En el mismo sentido, aunque minorado por los tiempos modernos, el mandatario argentino destruye reputaciones con su ejército de trolls y periodistas acólitos, corta planes sociales a los “planeros”, no entrega medicamentos a quienes los necesitan, despide masivamente a los “parásitos” del estado (aunque luego contrata los propios), cierra los medios públicos y, no contento, prohíbe el uso del lenguaje inclusivo, entre otras cosas.
+                                                </p>
+                                                <br>
+                                                <p>Como dato curioso, la prédica de Savonarola no solo ‘encantaba’ al pueblo sino también a los poderosos, cansados del poder de la Iglesia ‘corrupta’, así como la de Milei, que llega a vastos sectores populares y medios de la sociedad pero también a un gran sector del empresariado cansado de la ‘corrupción opresiva’ del Estado.
+                                                </p>
+                                                <br>
+                                                <figure>
+                                                    <img class="w-full object-cover" src="../img/soc/soc_savo2.svg"
+                                                        alt="">
+                                                </figure>
+                                                <br>
+                                                <p>La "República de Savonarola" duró relativamente poco tiempo, de 1494 a 1498, cuando fue excomulgado por la iglesia, encarcelado, torturado y condenado a muerte por herejía y sedición y quemado en la piazza della Signoria por el pueblo cansado de su tiranía. En los tiempos modernos, en los que no se quema o ahorca a los gobernantes en plaza pública, Javier Milei puede perecer en la “hoguera mediática” en 4 años de gobierno.</p>
+                                                <br>
+                                                <p>Sin embargo, lo que más los asemeja es que ni Savonarola ni Milei pretendían o pretenden gobernar administrando justicia y terciando en los conflictos de intereses, existentes en toda sociedad, como un gobernante normal haría. En última instancia, ambos desprecian al pueblo que los llevó al poder porque están imbuidos de un mesianismo sin par, una fe ciega en sus dogmas, teocráticos uno y mercadológicos el otro, y quieren pasar a la historia como los que sacrificaron sus vidas en esa empresa. Savonarola, a su manera, ya lo consiguió y hoy tiene una modesta estatua en su Ferrara natal. Ojalá el argentino no tenga tanta suerte.</p>
+                                                <br>
+                                               
+                                                <div class="text-start object-center">
+                                                    <figure>
+                                                        <img class="w-28 h-28  "
+                                                            src="{{ asset('../img/noteros/Ramiro.svg') }}"
+                                                            alt="">
+                                                        
+                                                        <p> <strong>Nota de Ramiro Caggiano Blanco</strong></p>
+
+                                                    </figure>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+                            </li>
+                        </ul>
+                        <br>
+                    </div>
+
+
+                    {{-- columna de la derecha chica --}}
+                    <aside>
+                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                            <div class=" col-span-6">
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/bener-leg2.png') }}"
+                                        alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
+                                        alt="">
+                                </a>
+
+                                <div id="app">
+
+                                    <div v-for="item in info">
+
+                                        <div class="flex-col pb-3">
+                                            <div
+                                                class="flex-col max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg"
+                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
+                                                        alt="" />
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5
+                                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                                            @{{ item.title }}</h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div v-for="va in clima">
+
+                                        <h5
+                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                            @{{ va }}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+                </div>
+            </section>
     @endif
 
     </div>
@@ -3844,7 +3967,7 @@
                 mounted() {
 
 
-                    axios.get("https://api.dailymotion.com/videos?channel=news&limit=3")
+                    axios.get("https://api.dailymotion.com/videos?channel=news&limit=7")
                         .then(response => {
                             this.info = response.data.list
                         });

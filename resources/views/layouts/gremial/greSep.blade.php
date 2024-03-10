@@ -2574,6 +2574,110 @@
                 </div>
 
             </section>
+        @elseif ($tituloSep == 'Gremiales-Noticia-Completa-gre20')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">TRABAJADORES METALÚRGICOS RECLAMAN A ACINDAR POR PARÁLISIS Y DESPIDOS
+
+                                            </a>
+                                        </h2>
+                                        <p class="font-light  text-right text-gray-500">Publicado: 07/03/2024</p>
+                                        <div class=" font-sans text-lg text-left col-span-6  ">
+                                        <p><i>La fábrica permaneció paralizada en marzo, generando despidos y preocupación entre los trabajadores</i>
+                                        </p>
+                                        <br>
+                                        <article>
+                                            <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/OT4oMYWRJFs?si=554nnw0P_8LKa125" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                            
+                                        </article>
+                                        {{-- <figure>
+                                            <img class=" w-full object-cover" src="../img/grem/grem_noe2.svg"
+                                                alt="">
+                                        </figure> --}}
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+                                                <p>En Villa Constitución, trabajadores metalúrgicos y diversos gremios se han manifestado frente a la empresa siderúrgica Acindar, en reclamo por la parálisis que sufrió la fábrica durante el mes de marzo. La situación ha generado despidos por goteo y una profunda incertidumbre laboral en la región. 
+                                                </p>
+                                                <br>
+                                                <p>Los trabajadores expresan su preocupación por la falta de respuestas por parte de la empresa ante esta situación, que afecta no solo a los empleados directos, sino también a la economía local ya las familias que dependen de la actividad de la fábrica.
+                                                </p>
+                                                <br>
+                                                <p>La manifestación y el corte de ruta buscan visibilizar esta problemática y exigir a Acindar que tome medidas concretas para garantizar la continuidad de la producción y el empleo en la región. Los trabajadores han manifestado su disposición a continuar con las medidas de fuerza si no obtienen respuestas satisfactorias por parte de la empresa.
+                                                </p>
+                                                <br>
+                                            </div>
+                                        </div>
+                                </article>
+                            </li>
+                        </ul>
+                    </div>
+
+
+                    {{-- columna de la derecha chica --}}
+                    <aside>
+                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                            <div class=" col-span-6">
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/bener-leg2.png') }}"
+                                        alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/APSE.gif') }}" alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
+                                        alt="">
+                                </a>
+
+
+
+                                <div id="app">
+
+                                    <div v-for="item in info">
+
+                                        <div class="flex-col pb-3">
+                                            <div
+                                                class="flex-col max-w-sm  border  border-gray-700 rounded-lg shadow bg-gray-800">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg"
+                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
+                                                        alt="" />
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5 class="mb-2 text-2xl font-bold tracking-tight  text-white">
+                                                            @{{ item.title }}</h5>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div v-for="va in clima">
+
+                                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-white">
+                                            @{{ va }}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+
+                </div>
+
+            </section>
         @endif
     </div>
     {{-- aca arrancamos vue --}}
@@ -2591,7 +2695,7 @@
                 mounted() {
 
 
-                    axios.get("https://api.dailymotion.com/videos?channel=news&limit=2")
+                    axios.get("https://api.dailymotion.com/videos?channel=news&limit=1")
                         .then(response => {
                             this.info = response.data.list
                         });
