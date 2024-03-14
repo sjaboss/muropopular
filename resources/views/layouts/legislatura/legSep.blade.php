@@ -3146,6 +3146,222 @@
                 </div>
 
             </section>
+        @elseif ($tituloSep == 'Legislatura-Noticia-Completa-leg23')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">CANCILLER CROATA GORDAN GRLIĆ-RADMAN RECIBE RECONOCIMIENTO EN LA LEGISLATURA DE BUENOS AIRES</a>
+                                        </h2>
+                                        <p class="font-light  text-right text-gray-500">Publicado: 12/03/2024</p>
+                                        <p><i>En un acto protocolar lleno de significado, el Canciller de Croacia, Gordan Grlić-Radman, fue recibido en la Legislatura de la Ciudad de Buenos Aires por el Vicepresidente Primero, Matías López, quien le entregó un diploma en reconocimiento a su destacada labor diplomática y amplia experiencia en el ámbito internacional.</i></p>
+                                        <br>
+                                        <figure>
+                                            <a href="">
+                                                <img class="w-full object-cover object-center"
+                                                    src="{{ asset('../img/leg/leg_croata2.svg') }}" alt="">
+                                            </a>
+                                        </figure>
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                                <p>La visita, que contó con la presencia de la Embajadora croata en Argentina, Duska Paravic, fue organizada por el Subsecretario de Relaciones Internacionales y Cooperación Institucional, Dr. Pablo Garzonio, y la Directora General de Relaciones Internacionales, Ornela Vanzillotta. Además, asistieron al evento el Secretario de Gobierno y Vinculación Ciudadana de la Ciudad, César Torres, y numerosos legisladores locales.</p>
+                                                <br>
+                                                <p>Durante la ceremonia, el diputado Matías López destacó la importancia de la visita del Canciller Grlić-Radman como un reflejo de la larga tradición bilateral entre Croacia y Argentina, inspirada en valores compartidos y un profundo interés por fortalecer la amistad entre ambas naciones.</p>
+                                                <br>
+                                                <p>Por su parte, el Canciller agradeció el recibimiento en Buenos Aires y recordó la visita de la Presidenta de Croacia, Kolinda Grabar-Kitarović, en 2018, destacando la labor del Dr. Garzonio en la organización de ambos eventos. Asimismo, resaltó la importancia de estos encuentros para fortalecer las relaciones entre estados y expresó su reconocimiento por ser recibido en una ciudad con una rica historia y cultura como Buenos Aires.</p>
+                                                <br>
+                                                <p>La visita del Canciller Grlić-Radman a la Legislatura de Buenos Aires refleja la sólida relación entre Croacia y Argentina, marcada por vínculos turísticos, comerciales y educativos activos, así como por una importante comunidad croata en Argentina, estimada en alrededor de 250.000 personas entre descendientes. e inmigrantes.
+                                                </p>
+                                                <br>
+                                                <p>En sus palabras finales, el Canciller reafirmó el compromiso de Croacia en fortalecer las relaciones con las comunidades croatas en Argentina y expresó su deseo de seguir cultivando y fortaleciendo estos lazos en el futuro.</p>
+                                                <br>
+                                                <p>La presencia del Canciller Grlić-Radman en la Legislatura de Buenos Aires fue un momento destacado que subrayó la importancia de las relaciones internacionales y la diplomacia en el ámbito global.</p>
+                                                <br>
+                                            </div>
+
+
+
+                                        </div>
+                                    </div>
+                                </article>
+                            </li>
+                        </ul>
+                        <br>
+
+                    </div>
+
+
+                    {{-- columna de la derecha chica --}}
+                    <aside>
+                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                            <div class=" col-span-6">
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/bener-leg2.png') }}"
+                                        alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
+                                        alt="">
+                                </a>
+
+                                <div id="app">
+
+                                    <div v-for="item in info">
+
+                                        <div class="flex-col pb-3">
+                                            <div
+                                                class="flex-col max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg"
+                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
+                                                        alt="" />
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5
+                                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                                            @{{ item.title }}</h5>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div v-for="va in clima">
+
+                                        <h5
+                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                            @{{ va }}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+
+                </div>
+
+            </section>
+        @elseif ($tituloSep == 'Legislatura-Noticia-Completa-leg24')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">LA LEGISLATURA FIRMÓ UN ACUERDO CON LA JUNTA DEPARTAMENTAL DE MALDONADO DE URUGUAY</a>
+                                        </h2>
+                                        <p class="font-light  text-right text-gray-500">Publicado: 12/03/2024</p>
+                                        <p><i>El Palacio Legislativo suscribió a un convenio, con el objetivo de fortalecer la identidad rioplatense a nivel mundial y regional. Y aportar a la integración y progreso sociocultural y económico uruguayo-argentino.</i></p>
+                                        <br>
+                                        <figure>
+                                            <a href="">
+                                                <img class="w-full object-cover object-center"
+                                                    src="{{ asset('../img/leg/leg_uru2.svg') }}" alt="">
+                                            </a>
+                                        </figure>
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                                <p><b>La Legislatura de la Ciudad firmó un convenio con la Junta Departamental de Maldonado, Uruguay</b>. El evento se realizó en el Salón Eva Perón y fue organizado por la Dirección General de Relaciones Internacionales y Cooperación. Además se llevó a cabo un intercambio de presentes protocolares.</p>
+                                                <br>
+                                                <p><b>Allí participaron el Vicepresidente Primero y el Vicepresidente Segundo del Palacio Legislativo, Matías López y Matías Lammens; la diputada, Patricia Glize; el Subsecretario y la Directora General de Relaciones Internacionales y Cooperación Institucional, Pablo Garzonio y Ornela Vanzillotta; y la Directora Ejecutiva de Legislatura Conectadas Diputados, Elizabeth Leites. Mientras que los presentes de Maldonado fueron el Presidente de dicha junta, Alexandro Infante Caballero; además del Embajador, Carlos Enciso Christiansen.</b></p>
+                                                <br>
+                                                <p>En el inicio de las alocuciones, López dio la bienvenida a la Legislatura. “Es un placer y un orgullo ser el último eslabón de este importante convenio, este es el paso incial”, resaltó el Vicepresidente Primero. Y destacó el trabajo realizado desde el Palacio Legislativo: “Tenemos una Legislatura con diálogo y consenso para sacar leyes que le sirvan a la gente, tenemos un lindo desafío por delante”.</p>
+                                                <br>
+                                                <p>Por su parte, Infante Caballero señaló la relación entre Argentina y Uruguay, en específico con el departamento de Maldonado: “Los argentinos son fuente de trabajo, de educación, comida arriba de la mesa y progreso para nuestras familias. Cómo no tener un convenio de estas características con tantas cosas en común, desde lo económico y social”. Y concluyó: “Este convenio es extremadamente importante para nosotros porque no solo es firmarlo, sino ponerlo a andar. Hoy no solo empezamos, sino que continuamos”.
+                                                </p>
+                                                <br>
+                                                <p>El acuerdo promueve la cooperación y el intercambio bilateral “para el fortalecimiento de la identidad rioplatense a nivel regional y mundial, así como de las instituciones que la promuevan”. Entre sus objetivos se destacan el aportar a la integración y progreso sociocultural y económico uruguayo-argentino.</p>
+                                                <br>
+                                                <p>El convenio de Cooperación e Intercambio se regirá por un total de once cláusulas, en donde se resalta el hecho de “mantener una relación fluida de comunicación y cooperación permanente basada en los principios de respeto, transparencia y apoyo mutuo”. Y el fomento de programas, acuerdos y alianzas con organizaciones de los sectores público y privado que propicie los objetivos convenidos.</p>
+                                                <br>
+                                                <p>Además de priorizar en su defensa los Derechos Humanos y Cívicos. En especial el Derecho al Desarrollo que garantiza la inclusión de todas las personas humanas como protagonistas del progreso y beneficiarios de sus resultados. Respecto a la cooperación técnica, se prevé la cooperación técnica “en materias relacionadas con el derecho internacional, la normalización de marcos para el desarrollo de políticas públicas de integración y cooperación”. Y que tendrán lugar bajo las modalidades de congresos, jornadas, asistencias técnicas y asesoramiento, entre otras.</p>
+                                                <br>
+                                                <p>A su vez se realizarán intercambios formativos de excelencia para el fortalecimiento de sus instituciones, que tendrán como eje fundamental el desempeño idóneo de la función pública y las buenas prácticas a través de seminarios y cursos. Y se crearán las Unidades Mixtas de Formación para el Progreso, que centrarán sus acciones en la formación de técnicos y profesionales para el desempeño de funciones parlamentarias, de organización y desarrollo institucional.</p>
+                                                <br>
+                                            </div>
+
+
+
+                                        </div>
+                                    </div>
+                                </article>
+                            </li>
+                        </ul>
+                        <br>
+
+                    </div>
+
+
+                    {{-- columna de la derecha chica --}}
+                    <aside>
+                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                            <div class=" col-span-6">
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/bener-leg2.png') }}"
+                                        alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
+                                        alt="">
+                                </a>
+
+                                <div id="app">
+
+                                    <div v-for="item in info">
+
+                                        <div class="flex-col pb-3">
+                                            <div
+                                                class="flex-col max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg"
+                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
+                                                        alt="" />
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5
+                                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                                            @{{ item.title }}</h5>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div v-for="va in clima">
+
+                                        <h5
+                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                            @{{ va }}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+
+                </div>
+
+            </section>
         @endif
 
     </div>

@@ -1,8 +1,151 @@
 <x-app-layout>
     <div class="container ">
+        {{--      CONTAME UNA PELI, DALE… --}}
+<section>
+    <ul>
+        <li class=" bg-white rounded-lg shadow ">
+            <article>
+                <div class="py-4 px-4 justify-between items-center">
+                    <h2 class="text-xl font-serif  font-bold pb-6">
+                        <a href="">CONTAME UNA PELI, DALE…
+                        </a>
 
-         {{--      COMPLICIDADES EMPRESARIALES DURANTE LA DICTADURA CÍVICO MILITAR ECLESIAL --}}
-         <section>
+                    </h2>
+                    <div
+                        class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                        <div class=" font-sans text-lg text-left col-span-6  ">
+
+                            <p><i>Nombres, simples nombres , que aquellos que toman decisiones de recortes presupuestarios, de cierres de Agencias de Noticias oficiales, de privatizaciones a mansalva, de despidos, y de destrucción de fuentes de trabajo, seguramente jamás habrán escuchado estos nombres. Tampoco les importa.</i></p>
+                            <br>
+                            <figure>
+                                <a href="">
+                                    <img class="w-full object-cover object-center"
+                                        src="{{ asset('../img/der/der_cine2.svg') }}"alt="">
+                                </a>
+                            </figure>
+                            {{-- <p class="font-light text-gray-500">Foto: La Tinta</p> --}}
+                            <br>
+                            <p>Hubo unos Sergei Eisenstein , Sergeí  Bondarchuk, Andrej Tarkovski, Nikita Mihajlkov, que hicieron la gran historia del cine desde los inicios de la revolución del 17.
+                            </p>
+                            <br>
+                            <p>Otros, revolucionaron la manera de contar historias  con la “nouvelle vague” francesa: Jean Luc Godard, Francois Trufaut,  y luego Anges Varda y Claude Lelouche. </p>
+                            <br>
+                            <p>Los impecables y rigurosos ingleses Ken Loach, Ridley Scott, Anthony Minghella, y Emma Thomson.</p>
+                            <br>
+                            <p>Desde la descomunal Italia conocimos a Federico Fellini, Pier Paolo Passolini, Paolo Sorrentino, Liliana Cavani, Lina Wertmuller, Vittorio de Sica.
+                            </p>
+                            <br>
+                            <p>Todos y todas  cineastas, realizadores, artistas audiovisuales, con un denominador común: la    pasión por contar historias a través de la pantalla con la clara convicción que  el cine era soberanía cultural.</p>
+                            <br>
+                            <p>Desde el  principio de los tiempos, el homo sapiens devenido en lo que llamamos genéricamente  varones y mujeres, sintió la necesidad atávica de dejar plasmado el arte  como rastro y evidencia de su tiempo.</p>
+                            <br>
+                            <p>Y fue en esta Patria, la nuestra,  que  talentos como María Luisa Bemberg, Lucrecia Martel, Juan José Campanella, Pino Solanas, Adolfo Aristarain, Leopoldo Torre Nilsson, Leonardo Favio, Marcelo Piñeyro, Eliseo Subiela, Luis Puenzo, Lorena Muñoz, Lucía Puenzo, Fernando Birri, Eduardo Mignogna, y siguen. Son miles aquellos que tuvieron el talento, la necesidad y la claridad que narrar historias representativas de nuestra cultura que serían legado  para las futuras generaciones. Dejar en el celuloide una manera de vivir, de hablar, de gestualizar, de vestir, de transcurrir la historia que les tocaba transitar en el camino de la vida.</p>
+                            <br>
+                            <p>Como pregunta de rigor, y a partir del desmantelamiento del INCAA, de la escuela de Cine ENERC, única gratuita , de excelencia y mundialmente reconocida, del desafectamiento del emblemático Cine Gaumont, todo por parte del actual y transitorio gobierno nacional, qué dejaremos a los jóvenes como acervo de este tiempo tan particular, bizarro, destructor de lo que nos pertenece a todos y a todas. Cómo remontar la crueldad de los que deciden estas medidas, que muy lejos de ser exponentes  de la industria, del arte y de la sensibilidad que exige ser artista.</p>
+                            <br>
+                            <p>No habrá más fomento al cine, no habrá más salas oficiales, no habrá más festivales, no habrá más cine.</p>
+                            <br>
+                            <p>Corto mano, corto fierro, cuando cierren todo nadie lo contará con una peli…por ahora.</p>
+                            <br>
+
+                            <figure>
+                                <img class="w-28 h-28 ml-10  object-cover"
+                                    src="{{ asset('../img/der/Adri.svg') }}" alt="">
+                                <p> <strong> Nota por Adriana Zerdín </strong></p></a>
+
+                            </figure>
+
+
+                        </div>
+                    </div>
+
+
+
+                </div>
+            </article>
+        </li>
+    </ul>
+</section>
+<br><br>
+{{--      COMUNICADO DE LOS ORGANISMOS DEFENSORES DE DERECHOS HUMANOS --}}
+<section>
+    <ul>
+        <li class=" bg-white rounded-lg shadow ">
+            <article>
+                <div class="py-4 px-4 justify-between items-center">
+                    <h2 class="text-xl font-serif  font-bold pb-6">
+                        <a href="">COMUNICADO DE LOS ORGANISMOS DEFENSORES DE DERECHOS HUMANOS
+                        </a>
+                    </h2>
+                    <div
+                        class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                        <div class=" font-sans text-lg text-left col-span-6  ">
+
+                            <p><i>Ante el inminente riesgo de interrumpir las tareas de los Sitios de Memoria </i></p>
+                            <br>
+                            <figure>
+                                <a href="">
+                                    <img class="w-full object-cover object-center"
+                                        src="{{ asset('../img/der/der_sitio.svg') }}"alt="">
+                                </a>
+                            </figure>
+                            {{-- <p class="font-light text-gray-500">Foto: La Tinta</p> --}}
+                            <br>
+                            <p>Los organismos defensores de derechos humanos abajo firmantes expresamos nuestra honda preocupación ante la posibilidad de que no sean renovados los contratos laborales de las y los trabajadores de los Sitios de Memoria Automotores Orletti, Club Atlético, Famaillá, Faro de la Memoria, El Olimpo, Regimiento de Infantería 9 y Virrey Cevallos -todos ellos ex centros clandestinos de detención, tortura y exterminio-.
+                            </p>
+                            <br>
+                            <p>Desde diferentes jurisdicciones pero con idéntico compromiso en la preservación de las memorias sobre el pasado reciente, esos trabajadores han practicado desde la creación de los Sitios de Memoria una valiosa tarea de estrategias pedagógicas, talleres educativos y visitas guiadas acompañados por miles de visitantes e investigadores nacionales y extranjeros, alumnos de todos los niveles educativos y familiares de víctimas de desaparición forzada. Dicha tarea de formación ciudadana y en derechos humanos, no interrumpida en la transición entre el gobierno de Cristina Fernández de Kirchner y Mauricio Macri, se halla ahora en el actual contexto de medidas gubernamentales en serio peligro de interrupción.</p>
+                            <br>
+                            <p>Recordamos al gobierno de Javier Milei algo elemental pero que parece  haber olvidado: las y los argentinos hemos votado en 1994 una Constitución de la Nación, en que se incluyen los más importantes tratados internacionales de defensa de los derechos humanos; las leyes aprobadas por las Honorables Cámaras de Diputados y Senadores no pueden ser incumplidas salvo mediante su anulación por otras leyes; la Ley Nacional Ley 26.691 (julio de 2011) declara Sitios de Memoria del Terrorismo de Estado a los lugares que funcionaron como centros clandestinos de represión ilegal; asimismo, otras medidas oficiales designan y protegen a estos Sitios, a saber:</p>
+                            <br>
+                            <p>Automotores Orletti. Es declarado “de utilidad pública y sujeto a expropiación” por Ley 2112 de la Ciudad Autónoma de Buenos Aires (año 2006). Se concreta la recuperación de su espacio en marzo de 2009; es declarado Lugar Histórico Nacional por el Decreto presidencial 1762/2014.
+                            </p>
+                            <br>
+                            <p>Club Atlético: es declarado Sitio Histórico por la Ley 1794 de la Ciudad de Buenos Aires (año 2005) y Lugar Histórico Nacional por el Decreto presidencial 1762/2014.</p>
+                            <br>
+                            <p>Escuelita de Famaillá: se decide la asistencia mutua y el resguardo de este Espacio para la Memoria por Convenio 599/2013 (marzo de 2022) firmado por autoridades en Tucumán.</p>
+                            <br>
+                            <p>Faro de la Memoria de Mar del Plata: es declarado Patrimonio Cultural de la Provincia de Buenos Aires como Bien de Interés Histórico-Testimonial por la Ley Provincial 13.836 (año 2015) y Sitio Histórico Nacional por Ley Nacional 27.127 (marzo de 2015). </p>
+                            <br>
+                            <p>El Olimpo. Es declarado declaró Sitio Histórico por Ley 1.197 de la Ciudad de Buenos Aires 1.197 (diciembre de 2003) y Lugar Histórico Nacional por el Decreto presidencial 1762/2014.</p>
+                            <br>
+                            <p>Regimiento de Infantería 9 Coronel Pagola. Su predio es asignado a la la Secretaría de Derechos Humanos para su uso como Espacio para la Memoria por Resolución 302/2022 de la Agencia de Administración de Bienes del Estado.</p>
+                            <br>
+                            <p>Virrey Cevallos. Es declarado Lugar Histórico Nacional por el Decreto presidencial 1762/2014.</p>
+                            <br>
+                            <p>Mantener estos sitios en pleno cumplimiento de sus objetivos es mantener el estado de Derecho en nuestro país.</p>
+                            <br>
+                            <p>Atentamente,</p>
+                            <br>
+                            <p>Madres de Plaza de Mayo Línea Fundadora</p>
+                            <p>Abuelas de Plaza de Mayo</p>
+                            <p>Asamblea Permanente por los Derechos Humanos</p>
+                            <p>Asamblea Permanente por los Derechos Humanos La Matanza</p>
+                            <p>Asociación Buena Memoria</p>
+                            <p>Comisión Memoria, Verdad y Justicia Zona Norte</p>
+                            <p>Familiares y Compañeros de los 12 de la Santa Cruz</p>
+                            <p>Fundación Memoria Histórica y Social Argentina</p>
+                            <p>Movimiento Ecuménico por los Derechos Humanos</p>
+                            <p></p>                 
+                        <figure>
+                            
+
+                            </figure> 
+
+
+                        </div>
+                    </div>
+
+
+
+                </div>
+            </article>
+        </li>
+    </ul>
+</section>
+<br><br>
+        {{--      COMPLICIDADES EMPRESARIALES DURANTE LA DICTADURA CÍVICO MILITAR ECLESIAL --}}
+        <section>
             <ul>
                 <li class=" bg-white rounded-lg shadow ">
                     <article>

@@ -1699,6 +1699,117 @@
                 </div>
 
             </section>
+        @elseif ($tituloSep == 'Internacionales-Noticia-Completa-int12')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">MEGAELECCIONES EN MÉXICO: DOS MUJERES LIDERAN LAS PREFERENCIAS</a>
+                                            {{-- <p class="font-light text-gray-500">Por Tubal Páez
+                                            </p> --}}
+                                            {{-- <p class="font-light text-gray-500">Presidente Honorario de la Unión de Periodistas de Cuba (UPEC) y de la Federación Latinoamericana de Periodistas (FELAP).
+                                            </p> --}}
+                                        </h2>
+                                        <p>Enfrentando el desafío histórico, México se prepara para unas elecciones trascendentales, donde Claudia Sheinbaum lidera las preferencias con un proyecto de continuidad y progreso.
+                                        </p>
+                                        <br>
+                                        <figure>
+                                            <img class=" w-full object-cover" src="../img/int/int_mexico2.svg"
+                                                alt="">
+
+                                        </figure>
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                                <p>A menos de tres meses de las elecciones presidenciales en México, dos candidatas han captado la atención y las preferencias de los ciudadanos. Claudia Sheinbaum, candidata oficialista, y Xóchitl Gálvez, opositora, se perfilan como las principales contendientes en una elección que se plantea en términos de continuidad o cambio.p>
+                                                <br>
+                                                <p>En un país donde casi 10 mujeres son asesinadas por día y miles más sufren violencia sexual, estas elecciones tienen un significado especial, ya que una de estas dos mujeres podría convertirse en la primera presidenta en la historia de México.</p>
+                                                <br>
+                                                <p>Con 97 millones de mexicanos convocados a las urnas para renovar 20,375 cargos federales, incluida la Presidencia de la República, los 500 escaños de la Cámara de Diputados y los 128 del Senado, así como nueve Gobiernos estatales, estas serán las elecciones más grandes en la historia del país.
+                                                </p>
+                                                <br>
+                                                <p>Claudia Sheinbaum, candidata por la coalición integrada por el partido oficialista Movimiento Regeneración Nacional (Morena), el Partido del Trabajo (PT) y el Partido Verde Ecologista de México (PVEM), lidera las encuestas. Presentando su plan de Gobierno desde el Zócalo de la Ciudad de México, Sheinbaum prometió dar continuidad al gobierno del actual mandatario López Obrador, asegurando que gobernará "con la obligada división entre poder político y poder económico" y prometió no someterse "a ningún poder económico". , político o extranjero".</p>
+                                                <br>
+                                                <p>Por su parte, Xóchitl Gálvez, candidata por la coalición Fuerza y ​​Corazón por México, que agrupa al Partido Acción Nacional, el Partido Revolucionario Institucional y el Partido de la Revolución Democrática, se presenta como la alternativa de cambio. Con un enfoque en la seguridad, promete construir una cárcel de máxima seguridad y duplicar el número de agentes de la Guardia Nacional.</p>
+                                                <br>
+                                                <p>En tercer lugar, y lejos de las encuestas, se encuentra al candidato Jorge Álvarez, representante del partido Movimiento Ciudadano (MC), quien también hace hincapié en el tema de la seguridad y la violencia en el país.</p>
+                                                <br>
+                                                <p>Estas elecciones representan un momento crucial para México, donde la decisión de los votantes podría determinar el rumbo del país en los próximos años. El apoyo a Claudia Sheinbaum y al modelo progresista que representa es una opción que promete mantener y fortalecer las políticas de inclusión, justicia social y desarrollo que han caracterizado al gobierno actual.</p>
+                                                <br>
+                                                
+                                            </div>
+
+
+
+                                        </div>
+                                    </div>
+                                </article>
+                            </li>
+                        </ul>
+                        <br>
+
+                    </div>
+
+
+                    {{-- columna de la derecha chica --}}
+                    <aside>
+                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                            <div class=" col-span-6">
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/bener-leg2.png') }}"
+                                        alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
+                                        alt="">
+                                </a>
+
+                                <div id="app">
+
+                                    <div v-for="item in info">
+
+                                        <div class="flex-col pb-3">
+                                            <div
+                                                class="flex-col max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg"
+                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
+                                                        alt="" />
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5
+                                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                                            @{{ item.title }}</h5>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div v-for="va in clima">
+
+                                        <h5
+                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                            @{{ va }}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+
+                </div>
+
+            </section>
         @endif
 
 

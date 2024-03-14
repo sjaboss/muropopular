@@ -39,15 +39,15 @@
                             <article>
                                 <figure>
                                     @php
-                                        $tituloSep = 'Gremiales-Noticia-Completa-gre18#gre18';
+                                        $tituloSep = 'Legislatura-Noticia-Completa-leg23#leg23';
                                     @endphp
                                     <a class="text-emerald-700 font-semibold hover:text-emerald-400 hover:underline"
-                                        href="{{ route('gremialSep.show', $tituloSep) }}">
+                                        href="{{ route('legislaturaSep.show', $tituloSep) }}">
                                         <img class="object-cover absolute block w-full  h-56 -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-                                            src="../img/grem/grem_cgtpario.svg" alt="">
+                                            src="../img/leg/leg_croata1.svg" alt="">
                                         <div class="py-2 px-4">
                                             <h2 class="text-lg font-serif">
-                                                <a href="{{ route('gremialSep.show', $tituloSep) }}">CGT: DEFENSA FIRME DE LOS TRABAJADORES FRENTE A POLÍTICAS LABORALES DEL GOBIERNO
+                                                <a href="{{ route('legislaturaSep.show', $tituloSep) }}">CANCILLER CROATA GORDAN GRLIĆ-RADMAN RECIBE RECONOCIMIENTO EN LA LEGISLATURA DE BUENOS AIRES
                                                 </a>
                                                 {{--     <p class="font-light text-gray-500"> Nota: Del Tomate A Sumido  </p> --}}
                                                 {{--  <p class="font-light mb-10 text-right text-gray-500">Publicado: 27/11/2023
@@ -64,15 +64,15 @@
                             <article>
                                 <figure>
                                     @php
-                                        $tituloSep = 'Legislatura-Noticia-Completa-leg21#leg21';
+                                        $tituloSep = 'Legislatura-Noticia-Completa-leg24#leg24';
                                     @endphp
                                     <a class="text-emerald-700 font-semibold hover:text-emerald-400 hover:underline"
                                         href="{{ route('legislaturaSep.show', $tituloSep) }}">
                                         <img class="object-cover absolute block w-full  h-56 -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-                                            src="../img/leg/leg_piel2.svg" alt="">
+                                            src="../img/leg/leg_uru1.svg" alt="">
                                         <div class="py-2 px-4">
                                             <h2 class="text-lg font-serif">
-                                                <a href="{{ route('legislaturaSep.show', $tituloSep) }}">SALVÁ TU PIEL, DE INTERÉS PARA LA CIUDAD 
+                                                <a href="{{ route('legislaturaSep.show', $tituloSep) }}">LA LEGISLATURA FIRMÓ UN ACUERDO CON LA JUNTA DEPARTAMENTAL DE MALDONADO DE URUGUAY 
                                                 </a>
                                                 <p class="font-light text-gray-500"></p>
                                                 {{--  <p class="font-light mb-10 text-right text-gray-500">Publicado: 27/11/2023
@@ -89,15 +89,15 @@
                             <article>
                                 <figure>
                                     @php
-                                        $tituloDer = 'Cultura-Noticia-Completa-cul16#cul16';
+                                        $tituloDer = 'Internacionales-Noticia-Completa-int12#int12';
                                     @endphp
                                     <a class="text-emerald-700 font-semibold hover:text-emerald-400 hover:underline"
-                                        href="{{ route('culturaSep.show', $tituloDer) }}">
+                                        href="{{ route('interSepNew.show', $tituloDer) }}">
                                         <img class="object-cover absolute block w-full h-56 -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-                                            src="{{ asset('../img/cul/cul_sandro.svg') }}" alt="">
+                                            src="{{ asset('../img/int/int_mexico1.svg') }}" alt="">
                                         <div class="py-2 px-4">
                                             <h2 class="text-lg font-serif">
-                                                <a h href="{{ route('culturaSep.show', $tituloDer) }}">FERNANDO SAMARTIN, HOMENAJE A SANDRO
+                                                <a h href="{{ route('interSepNew.show', $tituloDer) }}">MEGAELECCIONES EN MÉXICO: DOS MUJERES LIDERAN LAS PREFERENCIAS
                                                 </a>
                                             </h2>
                                             {{-- <p class="font-light  text-right text-gray-500">Publicado: 02/10/2023</p> --}}
@@ -117,23 +117,23 @@
                 <div>
                     <figure>
                         @php
-                            $tituloSep = 'Legislatura-Noticia-Completa-leg22#leg22';
+                            $tituloSep = 'Derechos-Humanos-Noticia-Completa-der12#der12';
                         @endphp
                         <a class="text-emerald-700 font-semibold hover:text-emerald-400 hover:underline"
-                            href="{{ route('legislaturaSep.show', $tituloSep) }}">
+                            href="{{ route('derechoSep.show', $tituloSep) }}">
                             <img class="h-48 w-full object-cover object-center"
-                                src="{{ asset('../img/leg/leg_ines.svg') }}" alt="">
+                                src="{{ asset('../img/der/der_sitio.svg') }}" alt="">
                         </a>
                     </figure>
                     <div class=" py-4 px-6">
                         <h1 class="text-lg font-serif ">
-                            <a href="{{ route('legislaturaSep.show', $tituloSep) }}">
-                                LA LEGISLADORA INÉS PARRY PRESENTÓ PROYECTO QUE EXPRESA EXTREMA PREOCUPACIÓN POR EL AJUSTE PRESUPUESTARIO EN LAS UNIVERSIDADES NACIONALES
+                            <a href="{{ route('derechoSep.show', $tituloSep) }}">
+                                COMUNICADO DE LOS ORGANISMOS DEFENSORES DE DERECHOS HUMANOS
                             </a>
                         </h1>
                         <p class="font-light  text-gray-500"></p>
                         <div class="pt-4">
-                            <p class="font-light  text-right text-gray-500">Publicado: 07/03/2024</p>
+                            <p class="font-light  text-right text-gray-500">Publicado: 12/03/2024</p>
                         </div>
 
                     </div>
@@ -142,25 +142,25 @@
                 <div>
                     <figure>
                         @php
-                            $tituloSep = 'Sociedad-Noticia-Completa-soc26#soc26';
+                            $tituloSep = 'Derechos-Humanos-Noticia-Completa-der13#der13';
                         @endphp
                         <a class="text-emerald-700 font-semibold hover:text-emerald-400 hover:underline"
-                            href="{{ route('sociedadSep.show', $tituloSep) }}">
+                            href="{{ route('derechoSep.show', $tituloSep) }}">
                             <img class="h-48 w-full object-cover object-center"
-                                src="{{ asset('../img/soc/soc_telam1.svg') }}" alt="">
+                                src="{{ asset('../img/der/der_cine1.svg') }}" alt="">
                         </a>
                     </figure>
                     <div class=" py-4 px-6">
                         <h1 class="text-lg font-serif ">
-                            <a href="{{ route('sociedadSep.show', $tituloSep) }}">
-                                EL SILENCIAMIENTO DE TÉLAM: UN GOLPE A LA LIBERTAD DE PRENSA
+                            <a href="{{ route('derechoSep.show', $tituloSep) }}">
+                                CONTAME UNA PELI, DALE…
                             </a>
-                            <p class="font-light text-gray-500">Por Gustavo Cano
+                            <p class="font-light text-gray-500">Por Adriana Zerdín
                             </p>
                         </h1>
                         <p class="font-light  text-gray-500"></p>
                         <div class="pt-4">
-                            <p class="font-light  text-right text-gray-500">Publicado: 07/03/2024</p>
+                            <p class="font-light  text-right text-gray-500">Publicado: 12/03/2024</p>
                         </div>
 
                     </div>
