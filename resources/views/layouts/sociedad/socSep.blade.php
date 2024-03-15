@@ -3945,6 +3945,231 @@
                     </aside>
                 </div>
             </section>
+        @elseif ($tituloSep == 'Sociedad-Noticia-Completa-soc29')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">TARIFAZO EN EL SUBTE: GOLPE AL BOLSILLO DE LOS TRABAJADORES</a>
+                                        </h2>
+                                        <p class="font-light  text-right text-gray-500">Publicado: 14/03/2024</p>
+                                        <div class=" font-sans text-lg text-left col-span-6  ">
+                                        <p>El exorbitante aumento de la tarifa del subte en Buenos Aires genera preocupación entre los usuarios y trabajadores, mientras persisten las deficiencias en el servicio.
+                                        </p>
+                                        <br>
+                                        <figure>
+                                            <img class="w-full object-cover" src="../img/soc/soc_tarifazo.svg"
+                                                alt="">
+                                        </figure>
+                                        {{-- <article>
+                                            <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/UqID0Ip36fk?si=YLUh3qCeGsHV25ll" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                            
+                                        </article> --}}
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                                <p>El anuncio del aumento desmesurado de la tarifa del subte ha generado una ola de indignación en la Ciudad de Buenos Aires. Con cifras que alcanzarían los $574 en abril, $667 en mayo y $757 desde junio, este incremento golpeará fuertemente los bolsillos de los usuarios, especialmente en un contexto económico ya de por sí difícil.
+                                                </p>
+                                                <br>
+                                                <p>La Asociación Gremial de Trabajadores del Subte y Premetro (AGTSYP Metrodelegadxs) ha expresado su preocupación por esta medida, señalando que a pesar de los aumentos, no se han visto mejoras significativas en el servicio. La frecuencia sigue siendo deficiente, los túneles se inundan con cada lluvia y se interrumpe el servicio con frecuencia. Además, se ha reducido el personal de atención al usuario, lo que afecta la calidad del servicio.</p>
+                                                <br>
+                                                <p>Este tarifazo no solo impacta en el día a día de los usuarios, sino que también representa un nuevo ajuste que afecta el ingreso de los trabajadores y trabajadoras. El transporte público es un derecho fundamental, y este aumento lo convierte en un bien cada vez más inaccesible para quienes dependen de él para llegar a sus trabajos o lugares de estudio.
+                                                </p>
+                                                <br>
+                                                <p>En medio de este escenario, la AGTSYP Metrodelegadxs ha anunciado su participación en la audiencia pública por el aumento, programada para el próximo 15 de marzo. Será una oportunidad para manifestar su rechazo a esta medida y exigir que se priorice la calidad del servicio y el acceso equitativo al transporte público en la ciudad.
+                                                </p>
+                                                <br>
+                                                
+                                                
+                                                <div class="text-start object-center">
+                                                    {{-- <figure>
+                                                        <img class="w-28 h-28  "
+                                                            src="{{ asset('../img/noteros/Ramiro.svg') }}"
+                                                            alt="">
+                                                        
+                                                        <p> <strong>Nota de Ramiro Caggiano Blanco</strong></p>
+
+                                                    </figure> --}}
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+                            </li>
+                        </ul>
+                        <br>
+                    </div>
+
+
+                    {{-- columna de la derecha chica --}}
+                    <aside>
+                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                            <div class=" col-span-6">
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/bener-leg2.png') }}"
+                                        alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
+                                        alt="">
+                                </a>
+
+                                <div id="app">
+
+                                    <div v-for="item in info">
+
+                                        <div class="flex-col pb-3">
+                                            <div
+                                                class="flex-col max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg"
+                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
+                                                        alt="" />
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5
+                                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                                            @{{ item.title }}</h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div v-for="va in clima">
+
+                                        <h5
+                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                            @{{ va }}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+                </div>
+            </section>
+        @elseif ($tituloSep == 'Sociedad-Noticia-Completa-soc30')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">ADN POPULARES LLEGA AL STREAMING: ¡UNA NUEVA ERA DE COMUNICACIÓN!</a>
+                                        </h2>
+                                        <p class="font-light  text-right text-gray-500">Publicado: 14/03/2024</p>
+                                        <div class=" font-sans text-lg text-left col-span-6  ">
+                                        <p>"ADN Populares" se renueva y llega al streaming con un equipo de conductores de lujo: Gustavo Cano, Pepo Benítez y Adriana Zerdin. Acompáñalos cada lunes a las 18:30 en Espacio Diagonal para disfrutar de un programa lleno de noticias, análisis, música y reflexiones. ¡No te lo pierdas!
+                                        </p>
+                                        <br>
+                                        <figure>
+                                            <img class="w-full object-cover" src="../img/soc/soc_adntv.svg"
+                                                alt="">
+                                        </figure>
+                                        {{-- <article>
+                                            <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/UqID0Ip36fk?si=YLUh3qCeGsHV25ll" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                            
+                                        </article> --}}
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                                <p>Desde el lunes 18 de marzo, todos los lunes a las 18:30, en Espacio Diagonal, el programa de radio "ADN Populares" da un gran paso hacia el futuro al llegar al mundo del streaming. A partir del próximo lunes, los seguidores de este programa de comunicación popular, comunitaria y contrahegemónica podrán disfrutarlo en un nuevo formato, accesible desde cualquier dispositivo con conexión a internet.
+                                                </p>
+                                                <br>
+                                                <p>Conducido por los comunicadores Gustavo Cano, Pepo Benítez y Adriana Zerdin, "ADN Populares" seguirá abordando temas de actualidad, entrevistas a expertos, música en vivo y mucho más. Ahora, con su llegada al streaming, el programa busca ampliar su alcance y llegar a una audiencia aún más diversa y globalizada.</p>
+                                                <br>
+                                                <p>Producido por la cooperativa El Faro, "ADN Populares" mantendrá su compromiso con la igualdad, los derechos humanos y la justicia social, ofreciendo un espacio de análisis crítico y reflexión sobre los temas más relevantes de la sociedad actual.
+                                                </p>
+                                                <br>
+                                                <p>Además de su emisión en streaming, "ADN Populares" también cuenta con su portal de noticias www.adnpopulares.com y está presente en redes sociales como Facebook, Twitter, Instagram, TikTok y YouTube, asegurando una interacción constante con su audiencia y manteniéndola informada. en todo momento.
+                                                </p>
+                                                <br>
+                                                <p>¡Prepárate para sumergirte en un universo de noticias, deportes, política, cultura, derechos humanos y mucha buena música con "ADN Populares" en su nueva etapa en el streaming! No te pierdas el inicio de esta emocionante nueva era el próximo lunes. ¡Sintoniza y descubre todo lo que "ADN Populares" tiene para ofrecerte!</p>
+                                                <br>
+                                                
+                                                <div class="text-start object-center">
+                                                    {{-- <figure>
+                                                        <img class="w-28 h-28  "
+                                                            src="{{ asset('../img/noteros/Ramiro.svg') }}"
+                                                            alt="">
+                                                        
+                                                        <p> <strong>Nota de Ramiro Caggiano Blanco</strong></p>
+
+                                                    </figure> --}}
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+                            </li>
+                        </ul>
+                        <br>
+                    </div>
+
+
+                    {{-- columna de la derecha chica --}}
+                    <aside>
+                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                            <div class=" col-span-6">
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/bener-leg2.png') }}"
+                                        alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
+                                        alt="">
+                                </a>
+
+                                <div id="app">
+
+                                    <div v-for="item in info">
+
+                                        <div class="flex-col pb-3">
+                                            <div
+                                                class="flex-col max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg"
+                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
+                                                        alt="" />
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5
+                                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                                            @{{ item.title }}</h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div v-for="va in clima">
+
+                                        <h5
+                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                            @{{ va }}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+                </div>
+            </section>
     @endif
 
     </div>
@@ -3967,7 +4192,7 @@
                 mounted() {
 
 
-                    axios.get("https://api.dailymotion.com/videos?channel=news&limit=7")
+                    axios.get("https://api.dailymotion.com/videos?channel=news&limit=3")
                         .then(response => {
                             this.info = response.data.list
                         });

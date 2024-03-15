@@ -2678,6 +2678,112 @@
                 </div>
 
             </section>
+        @elseif ($tituloSep == 'Gremiales-Noticia-Completa-gre21')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">CTERA EXIGE AL GOBIERNO EL PAGO DEL FONID
+
+                                            </a>
+                                        </h2>
+                                        <p class="font-light  text-right text-gray-500">Publicado: 14/03/2024</p>
+                                        <div class=" font-sans text-lg text-left col-span-6  ">
+                                        <p><i>La demanda, que beneficiaría a más de un millón de docentes, busca garantizar el derecho al cobro de este rubro esencial para el salario de los educadores.</i>
+                                        </p>
+                                        <br>
+                                        {{-- <article>
+                                            <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/OT4oMYWRJFs?si=554nnw0P_8LKa125" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                            
+                                        </article> --}}
+                                        <figure>
+                                            <img class=" w-full object-cover" src="../img/grem/grem_fonid2.svg"
+                                                alt="">
+                                        </figure>
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+                                                <p>En un acto sin precedentes, la Confederación de Trabajadores de la Educación de la República Argentina (CTERA) ha decidido llevar su reclamo por el pago del Fondo Nacional de Incentivo Docente (FONID) al ámbito judicial. Este fondo, vital para el sustento de más de un millón de docentes en todo el país, se encuentra pendiente de pago por parte del Gobierno Nacional correspondiente a los años 2023 y 2024. 
+                                                </p>
+                                                <br>
+                                                <p>La demanda, presentada en el Juzgado Nacional de 1ra. Instancia del Trabajo Nro. 8 de Capital Federal, representa un hito en la lucha por los derechos laborales de los educadores argentinos. CTERA, representada por su Secretaria General Sonia Alesso y con el respaldo del letrado Dr. Marcelo Bustos Fierro, busca garantizar el derecho de los docentes al cobro de un rubro que forma parte esencial de sus salarios.
+                                                </p>
+                                                <br>
+                                                <p>El FONID, establecido por ley y contemplado en el marco de la Paritaria Nacional Docente, es una asignación presupuestaria fundamental para los trabajadores de la educación. Sin embargo, a pesar de contar con la asignación presupuestaria correspondiente, el Gobierno Nacional ha postergado el pago de este fondo, afectando gravemente la economía de los docentes y sus familias.
+                                                </p>
+                                                <br>
+                                                <p>Esta acción legal, enmarcada en el procedimiento sumarísimo, busca poner fin a la injusticia y asegurar que los docentes reciban el pago que les corresponde por su incansable labor en las aulas. La solidaridad y el apoyo hacia los educadores en esta lucha por sus derechos laborales son fundamentales en este momento crucial para la educación en Argentina.</p>
+                                                <br>
+                                            </div>
+                                        </div>
+                                </article>
+                            </li>
+                        </ul>
+                    </div>
+
+
+                    {{-- columna de la derecha chica --}}
+                    <aside>
+                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                            <div class=" col-span-6">
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/bener-leg2.png') }}"
+                                        alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/APSE.gif') }}" alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
+                                        alt="">
+                                </a>
+
+
+
+                                <div id="app">
+
+                                    <div v-for="item in info">
+
+                                        <div class="flex-col pb-3">
+                                            <div
+                                                class="flex-col max-w-sm  border  border-gray-700 rounded-lg shadow bg-gray-800">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg"
+                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
+                                                        alt="" />
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5 class="mb-2 text-2xl font-bold tracking-tight  text-white">
+                                                            @{{ item.title }}</h5>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div v-for="va in clima">
+
+                                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-white">
+                                            @{{ va }}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+
+                </div>
+
+            </section>
         @endif
     </div>
     {{-- aca arrancamos vue --}}

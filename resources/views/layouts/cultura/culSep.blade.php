@@ -1908,6 +1908,115 @@
                 </div>
 
             </section>
+        @elseif ($tituloSep == 'Cultura-Noticia-Completa-cul17')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">MAX DELUPI Y BETO BERNUEZ CONTINÚAN SU GIRA NACIONAL</a>
+                                        </h2>
+                                        <p class="font-light  text-right text-gray-500">Publicado: 14/03/2024</p>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                                <p><i>Con "Thelma y Nancy" como protagonistas, Max Delupi y Beto Bernuez ofrecen un espectáculo que combina humor, reflexión y crítica social. Descubre cómo este dúo cómico logra conectarse con el público argentino en cada presentación. </i></p>
+                                                <br>
+                                                <figure>
+                                                    <a href="">
+                                                        <img class="w-full object-cover object-center"
+                                                            src="{{ asset('../img/cul/cul_max2.svg') }}"
+                                                            alt="">
+                                                    </a>
+                                                </figure>
+                                                <br>
+                                                <p>La reconocida dupla cómica compuesta por Max Delupi y Beto Bernuez continúa cautivando al público argentino con su espectáculo teatral "¿Combatir la casta?, ¡Con la tuya!". Desde su estreno en 2024, el espectáculo ha agotado localidades en cada presentación, consolidándose como uno de los eventos más destacados del panorama artístico nacional.
+                                                </p>
+                                                <br>
+                                                <p>Con "Thelma y Nancy" como personajes emblemáticos, la obra aborda temas contemporáneos con un enfoque humorístico y reflexivo, generando una experiencia única para el espectador. Desde la "Teoría del SIM" hasta las situaciones más absurdas, "¿Combatir la casta?, ¡Con la tuya!" invita a reflexionar sobre la sociedad actual de manera entretenida y profunda.
+                                                </p>
+                                                <br>
+                                                <p>"En tiempos de amores libertarios, sin dudas que '¿Combatir la casta?, ¡Con la tuya!' es una gran oportunidad para encontrarnos, darnos ese abrazo necesario y soñar con una Argentina mejor, más inclusiva, con salud y educación pública y sin niños que pasen hambre”, expresó Max Delupi, quien además dirige la puesta en escena.</p>
+                                                <br>
+                                                <p>Las próximas funciones de "¿Combatir la casta?, ¡Con la tuya!" están previstas para el viernes 29 de marzo a las 21:00 horas en la Sala Padre Mugica del Palacio El Victorial, ubicada en San Telmo, Buenos Aires, y el sábado 30 de marzo a las 20:30 en Raíces del Dawson, en Berisso, La Plata.
+                                                </p>
+                                                <br>
+                                                <p>La obra cuenta con la dirección de Max Delupi, la producción de Mariano Páez y Analía Godoy, la iluminación y sonido a cargo de Sandro Bernuez, y la prensa gestionada por Martín Pigna y Kevin Melgar de 0KM Prensa.
+                                                </p>
+                                                <br>
+                                                <p>Para más información sobre horarios y entradas, los interesados ​​pueden visitar www.boletería.com.ar </p>
+                                                <br>
+                                                
+                                            </div>
+
+
+
+                                        </div>
+                                    </div>
+                                </article>
+                            </li>
+                        </ul>
+                        <br>
+
+                    </div>
+
+
+                    {{-- columna de la derecha chica --}}
+                    <aside>
+                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                            <div class=" col-span-6">
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/bener-leg2.png') }}"
+                                        alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
+                                        alt="">
+                                </a>
+
+                                <div id="app">
+
+                                    <div v-for="item in info">
+
+                                        <div class="flex-col pb-3">
+                                            <div
+                                                class="flex-col max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg"
+                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
+                                                        alt="" />
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5
+                                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                                            @{{ item.title }}</h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div v-for="va in clima">
+
+                                        <h5
+                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                            @{{ va }}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+
+                </div>
+
+            </section>
         @endif
     </div>
 
