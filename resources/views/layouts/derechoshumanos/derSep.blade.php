@@ -2131,6 +2131,255 @@
                 </div>
 
             </section>
+        @elseif ($tituloSep == 'Derechos-Humanos-Noticia-Completa-der15')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow ">
+                                <article>
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">HONRANDO LA MEMORIA: PROYECTAN DOCUMENTAL SOBRE MIGUEL SÁNCHEZ EN MAR DEL PLATA
+                                            </a>
+
+                                        </h2>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                                <p><i>En un emotivo acto en la Asociación Bancaria de Mar del Plata, se proyectará el documental "La Carrera de Miguel", en memoria de Miguel Sánchez, atleta detenido desaparecido durante la última dictadura militar. Con la participación de destacados oradores y un cierre musical, el evento busca recordar y homenajear a aquellos que lucharon por la libertad y la justicia en tiempos oscuros de nuestra historia.</i></p>
+                                                <br>
+                                                <figure>
+                                                    <a href="">
+                                                        <img class="w-full object-cover object-center"
+                                                            src="{{ asset('../img/der/der_horrando1.svg') }}"alt="">
+                                                    </a>
+                                                    <a href="">
+                                                        <img class="w-full object-cover object-center"
+                                                            src="{{ asset('../img/der/der_horrando2.svg') }}"alt="">
+                                                    </a>
+                                                </figure>
+                                                {{-- <p class="font-light text-gray-500">Foto: La Tinta</p> --}}
+                                                <br>
+                                                <p>En una iniciativa destinada a mantener viva la memoria de aquellos que fueron víctimas de la represión durante la última dictadura militar en Argentina, se llevará a cabo en la ciudad de Mar del Plata el próximo viernes 22 de marzo un emotivo evento en la Asociación Bancaria. El acto consistirá en la proyección del documental "La Carrera de Miguel", un tributo a la vida y la lucha de Miguel Sánchez, un destacado atleta que fue detenido y desaparecido durante aquellos años oscuros de la historia argentina.
+                                                </p>
+                                                <br>
+                                                <p>Miguel Sánchez se destacó no solo por sus logros deportivos, sino también por su compromiso con la justicia social y su participación activa en la defensa de los derechos humanos. Su desaparición forzada dejó un vacío en la comunidad deportiva y en la sociedad en general, pero su memoria sigue viva en aquellos que luchan por un país más justo y democrático.</p>
+                                                <br>
+                                                <p>El evento contará con la participación de destacados oradores que compartirán sus reflexiones sobre la vida y el legado de Miguel Sánchez. Entre ellos se encuentran Pedro Sanllorenti, Secretario General de ADUM - Docentes Universitarios; Eduardo Zingarelli, Secretario General de la Asociación Bancaria; y Marcos Gutiérrez, ex Concejal y autor de la Ordenanza de la Carrera de Miguel. Estos líderes sindicales y políticos destacarán la importancia de recordar y honrar a quienes lucharon por la libertad y la justicia en tiempos difíciles.</p>
+                                                <br>
+                                                <p>Además, el evento contará con la presencia de Julio Santamaría, director de la miniserie "Deportes, Desaparecidos y Dictadura", quien dirigirá unas palabras en memoria de Miguel Sánchez. La presentación estará a cargo de Adriana Zerdin, periodista y secretaria de Derechos Humanos de ATE de la Legislatura Porteña, quien contextualizará el evento en el marco de la lucha por los derechos humanos en Argentina.
+                                                </p>
+                                                <br>
+                                                <p>El cierre musical estará a cargo de Luis Caro, quien pondrá la nota emotiva al evento con su talento artístico. Será un momento para recordar, reflexionar y homenajear a aquellos que perdieron sus vidas luchando por un país más justo y democrático. En tiempos donde la memoria es más importante que nunca, eventos como este nos recuerdan la importancia de mantener viva la historia y continuar la lucha por la verdad y la justicia.</p>
+                                                <br>
+                                                
+                                                {{-- <figure>
+                                                    <img class="w-28 h-28 ml-10  object-cover"
+                                                        src="{{ asset('../img/der/Adri.svg') }}" alt="">
+                                                    <p> <strong> Nota por Adriana Zerdín </strong></p></a>
+
+                                                </figure> --}}
+
+
+                                            </div>
+                                        </div>
+
+
+
+                                    </div>
+                                </article>
+                            </li>
+                        </ul>
+                    </div>
+
+                    {{-- columna de la derecha chica --}}
+                    <aside>
+                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                            <div class=" col-span-6">
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/bener-leg2.png') }}"
+                                        alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
+                                        alt="">
+                                </a>
+
+                                <div id="app">
+
+                                    <div v-for="item in info">
+
+                                        <div class="flex-col pb-3">
+                                            <div
+                                                class="flex-col max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg"
+                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
+                                                        alt="" />
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5
+                                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                                            @{{ item.title }}</h5>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div v-for="va in clima">
+
+                                        <h5
+                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                            @{{ va }}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+                </div>
+
+            </section>
+        @elseif ($tituloSep == 'Derechos-Humanos-Noticia-Completa-der16')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow ">
+                                <article>
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">LA PRIMERA DE TODAS LAS VECES
+                                            </a>
+                                            <p class="font-light  text-right text-gray-500">Publicado: 19/03/2024</p>
+                                        </h2>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                                <p><i>Hace 20 años, entré por primera vez al predio de la ESMA. No fue por propia decisión. Yo estaba muy cómoda en la vereda con mi gente, empapada en llanto y apretujada por miles y miles, gritando, cantando y en estado de fascinación escuchando a Néstor  quien sostenía nerviosamente el atril desde donde hablaba. A su lado Cristina y el nieto recuperado Juan Cabandié. Imagen como un eterno daguerrotipo que nos trascenderá por siempre.</i></p>
+                                                <br>
+                                                <figure>
+                                                    <a href="">
+                                                        <img class="w-full object-cover object-center"
+                                                            src="{{ asset('../img/der/der_laprimera2.svg') }}"alt="">
+                                                    </a>
+                                                    
+                                                </figure>
+                                                {{-- <p class="font-light text-gray-500">Foto: La Tinta</p> --}}
+                                                <br>
+                                                <p>Con  voz quebrada Néstor les pedía perdón a las madres y a las abuelas  en nombre del estado argentino por los crímenes cometidos por los siniestros genocidas de turno.
+                                                </p>
+                                                <br>
+                                                <p>Ese estado que hoy está  en la guillotina de los condenados, como venganzas atávicas.</p>
+                                                <br>
+                                                <p>Néstor nos invitó a entrar a la ESMA, como símbolo de los nuevos tiempos, de los derechos recuperados.  Esa ESMA que  ya  era de todos y sería recordada como el más feroz centro clandestino de detención, tortura  y exterminio.</p>
+                                                <br>
+                                                <p>Me negué, la verdad me negué. Pero la multitud me arrastró, nos arrastró. Y de golpe estábamos adentro.  En medio de un  ensordecedor silencio  rendí homenaje a todos y cada uno de mis  compañeros.
+                                                </p>
+                                                <br>
+                                                <p>A pesar del momento,  sentí un gran  alivio, con  la esperanza de recuperar parte de la verdad que nos fue negada, ocultada, sepultada.</p>
+                                                <br>
+                                                <p>Con valentía, gran coraje  y convicción a toda prueba, cada rincón se fue recuperando. Cada edificio fue resignificado, y los milicos, bueno… tuvieron que retirarse de la escuela de mecánica de la armada.</p>
+                                                <br>
+                                                <p>A 40 años de la recuperación  democrática de  la patria (2023), el  Museo Sitio de Memoria ESMA fue declarado patrimonio mundial de la humanidad, lugar con un “valor universal excepcional” señalado por del comité del patrimonio mundial de la UNESCO, dedicado a identificar y proteger los patrimonios naturales y culturales  más importantes de nuestro planeta.</p>
+                                                <br>
+                                                <p>Fue el largo camino  que iniciaron  en 1998 las incansables  militantes Graciela Lois,  de familiares de desaparecidos y detenidos por razones políticas, y Laura Bonaparte,  Madre de Plaza de Mayo Línea Fundadora, frente a rumores que el entonces presidente Menem podría demoler el predio. Estas mujeres impidieron un latrocinio.</p>
+                                                <br>
+                                                <p>A lo largo de tantas décadas, empecinadamente,  defendieron los recuerdos de los hechos de  nuestra más trágica historia contemporánea.</p>
+                                                <br>
+                                                <p>Creímos que la verdad brotaría de las memorias escondidas, y que  la  justicia dictaminaría,  para cerrar  definitivamente el horror.</p>
+                                                <br>
+                                                <p>Creo que fuimos algo incautos.  Que el deseo nos sedujo, como suelen seducir  los deseos.</p>
+                                                <br>
+                                                <p>Aunque muchos logros fueron históricos, y marcaron un hito mundial sobre el juzgamiento  a los  perpetradores de delitos de lesa humanidad con cárcel común y con sentencias ejemplares, siempre  nos queda sabor a poco. Las vidas arrebatadas no tienen retorno.</p>
+                                                <br>
+                                                <p>Y una vez más la presencia del  estado,  organizador de  la vida de los y las ciudadanas,  recuperó a los nietos apropiados por los genocidas, rescató sus nombres, les devolvió sus familias.</p>
+                                                <br>
+                                                <p>Defender la historia, las existencias  y las luchas  de los que nos antecedieron   en el camino de la vida, es parte de la pedagogía  de no olvidar,  como obligación docente  con las nuevas generaciones. </p>
+                                                <br>
+                                                <p>Repetir incansablemente  que fueron 30 mil es hacer honor a la verdad, por nuestra generación diezmada  y por todos los que militaron por un país digno, libre y soberano.</p>
+                                                <br>
+                                                <p>La historia  lo reclama.</p>
+                                                <br>
+                                                
+                                                <figure>
+                                                    <img class="w-28 h-28 ml-10  object-cover"
+                                                        src="{{ asset('../img/der/Adri.svg') }}" alt="">
+                                                    <p> <strong> Nota por Adriana Zerdín </strong></p></a>
+
+                                                </figure>
+
+
+                                            </div>
+                                        </div>
+
+
+
+                                    </div>
+                                </article>
+                            </li>
+                        </ul>
+                    </div>
+
+                    {{-- columna de la derecha chica --}}
+                    <aside>
+                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                            <div class=" col-span-6">
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/bener-leg2.png') }}"
+                                        alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
+                                        alt="">
+                                </a>
+
+                                <div id="app">
+
+                                    <div v-for="item in info">
+
+                                        <div class="flex-col pb-3">
+                                            <div
+                                                class="flex-col max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg"
+                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
+                                                        alt="" />
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5
+                                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                                            @{{ item.title }}</h5>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div v-for="va in clima">
+
+                                        <h5
+                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                            @{{ va }}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+                </div>
+
+            </section>
         @endif
     </div>
 
@@ -2152,7 +2401,7 @@
                 mounted() {
 
 
-                    axios.get("https://api.dailymotion.com/videos?channel=news&limit=2")
+                    axios.get("https://api.dailymotion.com/videos?channel=news&limit=5")
                         .then(response => {
                             this.info = response.data.list
                         });

@@ -39,15 +39,15 @@
                             <article>
                                 <figure>
                                     @php
-                                        $tituloSep = 'Legislatura-Noticia-Completa-leg23#leg23';
+                                        $tituloSep = 'Legislatura-Noticia-Completa-leg25#leg25';
                                     @endphp
                                     <a class="text-emerald-700 font-semibold hover:text-emerald-400 hover:underline"
                                         href="{{ route('legislaturaSep.show', $tituloSep) }}">
                                         <img class="object-cover absolute block w-full  h-56 -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-                                            src="../img/leg/leg_croata1.svg" alt="">
+                                            src="../img/leg/leg_hrabina.svg" alt="">
                                         <div class="py-2 px-4">
                                             <h2 class="text-lg font-serif">
-                                                <a href="{{ route('legislaturaSep.show', $tituloSep) }}">CANCILLER CROATA GORDAN GRLIĆ-RADMAN RECIBE RECONOCIMIENTO EN LA LEGISLATURA DE BUENOS AIRES
+                                                <a href="{{ route('legislaturaSep.show', $tituloSep) }}">LA LEGISLATURA DECLARÓ A ENRIQUE HRABINA COMO NUEVA PERSONALIDAD DESTACADA
                                                 </a>
                                                 {{--     <p class="font-light text-gray-500"> Nota: Del Tomate A Sumido  </p> --}}
                                                 {{--  <p class="font-light mb-10 text-right text-gray-500">Publicado: 27/11/2023
@@ -64,15 +64,15 @@
                             <article>
                                 <figure>
                                     @php
-                                        $tituloSep = 'Legislatura-Noticia-Completa-leg24#leg24';
+                                        $tituloSep = 'Derechos-Humanos-Noticia-Completa-der15#der15';
                                     @endphp
                                     <a class="text-emerald-700 font-semibold hover:text-emerald-400 hover:underline"
-                                        href="{{ route('legislaturaSep.show', $tituloSep) }}">
+                                        href="{{ route('derechoSep.show', $tituloSep) }}">
                                         <img class="object-cover absolute block w-full  h-56 -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-                                            src="../img/leg/leg_uru1.svg" alt="">
+                                            src="../img/der/der_horrando1.svg" alt="">
                                         <div class="py-2 px-4">
                                             <h2 class="text-lg font-serif">
-                                                <a href="{{ route('legislaturaSep.show', $tituloSep) }}">LA LEGISLATURA FIRMÓ UN ACUERDO CON LA JUNTA DEPARTAMENTAL DE MALDONADO DE URUGUAY 
+                                                <a href="{{ route('derechoSep.show', $tituloSep) }}">HONRANDO LA MEMORIA: PROYECTAN DOCUMENTAL SOBRE MIGUEL SÁNCHEZ EN MAR DEL PLATA 
                                                 </a>
                                                 <p class="font-light text-gray-500"></p>
                                                 {{--  <p class="font-light mb-10 text-right text-gray-500">Publicado: 27/11/2023
@@ -89,15 +89,15 @@
                             <article>
                                 <figure>
                                     @php
-                                        $tituloDer = 'Internacionales-Noticia-Completa-int12#int12';
+                                        $tituloDer = 'Internacionales-Noticia-Completa-int13#int13';
                                     @endphp
                                     <a class="text-emerald-700 font-semibold hover:text-emerald-400 hover:underline"
                                         href="{{ route('interSepNew.show', $tituloDer) }}">
                                         <img class="object-cover absolute block w-full h-56 -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-                                            src="{{ asset('../img/int/int_mexico1.svg') }}" alt="">
+                                            src="{{ asset('../img/int/int_putin2.svg') }}" alt="">
                                         <div class="py-2 px-4">
                                             <h2 class="text-lg font-serif">
-                                                <a h href="{{ route('interSepNew.show', $tituloDer) }}">MEGAELECCIONES EN MÉXICO: DOS MUJERES LIDERAN LAS PREFERENCIAS
+                                                <a h href="{{ route('interSepNew.show', $tituloDer) }}">VLADIMIR PUTIN REELEGIDO CON AMPLIO RESPALDO POPULAR: CONTINUIDAD Y DESAFÍOS EN LA RUSIA CONTEMPORÁNEA
                                                 </a>
                                             </h2>
                                             {{-- <p class="font-light  text-right text-gray-500">Publicado: 02/10/2023</p> --}}
@@ -117,23 +117,25 @@
                 <div>
                     <figure>
                         @php
-                            $tituloSep = 'Derechos-Humanos-Noticia-Completa-der12#der12';
+                            $tituloSep = 'Derechos-Humanos-Noticia-Completa-der16#der16';
                         @endphp
                         <a class="text-emerald-700 font-semibold hover:text-emerald-400 hover:underline"
                             href="{{ route('derechoSep.show', $tituloSep) }}">
                             <img class="h-48 w-full object-cover object-center"
-                                src="{{ asset('../img/der/der_sitio.svg') }}" alt="">
+                                src="{{ asset('../img/der/der_laprimera2.svg') }}" alt="">
                         </a>
                     </figure>
                     <div class=" py-4 px-6">
                         <h1 class="text-lg font-serif ">
                             <a href="{{ route('derechoSep.show', $tituloSep) }}">
-                                COMUNICADO DE LOS ORGANISMOS DEFENSORES DE DERECHOS HUMANOS
+                                LA PRIMERA DE TODAS LAS VECES
                             </a>
+                            <p class="font-light text-gray-500">Por Adriana Zerdin
+                                                    </p>
                         </h1>
                         <p class="font-light  text-gray-500"></p>
                         <div class="pt-4">
-                            <p class="font-light  text-right text-gray-500">Publicado: 12/03/2024</p>
+                            <p class="font-light  text-right text-gray-500">Publicado: 19/03/2024</p>
                         </div>
 
                     </div>
@@ -142,25 +144,25 @@
                 <div>
                     <figure>
                         @php
-                            $tituloSep = 'Derechos-Humanos-Noticia-Completa-der13#der13';
+                            $tituloSep = 'Internacionales-Noticia-Completa-int14#int14';
                         @endphp
                         <a class="text-emerald-700 font-semibold hover:text-emerald-400 hover:underline"
-                            href="{{ route('derechoSep.show', $tituloSep) }}">
+                            href="{{ route('interSepNew.show', $tituloSep) }}">
                             <img class="h-48 w-full object-cover object-center"
-                                src="{{ asset('../img/der/der_cine1.svg') }}" alt="">
+                                src="{{ asset('../img/int/int_nicolas.svg') }}" alt="">
                         </a>
                     </figure>
                     <div class=" py-4 px-6">
                         <h1 class="text-lg font-serif ">
-                            <a href="{{ route('derechoSep.show', $tituloSep) }}">
-                                CONTAME UNA PELI, DALE…
+                            <a href="{{ route('interSepNew.show', $tituloSep) }}">
+                                POR ESO NICOLÁS
                             </a>
-                            <p class="font-light text-gray-500">Por Adriana Zerdín
+                            <p class="font-light text-gray-500">Por Carola Chávez
                             </p>
                         </h1>
                         <p class="font-light  text-gray-500"></p>
                         <div class="pt-4">
-                            <p class="font-light  text-right text-gray-500">Publicado: 12/03/2024</p>
+                            <p class="font-light  text-right text-gray-500">Publicado: 19/03/2024</p>
                         </div>
 
                     </div>

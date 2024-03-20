@@ -1,5 +1,119 @@
 <x-app-layout>
-    <div class="container ">     
+    <div class="container ">   
+        {{--POR ESO NICOLÁS --}}
+        <section >
+            <ul>
+                <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                    <article>
+
+                        <div class="py-4 px-4 justify-between items-center">
+                            <h2 class="text-xl font-serif  font-bold pb-6">
+                                <a href="">POR ESO NICOLÁS</a>
+                                <p class="font-light text-gray-500">Por Carola Chávez
+                                </p> 
+                                {{-- <p class="font-light text-gray-500">Presidente Honorario de la Unión de Periodistas de Cuba (UPEC) y de la Federación Latinoamericana de Periodistas (FELAP).
+                                </p> --}}
+                            </h2>
+                            <p><i>Al principio, Nicolás se volvió mi candidato, porque plena como la luna llena, yo sabía que Chávez sabía. Y Chávez nos dijo, en aquel momento desgarrado, cuando sentíamos que el suelo se abría bajo nuestros pies, que Nicolás era el que iba a conducirnos a salvo a través de la tormenta que Chávez sabía que vendría.</i>
+                            </p>
+                            <br>
+                            <figure>
+                                <img class=" w-full object-cover" src="../img/int/int_nicolas.svg"
+                                    alt="">
+
+                            </figure>
+                            <br>
+                            <div
+                                class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                    <p>Y la tormenta no esperó ni medio segundo. No nos dio ni un ratico para llorar al padre que se nos fue. Llegó inclemente, desalmada, y nos golpeó con saña suponiendo que ya estábamos a tirito de reventarnos y caer.</p>
+                                    <br>
+                                    <p>Así empezó Nicolás la conducción de esta etapa compleja, dolorosa. Nos recogió huérfanos, huérfano él también, y honrando la palabra dada a nuestro Padre, metió el pecho y la vida para cumplir con la tarea que Chávez le dejó.</p>
+                                    <br>
+                                    <p>La apuesta del enemigo era -y es- la guerra de perros. Los venezolanos debíamos matarnos entre nosotros para servirle el país en bandeja a los intereses de las trasnacionales. Tantas veces nos llevaron al borde de ese abismo. Tantas veces Nicolás, cabeza fría, nervios de acero, frenó la violencia y dejó a los halcones con las ganas… y la rabia. Nicolás, descubrí, es el papá de los helados de la paciencia estratégica.
+                                    </p>
+                                    <br>
+                                    <p><b>No contaban con su astucia.</b></p>
+                                    <br>
+                                    <p>Maburro, le decían y solo ellos lo creían. La soberbia no les permitía ver el brillo en los ojos de Nicolás. Un brillo de inteligencia, sí, pero más importante que eso, el brillo de un alma buena, sensible, humilde, que no se iba dejar intoxicar por el poder, que tiene sus venenos para los débiles de alma y carácter. Ni de alma ni de carácter, Nicolás no conoce la debilidad.</p>
+                                    <br>
+                                    <p>Ahí en la presidencia, en el dificilísimo plano de la alta política, está al mismo de siempre: Nicolás, el hombre bueno, paciente que cree en la conducción colectiva, que sabe escuchar, que quiere escuchar… Nicolás, el de toda la vida, el mismo muchacho que recorría las calles y barrios de Caracas inventando formas de hacer que las cosas fueran mejor para todos.</p>
+                                    <br>
+                                    <p>Blanco de toda guerra sucia, con la verdad la va derrotando. Temprano los traidores lo acusaron de traidor, pero Nicolás no se entregó, ni cuando bajo toda la presión y amenazas Bolton, Pompeo y Pence que le decían públicamente que entregara el país a cambio de un retiro multimillonario en un paraíso tropical. Ofertón para los dirigentes cobardes y traidores: millones de dólares y casota en Miami a cambio de no joder al amo. ¡Qué equivocados están siempre con Nicolás! ¡Vayan a lavarse el paltó!</p>
+                                    <br>
+                                    <p>Ante nuestra terca decisión de ser libres y soberanos, nos montaron guerras de todo tipo y de todas las generaciones. Venezuela se convirtió en un campo de experimental de métodos de guerra perversos. ¡Qué no nos han hecho! Guerra económica, guerra psicológica, guerra pranes y malandros, sabotajes a la infraestructura, invasiones con mercenarios, drones magnicidas, bloqueo, saqueo de nuestros bienes en el exterior…</p>
+                                    <br>
+                                    <p>Y a cada ataque una respuesta estratégica, siempre en defensa de la Patria, de nuestro pueblo golpeado por tanta saña y tanta maldad. Cada obstáculo, una idea novedosa, una razón para vencer y vamos venciendo. Nicolás y el pueblo chavista que lo ha sabido acompañar porque sabemos que Nico nos ha sabido conducir.</p>
+                                    <br>
+                                    <p>Tras vernos tantas veces tan cerca del punto de no retorno de la violencia desatada, y viéndonos hoy disfrutando la paz que construimos a pulso, nos parece tan lejana toda la angustia que vivimos hace apenas unos pocos años atrás. Y es un alivio sentir la angustia lejos, pero es un peligro olvidar quién ha hecho hasta lo imposible para lograr la paz y la estabilidad que nos permite hoy abrir ventanas y ver al futuro posible, brillante frente a nosotros.</p>
+                                    <br>
+                                    <p>Es un peligro olvidar porque del otro lado solo hay revancha conflicto, entreguismo, retroceso, guerra. Todo lo que han intentado, todo lo que hemos evitado y superado.</p>
+                                    <br>
+                                    <p>Nicolás es el único candidato que nos llena de certezas de paz, dignidad, inclusión, amplitud, estabilidad, futuro… y un montón de esperanzas, de todo lo que aún podemos inventar. Por lo que hemos vivido, por lo que hemos logrado, por lo que debemos seguir logrando… porque lo quiero mucho y porque lo respeto y lo admiro más, mi candidato es Nicolás.</p>
+                                    <br>
+                                    
+                                </div>
+
+
+
+                            </div>
+                        </div>
+                    </article>
+                </li>
+            </ul>
+        </section>
+        <br><br> 
+        {{--VLADIMIR PUTIN REELEGIDO... --}}
+        <section >
+            <ul>
+                <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                    <article>
+
+                        <div class="py-4 px-4 justify-between items-center">
+                            <h2 class="text-xl font-serif  font-bold pb-6">
+                                <a href="">VLADIMIR PUTIN REELEGIDO CON AMPLIO RESPALDO POPULAR: CONTINUIDAD Y DESAFÍOS EN LA RUSIA CONTEMPORÁNEA</a>
+                                {{-- <p class="font-light text-gray-500">Por Tubal Páez
+                                </p> --}}
+                                {{-- <p class="font-light text-gray-500">Presidente Honorario de la Unión de Periodistas de Cuba (UPEC) y de la Federación Latinoamericana de Periodistas (FELAP).
+                                </p> --}}
+                            </h2>
+                            <p><i>El presidente ruso, Vladimir Putin, ha sido reelegido con un contundente 87% de los votos, en unos comicios que reflejan el respaldo de la población a su liderazgo. Con esta victoria, Putin enfrenta la tarea de mantener la estabilidad interna y la posición de Rusia en el escenario internacional, en un contexto de tensiones geopolíticas.</i>
+                            </p>
+                            <br>
+                            <figure>
+                                <img class=" w-full object-cover" src="../img/int/int_putin1.svg"
+                                    alt="">
+
+                            </figure>
+                            <br>
+                            <div
+                                class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                    <p>En unas elecciones marcadas por una alta participación del 70,81%, Vladimir Putin ha sido reelegido como presidente de Rusia con un respaldo abrumador del 87% de los votos. Esta victoria no solo consolida su liderazgo en el país euroasiático, sino que también representa un desafío para mantener la estabilidad interna y la posición de Rusia en el escenario internacional.</p>
+                                    <br>
+                                    <p>El resultado de las elecciones refleja el apoyo de la población rusa al proyecto político liderado por Putin, que ha llevado al país por un camino de desarrollo económico y estabilidad política. Sin embargo, también pone de manifiesto los desafíos que enfrenta el presidente ruso en su nuevo mandato, especialmente en un contexto geopolítico marcado por tensiones con Occidente y conflictos en Ucrania y Siria.</p>
+                                    <br>
+                                    <p>Desde su llegada al poder en 1999, Putin ha sido una figura central en la política rusa y ha sido criticado por su estilo de liderazgo autoritario. Sin embargo, para muchos rusos, representa la estabilidad y la defensa de los intereses nacionales en un mundo cada vez más complejo y cambiante.
+                                    </p>
+                                    <br>
+                                    <p>En este nuevo mandato, se espera que Putin continúe con su política de fortalecimiento de la soberanía rusa y de defensa de los intereses nacionales en el escenario internacional. También enfrentará el desafío de mantener la estabilidad interna en un país diverso y complejo, con tensiones étnicas y económicas latentes.</p>
+                                    <br>
+                                    <p>En resumen, la reelección de Vladimir Putin como presidente de Rusia representa la continuidad en el liderazgo político del país y plantea importantes desafíos para el futuro. Con un respaldo popular sólido, Putin buscará mantener la estabilidad interna y la posición de Rusia en el escenario internacional, en un contexto de crecientes tensiones geopolíticas.</p>
+                                    <br>
+                                    
+                                </div>
+
+
+
+                            </div>
+                        </div>
+                    </article>
+                </li>
+            </ul>
+        </section>
+        <br><br>  
         {{--CUBA: MULTITUDINARIO ACTO CONTRA EL GENOCIDIO DE ISRAEL EN GAZA... --}}
         <section >
             <ul>

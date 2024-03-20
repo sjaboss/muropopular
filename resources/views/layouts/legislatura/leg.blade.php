@@ -1,5 +1,54 @@
 <x-app-layout>
     <div class="container ">
+        {{--LA LEGISLATURA DECLARÓ A ENRIQUE HRABINA.. --}}
+        <section >
+            <ul>
+                <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                    <article>
+
+                        <div class="py-4 px-4 justify-between items-center">
+                            <h2 class="text-xl font-serif  font-bold pb-6">
+                                <a href="">LA LEGISLATURA DECLARÓ A ENRIQUE HRABINA COMO NUEVA PERSONALIDAD DESTACADA</a>
+                            </h2>
+                            <p class="font-light  text-right text-gray-500">Publicado: 19/03/2024</p>
+                            <p><i>Los legisladores de la Ciudad destacaron la trayectoria del histórico defensor de Boca Juniors, por medio de un proyecto presentado por la diputada, Maia Daer.</i></p>
+                            <br>
+                            <figure>
+                                <a href="">
+                                    <img class="w-full object-cover object-center"
+                                        src="{{ asset('../img/leg/leg_hrabina.svg') }}" alt="">
+                                </a>
+                            </figure>
+                            <br>
+                            <div
+                                class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                    <p><b>El Cuerpo Legislativo declaró como Personalidad Destacada en el ámbito del Deporte al ex futbolista, Enrique Hrabina</b>. El evento se llevó a cabo en el <b>Salón Dorado</b> del Palacio Legislativo y contó con la presencia de <b>la diputada y autora del proyecto, Maia Daer; su secretario parlamentario, Horacio Rivero; el legislador, Juan Pablo Modarelli; Marta Helguero, directiva de la Fundación Boca Juniors; y el homenajeado.</b></p>
+                                    <br>
+                                    <p>En el inicio de las alocuciones, Daer brindó la bienvenida a la Casa Legislativa y explicó el proceso parlamentario de la ley. Y destacó: “En representación del mandato otorgado, toda la sociedad lo reconoce por su labor, su desempeño y su historia en Boca Juniors”. Por su parte, Modarelli resaltó la importancia de Hrabina en la historia de Boca Juniors.</p>
+                                    <br>
+                                    <p>“Es una emoción impresionante porque uno nunca se espera este tipo de homenajes o de reconocimientos, uno hace lo que siente y lo que puede”, declaró Hrabina. También agradeció a su familia y determinó la importancia de los valores. Y concluyó: “Lo más importante es lo humano y este reconocimiento es por eso que por lo deportivo”.</p>
+                                    <br>
+                                    <p>‘El Ruso’ Hrabina primeramente debutó en el Clubt Atlético Atlanta como marcador de punta izquierda. En los Campeonatos Nacionales de 1º División B tuvo una destacada actuación y por este motivo, el Club Atlético San Lorenzo de Almagro decide comprarlo. Su pase fue el más costoso de la época para un defensor y jugó en ‘El Ciclón’ hasta 1985, cuando San Lorenzo le da el pase libre por una deuda económica que la institución tenía con él.
+                                    </p>
+                                    <br>
+                                    <p>En ese entonces, el empresario deportivo, Osvaldo Rivero, lo acercó al Club Atlético Boca Juniors junto a otros jugadores. Fue así que comenzó a jugar en el club de la rivera y permanece allí hasta su retiro definitivo como jugador profesional, en 1992. En su palmarés se destacan la Supercopa Sudamericana de 1989.</p>
+                                    <br>
+                                    <p>Actualmente es Director Técnico del equipo de ex jugadores de Boca, denominados Seniors, donde juegan los ex deportistas Jorge Bermúdez, Marcelo Delgado, Sergio ‘Chicho’ Serna, Raúl Cascini, Marcelo ‘Chelo’ Delgado, Pablo Ledesma, Antonio ‘Chipi’ Barijho, Sergio Martínez, Ariel ‘Burrito’ Ortega, Daniel Díaz y Luis Villalba entre otros.</p>
+                                    <br>
+                                    
+                                </div>
+
+
+
+                            </div>
+                        </div>
+                    </article>
+                </li>
+            </ul>
+        </section>
+            <br><br>
         {{--CLA LEGISLATURA FIRMÓ UN ACUERDO CON LA JUNTA DEPARTAMENTAL DE MALDONADO DE URUGUAY.. --}}
         <section >
             <ul>
