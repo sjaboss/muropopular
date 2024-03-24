@@ -697,7 +697,12 @@
                                 <a href="" class="object-cover object-center " width="200">
                                     <img class="pb-3" src="{{ asset('img/publi/APSE.gif') }}" alt="">
                                 </a>
-
+                                <br>
+                                <article>
+                                    <iframe class="w-full aspect-video"
+                                    src="https://www.youtube.com/embed/m_sOinzZ1Ts?si=dtCWexPiSDsVIDLe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                </article>
+                                <br>
                                 <a href="" class="object-cover object-center " width="200">
                                     <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
                                         alt="">
