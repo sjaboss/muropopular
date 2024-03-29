@@ -1,5 +1,59 @@
 <x-app-layout>
     <div class="container ">
+        {{--EL DECRETO QUE RECORTA LAS JUBILACIONES --}}
+<section >
+    <ul>
+        <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+            <article>
+
+                <div class="py-4 px-4 justify-between items-center">
+                    <h2 class="text-xl font-serif  font-bold pb-6">
+                        <a href="">EL DECRETO QUE RECORTA LAS JUBILACIONES</a>
+                    </h2>
+                    <p><i>El reciente decreto del gobierno que modifica la fórmula de actualización jubilatoria ha desatado preocupación y críticas. Analicemos sus implicancias para los jubilados y cómo afectará sus ingresos en el corto y largo plazo.</i>
+                    </p>
+                    <br>
+                    <figure>
+                        <img class=" w-full object-cover" src="../img/eco/eco_anses.svg"
+                            alt="">
+                    </figure>
+                    <br>
+                    <div
+                        class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                        <div class=" font-sans text-lg text-left col-span-6  ">
+                            <p>El gobierno argentino, mediante un decreto, ha cambiado la fórmula de actualización de las jubilaciones, generando un impacto significativo en el poder adquisitivo de los jubilados. La medida, que no pasó por el Congreso, ha despertado críticas y preocupación por parte de diversos sectores.
+                            </p>
+                            <br>
+                            <p>La nueva fórmula establece una actualización por inflación con dos meses de rezago a partir de julio, aplicando la inflación de mayo. Sin embargo, esta actualización no incluye el bono, lo que significa que las jubilaciones no se verán beneficiadas por el mismo.</p>
+                            <br>
+                            <p>Entre abril y julio, se aplicarán diferentes aumentos que, en términos reales, no logran compensar la pérdida del poder adquisitivo de las jubilaciones. Según datos, las jubilaciones podrían quedar hasta un 53% por debajo de su valor inicial en el primer trimestre de 2023.
+                            </p>
+                            <br>
+                            <p>Además, el decreto establece un bono de ayuda económica previsional que, si bien en principio se fijó en $70 mil, posteriormente se corrigió para mantenerse en ese monto. Sin embargo, la forma en que se aplicará el bono en los próximos meses aún genera incertidumbre.</p>
+                            <br>
+                            <p>En el caso de otras prestaciones como la PUAM o la AUH, la nueva fórmula de actualización se aplicaría recién a partir de julio, lo que podría significar un peor derrotero para estas prestaciones en comparación con las jubilaciones.
+                            </p>
+                            <br>
+                            <p>En el largo plazo, algunas consultoras indican que esta nueva fórmula podría quedar por debajo de la fórmula de movilidad basada en recaudación y salarios en 2025, lo que supondría un deterioro continuo en el poder adquisitivo de los jubilados.</p>
+                            <br>
+                            <p>En resumen, el decreto del gobierno argentino que modifica la fórmula de actualización jubilatoria ha generado preocupación y críticas debido a su impacto en el poder adquisitivo de los jubilados. La medida, que no contó con el aval del Congreso, plantea un escenario de incertidumbre y deterioro en los ingresos de quienes dependen de la jubilación para vivir.
+                            </p>
+                            <br>
+                            
+                            {{-- <figure>
+                                {{-- <img class="w-28 h-28  "
+                                    src="{{ asset('../img/noteros/ramiro.svg') }}" alt=""> --}}
+                               {{--  <p> <b><i>Nota de Adrián Rojze</i></b></p></a>
+                                <p><b><i>Economista y Politólogo</i></b></p>
+                            </figure>  --}}
+                            <br>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </li>
+    </ul>
+</section>
 {{--¡PRECIOS AL GALOPE! INFLACIÓN EN ENERO: 20,6%  --}}
 <section >
     <ul>

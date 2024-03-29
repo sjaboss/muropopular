@@ -1,5 +1,105 @@
 <x-app-layout>
     <div class="container ">
+        {{--VIOLENCIA POLICIAL EN CIUDAD OCULTA.. --}}
+        <section >
+            <ul>
+                <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                    <article>
+
+                        <div class="py-4 px-4 justify-between items-center">
+                            <h2 class="text-xl font-serif  font-bold pb-6">
+                                <a href="">VIOLENCIA POLICIAL EN CIUDAD OCULTA Y BARRIO MUGICA: DENUNCIAN DETENCIONES ARBITRARIAS Y ABUSO DE PODER</a>
+                            </h2>
+                            <p class="font-light  text-right text-gray-500">Publicado: 26/03/2024</p>
+                            <p><i>En un operativo de seguridad en Ciudad Oculta y Barrio Mugica, la policía de la ciudad detuvo de forma violenta a vecinos, generando repudio en la comunidad..</i></p>
+                            <br>
+                            <figure>
+                                <a href="">
+                                    <img class="w-full object-cover object-center"
+                                        src="{{ asset('../img/leg/leg_violencia.svg') }}" alt="">
+                                </a>
+                            </figure>
+                            <br>
+                            <div
+                                class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                    <p>A fines de la pasada semana, un operativo de seguridad en Ciudad Oculta y Barrio Mugica, comuna 8 de Buenos Aires, terminó en un hecho inédito y grave según denuncias de vecinos. La policía de la ciudad llevó a cabo un supuesto operativo "de saturación", durante el cual detuvieron a 15 personas dentro del Área de Patrimonio Histórico Mercado de Hacienda, algunos de ellos vecinos que acababan de llegar de trabajar.</p>
+                                    <br>
+                                    <p>Según relatos de testigos, los detenidos fueron traídos esposados y descalzos, mientras eran insultados y agredidos verbalmente por los agentes. Entre los afectados se encuentran mujeres y menores de edad. Carolina, una de las vecinas, fue detenida y golpeada cuando salió a buscar a su hija a la parada del colectivo. Jeremías, otro vecino, también fue detenido y golpeado al regresar del trabajo. Incluso una vecina que estaba colgando la ropa fue agredida de la misma manera.</p>
+                                    <br>
+                                    <p>En medio de este operativo, el canal de noticias "Crónica" transmitía en vivo, mostrando las caras de los vecinos detenidos, mientras las placas hablaban de "narcotraficantes", generando indignación entre los residentes.</p>
+                                    <br>
+                                    <p>Los vecinos han expresado su repudio ante estos hechos y han denunciado la improvisación de una alcaldía dentro del predio del ex Mercado de Hacienda, con cientos de policías y móviles de la unidad de despliegue de intervenciones rápidas (DIR).
+                                    </p>
+                                    <br>
+                                    <p>En un comunicado dirigido a Jorge Macri, Diego Kravetz y Waldo Wolf, los juntistas de la Comuna 9, Juan Chaves, Lorena Crespo y Alberto Espiño, exigieron a las autoridades que en lugar de hacer un circo mediático y agredir injustamente a vecinos comunes, se persiga realmente a los narcotraficantes. También pidieron que se limpie la zona de dengue y ratas, se ilumine y se ayude a los comercios que están cerrando tras el traslado del Mercado de Hacienda, y se garantice la seguridad real de la zona.</p>
+                                    <br>
+                                    <p>Los juntistas enfatizaron que, si hay personas que deben ser detenidas, se haga en lugares legales y adecuados para ello, y que se respete a los vecinos, evitando la utilización del casco histórico del barrio como centro de detención.</p>
+                                    <br>
+                                    <p>La situación ha generado preocupación en la comunidad y se espera que las autoridades investiguen estos hechos y tomen medidas para garantizar la seguridad y el respeto a los derechos de los ciudadanos en la zona.</p>
+                                    <br>
+                                    <p>La violencia policial y las detenciones arbitrarias son hechos inaceptables en una sociedad democrática. Es necesario que las autoridades investiguen a fondo lo sucedido y que se tomen medidas para evitar que se repitan este tipo de abusos en el futuro. Los vecinos de Ciudad Oculta y Barrio Mugica exigen justicia y seguridad, y esperan que las autoridades respondan a sus reclamos de manera efectiva.</p>
+                                    <br>
+                                    
+                                </div>
+
+
+
+                            </div>
+                        </div>
+                    </article>
+                </li>
+            </ul>
+        </section>
+        {{--DÍA MUNDIAL DEL SÍNDROME.. --}}
+        <section >
+            <ul>
+                <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                    <article>
+
+                        <div class="py-4 px-4 justify-between items-center">
+                            <h2 class="text-xl font-serif  font-bold pb-6">
+                                <a href="">DÍA MUNDIAL DEL SÍNDROME DE DOWN EN LA LEGISLATURA</a>
+                            </h2>
+                            <p class="font-light  text-right text-gray-500">Publicado: 26/03/2024</p>
+                            <p><i>La Vicejefa del Gobierno de la Ciudad, Clara Muzzio, encabezó el acto de apoyo y visibilización junto con el personal de la Legislatura, múltiples agrupaciones y ONGs.</i></p>
+                            <br>
+                            <figure>
+                                <a href="">
+                                    <img class="w-full object-cover object-center"
+                                        src="{{ asset('../img/leg/leg_down2.svg') }}" alt="">
+                                </a>
+                            </figure>
+                            <br>
+                            <div
+                                class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                    <p><b>La conmemoración del Día Mundial del Síndrome de Down en el Palacio Legislativo se llevó a cabo este viernes en el Salón San Martín, con la participación de la Vicejefa del Gobierno de la Ciudad, Clara Muzzio y el personal de la casa.</b></p>
+                                    <br>
+                                    <p>Cada 21 de marzo, desde el 2011 por reconocimiento de la Organización de las Naciones Unidas, se celebra internacionalmente esta fecha para visibilizar, concientizar y apoyar las voces de todos y buscar mejores condiciones de salud, de educación y de igualdad. La Legislatura de la Ciudad fue la sede donde pudieron compartir experiencias, testimonios, mensajes y propuestas en primera persona, y también reunirse con otras agrupaciones que apuntan también a una mejor base.</p>
+                                    <br>
+                                    <p>Muzzio, como Presidente de la Legislatura y madre de Benjamín, de un año y con síndrome de Down, contó: “Tenemos que cambiar la mirada y seguir trabajando para generar oportunidades reales y concretas. Es una responsabilidad de todos: de las familias, de las personas pero fundamentalmente del Estado. Es ahí donde yo, no solamente como presidenta de esta Casa sino como vicejefa de Gobierno, me pongo bajo esta gran responsabilidad y este gran desafío que tenemos como Gobierno de la Ciudad de seguir generando oportunidades y derribando barreras”.</p>
+                                    <br>
+                                    <p>María Luisa González Estevarena, como vicepresidenta primera de la Comisión de Discapacidad, acompañó a Muzzio y comentó: “Es un compromiso que asumo con cada uno de ustedes quedar a disposición para tender redes, para tener una respuesta a todo lo que se pueda ir haciendo en este camino”.
+                                    </p>
+                                    <br>
+                                    <p>Entre presencias en el Salón San Martín y acompañamiento desde distintos puntos del país de manera virtual, colaboraron las ONGs Apasido, Loros Parlantes, Crearte, Santa Mónica Hockey Inclusivo, el Taller Municipal de la Ciudad de 9 de Julio Taekwondo Sin Fronteras Parataekwondo Olímpico WT, las fundaciones Baccigalupo y Upis Complejo Ético El Zapato y la Asociación Síndrome de Down República Argentina (ASDRA).</p>
+                                    <br>
+                                    <p>“Hay mucho por hacer. Los desafíos para la inclusión realmente son importantes. Estamos una época donde nos tenemos que unir. Las cosas se logran cuando nos unimos y los que se benefician son ellos y las familias. La diversidad transforma, nos hace respetuosos, nos hace considerar al otro, nos hace empáticos”, comunicó Rosa Scioti, miembro de ASDRA. Con una frase que enmarca a la organización que representa, cerró: “Hagamos de la inclusión algo de todos los días”.</p>
+                                    <br>
+                                    
+                                </div>
+
+
+
+                            </div>
+                        </div>
+                    </article>
+                </li>
+            </ul>
+        </section>
         {{--LA LEGISLATURA DECLARÓ A ENRIQUE HRABINA.. --}}
         <section >
             <ul>

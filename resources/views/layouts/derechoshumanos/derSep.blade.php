@@ -2380,6 +2380,234 @@
                 </div>
 
             </section>
+        @elseif ($tituloSep == 'Derechos-Humanos-Noticia-Completa-der17')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow ">
+                                <article>
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">HISTÓRICA SENTENCIA EN EL JUICIO DE LAS BRIGADAS
+                                            </a>
+                                            <p class="font-light  text-right text-gray-500">Publicado: 26/03/2024</p>
+                                        </h2>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                                <p><i>El Tribunal Oral en lo Criminal Federal Nro. 1 de La Plata dictó una sentencia histórica en el juicio por crímenes de lesa humanidad, desmintiendo discursos que intentan negar el genocidio ocurrido en Argentina durante la última dictadura militar.</i></p>
+                                                <br>
+                                                <figure>
+                                                    <a href="">
+                                                        <img class="w-full object-cover object-center"
+                                                            src="{{ asset('../img/der/der_juicio2.svg') }}"alt="">
+                                                    </a>
+                                                    
+                                                </figure>
+                                                {{-- <p class="font-light text-gray-500">Foto: La Tinta</p> --}}
+                                                <br>
+                                                <p>En el día de hoy, el Tribunal Oral en lo Criminal Federal Nro. 1 de La Plata emitió una nueva sentencia en el Juicio de Las Brigadas, un proceso que duró casi cuatro años y que juzgó crímenes cometidos en cuatro centros clandestinos de detención, tortura y exterminio: Pozo de Banfield, Pozo de Quilmes, El Infierno de Avellaneda y la Brigada de San Justo.
+                                                </p>
+                                                <br>
+                                                <p>La sentencia condenó a prisión perpetua a diez de los doce genocidas juzgados, entre ellos figuras clave como Federico Antonio Minicucci, Guillermo Domínguez Matheu, Jorge Héctor Di Pasquale, Carlos María Romero Pavón, Roberto Balmaceda, Jaime Lamont Smart, Juan Miguel Wolk, Jorge Antonio Bergés, Horacio Luis Castillo y Carlos Gustavo Fontana. Estos individuos fueron responsables de secuestros, torturas, violaciones, robo de bebés y asesinatos, cometidos en el marco del plan sistemático de exterminio implementado por el Estado Terrorista durante la dictadura cívico-militar-eclesiástica.</p>
+                                                <br>
+                                                <p>La sentencia del Tribunal desmiente los discursos del Gobierno Nacional que intentan reinstalar la Teoría de los Dos Demonios o negar el genocidio ocurrido en nuestro país. Este fallo reafirma que no hubo una guerra con dos bandos, sino un plan sistemático de exterminio por parte del Estado, con el objetivo de eliminar a todo aquel que se opusiera a la dictadura.</p>
+                                                <br>
+                                                <p>La histórica sentencia en el Juicio de Las Brigadas representa un paso más hacia la justicia y la memoria en Argentina. Es un recordatorio de que los crímenes de lesa humanidad no prescriben y que la lucha por la verdad y la justicia debe continuar. En un contexto donde desde el Gobierno de Milei y sus secuaces se lanzan mensajes negacionistas y provocativos, esta sentencia reafirma la necesidad de mantener viva la memoria de los 30.000 desaparecidos y de seguir defendiendo los derechos humanos en nuestro país.
+                                                </p>
+                                                <br>
+                                                <p>En nuestro medio, como defensores de los Derechos Humanos, celebramos esta sentencia y reafirmamos nuestro compromiso con la búsqueda de verdad y justicia. Continuaremos denunciando cualquier intento de negar o tergiversar la historia, y seguiremos apoyando a todas las víctimas y sus familias en su lucha por memoria, verdad y justicia.</p>
+                                                <br>
+                                                
+                                                {{-- <figure>
+                                                    <img class="w-28 h-28 ml-10  object-cover"
+                                                        src="{{ asset('../img/der/Adri.svg') }}" alt="">
+                                                    <p> <strong> Nota por Adriana Zerdín </strong></p></a>
+
+                                                </figure> --}}
+
+
+                                            </div>
+                                        </div>
+
+
+
+                                    </div>
+                                </article>
+                            </li>
+                        </ul>
+                    </div>
+
+                    {{-- columna de la derecha chica --}}
+                    <aside>
+                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                            <div class=" col-span-6">
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/bener-leg2.png') }}"
+                                        alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
+                                        alt="">
+                                </a>
+
+                                <div id="app">
+
+                                    <div v-for="item in info">
+
+                                        <div class="flex-col pb-3">
+                                            <div
+                                                class="flex-col max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg"
+                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
+                                                        alt="" />
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5
+                                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                                            @{{ item.title }}</h5>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div v-for="va in clima">
+
+                                        <h5
+                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                            @{{ va }}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+                </div>
+
+            </section>
+        @elseif ($tituloSep == 'Derechos-Humanos-Noticia-Completa-der18')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow ">
+                                <article>
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">EL "TATA" YOFRE, LA VOZ DEL NEGACIONISMO QUE QUIEREN IMPONER MILEI Y VILLARRUEL
+                                            </a>
+                                            <p class="font-light  text-right text-gray-500">Publicado: 26/03/2024</p>
+                                        </h2>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                                <p><i>Juan Bautista Yofre, exfuncionario del gobierno de Menem y exdirector de la SIDE, se erige como el portavoz informal del Gobierno de Javier Milei, impulsando una revisión histórica que pretende borrar el terrorismo de Estado.</i></p>
+                                                <br>
+                                                <figure>
+                                                    <a href="">
+                                                        <img class="w-full object-cover object-center"
+                                                            src="{{ asset('../img/der/der_tata.svg') }}"alt="">
+                                                    </a>
+                                                    
+                                                </figure>
+                                                {{-- <p class="font-light text-gray-500">Foto: La Tinta</p> --}}
+                                                <br>
+                                                <p>Juan Bautista Yofre, conocido como el "Tata", ha emergido como una figura clave en la construcción del relato oficial que busca imponer el gobierno de Javier Milei, marcando una peligrosa tendencia hacia el negacionismo histórico. Con una trayectoria marcada por su cercanía al poder y su papel como exfuncionario del gobierno de Menem, Yofre se ha convertido en un portavoz informal de la administración actual, promoviendo una visión distorsionada de los años 70 que borra de un plumazo el terrorismo de Estado.
+                                                </p>
+                                                <br>
+                                                <p>Juan Bautista Yofre ha sido una figura central en la escena política y cultural argentina, especialmente conocido por su papel en el revisionismo histórico de derecha. Su visión sobre los años 70 y la dictadura militar ha generado debate y críticas, ya que busca equiparar la responsabilidad de toda la sociedad en los crímenes de la dictadura, minimizando el terrorismo de Estado. Además, su hermano Ricardo Yofre tuvo un papel relevante durante la dictadura, lo que ha generado controversias adicionales en torno a la familia Yofre y su relación con ese período oscuro de la historia argentina.</p>
+                                                <br>
+                                                <p>Durante las últimas décadas, Yofre se ha destacado por promover una visión revisionista de la historia argentina en la que busca borrar las líneas divisorias entre víctimas y victimarios de la dictadura militar. Su postura, que ha sido ampliamente criticada, busca humanizar a figuras clave de la dictadura, como Jorge Rafael Videla, presentándolos como simples ciudadanos en lugar de líderes autoritarios responsables de crímenes de lesa humanidad. Esta estrategia, que busca equiparar la responsabilidad de toda la sociedad en los eventos de esa época, distorsiona gravemente la realidad histórica y minimiza el sufrimiento de quienes padecieron la represión.</p>
+                                                <br>
+                                                <p>Durante la dictadura cívico-militar en Argentina (1976-1983), Juan Bautista Yofre ocupó un rol en la misión argentina ante el Banco Interamericano de Desarrollo y la Organización de Estados Americanos. Su hermano, Ricardo Yofre, también tuvo un papel destacado en la dictadura, colaborando como subsecretario general de la Presidencia. Este periodo de la historia argentina estuvo marcado por violaciones sistemáticas de los derechos humanos, desapariciones forzadas, torturas y persecución política.
+                                                </p>
+                                                <br>
+                                                <p>La obra escrita de Yofre ha sido un pilar en su intento de revisar la historia reciente de Argentina. Sus libros, que se iniciaron poco después de reiniciarse los juicios contra los represores, han sido criticados por su negativa a mencionar términos como "terrorismo de Estado" o "dictadura", prefiriendo en su lugar afirmar que el "fracaso fuimos todos". Esta postura, que busca equiparar la responsabilidad de toda la sociedad argentina en los crímenes de la dictadura, ha generado controversia y críticas en diversos ámbitos.</p>
+                                                <br>
+                                                <p>En su carrera política y diplomática, Yofre ocupó el cargo de embajador en Panamá y Portugal durante el gobierno de Menem. Sin embargo, su legado político se ve empañado por su participación en la causa del contrabando de armas a Croacia y Ecuador, así como por su procesamiento en 2012 por hackear cuentas de correo electrónico de funcionarios públicos. Su papel como portavoz informal del gobierno de Javier Milei y su influencia en la construcción del relato oficial son motivo de preocupación, ya que amenazan con socavar la memoria colectiva y la búsqueda de justicia para las víctimas del pasado.</p>
+                                                <br>
+                                                <p>En conclusión, Juan Bautista Yofre representa una tendencia peligrosa hacia el negacionismo histórico en Argentina, promoviendo una visión distorsionada de los años 70 que borra el terrorismo de Estado y busca equiparar la responsabilidad de toda la sociedad en los crímenes de la dictadura militar. Su papel en el gobierno de Menem y su influencia en la construcción del relato oficial son motivo de preocupación, ya que amenazan con socavar la memoria colectiva y la búsqueda de justicia para las víctimas del pasado.</p>
+                                                <br>
+                                                
+                                                {{-- <figure>
+                                                    <img class="w-28 h-28 ml-10  object-cover"
+                                                        src="{{ asset('../img/der/Adri.svg') }}" alt="">
+                                                    <p> <strong> Nota por Adriana Zerdín </strong></p></a>
+
+                                                </figure> --}}
+
+
+                                            </div>
+                                        </div>
+
+
+
+                                    </div>
+                                </article>
+                            </li>
+                        </ul>
+                    </div>
+
+                    {{-- columna de la derecha chica --}}
+                    <aside>
+                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                            <div class=" col-span-6">
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/bener-leg2.png') }}"
+                                        alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
+                                        alt="">
+                                </a>
+
+                                <div id="app">
+
+                                    <div v-for="item in info">
+
+                                        <div class="flex-col pb-3">
+                                            <div
+                                                class="flex-col max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg"
+                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
+                                                        alt="" />
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5
+                                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                                            @{{ item.title }}</h5>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div v-for="va in clima">
+
+                                        <h5
+                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                            @{{ va }}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+                </div>
+
+            </section>
         @endif
     </div>
 
@@ -2401,7 +2629,7 @@
                 mounted() {
 
 
-                    axios.get("https://api.dailymotion.com/videos?channel=news&limit=5")
+                    axios.get("https://api.dailymotion.com/videos?channel=news&limit=4")
                         .then(response => {
                             this.info = response.data.list
                         });

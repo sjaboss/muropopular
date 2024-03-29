@@ -1,5 +1,155 @@
 <x-app-layout>
     <div class="container ">
+        {{--COMIENZA LA CAMPAÑA ANTIGRIPAL EN TODA LA PROVINCIA...--}}
+    <section> 
+        <ul>
+            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                <article>
+
+                    <div class="py-4 px-4 justify-between items-center">
+                        <h2 class="text-xl font-serif  font-bold pb-6">
+                            <a href="">COMIENZA LA CAMPAÑA ANTIGRIPAL EN TODA LA PROVINCIA</a>
+                        </h2>
+                        <p class="font-light  text-right text-gray-500">Publicado: 26/03/2024</p>
+                        <div class=" font-sans text-lg text-left col-span-6  ">
+                        <p><i>La Provincia comienza hoy a aplicar la vacuna antigripal en todo el territorio bonaerense. Se realizará de forma escalonada según grupos, el primero es personas embarazadas, personal de salud y mayores de 65 años.</i>
+                        </p>
+                        <br>
+                        <figure>
+                            <img class="w-full object-cover" src="../img/soc/soc_anti2.svg"
+                                alt="">
+                        </figure>
+                        {{-- <article>
+                            <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/UqID0Ip36fk?si=YLUh3qCeGsHV25ll" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            
+                        </article> --}}
+                        <br>
+                        <div
+                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                            <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                <p>El titular de la cartera sanitaria, Nicolás Kreplak, anunció hoy el lanzamiento de la Campaña de Vacunación Antigripal 2024. Buscan reducir las complicaciones, hospitalizaciones, muertes y secuelas ocasionadas por la infección por el virus influenza en la población de riesgo.
+                                </p>
+                                <br>
+                                <p>La gripe o influenza es una enfermedad viral respiratoria que se presenta habitualmente en los meses más fríos del año, y la mayoría de las personas afectadas se recuperan sin necesidad de recibir tratamiento médico. Sin embargo, los niños y niñas pequeños, adultos mayores, embarazadas o en período de puerperio, así como personas con factores de riesgo, pueden presentar complicaciones graves de la enfermedad. </p>
+                                <br>
+                                <p>El Calendario Nacional de Vacunación incluye la vacuna antigripal anual para los grupos de riesgo y está disponible de manera <b>gratuita en todos los vacunatorios</b> de la Provincia de Buenos Aires. (Ver Centros de Vacunación según partido)
+                                </p>
+                                <br>
+                                <p>Es importante tener en cuenta que la vacuna contra la influenza NO contagia la enfermedad, dado que se fabrica con virus inactivados (muertos), y que se puede aplicar junto con la de COVID-19, la de neumococo u otras del Calendario Nacional.
+                                </p>
+                                <br>
+                                <p><b>¿Quiénes deben recibir la vacuna antigripal?</b></p>
+                                <br>
+                                <p>. Personal de salud</p>
+                                <br>
+                                <p>. Personas gestantes: una dosis en cualquier trimestre del embarazo.</p>
+                                <br>
+                                <p>. Personas puérperas: una dosis hasta 10 días posteriores al parto en caso de no haberla recibido durante el embarazo (preferentemente antes del egreso de la maternidad).</p>
+                                <br>
+                                <p>. Niños y niñas entre 6 meses y 2 años</p>
+                                <br>
+                                <p>. Personas de 2 a 64 años con factores de riesgo (no se requiere orden médica)<p>
+                                <br>
+                                <p>. Personas mayores de 65 años: una dosis anual.</p>
+                                <br>
+                                <p>. Personal estratégico.</p>
+                                <br>
+                                <p>Mediante esta campaña de vacunación se busca lograr coberturas mayores o iguales al 95% en cada grupo de la población en riesgo.</p>
+                                <br>
+                                <p>Para la protección contra la gripe, es necesaria la aplicación de una dosis cada año, para asegurar la inmunidad contra las variantes de virus influenza que circulan en cada temporada.</p>
+                                <br>
+                                <p>Las personas mayores de 65 y más años y las personas de 2 a 64 años con factores de riesgo, junto con el personal de salud, los niños y las niñas de 6 a 24 meses, las personas gestantes, constituyen grupos identificados con riesgo para el desarrollo de formas graves de gripe, por lo que son poblaciones objetivo de la campaña de vacunación antigripal. Dichos grupos de riesgo no requieren orden médica para solicitar la aplicación de la vacuna.</p>
+                                <br>
+                                <p>En caso de niños y niñas de 6 a 24 meses, corresponde la aplicación de dos dosis separadas por un intervalo de 30 días la primera vez que la reciben, y luego una dosis anual, y en el caso de las personas gestantes, se indica una dosis anual, en cualquier trimestre del embarazo o en el puerperio, hasta los 10 días.</p>
+                                <br>
+                                <p>Dadas las complicaciones que puede presentar la enfermedad en estos grupos, es de suma importancia su acceso a la vacunación antigripal lo antes posible, con la perspectiva de su protección previa al momento de mayor circulación de virus influenza.</p>
+                                <br>
+                                
+
+                                
+                                
+                                <div class="text-start object-center">
+                                    {{-- <figure>
+                                        <img class="w-28 h-28  "
+                                            src="{{ asset('../img/noteros/Ramiro.svg') }}"
+                                            alt="">
+                                        
+                                        <p> <strong>Nota de Ramiro Caggiano Blanco</strong></p>
+
+                                    </figure> --}}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </li>
+        </ul>
+        <br>
+    </section>
+        {{--UNO DE LOS ASTILLEROS MÁS IMPORTANTES...--}}
+    <section> 
+        <ul>
+            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                <article>
+
+                    <div class="py-4 px-4 justify-between items-center">
+                        <h2 class="text-xl font-serif  font-bold pb-6">
+                            <a href="">UNO DE LOS ASTILLEROS MÁS IMPORTANTES DEL MUNDO CONFIÓ EN EL ARS Y SE CUMPLIÓ CON LAS EXPECTATIVAS</a>
+                        </h2>
+                        <p class="font-light  text-right text-gray-500">Publicado: 26/03/2024</p>
+                        <div class=" font-sans text-lg text-left col-span-6  ">
+                        <p>Concluyeron los trabajos en la Fragata Américo Vespucio que se realizaron en el Astillero Río Santiago
+                        </p>
+                        <br>
+                        <figure>
+                            <img class="w-full object-cover" src="../img/soc/soc_santi2.svg"
+                                alt="">
+                        </figure>
+                        {{-- <article>
+                            <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/UqID0Ip36fk?si=YLUh3qCeGsHV25ll" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            
+                        </article> --}}
+                        <br>
+                        <div
+                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                            <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                <p>En menor tiempo del previsto y con tareas que se agregaron a las que se habían pautado inicialmente, finalizaron en el Astillero Río Santiago los trabajos que requería la Fragata Américo Vespucio. El buque escuela de la Armada italiana realizó exitosamente las pruebas de mar y ya está listo para retomar su tour mundial. Es importante destacar que el Astillero Fincantieri, uno de los más importantes a nivel internacional, confió en el ARS para que se realicen en su planta naval los trabajos que requería la embarcación de su principal cliente y se cumplieron con las expectativas.
+                                </p>
+                                <br>
+                                <p>Pedro Wasiejko, presidente del Astillero Río Santiago (ARS) volvió a resaltar la importancia del trabajo que se viene realizando desde la actual gestión para poner en condiciones el ARS, recuperar la confianza de potenciales clientes en el exterior y cumplir con los compromisos asumidos.</p>
+                                <br>
+                                <p>“Quiero volver a agradecer a Fincantieri, que es el astillero público italiano que cuenta con 18 astilleros en distintos continentes, a la Armada Italiana y a las autoridades de la Marina Argentina, que han colaborado para que sea nuestro astillero el lugar en el que se realizaron las tareas de mantenimiento de esta embarcación emblemática. Haber concluido con las tareas previstas cumpliendo con los estándares de calidad internacional pero además habiendo reducido los tiempos de finalización de los trabajos nos permite recuperar una confianza en el ARS que se había perdido. El capitán del buque escuela Giuseppe Las manifestó su satisfacción con los trabajos realizados e incluso lo dijo públicamente en una entrevista. Esto es muy importante para el astillero”.
+                                </p>
+                                <br>
+                                <p>A la embarcación que arribó a Ensenada el 5 de noviembre y que tenía previsto estar hasta abril en el astillero se le realizaron importantes tareas de mantenimiento en los sistemas de propulsión, diversos motores, sistemas de refrigeración, tanques, mástiles, velas, mobiliarios y otros equipos de la embarcación. Hay que destacar que este buque escuela es similar a la Fragata Libertad que fue construida en el ARS y a la que se le han realizado los trabajos de media vida y las reparaciones periódicas.
+                                </p>
+                                <br>
+                                <p>Wasiejko volvió a recordar que “estamos recuperando la confianza no sólo de clientes locales sino también de importantes actores de la industria naval a nivel internacional y esto es producto del trabajo que venimos realizando para poner en valor y reactivar el Astillero Río Santiago, que es posible gracias a la decisión política del gobernador Axel Kicillof y del ministro Augusto Costa de realizar las inversiones necesarias para recuperar las capacidades de esta planta naval que fueron seriamente afectadas producto de la parálisis que promovió el gobierno de Juntos por el Cambio, pero también de nuestro relacionamiento con astilleros internacionales para realizar trabajos conjuntos. Como venimos diciendo, la industria naval en nuestro país tiene una potencialidad enorme para generar divisas y para desarrollar toda una cadena de proveedores locales que permiten al mismo tiempo generar trabajo de calidad. Tenemos importantes desafíos por delante y este es un paso más en el camino que estamos transitando para reactivar este sector”, sostuvo el presidente del ARS.</p>
+                                <br>
+                                <p>La "Americo Vespucio” es una legendaria embarcación que fue construida en 1930 y cuenta con tres mástiles de 54, 50 y 43 metros de altura, veintiséis velas, una superficie de más de 2000 metros cuadrados. La eslora (longitud) del velero es de 100,5 metros, la manga (ancho) es de 15,56 y el calado (profundidad) es de 7,3 metros.</p>
+                                <br>
+                                
+                                
+                                <div class="text-start object-center">
+                                    {{-- <figure>
+                                        <img class="w-28 h-28  "
+                                            src="{{ asset('../img/noteros/Ramiro.svg') }}"
+                                            alt="">
+                                        
+                                        <p> <strong>Nota de Ramiro Caggiano Blanco</strong></p>
+
+                                    </figure> --}}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </li>
+        </ul>
+        <br>
+    </section>
         {{--ADN POPULARES LLEGA AL STREAMING: ¡UNA NUEVA ERA DE COMUNICACIÓN!--}}
     <section> 
         <ul>

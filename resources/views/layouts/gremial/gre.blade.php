@@ -1,5 +1,57 @@
 <x-app-layout>
     <div class="container ">
+        {{--ATE EN PIE DE GUERRA: MILES DE DESPIDOS Y PARITARIAS A LA BAJA..  --}}
+    <section>
+        <ul>
+            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                <article>
+
+                    <div class="py-4 px-4 justify-between items-center">
+                        <h2 class="text-xl font-serif  font-bold pb-6">
+                            <a href="">ATE EN PIE DE GUERRA: MILES DE DESPIDOS Y PARITARIAS A LA BAJA
+
+                            </a>
+                        </h2>
+                        <p class="font-light  text-right text-gray-500">Publicado: 26/03/2024</p>
+                        <div class=" font-sans text-lg text-left col-span-6  ">
+                        <p><i>La Asociación Trabajadores del Estado (ATE) protagonizó una jornada nacional de protesta contra el Gobierno, denunciando la amenaza de despidos masivos y paritarias insuficientes.</i>
+                        </p>
+                        <br>
+                        {{-- <article>
+                            <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/OT4oMYWRJFs?si=554nnw0P_8LKa125" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            
+                        </article> --}}
+                        <figure>
+                            <img class=" w-full object-cover" src="../img/grem/grem_aten.svg"
+                                alt="">
+                        </figure>
+                        <br>
+                        <div
+                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                            <div class=" font-sans text-lg text-left col-span-6  ">
+                                <p>En medio de un clima de tensión laboral, la Asociación Trabajadores del Estado (ATE) ha alzado su voz en una contundente jornada de protesta contra las políticas laborales del Gobierno de Argentina. La amenaza de despidos masivos, que afectaría a decenas de miles de trabajadores cuyos contratos vencen el 31 de marzo, sumado al magro aumento del 8% ofrecido en la última paritaria, han sido los detonantes de esta movilización. 
+                                </p>
+                                <br>
+                                <p>ATE, uno de los gremios más importantes del país, que nuclea a trabajadores estatales de diferentes áreas, ha expresado su profundo rechazo a las medidas propuestas por el Gobierno, considerándolas un ataque directo a los derechos laborales de los trabajadores. Según informó el gremio en un comunicado, el Gobierno busca desvincular al 30% de los 70 mil trabajadores cuyos contratos están próximos a vencer. Esta situación ha generado un clima de incertidumbre y malestar entre los empleados estatales, que ven peligrar su fuente de trabajo en un contexto económico ya de por sí difícil.
+                                </p>
+                                <br>
+                                <p>La jornada de protesta de ATE incluyó movilizaciones, ruidazos, asambleas y cortes de rutas en todo el país, con la participación activa de trabajadores de distintos ministerios y organismos públicos. Los reclamos de ATE son claros y contundentes: renovación automática de los contratos, reincorporación de despedidos sin causa, aumento salarial acorde a la inflación y pase a planta permanente de los trabajadores precarizados.
+                                </p>
+                                <br>
+                                <p>Además de los despidos, ATE también rechaza el cierre de organismos públicos y la privatización de empresas estatales. En este sentido, el gremio defiende el Fondo de Garantía de Sustentabilidad (FGS) y solicita un aumento de emergencia para jubilados y pensionados.</p>
+                                <br>
+                                <p>Por otro lado, en el ámbito específico de la Administración Pública Nacional, ATE ha denunciado el "magro ofrecimiento" del Gobierno en la última paritaria, considerando que el 8% propuesto está muy por debajo de los últimos índices de inflación. Este descontento se suma al malestar generalizado entre los trabajadores estatales, que ven cómo sus salarios se erosionan mes a mes frente a la creciente inflación.</p>
+                                <br>
+                                <p>En este contexto, ATE ha dejado en claro que continuará en estado de alerta y movilización, dispuesto a defender los derechos de los trabajadores estatales y a enfrentar cualquier intento de ajuste por parte del Gobierno. La lucha por condiciones laborales dignas y por la defensa de los puestos de trabajo se ha convertido en una prioridad para el gremio, que busca garantizar la estabilidad y el bienestar de sus afiliados en un contexto económico y político cada vez más adverso.</p>
+                                <br>
+                                
+                            </div>
+                        </div>
+                </article>
+            </li>
+        </ul>
+    <br><br>
+    </section>
         {{--CTERA EXIGE AL GOBIERNO EL PAGO DEL FONID..  --}}
     <section>
         <ul>
