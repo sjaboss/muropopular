@@ -1,5 +1,58 @@
 <x-app-layout>
     <div class="container ">
+        {{-- TRIUNFO ARGENTINO: JUSTICIA DE EEUU ABSUELVE EN CASO CUPÓN PBI--}}
+<section>
+    <ul>
+        <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+            <article>
+                <div class="py-4 px-4 justify-between items-center">
+                    <h2 class="text-xl font-serif  font-bold pb-6">
+                        <a href="">TRIUNFO ARGENTINO: JUSTICIA DE EEUU ABSUELVE EN CASO CUPÓN PBI</a>
+                    </h2>
+                    <p class="font-light  text-right text-gray-500">Publicado: 09/04/2024</p>
+                    <div class=" font-sans text-lg text-left col-span-6  ">
+                    <p><i>La jueza Loretta Preska, del distrito Sur de Nueva York, dictó un favor de Argentina en la causa por los cupones PBI de 2013, desestimando la demanda de cuatro fondos de cobertura que reclamaban cerca de 1.500 millones de dólares por supuesta manipulación de datos.</i>
+                    </p>
+                    <br>
+                    {{-- <article>
+                        <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/YElDMxWtpio?si=B21D4BO6vjuKVj0Z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        
+                    </article> --}}
+                    <figure>
+                        <img class="w-full object-cover"
+                            src="{{ asset('../img/pol/pol_eeuu2.svg') }}" alt="">
+
+                    </figure>
+                    <br>
+                    <div
+                        class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                        <div class=" font-sans text-lg text-left col-span-6  ">
+                            <p>En un giro favorable para Argentina, la justicia estadounidense ha resuelto un favor del país en la disputa por los cupones PBI emitidos en 2013. La jueza Loretta Preska, del distrito Sur de Nueva York, revocó una sentencia previa que obligaba a Argentina a pagar casi 1.500 millones de dólares a cuatro fondos de cobertura, quienes argumentaron que hubo manipulación de datos por parte del entonces secretario de Comercio y responsable del INDEC, Guillermo Moreno, para evitar los pagos a bonistas.
+                            </p>
+                            <br>
+                            <p>El fallo de la jueza Preska fue contundente al desestimar las demandas de los fondos buitre, destacando que el juicio no se trataba del INDEC ni de la posible mala fe de Argentina al calcular su PBI, sino de un tecnicismo relacionado con la cláusula "no action" cláusula" del prospecto, que impedía a los demandantes presentar la demanda de la manera en que lo hicieron.
+                            </p>
+                            <br>
+                            <p>Esta decisión representa un revés para los fondos Palladian Partners, HBK Master Fund, Hirsh Group y Virtual Emerald International Limited, quienes habían iniciado una denuncia en 2019 por la falta de pago de los rendimientos de los Cupones PBI emitidos en 2005 por el entonces ministro de Economía, Roberto Lavagna, para reestructurar la deuda defaulteada en 2002.
+                            </p>
+                            <br>
+                            <p>La resolución de la justicia de Estados Unidos a favor de Argentina en el caso por los cupones PBI es un triunfo significativo para el país, que ha sido objeto de numerosas demandas de fondos buitre en los últimos años. Este fracaso refuerza la posición de Argentina en la defensa de sus intereses soberanos y en la protección de los derechos de sus ciudadanos frente a especuladores financieros.</p>
+                            <br>
+                            
+                            <div class="text-start object-center">
+                                {{-- <figure>
+                                    <img class="w-28 h-28  "
+                                        src="{{ asset('../img/der/Adri.svg') }}" alt="">
+
+                                    <p> <strong>Adriana Zerdín</strong></p>
+
+                                </figure> --}}
+                            </div>
+                        </div>
+            </article>
+        </li>
+    </ul>
+</section>
         {{-- APOYO A LA REVISTA ANFIBIA--}}
 <section>
     <ul>

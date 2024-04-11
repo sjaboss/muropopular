@@ -1,5 +1,115 @@
 <x-app-layout>
     <div class="container ">
+        {{--ATE PROTESTA CONTRA DESPIDOS MASIVOS DEL GOBIERNO DE MILEI  --}}
+    <section>
+        <ul>
+            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                <article>
+
+                    <div class="py-4 px-4 justify-between items-center">
+                        <h2 class="text-xl font-serif  font-bold pb-6">
+                            <a href="">ATE PROTESTA CONTRA DESPIDOS MASIVOS DEL GOBIERNO DE MILEI
+
+                            </a>
+                        </h2>
+                        <p class="font-light  text-right text-gray-500">Publicado: 09/04/2024</p>
+                        <div class=" font-sans text-lg text-left col-span-6  ">
+                        <p><i>La Asociación de Trabajadores del Estado (ATE) se enfrenta al gobierno en una batalla por los derechos laborales y contra la represión.</i>
+                        </p>
+                        <br>
+                        {{-- <article>
+                            <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/OT4oMYWRJFs?si=554nnw0P_8LKa125" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            
+                        </article> --}}
+                        <figure>
+                            <img class=" w-full object-cover" src="../img/grem/grem_ateparo.svg"
+                                alt="">
+                        </figure>
+                        <br>
+                        <div
+                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                            <div class=" font-sans text-lg text-left col-span-6  ">
+                                <p>La Asociación de Trabajadores del Estado (ATE) llevó a cabo un acto de protesta frente al Ministerio de Economía en rechazo a los despidos masivos de empleades estatales por parte del gobierno de Javier Milei. La manifestación siguió a una protesta en Plaza de Mayo, donde los líderes de ATE exigieron la reincorporación inmediata de los más de once mil trabajadores despedidos. 
+                                </p>
+                                <br>
+                                <p>Durante el acto, dirigentes de ATE denunciaron la presión policial, con la presencia de fuerzas represivas, como un intento del gobierno de frenar la voz popular. Daniel Catalano, secretario general de ATE Capital, expresó su preocupación por los despidos, destacando los recientes de 700 empleados públicos en el Ministerio de Salud y en el Ministerio de Trabajo.
+                                </p>
+                                <br>
+                                <p>Claudio Arévalo, secretario general de ATE Provincia, aseguró que los trabajadores estatales resistirán el embate del gobierno de Milei y llamó a la unidad de la clase trabajadora para derrotar al ajuste. Rodolfo Aguiar, secretario general de ATE Nacional, anunció un contra-pacto en respuesta al gobierno y llamó a movilizarse en Córdoba.
+                                </p>
+                                <br>
+                                <p>En un mensaje de unidad y lucha, los dirigentes de ATE se comprometieron a defender los derechos adquiridos en las calles y a resistir cualquier intento de ataque a los trabajadores estatales.</p>
+                                <br>
+                                <p>La protesta de ATE resalta en un contexto político y social tenso, donde el gobierno de Milei ha generado controversia con sus políticas de ajuste y despidos en el sector público. La presencia de fuerzas represivas en el acto refleja la tensión y el descontento social ante estas medidas.</p>
+                                <br>
+                                <p>El gobierno de Milei ha defendido los despidos como parte de un plan de ajuste necesario para la recuperación económica del país. Sin embargo, las críticas y protestas de organizaciones sindicales y sociales como ATE subrayan el impacto negativo de estas medidas en la vida de miles de trabajadores y sus familias.</p>
+                                <br>
+                                <p>ATE ha anunciado que continuará con sus acciones de protesta y resistencia ante los despidos y el ajuste del gobierno. La solidaridad y el apoyo de otras organizaciones sindicales y sociales son fundamentales en esta lucha por los derechos de los trabajadores estatales y la defensa de los servicios públicos.</p>
+                                <br>
+                                <p>En este contexto, la unidad y la movilización de los trabajadores se presentan como herramientas clave para enfrentar las políticas de ajuste y defender los derechos laborales y sociales conquistados en años de lucha.</p>
+                                <br>
+                            </div>
+                        </div>
+                </article>
+            </li>
+        </ul>
+    <br><br>
+    </section>
+        {{--UNIDAD Y RESISTENCIA ANTE DESPIDOS Y REPRESIÓN  --}}
+    <section>
+        <ul>
+            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                <article>
+
+                    <div class="py-4 px-4 justify-between items-center">
+                        <h2 class="text-xl font-serif  font-bold pb-6">
+                            <a href="">UNIDAD Y RESISTENCIA ANTE DESPIDOS Y REPRESIÓN
+
+                            </a>
+                        </h2>
+                        <p class="font-light  text-right text-gray-500">Publicado: 09/04/2024</p>
+                        <div class=" font-sans text-lg text-left col-span-6  ">
+                        <p><i>LGremios se unen en Argentina para denunciar la militarización de los puestos de trabajo y los despidos bajo el gobierno de La Libertad Avanza. La conferencia de prensa, acompañada por diversos sindicatos, marca un llamado a la unidad y la resistencia ante las políticas que afectan a los trabajadores.</i>
+                        </p>
+                        <br>
+                        {{-- <article>
+                            <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/OT4oMYWRJFs?si=554nnw0P_8LKa125" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            
+                        </article> --}}
+                        <figure>
+                            <img class=" w-full object-cover" src="../img/grem/grem_unidad.svg"
+                                alt="">
+                        </figure>
+                        <br>
+                        <div
+                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                            <div class=" font-sans text-lg text-left col-span-6  ">
+                                <p>A 48 horas de la reunión del consejo directivo de la CGT y el congreso nacional de Camioneros, el clima sindical en Argentina se encuentra en ebullición. Daniel Catalano, titular de ATE Capital, encabezó una conferencia de prensa junto a una decena de gremios para denunciar la "militarización de los puestos de trabajo" y los "despidos arbitrarios" por parte del gobierno de La Libertad Avanza. 
+                                </p>
+                                <br>
+                                <p>En un acto de solidaridad y unidad, los gremios presentes respaldaron el reclamo de los empleados estatales y plantearon sus propias reivindicaciones frente a las políticas privatizadoras y las censantías que amenazan a diversos sectores laborales.
+                                </p>
+                                <br>
+                                <p>Sergio Palazzo, líder de La Bancaria, hizo un llamado a "activar la unidad" en el movimiento obrero para "generar un gran paro nacional" en respuesta a las políticas de ajuste del gobierno de ultraderecha. Palazzo enfatizó que "no podemos permitir que se dispongan los destinos de nuestro país en desmedro de la clase trabajadora".
+                                </p>
+                                <br>
+                                <p>Por su parte, Paco Manrique del SMATA, instó a la movilización "dentro de las estructuras sindicales" para una protesta organizada y efectiva.</p>
+                                <br>
+                                <p>La conferencia de prensa precedió a la reunión del consejo directivo de la CGT, donde se definirán los pasos a seguir por la central obrera, que se debate entre la convocatoria a una movilización o a un paro general en respuesta a la política económica de La Libertad Avanza.</p>
+                                <br>
+                                <p>En paralelo, el congreso nacional del sindicato de Camioneros reunirá a 20 mil trabajadores del sector. El gremio liderado por los Moyano firmó un acuerdo paritario que desafía las políticas de ajuste del gobierno, recuperando el poder adquisitivo de sus trabajadores. Ante la negativa del gobierno de homologar el acuerdo, Pablo Moyano prometió responder con un paro.</p>
+                                <br>
+                                <p>La denuncia de Catalano contra las autoridades por abuso de autoridad e incumplimiento de los deberes de funcionarios públicos marca un nuevo capítulo en la lucha sindical argentina, donde la unidad y la resistencia se erigen como pilares fundamentales en la defensa de los derechos laborales y la dignidad de los trabajadores.</p>
+                                <br>
+                                <p>En la conferencia de prensa, Catalano estuvo acompañado por Carmen Arias de la Asociación de Madres de Plaza de Mayo; Charly Pisoni de H.I.J.O.S; Victoria Montenegro, legisladora porteña de Unión por la Patria; Monona Rodríguez y Eduardo López de la Unión de Trabajadores de la Educación; Claudio Marín, del sindicato de telecomunicaciones FOETRA; Diego Morales, del Centro de Estudios Legales y Sociales; y Agustín Lecchi, del Sindicato de Prensa de Buenos Aires (Sipreba), entre otros.</p>
+                                <br>
+                            </div>
+                        </div>
+                </article>
+            </li>
+        </ul>
+    <br><br>
+    </section>
         {{--ATE EN PIE DE GUERRA: MILES DE DESPIDOS Y PARITARIAS A LA BAJA..  --}}
     <section>
         <ul>

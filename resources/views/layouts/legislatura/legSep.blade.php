@@ -3687,6 +3687,220 @@
                 </div>
 
             </section>
+        @elseif ($tituloSep == 'Legislatura-Noticia-Completa-leg28')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">LA PELÍCULA ‘VOLVER A MALVINAS’ FUE DECLARADA DE INTERÉS PARA LA PROMOCIÓN Y DEFENSA DE LOS DERECHOS HUMANOS</a>
+                                        </h2>
+                                        <p class="font-light  text-right text-gray-500">Publicado: 09/04/2024</p>
+                                        <p><i>El film de Natalio Balderrama fue destacado por el Cuerpo Legislativo, gracias a un proyecto presentado por la diputada, Maia Daer.</i></p>
+                                        <br>
+                                        <figure>
+                                            <a href="">
+                                                <img class="w-full object-cover object-center"
+                                                    src="{{ asset('../img/leg/leg_volver.svg') }}" alt="">
+                                            </a>
+                                        </figure>
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                                <p><b>A pocos días de cumplirse 42 años de la guerra de Malvinas, los legisladores de la Ciudad declararon de Interés para la Promoción y Defensa de los Derechos Humanos a la película y documental ‘Volver a Malvinas’, realizada y dirigida por Natalio Balderrama.</b> El acto se llevó a cabo en el <b>Salón Dorado del Palacio Legislativo</b> y contó con la presencia de <b>la diputada y autora del proyecto, Maia Daer; el secretario parlamentario, Horacio Rivero; el director del largometraje, Natalio Balderrama; el combatiente de Malvinas, Ricardo Daer; y el Secretario General de la Asociación del Personal Legislativo (APL), Norberto Di Prospero.</b></p>
+                                                <br>
+                                                <p>En el inicio de las alocuciones, la diputada Daer destacó que hoy se distinguió a la historia de “compañeros” que volvieron a las islas, “después de haber dejado compañeros allá y de volver rotos”. Además remarcó el orgullo de la lucha por la recuperación de las islas. Y abogó: “Poder darle valor y malvinizar es una tarea que tenemos que hacer todos los días con nuestros hijos y que se replique, para que nunca dejemos de pensar y sentir a las Malvinas argentinas”.</p>
+                                                <br>
+                                                <p>Luego, Balderrama agradeció a la legisladora por la iniciativa y agregó: “Que hayan valorado y hayan sentido el respeto que quise transmitir me hace muy feliz, el documental sigue siendo muy reconocido”.</p>
+                                                <br>
+                                                <p>Finalmente Ricardo Daer expresó: “La posguerra fue peor que la guerra, pero en eso tuvimos las manos de nuestros hermanos compañeros y familia que nos sacaron del pozo. Y tuve la suerte de volver a Malvinas”. Y determinó que jamás abandonarán la lucha, que por eso se llaman Combatientes de Malvinas; y llamó a malvinizar a las próximas generaciones.
+                                                </p>
+                                                <br>
+                                                <p>‘Volver a Malvinas’ no solo narra el regreso del grupo de combatientes de Malvinas de APL  a las islas (acompañados por el Secretario General de dicho gremio y otros 6 trabajadores legislativos) sus emociones, recuerdos, pérdidas y dolencias, sino que también capta el encuentro en vivo entre dicha comitiva y un grupo de combatientes ingleses que se hallaban en Malvinas, hecho inédito y de trascendencia histórica.</p>
+                                                <br>
+                                                <p>Allí se plasman historias narradas en primera persona por los combatientes y relatadas desde el lugar exacto donde se llevó a cabo el conflicto bélico de 1982, y se transmiten como pocas veces el significado atroz de la guerra e intentan reflejar la hidalguía y el valor de aquellos jóvenes que, a tan temprana edad dieron su vida por la patria.</p>
+                                                <br>
+                                                
+                                                
+                                            </div>
+
+
+
+                                        </div>
+                                    </div>
+                                </article>
+                            </li>
+                        </ul>
+                        <br>
+
+                    </div>
+
+
+                    {{-- columna de la derecha chica --}}
+                    <aside>
+                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                            <div class=" col-span-6">
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/bener-leg2.png') }}"
+                                        alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
+                                        alt="">
+                                </a>
+
+                                <div id="app">
+
+                                    <div v-for="item in info">
+
+                                        <div class="flex-col pb-3">
+                                            <div
+                                                class="flex-col max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg"
+                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
+                                                        alt="" />
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5
+                                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                                            @{{ item.title }}</h5>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div v-for="va in clima">
+
+                                        <h5
+                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                            @{{ va }}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+
+                </div>
+
+            </section>
+        @elseif ($tituloSep == 'Legislatura-Noticia-Completa-leg29')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">FLORENCIA CANALE ES NUEVA PERSONALIDAD DESTACADA</a>
+                                        </h2>
+                                        <p class="font-light  text-right text-gray-500">Publicado: 09/04/2024</p>
+                                        <p><i>El Cuerpo Legislativo resaltó la trayectoria de la escritora y novelista, por medio de un proyecto presentado por el legislador mandato cumplido, Roy Cortina.</i></p>
+                                        <br>
+                                        <figure>
+                                            <a href="">
+                                                <img class="w-full object-cover object-center"
+                                                    src="{{ asset('../img/leg/leg_flor.svg') }}" alt="">
+                                            </a>
+                                        </figure>
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                                <p>Los legisladores de la Ciudad declararon a Florencia Canale como Personalidad Destacada de la Cultura. El acto se llevó a cabo en la Biblioteca del Palacio Legislativo y contó con la presencia del legislador mandato cumplido y actual Subsecretario de Políticas Culturales del Ministerio de Cultura de la Ciudad de Buenos Aires, Roy Cortina; el editor y gerente editorial de Editorial Planeta, Mariano Valerio y la homenajeada.</p>
+                                                <br>
+                                                <p>En el inicio de las alocuciones, Cortina destacó que el proyecto de ley de su autoría fue votada por casi la totalidad de los legisladores y recordó la carrera de la escritora. “La novela histórica tuvo un papel crucial en la historia de nuestra ciudad; en este contexto, es imposible no mencionar a Florencia Canale, que escribió sus historias de manera magistral”, recalcó. Y puntualizó que muchas obras cuentan con una perspectiva de género y el protagonismo de las mujeres.</p>
+                                                <br>
+                                                <p>La homenajeada agradeció la distinción y resaltó la importancia de la lectura y de la libertad que le dieron desde su familia. “Sin libros no hay libertad ni vida”, afirmó. Y concluyó: “Los libros eran mi salvoconducto a la vida, la supervivencia y la sobrevivencia”.</p>
+                                                <br>
+                                                <p>Florencia Canale es una reconocida escritora marplatense que también sobresale como novelista, periodista y editora. Se destaca por su narrativa histórica, que no solo ofrece una ventana al pasado, sino que también contribuye a la comprensión de las complejidades sociales, políticas y culturales que han moldeado a la Argentina actual.
+                                                </p>
+                                                <br>
+                                                <p>La narrativa histórica cumple un papel fundamental al proporcionar a los lectores una conexión profunda con la rica y compleja historia del país. A través de este tipo de obras, tenemos la oportunidad de explorar eventos clave, momentos trascendentales y figuras históricas que han dado forma a nuestra identidad nacional.</p>
+                                                <br>
+                                                
+                                                
+                                            </div>
+
+
+
+                                        </div>
+                                    </div>
+                                </article>
+                            </li>
+                        </ul>
+                        <br>
+
+                    </div>
+
+
+                    {{-- columna de la derecha chica --}}
+                    <aside>
+                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                            <div class=" col-span-6">
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/bener-leg2.png') }}"
+                                        alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
+                                        alt="">
+                                </a>
+
+                                <div id="app">
+
+                                    <div v-for="item in info">
+
+                                        <div class="flex-col pb-3">
+                                            <div
+                                                class="flex-col max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg"
+                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
+                                                        alt="" />
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5
+                                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                                            @{{ item.title }}</h5>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div v-for="va in clima">
+
+                                        <h5
+                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                            @{{ va }}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+
+                </div>
+
+            </section>
         @endif
 
     </div>

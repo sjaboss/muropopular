@@ -1,5 +1,319 @@
 <x-app-layout>
     <div class="container ">
+        {{--NO PODEMOS QUEDARNOS CALLADOS MIENTRAS INTENTAN DESTRUIR LA EDUCACIÓN PÚBLICA--}}
+    <section> 
+        <ul>
+            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                <article>
+
+                    <div class="py-4 px-4 justify-between items-center">
+                        <h2 class="text-xl font-serif  font-bold pb-6">
+                            <a href="">NO PODEMOS QUEDARNOS CALLADOS MIENTRAS INTENTAN DESTRUIR LA EDUCACIÓN PÚBLICA</a>
+                        </h2>
+                        <p class="font-light  text-right text-gray-500">Publicado: 11/04/2024</p>
+                        <div class=" font-sans text-lg text-left col-span-6  ">
+                        <p><i>El bloque de legisladores de la Unión Cívica Radical manifestó su profunda preocupación por la situación que atraviesan las universidades nacionales.
+                            </i>
+                        </p>
+                        <br>
+                        <figure>
+                            <img class="w-full object-cover" src="../img/soc/soc_educacion.svg"
+                                alt="">
+                        </figure>
+                        {{-- <article>
+                            <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/UqID0Ip36fk?si=YLUh3qCeGsHV25ll" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            
+                        </article> --}}
+                        <br>
+                        <div
+                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                            <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                <p>Las instituciones educativas hoy reciben un tercio de los fondos que necesitan para funcionar. El gobierno nacional decidió congelar el presupuesto del año 2023 sin tener en cuenta la inflación interanual de más del 250% y sin considerar los brutales aumentos en las tarifas de todos los servicios. Además, ante los reclamos de los rectores, el gobierno nacional adelantó que no enviará fondos adicionales.
+                                </p>
+                                <br>
+                                <p>Las universidades atraviesan un ahogo financiero que hace imposible afrontar el ciclo lectivo 2024. Ya se han suspendido proyectos de extensión e investigación y peligra el normal dictado de clases. “El propio presidente Milei ha expresado su repudio a la educación pública. Esta situación ya ha pasado de las frases altisonantes en las redes sociales a una premeditada acción de desfinanciamiento que pone en quiebre a la educación pública superior”, resumió la presidenta del bloque, Lorena Matzen.</p>
+                                <br>
+                                <p>“Esta situación impacta de lleno en el funcionamiento de la Universidad Nacional del Comahue y la Universidad Nacional de Río Negro, que hoy reúnen a unos 98 mil estudiantes. La comunidad universitaria está movilizada y temen que se suspendan las clases si esta situación continúa”, resaltó. “Se anunció un aumento del 70% pero es necesario aclarar que es sobre el 3,5% del total del presupuesto 2023 y que sólo está destinado a cubrir gastos operativos menores. El aumento no contempla los salarios docentes y no docentes”, explicó Matzen.
+                                </p>
+                                <br>
+                                <p>“No podemos quedarnos callados mientras intentan destruir la educación pública. Debemos acompañar las iniciativas que la defiendan. Por esto presentamos un proyecto de comunicación para apoyar el proyecto de ley de la diputada nacional Danya Tavela, del bloque de la UCR. Plantea declarar la emergencia presupuestaria del sistema universitario nacional y propone establecer un mecanismo de asignación de recursos y gastos en el marco del presupuesto 2024”, sentenció Matzen
+                                </p>
+                                <br>
+                                <p>El proyecto de Tavela es acompañado por sus pares radicales y por diputados de otros bloques. La iniciativa impulsa un esquema que contempla un 85% para gastos de salarios y un 15% para gastos generales y de funcionamiento. Además, prevé una actualización bimestral atada al índice de precios al consumidor y a la variación promedio de las tarifas de los servicios públicos
+                                </p>
+                                <br>
+                                
+                                
+                                
+                                <div class="text-start object-center">
+                                    {{-- <figure>
+                                        <img class="w-28 h-28  "
+                                            src="{{ asset('../img/noteros/Ramiro.svg') }}"
+                                            alt="">
+                                        
+                                        <p> <strong>Nota de Ramiro Caggiano Blanco</strong></p>
+
+                                    </figure> --}}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </li>
+        </ul>
+        <br>
+    </section>
+        {{--KICILLOF RECIBIÓ A INTENDENTES E INTENDENTAS DE LA PROVINCIA--}}
+    <section> 
+        <ul>
+            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                <article>
+
+                    <div class="py-4 px-4 justify-between items-center">
+                        <h2 class="text-xl font-serif  font-bold pb-6">
+                            <a href="">KICILLOF RECIBIÓ A INTENDENTES E INTENDENTAS DE LA PROVINCIA</a>
+                        </h2>
+                        <p class="font-light  text-right text-gray-500">Publicado: 11/04/2024</p>
+                        <div class=" font-sans text-lg text-left col-span-6  ">
+                        <p><i>El gobernador de Buenos Aires, Axel Kicillof, se reunió con intendentes radicales para abordar la preocupante situación de la salud y la obra pública en los municipios, destacando la necesidad de mantener el empleo y los servicios públicos frente a recortes nacionales.
+                            </i>
+                        </p>
+                        <br>
+                        <figure>
+                            <img class="w-full object-cover" src="../img/soc/soc_pba1.svg"
+                                alt="">
+                        </figure>
+                        {{-- <article>
+                            <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/UqID0Ip36fk?si=YLUh3qCeGsHV25ll" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            
+                        </article> --}}
+                        <br>
+                        <div
+                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                            <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                <p>El gobernador de la provincia de Buenos Aires, Axel Kicillof, encabezó este martes una reunión con integrantes del Foro de Intendentes e Intendentas Radicales en el Salón Dorado de la Casa de Gobierno. Fue junto a la vicegobernadora Verónica Magario; la jefa de Asesores, Cristina Álvarez Rodríguez; los ministros de Gobierno, Carlos Bianco; de Economía, Pablo López; de Salud, Nicolás Kreplak; de Desarrollo de la Comunidad, Andrés Larroque; de Infraestructura y Servicios Públicos, Gabriel Katopodis; de Seguridad, Javier Alonso; y la secretaria general de la Gobernación, Agustina Vila.
+                                </p>
+                                <br>
+                                <p>Durante el encuentro, los intendentes expresaron su preocupación por la situación que atraviesa el sistema de salud en sus municipios debido al incremento de los precios de medicamentos e insumos médicos, así como también por la migración de numerosos vecinos desde el sistema privado al sistema público de salud. Además, recalcaron la necesidad de que continúe la obra pública provincial teniendo en cuenta la paralización de la obra pública nacional y el rol clave que esta cumple en la generación de empleo local.</p>
+                                <br>
+                                <p>En ese marco, Kicillof destacó que “el Gobierno nacional ha paralizado la obra pública y cortado drásticamente las transferencias a las provincias: el ajuste que está llevando adelante ya impacta en cada municipio en el que cierran las pymes y se deterioran los ingresos”. “Nosotros no vamos a apoyar ningún tipo de recorte. Quienes coincidimos en que lo que necesitan nuestros vecinos y vecinas es más empleo, salud y educación pública, debemos trabajar en conjunto para dar respuestas más allá de nuestras diferencias”.
+                                </p>
+                                <br>
+                                <p>Estuvieron presentes las y los intendentes de Monte, José Castro; de General Alvear, Ramón Capra; de Lobería, Pablo Barrena; de Lezama, Arnaldo Harispe; de General Belgrano, Osvaldo Dinapoli; de Balcarce, Esteban Reino; de Rojas, Román Bouvier; de Gonzales Chaves, Miriam Gómez; de General Viamonte, Franco Flexas; de Trenque Lauquen, Francisco Recoulat; de Saladillo, José Luis Salomón; de Maipú, Matías Rapallini; de Ayacucho, Emilio Cordonnier; de Tandil, Miguel Ángel Lunghi; de Adolfo Alsina, Javier Andrés; de Florentino Ameghino, Nahuel Mittelbach; de Pellegrini, Sofía Gambier; de Tres Lomas, Luciano Spinolo Sayago; de General Lavalle, Nahuel Guardia; de General La Madrid, Martín Randazzo; de San Cayetano, Miguel Gargaglione; de Rauch, Maximiliano Suescun; de General Madariaga, Carlos Santoro; de Magdalena, Lisandro Hourcade; y de General Arenales, Érica Revilla.
+                                </p>
+                                <br>
+                                
+                                
+                                
+                                <div class="text-start object-center">
+                                    {{-- <figure>
+                                        <img class="w-28 h-28  "
+                                            src="{{ asset('../img/noteros/Ramiro.svg') }}"
+                                            alt="">
+                                        
+                                        <p> <strong>Nota de Ramiro Caggiano Blanco</strong></p>
+
+                                    </figure> --}}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </li>
+        </ul>
+        <br>
+    </section>
+        {{--DESCONTROL EN LAS CUOTAS DE MEDICINA PREPAGA--}}
+    <section> 
+        <ul>
+            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                <article>
+
+                    <div class="py-4 px-4 justify-between items-center">
+                        <h2 class="text-xl font-serif  font-bold pb-6">
+                            <a href="">DESCONTROL EN LAS CUOTAS DE MEDICINA PREPAGA: EL NEGOCIO PRIVADO QUE AFECTA A LA CLASE MEDIA</a>
+                        </h2>
+                        <p class="font-light  text-right text-gray-500">Publicado: 11/04/2024</p>
+                        <div class=" font-sans text-lg text-left col-span-6  ">
+                        <p><i>Escribe Reynaldo Saccone,  Ex presidente Cicop/Izquierda Socialista-FIT Unidad
+                            Los aumentos de las cuotas por parte de las empresas de medicina prepaga han sido siderales e indiscriminados. En 4 meses superaron el 150%, tiempo en que los tribunales se inundaron de amparos por parte de familias que no pueden pagar más las cuotas, que van desde 250 mil pesos a 700 mil según el grupo familiar.
+                            </i>
+                        </p>
+                        <br>
+                        <figure>
+                            <img class="w-full object-cover" src="../img/soc/soc_prepagas.svg"
+                                alt="">
+                        </figure>
+                        {{-- <article>
+                            <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/UqID0Ip36fk?si=YLUh3qCeGsHV25ll" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            
+                        </article> --}}
+                        <br>
+                        <div
+                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                            <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                <p>El ministro Caputo salió a decir que las prepagas “le declararon la guerra a la clase media” y Milei que “se les fue la mano, aunque no con mala intención”. Caraduras. Este gobierno es quien les posibilitó bajo la famosa “libertad de precios” y a través del DNU 70/23 se eliminó todo tipo de regulación.
+                                </p>
+                                <br>
+                                <p>El gobierno dice que las prepagas no entienden el “cambio cultural”. ¿Cuál sería? El de aplicar la competencia. Una ridiculez completa, ya que el negocio de las pre pagas está controlado por unas pocas empresas que se pusieron de acuerdo al unísono en aumentar las cuotas en porcentajes similares.</p>
+                                <br>
+                                <p>Diez de las empresas prepagas concentran el 83% de los afiliados a las mismas, siendo las primeras OSDE, Swiss Medical, Galeno, Sancor, OMINT, entre otras, como Medifé, Medicus, Accord Salud, Hospital Italiano y Jerárquicos Salud.
+                                </p>
+                                <br>
+                                <p>Los empresarios de las prepagas son mercaderes de la salud. En todos estos años se vinieron beneficiando ante el desastre del hospital público. Con pacientes que aun pagando altas cuotas mensuales tienen que a su vez abonar consultas y estudios privados para acelerar diagnósticos y tratamientos; co-pagos a profesionales y centros por consultas y prácticas; parte del precio de los medicamentos, y otros rubros.
+                                </p>
+                                <br>
+                                <p>Estos empresarios dicen que están en una situación de “extrema gravedad” y que por ello no les queda otra que aumentar. Que fueron sometidas durante años a un desfinanciamiento y que “no son formadores de precios”. Una mentira total. Ahora aumentan sideralmente y bajo el gobierno peronista de Alberto Fernández y Cristina Kirchner fueron beneficiados con exenciones impositivas y del pago de contribuciones patronales, por ejemplo. Además, son las patronales que tienen a sus trabajadoras y trabajadores con salarios miserables y jornadas de pluriempleo.</p>
+                                <br>
+                                <p>El negocio de la salud entre 1990 y 2015 tuvo una rentabilidad del 13% anual, superando al negocio financiero y a la industria petrolera. Un sector privilegiado que crea una gran desigualdad, ya que cubre solamente a un 10% de la población, pero consume el 30% del gasto total en salud, el mismo porcentaje que utiliza el sector público, pero para atender tres veces más gente, un 35% de la población.</p>
+                                <br>
+                                <p>Desde Izquierda Socialista en el FIT Unidad nos sumamos al repudio a los aumentazos de las prepagas y llamamos a luchar para que se retrotraigan. Como la salud no debe ser un negocio privado capitalista, postulamos un sistema nacional único de salud, estatal, igualitario y de excelencia para todas y todos, con atención y remedios gratuitos, financiado con fondos que se van a la deuda externa y al FMI, controlado por trabajadores y profesionales del sistema, organizaciones de usuarios y vecinales.</p>
+                                <br>
+                                
+                                
+                                <div class="text-start object-center">
+                                    {{-- <figure>
+                                        <img class="w-28 h-28  "
+                                            src="{{ asset('../img/noteros/Ramiro.svg') }}"
+                                            alt="">
+                                        
+                                        <p> <strong>Nota de Ramiro Caggiano Blanco</strong></p>
+
+                                    </figure> --}}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </li>
+        </ul>
+        <br>
+    </section>
+        {{--COMUNICADO DEL FRENTE DE SINDICATOS DE LAS UNIVERSIDADES NACIONALES--}}
+    <section> 
+        <ul>
+            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                <article>
+
+                    <div class="py-4 px-4 justify-between items-center">
+                        <h2 class="text-xl font-serif  font-bold pb-6">
+                            <a href="">COMUNICADO DEL FRENTE DE SINDICATOS DE LAS UNIVERSIDADES NACIONALES</a>
+                        </h2>
+                        <p class="font-light  text-right text-gray-500">Publicado: 11/04/2024</p>
+                        <div class=" font-sans text-lg text-left col-span-6  ">
+                        <p><i>El Gobierno Nacional presentó su propuesta salarial que consiste en un 6% para el mes de febrero que se suma a los porcentajes ya acordados en las paritarias firmadas en los meses de noviembre y diciembre de 2023 con el gobierno anterior.</i>
+                        </p>
+                        <br>
+                        <figure>
+                            <img class="w-full object-cover" src="../img/soc/soc_univer1.svg"
+                                alt="">
+                        </figure>
+                        <figure>
+                            <img class="w-full object-cover" src="../img/soc/soc_univer2.svg"
+                                alt="">
+                        </figure>
+                        {{-- <article>
+                            <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/UqID0Ip36fk?si=YLUh3qCeGsHV25ll" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            
+                        </article> --}}
+                        <br>
+                        <div
+                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                            <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                <p>La pérdida del poder adquisitivo del salario de docentes y nodocentes es de más del 50% respecto de la inflación de los meses de diciembre y enero - para las trabajadoras y los trabajadores el impacto inflacionario es aún mayor por la suba de alimentos y servicios. Lo mínimo que reclamamos es que nuestros salarios no pierdan respecto de la inflación; la propuesta del Gobierno está muy lejos de esa equiparación. Por ello, rechazamos ese porcentaje.
+                                </p>
+                                <br>
+                                <p>Por otro lado, efectivamente el Gobierno pretende establecer una rebaja salarial para la docencia preuniversitaria quitando el FONID. Ese incentivo representa un porcentaje importante del salario preuniversitario. Rechazamos también de plano esa pretensión y exigimos al Gobierno que haga efectivo el pago del FONID para los meses de enero y febrero y acuerde una recomposición del Fondo de manera urgente. Reclamamos también la actualización de las garantías salariales de ambos sectores.</p>
+                                <br>
+                                <p>El Frente Sindical de Universidades Nacionales responsabiliza al Gobierno Nacional por la situación conflictiva generada al pretender que aceptemos la pérdida salarial que es la más importante desde que existen registros. Exigimos al Gobierno Nacional que convoque de urgencia una nueva instancia paritaria en la que haga un ofrecimiento acorde a la pérdida salarial de nuestros sectores.
+                                </p>
+                                <br>
+                                <p>Este conflicto salarial ocurre en un contexto de recorte del presupuesto universitario que pone en riesgo el normal funcionamiento de las universidades nacionales. Defendemos la universidad pública y gratuita al servicio de las grandes mayorías, salarios dignos para trabajadoras y trabajadores y jubilaciones dignas.
+                                </p>
+                                <br>
+                                
+                                
+                                <div class="text-start object-center">
+                                    {{-- <figure>
+                                        <img class="w-28 h-28  "
+                                            src="{{ asset('../img/noteros/Ramiro.svg') }}"
+                                            alt="">
+                                        
+                                        <p> <strong>Nota de Ramiro Caggiano Blanco</strong></p>
+
+                                    </figure> --}}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </li>
+        </ul>
+        <br>
+    </section>
+        {{--FUROR POR MI SALUD DIGITAL:...--}}
+    <section> 
+        <ul>
+            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                <article>
+
+                    <div class="py-4 px-4 justify-between items-center">
+                        <h2 class="text-xl font-serif  font-bold pb-6">
+                            <a href="">FUROR POR MI SALUD DIGITAL: TURNOS EN HOSPITALES BONAERENSES AHORA ONLINE</a>
+                        </h2>
+                        <p class="font-light  text-right text-gray-500">Publicado: 09/04/2024</p>
+                        <div class=" font-sans text-lg text-left col-span-6  ">
+                        <p><i>Con "Mi Salud Digital Bonaerense", reservar turnos en hospitales públicos de la Provincia de Buenos Aires se convierte en una tarea sencilla y rápida, en línea con las políticas de modernización y accesibilidad del sistema de salud.</i>
+                        </p>
+                        <br>
+                        <figure>
+                            <img class="w-full object-cover" src="../img/soc/soc_salud.svg"
+                                alt="">
+                        </figure>
+                        {{-- <article>
+                            <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/UqID0Ip36fk?si=YLUh3qCeGsHV25ll" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            
+                        </article> --}}
+                        <br>
+                        <div
+                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                            <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                <p>La Provincia de Buenos Aires ha dado un paso adelante en la digitalización de los servicios de salud con el lanzamiento de "Mi Salud Digital Bonaerense". Esta plataforma web permite a los ciudadanos reservar turnos de forma online en los 72 hospitales públicos de la provincia, consultar los turnos ya sacados y cancelarlos en caso de imposibilidad de asistencia.
+                                </p>
+                                <br>
+                                <p>Además de la gestión de turnos, "Mi Salud Digital Bonaerense" ofrece otras funcionalidades que facilitan el acceso a la atención médica. Los usuarios pueden ver y descargar sus recetas electrónicas desde cualquier dispositivo, acceder a la cartilla de la Red Bonaerense de Salud para encontrar los establecimientos públicos de salud más cercanos y consultar información sobre prácticas, especialidades y datos de contacto.</p>
+                                <br>
+                                <p>Una de las características más destacadas de la plataforma es la posibilidad de interactuar con un chatbot que brinda información relevante y, si es necesario, deriva al usuario a un teleoperador para una atención más personalizada. Además, los usuarios pueden acceder a su registro de vacunas, conocer las dosis aplicadas y su número de lote, así como guardar información relacionada con su salud.
+                                </p>
+                                <br>
+                                <p>"Mi Salud Digital Bonaerense" representa un avance significativo en la modernización y accesibilidad del sistema de salud en la Provincia de Buenos Aires. Esta plataforma no solo simplifica la gestión de turnos y trámites de salud, sino que también brinda a los ciudadanos una herramienta integral para el cuidado de su salud y el acceso a información relevante.
+                                </p>
+                                <br>
+                                
+                                
+                                <div class="text-start object-center">
+                                    {{-- <figure>
+                                        <img class="w-28 h-28  "
+                                            src="{{ asset('../img/noteros/Ramiro.svg') }}"
+                                            alt="">
+                                        
+                                        <p> <strong>Nota de Ramiro Caggiano Blanco</strong></p>
+
+                                    </figure> --}}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </li>
+        </ul>
+        <br>
+    </section>
         {{--COMIENZA LA CAMPAÑA ANTIGRIPAL EN TODA LA PROVINCIA...--}}
     <section> 
         <ul>
