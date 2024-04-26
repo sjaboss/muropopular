@@ -2608,6 +2608,244 @@
                 </div>
 
             </section>
+        @elseif ($tituloSep == 'Derechos-Humanos-Noticia-Completa-der19')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow ">
+                                <article>
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">EL DOCUMENTAL 'TAREFEROS' DE CLAUDIO ALTAMIRANO: UN LLAMADO URGENTE A LA ACCIÓN CONTRA EL TRABAJO INFANTIL
+                                            </a>
+                                            <p class="font-light  text-right text-gray-500">Publicado: 18/04/2024</p>
+                                        </h2>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                                <p><i>A través de su impactante documental "Tareferos", Claudio Altamirano expone la cruda realidad del trabajo infantil en la cosecha de yerba mate en Argentina, instando a la sociedad a tomar conciencia y a movilizarse para proteger los derechos de la infancia.</i></p>
+                                                <br>
+                                                {{-- <figure>
+                                                    <a href="">
+                                                        <img class="w-full object-cover object-center"
+                                                            src="{{ asset('../img/der/der_tata.svg') }}"alt="">
+                                                    </a>
+                                                    
+                                                </figure> --}}
+                                                <article>
+                                            <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/YlzOOQQaZc8?si=bzEaHD2UN1YHc0mQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                            
+                                        </article>
+                                                {{-- <p class="font-light text-gray-500">Foto: La Tinta</p> --}}
+                                                <br>
+                                                <p>En el corazón de los exuberantes yerbales de Argentina, una verdad incómoda se esconde entre las sombras de los árboles de yerba mate. El documental "Tareferos", dirigido por Claudio Altamirano y filmado en la Región Nordeste de la República Argentina en 2007, revela de manera cruda y conmovedora la explotación laboral de niños y niñas en las cosechas de yerba mate, una realidad que persiste a pesar de las leyes que prohíben el trabajo infantil en el país.
+                                                </p>
+                                                <br>
+                                                <p>Altamirano, además de ser el director del documental, es un profesor comprometido con la protección de los derechos de la infancia. A través de "Tareferos", busca exponer esta problemática que afecta a las comunidades más desfavorecidas, donde los niños y niñas son obligados a trabajar en condiciones deplorables en lugar de disfrutar de su infancia y recibir una educación adecuada.</p>
+                                                <br>
+                                                <p>A pesar de que la Ley 1420 de Roca estableció la educación obligatoria en Argentina y el trabajo infantil está prohibido por ley (Ley 26.390), constituyendo incluso un delito penal (Ley 26.847, art. 148bis), la explotación laboral de niños y niñas persiste. Esta situación es el resultado de la combinación de la explotación y la pobreza, donde sectores económicos obtienen enormes ganancias a costa de salarios insuficientes para sus trabajadores, la inacción gubernamental que desprotege a dichos trabajadores, y la desigualdad arraigada en el país.</p>
+                                                <br>
+                                                <p>El documental "Tareferos" busca comunicar y sensibilizar sobre las causas que permiten la vulneración de los derechos de las infancias, juventudes y familias en Argentina. A través de imágenes impactantes, Altamirano muestra el efecto destructivo del trabajo infantil en estas comunidades, buscando movilizar a la sociedad hacia un cambio que proteja a los niños y niñas de la explotación laboral.
+                                                </p>
+                                                <br>
+                                                <p>La reciente polémica generada por las declaraciones de un diputado que subestimó la importancia de la educación y sugirió que los niños podrían trabajar en lugar de asistir a la escuela, ha puesto de relieve la urgencia de abordar el trabajo infantil como un delito grave que requiere acción colectiva y gubernamental. Aunque la figura del trabajo infantil fue incorporada al Código Penal en 2013, las denuncias son escasas y los casos que llegan a juicio son aún menos.</p>
+                                                <br>
+                                                <p>El estudio del Barómetro de la Deuda Social de la Infancia de la UCA indica que el trabajo infantil afecta a casi el 15% de los niños y adolescentes en Argentina, subrayando la magnitud del problema y la urgencia de actuar. La educación es un derecho inalienable que debe ser protegido y promovido, ya que es fundamental para el desarrollo individual y colectivo, y para forjar una vida digna.</p>
+                                                <br>
+                                                <p>"Tareferos" es más que un documental; es una convocatoria al intercambio y la conversación. Altamirano invita a verlo en comunidad, con vecinos, con la familia, con los estudiantes, porque la imagen invita a la reflexión necesaria para tomar conciencia y actuar colectivamente. Es imperativo que el Estado actúe decisivamente para asegurar los derechos de los niños y erradicar las condiciones que perpetúan el trabajo infantil.</p>
+                                                <br>
+                                                <p>En un contexto donde la ONU insta a la eliminación del trabajo infantil, debemos reflexionar: ¿hacemos lo suficiente para proteger a nuestra niñez? Aunque parezca un ideal lejano, es posible si nos unimos como sociedad y trabajamos juntos para un futuro donde la niñez pueda vivir libre de explotación, con sus derechos plenamente garantizados.</p>
+                                                <br>
+                                                
+                                                {{-- <figure>
+                                                    <img class="w-28 h-28 ml-10  object-cover"
+                                                        src="{{ asset('../img/der/Adri.svg') }}" alt="">
+                                                    <p> <strong> Nota por Adriana Zerdín </strong></p></a>
+
+                                                </figure> --}}
+
+
+                                            </div>
+                                        </div>
+
+
+
+                                    </div>
+                                </article>
+                            </li>
+                        </ul>
+                    </div>
+
+                    {{-- columna de la derecha chica --}}
+                    <aside>
+                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                            <div class=" col-span-6">
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/bener-leg2.png') }}"
+                                        alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
+                                        alt="">
+                                </a>
+
+                                <div id="app">
+
+                                    <div v-for="item in info">
+
+                                        <div class="flex-col pb-3">
+                                            <div
+                                                class="flex-col max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg"
+                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
+                                                        alt="" />
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5
+                                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                                            @{{ item.title }}</h5>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div v-for="va in clima">
+
+                                        <h5
+                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                            @{{ va }}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+                </div>
+
+            </section>
+        @elseif ($tituloSep == 'Derechos-Humanos-Noticia-Completa-der20')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow ">
+                                <article>
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">HONORIS CAUSA PARA ESTELA CARLOTTO EN ROMA
+                                            </a>
+                                            <p class="font-light  text-right text-gray-500">Publicado: 18/04/2024</p>
+                                        </h2>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                                <p><i>Con la frase “donde haya un derecho humano vulnerado, estaremos” resonando en el auditorio, Estela Barnes de Carlotto, Presidenta de Abuelas de Plaza de Mayo recibió el premio Doctora Honoris Causa  en  la Università degli Studi di Roma Tre  como mérito por su compromiso cívico, humano y cultural.</i></p>
+                                                <br>
+                                                <figure>
+                                                    <a href="">
+                                                        <img class="w-full object-cover object-center"
+                                                            src="{{ asset('../img/der/der_honoris.svg') }}"alt="">
+                                                    </a>
+                                                </figure>
+                                                {{-- <article>
+                                            <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/YlzOOQQaZc8?si=bzEaHD2UN1YHc0mQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                            
+                                        </article> --}}
+                                                <p class="font-light text-gray-500">Fotografía de @robertinocarles</p>
+                                                <br>
+                                                <p>Estela Carlotto representa a una generación de luchadores  surgidos por una tragedia como fue la dictadura cívico  militar eclesial 1976-1983. Recordó los duros años del comienzo del organismo Abuelas en búsqueda de los nietos nacidos en cautiverio  y apropiados por los genocidas. 
+                                                </p>
+                                                <br>
+                                                <p>La homenajeada relató  que esta lucha tuvo inmensos logros con las restituciones de les nietes y la recuperación de sus identidades  pero  que aún quedan 300 de ellos  por encontrar.</p>
+                                                <br>
+                                                <p>Con reconocimientos internacionales a través de casi 47 años de existencia, el organismo logró la incorporación de la identificación genética como método de búsqueda de familiares. Asimismo, remarcó que el Banco Nacional de Datos Genéticos (BNDG) como “único en el mundo”, es donde se conserva y preserva la información de familiares y sobrevivientes del genocidio.</p>
+                                                <br>
+                                                <p>ambién recordó  que Abuelas de Plaza de Mayo fueron impulsoras  para la creación de la Comisión Nacional por el Derecho a la Identidad (CONADI), destacando la lucha de los organismos de derechos humanos y la decisión política de constituir  “Memoria,  Verdad y Justicia” como símbolos de dignidad, en contraposición  a los discursos de odio y negacionismo.
+                                                </p>
+                                                <br>
+                                                <p>Estela Carlotto,  finalizó  destacando que “el único camino es la lucha colectiva con amor y perseverancia”.</p>
+                                                <br>
+                                                
+                                                
+                                                <figure>
+                                                    <img class="w-28 h-28 ml-10  object-cover"
+                                                        src="{{ asset('../img/der/Adri.svg') }}" alt="">
+                                                    <p> <strong> Nota por Adriana Zerdín </strong></p></a>
+
+                                                </figure> 
+
+
+                                            </div>
+                                        </div>
+
+
+
+                                    </div>
+                                </article>
+                            </li>
+                        </ul>
+                    </div>
+
+                    {{-- columna de la derecha chica --}}
+                    <aside>
+                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                            <div class=" col-span-6">
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/bener-leg2.png') }}"
+                                        alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
+                                        alt="">
+                                </a>
+
+                                <div id="app">
+
+                                    <div v-for="item in info">
+
+                                        <div class="flex-col pb-3">
+                                            <div
+                                                class="flex-col max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg"
+                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
+                                                        alt="" />
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5
+                                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                                            @{{ item.title }}</h5>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div v-for="va in clima">
+
+                                        <h5
+                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                            @{{ va }}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+                </div>
+
+            </section>
         @endif
     </div>
 
@@ -2629,7 +2867,7 @@
                 mounted() {
 
 
-                    axios.get("https://api.dailymotion.com/videos?channel=news&limit=4")
+                    axios.get("https://api.dailymotion.com/videos?channel=news&limit=3")
                         .then(response => {
                             this.info = response.data.list
                         });

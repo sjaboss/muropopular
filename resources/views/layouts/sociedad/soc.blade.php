@@ -1,5 +1,341 @@
 <x-app-layout>
     <div class="container ">
+        {{--UNIVERSIDADES NACIONALES EN LUCHA--}}
+    <section> 
+        <ul>
+            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                <article>
+
+                    <div class="py-4 px-4 justify-between items-center">
+                        <h2 class="text-xl font-serif  font-bold pb-6">
+                            <a href="">UNIVERSIDADES NACIONALES EN LUCHA</a>
+                        </h2>
+                        <p class="font-light  text-right text-gray-500">Publicado: 18/04/2024</p>
+                        <div class=" font-sans text-lg text-left col-span-6  ">
+                        <p><i>Como una disnea que avanza,  la  Universidad de Buenos Aires  está sintiendo el ahogo preanunciado con diagnóstico de asfixia presupuestaria impuesto por las políticas de recorte estricto por el Presidente de la Nación.
+                            </i>
+                        </p>
+                        <br>
+                        <figure>
+                            <img class="w-full object-cover" src="../img/soc/soc_uni.svg"
+                                alt="">
+                        </figure>
+                        {{-- <article>
+                            <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/UqID0Ip36fk?si=YLUh3qCeGsHV25ll" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            
+                        </article> --}}
+                        <br>
+                        <div
+                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                            <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                <p>El Consejo Superior de la Universidad comenzó con un ajuste en gastos donde anuncian  que no encenderán calderas, ni aires acondicionados, no funcionarán los ascensores y restringirán el uso de energía eléctrica. Tampoco habrá  becas ni programas de extensión.
+                                </p>
+                                <br>
+                                <p>Un pronóstico desalentador, porque no estaría garantizado el segundo cuatrimestre.</p>
+                                <br>
+                                <p>Como inicio de un plan de lucha, varias facultades dieron clases públicas: en escalinatas de la Facultad de Derecho o  sobre la calle Santiago del Estero la Facultad de que el Instituto de Oncología Roffo. Ciencias Sociales, abrazo multitudinario al Hospital de Clínicas dependiente de la UBA.
+                                </p>
+                                <br>
+                                <p>Quedando expuesto el conflicto  en el cual  están involucradas todas Universidades Nacionales  con un recorte de más del 70% del presupuesto universitario con  un gravísimo impacto sobre los salarios docentes y no docentes, más la anulación de las obras de infraestructura, se presagia que la Marcha Federal del 23  de abril próximo,  convocada  como culminación de esta etapa del plan de lucha será de gran magnitud.
+                                </p>
+                                <br>
+                                <p>Cifras  muy preocupantes que se dieron a conocer sobre el funcionamiento del Hospital de Clínicas (UBA), indican que su actividad debió  quedar reducida al 40 %  de su capacidad, atendiendo solamente las emergencias y patologías oncológicas.
+                                </p>
+                                <br>
+                                <p>Qué junio no sea la partida de defunción para las Universidades Nacionales.</p>
+                                <br>
+    
+                                <div class="text-start object-center">
+                                    <figure>
+                                        <img class="w-28 h-28  "
+                                            src="{{ asset('../img/der/Adri.svg') }}"
+                                            alt="">
+                                        
+                                        <p> <strong>Nota de Adriana Zerdín</strong></p>
+
+                                    </figure> 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </li>
+        </ul>
+        <br>
+    </section>
+        {{--3,2 MILLONES DE NUEVOS POBRES POR POLÍTICAS DE MILEI--}}
+    <section> 
+        <ul>
+            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                <article>
+
+                    <div class="py-4 px-4 justify-between items-center">
+                        <h2 class="text-xl font-serif  font-bold pb-6">
+                            <a href="">3,2 MILLONES DE NUEVOS POBRES POR POLÍTICAS DE MILEI</a>
+                        </h2>
+                        <p class="font-light  text-right text-gray-500">Publicado: 20/04/2024</p>
+                        <div class=" font-sans text-lg text-left col-span-6  ">
+                        <p><i>Las políticas de Javier Milei generaron 3,2 millones de nuevos pobres en solo 3 meses, según informe de la Universidad Torcuato Di Tella
+                            </i>
+                        </p>
+                        <br>
+                        <figure>
+                            <img class="w-full object-cover" src="../img/soc/soc_conan.svg"
+                                alt="">
+                        </figure>
+                        {{-- <article>
+                            <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/UqID0Ip36fk?si=YLUh3qCeGsHV25ll" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            
+                        </article> --}}
+                        <br>
+                        <div
+                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                            <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                <p>En el primer trimestre del año, las políticas implementadas por el gobierno de Javier Milei han tenido un impacto devastador en la situación económica de Argentina. Según un informe de la Universidad Torcuato Di Tella, se estima que durante este período se sumaron 3,2 millones de personas a la ya extensa lista de argentinos que viven en situación de pobreza. Esto eleva el total a alrededor de 22,6 millones de personas, lo que representa casi la mitad de la población del país.
+                                </p>
+                                <br>
+                                <p>El informe, titulado "Nowcast de Pobreza", realizado por el investigador Martín González Rozada, utiliza datos de la Encuesta Permanente de Hogares (EPH) del INDEC, junto con proyecciones de la canasta básica total (CBT) y el Índice de Precios al Consumidor. Según estas estimaciones, la tasa de pobreza urbana alcanzó el 48,3% para el período de octubre de 2023 a marzo de 2024.</p>
+                                <br>
+                                <p>Estos números representan un aumento significativo con respecto a las cifras oficiales de fines de 2023, que situaban a 19,4 millones de personas en situación de pobreza. Este drástico incremento se produce en un contexto de alta inflación y políticas de ajuste a subsidios y tarifas, que han sido implementadas por el gobierno de Milei como parte de su plan económico.
+                                </p>
+                                <br>
+                                <p>Además, el informe revela que la canasta básica total promedio en la región de Gran Buenos Aires alcanzó los 177.598 pesos por adulto, lo que representa un aumento interanual del 239,4%. Mientras tanto, el ingreso total familiar promedio se proyectó con un incremento interanual del 184,0%.
+                                </p>
+                                <br>
+                                <p>Este alarmante panorama económico plantea serias preocupaciones sobre el bienestar de los argentinos y la viabilidad de las políticas implementadas por el gobierno de Milei. Con millones de personas luchando para llegar a fin de mes, se hace evidente la necesidad de medidas urgentes para abordar esta crisis y garantizar un futuro más estable y próspero para todos los argentinos.
+                                </p>
+                                <br>
+                                
+                                
+                                
+                                
+                                
+                                <div class="text-start object-center">
+                                    {{-- <figure>
+                                        <img class="w-28 h-28  "
+                                            src="{{ asset('../img/noteros/Ramiro.svg') }}"
+                                            alt="">
+                                        
+                                        <p> <strong>Nota de Ramiro Caggiano Blanco</strong></p>
+
+                                    </figure> --}}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </li>
+        </ul>
+        <br>
+    </section>
+        {{--ESTELA DÍAZ INAUGURA CONSEJO DE POLÍTICAS DE GÉNERO 2024 EN LA PLATA--}}
+    <section> 
+        <ul>
+            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                <article>
+
+                    <div class="py-4 px-4 justify-between items-center">
+                        <h2 class="text-xl font-serif  font-bold pb-6">
+                            <a href="">ESTELA DÍAZ INAUGURA CONSEJO DE POLÍTICAS DE GÉNERO 2024 EN LA PLATA</a>
+                        </h2>
+                        <p class="font-light  text-right text-gray-500">Publicado: 20/04/2024</p>
+                        <div class=" font-sans text-lg text-left col-span-6  ">
+                        <p><i>El encuentro reunió a autoridades de género de unos 70 distritos bonaerenses y enfatizó el compromiso de mantener y fortalecer las políticas públicas con perspectiva de género en los territorios.
+                            </i>
+                        </p>
+                        <br>
+                        <figure>
+                            <img class="w-full object-cover" src="../img/soc/soc_stela2.svg"
+                                alt="">
+                        </figure>
+                        {{-- <article>
+                            <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/UqID0Ip36fk?si=YLUh3qCeGsHV25ll" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            
+                        </article> --}}
+                        <br>
+                        <div
+                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                            <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                <p>La ministra de Mujeres y Diversidad de la provincia de Buenos Aires, Estela Díaz, junto a la intendenta de Quilmes, Mayra Mendoza, y la intendenta de Cañuelas, Marisa Fassi, realizó la apertura anual del Consejo de Políticas de Género y Diversidad Sexual con los Municipios, que se llevó a cabo en el Pasaje Dardo Rocha, de la ciudad de La Plata, con la presencia de las autoridades de las áreas de género de alrededor de 70 distritos bonaerenses.
+                                </p>
+                                <br>
+                                <p>En este marco, Estela Díaz expresó: “En esta provincia mantenemos la institucionalidad porque fue construida gracias a la lucha de las mujeres y las diversidades y porque sabemos que quieren arrasar con todo lo público, con el Estado presente” y agregó: “Además, tenemos a este gran conductor del gobierno de la provincia de Buenos Aires, Axel Kicillof, que se planta donde hay que plantarse y todos los días redobla el esfuerzo y el compromiso para que a nuestro pueblo bonaerense, a las mujeres, a los varones, a las y los jóvenes, a las personas mayores, este Estado le siga dando respuestas”.</p>
+                                <br>
+                                <p>Durante la apertura, la Ministra estuvo acompañada por la subsecretaria de Políticas Transversales de Género, Lidia Fernández; la subsecretaria de Políticas contra las Violencias por Razones de Género, Laurana Malacalza; la subsecretaria de Políticas de Género y Diversidad Sexual, Lucía Portos; la subsecretaria Técnica, Administrativa y Legal, Mercedes Castilla; la directora provincial de Formación, Investigación y Políticas Culturales para la Igualdad; Iris Pezzarini; la directora provincial de Regiones, Silvia Zaballa; y la secretaria de Mujeres y Diversidad del municipio de La Plata, Silvina Perugino.
+                                </p>
+                                <br>
+                                <p>“El Consejo se compone por las 130 áreas de género municipales y tiene como objetivo crear este espacio de discusión, debate, articulación y puesta en común. Porque la transversalización de la perspectiva de género no es posible hacerlo en soledad y, como señaló nuestro Gobernador, las políticas de género no son de un Ministerio sino de todo el gobierno de la provincia de Buenos Aires”, señaló la subsecretaria Lidia Fernández.
+                                </p>
+                                <br>
+                                <p>Luego del panel de apertura, se realizaron tres rondas de trabajo en las que las autoridades de las áreas de género municipales compartieron los principales logros durante la primera etapa de gestión del ministerio y los desafíos para el desarrollo de las tareas cotidianas en la actualidad.
+                                </p>
+                                <br>
+                                <p>Durante el cierre de la jornada, las referentas y referentes locales expusieron las conclusiones del debate en las comisiones y los ejes de trabajo prioritarios en los que es necesario avanzar para profundizar las políticas públicas con perspectiva de género en los territorios.
+                                </p>
+                                <br>
+                                <p>Por su parte, la ministra concluyó: “Ante un gobierno nacional que está planificando la pobreza, la exclusión y la desigualdad. nosotras trabajamos en un sentido absolutamente contrario. El gobierno de la provincia de Buenos Aires, y estas grandes conductoras de su gestión en cada distrito, trabajan construyendo igualdad. Sigamos trabajando por la igualdad.” 
+                                </p>
+                                <br>
+                                <p>El encuentro contó con la participación de las autoridades de las áreas de género de Adolfo Alsina, Arrecifes, Ayacucho, Azul, Balcarce, Baradero, Benito Juárez, Berazategui, Berisso, Bragado, Campana, Cañuelas, Carlos Casares, Carlos Tejedor, Carmen de Areco, Carmen de Patagones, Chacabuco, Colón, Coronel Rosales, Dolores, Escobar, Esteban Echeverría, Ezeiza, Florencio Varela, Florentino Ameghino, General Arenales, General La Madrid, General Lavalle, General Rodríguez, Gonzalez Chaves, Guaminí, Guido, Hurlingham, Ituzaingó, La Matanza, La Plata, Lanús, Las Flores, Lezama, Lobos, Lomas de Zamora, Luján, Magdalena, Mar Chiquita, Monte Hermoso, Moreno, Navarro, Necochea, Olavarría, Pehuajó, Pila, Pinamar, Presidente Perón, Punta Indio, Quilmes, Ramallo, Rauch, Rivadavia,  Saavedra, Salliqueló, San Martín, San Vicente, Suipacha, Tornquist y Tres Lomas. </p>
+                                <br>
+                                
+                                
+                                
+                                
+                                <div class="text-start object-center">
+                                    {{-- <figure>
+                                        <img class="w-28 h-28  "
+                                            src="{{ asset('../img/noteros/Ramiro.svg') }}"
+                                            alt="">
+                                        
+                                        <p> <strong>Nota de Ramiro Caggiano Blanco</strong></p>
+
+                                    </figure> --}}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </li>
+        </ul>
+        <br>
+    </section>
+        {{--¡IMPULSO NACIONAL!--}}
+    <section> 
+        <ul>
+            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                <article>
+
+                    <div class="py-4 px-4 justify-between items-center">
+                        <h2 class="text-xl font-serif  font-bold pb-6">
+                            <a href="">¡IMPULSO NACIONAL! ASTILLERO RÍO SANTIAGO ENTREGA EQUIPAMIENTO CLAVE PARA LA ARMADA ARGENTINA</a>
+                        </h2>
+                        <p class="font-light  text-right text-gray-500">Publicado: 20/04/2024</p>
+                        <div class=" font-sans text-lg text-left col-span-6  ">
+                        <p><i>La entrega de dos embarcaciones de instrucción para cadetes de la Armada Argentina y una compuerta para el Dique 2 del Arsenal Naval de Puerto Belgrano, construidas íntegramente en el Astillero Río Santiago, marca un hito en la industria naval argentina y resalta la capacidad de producción local en el sector.
+                            </i>
+                        </p>
+                        <br>
+                        <figure>
+                            <img class="w-full object-cover" src="../img/soc/soc_barco2.svg"
+                                alt="">
+                        </figure>
+                        {{-- <article>
+                            <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/UqID0Ip36fk?si=YLUh3qCeGsHV25ll" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            
+                        </article> --}}
+                        <br>
+                        <div
+                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                            <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                <p>En un acto simbólico, el gobernador de la Provincia de Buenos Aires, Axel Kicillof, junto al Presidente del Astillero Río Santiago, Pedro Wasiejko, hizo entrega de dos embarcaciones de instrucción para cadetes de la Armada Argentina y una compuerta para el Dique 2 del Arsenal Naval de Puerto Belgrano. Estas construcciones, íntegramente realizadas en el Astillero Río Santiago de Ensenada, representan un hito en la industria naval argentina y marcan un antes y un después en la capacidad de producción y desarrollo del sector.
+                                </p>
+                                <br>
+                                <p>"Este es el resultado concreto que surge del trabajo bonaerense y argentino", expresó Kicillof durante la ceremonia. "Nos da orgullo que la Armada Argentina empiece a tener para el adiestramiento de sus cadetes estos barcos producidos en la Argentina, en la Provincia de Buenos Aires, en el Astillero Río Santiago", agregó el gobernador.</p>
+                                <br>
+                                <p>"Demostramos que el Astillero funciona. Demostramos con inversión pública que el Astillero Río Santiago puede hacer obras y dar resultados", enfatizó Kicillof.
+                                </p>
+                                <br>
+                                <p>Por su parte, Pedro Wasiejko sostuvo que “sin dudas el Astillero tiene capacidad para desarrollar proyectos como éste pero también y fundamentalmente otros de mayor envergadura".
+                                </p>
+                                <br>
+                                <p>"Tenemos que preparar nuestro astillero para afrontar el offshore frente a Mar del Plata. Es un desafío para el Astillero Río Santiago, pero vamos a estar acompañados por todos los actores del sector privado que están relacionados con el sector de la construcción naval y con el sector metalmecánico de gran porte y con las universidades", añadió Wasiejko.
+                                </p>
+                                <br>
+                                <p>Las embarcaciones, bautizadas como "Ciudad de Ensenada" y "Ciudad de Berisso", tienen capacidad para albergar a una tripulación de 40 personas, entre cadetes, oficiales y suboficiales. Estas lanchas de instrucción para cadetes (LICA) son cruciales para la formación de los estudiantes de la Escuela Naval, quienes hasta ahora recibían instrucción de manera teórica y en simuladores, sin contar con estos instrumentos que son fundamentales para su desarrollo profesional.
+                                </p>
+                                <br>
+                                <p>La compuerta entregada para el Dique 2 del Arsenal Naval de Puerto Belgrano representa una importante mejora en la capacidad operativa de este dique, permitiendo la puesta en seco de buques de mayor porte a los que podían ingresar anteriormente. Esta obra de metalmecánica es la más importante realizada en Argentina en los últimos tiempos y reafirma la capacidad del país para construir el equipamiento necesario para nuestras fuerzas de Defensa y Seguridad.
+                                </p>
+                                <br>
+                                
+                                
+                                
+                                
+                                <div class="text-start object-center">
+                                    {{-- <figure>
+                                        <img class="w-28 h-28  "
+                                            src="{{ asset('../img/noteros/Ramiro.svg') }}"
+                                            alt="">
+                                        
+                                        <p> <strong>Nota de Ramiro Caggiano Blanco</strong></p>
+
+                                    </figure> --}}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </li>
+        </ul>
+        <br>
+    </section>
+        {{--PRESENTARON FORMALMENTE EL PEDIDO DE JUICIO POLÍTICO CONTRA MILEI--}}
+    <section> 
+        <ul>
+            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                <article>
+
+                    <div class="py-4 px-4 justify-between items-center">
+                        <h2 class="text-xl font-serif  font-bold pb-6">
+                            <a href="">PRESENTARON FORMALMENTE EL PEDIDO DE JUICIO POLÍTICO CONTRA MILEI</a>
+                        </h2>
+                        <p class="font-light  text-right text-gray-500">Publicado: 23/04/2024</p>
+                        <div class=" font-sans text-lg text-left col-span-6  ">
+                        <p><i>Este lunes se presentó formalmente en el Congreso de la Nación el pedido de Juicio Político contra el Presidente Javier Milei por mal desempeño de sus funciones y posible comisión de delitos.
+                            </i>
+                        </p>
+                        <br>
+                        <figure>
+                            <img class="w-full object-cover" src="../img/soc/soc_juicio1.svg"
+                                alt="">
+                        </figure>
+                        {{-- <article>
+                            <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/UqID0Ip36fk?si=YLUh3qCeGsHV25ll" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            
+                        </article> --}}
+                        <br>
+                        <div
+                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                            <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                <p>En un escrito de 25 páginas el premio Nobel de la Pax, Adolfo Perez Esquivel; la referente de Soberanxs y ex embajadora en Venezuela y ante el Reino Unido, Alicia Castro; el constitucionalista Eduardo Barcesat; el ex juez Carlos Rozanski; la referente de Madres de Plaza de Mayo Línea Fundadora, Taty Almeida; el politólogo Atilio Borón; el economista Claudio Lozano; el sociólogo y periodista Jorge Elbaum; la investigadora Dora Barrancos; la secretaria de las Mujeres, Políticas de Género y Diversidades de La Matanza, Liliana Hendel; el Presidente del Observatorio del Derecho a la Ciudad, Jonatan Baldiviezo y la ingeniera y referente del Movimiento La ciudad Somos Quienes La Habitamos, María Eva Koutsovitis, entre otros y otras, solicitaron al titular de la Cámara de Diputados, Martín Menem, el inicio del proceso de juicio político contra Javier Milei. El expediente quedó registrado bajo el número 0031-P-2024.
+                                </p>
+                                <br>
+                                <p>En la presentación, solicitaron que el Congreso de la Nación investigue tanto al Presidente como a otros funcionarios por los posibles delitos de: instigación a la población a cometer uno o más delitos específicos; apología del delito y la incitación a cometer delitos financieros con la posible afectación a la división de poderes; la posible comisión del delito de apología del crimen; el delito de abandono de personas y el incumplimiento de deberes de funcionario público que tuvieron como algunas de sus consecuencias el desfinanciamiento y el desmantelamiento los recursos asignados al Plan Nacional Argentina Contra el Hambre poniendo en peligro la vida y la salud de miles de personas que asisten cotidianamente a los comedores comunitarios así como también la suspensión de la Dirección de Asistencia Directa por Situaciones Especiales (la DADSE) que implicó el desfinanciamiento de los subsidios para la adquisición de medicamentos y/o elementos de tecnología biomédica para pacientes oncológicos; la malversación de caudales públicos; mal desempeño por el desfinanciamiento de la educación, entre otros puntos entre los que hay también cuestiones vinculadas a la política exterior y la soberanía territorial. </p>
+                                <br>
+                                <p>Por otra parte, tras señalar que la legitimidad de origen otorgada por el voto popular se concreta y agota al asumir el cargo, entre los argumentos centrales para solicitar el inicio del juicio político, el escrito también plantea que la puesta en vigencia del Decreto 70/2023 “configura, inexcusablemente, mal desempeño y amerita la necesidad de examinar las violaciones a la normativa penal que derivan de su dictado y menguada pero efectiva vigencia”.
+                                </p>
+                                <br>
+                                <p>En paralelo a la presentación de juicio político al presidente Javier Milei por las vías institucionales, el proyecto será puesto a disposición de toda la ciudadanía para la recolección de firmas con la convicción de que el pueblo argentino no se someterá a estas políticas de sufrimiento y desprecio por la Constitución Nacional.
+                                </p>
+                                <br>
+                                
+                                
+                                
+                                
+                                <div class="text-start object-center">
+                                    {{-- <figure>
+                                        <img class="w-28 h-28  "
+                                            src="{{ asset('../img/noteros/Ramiro.svg') }}"
+                                            alt="">
+                                        
+                                        <p> <strong>Nota de Ramiro Caggiano Blanco</strong></p>
+
+                                    </figure> --}}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </li>
+        </ul>
+        <br>
+    </section>
         {{--NO PODEMOS QUEDARNOS CALLADOS MIENTRAS INTENTAN DESTRUIR LA EDUCACIÓN PÚBLICA--}}
     <section> 
         <ul>

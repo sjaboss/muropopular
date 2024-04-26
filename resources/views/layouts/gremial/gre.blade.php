@@ -1,5 +1,51 @@
 <x-app-layout>
     <div class="container ">
+        {{--RUBÉN POLLO SOBRERO:  --}}
+    <section>
+        <ul>
+            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                <article>
+
+                    <div class="py-4 px-4 justify-between items-center">
+                        <h2 class="text-xl font-serif  font-bold pb-6">
+                            <a href="">RUBÉN POLLO SOBRERO: VAMOS A UN GRAN PARO EL 9 DE MAYO
+
+                            </a>
+                        </h2>
+                        <p class="font-light  text-right text-gray-500">Publicado: 20/04/2024</p>
+                        <div class=" font-sans text-lg text-left col-span-6  ">
+                        <p><i>El referente de la Unión Ferroviaria Oeste e Izquierda Socialista en el FIT Unidad, expresó fuertes críticas hacia el gobierno y la situación laboral en Argentina.</i>
+                        </p>
+                        <br>
+                        {{-- <article>
+                            <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/OT4oMYWRJFs?si=554nnw0P_8LKa125" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            
+                        </article> --}}
+                        <figure>
+                            <img class=" w-full object-cover" src="../img/grem/grem_pollo.svg"
+                                alt="">
+                        </figure>
+                        <br>
+                        <div
+                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                            <div class=" font-sans text-lg text-left col-span-6  ">
+                                <p>En su declaración, destacó la importancia de enfrentar las políticas de ajuste y llamó a un paro contundente, parte de un plan de lucha nacional. Sobrero también mencionó la marcha federal educativa del 23 de abril y un encuentro nacional de luchadores en Plaza de Mayo el 27 de abril. 
+                                </p>
+                                <br>
+                                <p>El dirigente de la combativa Unión Ferroviaria Oeste y de Izquierda Socialista en el FIT Unidad, Rubén “Pollo” Sobrero, se refirió al paro convocado por la CGT: “Desde el Cuerpo de Delegados del Sarmiento llamamos a enfrentar la motosierra de Milei que está liquidando nuestros salarios y se ensaña contra las y los jubilados. Los ferroviarios estamos sufriendo los despidos de más de 100 compañeras y compañeros en infraestructura ferroviaria, el vaciamiento y tenemos la amenaza privatizadora de los ferrocarriles. El brutal ajuste y el creciente malestar popular provocaron que la CGT convoque al paro general del 9 de Mayo. Es lo que veníamos reclamando. Llamamos a que sea contundente, como parte de un plan de lucha nacional que tiene que continuar con un paro de 36 horas con movilización para derrotar el nefasto plan ultraderechista del gobierno.”
+                                </p>
+                                <br>
+                                <p>Sobrero finalizó: “El gobierno quiere una nueva ley ómnibus antiobrera, la reforma laboral y volver con el impuesto al salario, mientras los senadores escandalosamente se votan ellos mismos dietas millonarias. Y el recorte a las universidades llevó a una enorme reacción docente, no docente, estudiantil que se expresará de manera contundente en la gran marcha federal educativa del próximo martes 23 de abril. La predisposición para luchar es enorme. Hay que ganar las calles porque estamos convencidos que se puede derrotar el plan motosierra de Milei y el FMI. Y como no depositamos ninguna confianza en la dirigencia sindical, llamamos a tomar el paro en nuestras manos impulsándolo con asambleas en los lugares de trabajo. Y el sábado 27 de abril haremos un encuentro nacional de luchadores en Plaza de Mayo para impulsar una coordinación nacional de los sectores combativos”.
+                                </p>
+                                <br>
+                                
+                            </div>
+                        </div>
+                </article>
+            </li>
+        </ul>
+    <br><br>
+    </section>
         {{--ATE PROTESTA CONTRA DESPIDOS MASIVOS DEL GOBIERNO DE MILEI  --}}
     <section>
         <ul>

@@ -1,5 +1,66 @@
 <x-app-layout>
     <div class="container ">
+        {{--PAULA BERNINI Y GABRIEL SENANES..... --}}
+        <section >
+            <ul>
+                <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                    <article>
+
+                        <div class="py-4 px-4 justify-between items-center">
+                            <h2 class="text-xl font-serif  font-bold pb-6">
+                                <a href="">PAULA BERNINI Y GABRIEL SENANES SON PERSONALIDADES DESTACAS DE LA CIUDAD</a>
+                            </h2>
+                            <p class="font-light  text-right text-gray-500">Publicado: 18/04/2024</p>
+                            <p><i>El Cuerpo Legislativo destacó las trayectorias de la periodista y del compositor, por medio de dos proyectos presentados por los legisladores, Gustavo Mola y Facundo Del Gaiso.</i></p>
+                            <br>
+                            <figure>
+                                <a href="">
+                                    <img class="w-full object-cover object-center"
+                                        src="{{ asset('../img/leg/leg_paula2.svg') }}" alt="">
+                                </a>
+                            </figure>
+                            <br>
+                            <div
+                                class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                    <p><b>Esta tarde, los diputados de la Ciudad declararon como Personalidad Destacada en el ámbito de la Cultura y la Comunicación Social a la periodista y productora, Paula Bernini. El acto se realizó en el Salón Montevideo y contó con la presencia del diputado y autor de la iniciativa, Gustavo Mola; el impulsor, Roberto Salcedo; el Editor General de Todo Noticias, Exequiel Sanitz; el periodista, Guillermo Lobo; y la homenajeada.</b></p>
+                                    <br>
+                                    <p>En el inicio de los discursos, Mola destacó que el proyecto fue votado por unanimidad por todo el Cuerpo Legislativo. Y sumó: “No hace falta que de argumentos, todos los que vivimos la pandemia sabemos del trabajo y le entrega de Paula para con los más humildes y los más necesitados”.</p>
+                                    <br>
+                                    <p>Luego la periodista agradeció a los presentes y contó gran parte de su viaje: “Cuando me subí a ese motorhome me sentí muy cuidada por el canal”. Y finalmente resaltó: “Durante la pandemia le brindamos una venta a la gente para conocer el país”.</p>
+                                    <br>
+                                    <p>Paula Bernini fue productora durante 20 años de Telenoche Investiga, en Canal 13. Además de que la periodista que más viajó en cuarentena, realizando un total de 12 mil kilómetros por todo el país, con los cuidados adecuados y para mostrar cómo vivió el interior de la Argentina el aislamiento. En total llevó a cabo 40 días de viaje, 16 provincias visitadas y 11710 kilómetros.
+                                    </p>
+                                    <br>
+                                    <p>Por último y en el Salón San Martín, los legisladores destacaron al compositor y director de orquesta, Gabriel Senanes, como Personalidad Destacada en el ámbito de la Cultura. El evento tuvo la participación del diputado y autor del proyecto, Facundo Del Gaiso; la cancionista, compositora y productora, More Gemma; la profesora y decana del departamento de Artes Musicales de la UNA, Cristina Vazquez; y el Padre Carlos Accaputo, responsable de la Pastoral Social de la Arquidiócesis de Buenos Aires. Además de que se desarrollaron diferentes números musicales, con la presencia de Lito Vitale y Pedro Aznar, entre otros.</p>
+                                    <br>
+                                    <p>“Conozco hace muchos años a Gabriel y más allá de su talento y de esta reivindicación y distinción, vamos a distinguir a un amigo. Es un digno representante de la cultura del encuentro”, puntualizó Del Gaiso en su apertura.</p>
+                                    <br>
+                                    <p>Finalmente Senanes agradeció la distinción y remarcó que el evento “es la siembra de muchos años y de esta celebración que nos reúne”. Y concluyó: “No hay manera de desvincular a la cultura, a la subjetividad y a la expansión del universo subjetivo de lo que es la actividad cultural”.</p>
+                                    <br>
+                                    <p>Gabriel Senanes dedicó su vida a su vocación de servicio y al servicio del bien común. Lo demuestran sus vocaciones como padre, amigo, artista, médico, periodista, maestro y funcionario cultural.</p>
+                                    <br>
+                                    <p>Sus composiciones y arreglos nutren una vasta y premiada discografía tanto en su rol de compositor, director de orquesta o multiinstrumentista como a cargo de la dirección de grabación, producción, edición y mezcla. Compuso además música para cine, televisión, radio y teatro.</p>
+                                    <br>
+                                    <p>Fue arreglador y director musical de primeras figuras del rock, tango, folklore, pop, jazz y la música clásica, como Charly García, Sui Generis, Mercedes Sosa, Martha Argerich, Camerata Bariloche, Paquito D’Rivera, Los Cadillacs, Fernando Suárez Paz, Leopoldo Federico, León Gieco, Peteco Carabajal y muchos más.</p>
+                                    <br>
+                                    <p>También compuso canciones con letras de Enrique Cadicamo, Hamlet Lima Quintana, Víctor Heredia, Teresa Parodi, Pedro Aznar, Antonio Tarragó Rós, León Gieco, Martín Caparrós y otros. Con Paquito D’Rivera y el cuarteto de cuerdas Buenos Aires ganó en 2005 el primer Latin Grammy para un CD clásico argentino, “Riberas”, que incluye obras y arreglos suyos. Dos producciones posteriores, "Piazzolla de cámara" (2013) y "A Piazzolla y A Ramírez" (2014), con orquesta bajo su dirección, son nominadas a los Latin Grammy 2013 y 2014.</p>
+                                    <br>
+                                    <p>En 2017, su disco Cuerdas, primero volumen de la Antología de sus obras, fue nominado al premio Gardel. El 18 de agosto de 2022 recibe el Premio Radio Nacional Clásica como Compositor Consagrado. Como gestor cultural, fue Director de Música de la Ciudad de Buenos Aires y luego Director General y Artístico del Teatro Colón, promediando sus cuarenta años, y en plena crisis económico-institucional de comienzos de este siglo.</p>
+                                    <br>
+                                    
+                                    
+                                </div>
+
+
+
+                            </div>
+                        </div>
+                    </article>
+                </li>
+            </ul>
+        </section>
         {{--FLORENCIA CANALE ES NUEVA PERSONALIDAD DESTACADA..... --}}
         <section >
             <ul>
