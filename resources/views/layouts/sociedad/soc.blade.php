@@ -1,5 +1,396 @@
 <x-app-layout>
     <div class="container ">
+        {{--FLORES CUMPLE 218 Y HABRÁ FESTIVAL EN LOS CENTROS CULTURALES DEL BARRIO--}}
+    <section> 
+        <ul>
+            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                <article>
+
+                    <div class="py-4 px-4 justify-between items-center">
+                        <h2 class="text-xl font-serif  font-bold pb-6">
+                            <a href="">FLORES CUMPLE 218 Y HABRÁ FESTIVAL EN LOS CENTROS CULTURALES DEL BARRIO</a>
+                        </h2>
+                        <p class="font-light  text-right text-gray-500">Publicado: 23/05/2024</p>
+                        <div class=" font-sans text-lg text-left col-span-6  ">
+                        <p><i>Flores, uno de los barrios más emblemáticos de Buenos Aires, se prepara para festejar su 218 aniversario con una semana llena de actividades culturales. Desde el 24 de mayo, se llevarán a cabo charlas, ferias, shows en vivo, recorridas históricas y un gran festival cultural con la participación especial de Orkesta San Bomba.
+                            </i>
+                        </p>
+                        <br>
+                        <figure>
+                            <img class="w-full object-cover" src="../img/soc/soc_flores1.svg"
+                                alt="">
+                        </figure>
+                        <figure>
+                            <img class="w-full object-cover" src="../img/soc/soc_flores2.svg"
+                                alt="">
+                        </figure>
+                        {{-- <article>
+                            <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/UqID0Ip36fk?si=YLUh3qCeGsHV25ll" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            
+                        </article> --}}
+                        <br>
+                        <div
+                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                            <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                <p>Organizado por la Red Cultural de la Comuna 7, este evento busca resaltar la diversidad y la riqueza cultural de Flores, un barrio que ha sido históricamente un punto de encuentro para diversas comunidades y artistas. Desde sus orígenes, Flores ha sido un lugar de inclusión y de persistencia de la cultura popular, y en esta semana de celebración, se busca mantener viva esa tradición.
+                                </p>
+                                <br>
+                                <p>Además de las actividades mencionadas, habrá eventos en diferentes espacios del barrio, como centros culturales, escuelas, clubes, bares y cooperativas. Estos eventos incluirán ferias de productores, charlas, espectáculos en vivo y mucho más.</p>
+                                <br>
+                                <p>Flores ha sido cuna de grandes personalidades, desde artistas hasta líderes sociales, y en este aniversario se busca honrar esa historia de lucha y de resistencia. Figuras como Miguel Ángel, Dolina, Hugo del Carril e incluso el Papa Francisco tienen una conexión especial con este barrio, que sigue siendo un lugar donde la cultura florece y se renueva constantemente.
+                                </p>
+                                <br>
+                                <p>En un momento en el que la cultura popular parece estar en peligro, Flores reafirma su compromiso con los sueños y con la construcción de un barrio inclusivo y diverso. Esta semana de celebración es una oportunidad para recordar la importancia de la cultura como motor de cambio y de transformación social.
+                                </p>
+                                <br>
+                                <p>La programación completa de la Semana de Flores puede encontrarse en @redculturalcomuna7. ¡Ven a celebrar con nosotros el aniversario de Flores, "Donde la cultura florece"!
+                                </p>
+                                <br>
+                                
+                                <div class="text-start object-center">
+                                    {{-- <figure>
+                                        <img class="w-28 h-28  "
+                                            src="{{ asset('../img/der/Adri.svg') }}"
+                                            alt="">
+                                        
+                                        <p> <strong>Nota de Adriana Zerdín</strong></p>
+
+                                    </figure>  --}}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </li>
+        </ul>
+        <br>
+    </section>
+        {{--ONU TURISMO PRESENTA LA HERRAMIENTA DIGITAL--}}
+    <section> 
+        <ul>
+            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                <article>
+
+                    <div class="py-4 px-4 justify-between items-center">
+                        <h2 class="text-xl font-serif  font-bold pb-6">
+                            <a href="">ONU TURISMO PRESENTA LA HERRAMIENTA DIGITAL DE AUTOEVALUACIÓN PARA LOS DESTINOS RURALES</a>
+                        </h2>
+                        <p class="font-light  text-right text-gray-500">Publicado: 21/05/2024</p>
+                        <div class=" font-sans text-lg text-left col-span-6  ">
+                        <p><i>ONU Turismo lanza STAR, una herramienta digital de autoevaluación que permite a los destinos rurales cuantificar su desarrollo turístico y obtener recomendaciones adaptadas para fomentar un turismo sostenible e inclusivo.
+                            </i>
+                        </p>
+                        <br>
+                        <figure>
+                            <img class="w-full object-cover" src="../img/soc/soc_onu2.svg"
+                                alt="">
+                        </figure>
+                        {{-- <article>
+                            <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/UqID0Ip36fk?si=YLUh3qCeGsHV25ll" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            
+                        </article> --}}
+                        <br>
+                        <div
+                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                            <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                <p>ONU Turismo ha lanzado una innovadora herramienta digital de autoevaluación destinada a promover el desarrollo turístico en zonas rurales. La Herramienta de Autoevaluación de ONU Turismo para Asistir a los Destinos Rurales (STAR) permite que las autoridades locales de estos destinos autoevalúen y cuantifiquen su nivel de desarrollo turístico. Además, proporciona recomendaciones adaptadas a las necesidades específicas de cada destino, comparando distintos lugares y generando datos e ideas valiosas para mejorar las políticas sostenibles e inclusivas en materia de turismo.
+                                </p>
+                                <br>
+                                <p>El Secretario General de ONU Turismo, Zurab Pololikashvili, declaró: "La Herramienta de Autoevaluación de ONU Turismo constituye un punto de inflexión para los destinos rurales. Empodera a las autoridades locales con una herramienta que les permite autoevaluar sus políticas y medidas, proporcionando ideas viables que fomentan el desarrollo del turismo sostenible y contribuyendo al crecimiento global de las comunidades rurales."</p>
+                                <br>
+                                <p>En ese sentido, el secretario de Turismo, Ambiente y Deportes del Ministerio del Interior de la Nación, Daniel Scioli, afirmó que “el turismo es la respuesta a muchos de los problemas que tiene el país”, y añadió: “El turismo receptivo crece, y también tenemos que incrementar el interno”. Al respecto, remarcó la iniciativa de sumar el turismo a Cuota Simple. “El impacto fue muy positivo”, dijo.
+                                </p>
+                                <br>
+                                <p><b>Características de STAR</b>
+                                </p>
+                                <br>
+                                <p><b>Autoevaluación</b> Los destinos rurales pueden evaluar sus políticas e iniciativas mediante indicadores que abarcan cinco ámbitos: gobernanza del turismo; sostenibilidad económica, social y cultural; sostenibilidad medioambiental; desarrollo turístico; e infraestructuras. Esto permite a los interesados centrarse en la planificación estratégica, comercialización y promoción, formación y educación, formulación de políticas, diversificación de productos y servicios, infraestructuras, preservación medioambiental y cultural, colaboración con agentes locales, acceso a la financiación, datos y cuantificación de resultados.
+                                </p>
+                                <br>
+                                <p><b>Recomendaciones adaptadas a las necesidades</b> La herramienta ofrece una guía de recomendaciones ajustadas a los usuarios, acorde con las normas de ONU Turismo y teniendo en cuenta las características únicas de los destinos rurales.</p>
+                                <br>
+                                <p><b>Excelencia comparativa</b> Facilita la comparación de políticas y prácticas entre destinos, ayudando a las autoridades locales a evaluar sus componentes turísticos.</p>
+                                <br>
+                                <p><b>Datos e ideas</b> Proporciona un acervo de datos que permite a los Estados Miembros realizar análisis profundos de los destinos evaluados, destacando puntos fuertes y débiles de las políticas, estrategias e intervenciones en materia de turismo.</p>
+                                <br>
+                                <p>STAR está disponible para todos los destinos rurales de los Estados Miembros de ONU Turismo, y se ofrece a las autoridades locales interesadas en cuantificar el desarrollo de su turismo y obtener recomendaciones adaptadas a sus necesidades. Esta herramienta forma parte del trabajo de Turismo para el Desarrollo Rural de ONU Turismo, un programa que concibe el turismo como motor del desarrollo y el bienestar rural, valorando y salvaguardando los pueblos rurales, los paisajes, los sistemas de conocimientos y la diversidad cultural, en consonancia con los Objetivos de Desarrollo Sostenible (ODS).</p>
+                                <br>
+    
+                                <div class="text-start object-center">
+                                    {{-- <figure>
+                                        <img class="w-28 h-28  "
+                                            src="{{ asset('../img/der/Adri.svg') }}"
+                                            alt="">
+                                        
+                                        <p> <strong>Nota de Adriana Zerdín</strong></p>
+
+                                    </figure>  --}}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </li>
+        </ul>
+        <br>
+    </section>
+        {{--CAME EN RONDA DE NEGOCIOS DEL TURISMO--}}
+    <section> 
+        <ul>
+            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                <article>
+
+                    <div class="py-4 px-4 justify-between items-center">
+                        <h2 class="text-xl font-serif  font-bold pb-6">
+                            <a href="">CAME EN RONDA DE NEGOCIOS DEL TURISMO</a>
+                        </h2>
+                        <p class="font-light  text-right text-gray-500">Publicado: 09/05/2024</p>
+                        <div class=" font-sans text-lg text-left col-span-6  ">
+                        <p><i>CAME inauguró ronda de negocios del sector turismo organizada por FEDECATUR y CAT
+                            </i>
+                        </p>
+                        <br>
+                        <figure>
+                            <img class="w-full object-cover" src="../img/soc/soc_came.svg"
+                                alt="">
+                        </figure>
+                        {{-- <article>
+                            <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/UqID0Ip36fk?si=YLUh3qCeGsHV25ll" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            
+                        </article> --}}
+                        <br>
+                        <div
+                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                            <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                <p>La Confederación Argentina de la Mediana Empresa (CAME) participó hoy de la inauguración de la 13° edición del Neoworkshop Federal que organizan la Federación de Cámaras de Turismo de la República Argentina (FEDECATUR) y la Cámara Argentina de Turismo (CAT), una ronda de negocios para el fortalecimiento y difusión de la promoción turística, que cuenta con la participación conjunta del sector público y privado.
+                                </p>
+                                <br>
+                                <p>El presidente de CAME, Alfredo González, destacó la importancia del evento al resaltar su “mirada federal” y “las herramientas que da a las pymes del sector para poder comercializar”. A la vez, recordó que “el turismo es un gran derramador, ya que en las localidades que reciben visitantes no sólo se benefician los emprendimientos ligados a la actividad, sino todos los demás comercios”.</p>
+                                <br>
+                                <p>En ese sentido, el secretario de Turismo, Ambiente y Deportes del Ministerio del Interior de la Nación, Daniel Scioli, afirmó que “el turismo es la respuesta a muchos de los problemas que tiene el país”, y añadió: “El turismo receptivo crece, y también tenemos que incrementar el interno”. Al respecto, remarcó la iniciativa de sumar el turismo a Cuota Simple. “El impacto fue muy positivo”, dijo.
+                                </p>
+                                <br>
+                                <p>Por su parte, Yanina Martínez, subsecretaria de Turismo del Ministerio del Interior, subrayó que “la capacitación es uno de los ejes fundamentales para nuestro sector, que emplea a 1,2 millones de personas en todo el país, y que va a llevar bienestar a las familias argentinas”.
+                                </p>
+                                <br>
+                                <p>Participaron también de la inauguración, que se llevó a cabo en el hotel Marriott de la Ciudad de Buenos Aires, el secretario de Turismo de CAME, Gregorio Werchow; el presidente de FEDECATUR, Héctor Viñuales; el titular del Ente de Turismo de la Ciudad de Buenos Aires, Valentín Díaz Gilligan; el presidente de la Cámara Argentina de Turismo, Gustavo Hani; y el prosecretario de la Cámara Argentina de Comercio (CAC), Ángel Machado.
+                                </p>
+                                <br>
+                                
+    
+                                <div class="text-start object-center">
+                                    {{-- <figure>
+                                        <img class="w-28 h-28  "
+                                            src="{{ asset('../img/der/Adri.svg') }}"
+                                            alt="">
+                                        
+                                        <p> <strong>Nota de Adriana Zerdín</strong></p>
+
+                                    </figure>  --}}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </li>
+        </ul>
+        <br>
+    </section>
+        {{--BUSCAN ACUERDO PARA NUEVA FÓRMULA DE JUBILACIONES EN ARGENTINA--}}
+    <section> 
+        <ul>
+            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                <article>
+
+                    <div class="py-4 px-4 justify-between items-center">
+                        <h2 class="text-xl font-serif  font-bold pb-6">
+                            <a href="">BUSCAN ACUERDO PARA NUEVA FÓRMULA DE JUBILACIONES EN ARGENTINA</a>
+                        </h2>
+                        <p class="font-light  text-right text-gray-500">Publicado: 09/05/2024</p>
+                        <div class=" font-sans text-lg text-left col-span-6  ">
+                        <p><i>Victoria Tolosa Paz: “Estamos muy cerca de lograr un dictamen con el radicalismo y Hacemos Coalición Federal por la fórmula de jubilaciones”
+                            </i>
+                        </p>
+                        <br>
+                        <figure>
+                            <img class="w-full object-cover" src="../img/soc/soc_jubilados.svg"
+                                alt="">
+                        </figure>
+                        {{-- <article>
+                            <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/UqID0Ip36fk?si=YLUh3qCeGsHV25ll" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            
+                        </article> --}}
+                        <br>
+                        <div
+                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                            <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                <p>La diputada nacional de Unión por la Patria se refirió hoy a la discusión que se esta llevando a cabo en la Comisión de Presupuesto y Hacienda de la Cámara de Diputados para poder llegar a dictaminar una nueva fórmula para los jubilados y pensionados de la República Argentina, destacando un acercamiento con los bloques del radicalismo y de Hacemos Coalición Federal, y criticando fuertemente la propuesta manifestada por María Eugenia Vidal y el PRO.
+                                </p>
+                                <br>
+                                <p>“Estamos muy cerca de lograr un dictamen entre la propuesta de Unión por la Patria y la del radicalismo y Hacemos Coalición Federal. Nosotros decimos que tenemos que levantar el piso de los jubilados con el bono dentro del salario para luego comenzar a ajustar por inflación o por salario. Ahí coincidimos con ellos que plantean que ningún jubilado puede cobrar por debajo de la Canasta Básica Total de aun adulto, y luego a partir de ahí ajustamos si hay vaivenes en la economía”, explicó Tolosa Paz en declaraciones a Radio 10.</p>
+                                <br>
+                                <p>La exministra de Desarrollo Social subrayó que "el decreto 274 de Milei no no viene a solucionar lo que le pasa al conjunto de jubilados y pensionados. Por eso queremos llegar a un consenso y mejorar la fórmula, ya que el decreto de Milei los deja por debajo de la línea de pobreza sin ofrecer perspectivas de crecimiento futuro".
+                                </p>
+                                <br>
+                                <p>En ese sentido, la diputada también se refirió a la propuesta presentada ayer por la diputada María Eugenia Vidal en representación del bloque del PRO, quien planteó pagar en 12 cuotas la diferencia entre la inflación de enero (20,6%) y el reconocimiento del 12,5% en el decreto de Milei.
+                                </p>
+                                <br>
+                                <p>"No se trata de competir por ser más despiadados con los jubilados. Milei ya mostró su insensibilidad y ahora se suma Vidal y el PRO. Si hacemos los cálculos, estamos hablando de cuotas de 907 pesos por mes. Es realmente escandaloso", agregó.
+                                </p>
+                                <br>
+                                <p>Durante la entrevista, Tolosa Paz también abordó el paro general convocado por la CGT que se está llevando a cabo hoy: "El paro es contundente, no solo lo están respaldando aquellos que se oponen a las políticas económicas de Javier Milei, sino también los pequeños comerciantes, lo que demuestra claramente la situación. Hay una caída significativa en los salarios y la actividad económica que afecta a todos los sectores".</p>
+                                <br>
+    
+                                <div class="text-start object-center">
+                                    {{-- <figure>
+                                        <img class="w-28 h-28  "
+                                            src="{{ asset('../img/der/Adri.svg') }}"
+                                            alt="">
+                                        
+                                        <p> <strong>Nota de Adriana Zerdín</strong></p>
+
+                                    </figure>  --}}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </li>
+        </ul>
+        <br>
+    </section>
+    {{--HISTÓRICO CAMBIO DE GUARDIA EN PLAZA DE MAYO CON TRES REGIMIENTOS SIMULTÁNEOS--}}
+    <section> 
+        <ul>
+            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                <article>
+
+                    <div class="py-4 px-4 justify-between items-center">
+                        <h2 class="text-xl font-serif  font-bold pb-6">
+                            <a href="">HISTÓRICO CAMBIO DE GUARDIA EN PLAZA DE MAYO CON TRES REGIMIENTOS SIMULTÁNEOS</a>
+                        </h2>
+                        <p class="font-light  text-right text-gray-500">Publicado: 04/05/2024</p>
+                        <div class=" font-sans text-lg text-left col-span-6  ">
+                        <p><i><b>Por primera vez en la historia, los regimientos de Granaderos, Patricios y General Iriarte realizaron en simultáneo el cambio de guardia en la Plaza de Mayo.
+                            </b></i>
+                        </p>
+                        <br>
+                        <figure>
+                            <img class="w-full object-cover" src="../img/soc/soc_regi.svg"
+                                alt="">
+                        </figure>
+                        {{-- <article>
+                            <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/UqID0Ip36fk?si=YLUh3qCeGsHV25ll" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            
+                        </article> --}}
+                        <br>
+                        <div
+                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                            <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                <p>El ministro de Defensa, Luis Petri, asistió hoy a la ceremonia especial de cambio de guardia en la Plaza de Mayo, en la que participaron las tres unidades históricas del Ejército Argentino: el Regimiento de Granaderos a Caballo, el Regimiento de Infantería 1 Patricios y el Regimiento de Artillería 1 “Brigadier General Tomás Iriarte”. Más de 200 militares formaron parte de este simbólico relevo, acompañados por un entusiasta público en una inédita experiencia, ya que no hay antecedentes de un cambio de guardia efectuado en forma simultánea por estos tres regimientos tradicionales.
+                                </p>
+                                <br>
+                                <p>Junto al ministro Petri, estuvieron presentes en el acto el jefe del Estado Mayor Conjunto de las Fuerzas Armadas, brigadier general Xavier Julián Isaac, y los titulares del Ejército, general de brigada Carlos Alberto Presti, de la Armada, contralmirante Carlos María Allievi, y de la Fuerza Aérea, brigadier mayor Fernando Luis Mengo.</p>
+                                <br>
+                                <p>“Es una tradición que estamos recuperando y le estamos dando un contenido histórico muy importante. No tiene precedentes. Un relevo histórico de tres regimientos, Iriarte, Granaderos y Patricios, como el que se llevó a cabo, tiene que ver con la reivindicación que desde el primer día quisimos hacer a las Fuerzas Armadas”, aseguró el titular de la cartera castrense.
+                                </p>
+                                <br>
+                                <p>“La gente disfruta esta ceremonia. Es hacer memoria, es reivindicar el rol de nuestras Fuerzas Armadas. A su vez, es un evento cultural muy importante y necesario que la ciudadanía estaba reclamando hace muchísimo tiempo”, afirmó el ministro Petri en la Plaza de Mayo, y adelantó que eventos de similares características se realizarán con las unidades históricas en el interior del país.
+                                </p>
+                                <br>
+                                <p>Hasta ahora, los cambios de guardia de cada uno de los edificios se realizaban por separado. Ahora se integró en un solo acto el relevo de las custodias de la Casa Rosada, a cargo de efectivos de Granaderos a Caballo; el Cabildo, donde se posicionan los integrantes de Patricios; y el Ministerio de Defensa, bajo simbólica protección de la unidad histórica del arma de Artillería, el Regimiento Iriarte.
+                                </p>
+                                <br>
+                                <p>A partir de esta ceremonia, que además contó con una destacada participación de la banda militar Tambor de Tacuarí del Regimiento Infantería 1 Patricios, el acto de cambio de guardia en la Plaza de Mayo se repetirá los primeros sábados de cada mes, generando así un extraordinario y emotivo evento abierto al público. Este evento cultural, al igual que en países con gran tradición en este tipo de ceremonias, se convierte en un atractivo turístico.</p>
+                                <br>
+    
+                                <div class="text-start object-center">
+                                    {{-- <figure>
+                                        <img class="w-28 h-28  "
+                                            src="{{ asset('../img/der/Adri.svg') }}"
+                                            alt="">
+                                        
+                                        <p> <strong>Nota de Adriana Zerdín</strong></p>
+
+                                    </figure>  --}}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </li>
+        </ul>
+        <br>
+    </section>
+    {{--DÍA INTERNACIONAL CONTRA EL ACOSO ESCOLAR--}}
+    <section> 
+        <ul>
+            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                <article>
+
+                    <div class="py-4 px-4 justify-between items-center">
+                        <h2 class="text-xl font-serif  font-bold pb-6">
+                            <a href="">DÍA INTERNACIONAL CONTRA EL ACOSO ESCOLAR: UNA LLAMADA A LA CONCIENCIA Y LA PREVENCIÓN</a>
+                        </h2>
+                        <p class="font-light  text-right text-gray-500">Publicado: 02/05/2024</p>
+                        <div class=" font-sans text-lg text-left col-span-6  ">
+                        <p><i>El bullying, una realidad que compromete e involucra a toda la comunidad educativa
+                            </i>
+                        </p>
+                        <br>
+                        <figure>
+                            <img class="w-full object-cover" src="../img/soc/soc_bulin.svg"
+                                alt="">
+                        </figure>
+                        {{-- <article>
+                            <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/UqID0Ip36fk?si=YLUh3qCeGsHV25ll" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            
+                        </article> --}}
+                        <br>
+                        <div
+                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                            <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                <p>En el marco del "Día Internacional contra el Acoso Escolar", conmemorado el 2 de mayo, se busca sensibilizar y generar conciencia sobre una problemática que afecta de manera significativa a la comunidad educativa en todo el mundo. Esta efeméride, proclamada por la UNESCO en 2013, busca destacar la importancia de erradicar el bullying en todas sus formas, incluido el ciberacoso, reconociendo que la violencia escolar constituye una violación de los derechos fundamentales de los niños, niñas y adolescentes.
+                                </p>
+                                <br>
+                                <p>El bullying, definido por UNICEF y UNESCO como un comportamiento negativo y agresivo que implica un desequilibrio de poder, puede tener efectos devastadores en la salud mental y emocional de los jóvenes afectados. Se manifiesta de diversas formas, como el acoso físico, verbal o emocional, y puede ocurrir tanto en entornos escolares como fuera de ellos.</p>
+                                <br>
+                                <p>Los niños más vulnerables, como aquellos de comunidades marginadas, con identidades de género diversas, con discapacidades, migrantes o refugiados, enfrentan un mayor riesgo de ser víctimas de acoso. Es por ello que la prevención y la concientización son fundamentales para crear entornos escolares seguros y libres de violencia.
+                                </p>
+                                <br>
+                                <p>Para identificar el bullying, es importante prestar atención a los signos que pueden manifestar las víctimas, como cambios repentinos de comportamiento, aislamiento, lesiones físicas inexplicables, pérdida de pertenencias o dinero, entre otros. Es fundamental que los padres, maestros y la comunidad en general estén atentos a estos indicadores y tomen medidas para abordar la situación de manera adecuada.
+                                </p>
+                                <br>
+                                <p>En caso de identificar un caso de bullying, es importante buscar ayuda de inmediato. Se pueden comunicar con organizaciones como la Línea 102 de la Ciudad de Buenos Aires, que brinda asesoramiento en casos de violencia y maltrato infantil, o acudir a la Defensoría del Pueblo de la Ciudad Autónoma de Buenos Aires para recibir orientación y apoyo.
+                                </p>
+                                <br>
+                                <p>El Día Internacional contra el Acoso Escolar nos recuerda la importancia de trabajar juntos para prevenir y erradicar el bullying, garantizando así un ambiente seguro y saludable para todos los niños y jóvenes en el entorno escolar.</p>
+                                <br>
+    
+                                <div class="text-start object-center">
+                                    {{-- <figure>
+                                        <img class="w-28 h-28  "
+                                            src="{{ asset('../img/der/Adri.svg') }}"
+                                            alt="">
+                                        
+                                        <p> <strong>Nota de Adriana Zerdín</strong></p>
+
+                                    </figure>  --}}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </li>
+        </ul>
+        <br>
+    </section>
         {{--UNIVERSIDADES NACIONALES EN LUCHA--}}
     <section> 
         <ul>

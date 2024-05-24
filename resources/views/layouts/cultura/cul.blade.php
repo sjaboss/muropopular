@@ -1,5 +1,58 @@
 <x-app-layout>
     <div class="container ">
+        {{-- POTESTAD: UNA OBRA EMBLEMÁTICA DEL TEATRO ARGENTINO EN EL TEATRO PAYRÓ--}}
+<section>
+    <ul>
+        <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+            <article>
+
+                <div class="py-4 px-4 justify-between items-center">
+                    <h2 class="text-xl font-serif  font-bold pb-6">
+                        <a href="">POTESTAD: UNA OBRA EMBLEMÁTICA DEL TEATRO ARGENTINO EN EL TEATRO PAYRÓ</a>
+                    </h2>
+                    <p class="font-light  text-right text-gray-500">Publicado: 09/05/2024</p>
+                    <div
+                        class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                        <div class=" font-sans text-lg text-left col-span-6  ">
+
+                            <p><i>La obra teatral "Potestad" de Tato Pavlovsky regresa a los escenarios porteños en una nueva versión dirigida por Norman Briski. Considerada una de las piezas más significativas del teatro argentino, "Potestad" aborda la problemática del "raptor de niños" durante la dictadura militar en Argentina. </i></p>
+                            <br>
+                            <figure>
+                                <a href="">
+                                    <img class="w-full object-cover object-center"
+                                        src="{{ asset('../img/cul/cul_potesta.svg') }}"
+                                        alt="">
+                                </a>
+                            </figure>
+                            <br>
+                            <p>La puesta en escena, que se estrenará el viernes 10 de mayo de 2024 en el Teatro Payró, contará con 4 únicas funciones los viernes de mayo a las 22hs. El elenco está conformado por Eduardo Misch y Damián Bolado, bajo la dirección de Norman Briski. La música original es de Martín Pavlovsky, el diseño y realización escenográfica está a cargo de Guillermo Brethold, y el diseño de iluminación es de Briski-Misch. La asistencia de dirección corre por cuenta de Iván Domnanovich, mientras que la gráfica y diseño audiovisual son de Antonio Fernández. La prensa y difusión están a cargo de Adriana Schottlender.
+                            </p>
+                            <br>
+                            <p>Norman Briski, quien también dirigió la primera versión de "Potestad" en 1985, destacó la importancia de esta nueva puesta en escena y la oportunidad de explorar nuevos enfoques creativos en una obra tan relevante para el teatro argentino.
+                            </p>
+                            <br>
+                            <p>La obra "Potestad" ha sido representada en más de 50 festivales internacionales y es una pieza clave para comprender el estilo y la multiplicidad autoral de Pavlovsky. La obra ha sido montada en diferentes ocasiones, incluso en Francia y otras capitales internacionales, demostrando su impacto y relevancia a lo largo del tiempo.</p>
+                            <br>
+                            <p>El Teatro Payró, ubicado en San Martín 766, ha sido un bastión fundamental para la cultura y el arte en la ciudad de Buenos Aires, siendo el escenario de diversas obras teatrales de gran importancia.
+                            </p>
+                            <br>
+                            <p>No te pierdas la oportunidad de disfrutar de esta nueva versión de "Potestad", una obra que sigue vigente y que invita a reflexionar sobre uno de los períodos más oscuros de la historia argentina.
+                            </p>
+                            <br>
+                            <p>Para más información y reservas de entradas, visita el sitio web oficial de la obra o sigue su perfil en Instagram @potestadpavlovsky.</p>
+                            <br>
+                            
+                        </div>
+
+
+
+                    </div>
+                </div>
+            </article>
+        </li>
+    </ul>
+    <br>
+</section>
             {{-- MAX DELUPI Y BETO BERNUEZ CONTINÚAN SU GIRA NACIONAL--}}
 <section>
     <ul>

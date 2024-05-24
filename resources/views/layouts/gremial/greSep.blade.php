@@ -3228,6 +3228,459 @@
                 </div>
 
             </section>
+        @elseif ($tituloSep == 'Gremiales-Noticia-Completa-gre26')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">LA CGT MARCHÓ POR EL DÍA DEL TRABAJADOR Y RATIFICÓ SU PLAN DE LUCHA
+
+                                            </a>
+                                        </h2>
+                                        <p class="font-light  text-right text-gray-500">Publicado: 01/05/2024</p>
+                                        <div class=" font-sans text-lg text-left col-span-6  ">
+                                        <p><i>La central obrera movilizó a miles de trabajadores y confirmó un paro general para el 9 de mayo, en rechazo a la Ley Bases aprobada por Diputados.</i>
+                                        </p>
+                                        <br>
+                                        <article>
+                                            <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/mDyomkBc1DE?si=bnT2gxK0tSpFUqx1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                            
+                                        </article>
+                                        {{-- <figure>
+                                            <img class=" w-full object-cover" src="../img/grem/grem_pollo.svg"
+                                                alt="">
+                                        </figure> --}}
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+                                                <p>La Confederación General del Trabajo (CGT) encabezó este miércoles una multitudinaria movilización por el Día del Trabajador, bajo el lema "La Patria no se vende". La marcha, que comenzó a las 10 de la mañana en la avenida Independencia y Defensa y culminó en el monumento al Trabajo en Paseo Colón, se produjo en un contexto de creciente tensión laboral y social tras la media sanción de la Ley Bases por la Cámara de Diputados. 
+                                                </p>
+                                                <br>
+                                                <p><b>Movilización masiva y reclamos</b>
+                                                </p>
+                                                <br>
+                                                <p>La convocatoria fue masiva, con miles de trabajadores marchando en defensa de sus derechos y en protesta contra las políticas del gobierno de Javier Milei. El cotitular de la CGT, Héctor Daer, destacó la importancia de la movilización no solo como conmemoración del Día del Trabajador, sino también como una manifestación de los reclamos del movimiento obrero: “Hoy, nuestra presencia en las calles es un recordatorio de que los derechos laborales deben ser defendidos con firmeza. La Ley Bases pone en riesgo conquistas históricas y necesitamos mostrar nuestra unidad y determinación”.
+                                                </p>
+                                                <br>
+                                                <p><b>Críticas a la Ley Bases</b></p>
+                                                <br>
+                                                <p>La reciente aprobación de la Ley Bases en la Cámara de Diputados ha generado un fuerte rechazo por parte de la CGT, que ve en este proyecto un intento de precarizar las condiciones laborales y debilitar la protección social. Durante la marcha, Daer expresó: "La Ley Bases es un retroceso para los trabajadores. No podemos permitir que se impongan reformas que vulneran nuestros derechos fundamentales".</p>
+                                                <br>
+                                                <p>La CGT ha instado al Senado a rechazar el proyecto, advirtiendo sobre las graves consecuencias que tendría su implementación en la vida de millones de trabajadores argentinos. "Esta ley no solo afecta a los trabajadores actuales, sino también a las futuras generaciones. Es nuestra responsabilidad frenarla", añadió Daer.</p>
+                                                <br>
+                                                <p><b>Paro general y plan de lucha</b></p>
+                                                <br>
+                                                <p>En la conferencia de prensa posterior a la marcha, la CGT confirmó que llevará adelante un paro general el próximo 9 de mayo, en protesta contra la Ley Bases y las políticas económicas del gobierno. Daer detalló que “hay una sumatoria de cuestiones irresueltas y una perspectiva de que se sigan acentuando. Eso nos va a llevar a una caída del poder adquisitivo y de compra de los ingresos mucho mayor”.</p>
+                                                <br>
+                                                <p>El paro general será el segundo desde que Javier Milei asumió la presidencia, reflejando el creciente descontento entre los trabajadores. “Es muy difícil esta ecuación entre precios y salarios. La gente no tiene plata para convalidar los precios que se plantean”, señaló Daer, enfatizando la urgencia de medidas que protejan el poder adquisitivo de los trabajadores.</p>
+                                                <br>
+                                                <p><b>Apoyo del Partido Justicialista</b></p>
+                                                <br>
+                                                <p>El Partido Justicialista (PJ) ha expresado su pleno respaldo a la convocatoria del paro y ha criticado duramente al gobierno de Milei. En un comunicado, el PJ manifestó: "Los trabajadores y jubilados no son ninguna casta. En un contexto de mega devaluación, recesión, inflación y tarifazos, es nuestro deber acompañar el reclamo de los trabajadores y jubilados de todo el país".</p>
+                                                <br>
+                                                <p><b>Conclusión</b></p>
+                                                <br>
+                                                <p>La movilización del 1 de mayo y el anuncio del paro general reflejan la determinación de la CGT de defender los derechos laborales y rechazar cualquier medida que los amenace. La central obrera ha dejado claro que continuará su plan de lucha hasta que se reviertan las políticas que considera perjudiciales para los trabajadores argentinos. La marcha no solo conmemoró el Día del Trabajador, sino que también envió un fuerte mensaje de unidad y resistencia frente a las reformas propuestas por el gobierno.</p>
+                                                <br>
+                                                
+                                            </div>
+                                        </div>
+                                </article>
+                            </li>
+                        </ul>
+                    </div>
+
+
+                    {{-- columna de la derecha chica --}}
+                    <aside>
+                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                            <div class=" col-span-6">
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/bener-leg2.png') }}"
+                                        alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/APSE.gif') }}" alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
+                                        alt="">
+                                </a>
+
+
+
+                                <div id="app">
+
+                                    <div v-for="item in info">
+
+                                        <div class="flex-col pb-3">
+                                            <div
+                                                class="flex-col max-w-sm  border  border-gray-700 rounded-lg shadow bg-gray-800">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg"
+                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
+                                                        alt="" />
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5 class="mb-2 text-2xl font-bold tracking-tight  text-white">
+                                                            @{{ item.title }}</h5>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div v-for="va in clima">
+
+                                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-white">
+                                            @{{ va }}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+
+                </div>
+
+            </section>
+        @elseif ($tituloSep == 'Gremiales-Noticia-Completa-gre27')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">SEGUNDO PARO GENERAL CONTRA EL GOBIERNO DE JAVIER MILEI
+
+                                            </a>
+                                        </h2>
+                                        <p class="font-light  text-right text-gray-500">Publicado: 11/05/2024</p>
+                                        <div class=" font-sans text-lg text-left col-span-6  ">
+                                        <p><i>La Confederación General del Trabajo (CGT) calificó como "contundente" el segundo paro general contra el Gobierno de Javier Milei, destacando la adhesión masiva de trabajadores y llamando al Ejecutivo a reconsiderar su política de ajuste.</i>
+                                        </p>
+                                        <br>
+                                        {{-- <article>
+                                            <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/mDyomkBc1DE?si=bnT2gxK0tSpFUqx1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                            
+                                        </article> --}}
+                                        <figure>
+                                            <img class=" w-full object-cover" src="../img/grem/grem_2paro.svg"
+                                                alt="">
+                                        </figure>
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+                                                <p>En una conferencia de prensa celebrada en el salón Felipe Vallese de la CGT, Héctor Daer, cotitular de la central obrera, expresó su satisfacción por la participación de los trabajadores en la medida de fuerza. Acompañado por otros dirigentes sindicales como Pablo Moyano y Carlos Acuña, Daer resaltó que el paro fue respaldado en todo el país y que fue una demostración clara del descontento de los trabajadores con la situación económica y laboral actual. 
+                                                </p>
+                                                <br>
+                                                <p>El dirigente sindical también criticó la política de ajuste del Gobierno, especialmente en lo que respecta a la caída del salario y el aumento de la informalidad laboral. Daer instó al Ejecutivo a "tomar nota" de la expresión de los trabajadores y a reconfigurar su política económica para proteger los derechos laborales y sociales.
+                                                </p>
+                                                <br>
+                                                <p>El paro general contó con una alta adhesión en diversos sectores, como el educativo y el de las estaciones de servicios, según informaron Moyano y Acuña. Además, se destacó la solidaridad de los trabajadores ante las posibles represalias de los empleadores y el Gobierno.
+                                                </p>
+                                                <br>
+                                                <p>El proyecto de ley Bases, que será tratado por la Cámara de Senadores, también fue mencionado durante la conferencia. Daer advirtió sobre los efectos negativos que esta ley podría tener en los trabajadores, especialmente en términos de formalidad laboral y acceso a derechos sociales.</p>
+                                                <br>
+                                                <p>En conclusión, el segundo paro general contra el Gobierno de Javier Milei fue considerado como un éxito por parte de la CGT, que destacó la unidad y la determinación de los trabajadores en la defensa de sus derechos.</p>
+                                                <br>
+                                                
+                                                
+                                            </div>
+                                        </div>
+                                </article>
+                            </li>
+                        </ul>
+                    </div>
+
+
+                    {{-- columna de la derecha chica --}}
+                    <aside>
+                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                            <div class=" col-span-6">
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/bener-leg2.png') }}"
+                                        alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/APSE.gif') }}" alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
+                                        alt="">
+                                </a>
+
+
+
+                                <div id="app">
+
+                                    <div v-for="item in info">
+
+                                        <div class="flex-col pb-3">
+                                            <div
+                                                class="flex-col max-w-sm  border  border-gray-700 rounded-lg shadow bg-gray-800">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg"
+                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
+                                                        alt="" />
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5 class="mb-2 text-2xl font-bold tracking-tight  text-white">
+                                                            @{{ item.title }}</h5>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div v-for="va in clima">
+
+                                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-white">
+                                            @{{ va }}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+
+                </div>
+
+            </section>
+        @elseif ($tituloSep == 'Gremiales-Noticia-Completa-gre28')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">ATE LEGISLATURA HIZO UNA NUEVA ENTREGA DE LOS PREMIOS A LOS DERECHOS HUMANOS JORGE MORRESI
+
+                                            </a>
+                                        </h2>
+                                        <p class="font-light  text-right text-gray-500">Publicado: 20/05/2024</p>
+                                        <div class=" font-sans text-lg text-left col-span-6  ">
+                                        <p><i>La octava edición de los premios "Jorge Morresi" en la Legislatura porteña reconoció a destacadas figuras y organizaciones por su compromiso con la democracia y los derechos humanos.</i>
+                                        </p>
+                                        <br>
+                                        {{-- <article>
+                                            <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/mDyomkBc1DE?si=bnT2gxK0tSpFUqx1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                            
+                                        </article> --}}
+                                        <figure>
+                                            <img class=" w-full object-cover" src="../img/grem/grem_morre2.svg"
+                                                alt="">
+                                        </figure>
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+                                                <p>Este lunes 20 de mayo, en el Salón Dorado de la Legislatura porteña, se realizó la octava edición de los premios “Jorge Morresi”, como reconocimiento especial a la trayectoria, al compromiso y a la defensa de la democracia y los derechos humanos, a distintas personalidades y organizaciones sociales. La ceremonia estuvo encabezada por la conducción de la delegación de la Legislatura de la Asociación de Trabajadores del Estado, a cargo de <b>Ezequiel Gennaro</b> y de <b>Noelia Martínez Pereyra</b>. 
+                                                </p>
+                                                <br>
+                                                <p>Este año los distinguidos y las distinguidas fueron <b>Nora Cortiñas</b> y <b>Elia Espen</b>, de Madres de Plaza de Mayo Línea Fundadora; <b>Adolfo Pérez Esquivel</b>, Premio Nobel de la Paz; <b>Susana Rinaldi</b>, cantante, actriz y legisladora MC; <b>Graciela Blancat</b>, Coordinadora del Programa de DDHH de la Biblioteca Nacional Mariano Moreno; el ex diputado nacional <b>Lorenzo Pepe; Rodolfo Yanzón</b>, abogado querellante en los juicios de lesa humanidad, y <b>Daniel Catalano</b>, secretario general de ATE Capital, quien lo recibió por primera vez. Además, hubo reconocimientos colectivos a las dos organizaciones, <b>La Garganta Poderosa y CORREPI</b> (Coordinadora contra la Represión Policial e Institucional).
+                                                </p>
+                                                <br>
+                                                <p>En la presentación, Ezequiel Gennaro, delegado general de ATE Legislatura, sostuvo que <b>“en estas épocas difíciles, en que se demoniza y se persigue a militantes popultares, y sobre todo, a los empleados estatales, los trabajadores debemos estar con la cabeza alta, peleando para que vuelvan el bienestar y la alegría, para todos los que vivimos en nuestro país”. Y añadió que “los premios Jorge Morresi son un reconocimiento a esos héroes y heroínas, que día a día luchan por un sociedad mejor”</b>.
+                                                </p>
+                                                <br>
+                                                <p>Participaron del evento, los legisladores porteños Cele Fierro, Victoria Montenegro, Juan Pablo O Dezaile, Alejandro Grillo y Claudio Ferreño. Los premios Morresi son una distinción otorgada por la Junta Interna de la Asociación de Trabajadores del Estado (ATE) de la Legislatura de la Ciudad de Buenos Aires, y, entre otros, ya lo han recibido personalidades y entidades, como el ex presidente de Ecuador, Rafael Correa, los ex presidente y ex vicepresidente de Bolivia, Evo Morales y Álvaro García Linera, respectivamente; el juez Daniel Rafecas, el Equipo Argentino de Antropología Forense (EAAF),  entre otros y otras.</p>
+                                                <br>
+                                                
+                                                
+                                                
+                                            </div>
+                                        </div>
+                                </article>
+                            </li>
+                        </ul>
+                    </div>
+
+
+                    {{-- columna de la derecha chica --}}
+                    <aside>
+                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                            <div class=" col-span-6">
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/bener-leg2.png') }}"
+                                        alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/APSE.gif') }}" alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
+                                        alt="">
+                                </a>
+
+
+
+                                <div id="app">
+
+                                    <div v-for="item in info">
+
+                                        <div class="flex-col pb-3">
+                                            <div
+                                                class="flex-col max-w-sm  border  border-gray-700 rounded-lg shadow bg-gray-800">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg"
+                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
+                                                        alt="" />
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5 class="mb-2 text-2xl font-bold tracking-tight  text-white">
+                                                            @{{ item.title }}</h5>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div v-for="va in clima">
+
+                                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-white">
+                                            @{{ va }}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+
+                </div>
+
+            </section>
+        @elseif ($tituloSep == 'Gremiales-Noticia-Completa-gre29')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">DESPIDOS EN EL INADI: CRÍTICAS POR DISCRIMINACIÓN
+
+                                            </a>
+                                        </h2>
+                                        <p class="font-light  text-right text-gray-500">Publicado: 22/05/2024</p>
+                                        <div class=" font-sans text-lg text-left col-span-6  ">
+                                        <p><i>Controversia por Despidos en el INADI: Mayoría del Colectivo LGTBIQ+ y Personas con Discapacidad Afectadas</i>
+                                        </p>
+                                        <br>
+                                        {{-- <article>
+                                            <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/mDyomkBc1DE?si=bnT2gxK0tSpFUqx1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                            
+                                        </article> --}}
+                                        <figure>
+                                            <img class=" w-full object-cover" src="../img/grem/grem_inadi.svg"
+                                                alt="">
+                                        </figure>
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+                                                <p>En una decisión que ha generado fuerte controversia, el Gobierno despidió a 120 trabajadores del Instituto Nacional contra la Discriminación, la Xenofobia y el Racismo (INADI). Según denuncias de ATE, la mayoría de las personas despedidas pertenecen al colectivo LGTBIQ+ y personas con discapacidad, lo que representa un ajuste del 40 por ciento del personal del organismo.
+                                                </p>
+                                                <br>
+                                                <p>El despido de estas personas se realizó mediante un correo electrónico que indicaba que "no corresponde prorrogar su designación transitoria". Esta medida generó una rápida reacción del gremio y de los trabajadores, que se concentraron en torno a la sede del edificio en Avenida de Mayo al 1401. Desde ATE-INADI, se iniciaron medidas de fuerza que continuarán "hasta que haya una respuesta".
+                                                </p>
+                                                <br>
+                                                <p>Entre los despedidos se encuentran personas con entre 10 y 25 años de antigüedad en sus puestos, y en el caso de las personas trans, sus puestos estaban cubiertos por la Ley de Cupo laboral Travesti Trans. Este despido masivo ha dejado áreas enteras del organismo desmanteladas y programas completos vaciados de contenido.
+                                                </p>
+                                                <br>
+                                                <p>La interventora del INADI, Ángeles Quiroga, designada tras el anuncio del cierre del instituto en febrero y el traspaso de sus funciones al Ministerio de Justicia, ha sido duramente criticada por ATE, que la acusa de despedir compañeros sin cumplir con su tarea de promover la inclusión y los derechos que el organismo representa. ATE exige la urgente reincorporación de los despedidos y denuncia un nuevo avance en el desguace del Estado impulsado por el gobierno de Javier Milei.</p>
+                                                <br>
+                                                
+                                                
+                                                
+                                            </div>
+                                        </div>
+                                </article>
+                            </li>
+                        </ul>
+                    </div>
+
+
+                    {{-- columna de la derecha chica --}}
+                    <aside>
+                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                            <div class=" col-span-6">
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/bener-leg2.png') }}"
+                                        alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/APSE.gif') }}" alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
+                                        alt="">
+                                </a>
+
+
+
+                                <div id="app">
+
+                                    <div v-for="item in info">
+
+                                        <div class="flex-col pb-3">
+                                            <div
+                                                class="flex-col max-w-sm  border  border-gray-700 rounded-lg shadow bg-gray-800">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg"
+                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
+                                                        alt="" />
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5 class="mb-2 text-2xl font-bold tracking-tight  text-white">
+                                                            @{{ item.title }}</h5>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div v-for="va in clima">
+
+                                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-white">
+                                            @{{ va }}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+
+                </div>
+
+            </section>
         @endif
     </div>
     {{-- aca arrancamos vue --}}

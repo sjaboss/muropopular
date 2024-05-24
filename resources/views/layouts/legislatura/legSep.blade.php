@@ -4021,6 +4021,432 @@
                 </div>
 
             </section>
+        @elseif ($tituloSep == 'Legislatura-Noticia-Completa-leg31')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">VISITA DEL ALCALDE DE LISBOA A LA LEGISLATURA</a>
+                                        </h2>
+                                        <p class="font-light  text-right text-gray-500">Publicado: 03/05/2024</p>
+                                        <p><i>Lisboa es la ciudad invitada en la Feria Internacional del Libro y su delegación internacional visitaron la Casa Parlamentaria.</i></p>
+                                        <br>
+                                        <figure>
+                                            <a href="">
+                                                <img class="w-full object-cover object-center"
+                                                    src="{{ asset('../img/leg/leg_lisboa1.svg') }}" alt="">
+                                            </a>
+                                        </figure>
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                                <p>Carlos Moedas, Alcalde de Lisboa, fue recibido en la Legislatura por el Vicepresidente 1°, Matías López. La visita, que tuvo lugar en el Salón Eva Perón y también contó con la presencia del Embajador de Portugal en Argentina, José Frederico Viola de Drummond Ludovice, se dio en el marco de la Feria Internacional del Libro, donde Lisboa es la ciudad invitada oficial.</p>
+                                                <br>
+                                                <p>El evento fue organizado por la Subsecretaría de Relaciones Internacionales y Cooperación Institucional, a cargo del Dr. Pablo Garzonio, en conjunto con la Dirección de Relaciones Internacionales y Cooperación, dirigida por la Dra. Ornela Vanzilliota.</p>
+                                                <br>
+                                                <p>En el inicio de las alocuciones, López dio la bienvenida al Visitante Ilustre y destacó: “Hoy nuestras ciudades se unen para celebrar nuestros lazos fraternos; son dos ciudades hermanadas portuarias y literarias y queremos ampliar nuestros puentes”. Finalmente, llamó a dar comienzo a una nueva etapa.</p>
+                                                <br>
+                                                <p>Luego, Ludovice agradeció a López y señaló que la Legislatura es “una casa de la democracia muy importante”, desde donde se logran consensos. También puntualizó que el acto fue una representación de la “hermandad profunda” entre ambos países y ciudades. Y celebró: “¡Viva Buenos Aires! ¡Viva Lisboa! ¡Viva Portugal! ¡Viva Argentina!”.
+                                                </p>
+                                                <br>
+                                                <p>Por último, Moedas afirmó que Buenos Aires es “una ciudad con una energía única y con gente excepcional”. A su vez, agregó: “Tenemos mucho en común, somos ciudades con alma y que nos hace sentir que pertenecemos; hoy Lisboa y Buenos Aires son las ciudades que definen la política del futuro”. Finalmente, resaltó el trabajo del político local: “Trabajamos con las personas, somos los políticos del concreto”.</p>
+                                                <br>
+                                                <p>Además, estuvieron presentes en el evento los legisladores Matías Barroetaveña, Cecilia Ferrero, Pablo Donatti, Patricia Glize, Jesica Barreto; la Embajadora de Ecuador, Lotti Andrade; el Subsecretario de Cultura de la Ciudad, Roy Cortina; y Nahuel Muñoz, Director de Cooperación Multilateral del Gobierno de la Ciudad.</p>
+                                                <br>
+                                                
+                                            </div>
+
+
+
+                                        </div>
+                                    </div>
+                                </article>
+                            </li>
+                        </ul>
+                        <br>
+
+                    </div>
+
+
+                    {{-- columna de la derecha chica --}}
+                    <aside>
+                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                            <div class=" col-span-6">
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/bener-leg2.png') }}"
+                                        alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
+                                        alt="">
+                                </a>
+
+                                <div id="app">
+
+                                    <div v-for="item in info">
+
+                                        <div class="flex-col pb-3">
+                                            <div
+                                                class="flex-col max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg"
+                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
+                                                        alt="" />
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5
+                                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                                            @{{ item.title }}</h5>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div v-for="va in clima">
+
+                                        <h5
+                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                            @{{ va }}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+
+                </div>
+
+            </section>
+        @elseif ($tituloSep == 'Legislatura-Noticia-Completa-leg32')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">AVANZA EL PROCEDIMIENTO PARA LA DESIGNACIÓN DE LOS DEFENSORES ADJUNTOS</a>
+                                        </h2>
+                                        <p class="font-light  text-right text-gray-500">Publicado: 07/05/2024</p>
+                                        <p><i><b>Se realizó en el Salón San Martín de la Legislatura porteña la Audiencia Pública para continuar con el procedimiento de designación de Defensores Adjuntos de la Defensoría del Pueblo de la Ciudad Autónoma de Buenos Aires, tal como está previsto en el artículo 18 de la Ley N°3.</b></i></p>
+                                        <br>
+                                        <figure>
+                                            <a href="">
+                                                <img class="w-full object-cover object-center"
+                                                    src="{{ asset('../img/leg/leg_avanza1.svg') }}" alt="">
+                                            </a>
+                                        </figure>
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                                <p>La jornada comenzó con la apertura del registro de postulantes y su publicación en diversos medios de comunicación. En esta etapa, la Junta de Ética, Acuerdos y Organismos de Control, presidida por María Luisa González Estevarena (Vamos por más), lideró la audiencia pública. Junto a ella, participaron los legisladores Inés Parry, titular de la comisión de Justicia, y Hernán Reyes, titular de la comisión de Asuntos Constitucionales, así como otros integrantes de ambas comisiones y la Junta. También estuvieron presentes el vicepresidente primero de la casa legislativa, Matías López, y la actual Defensora del Pueblo de la Ciudad, María Rosa Muiños.</p>
+                                                <br>
+                                                <p>Los candidatos a Defensores Adjuntos expusieron durante dos horas sus antecedentes, trayectoria y propuestas. Entre los postulantes se encuentran Lidia Saya, Slike Mayra Arndt, Matías Debasa, Arturo Pozzali, Federico Esswein, Facundo Saez, Fernando Susini, Mara Brawer, Santos Gastón Juan, Laura Arce, David Escobar, Carlos Palmiotti, María Patricia Vischi, Ivana Gimenez y Marina Spinetto. Cada uno de ellos presentó sus planes y perspectivas para mejorar la Defensoría del Pueblo y reforzar su papel en la defensa de los derechos de los ciudadanos.</p>
+                                                <br>
+                                                <p>María Luisa González Estevarena destacó la importancia de este proceso: “La selección de los Defensores Adjuntos es un paso fundamental para garantizar que la Defensoría del Pueblo cuente con personas capacitadas y comprometidas con la defensa de los derechos humanos y la transparencia en la gestión pública”.</p>
+                                                <br>
+                                                <p>Por su parte, María Rosa Muiños, actual Defensora del Pueblo, subrayó el valor de la participación ciudadana en este tipo de procedimientos: “La audiencia pública permite a los ciudadanos conocer a quienes se postulan para estos roles y asegura que el proceso sea transparente y participativo”.
+                                                </p>
+                                                <br>
+                                                <p>El vicepresidente primero, Matías López, expresó su satisfacción con el desarrollo de la audiencia: “Este tipo de eventos refuerzan la confianza de la ciudadanía en sus instituciones y promueven la participación activa en la vida democrática de la ciudad”.</p>
+                                                <br>
+                                                <p>A medida que avanza el proceso de designación, se espera que los nuevos Defensores Adjuntos contribuyan significativamente a fortalecer la Defensoría del Pueblo, asegurando una representación efectiva y una gestión transparente que responda a las necesidades y derechos de los porteños. La próxima etapa consistirá en la evaluación de las presentaciones por parte de la Junta de Ética y las comisiones correspondientes, quienes definirán la terna final para la designación.</p>
+                                                <br>
+                                                
+                                            </div>
+
+
+
+                                        </div>
+                                    </div>
+                                </article>
+                            </li>
+                        </ul>
+                        <br>
+
+                    </div>
+
+
+                    {{-- columna de la derecha chica --}}
+                    <aside>
+                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                            <div class=" col-span-6">
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/bener-leg2.png') }}"
+                                        alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
+                                        alt="">
+                                </a>
+
+                                <div id="app">
+
+                                    <div v-for="item in info">
+
+                                        <div class="flex-col pb-3">
+                                            <div
+                                                class="flex-col max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg"
+                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
+                                                        alt="" />
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5
+                                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                                            @{{ item.title }}</h5>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div v-for="va in clima">
+
+                                        <h5
+                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                            @{{ va }}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+
+                </div>
+
+            </section>
+        @elseif ($tituloSep == 'Legislatura-Noticia-Completa-leg33')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">DÍA INTENSO EN LA LEGISLATURA: CULTURA, MUJERES Y DERECHOS HUMANOS.</a>
+                                        </h2>
+                                        <p class="font-light  text-right text-gray-500">Publicado: 08/05/2024</p>
+                                        <p><i><b>Diputados porteños abordan temas de homenaje cultural, políticas de género y acceso a la salud en una intensa jornada de comisiones.</b></i></p>
+                                        <br>
+                                        <figure>
+                                            <a href="">
+                                                <img class="w-full object-cover object-center"
+                                                    src="{{ asset('../img/leg/leg_intenso.svg') }}" alt="">
+                                            </a>
+                                        </figure>
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                                <p>En una jornada legislativa cargada de actividad, las comisiones de Cultura, Mujeres, Géneros y Diversidades, y Derechos Humanos de la Legislatura de la Ciudad de Buenos Aires se reunieron para abordar importantes temas de interés público.</p>
+                                                <br>
+                                                <p>La Comisión de Cultura, presidida por Cecilia Ferrero, propuso una serie de homenajes a destacados sitios culturales de la ciudad, entre ellos el 130° aniversario del emblemático Bar Los 36 Billares. Esta iniciativa resalta la importancia de preservar y celebrar la rica historia cultural de Buenos Aires.</p>
+                                                <br>
+                                                <p>Por otro lado, la Comisión de Mujeres, Géneros y Diversidades, bajo la dirección de Sol Méndez, llevó a cabo una reunión informativa con la participación de la Subsecretaria de la Mujer, Carolina Barone. En este encuentro, se destacó la necesidad de un trabajo conjunto entre el Legislativo y el Ejecutivo para mejorar las políticas públicas en materia de género, destacando los ejes de gestión que guiarán las acciones futuras en esta área.</p>
+                                                <br>
+                                                <p>Finalmente, la Comisión de Derechos Humanos, presidida por Victoria Montenegro, se reunió junto a las comisiones de Discapacidad, Niñez, Promoción Social y Salud. El tema central de esta reunión fue el acceso a los medicamentos, con la participación de diversos organismos, instituciones y referentes de la salud. Esta discusión pone de relieve la importancia de garantizar el acceso equitativo a la salud para todos los ciudadanos.
+                                                </p>
+                                                <br>
+                                                <p>En resumen, esta jornada legislativa refleja el compromiso de los diputados porteños con temas fundamentales para la sociedad, como la cultura, los derechos de las mujeres y el acceso a la salud. Estos debates y acciones legislativas son un paso importante hacia una ciudad más inclusiva y equitativa para todos sus habitantes.</p>
+                                                <br>
+                                                
+                                                
+                                            </div>
+
+
+
+                                        </div>
+                                    </div>
+                                </article>
+                            </li>
+                        </ul>
+                        <br>
+
+                    </div>
+
+
+                    {{-- columna de la derecha chica --}}
+                    <aside>
+                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                            <div class=" col-span-6">
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/bener-leg2.png') }}"
+                                        alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
+                                        alt="">
+                                </a>
+
+                                <div id="app">
+
+                                    <div v-for="item in info">
+
+                                        <div class="flex-col pb-3">
+                                            <div
+                                                class="flex-col max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg"
+                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
+                                                        alt="" />
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5
+                                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                                            @{{ item.title }}</h5>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div v-for="va in clima">
+
+                                        <h5
+                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                            @{{ va }}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+
+                </div>
+
+            </section>
+        @elseif ($tituloSep == 'Legislatura-Noticia-Completa-leg34')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">APROBADA ACTUALIZACIÓN DEL PRESUPUESTO DE LA CIUDAD DE BUENOS AIRES</a>
+                                        </h2>
+                                        <p class="font-light  text-right text-gray-500">Publicado: 16/05/2024</p>
+                                        <p><i><b>La Legislatura de la Ciudad de Buenos Aires aprobó por amplia mayoría la actualización del Presupuesto 2024, destacando el equilibrio fiscal y la equidad tributaria como premisas fundamentales. La sesión, presidida por Clara Muzzio, también incluyó temas como ajustes en topes de tributos y beneficios para jubilados.</b></i></p>
+                                        <br>
+                                        <figure>
+                                            <a href="">
+                                                <img class="w-full object-cover object-center"
+                                                    src="{{ asset('../img/leg/leg_aprobada2.svg') }}" alt="">
+                                            </a>
+                                        </figure>
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                                <p>La actualización del Presupuesto de la Ciudad de Buenos Aires para el año 2024 fue aprobada por la Legislatura luego de varias jornadas de trabajo en la comisión legislativa de Presupuesto, Hacienda, Administración Financiera y Política Tributaria. La ley recibió 38 votos positivos de VxM, UCR, CP y LLA, y 20 negativos de UxP y monobloques de izquierda, y fue destacada por el bloque oficialista por su enfoque en el equilibrio fiscal y la equidad tributaria.</p>
+                                                <br>
+                                                <p>El aumento nominal propuesto en el Presupuesto se basa en la evolución y proyección de las principales variables macroeconómicas, buscando corregir los desfases generados por la inflación. Además de la actualización presupuestaria, se aprobaron modificaciones en los topes de tributos empadronados y en las exenciones del impuesto a los sellos sobre las transferencias de dominio y los contratos de compraventa de vivienda única.</p>
+                                                <br>
+                                                <p>En un esfuerzo por evitar que muchos contribuyentes se vean forzados a pasar al Régimen General de Ingresos Brutos debido a aumentos de precios, se ajustaron las fórmulas para ajustar montos del impuesto a fin de considerar el incremento real de las actividades o ventas.</p>
+                                                <br>
+                                                <p>Además, los centros de jubilados y pensionados registrados en la Ciudad de Buenos Aires quedaron exentos del pago del impuesto inmobiliario y de la tasa de ABL. La sesión también incluyó la toma de juramento a los miembros del estamento judicial para integrar el Consejo de la Magistratura y al Jurado de Enjuiciamiento, así como el sorteo de la integración de legisladores en las salas Acusadora y Juzgadora en caso de un Juicio Político.
+                                                </p>
+                                                <br>
+                                                <p>Durante la sesión, que duró casi 5 horas, también se abordaron otros temas como los homenajes por el 50 aniversario de la muerte del padre Mugica y la autorización para establecer una tarifa diferencial en el precio de la entrada al Jardín Japonés para no residentes.</p>
+                                                <br>
+                                                
+                                                
+                                            </div>
+
+
+
+                                        </div>
+                                    </div>
+                                </article>
+                            </li>
+                        </ul>
+                        <br>
+
+                    </div>
+
+
+                    {{-- columna de la derecha chica --}}
+                    <aside>
+                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                            <div class=" col-span-6">
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/bener-leg2.png') }}"
+                                        alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
+                                        alt="">
+                                </a>
+
+                                <div id="app">
+
+                                    <div v-for="item in info">
+
+                                        <div class="flex-col pb-3">
+                                            <div
+                                                class="flex-col max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg"
+                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
+                                                        alt="" />
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5
+                                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                                            @{{ item.title }}</h5>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div v-for="va in clima">
+
+                                        <h5
+                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                            @{{ va }}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+
+                </div>
+
+            </section>
         @endif
 
     </div>
@@ -4043,7 +4469,7 @@
                 mounted() {
 
 
-                    axios.get("https://api.dailymotion.com/videos?channel=news&limit=5")
+                    axios.get("https://api.dailymotion.com/videos?channel=news&limit=2")
                         .then(response => {
                             this.info = response.data.list
                         });

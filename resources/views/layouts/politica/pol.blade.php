@@ -1,5 +1,291 @@
 <x-app-layout>
     <div class="container ">
+        {{-- ROMINA DEL PLÁ: HACE FALTA AUMENTAR TODO EL PRESUPUESTO:...--}}
+<section>
+    <ul>
+        <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+            <article>
+                <div class="py-4 px-4 justify-between items-center">
+                    <h2 class="text-xl font-serif  font-bold pb-6">
+                        <a href="">ROMINA DEL PLÁ: HACE FALTA AUMENTAR TODO EL PRESUPUESTO: SIN SALARIOS, NO HAY UNIVERSIDAD</a>
+                    </h2>
+                    <p class="font-light  text-right text-gray-500">Publicado: 22/05/2024</p>
+                    <div class=" font-sans text-lg text-left col-span-6  ">
+                    <p><i>La diputada del Frente de Izquierda y de Trabajadores - Unidad denunció la falta de inversión en educación pública y llamó a continuar la lucha por un aumento real del presupuesto universitario.</i>
+                    </p>
+                    <br>
+                    {{-- <article>
+                        <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/YElDMxWtpio?si=B21D4BO6vjuKVj0Z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        
+                    </article> --}}
+                    <figure>
+                        <img class="w-full object-cover"
+                            src="{{ asset('../img/pol/pol_salario.svg') }}" alt="">
+
+                    </figure>
+                    <br>
+                    <div
+                        class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                        <div class=" font-sans text-lg text-left col-span-6  ">
+                            <p>El bloque del Frente de Izquierda y de Trabajadores - Unidad participó de la Sesión Especial en la Cámara de Diputados de la Nación para tratar el tema educativo en la cual, finalmente, se aprobó su emplazamiento a comisión. La diputada nacional por Partido Obrero, Romina Del Plá, declaró al respecto:
+                            </p>
+                            <br>
+                            <p>“Esta Sesión evidencia que la única forma de arrancar la emergencia educativa y el aumento real del presupuesto universitario es tomando las calles. La marcha del 23 marcó el camino, tenemos que seguir presionando por el presupuesto, por los salarios y por la restitución del FONID. El ajuste de este gobierno tiene a la educación pública en una situación crítica, no podemos aceptar más dilaciones.”
+                            </p>
+                            <br>
+                            <p>La diputada nacional también denunció: “No hay sorpresa, el peronismo y los radicales en la UBA vienen de negociar un presupuesto de miseria, desoyendo los reclamos estudiantiles y docentes. La limosna que ofrece el gobierno no contempla gastos en infraestructura ni salarios para los docentes. Realizan una concesión mínima para desarticular la histórica jornada del 23.”
+                            </p>
+                            <br>
+                            <p>Finalmente, Del Plá sentenció: “Quedó demostrado que no podemos confiar en quienes ven la educación como un negocio. Sin salarios docentes, no hay Universidad. Tenemos que seguir la lucha por un aumento real del presupuesto que no puede quedar en manos de los voceros de las patronales y las burocracias. El jueves vamos todos al Congreso por un paro docente activo y de lucha.”</p>
+                            <br>
+                            
+                            <div class="text-start object-center">
+                                {{-- <figure>
+                                    <img class="w-28 h-28  "
+                                        src="{{ asset('../img/der/Adri.svg') }}" alt="">
+
+                                    <p> <strong>Adriana Zerdín</strong></p>
+
+                                </figure> --}}
+                            </div>
+                        </div>
+            </article>
+        </li>
+    </ul>
+</section>
+        {{-- JÓVENES ORGANIZAN ACTO-INTERVENCIÓN FRENTE AL CONGRESO ...--}}
+<section>
+    <ul>
+        <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+            <article>
+                <div class="py-4 px-4 justify-between items-center">
+                    <h2 class="text-xl font-serif  font-bold pb-6">
+                        <a href="">JÓVENES ORGANIZAN ACTO-INTERVENCIÓN FRENTE AL CONGRESO EN REPUDIO A LA LEY BASES</a>
+                    </h2>
+                    <p class="font-light  text-right text-gray-500">Publicado: 21/05/2024</p>
+                    <div class=" font-sans text-lg text-left col-span-6  ">
+                    <p><i>Diversas organizaciones juveniles realizarán una intervención artística y un acto el miércoles 22 de mayo a las 17:00 horas para manifestarse contra la sanción de la Ley Bases. La actividad, que simulará el remate de derechos y bienes naturales de Argentina, busca influenciar el voto de los Senadores y visibilizar las consecuencias de la normativa.</i>
+                    </p>
+                    <br>
+                    {{-- <article>
+                        <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/YElDMxWtpio?si=B21D4BO6vjuKVj0Z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        
+                    </article> --}}
+                    <figure>
+                        <img class="w-full object-cover"
+                            src="{{ asset('../img/pol/pol_jovenes2.svg') }}" alt="">
+
+                    </figure>
+                    <br>
+                    <div
+                        class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                        <div class=" font-sans text-lg text-left col-span-6  ">
+                            <p>En una acción conjunta, varias organizaciones juveniles se preparan para llevar a cabo un acto-intervención frente al Congreso Nacional en repudio a la sanción de la Ley Bases. La actividad se desarrollará el miércoles 22 de mayo a las 17:00 horas y tendrá una duración estimada de una hora y media.
+                            </p>
+                            <br>
+                            <p>La intervención artística simulará el remate de los derechos y bienes naturales que Argentina perdería de aprobarse la ley. Esta representación visual busca llamar la atención sobre las graves consecuencias que implicaría la normativa y generar conciencia entre los legisladores y la ciudadanía.
+                            </p>
+                            <br>
+                            <p>Tras la intervención, se realizará un breve acto de cierre donde se ofrecerán palabras en representación de las organizaciones, sindicatos y movimientos sociales participantes. Entre los convocantes se encuentran La Cámpora, Grupo Bicentenario, Peronismo Militante, Peronismo por la Ciudad, Descamisados, Unidos y Organizados, El Hormiguero, Federación Juvenil Comunista, Frente Patria Grande, Juventud ATE, Juventud UPCN, Simón Bolívar, Resistentes, Les Jóvenes JP Evita, CCC, Barrios de Pie, Militancia Popular, Juventud sindical CGT, Juventud CTA, La Patria es el Otro y NIETES.
+                            </p>
+                            <br>
+                            <p>Esta movilización busca no solo expresar el rechazo a la Ley Bases, sino también influenciar el voto de los Senadores para evitar su aprobación. Los organizadores invitan a todos los medios de comunicación, militantes y ciudadanos a participar y ser testigos de esta manifestación en defensa de los derechos y bienes naturales del país.</p>
+                            <br>
+                            <p>Fecha: Miércoles 22 de mayo</p>
+                            <p>Hora: 17:00</p>
+                            <p>Lugar: Frente al Congreso Nacional</p>
+                            <br>
+                            <p>Para más información, los interesados pueden contactarse con las organizaciones convocantes.</p>
+                            <br>
+                            <div class="text-start object-center">
+                                {{-- <figure>
+                                    <img class="w-28 h-28  "
+                                        src="{{ asset('../img/der/Adri.svg') }}" alt="">
+
+                                    <p> <strong>Adriana Zerdín</strong></p>
+
+                                </figure> --}}
+                            </div>
+                        </div>
+            </article>
+        </li>
+    </ul>
+</section>
+        {{-- SIN ACUERDO EN EL SENADO: LA LEY BASES ...--}}
+<section>
+    <ul>
+        <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+            <article>
+                <div class="py-4 px-4 justify-between items-center">
+                    <h2 class="text-xl font-serif  font-bold pb-6">
+                        <a href="">SIN ACUERDO EN EL SENADO: LA LEY BASES EN UN IMPASSE POLÍTICO</a>
+                    </h2>
+                    <p class="font-light  text-right text-gray-500">Publicado: 18/05/2024</p>
+                    <div class=" font-sans text-lg text-left col-span-6  ">
+                    <p><i>Después de dos semanas de intenso debate, el oficialismo pierde la esperanza de llegar al Pacto de Mayo con su aprobación total. El plenario de comisiones del Senado pasó a cuarto intermedio, y el RIGI aparece como uno de los principales puntos de controversia.</i>
+                    </p>
+                    <br>
+                    {{-- <article>
+                        <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/YElDMxWtpio?si=B21D4BO6vjuKVj0Z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        
+                    </article> --}}
+                    <figure>
+                        <img class="w-full object-cover"
+                            src="{{ asset('../img/pol/pol_bases2.svg') }}" alt="">
+
+                    </figure>
+                    <br>
+                    <div
+                        class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                        <div class=" font-sans text-lg text-left col-span-6  ">
+                            <p>Después de dos semanas de intensos debates en el Senado, la Ley Bases y la Reforma Fiscal propuestas por el oficialismo aún no han logrado obtener el dictamen necesario para su aprobación. Este impasse representa un revés para el Gobierno de Javier Milei, que buscaba que estas medidas fueran aprobadas antes del 25 de mayo.
+                            </p>
+                            <br>
+                            <p>El plenario de comisiones del Senado, compuesto por las comisiones de Legislación General, Presupuesto y Hacienda, y Asuntos Constitucionales, ha decidido entrar en un cuarto intermedio hasta el próximo martes, sin lograr establecer acuerdos para su tratamiento.
+                            </p>
+                            <br>
+                            <p>Uno de los puntos más controvertidos de la Ley Bases es el Régimen de Incentivo a las Grandes Inversiones (RIGI), que ha generado críticas tanto de la oposición como de sectores empresariales y de la sociedad civil. Daniel Rosatto, presidente de Industriales PyMEs Argentinos (IPA), expresó su preocupación por este aspecto de la ley, argumentando que no favorece a las pequeñas y medianas empresas, que son fundamentales para la economía del país.
+                            </p>
+                            <br>
+                            <p>En este contexto, Estela de Carlotto, presidenta de Abuelas de Plaza de Mayo, también ha hecho un llamado al Senado para proteger el Banco de Datos Genéticos y la Comisión Nacional por el Derecho a la Identidad (CONADI), expresando su preocupación por los posibles efectos negativos de la Ley Bases en estos organismos.</p>
+                            <br>
+                            <p>En resumen, la falta de consenso en el Senado ha generado un impasse en la aprobación de la Ley Bases y la Reforma Fiscal, lo que pone en duda la posibilidad de que estas medidas sean aprobadas antes del 25 de mayo, como estaba previsto inicialmente por el Gobierno.</p>
+                            <br>
+                            
+                            
+                            <div class="text-start object-center">
+                                {{-- <figure>
+                                    <img class="w-28 h-28  "
+                                        src="{{ asset('../img/der/Adri.svg') }}" alt="">
+
+                                    <p> <strong>Adriana Zerdín</strong></p>
+
+                                </figure> --}}
+                            </div>
+                        </div>
+            </article>
+        </li>
+    </ul>
+</section>
+        {{-- EL GOBIERNO DE MILEI: AJUSTE, ABANDONO Y PERSECUCIÓN ...--}}
+<section>
+    <ul>
+        <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+            <article>
+                <div class="py-4 px-4 justify-between items-center">
+                    <h2 class="text-xl font-serif  font-bold pb-6">
+                        <a href="">EL GOBIERNO DE MILEI: AJUSTE, ABANDONO Y PERSECUCIÓN</a>
+                    </h2>
+                    <p class="font-light  text-right text-gray-500">Publicado: 17/05/2024</p>
+                    <div class=" font-sans text-lg text-left col-span-6  ">
+                    <p><i>En medio de un contexto de ajuste económico y aumento de la pobreza, el gobierno de Javier Milei busca distraer la atención con acusaciones hacia los movimientos sociales, mientras se profundizan los problemas en Argentina.</i>
+                    </p>
+                    <br>
+                    {{-- <article>
+                        <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/YElDMxWtpio?si=B21D4BO6vjuKVj0Z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        
+                    </article> --}}
+                    <figure>
+                        <img class="w-full object-cover"
+                            src="{{ asset('../img/pol/pol_hambre2.svg') }}" alt="">
+
+                    </figure>
+                    <br>
+                    <div
+                        class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                        <div class=" font-sans text-lg text-left col-span-6  ">
+                            <p>En medio de un clima político enrarecido, el presidente Javier Milei ha emprendido un viaje a España con fines más personales que institucionales, mientras en Argentina se profundizan los problemas sociales. El contexto nacional se ve marcado por el posible fracaso político del Pacto de Mayo y el estancamiento de la Ley Bases en el Senado, lo que ha llevado al gobierno a buscar distraer la atención con acusaciones hacia los movimientos sociales.
+                            </p>
+                            <br>
+                            <p>El presidente, alejado tanto física como mentalmente de la realidad, se muestra intolerante a las críticas sobre el plan económico, proclamando un supuesto éxito en el ajuste y la inflación. Sin embargo, los números indican que el aumento de precios del 8,8% no es una buena noticia para la población, ya que la línea de pobreza continúa en ascenso, situándose en $828.158 para una familia.
+                            </p>
+                            <br>
+                            <p>Uno de los efectos colaterales del ajuste es el aumento del desempleo, con la pérdida de 100 mil puestos de trabajo en el sector privado solo en el primer trimestre, según datos del Centro de Economía Política Argentina (CEPA).
+                            </p>
+                            <br>
+                            <p>En medio de este panorama, la ministra de Capital Humano, Sandra Pettovello, ha sido denunciada por incumplimiento de los deberes de su función, liderando una acusación contra dirigentes sociales. Pettovello ha eliminado la asistencia alimentaria a comedores y merenderos populares, además de modificar el programa social Potenciar Trabajo, que garantizaba empleo en la economía popular a más de un millón de personas.</p>
+                            <br>
+                            <p>Esta situación ha llevado al Gobierno a buscar legitimar el ajuste sobre las clases populares mediante denuncias por extorsión contra los movimientos sociales y avanzar en su persecución. Pettovello se ofreció como querellante en las causas por las que se imputan a 12 dirigentes sociales.</p>
+                            <br>
+                            <p>Los medios de comunicación masivos se han sumado a este discurso, con editoriales sobre la "esclavitud moderna" y "los curros de los dirigentes sociales", contribuyendo a un clima de persecución política, judicial y mediática a las clases populares organizadas, mientras las necesidades básicas de la población quedan desatendidas.</p>
+                            <br>
+                            <p>En resumen, el Gobierno de Milei se enfrenta a críticas por su gestión económica, que ha resultado en un aumento de la pobreza y el desempleo, además de una serie de medidas que han impactado negativamente en los sectores más vulnerables de la sociedad, mientras busca desviar la atención con acusaciones hacia los movimientos sociales.</p>
+                            <br>
+                            
+                            <div class="text-start object-center">
+                                {{-- <figure>
+                                    <img class="w-28 h-28  "
+                                        src="{{ asset('../img/der/Adri.svg') }}" alt="">
+
+                                    <p> <strong>Adriana Zerdín</strong></p>
+
+                                </figure> --}}
+                            </div>
+                        </div>
+            </article>
+        </li>
+    </ul>
+</section>
+        {{-- CINCO GOBERNADORES PERONISTAS RECHAZAN ...--}}
+<section>
+    <ul>
+        <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+            <article>
+                <div class="py-4 px-4 justify-between items-center">
+                    <h2 class="text-xl font-serif  font-bold pb-6">
+                        <a href="">CINCO GOBERNADORES PERONISTAS RECHAZAN EL PACTO DE MAYO CONVOCADO POR MILEI</a>
+                    </h2>
+                    <p class="font-light  text-right text-gray-500">Publicado: 13/05/2024</p>
+                    <div class=" font-sans text-lg text-left col-span-6  ">
+                    <p><i>Axel Kicillof, Ricardo Quintela, Sergio Ziliotto, Gildo Insfrán y Gustavo Melella, todos del peronismo, no asistirán al pacto propuesto por Javier Milei, argumentando incumplimientos del Gobierno nacional con las provincias.</i>
+                    </p>
+                    <br>
+                    {{-- <article>
+                        <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/YElDMxWtpio?si=B21D4BO6vjuKVj0Z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        
+                    </article> --}}
+                    <figure>
+                        <img class="w-full object-cover"
+                            src="{{ asset('../img/pol/pol_rechazo.svg') }}" alt="">
+
+                    </figure>
+                    <br>
+                    <div
+                        class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                        <div class=" font-sans text-lg text-left col-span-6  ">
+                            <p>El gobernador de Buenos Aires, Axel Kicillof, confirmó este lunes que no asistirá a la firma del Pacto de Mayo convocado por el presidente Javier Milei para dentro de dos semanas en Córdoba. Kicillof se suma a otros cuatro mandatarios provinciales del peronismo que ya anticiparon que no formarán parte de la iniciativa: Ricardo Quintela (La Rioja), Sergio Ziliotto (La Pampa), Gildo Insfrán (Formosa) y Gustavo Melella (Tierra del Fuego).
+                            </p>
+                            <br>
+                            <p>Durante un acto en el Teatro Argentino de La Plata, Kicillof afirmó que el Gobierno nacional “está incumpliendo” sus obligaciones con la provincia de Buenos Aires y que “hubiera concurrido si se dignara a dar lo que corresponde”.
+                            </p>
+                            <br>
+                            <p>“La recesión, la caída de la recaudación y la quita ilegal de fondos por parte del Gobierno nacional impacta sobre la provincia y los distritos. Hoy estamos demostrando que el Gobierno provincial no deserta, respeta el federalismo y reconoce la importancia de las y los intendentes”, argumentó el gobernador kirchnerista.
+                            </p>
+                            <br>
+                            <p>Kicillof destacó la importancia de estos fondos en “un momento donde el Gobierno nacional está incumpliendo con todas las provincias argentinas; donde ha pisoteado el federalismo en lo fiscal, económico, operativo y constitucional”.</p>
+                            <br>
+                            <p>El gobernador de La Rioja, Ricardo Quintela, también rechazó la convocatoria al Pacto de Mayo, afirmando: “Al Pacto de Mayo no voy a ir. Antes de un pacto existe una conversación previa y esto es una imposición. Varios gobernadores no nos vamos a someter a eso”.</p>
+                            <br>
+                            <p>Además de la negativa de estos cinco gobernadores, existen dudas sobre lo que harán otros mandatarios provinciales, como Gerardo Zamora (Santiago del Estero) y los patagónicos Claudio Vidal (Santa Cruz), Rolando Figueroa (Neuquén) y Alberto Weretilneck (Río Negro), quienes mantienen una relación oscilante con Milei.</p>
+                            <br>
+                            <p>Se espera que el resto de los gobernadores asistan el sábado 25 de este mes a firmar el pacto, entre ellos Martín Llaryora (Córdoba), Maximiliano Pullaro (Santa Fe), Alfredo Cornejo (Mendoza), Osvaldo Jaldo (Tucumán), Gustavo Sáenz (Salta), Carlos Sadir (Jujuy), Leandro Zdero (Chaco), Rogelio Frigerio (Entre Ríos), Gustavo Valdés (Corrientes), Raúl Jalil (Catamarca), Claudio Poggi (San Luis), Marcelo Orrego (San Juan) y el jefe de gobierno porteño, Jorge Macri.</p>
+                            <br>
+                            <p>A doce días de la fecha prevista para rubricar el Pacto de Mayo, el Gobierno nacional está en plena negociación por la media sanción en la Cámara de Senadores de la Ley Bases, y se mostró abierto a ampliar el temario de los diez puntos contemplados en el acuerdo con los gobernadores.</p>
+                            <br>
+                            <div class="text-start object-center">
+                                {{-- <figure>
+                                    <img class="w-28 h-28  "
+                                        src="{{ asset('../img/der/Adri.svg') }}" alt="">
+
+                                    <p> <strong>Adriana Zerdín</strong></p>
+
+                                </figure> --}}
+                            </div>
+                        </div>
+            </article>
+        </li>
+    </ul>
+</section>
         {{-- TRIUNFO ARGENTINO: JUSTICIA DE EEUU ABSUELVE EN CASO CUPÓN PBI--}}
 <section>
     <ul>

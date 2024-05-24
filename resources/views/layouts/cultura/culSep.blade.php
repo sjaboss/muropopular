@@ -2017,6 +2017,222 @@
                 </div>
 
             </section>
+        @elseif ($tituloSep == 'Cultura-Noticia-Completa-cul18')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">POTESTAD: UNA OBRA EMBLEMÁTICA DEL TEATRO ARGENTINO EN EL TEATRO PAYRÓ</a>
+                                        </h2>
+                                        <p class="font-light  text-right text-gray-500">Publicado: 09/05/2024</p>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                                <p><i>La obra teatral "Potestad" de Tato Pavlovsky regresa a los escenarios porteños en una nueva versión dirigida por Norman Briski. Considerada una de las piezas más significativas del teatro argentino, "Potestad" aborda la problemática del "raptor de niños" durante la dictadura militar en Argentina. </i></p>
+                                                <br>
+                                                <figure>
+                                                    <a href="">
+                                                        <img class="w-full object-cover object-center"
+                                                            src="{{ asset('../img/cul/cul_potesta.svg') }}"
+                                                            alt="">
+                                                    </a>
+                                                </figure>
+                                                <br>
+                                                <p>La puesta en escena, que se estrenará el viernes 10 de mayo de 2024 en el Teatro Payró, contará con 4 únicas funciones los viernes de mayo a las 22hs. El elenco está conformado por Eduardo Misch y Damián Bolado, bajo la dirección de Norman Briski. La música original es de Martín Pavlovsky, el diseño y realización escenográfica está a cargo de Guillermo Brethold, y el diseño de iluminación es de Briski-Misch. La asistencia de dirección corre por cuenta de Iván Domnanovich, mientras que la gráfica y diseño audiovisual son de Antonio Fernández. La prensa y difusión están a cargo de Adriana Schottlender.
+                                                </p>
+                                                <br>
+                                                <p>Norman Briski, quien también dirigió la primera versión de "Potestad" en 1985, destacó la importancia de esta nueva puesta en escena y la oportunidad de explorar nuevos enfoques creativos en una obra tan relevante para el teatro argentino.
+                                                </p>
+                                                <br>
+                                                <p>La obra "Potestad" ha sido representada en más de 50 festivales internacionales y es una pieza clave para comprender el estilo y la multiplicidad autoral de Pavlovsky. La obra ha sido montada en diferentes ocasiones, incluso en Francia y otras capitales internacionales, demostrando su impacto y relevancia a lo largo del tiempo.</p>
+                                                <br>
+                                                <p>El Teatro Payró, ubicado en San Martín 766, ha sido un bastión fundamental para la cultura y el arte en la ciudad de Buenos Aires, siendo el escenario de diversas obras teatrales de gran importancia.
+                                                </p>
+                                                <br>
+                                                <p>No te pierdas la oportunidad de disfrutar de esta nueva versión de "Potestad", una obra que sigue vigente y que invita a reflexionar sobre uno de los períodos más oscuros de la historia argentina.
+                                                </p>
+                                                <br>
+                                                <p>Para más información y reservas de entradas, visita el sitio web oficial de la obra o sigue su perfil en Instagram @potestadpavlovsky.</p>
+                                                <br>
+                                                
+                                            </div>
+
+
+
+                                        </div>
+                                    </div>
+                                </article>
+                            </li>
+                        </ul>
+                        <br>
+
+                    </div>
+
+
+                    {{-- columna de la derecha chica --}}
+                    <aside>
+                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                            <div class=" col-span-6">
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/bener-leg2.png') }}"
+                                        alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
+                                        alt="">
+                                </a>
+
+                                <div id="app">
+
+                                    <div v-for="item in info">
+
+                                        <div class="flex-col pb-3">
+                                            <div
+                                                class="flex-col max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg"
+                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
+                                                        alt="" />
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5
+                                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                                            @{{ item.title }}</h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div v-for="va in clima">
+
+                                        <h5
+                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                            @{{ va }}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+
+                </div>
+
+            </section>
+        @elseif ($tituloSep == 'Cultura-Noticia-Completa-cul19')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">CICLO ROJAZZ EN EL CENTRO CULTURAL ROJAS UBA</a>
+                                        </h2>
+                                        <p class="font-light  text-right text-gray-500">Publicado: 09/05/2024</p>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                                <p><i>El Centro Cultural Rojas, dependiente de la Secretaría de Relaciones Institucionales, Cultura y Comunicación de la UBA, presenta el Ciclo ROJAZZ, una serie de conciertos que ofrecen una experiencia única para los aficionados al jazz en Buenos Aires.</i></p>
+                                                <br>
+                                                <figure>
+                                                    <a href="">
+                                                        <img class="w-full object-cover object-center"
+                                                            src="{{ asset('../img/cul/cul_rojazz.svg') }}"
+                                                            alt="">
+                                                    </a>
+                                                </figure>
+                                                <br>
+                                                <p>El viernes 17 de mayo a las 20 h, el Auditorio Abuelas de Plaza de Mayo del Centro Cultural Rojas UBA se llenará de música con la presentación de Carolina Santos + Grupo. Carolina Santos, reconocida cantante de jazz argentina, junto a su talentoso grupo, interpretarán un repertorio de jazz moderno que incluirá composiciones de grandes artistas como Wayne Shorter, Chick Corea, John Coltrane y más, además de algunas composiciones originales de la propia Carolina. Las entradas para este evento tienen un valor de $4500 y se pueden adquirir en www.rojas.uba.ar.
+                                                <br>
+                                                <p>El viernes 24 de mayo a las 20 h, el Pablo Ledesma Cuarteto tomará el escenario del Auditorio Abuelas de Plaza de Mayo. Este cuarteto, creado por Pablo Ledesma en 1995, es reconocido por su habilidad para interpretar tanto composiciones propias como de otros compositores, manteniendo siempre un estilo único y particular. Las entradas para este concierto también tienen un valor de $4500 y se pueden adquirir en www.rojas.uba.ar.
+                                                </p>
+                                                <br>
+                                                <p>Finalmente, el viernes 31 de mayo a las 20 h, el Kai d' Raiz Octeto cerrará el ciclo ROJAZZ con un espectáculo que promete un recorrido vertiginoso por la música popular contemporánea. Este grupo, con 10 años de trayectoria, ofrece un lenguaje poliestilista que fusiona distintas expresiones estéticas de la música latinoamericana. Las entradas para este concierto tienen un valor de $4500 y se pueden adquirir en www.rojas.uba.ar.</p>
+                                                <br>
+                                                <p>Todos los conciertos del Ciclo ROJAZZ son propuestas seleccionadas de la convocatoria abierta realizada por el Centro Cultural Rojas en 2023, lo que garantiza una programación diversa y de alta calidad para los amantes del jazz.
+                                                </p>
+                                                <br>
+                                                <p>No te pierdas la oportunidad de disfrutar de estos increíbles conciertos en el Centro Cultural Rojas UBA. ¡Las entradas están a la venta ahora!
+                                                </p>
+                                                <br>
+                                                
+                                                
+                                            </div>
+
+
+
+                                        </div>
+                                    </div>
+                                </article>
+                            </li>
+                        </ul>
+                        <br>
+
+                    </div>
+
+
+                    {{-- columna de la derecha chica --}}
+                    <aside>
+                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                            <div class=" col-span-6">
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/bener-leg2.png') }}"
+                                        alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
+                                        alt="">
+                                </a>
+
+                                <div id="app">
+
+                                    <div v-for="item in info">
+
+                                        <div class="flex-col pb-3">
+                                            <div
+                                                class="flex-col max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg"
+                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
+                                                        alt="" />
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5
+                                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                                            @{{ item.title }}</h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div v-for="va in clima">
+
+                                        <h5
+                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                            @{{ va }}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+
+                </div>
+
+            </section>
         @endif
     </div>
 
