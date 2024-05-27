@@ -2846,6 +2846,125 @@
                 </div>
 
             </section>
+        @elseif ($tituloSep == 'Derechos-Humanos-Noticia-Completa-der21')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow ">
+                                <article>
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">UN RETROCESO PELIGROSO EN LAS POLÍTICAS DE MEMORIA
+                                            </a>
+                                            
+                                            <p class="font-light  text-right text-gray-500">Publicado: 25/04/2024</p>
+                                        </h2>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                                <p><i>La reciente celebración de exmilitares en la exESMA es un síntoma alarmante de un gobierno que erosiona las políticas de Memoria, Verdad y Justicia.</i></p>
+                                                <br>
+                                                <figure>
+                                                    <a href="">
+                                                        <img class="w-full object-cover object-center"
+                                                            src="{{ asset('../img/der/der_retroceso.svg') }}"alt="">
+                                                    </a>
+                                                </figure>
+                                                {{-- <article>
+                                            <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/YlzOOQQaZc8?si=bzEaHD2UN1YHc0mQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                            
+                                        </article> --}}
+                                                {{-- <p class="font-light text-gray-500">Fotografía de @robertinocarles</p> --}}
+                                                <br>
+                                                <p>El acto celebrado por militares retirados en la exESMA, con la aprobación del Gobierno nacional, marca un preocupante retroceso en las políticas de Memoria, Verdad y Justicia que Argentina ha construido con tanto esfuerzo. Este evento, en el cual se pidió "recuperar un predio que les fue usurpado", no solo insulta la memoria de las víctimas de la dictadura, sino que también pone en riesgo los cimientos de nuestra democracia. 
+                                                </p>
+                                                <br>
+                                                <p>Este acto se enmarca en una serie de eventos recientes, como las visitas de Aldo Rico y Cecilia Pando a la exESMA, que buscan reescribir la historia y reivindicar lo indefendible.</p>
+                                                <br>
+                                                <p>La elección de Esteban Vilgré La Madrid, un militar retirado involucrado en levantamientos, como director del Museo Malvinas, es otro ejemplo de cómo se están infiltrando sectores que no solo desafían la memoria histórica, sino que también representan un peligro para las instituciones democráticas. La memoria no es solo un acto de remembranza, es una herramienta vital para prevenir los horrores del pasado.</p>
+                                                <br>
+                                                <p>Es fundamental que estos actos sean condenados socialmente. No podemos permitir que el negacionismo se normalice ni que las redes sociales amplifiquen discursos que atentan contra los derechos humanos.
+                                                </p>
+                                                <br>
+                                                <p>Este no es solo un problema local. En muchos lugares del mundo, las políticas de memoria están siendo atacadas por gobiernos que buscan consolidar el poder a través del olvido y la distorsión de la historia. Argentina, con su trágico pero aleccionador pasado, tiene la responsabilidad de ser un bastión de la verdad y la justicia.</p>
+                                                <br>
+                                                <p>Por eso, es urgente que la sociedad civil, las organizaciones de derechos humanos y todos aquellos que valoran la democracia y la justicia se unan para rechazar estos actos y exigir un compromiso firme con las políticas de Memoria, Verdad y Justicia. No podemos permitirnos un retroceso. La memoria de las víctimas y el futuro de nuestra democracia dependen de ello.</p>
+                                                <br>
+                                                
+                                                
+                                                <figure>
+                                                    <img class="w-28 h-28 ml-10  object-cover"
+                                                        src="{{ asset('../img/noteros/Gus.svg') }}" alt="">
+                                                    <p> <strong> Nota de Gustavo Cano </strong></p></a>
+
+                                                </figure> 
+
+
+                                            </div>
+                                        </div>
+
+
+
+                                    </div>
+                                </article>
+                            </li>
+                        </ul>
+                    </div>
+
+                    {{-- columna de la derecha chica --}}
+                    <aside>
+                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                            <div class=" col-span-6">
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/bener-leg2.png') }}"
+                                        alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
+                                        alt="">
+                                </a>
+
+                                <div id="app">
+
+                                    <div v-for="item in info">
+
+                                        <div class="flex-col pb-3">
+                                            <div
+                                                class="flex-col max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg"
+                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
+                                                        alt="" />
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5
+                                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                                            @{{ item.title }}</h5>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div v-for="va in clima">
+
+                                        <h5
+                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                            @{{ va }}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+                </div>
+
+            </section>
         @endif
     </div>
 

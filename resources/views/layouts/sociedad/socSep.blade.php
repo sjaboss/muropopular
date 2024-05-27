@@ -6315,6 +6315,247 @@
                     </aside>
                 </div>
             </section>
+        @elseif ($tituloSep == 'Sociedad-Noticia-Completa-soc49')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">PETTOVELLO Y LOS PLATOS VACÍOS: ACUSACIONES Y CONTRADICCIONES GUBERNAMENTALES</a>
+                                        </h2>
+                                        <p class="font-light  text-right text-gray-500">Publicado: 24/05/2024</p>
+                                        <div class=" font-sans text-lg text-left col-span-6  ">
+                                        <p><i>El Gobierno admite el almacenamiento de cinco millones de kilos de alimentos en un contexto de creciente pobreza. Grabois y organizaciones sociales exigen su distribución inmediata.</i>
+                                        </p>
+                                        <br>
+                                        <figure>
+                                            <img class="w-full object-cover" src="../img/soc/soc_petto.svg"
+                                                alt="">
+                                        </figure>
+                                        {{-- <article>
+                                            <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/UqID0Ip36fk?si=YLUh3qCeGsHV25ll" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                            
+                                        </article> --}}
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                                <p>En un contexto de agudización de la pobreza y la inseguridad alimentaria, el Gobierno confirmó que más de cinco mil toneladas de alimentos no perecederos permanecen retenidos en los galpones del Ministerio de Capital Humano. Estos productos, adquiridos por la gestión anterior para abastecer comedores y merenderos populares, han quedado en stock bajo la dirección de la ministra Sandra Pettovello. La situación ha generado una fuerte reacción por parte de organizaciones sociales y dirigentes políticos, quienes denuncian la inutilización de estos recursos en un momento crítico para muchas familias argentinas.
+                                                </p>
+                                                <br>
+                                                <p>“Es inaudito que toda esa cantidad de comida esté guardada mientras en los barrios la gente se apila cada vez más para pedir un plato caliente”, expresó Alejandro “Peluca” Gramajo, secretario general de la UTEP, durante una manifestación frente a las oficinas de la ministra. Las imágenes de largas filas de personas esperando recibir asistencia alimentaria contrastan dolorosamente con los informes de alimentos almacenados sin ser distribuidos.</p>
+                                                <br>
+                                                <p>En una reciente conferencia de prensa, el vocero gubernamental Manuel Adorni confirmó la existencia de los alimentos en desuso, en respuesta a un informe publicado por El Destape. “Efectivamente esos alimentos existen”, admitió, lamentando la situación. Según Adorni, el acopio se debe a que la administración anterior entregaba alimentos a comedores "truchos" o inexistentes. Sin embargo, fuentes cercanas a Pettovello argumentan que los alimentos están reservados para situaciones extraordinarias, como catástrofes naturales.
+                                                </p>
+                                                <br>
+                                                <p>Esta disparidad en las explicaciones ha suscitado sospechas y críticas. El dirigente de Patria Grande, Juan Grabois, ha ampliado la denuncia penal contra Pettovello por abuso de autoridad e incumplimiento de los deberes de funcionario público. Además, ha solicitado una inspección ocular en uno de los principales galpones donde se almacenan los alimentos, con el objetivo de verificar tanto la existencia como el estado de los productos.
+                                                </p>
+                                                <br>
+                                                <p>Los datos obtenidos por El Destape revelan que en los depósitos de Martelli y Tafí (Tucumán) se almacenan más de tres millones de kilos de yerba mate, más de un millón de kilos de leche en polvo, y cantidades significativas de otros productos básicos como puré de tomate, garbanzos y arroz con carne. Según cálculos preliminares de las organizaciones sociales, estos alimentos podrían cubrir las necesidades de unas 250 mil familias durante varias semanas.
+                                                </p>
+                                                <br>
+                                                <p>Lorena Corral, responsable de un comedor en el Centro Cultural Recreativo Evita, en la Zabaleta, subraya la gravedad de la situación: “Con lo que la ministra tiene acopiado en sachets de leche podríamos dar meriendas durante 32 años ininterrumpidos.” Corral relata cómo su comedor se mantiene gracias a donaciones y asistencia de la Ciudad, pero señala que muchos otros comedores están cerrando por falta de recursos.</p>
+                                                <br>
+                                                <p>La tensión social se refleja también en incidentes de violencia en los comedores, algo que, según Gramajo, nunca se había visto antes. “La gente se pelea por un plato de comida, literalmente. Y son cosas que vimos en Capital Federal, acá nomás. El Gobierno tiene que recapacitar”, afirmó.</p>
+                                                <br>
+                                                <p>En el aspecto presupuestario, el Movimiento de Trabajadores Excluidos (MTE) señala que el ajuste en las partidas destinadas a la ayuda alimentaria es significativo. Comparado con el año anterior, el recorte alcanza el 17,6%, resultado de la falta de actualización por inflación y la subejecución de partidas específicas. Por ejemplo, del presupuesto inicial de 34.338,8 millones de pesos para comedores y merenderos comunitarios, sólo se ha ejecutado el 30% en los primeros cinco meses del año.</p>
+                                                <br>
+                                                <p>El panorama es desalentador. Mientras las necesidades básicas de miles de familias no están siendo satisfechas, toneladas de alimentos permanecen inmovilizadas. “Le declararon la guerra a los pobres”, concluyó Grabois, resumiendo el sentimiento de frustración y urgencia que embarga a quienes están en la primera línea de asistencia en los barrios más afectados por la crisis.</p>
+                                                <br>
+                                                
+                                                <div class="text-start object-center">
+                                                    {{-- <figure>
+                                                        <img class="w-28 h-28  "
+                                                            src="{{ asset('../img/der/Adri.svg') }}"
+                                                            alt="">
+                                                        
+                                                        <p> <strong>Nota de Adriana Zerdín</strong></p>
+
+                                                    </figure>  --}}
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+                            </li>
+                        </ul>
+                        <br>
+                    </div>
+
+
+                    {{-- columna de la derecha chica --}}
+                    <aside>
+                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                            <div class=" col-span-6">
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/bener-leg2.png') }}"
+                                        alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
+                                        alt="">
+                                </a>
+
+                                <div id="app">
+
+                                    <div v-for="item in info">
+
+                                        <div class="flex-col pb-3">
+                                            <div
+                                                class="flex-col max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg"
+                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
+                                                        alt="" />
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5
+                                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                                            @{{ item.title }}</h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div v-for="va in clima">
+
+                                        <h5
+                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                            @{{ va }}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+                </div>
+            </section>
+        @elseif ($tituloSep == 'Sociedad-Noticia-Completa-soc50')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">JORNADA POR LA COMUNICACIÓN Y LA CULTURA</a>
+                                        </h2>
+                                        <p class="font-light  text-right text-gray-500">Publicado: 25/05/2024</p>
+                                        <div class=" font-sans text-lg text-left col-span-6  ">
+                                        <p><i>LA CGT Y LA DEFENSORÍA DEL PÚBLICO CONVOCAN A UNA JORNADA EN DEFENSA DE LA COMUNICACIÓN Y LA CULTURA COMO PARTE FUNDAMENTAL DE LOS DERECHOS HUMANOS Y DE NUESTRA IDENTIDAD NACIONAL</i>
+                                        </p>
+                                        <br>
+                                        <figure>
+                                            <img class="w-full object-cover" src="../img/soc/soc_cultura1.svg"
+                                                alt="">
+                                        </figure>
+                                        <figure>
+                                            <img class="w-full object-cover" src="../img/soc/soc_cultura2.svg"
+                                                alt="">
+                                        </figure>
+                                        {{-- <article>
+                                            <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/UqID0Ip36fk?si=YLUh3qCeGsHV25ll" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                            
+                                        </article> --}}
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                                <p>La Secretaría de Prensa y Comunicación de la CGT y la Defensoría del Público de Servicios de Comunicación Audiovisual invitan a participar de una jornada en defensa de la comunicación y la cultura como derechos humanos y constitutivos de nuestra identidad nacional. 
+                                                </p>
+                                                <br>
+                                                <p>La actividad se realizará el jueves 6 de junio en el Salón Felipe Vallese de la central obrera (Azopardo 802, CABA) a las 15 hs y contará con la participación de Jorge Sola, Secretario de Prensa y Comunicación de la CGT; Luis Cáceres, Secretario General de la Unión Obrera Ladrillera (UOLRA), Mirian Lewin, titular de la Defensoría del Público, Carla Gaudensi, Secretaria General de la Federación Argentina de Trabajadores de Prensa (FATPREN) y trabajadora de Télam y representantes de RADAR (Intersindical de Cultura) La presentación y moderación del panel estará a cargo de la Secretaria de Prensa y Comunicación de la UOLRA, María Van Loy.</p>
+                                                <br>
+                                                <p>En la previa del Día del Periodista, esta jornada se enmarca en el creciente escenario de producción y circulación de noticias falsas, discursos agresivos y discriminatorios sobre derechos de los y las trabajadoras, sus organizaciones y representantes. Además de las políticas de censura y el ataque a la libertad de expresión a través del “Proceso de Reorganización” del sistema de medios públicos que lleva adelante el gobierno de Javier Milei.
+                                                </p>
+                                                <br>
+                                                <p>Durante la jornada se presentarán los resultados del Segundo Informe del Observatorio de Prácticas Comunicacionales e Informativas sobre Trabajadores, Trabajadoras y Organizaciones Sindicales en las que se destaca el modo en que se tratan las noticias referidas al sindicalismo, las acciones de protesta y los representantes sindicales.
+                                                </p>
+                                                <br>
+                                                <p>Son convocados a esta jornada las y los trabajadores del sector de la cultura y de Télam, Radio Nacional, la TV pública y  contenidos (Paka Paka, Depor tv y Canal Encuentro), la Intersindical de Cultura RADAR, referentes populares, formadores culturales comunitarios,  sindicales, federaciones, representantes de la Organización Internacional del Trabajo (OIT), bibliotecas, iglesias, abogados y abogadas laboralistas y organismos de DDHH.
+                                                </p>
+                                                <br>
+                                                
+                                                
+                                                <div class="text-start object-center">
+                                                    {{-- <figure>
+                                                        <img class="w-28 h-28  "
+                                                            src="{{ asset('../img/der/Adri.svg') }}"
+                                                            alt="">
+                                                        
+                                                        <p> <strong>Nota de Adriana Zerdín</strong></p>
+
+                                                    </figure>  --}}
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+                            </li>
+                        </ul>
+                        <br>
+                    </div>
+
+
+                    {{-- columna de la derecha chica --}}
+                    <aside>
+                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                            <div class=" col-span-6">
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/bener-leg2.png') }}"
+                                        alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
+                                        alt="">
+                                </a>
+
+                                <div id="app">
+
+                                    <div v-for="item in info">
+
+                                        <div class="flex-col pb-3">
+                                            <div
+                                                class="flex-col max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg"
+                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
+                                                        alt="" />
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5
+                                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                                            @{{ item.title }}</h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div v-for="va in clima">
+
+                                        <h5
+                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                            @{{ va }}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+                </div>
+            </section>
     @endif
 
     </div>

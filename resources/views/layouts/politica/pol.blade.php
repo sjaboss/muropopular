@@ -1,5 +1,65 @@
 <x-app-layout>
     <div class="container ">
+        {{-- NUEVAS CARAS Y MOVIMIENTOS EN EL GABINETE DE MILEI..--}}
+<section>
+    <ul>
+        <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+            <article>
+                <div class="py-4 px-4 justify-between items-center">
+                    <h2 class="text-xl font-serif  font-bold pb-6">
+                        <a href="">NUEVAS CARAS Y MOVIMIENTOS EN EL GABINETE DE MILEI</a>
+                    </h2>
+                    <p class="font-light  text-right text-gray-500">Publicado: 25/05/2024</p>
+                    <div class=" font-sans text-lg text-left col-span-6  ">
+                    <p><i>El Presidente Javier Milei sorprendió al anunciar una posible revisión de su equipo de gobierno. Aunque el vocero Adorni trató de aplacar la incertidumbre, ya se especula sobre potenciales incorporaciones y cambios en los cargos ministeriales.</i>
+                    </p>
+                    <br>
+                    {{-- <article>
+                        <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/YElDMxWtpio?si=B21D4BO6vjuKVj0Z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        
+                    </article> --}}
+                    <figure>
+                        <img class="w-full object-cover"
+                            src="{{ asset('../img/pol/pol_caras.svg') }}" alt="">
+
+                    </figure>
+                    <br>
+                    <div
+                        class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                        <div class=" font-sans text-lg text-left col-span-6  ">
+                            <p>En medio de un clima de incertidumbre política, el Presidente Milei anunció una "revisión" del Gabinete, desatando especulaciones sobre los movimientos que podrían producirse en el equipo ministerial. Este anuncio ha generado expectativas y debates en los círculos políticos, donde se barajan nombres y se evalúa el impacto potencial de los cambios propuestos.
+                            </p>
+                            <br>
+                            <p>Uno de los nombres que más resuena es el de Federico Sturzenegger, reconocido economista con experiencia en crisis financieras. Su eventual ingreso al Gabinete sugiere un posible giro hacia políticas económicas más ortodoxas y liberales, lo que podría tener repercusiones significativas en el rumbo del país.
+                            </p>
+                            <br>
+                            <p>Otro nombre que ha captado la atención es el de Eduardo “Lule” Menem-Menem, figura con profundos lazos políticos y experiencia en el ámbito legislativo. Su eventual incorporación al gobierno podría fortalecer los vínculos con el Congreso y las provincias, facilitando la articulación política en un momento crucial para la administración de Milei.
+                            </p>
+                            <br>
+                            <p>En tanto, la situación del Ministro del Interior, Guillermo Francos, se encuentra en una posición delicada, sujeta al destino de la Ley Ómnibus. Su eventual salida o continuidad en el Gabinete podría tener importantes implicancias en la gestión gubernamental y en las relaciones con la oposición.</p>
+                            <br>
+                            <p>En el ámbito laboral, se especula con un posible retorno de Patricia Bullrich a una posición relevante en el gobierno. Su histórico enfrentamiento con los sindicatos y su defensa de políticas conservadoras podrían marcar un nuevo rumbo en las políticas laborales del gobierno.</p>
+                            <br>
+                            <p>Por otro lado, la figura de Manuel Adorni, actual vocero presidencial, también ha sido objeto de especulación. Su ascendente influencia en los círculos políticos podría traducirse en un cambio de rol dentro del gobierno, con potenciales implicancias en la comunicación oficial y la toma de decisiones.</p>
+                            <br>
+                            <p>Finalmente, José Luis Espert, diputado y defensor acérrimo de las políticas de Milei, podría desempeñar un papel más destacado en el Gabinete. Su perfil liberal y su compromiso con las reformas económicas podrían influir en la dirección futura del gobierno.</p>
+                            <br>
+                            <p>En resumen, la posible reconfiguración del Gabinete de Milei plantea desafíos y oportunidades para la administración actual. Los próximos movimientos serán clave para definir el rumbo político y económico del país en los próximos meses.</p>
+                            <br>
+                            <div class="text-start object-center">
+                                {{-- <figure>
+                                    <img class="w-28 h-28  "
+                                        src="{{ asset('../img/der/Adri.svg') }}" alt="">
+
+                                    <p> <strong>Adriana Zerdín</strong></p>
+
+                                </figure> --}}
+                            </div>
+                        </div>
+            </article>
+        </li>
+    </ul>
+</section>
         {{-- ROMINA DEL PLÁ: HACE FALTA AUMENTAR TODO EL PRESUPUESTO:...--}}
 <section>
     <ul>

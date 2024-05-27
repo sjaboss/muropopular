@@ -2038,6 +2038,113 @@
                 </div>
 
             </section>
+        @elseif ($tituloSep == 'Internacionales-Noticia-Completa-int15')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">AFD EXPULSADO DEL GRUPO DE ULTRADERECHA EN EL PARLAMENTO EUROPEO POR ESCÁNDALOS FILONAZIS</a>
+                                            {{-- <p class="font-light text-gray-500">Por Carola Chávez
+                                            </p>  --}}
+                                            {{-- <p class="font-light text-gray-500">Presidente Honorario de la Unión de Periodistas de Cuba (UPEC) y de la Federación Latinoamericana de Periodistas (FELAP).
+                                            </p> --}}
+                                        </h2>
+                                        <p><i>La formación alemana Alternativa por Alemania (AfD) fue expulsada del grupo Identidad y Democracia (ID) del Parlamento Europeo, tras una serie de controversias protagonizadas por su líder Maximilian Krah, incluyendo comentarios filonazis y sospechas de espionaje.</i>
+                                        </p>
+                                        <br>
+                                        <figure>
+                                            <img class=" w-full object-cover" src="../img/int/int_afd.svg"
+                                                alt="">
+
+                                        </figure>
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                                <p>El grupo de ultraderecha en el Parlamento Europeo, Identidad y Democracia (ID), decidió este jueves expulsar a la delegación completa de Alternativa por Alemania (AfD) debido a los escándalos protagonizados por Maximilian Krah, cabeza de lista de esta formación para los comicios europeos. Krah afirmó que en la organización nazi SS "no todos eran criminales", lo que provocó el rechazo de sus aliados europeos.</p>
+                                                <br>
+                                                <p>En un comunicado, el grupo ID expresó: "El 'bureau' del grupo Identidad y Democracia en el Parlamento Europeo ha decidido hoy excluir a la delegación alemana, AfD, con efecto inmediato. El grupo ID no quiere seguir asociado con los incidentes que involucran a Maximilian Krah, cabeza de lista de AfD para las elecciones europeas". La Agrupación Nacional (RN) de Marine Le Pen y La Liga de Matteo Salvini también se distanciaron de AfD, afirmando que no volverán a compartir grupo parlamentario con ellos en la Eurocámara.</p>
+                                                <br>
+                                                <p>Krah no solo generó controversia por sus declaraciones sobre las SS. A finales de abril, uno de sus empleados en Bruselas fue detenido bajo sospecha de espionaje para China, y la fiscalía de Dresde ha abierto diligencias para determinar si Krah también pudo haber recibido pagos desde Pekín. Además, Krah y su número dos, Petr Bystrom, están bajo sospecha de haber cobrado dinero de Moscú a cambio de difundir opiniones prorrusas a través de la plataforma Voice of Europe.
+                                                </p>
+                                                <br>
+                                                <p>A pesar de su expulsión, la dirección de AfD mantiene el "optimismo" para las próximas elecciones al Parlamento Europeo. En un comunicado, los co-líderes Alice Weidel y Tino Chrupalla declararon: "Aún así vemos con optimismo la noche electoral y los días siguientes" y recalcaron que es "indispensable" una colaboración con partidos cercanos para tener un efecto político en Bruselas.</p>
+                                                <br>
+                                                <p>Paralelamente, el servicio de espionaje interior de Turingia clasificó a Alternativa Joven (JA), las juventudes de AfD, como un caso probado de extrema derecha, destacando la marginación de voces moderadas y la glorificación del líder de AfD en Turingia, Björn Höcke, condenado por el uso de un lema nazi en un mitin político.</p>
+                                                <br>
+                                                
+                                            </div>
+
+
+
+                                        </div>
+                                    </div>
+                                </article>
+                            </li>
+                        </ul>
+                        <br>
+
+                    </div>
+
+
+                    {{-- columna de la derecha chica --}}
+                    <aside>
+                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                            <div class=" col-span-6">
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/bener-leg2.png') }}"
+                                        alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
+                                        alt="">
+                                </a>
+
+                                <div id="app">
+
+                                    <div v-for="item in info">
+
+                                        <div class="flex-col pb-3">
+                                            <div
+                                                class="flex-col max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg"
+                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
+                                                        alt="" />
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5
+                                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                                            @{{ item.title }}</h5>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div v-for="va in clima">
+
+                                        <h5
+                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                            @{{ va }}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+
+                </div>
+
+            </section>
         @endif
 
 
@@ -2061,7 +2168,7 @@
                 mounted() {
 
 
-                    axios.get("https://api.dailymotion.com/videos?channel=news&limit=5")
+                    axios.get("https://api.dailymotion.com/videos?channel=news&limit=2")
                         .then(response => {
                             this.info = response.data.list
                         });

@@ -4447,6 +4447,113 @@
                 </div>
 
             </section>
+        @elseif ($tituloSep == 'Legislatura-Noticia-Completa-leg35')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">JOSÉ TCHERKASKI ES PERSONALIDAD DESTACADA DE LA CIUDAD</a>
+                                        </h2>
+                                        <p class="font-light  text-right text-gray-500">Publicado: 25/05/2024</p>
+                                        <p><i><b>El Cuerpo Legislativo resaltó la trayectoria del escritor y periodista, que fue autor de grandes temas como “Para el pueblo lo que es del pueblo” y “Mi Viejo”.</b></i></p>
+                                        <br>
+                                        <figure>
+                                            <a href="">
+                                                <img class="w-full object-cover object-center"
+                                                    src="{{ asset('../img/leg/leg_jose2.svg') }}" alt="">
+                                            </a>
+                                        </figure>
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                                <p>La Legislatura de la Ciudad declaró al periodista y escritor, José Tcherkaskik, como Personalidad Destacada en el ámbito de la Cultura, en un acto que se llevó a cabo en el Salón Presidente Alfonsín. Y que estuvo encabezado por el homenajeado y el diputado y autor del proyecto, Gabriel Solano.</p>
+                                                <br>
+                                                <p>Al momento de los discursos, Solano contó cómo surgió la iniciativa de la declaración y destacó: “Este es un acto de justicia, su tarea fue muy importante y se debe saber quién es el autor de las canciones populares”.</p>
+                                                <br>
+                                                <p>“Este es un día importante, nunca lo esperé. Este reconocimiento viene en un momento muy particular”, resaltó el homenajeado. Y finalmente se refirió a su relación con el cantante Piero.</p>
+                                                <br>
+                                                <p>José Tcherkaski es un escritor, periodista y autor de numerosas canciones, entre las que se destaca "Mi viejo". Aunque esta canción se hizo famosa en la voz de Piero, José fue quien la escribió inspirado en su padre, Mario, cuando tenía 25 años. A pesar de que tuvieron que tocar muchas puertas, finalmente encontraron un sello discográfico dispuesto a grabar este icónico tema que sigue siendo popular después de 50 años.
+                                                </p>
+                                                <br>
+                                                <p>José es un talentoso escritor, no solo de canciones, sino también de recitados, poesías, semblanzas y entrevistas a destacados personajes culturales de todo el mundo. Ha tenido la oportunidad de entrevistar a Fellini, Alain Delon y Siqueiros, entre otros. También ha escrito al menos 30 libros y compuesto alrededor de 140 canciones.</p>
+                                                <br>
+                                                <p>"Mi viejo" es probablemente la canción que ha alcanzado mayor reconocimiento, siendo traducida a diferentes idiomas y considerada la mejor canción en la historia que representa al padre en el mundo hispanohablante. Además de Piero, otros artistas como Nicola Di Bari, Demis Roussos, Mauro Calderón, Manolo Otero, Leo Dan, Leo Mattioli, Leo García y Antony Santos han interpretado esta emblemática canción.</p>
+                                                <br>
+                                                
+                                            </div>
+
+
+
+                                        </div>
+                                    </div>
+                                </article>
+                            </li>
+                        </ul>
+                        <br>
+
+                    </div>
+
+
+                    {{-- columna de la derecha chica --}}
+                    <aside>
+                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                            <div class=" col-span-6">
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/bener-leg2.png') }}"
+                                        alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
+                                        alt="">
+                                </a>
+
+                                <div id="app">
+
+                                    <div v-for="item in info">
+
+                                        <div class="flex-col pb-3">
+                                            <div
+                                                class="flex-col max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg"
+                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
+                                                        alt="" />
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5
+                                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                                            @{{ item.title }}</h5>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div v-for="va in clima">
+
+                                        <h5
+                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                            @{{ va }}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+
+                </div>
+
+            </section>
         @endif
 
     </div>

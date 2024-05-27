@@ -1,5 +1,59 @@
 <x-app-layout>
     <div class="container ">
+        {{--PARO HISTÓRICO Y TRANSVERSAL: GREMIOS DOCENTES SE PLANTAN EN TODO EL PAÍS  --}}
+    <section>
+        <ul>
+            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                <article>
+
+                    <div class="py-4 px-4 justify-between items-center">
+                        <h2 class="text-xl font-serif  font-bold pb-6">
+                            <a href="">PARO HISTÓRICO Y TRANSVERSAL: GREMIOS DOCENTES SE PLANTAN EN TODO EL PAÍS
+
+                            </a>
+                        </h2>
+                        <p class="font-light  text-right text-gray-500">Publicado: 24/05/2024</p>
+                        <div class=" font-sans text-lg text-left col-span-6  ">
+                        <p><i>Con una adhesión masiva y la participación de gremios de todos los niveles educativos, docentes y no docentes realizaron una protesta nacional sin precedentes contra los recortes en el sistema educativo. La medida, que incluyó un acto frente al Congreso de la Nación, promete continuar ante la falta de respuesta del Gobierno.</i>
+                        </p>
+                        <br>
+                        {{-- <article>
+                            <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/mDyomkBc1DE?si=bnT2gxK0tSpFUqx1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            
+                        </article> --}}
+                        <figure>
+                            <img class=" w-full object-cover" src="../img/grem/grem_parodocente.svg"
+                                alt="">
+                        </figure>
+                        <br>
+                        <div
+                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                            <div class=" font-sans text-lg text-left col-span-6  ">
+                                <p>La jornada de protesta docente de este jueves será recordada como una de las más significativas de la historia reciente. Bajo el lema de unidad y resistencia, gremios de todos los niveles educativos, junto a trabajadores no docentes, llevaron a cabo un paro nacional con una adhesión masiva en respuesta al ajuste implementado por el gobierno de Javier Milei. La movilización incluyó una manifestación frente al Congreso de la Nación, donde se reclamó por la recomposición salarial, la restitución de transferencias presupuestarias y un aumento para los docentes jubilados.
+                                </p>
+                                <br>
+                                <p>El paro fue convocado por la Confederación de Trabajadores de la Educación de la República Argentina (Ctera), apoyada por otros sindicatos docentes de la CGT, como la Unión Docentes Argentinos (UDA), la Asociación del Magisterio de Enseñanza Técnica (Amet), la Confederación de Educadores Argentinos (CEA) y el Sindicato Argentino de Docentes Privados (Sadop).
+                                </p>
+                                <br>
+                                <p>“Este fue un paro con una participación altísima en todo el país”, aseguró Sonia Alesso, secretaria general de Ctera. Alesso destacó que la protesta fue “un hecho histórico” por su carácter transversal, abarcando todos los niveles del sistema educativo, desde el inicial hasta el universitario. En el acto frente al Congreso, Fabián Felman, titular de CEA, subrayó la importancia de la unidad nacional frente a políticas que, según él, buscan debilitar al movimiento obrero. "Este gobierno no va a reflexionar, porque es un gobierno de ricos", sentenció.
+                                </p>
+                                <br>
+                                <p>Alesso denunció la profunda caída del poder adquisitivo de los docentes, con salarios que en su mayoría están por debajo de la línea de pobreza. “El Gobierno no fijó el piso salarial nacional, por lo que seguimos con el del año pasado, de 250 mil pesos, que solo cobran cinco provincias. Otras 11 están entre 250 y 350 mil pesos”, explicó, resaltando la gravedad de la situación.</p>
+                                <br>
+                                <p>Además, Alesso acusó al Gobierno de incumplir las leyes fundamentales de la educación, incluyendo la Ley Nacional de Educación, la Ley de Financiamiento Educativo y la Ley de Educación Técnica Profesional. Hizo hincapié en el desfinanciamiento de fondos destinados a las provincias, como el Fondo Nacional de Incentivo Docente (Fonid), y recursos cruciales para comedores, copas de leche y la infraestructura escolar. Señaló que muchas obras en las provincias están paralizadas por recortes presupuestarios. "El próximo martes marcharemos nuevamente al Congreso para exigir a los legisladores que aprueben estas partidas", anunció.</p>
+                                <br>
+                                <p>Carlos de Feo, titular de la Federación Nacional de Docentes Universitarios (Conadu), criticó la falta de compromiso del Gobierno para resolver el conflicto. "En una reunión con el secretario de Trabajo, Julio Cordero, nos dijo que la educación es prioridad, pero a la hora de hablar de aumentos salariales, afirmó que no hay fondos. Es solo retórica", afirmó. “La negociación está estancada y no vemos un futuro claro”.</p>
+                                <br>
+                                <p>De Feo también advirtió sobre la continuidad de los reclamos, indicando que el conflicto se intensificará y habrá más movilizaciones en la calle. No descartó una nueva marcha universitaria en el segundo semestre, similar a la anterior.</p>
+                                <br>
+                                <p>Por su parte, el vocero presidencial, Manuel Adorni, reiteró que "no está prevista ninguna convocatoria de paritaria" y delegó la responsabilidad a las provincias. "Este es un país federal y las provincias deben resolver los temas docentes, incluyendo los salarios", sostuvo, criticando que este es "el tercer paro" docente del año.</p>
+                                <br>
+                            </div>
+                        </div>
+                </article>
+            </li>
+        </ul>
+    </section>
         {{--DESPIDOS EN EL INADI: CRÍTICAS POR DISCRIMINACIÓN  --}}
     <section>
         <ul>
