@@ -4554,6 +4554,221 @@
                 </div>
 
             </section>
+        @elseif ($tituloSep == 'Legislatura-Noticia-Completa-leg36')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">En el aniversario  de “Ni una Menos” la Legislatura inauguró la muestra “Tatuajes Sanadores” junto a Manginga Tattoo</a>
+                                        </h2>
+                                        <p class="font-light  text-right text-gray-500">Publicado: 03/06/2024</p>
+                                        <p><i>Se trata de una exhibición de imágenes de mujeres que sufrieron lesiones y marcas en su piel por violencia de género, las cuales fueron tapadas gracias al arte de los tatuajes.</i></p>
+                                        <br>
+                                        <figure>
+                                            <a href="">
+                                                <img class="w-full object-cover object-center"
+                                                    src="{{ asset('../img/leg/leg_muestra2.svg') }}" alt="">
+                                            </a>
+                                        </figure>
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                                <p>La Legislatura de la Ciudad inauguró la muestra “Tatuajes Sanadores” de la Fundación Mandinga Tattoo, que exhibe imágenes de mujeres que sufrieron lesiones violentas en su cuerpo y fueron tapadas con el arte de los tatuajes.</p>
+                                                <br>
+                                                <p>En el marco de un nuevo aniversario de “Ni una menos”, la Casa Parlamentaria abrió sus puertas para exponer en el Hall de la planta baja una colección de imágenes que reflejan cómo el arte del tatuaje pudo generar un cambio de vida en víctimas de violencia de género gracias a los tatuajes realizados por el equipo de Mandinga Tattoo, que lograron tapar cirugías, quemaduras y otras marcas en la piel.  La galería de fotos quedará abierta para la vista de los vecinos de la Ciudad hasta el viernes 7 de junio a las 18 horas.</p>
+                                                <br>
+                                                <p>El vicepresidente primero de la Legislatura, Matías López, encabezó la inauguración de la muestra, junto a Diego Startopoli, director de la Fundación Mandinga. Durante el encuentro, López destacó “el trabajo que la Fundación Mandinga Tattoo viene haciendo hace muchos años de acompañar a las mujeres en estos procesos de violencia” y afirmó que el trabajo que realizan busca “convertir el horror y el dolor en arte” para “sanar de alguna manera el alma”. Por su parte, la diputada María Sol Méndez, presidenta de la Comisión de Mujeres, Género y Diversidad,  destacó que  “estamos todos muy contentos de poder tener esta muestra, recordando aquel 3 de junio del 2015” y reflexionó que aquel “asesinato de Chiara Páez, una adolescente de 14 años que estaba embarazada y que fue enterrada en el patio de quien había sido su novio y la había asesinado, nos interpeló a todas”.</p>
+                                                <br>
+                                                <p>El director de la fundación, Diego Staropoli, manifestó que “cuando llegan a Mandinga, lo primero que les pregunto es ‘¿estás dispuesta a que te cambiemos la vida?’. Esos tatuajes yo los bauticé como ‘Tatuajes Sanadores’ porque sin duda son tatuajes que sanan el alma. Estamos siempre dispuestos y con las puertas abiertas para que al menos podamos cambiar un poquito la vida de esa mujer que nos tocó intervenir”.
+                                                </p>
+                                                <br>
+                                                <p>Diego y Mandinga fueron reconocidos en anteriores oportunidades en el Palacio Legislativo por sus acciones sociales, que también incluyen tatuajes sanadores en mujeres que tuvieron cáncer de mama y personas que atraviesan diabetes. “Esta muestra es una manera de homenajear no sólo estas 15 que ustedes ven, hemos tatuado a muchísimas mujeres más que no son parte de esta galería. Pero en homenaje a ellas yo solamente les digo gracias y ojalá que esta historia pueda cambiar en algún momento porque realmente es muy preocupante” concluyó el tatuador.</p>
+                                                <br>
+                                                <p>Para finalizar, impactó el testimonio de Yanina Maidana, quien sufrió  quemaduras  en el 40% de su cuerpo a sus 23 años, tras ser víctima de violencia por parte de su pareja en 2010. Luego de 28 días en coma, con asistencia respiratoria, 37 cirugías, un ACV e insuficiencia renal, pudo conocer a Diego Staropoli y su equipo en Mandinga.  “Lo conocí por otra chica que también estaba internada junto conmigo” explicó Yanina y afirmó que “antes no me miraba, andaba con remera manga larga en mi propia casa y cuando Diego me hizo este tatuaje me cambió la vida de verdad. Hasta la seguridad de poder estar hablando” y resumió que luego del trabajo de Mandinga Tattoo “querés de vuelta tu cuerpo”.</p>
+                                                <br>
+                                                
+                                            </div>
+
+
+
+                                        </div>
+                                    </div>
+                                </article>
+                            </li>
+                        </ul>
+                        <br>
+
+                    </div>
+
+
+                    {{-- columna de la derecha chica --}}
+                    <aside>
+                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                            <div class=" col-span-6">
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/bener-leg2.png') }}"
+                                        alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
+                                        alt="">
+                                </a>
+
+                                <div id="app">
+
+                                    <div v-for="item in info">
+
+                                        <div class="flex-col pb-3">
+                                            <div
+                                                class="flex-col max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg"
+                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
+                                                        alt="" />
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5
+                                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                                            @{{ item.title }}</h5>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div v-for="va in clima">
+
+                                        <h5
+                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                            @{{ va }}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+
+                </div>
+
+            </section>
+        @elseif ($tituloSep == 'Legislatura-Noticia-Completa-leg37')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">Se reunió la Comisión de Justicia para avanzar con Ley de Reiterancia</a>
+                                        </h2>
+                                        <p class="font-light  text-right text-gray-500">Publicado: 04/06/2024</p>
+                                        <p><i>También se reunieron las comisiones de Asuntos Constitucionales y de Presupuesto, Hacienda, Administración Financiera y Política Tributaria y Turismo y Deporte</i></p>
+                                        <br>
+                                        <figure>
+                                            <a href="">
+                                                <img class="w-full object-cover object-center"
+                                                    src="{{ asset('../img/leg/leg_comision2.svg') }}" alt="">
+                                            </a>
+                                        </figure>
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                                <p>La jornada comenzó con dos reuniones de la comisión de Justicia, una de ellas junto a la Comisión de Asuntos Constitucionales, donde se dictaminó avanzar con el proyecto de Reiterancia en la próxima sesión.</p>
+                                                <br>
+                                                <p>Durante el encutrno de hoy se abordó la posibilidad de que Los tribunales deberán comunicar a la Dirección Nacional de Migraciones cuando se dicten sentencias condenatorias a personas extranjeras. Además se incluyen dentro de las circunstancias que determinan peligro de fuga para la prisión preventiva la reiteración delictiva y se definen condiciones para allanamientos urgentes para las fuerzas de seguridad, en situaciones de emergencia o delito flagrante, las cuales deben contemplar comunicación inmediata al juez y al fiscal.</p>
+                                                <br>
+                                                <p>La Reiterancia es un proyecto presentado por el Jefe de Gobierno, Jorge Macri, quien inició un debate sobre el tema que hoy cuenta con otras 4 propuestas presentadas por diferentes diputados. El objetivo es modificar el Código Procesal Penal para que aquella persona que vuelve a cometer un delito, atraviese el proceso en la cárcel, en lugar de hacerlo en libertad. El trabajo en comisión llevó varias jornadas de debate, con un proceso que contempló la visita del ministro de Justicia porteño, Gabino Tapia junto a su equipo y la concurrencia de distintos expertos que opinaron sobre diferentes aspectos de la temática, a fin de lograr un texto consolidado a ser debatido en la próxima sesión.</p>
+                                                <br>
+                                                <p>De las reuniones de hoy participaron los diputados integrantes de ambas comisiones, el vicepresidente primero de la Legislatura, Matías López, las vicepresidentas de Justicia, Claudia Neira (Union por la Patria) y Gimena Villafruela (Vamos por Más) y el presidente de la Comisión de Asuntos Constitucionales, Hernan Reyes (Vamos por Más).
+                                                </p>
+                                                <br>
+                                                <p>El temario también incluyó las modificaciones de la Ley 7 para adecuar la nomenclatura de los órganos judiciales a sus funciones actuales, reflejando mejor las competencias y especializaciones desarrolladas. En función de esto se agrega la Cámara de Casación y Apelaciones en lo Penal, Penal Juvenil, Contravencional y de Faltas, el artículo 7 de la Ley 7. Este cambio responde a necesidades prácticas y jurisprudenciales, y alinea la estructura judicial con las resoluciones del Consejo de la Magistratura y el Código Procesal Penal.</p>
+                                                <br>
+                                                <p>Más tarde llegó el turno de la reunión conjunta de las de las comisiones de Asuntos Constitucionales y de Presupuesto, Hacienda, Administración Financiera y Política Tributaria, que trató dos expedientes relacionados con el sistema estadístico de la Ciudad, bajo la presidencia de los titulares de ambas comisiones Hernán Reyes y Paola Michielotto (VxM). Se abordó un proyecto para que todos los datos estadísticos producidos por la Ciudad pasen a ser públicos, tanto para su uso como para su difusión, institucionalizando el manejo de las estadísticas públicas de la Ciudad. Es un orientación para todo el país ya que no existe un instituto independiente autárquico y autónomo para el majeo de las estadísticas públicas como el que se propone en CABA. De modo que pasará a ser una política pública.</p>
+                                                <br>
+                                                <p>Por último, se realizó la reunión conjunta de las comisiones de Turismo y Deporte y de Presupuesto, Hacienda, Administración Financiera y Política Tributaria para tratar expedientes vinculados a la gratuidad de las cuentas del Banco Ciudad para los clubes de barrio en le Ciudad de Buenos Aires. La propuesta recibió despacho único y será tratada en el recinto de Sesiones y presidieron el encuentro las diputadas Maia Daer (UxP) y Paola Michielotto (VxM) presidentas de ambas comisiones. En el comienzo expusieron Ana Rodríguez, Vicepresidenta del Club Malvinas y Guido Veneziale, titular de la Federación de Organizaciones Deportivas de la Argentina (FODA), quienes agradecieron el espacio y el tratamiento del proyecto de ley que beneficiará a las pequeñas entidades radicadas en la Ciudad.</p>
+                                                <br>
+                                            </div>
+
+
+
+                                        </div>
+                                    </div>
+                                </article>
+                            </li>
+                        </ul>
+                        <br>
+
+                    </div>
+
+
+                    {{-- columna de la derecha chica --}}
+                    <aside>
+                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                            <div class=" col-span-6">
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/bener-leg2.png') }}"
+                                        alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
+                                        alt="">
+                                </a>
+
+                                <div id="app">
+
+                                    <div v-for="item in info">
+
+                                        <div class="flex-col pb-3">
+                                            <div
+                                                class="flex-col max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg"
+                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
+                                                        alt="" />
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5
+                                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                                            @{{ item.title }}</h5>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div v-for="va in clima">
+
+                                        <h5
+                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                            @{{ va }}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+
+                </div>
+
+            </section>
         @endif
 
     </div>
@@ -4576,7 +4791,7 @@
                 mounted() {
 
 
-                    axios.get("https://api.dailymotion.com/videos?channel=news&limit=2")
+                    axios.get("https://api.dailymotion.com/videos?channel=news&limit=4")
                         .then(response => {
                             this.info = response.data.list
                         });

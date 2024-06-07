@@ -5373,6 +5373,251 @@
                 </div>
 
             </section>
+        @elseif ($tituloSep == 'Politica-Noticia-Completa-pol60')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">DIPUTADOS DEBATEN LA REDUCCIÓN DE LA JORNADA LABORAL EN COMISIÓN</a>
+                                        </h2>
+                                        <p class="font-light  text-right text-gray-500">Publicado: 28/05/2024</p>
+                                        <div class=" font-sans text-lg text-left col-span-6  ">
+                                        <p><i>En una reunión clave, diputados de distintos bloques parlamentarios analizaron propuestas para modificar la Ley 11.544 y reducir la jornada de trabajo, destacando argumentos a favor de la productividad y el bienestar laboral.</i>
+                                        </p>
+                                        <br>
+                                        {{-- <article>
+                                            <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/YElDMxWtpio?si=B21D4BO6vjuKVj0Z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                            
+                                        </article> --}}
+                                        <figure>
+                                            <img class="w-full object-cover"
+                                                src="{{ asset('../img/pol/pol_dipu.svg') }}" alt="">
+
+                                        </figure>
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+                                                <p>La Comisión de Legislación del Trabajo, presidida por el diputado Martín Tetaz (UCR), llevó a cabo un debate crucial sobre la reducción de la jornada laboral. Durante la sesión, diversos legisladores defendieron sus propuestas, buscando actualizar la Ley 11.544 para adecuarla a las nuevas realidades del mercado laboral.
+                                                </p>
+                                                <br>
+                                                <p>El diputado Eduardo Valdés (UxP) destacó que su iniciativa pretende "trabajar menos para que más gente tenga acceso al mercado laboral", mientras que Nicolás del Caño (FIT) abogó por "reducir las horas laborales para alivianar la carga del trabajo y repartir las horas de trabajo para generar un millón de puestos de trabajo genuino".
+                                                </p>
+                                                <br>
+                                                <p>Por su parte, Hugo Yasky (UxP) propuso prohibir que los convenios colectivos puedan alterar la jornada legal máxima establecida por la Ley de Contrato de Trabajo. La diputada Mónica Litza (UxP) enfatizó la necesidad de adoptar herramientas tecnológicas para mejorar el bienestar de los trabajadores, y Vanesa Siley (UxP) subrayó la importancia de la reducción del tiempo laboral en términos de salubridad y salud mental.
+                                                </p>
+                                                <br>
+                                                <p>Sergio Palazzo (UxP) se sumó al debate resaltando que una jornada laboral reducida mejora la productividad y el presentismo. Martín Tetaz (UCR) informó que la jornada laboral no se ha corregido en más de 100 años y propuso explorar jornadas alternativas para evaluar su impacto en la productividad. Además, presentó un proyecto para implementar indemnizaciones ante despidos sin preaviso adecuado.</p>
+                                                <br>
+                                                <p>El debate también incluyó posturas contrarias. Alida Ferreyra (LLA) y Gabriel Bornoroni (LLA) rechazaron el proyecto de Palazzo, argumentando que se requiere un debate más amplio para evitar la "industria del juicio". Alejandra Torres (HCF) y Germana Figueroa Casas (PRO) pidieron que el proyecto regrese a asesores para un análisis más detallado.</p>
+                                                <br>
+                                                <p>En un giro interesante, el diputado Julio Cobos (UCR) presentó un proyecto para sistematizar las propinas, proponiendo que se puedan realizar a través de medios de pago electrónicos, garantizando así un ingreso adicional formal para los trabajadores.</p>
+                                                <br>
+                                                <p>Al cierre de la reunión, se completó la designación de autoridades de la Comisión, nombrando al diputado Jorge Ávila (HCF) a cargo de la secretaría 2°.</p>
+                                                <br>
+                                                <p>Este debate en comisión marca un paso significativo en la discusión sobre la jornada laboral en Argentina, con múltiples propuestas en juego y un llamado general a modernizar la legislación laboral para adaptarla a las necesidades del siglo XXI.</p>
+                                                <br>
+                                                <div class="text-start object-center">
+                                                    {{-- <figure>
+                                                        <img class="w-28 h-28  "
+                                                            src="{{ asset('../img/der/Adri.svg') }}" alt="">
+
+                                                        <p> <strong>Adriana Zerdín</strong></p>
+
+                                                    </figure> --}}
+                                                </div>
+                                            </div>
+                                </article>
+                            </li>
+                        </ul>
+                    </div>
+
+
+                    {{-- columna de la derecha chica --}}
+                    <aside>
+                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                            <div class=" col-span-6">
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/baner-leg1.png') }}"
+                                        alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/APSE.gif') }}" alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
+                                        alt="">
+                                </a>
+
+
+
+                                <div id="app">
+
+                                    <div v-for="item in info">
+
+                                        <div class="flex-col pb-3">
+                                            <div
+                                                class="flex-col max-w-sm  border  border-gray-700 rounded-lg shadow bg-gray-800">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg"
+                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
+                                                        alt="" />
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5
+                                                            class="mb-2 text-2xl font-bold tracking-tight  text-white">
+                                                            @{{ item.title }}</h5>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div v-for="va in clima">
+
+                                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-white">
+                                            @{{ va }}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+
+                </div>
+
+            </section>
+        @elseif ($tituloSep == 'Politica-Noticia-Completa-pol61')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">GUILLERMO FRANCOS ASUME COMO JEFE DE GABINETE</a>
+                                        </h2>
+                                        <p class="font-light  text-right text-gray-500">Publicado: 29/05/2024</p>
+                                        <div class=" font-sans text-lg text-left col-span-6  ">
+                                        <p><i>El nuevo Jefe de Gabinete se reunió con ministros y anunció la incorporación de Federico Sturzenegger como ministro, mientras Javier Milei realiza su quinto viaje a Estados Unidos.</i>
+                                        </p>
+                                        <br>
+                                        {{-- <article>
+                                            <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/YElDMxWtpio?si=B21D4BO6vjuKVj0Z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                            
+                                        </article> --}}
+                                        <figure>
+                                            <img class="w-full object-cover"
+                                                src="{{ asset('../img/pol/pol_guille2.svg') }}" alt="">
+
+                                        </figure>
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+                                                <p>Guillermo Francos asumió sus funciones como Jefe de Gabinete en el gobierno de Javier Milei, reemplazando a Nicolás Posse. En su primera jornada, Francos se reunió con los ministros del gabinete en Casa Rosada y ofreció una conferencia de prensa, en la que confirmó la designación de Federico Sturzenegger como nuevo ministro.
+                                                </p>
+                                                <br>
+                                                <p>El presidente Javier Milei, actualmente en Estados Unidos, delegó la reorganización del gabinete a Francos, quien se ha comprometido a trabajar en busca de consensos respecto a la Ley Bases y el proyecto fiscal. Este cambio de liderazgo es visto como un intento de fortalecer la Jefatura de Gabinete y absorber las competencias del Ministerio del Interior, que ahora estarán bajo la responsabilidad de Francos y su secretario, Lisandro Catalán.
+                                                </p>
+                                                <br>
+                                                <p>Durante la conferencia de prensa, Francos expresó su agradecimiento a Milei por la confianza depositada en él y subrayó la necesidad de impulsar la gestión gubernamental. Aclaró que la salida de Posse fue resultado de diferencias en la marcha del gobierno, pero que este continuará apoyando al presidente desde un nuevo rol que se anunciará próximamente.
+                                                </p>
+                                                <br>
+                                                <p>El nombramiento de Federico Sturzenegger, ex presidente del Banco Central durante el gobierno de Mauricio Macri, como ministro, fue uno de los puntos destacados de la jornada. Sturzenegger será responsable de áreas clave como la modernización del Estado y la desregulación económica, temas en los que ha trabajado estrechamente con el equipo de Milei.</p>
+                                                <br>
+                                                <p>En paralelo, Javier Milei se encuentra en Estados Unidos acompañado por su hermana Karina y Luis Caputo. Tras aterrizar en San Francisco, Milei tiene previsto reunirse con Sam Altman, CEO de Open AI, y ofrecer una conferencia en la Universidad de Stanford. Además, se espera que mantenga reuniones con destacados empresarios, incluido Mark Zuckerberg, CEO de Meta.</p>
+                                                <br>
+                                                <p>Milei regresará a Argentina el viernes, haciendo una escala en El Salvador para asistir a la toma de posesión del presidente Nayib Bukele en su segundo mandato. Este viaje es parte de su estrategia para atraer inversiones y fortalecer las relaciones económicas internacionales.</p>
+                                                <br>
+                                                <p>La reorganización interna del gobierno también incluyó una reunión en Casa Rosada, liderada por Francos, en la que participaron los ministros Luis Petri (Defensa), Sandra Pettovello (Capital Humano), Diana Mondino (Relaciones Exteriores), Patricia Bullrich (Seguridad), Mariano Cúneo Libarona (Justicia) y Mario Russo (Salud), entre otros altos funcionarios.</p>
+                                                <br>
+                                                <p>Francos aprovechó la oportunidad para reafirmar el compromiso del gobierno con la aprobación de la Ley Bases, que actualmente se encuentra estancada en el Senado tras obtener media sanción en la Cámara de Diputados. El nuevo Jefe de Gabinete enfatizó la necesidad de construir consensos con otros sectores políticos para avanzar con esta y otras iniciativas legislativas clave.</p>
+                                                <br>
+                                                <p>En resumen, la asunción de Guillermo Francos como Jefe de Gabinete marca un momento decisivo en el gobierno de Javier Milei, con una clara intención de reorganizar y fortalecer el equipo gubernamental en medio de un contexto político desafiante. La incorporación de Federico Sturzenegger y la continuidad de las reformas económicas son señales de un gobierno que busca adaptarse y responder a las exigencias de la actualidad.</p>
+                                                <br>
+
+                                                <div class="text-start object-center">
+                                                    {{-- <figure>
+                                                        <img class="w-28 h-28  "
+                                                            src="{{ asset('../img/der/Adri.svg') }}" alt="">
+
+                                                        <p> <strong>Adriana Zerdín</strong></p>
+
+                                                    </figure> --}}
+                                                </div>
+                                            </div>
+                                </article>
+                            </li>
+                        </ul>
+                    </div>
+
+
+                    {{-- columna de la derecha chica --}}
+                    <aside>
+                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                            <div class=" col-span-6">
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/baner-leg1.png') }}"
+                                        alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/APSE.gif') }}" alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
+                                        alt="">
+                                </a>
+
+
+
+                                <div id="app">
+
+                                    <div v-for="item in info">
+
+                                        <div class="flex-col pb-3">
+                                            <div
+                                                class="flex-col max-w-sm  border  border-gray-700 rounded-lg shadow bg-gray-800">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg"
+                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
+                                                        alt="" />
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5
+                                                            class="mb-2 text-2xl font-bold tracking-tight  text-white">
+                                                            @{{ item.title }}</h5>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div v-for="va in clima">
+
+                                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-white">
+                                            @{{ va }}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+
+                </div>
+
+            </section>
         @endif
 
     </div>
@@ -5395,7 +5640,7 @@
                 mounted() {
 
 
-                    axios.get("https://api.dailymotion.com/videos?channel=news&limit=2")
+                    axios.get("https://api.dailymotion.com/videos?channel=news&limit=3")
                         .then(response => {
                             this.info = response.data.list
                         });

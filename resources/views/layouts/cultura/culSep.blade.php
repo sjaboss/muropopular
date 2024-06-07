@@ -2233,6 +2233,116 @@
                 </div>
 
             </section>
+        @elseif ($tituloSep == 'Cultura-Noticia-Completa-cul20')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">"SOLO BRUMAS": UNA OBRA QUE EXPLORA LA DIGNIDAD HUMANA EN TIEMPOS OSCUROS</a>
+                                        </h2>
+                                        <p class="font-light  text-right text-gray-500">Publicado: 26/05/2024</p>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                                <p><i>La nueva versión de la obra de Tato Pavlovsky se estrena el 7 de junio en el Teatro Belisario, bajo la dirección de Gonzalo Urtizberea y un elenco encabezado por Emiliano Kaczka. Una reflexión sobre la dignidad humana en tiempos oscuros.</i></p>
+                                                <br>
+                                                <figure>
+                                                    <a href="">
+                                                        <img class="w-full object-cover object-center"
+                                                            src="{{ asset('../img/cul/cul_brumas.svg') }}"
+                                                            alt="">
+                                                    </a>
+                                                </figure>
+                                                <br>
+                                                <p>El próximo viernes 7 de junio se estrena en el Teatro Belisario la obra "Solo Brumas", una nueva versión de la pieza escrita por el reconocido dramaturgo Eduardo "Tato" Pavlovsky. Bajo la dirección de Gonzalo Urtizberea, el elenco está integrado por Emiliano Kaczka, Victoria Aragón, Paula Cantone y Guillermo Alfaro.
+                                                <br>
+                                                <p>La obra sigue a Pepi, Pipi y Eusebio, quienes se enfrentan a un trabajo peculiar y horroroso. Entre la esperanza, la ética y la moral, evocan recuerdos y buscan una salida mientras se refugian en sus propias brumas para soportar su absurda y terrible cotidianidad.
+                                                </p>
+                                                <br>
+                                                <p>"'Solo Brumas' es la necesidad del Ser Humano de mantener la dignidad, una moral, una ética que está perdida no sabemos dónde...", afirma el director Gonzalo Urtizberea sobre la esencia de la obra.</p>
+                                                <br>
+                                                <p>Tato Pavlovsky, quien falleció en 2015, fue un destacado médico, psicoanalista, psicodramatista, actor, escritor y dramaturgo. En sus obras teatrales, que incluyen clásicos como "El señor Galíndez" y "Potestad", exploró temas de injusticia social y la lucha por la dignidad humana.
+                                                </p>
+                                                <br>
+                                                <p>El elenco de "Solo Brumas" está conformado por actores con una amplia trayectoria en teatro, cine y televisión. Emiliano Kaczka, conocido por su trabajo en series como "María Marta: El crimen del country" y "Los Mufas", encarna a uno de los personajes principales. Victoria Aragón, Paula Cantone y Guillermo Alfaro completan el cuarteto de actores que llevarán a escena esta oscura pero esperanzadora historia.
+                                                </p>
+                                                <br>
+                                                <p>Las funciones de "Solo Brumas" serán los viernes a las 22hs en el Teatro Belisario, ubicado en Corrientes 1624 de la Ciudad de Buenos Aires. Las entradas se pueden adquirir a través de Alternativa Teatral, con descuentos disponibles para estudiantes y jubilados</p>
+                                                <br>
+                                                <p>No te pierdas esta oportunidad de presenciar una obra que, a través de la mirada de Tato Pavlovsky, nos invita a reflexionar sobre la importancia de mantener la dignidad y la ética en tiempos oscuros. "Solo Brumas" promete ser una experiencia teatral conmovedora y relevante.</p>
+                                                <br>
+                                                
+                                            </div>
+
+
+
+                                        </div>
+                                    </div>
+                                </article>
+                            </li>
+                        </ul>
+                        <br>
+
+                    </div>
+
+
+                    {{-- columna de la derecha chica --}}
+                    <aside>
+                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                            <div class=" col-span-6">
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/bener-leg2.png') }}"
+                                        alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
+                                        alt="">
+                                </a>
+
+                                <div id="app">
+
+                                    <div v-for="item in info">
+
+                                        <div class="flex-col pb-3">
+                                            <div
+                                                class="flex-col max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg"
+                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
+                                                        alt="" />
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5
+                                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                                            @{{ item.title }}</h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div v-for="va in clima">
+
+                                        <h5
+                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                            @{{ va }}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+
+                </div>
+
+            </section>
         @endif
     </div>
 

@@ -2145,6 +2145,118 @@
                 </div>
 
             </section>
+        @elseif ($tituloSep == 'Internacionales-Noticia-Completa-int16')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">BUKELE INICIA SEGUNDO MANDATO CON PROMESAS DE TRANSFORMACIÓN ECONÓMICA</a>
+                                            {{-- <p class="font-light text-gray-500">Por Carola Chávez
+                                            </p>  --}}
+                                            {{-- <p class="font-light text-gray-500">Presidente Honorario de la Unión de Periodistas de Cuba (UPEC) y de la Federación Latinoamericana de Periodistas (FELAP).
+                                            </p> --}}
+                                        </h2>
+                                        <p><i>El presidente Nayib Bukele asume un segundo mandato en El Salvador con un llamado a medidas económicas contundentes, tras su exitosa gestión en seguridad.</i>
+                                        </p>
+                                        <br>
+                                        <figure>
+                                            <img class=" w-full object-cover" src="../img/int/int_bukele2.svg"
+                                                alt="">
+
+                                        </figure>
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                                <p>En un discurso desde el Palacio Nacional, Bukele comparó a El Salvador con un paciente recuperándose de una enfermedad grave, prometiendo una "medicina amarga" para sanar la economía luego de erradicar el flagelo de las pandillas.</p>
+                                                <br>
+                                                <p>El presidente, conocido por su estilo directo y uso activo de las redes sociales, reiteró su compromiso con la seguridad y anunció un enfoque renovado en la economía, reconociendo los desafíos financieros del país.</p>
+                                                <br>
+                                                <p>"Ya arreglamos lo más urgente que era la seguridad, vamos a enfocarnos de lleno en los problemas importantes, empezando por la economía", afirmó Bukele, mientras miles de seguidores lo vitoreaban en la plaza del centro histórico de San Salvador.
+                                                </p>
+                                                <br>
+                                                <p>Bukele, de 42 años, disfruta de una popularidad sin precedentes en el país, respaldado por una victoria electoral abrumadora en febrero y un control casi absoluto del Congreso.</p>
+                                                <br>
+                                                <p>Sin embargo, su gobierno ha sido criticado por organizaciones de derechos humanos por medidas consideradas autoritarias, como detenciones masivas sin orden judicial.</p>
+                                                <br>
+                                                <p>A pesar de las controversias, Bukele ha mantenido un fuerte apoyo popular, especialmente por su enfoque en la seguridad pública, un tema sensible para muchos salvadoreños.</p>
+                                                <br>
+                                                <p>En cuanto a la economía, El Salvador enfrenta desafíos significativos, incluida una deuda pública de 30.000 millones de dólares y una tasa de pobreza del 29%. Bukele buscará revitalizar la economía dolarizada del país, con medidas que podrían incluir reformas estructurales y programas de estímulo.</p>
+                                                <br>
+                                                <p>Con su estilo carismático y sus políticas populistas, Bukele ha logrado consolidar su poder en El Salvador. Ahora, la atención se centra en si podrá cumplir sus promesas económicas y mantener el apoyo de la población en su segundo mandato.</p>
+                                                <br>
+                                            </div>
+
+
+
+                                        </div>
+                                    </div>
+                                </article>
+                            </li>
+                        </ul>
+                        <br>
+
+                    </div>
+
+
+                    {{-- columna de la derecha chica --}}
+                    <aside>
+                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                            <div class=" col-span-6">
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/bener-leg2.png') }}"
+                                        alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
+                                        alt="">
+                                </a>
+
+                                <div id="app">
+
+                                    <div v-for="item in info">
+
+                                        <div class="flex-col pb-3">
+                                            <div
+                                                class="flex-col max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg"
+                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
+                                                        alt="" />
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5
+                                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                                            @{{ item.title }}</h5>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div v-for="va in clima">
+
+                                        <h5
+                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                            @{{ va }}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+
+                </div>
+
+            </section>
         @endif
 
 

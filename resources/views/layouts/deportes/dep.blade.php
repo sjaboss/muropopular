@@ -1,7 +1,77 @@
 <x-app-layout>
     <div class="container ">
+        {{-- JUGADORAS DE BOCA RECHAZAN CONVOCATORIA A LA SELECCIÓN  --}}
+    <section>
+        <ul>
+            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                <article>
+
+                    <div class="py-4 px-4 justify-between items-center">
+                        <h2 class="text-xl font-serif  font-bold pb-6">
+                            <a href="">JUGADORAS DE BOCA RECHAZAN CONVOCATORIA A LA SELECCIÓN
+                            </a>
+                        </h2>
+                        <p><i>Lorena Benítez, Julieta Cruz y Laurina Oliveros anunciaron su ausencia en los próximos amistosos de la selección femenina por descontento con la AFA.</i>
+                    </p>
+                        <br>
+                        <figure>
+                            <img class="w-full object-cover"
+                                src="{{ asset('../img/dep/dep_boca.svg') }}" alt="">
+
+                        </figure>
+                        <br>
+                        <div
+                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                            <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                <p>Tres jugadoras clave de Boca Juniors decidieron no participar en los amistosos de la selección argentina, citando irregularidades y maltrato por parte de la AFA. Los partidos se jugarán el 31 de mayo y el 3 de junio contra Costa Rica.
+                                </p>
+                                <br>
+                                <p>La selección argentina de fútbol femenino enfrenta una nueva crisis. Lorena Benítez, Julieta Cruz y Laurina Oliveros, tres jugadoras de Boca Juniors, han decidido no participar en los próximos amistosos debido a irregularidades en el trato recibido por la Asociación del Fútbol Argentino (AFA). Esta decisión, anunciada a través de redes sociales, destaca problemas estructurales en el equipo nacional.
+                                </p>
+                                <br>
+                                <p>En una publicación en Instagram, Lorena Benítez relató que desde los 14 años no había vivido una situación como la actual: falta de desayuno y almuerzo durante las convocatorias de entrenamiento. "Solo recibimos un sándwich de jamón y queso con una banana", denunció. Además, mencionó la falta de viáticos, ya que los partidos se jugarían en Buenos Aires, y criticó la contradicción de cobrar $5000 a sus familias por la entrada a los estadios.
+                                </p>
+                                <br>
+                                <p>Julieta Cruz también expresó su descontento en redes sociales, destacando la falta de valor y respeto hacia las jugadoras. "Cansa no ser valorada, no ser escuchada y peor aún ser humillada", afirmó. Cruz pidió mejoras en la selección argentina, no solo en términos económicos, sino en aspectos básicos como tener un almuerzo y desayuno durante los entrenamientos.</p>
+                                <br>
+                                <p>Laurina Oliveros, por su parte, habló con el "corazón partido" sobre las ilusiones que se esfuman debido a estas condiciones. Expresó su deseo de que las futuras generaciones puedan disfrutar plenamente de su carrera en la selección.</p>
+                                <br>
+                                <p>Los amistosos de la Albiceleste están programados para el 31 de mayo en el estadio Ciudad de Caseros y el 3 de junio en el Club Atlético Platense, ambos contra Costa Rica. Sin embargo, la ausencia de Benítez, Cruz y Oliveros pone en evidencia las fallas estructurales dentro de la AFA y la necesidad urgente de reformas.</p>
+                                <br>
+                                <p>No es la primera vez que las jugadoras de la selección femenina alzan su voz contra el maltrato. En la Copa América 2018, las jugadoras realizaron el gesto de "Topollillo" como protesta por las condiciones en las que jugaban. A raíz de esa manifestación, lograron algunas mejoras, como el pago de viáticos durante los partidos amistosos.</p>
+                                <br>
+                                <p>Sin embargo, las condiciones no han mejorado lo suficiente. La mayoría de las jugadoras de fútbol deben complementar su pasión por el deporte con otros trabajos para subsistir, ya que los días que representan a la selección resultan en pérdida de ingresos y descuentos en sus salarios. Además, muchas deben movilizarse en transporte público, lo que añade una carga adicional a su rutina diaria.</p>
+                                <br>
+                                <p>La decisión de Benítez, Cruz y Oliveros resalta la necesidad de un cambio estructural en la AFA para garantizar que las jugadoras puedan desempeñarse en condiciones dignas. Este es un llamado urgente a la acción para mejorar las condiciones de las atletas que representan al país en competencias internacionales.</p>
+                                <br>
+                                <p>Con estas ausencias, la selección argentina se enfrentará a Costa Rica en medio de un clima de descontento y reivindicación, evidenciando la urgencia de una reforma profunda en el fútbol femenino nacional.</p>
+                                <br>
+                                <div class="text-start object-center">
+                                    {{-- <figure>
+                                        <img class="w-28 h-28  "
+                                            src="{{ asset('../img/noteros/gus.svg') }}"
+                                            alt="">
+                                        <p> <strong>Por Gustavo Cano<strong></p>
+
+                                        <p><strong><strong></p>
+
+                                    </figure> --}}
+                                </div>
+
+
+                            </div>
+
+
+
+                        </div>
+                    </div>
+                </article>
+            </li>
+        </ul>
+    </section>
        {{-- BUENOS AIRES SERÁ LA SEDE DE LA FINAL DE LA COPA LIBERTADORES 2024  --}}
-       <section>
+    <section>
         <ul>
             <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
                 <article>

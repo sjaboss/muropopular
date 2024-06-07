@@ -2965,6 +2965,244 @@
                 </div>
 
             </section>
+        @elseif ($tituloSep == 'Derechos-Humanos-Noticia-Completa-der22')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow ">
+                                <article>
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">NORA CORTIÑAS, EMBLEMA DE MADRES DE PLAZA DE MAYO, FALLECIÓ A LOS 94 AÑOS
+                                            </a>
+                                            
+                                            <p class="font-light  text-right text-gray-500">Publicado: 31/05/2024</p>
+                                        </h2>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                                <p><i>La incansable defensora de los Derechos Humanos y símbolo de la resistencia contra la dictadura, Nora Cortiñas, murió este jueves a los 94 años. Su legado de lucha por la verdad y la justicia sigue vivo en Argentina.</i></p>
+                                                <br>
+                                                <figure>
+                                                    <a href="">
+                                                        <img class="w-full object-cover object-center"
+                                                            src="{{ asset('../img/der/der_norita2.svg') }}"alt="">
+                                                    </a>
+                                                </figure>
+                                                {{-- <article>
+                                            <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/YlzOOQQaZc8?si=bzEaHD2UN1YHc0mQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                            
+                                        </article> --}}
+                                                {{-- <p class="font-light text-gray-500">Fotografía de @robertinocarles</p> --}}
+                                                <br>
+                                                <p>Nora Cortiñas, una de las fundadoras de Madres de Plaza de Mayo Línea Fundadora, falleció este jueves 30 de mayo a los 94 años. Su familia confirmó la noticia a Infobae, destacando que Nora estuvo rodeada del amor de sus seres queridos hasta el último momento. "Nora estuvo acompañada por el amor de su familia", expresaron en un comunicado. La ex presidenta Cristina Fernández de Kirchner, entre otras figuras políticas, expresó sus condolencias, recordando la incansable lucha de Nora por los Derechos Humanos. 
+                                                </p>
+                                                <br>
+                                                <p>Nacida en 1930, Nora Cortiñas se convirtió en un símbolo de la lucha por los Derechos Humanos tras la desaparición de su hijo Gustavo en 1977, secuestrado por la dictadura militar. Gustavo, estudiante de Ciencias Económicas y militante de la Juventud Peronista, fue visto por última vez en la estación de trenes de Castelar. Este doloroso evento transformó la vida de Nora, quien dedicó el resto de sus días a la búsqueda de justicia y verdad.</p>
+                                                <br>
+                                                <p>El reciente fallecimiento de Nora ocurrió tras haber sido intervenida quirúrgicamente el 17 de mayo en el Hospital de Morón por una hernia. Pese a la operación, su estado de salud se deterioró hasta su deceso. "Norita había sido intervenida quirúrgicamente el pasado 17 de mayo en el Hospital de Morón por una hernia que se sumó a otras patologías que agravaron el cuadro", indicó el comunicado familiar.</p>
+                                                <br>
+                                                <p>La noticia de su muerte generó una profunda conmoción en todo el país. La agrupación H.I.J.O.S. Capital expresó en redes sociales: "Con profundo dolor, despedimos a Nora Cortiñas. Buscando a su hijo Gustavo se hizo madre del pueblo. Con pañuelo blanco y verde, en las luchas por justicia, con la sonrisa, con la fuerza de lo imposible Abrazamos a su familia Hasta la victoria, siempre". Las Abuelas de Plaza de Mayo también la despidieron con un mensaje de dolor y respeto: "Con profundo dolor, despedimos a nuestra hermana de lucha Nora Cortiñas, referente indiscutida del movimiento de derechos humanos en la Argentina. ¡Hasta la victoria siempre, querida Norita!"</p>
+                                                <br>
+                                                <p>Nora Cortiñas no solo luchó por la memoria, verdad y justicia para su hijo y otros desaparecidos, sino que también apoyó diversas causas sociales, desde los derechos de los trabajadores hasta la legalización del cannabis medicinal. Su compromiso la llevó a ser una figura presente en las luchas más importantes del país, convirtiéndose en una voz poderosa contra la injusticia.</p>
+                                                <br>
+                                                <p>La partida de Nora Cortiñas deja un vacío enorme en la sociedad argentina, pero su legado seguirá inspirando a las generaciones futuras. Su espíritu combativo y su dedicación a un mundo más justo y solidario perdurarán en la memoria colectiva. La vida de Nora es un testimonio de la fortaleza y el coraje que caracterizan a las Madres de Plaza de Mayo. Su fallecimiento nos recuerda la importancia de seguir luchando por la memoria, la verdad y la justicia, y de mantener vivo su legado en cada acto de resistencia y solidaridad.</p>
+                                                <br>
+                                                <p>En un país marcado por una historia de represión y lucha, Nora Cortiñas simboliza la esperanza y la resistencia. Su ejemplo seguirá vivo en cada marcha, en cada pañuelo blanco, y en cada voz que clama por justicia.</p>
+                                                <br>
+                                                
+                                                {{-- <figure>
+                                                    <img class="w-28 h-28 ml-10  object-cover"
+                                                        src="{{ asset('../img/noteros/Gus.svg') }}" alt="">
+                                                    <p> <strong> Nota de Gustavo Cano </strong></p></a>
+
+                                                </figure>  --}}
+
+
+                                            </div>
+                                        </div>
+
+
+
+                                    </div>
+                                </article>
+                            </li>
+                        </ul>
+                    </div>
+
+                    {{-- columna de la derecha chica --}}
+                    <aside>
+                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                            <div class=" col-span-6">
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/bener-leg2.png') }}"
+                                        alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
+                                        alt="">
+                                </a>
+
+                                <div id="app">
+
+                                    <div v-for="item in info">
+
+                                        <div class="flex-col pb-3">
+                                            <div
+                                                class="flex-col max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg"
+                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
+                                                        alt="" />
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5
+                                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                                            @{{ item.title }}</h5>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div v-for="va in clima">
+
+                                        <h5
+                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                            @{{ va }}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+                </div>
+
+            </section>
+        @elseif ($tituloSep == 'Derechos-Humanos-Noticia-Completa-der23')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow ">
+                                <article>
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">ADIÓS A LITA BOITANO, INCANSABLE DEFENSORA DE LOS DDHH
+
+                                            </a>
+                                            
+                                            <p class="font-light  text-right text-gray-500">Publicado: 06/06/2024</p>
+                                        </h2>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                                <p><i>Lita Boitano, presidenta de Familiares de Desaparecidos y Detenidos por Razones Políticas, falleció dejando un legado de lucha y compromiso con la Memoria, Verdad y Justicia.</i></p>
+                                                <br>
+                                                <figure>
+                                                    <a href="">
+                                                        <img class="w-full object-cover object-center"
+                                                            src="{{ asset('../img/der/der_lita2.svg') }}"alt="">
+                                                    </a>
+                                                </figure>
+                                                {{-- <article>
+                                            <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/YlzOOQQaZc8?si=bzEaHD2UN1YHc0mQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                            
+                                        </article> --}}
+                                                {{-- <p class="font-light text-gray-500">Fotografía de @robertinocarles</p> --}}
+                                                <br>
+                                                <p>Lita Boitano, reconocida activista de derechos humanos en Argentina, falleció a los 92 años. Su incansable búsqueda de justicia por los desaparecidos durante la dictadura militar dejó una huella imborrable en la historia del país. Lita, quien perdió a dos de sus hijos en manos del terrorismo de Estado, dedicó su vida a exigir Memoria, Verdad y Justicia. 
+                                                </p>
+                                                <br>
+                                                <p>Lita, en realidad, se llama Ángela. Ángela Paolín, viuda de Boitano. Fue una de las voces más fuertes y persistentes en la lucha por los derechos humanos en Argentina. Nacida el 20 de julio de 1931, Lita se convirtió en un símbolo de resistencia y valentía tras la desaparición de sus hijos, Miguel Ángel y Adriana Cecilia, durante la dictadura militar que asoló Argentina entre 1976 y 1983.</p>
+                                                <br>
+                                                <p>En 1976, Miguel Ángel Boitano fue secuestrado, y en 1977, su hermana Adriana Cecilia sufrió el mismo destino. Estos trágicos eventos marcaron el inicio de la incansable lucha de Lita Boitano por la justicia y la verdad. Como presidenta de la organización Familiares de Desaparecidos y Detenidos por Razones Políticas, Lita trabajó incansablemente para mantener viva la memoria de los desaparecidos y exigir rendición de cuentas a los responsables.</p>
+                                                <br>
+                                                <p>Su activismo no solo se limitó a las fronteras argentinas. Boitano fue una figura destacada en el ámbito internacional, colaborando con organismos de derechos humanos y llevando su mensaje de justicia a diversas partes del mundo. Su labor fue reconocida con múltiples premios y distinciones.</p>
+                                                <br>
+                                                <p>Lita será recordada no solo por su incansable labor en la búsqueda de justicia, sino también por su humanidad y capacidad para inspirar a otros. Su legado vive en cada madre, padre, hermano y hermana que continúa la lucha por la Memoria, Verdad y Justicia en Argentina y más allá.</p>
+                                                <br>
+                                                <p>Lita nos deja un vacío imposible de llenar, pero su espíritu de lucha perdurará en las generaciones venideras. Su vida y obra son un recordatorio poderoso de que la búsqueda de Memoria, Verdad y Justicia nunca debe cesar. Hasta Siempre querida Lita, y que tu ejemplo siga iluminando el camino hacia un mundo más justo y humano.</p>
+                                                <br>
+                                                
+                                                
+                                                {{-- <figure>
+                                                    <img class="w-28 h-28 ml-10  object-cover"
+                                                        src="{{ asset('../img/noteros/Gus.svg') }}" alt="">
+                                                    <p> <strong> Nota de Gustavo Cano </strong></p></a>
+
+                                                </figure>  --}}
+
+
+                                            </div>
+                                        </div>
+
+
+
+                                    </div>
+                                </article>
+                            </li>
+                        </ul>
+                    </div>
+
+                    {{-- columna de la derecha chica --}}
+                    <aside>
+                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                            <div class=" col-span-6">
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/bener-leg2.png') }}"
+                                        alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
+                                        alt="">
+                                </a>
+
+                                <div id="app">
+
+                                    <div v-for="item in info">
+
+                                        <div class="flex-col pb-3">
+                                            <div
+                                                class="flex-col max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg"
+                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
+                                                        alt="" />
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5
+                                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                                            @{{ item.title }}</h5>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div v-for="va in clima">
+
+                                        <h5
+                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                            @{{ va }}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+                </div>
+
+            </section>
         @endif
     </div>
 

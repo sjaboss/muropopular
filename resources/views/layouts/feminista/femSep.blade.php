@@ -2456,6 +2456,7 @@
                                         <h2 class="text-xl font-serif  font-bold pb-6">
                                             <a href="">LAS MUJERES BONAERENSES MARCHARON CONTRA EL AJUSTE DE MILEI</a>
                                         </h2>
+                                    
                                         <p><i>Con las consignas <b>“Por nuestros derechos, contra el ajuste de Milei y abajo el DNU”</b>, miles de mujeres y diversidades se movilizaron desde numerosos puntos de la provincia para pronunciarse contra las políticas económicas de ajuste y el retroceso de derechos que lleva adelante el Gobierno nacional.</i>
                                         </p>
                                         <br>
@@ -2485,6 +2486,226 @@
                                                 <p>También se expresó la Secretaria de Mujeres, Géneros e Infancias del municipio de San Martín, Marcela Ferri, quien señaló: “Este 8 de marzo más que nunca nos manifestamos por una patria justa, igualitaria y libre de violencias y contra el ajuste del Gobierno nacional. Renovamos la lucha por nuestros derechos, los conquistados y los que nos quedan por conquistar. Fue muy emocionante venir todas juntas desde San Martín para encontrarnos con la columna de Mujeres Bonaerenses”.</p>
                                                 <br>
                                                 <p>“Esta jornada muestra la vitalidad y la fortaleza de este feminismo popular y de las mujeres organizadas en todo nuestro territorio para decir que estamos presentes, en las calles y vamos a seguir defendiendo los derechos conquistados”, concluyó la ministra Estela Díaz.</p>
+                                                <br>
+                                            </div>
+                                        </div>
+                                </article>
+                            </li>
+                        </ul>
+                    </div>
+
+
+                    {{-- columna de la derecha chica --}}
+                    <aside>
+                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                            <div class=" col-span-6">
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/recurso 1.png') }}" alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/APSE.gif') }}" alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
+                                        alt="">
+                                </a>
+
+
+
+                                <div id="app">
+
+                                    <div v-for="item in info">
+
+                                        <div class="flex-col pb-3">
+                                            <div
+                                                class="flex-col max-w-sm  border  border-gray-700 rounded-lg shadow bg-gray-800">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg"
+                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
+                                                        alt="" />
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5 class="mb-2 text-2xl font-bold tracking-tight  text-white">
+                                                            @{{ item.title }}</h5>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div v-for="va in clima">
+
+                                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-white">
+                                            @{{ va }}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+
+                </div>
+
+            </section>
+        @elseif ($tituloSep == 'Agenda-Feminista-Completa-fem17')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">MAGDALENA SIERRA: "MILEI QUIERE BORRAR NUESTRAS CONQUISTAS"</a>
+                                            <p class="font-light  text-right text-gray-500">Publicado: 03/06/2024</p>
+                                        </h2>
+                                        <p><i>La jefa de gabinete de Avellaneda destacó la lucha de mujeres y diversidades ante la amenaza a sus conquistas bajo el gobierno de Javier Milei. Resaltó la importancia de continuar reclamando por los derechos.</i>
+                                        </p>
+                                        <br>
+                                        {{-- <figure>
+                                            <img class="w-full object-cover" src="../img/fem/fem_8m2.svg"
+                                                alt="">
+                                        </figure> --}}
+                                        <article>
+                                            <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/KgLeMhUAufY?si=LCmXJy-t6RqfgsUb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                            
+                                        </article>
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+                                                <p>En el marco del 3 de junio, día de la movilización #NiUnaMenos, Magdalena Sierra, jefa de gabinete de Avellaneda, expresó la preocupación de mujeres y diversidades por las políticas del presidente Javier Milei que amenazan sus conquistas. Destacó la importancia de seguir reclamando por sus derechos en las calles.
+                                                </p>
+                                                <br>
+                                                <p>"Las mujeres y diversidades estamos muy preocupadas por el contexto actual del país", declaró Sierra. "El presidente Milei quiere borrar de un plumazo todas nuestras conquistas, y la verdad es que estamos muy preocupadas por eso. Salimos a la calle, como siempre, para reclamar #NiUnaMenos".
+                                                </p>
+                                                <br>
+                                                <p>En cuanto al impacto de las políticas nacionales en Avellaneda, Sierra señaló que el municipio se ha visto afectado por el desfinanciamiento de programas de género. "Es preocupante, pero por suerte en Avellaneda tenemos un presupuesto propio grande que nos hace ser independientes de una manera u otra. Así que en Avellaneda continúa el cuidado y la red hacia las mujeres, implementando diversas herramientas todos los días para poder estar más cerca", explicó.
+                                                </p>
+                                                <br>
+                                                <p>Sierra resaltó la importancia del apoyo del gobernador Axel Kicillof en esta lucha. "Tenemos un gobernador que no se corre ni un poquito y nos cuida a todos los municipios. Unidos, estamos haciéndole frente a toda la problemática que ha generado esta administración".
+                                                </p>
+                                                <br>
+                                                <p>En referencia a las declaraciones del presidente Milei sobre la pobreza, Sierra fue contundente: "Querría saber de dónde saca estas cosas el presidente Milei, si realmente no ha recorrido ni un barrio popular. Nosotros creemos que se empieza de abajo para arriba, que todos merecen dignidad. El presidente Milei no se le ocurre porque supongo que nunca le faltó lo que es poner un plato de comida en la mesa de un hogar"
+                                                </p>
+                                                <br>
+                                                <p>La jefa de gabinete también se refirió al tratamiento en el Senado de la nueva ley de bases: "Como militante peronista, me van a encontrar, como a tanta otra gente, en la calle pidiéndole a los senadores que no voten en contra del pueblo, en contra de nuestra constitución, en contra de nuestra soberanía. No se puede ir en contra del pueblo".</p>
+                                                <br>
+                                                <p>Magdalena Sierra concluyó con un llamado a la acción y la unidad en la defensa de los derechos conquistados: "Ahí estaremos, recordándoles a los senadores que no se puede ir en contra del pueblo. La lucha continúa, y no podemos permitir que nos arrebaten lo que tanto nos ha costado conseguir".</p>
+                                                <br>
+                                            </div>
+                                        </div>
+                                </article>
+                            </li>
+                        </ul>
+                    </div>
+
+
+                    {{-- columna de la derecha chica --}}
+                    <aside>
+                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                            <div class=" col-span-6">
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/recurso 1.png') }}" alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/APSE.gif') }}" alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
+                                        alt="">
+                                </a>
+
+
+
+                                <div id="app">
+
+                                    <div v-for="item in info">
+
+                                        <div class="flex-col pb-3">
+                                            <div
+                                                class="flex-col max-w-sm  border  border-gray-700 rounded-lg shadow bg-gray-800">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg"
+                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
+                                                        alt="" />
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5 class="mb-2 text-2xl font-bold tracking-tight  text-white">
+                                                            @{{ item.title }}</h5>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div v-for="va in clima">
+
+                                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-white">
+                                            @{{ va }}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+
+                </div>
+
+            </section>
+        @elseif ($tituloSep == 'Agenda-Feminista-Completa-fem18')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">ADHESIÓN AL PROGRAMA MUNICIPIOS POR LA IGUALDAD</a>
+                                            <p class="font-light  text-right text-gray-500">Publicado: 06/06/2024</p>
+                                        </h2>
+                                        <p><i>El La ministra Estela Díaz visitó el municipio de Chacabuco donde, junto al intendente Darío Golia, firmaron el convenio de adhesión al programa “Municipios por la Igualdad”.</i>
+                                        </p>
+                                        <br>
+                                        <figure>
+                                            <img class="w-full object-cover" src="../img/fem/fem_adhesion.svg"
+                                                alt="">
+                                        </figure>
+                                        {{-- <article>
+                                            <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/KgLeMhUAufY?si=LCmXJy-t6RqfgsUb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                            
+                                        </article> --}}
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+                                                <p>Con el objetivo de garantizar el alcance territorial de las políticas del Ministerio de Mujeres y Diversidad, la ministra Estela Díaz visitó el municipio de Chacabuco donde, junto al intendente Darío Golia, firmaron el convenio de adhesión al programa “Municipios por la Igualdad”.
+                                                </p>
+                                                <br>
+                                                <p>“Este es el compromiso del gobernador Axel Kicillof con el pueblo de la Provincia, construir un gobierno cercano” expresó Estela Díaz y señaló: “La provincia de Buenos Aires tiene 135 municipios, 300.000 kilómetros cuadrados, más de 2.000 localidades; y es en cada localidad, con cada intendente, donde estamos para concretar las propuestas de las políticas del gobierno bonaerense.”
+                                                </p>
+                                                <br>
+                                                <p>Por su parte, Darío Golia afirmó: “Queremos un municipio que acompañe, promueva y haga realidad en todo su territorio el cumplimiento de las políticas de inclusión y en defensa de los derechos de las mujeres y diversidades”.
+                                                </p>
+                                                <br>
+                                                <p>A través del programa “Municipios por la Igualdad”, la Provincia destina fondos a los municipios para el desarrollo de políticas públicas que tiendan a reducir las brechas de desigualdad por razones de género. Además, propone que los proyectos presentados sean realizados por varias áreas de la gestión local con el objetivo de transversalizar la perspectiva de género en el gobierno municipal.
+                                                </p>
+                                                <br>
+                                                <p>El municipio de Chacabuco optó por la línea “Deporte y Recreación” para la creación de un espacio múltiple de desarrollo comunitario en el Barrio San Cayetano que será utilizado para brindar talleres de formación laboral para mujeres y diversidades en situación de vulnerabilidad.
+                                                </p>
+                                                <br>
+                                                <p>Durante la visita de la Ministra al municipio, visitó el Centro de Atención Primaria de la Salud (CAPS) del barrio San Cayetano y la Casita ex centro de salud, donde se construirá el salón multifuncional para desarrollar los talleres en un entorno confortable y accesible para todas y todos.</p>
+                                                <br>
+                                                <p>Las actividades contaron con la presencia de la subsecretaria de Políticas Transversales de Género, Lidia Fernández; la subsecretaria de Políticas de Género y Diversidad Sexual, Lucía Portos; la jefa de Gabinete Fiorella Juanico Ávila; la directora provincial de Regiones, Silvia Zaballa; la directora provincial de Diversidad Sexual, Rosario Castelli; la directora de Región Cuarta, Ada García; el director de Programas Especiales para la Diversidad Sexual, Nicolas Abratte; la diputada Micaela Olivetto; la directora de Políticas de Género y Diversidad del municipio, Martha Hortman; la coordinadora de Diversidad, Pilar Martinez.</p>
                                                 <br>
                                             </div>
                                         </div>

@@ -1,5 +1,525 @@
 <x-app-layout>
     <div class="container ">
+        {{--LA POBREZA EN ARGENTINA ALCANZÓ EL 55,5% EN 2024, SEGÚN LA UCA...--}}
+    <section> 
+        <ul>
+            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                <article>
+
+                    <div class="py-4 px-4 justify-between items-center">
+                        <h2 class="text-xl font-serif  font-bold pb-6">
+                            <a href="">LA POBREZA EN ARGENTINA ALCANZÓ EL 55,5% EN 2024, SEGÚN LA UCA</a>
+                        </h2>
+                        <p class="font-light  text-right text-gray-500">Publicado: 06/06/2024</p>
+                        <div class=" font-sans text-lg text-left col-span-6  ">
+                        <p><i>El Observatorio de la Deuda Social de la UCA reveló que la indigencia también creció al 17,5% en el primer trimestre. La inflación y la subida de precios son los principales factores.</i>
+                        </p>
+                        <br>
+                        <figure>
+                            <img class="w-full object-cover" src="../img/soc/soc_pobreza2.svg"
+                                alt="">
+                        </figure>
+                        
+                        {{-- <article>
+                            <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/Z8erUjiM40o?si=cY0HKLmYrrwJbmcA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            
+                        </article> --}}
+                        <br>
+                        <div
+                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                            <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                <p>Un estudio del Observatorio de la Deuda Social de la Universidad Católica Argentina (UCA) estimó que la pobreza en Argentina ascendió al 55,5% y la indigencia al 17,5% en el primer trimestre de 2024. La inflación y el aumento de los precios de alimentos son las principales causas de este deterioro social, afectando a casi 25 millones de personas en áreas urbanas. 
+                                </p>
+                                <br>
+                                <p>En un reciente informe, el Observatorio de la Deuda Social Argentina (ODSA) de la Universidad Católica Argentina (UCA) presentó cifras alarmantes sobre la situación social del país. Durante el primer trimestre de 2024, la pobreza alcanzó al 55,5% de la población, mientras que la indigencia se elevó del 9,6% al 17,5%.</p>
+                                <br>
+                                <p>El estudio detalla que casi 25 millones de personas, residentes en áreas urbanas, viven por debajo de la línea de pobreza, principalmente debido a la inflación y al incremento de los precios de los alimentos, que han golpeado duramente a los sectores más vulnerables.
+                                </p>
+                                <br>
+                                <p>“Estos incrementos se atribuyen en gran parte al impacto de la inflación de los últimos meses y a la suba principalmente en el rubro alimentos que afectó a los estratos más bajos de la sociedad”, señala el informe. Además, se destaca que unos 7,8 millones de personas se encuentran en estado de indigencia, viviendo por debajo de la canasta básica alimentaria (CBA).
+                                </p>
+                                <br>
+                                <p>La inseguridad alimentaria es otro de los puntos críticos. El informe revela que el 24,7% de las personas en áreas urbanas enfrentan inseguridad alimentaria, afectando al 32,2% de los niños, niñas y adolescentes. En el Área Metropolitana de Buenos Aires (AMBA), estos valores son aún más altos, alcanzando al 35% de los menores.</p>
+                                <br>
+                                <p>Pese a los esfuerzos del Estado por mitigar la crisis, como el refuerzo de la Asignación Universal por Hijo (AUH) y la Tarjeta Alimentaria, el informe indica que estas medidas no han sido suficientes. "El 42,6% de los niños, niñas y adolescentes reside en hogares que reciben AUH+Tarjeta Alimentaria", señala el ODSA.</p>
+                                <br>
+                                <p>El informe también analiza la situación educativa y laboral en el país. Se destaca que el 23% de los niños de 3 a 5 años no asiste a establecimientos educativos formales y que el 35,3% de los jóvenes de 18 a 29 años no ha terminado la secundaria. En el ámbito laboral, el 32,5% de los trabajadores residen en hogares en situación de pobreza, y el 26,5% tiene un empleo precario.</p>
+                                <br>
+                                <p>El informe de la UCA refleja una preocupante realidad en Argentina, donde la pobreza y la indigencia continúan en ascenso, afectando gravemente a los sectores más vulnerables. La inflación y el aumento de los precios de los alimentos se presentan como desafíos críticos que requieren respuestas urgentes y efectivas del Estado para revertir esta alarmante tendencia, mientras el gobieno apuesta a dejar librado al mercado la suerte de los y las argentinas.</p>
+                                <br>
+
+                                <div class="text-start object-center">
+                                    {{-- <figure>
+                                        <img class="w-28 h-28  "
+                                            src="{{ asset('../img/der/Adri.svg') }}"
+                                            alt="">
+                                        
+                                        <p> <strong>Nota de Adriana Zerdín</strong></p>
+
+                                    </figure>  --}}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </li>
+        </ul>
+        <br>
+    </section>
+        {{--III FORO DE COMUNICACIÓN, DERECHOS HUMANOS Y DEMOCRACIA...--}}
+    <section> 
+        <ul>
+            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                <article>
+
+                    <div class="py-4 px-4 justify-between items-center">
+                        <h2 class="text-xl font-serif  font-bold pb-6">
+                            <a href="">III FORO DE COMUNICACIÓN, DERECHOS HUMANOS Y DEMOCRACIA: "EL ROL DE LOS MEDIOS EN LA ERA DE LA CRUELDAD"</a>
+                        </h2>
+                        <p class="font-light  text-right text-gray-500">Publicado: 006/06/2024</p>
+                        <div class=" font-sans text-lg text-left col-span-6  ">
+                        <p><i>Este viernes 7 de junio, en el marco del Día de las y los Periodistas, se realizará el III Foro de Comunicación, Derechos Humanos y Democracia en "El Pulqui Bar" de Buenos Aires. El evento, que comenzará a las 18 hs, abordará el papel de los medios en la actual "Era de la crueldad" y contará con la participación de reconocidos expertos y comunicadores.</i>
+                        </p>
+                        <br>
+                        <figure>
+                            <img class="w-full object-cover" src="../img/soc/soc_foro1.svg"
+                                alt="">
+                        </figure>
+                        <figure>
+                            <img class="w-full object-cover" src="../img/soc/soc_foro2.svg"
+                                alt="">
+                        </figure>
+                        {{-- <article>
+                            <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/Z8erUjiM40o?si=cY0HKLmYrrwJbmcA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            
+                        </article> --}}
+                        <br>
+                        <div
+                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                            <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                <p>El III Foro de Comunicación, Derechos Humanos y Democracia tendrá lugar este viernes 7 de junio a las 18 hs en "El Pulqui Bar", ubicado en Entre Ríos 484, Ciudad Autónoma de Buenos Aires. Este encuentro se celebra en el Día de las y los Periodistas y pretende reflexionar sobre el rol de los medios en la denominada "Era de la crueldad". 
+                                </p>
+                                <br>
+                                <p>El panel del foro estará compuesto por distinguidos profesionales del ámbito de la comunicación y la academia. Entre los participantes se encuentran Diego de Charras, profesor de Derecho a la Información y vicedecano de la Facultad de Ciencias Sociales de la Universidad de Buenos Aires (UBA); Josefina Bolis, doctora en Comunicación y pro-secretaria de Medios y Publicaciones de la Universidad Nacional de La Plata (UNLP); Daniel Rosso, director de AM 530 y de la Maestría en Periodismo y Medios de Comunicación de la UNLP; y Sol Despeinada, médica, sexóloga clínica, especialista en abordaje medicinal de la planta de cannabis y comunicadora en ESI, género y salud sexual y reproductiva.</p>
+                                <br>
+                                <p>La moderación del panel estará a cargo de María Quintero, magíster en periodismo, presidenta de la Cooperativa de Comunicación y Cultura Por Venir, y directora de Revista PPV. Quintero guiará el debate y las reflexiones en torno a los desafíos y responsabilidades de los medios en un contexto caracterizado por la creciente violencia y desinformación.
+                                </p>
+                                <br>
+                                <p>Para finalizar el evento, se ofrecerá un show musical a cargo de Verde Aluminio y Edu Schmidt, ex Árbol, quienes aportarán una cuota de arte y entretenimiento a la jornada.
+                                </p>
+                                <br>
+                                <p>El III Foro de Comunicación, Derechos Humanos y Democracia promete ser un espacio de reflexión y debate crucial sobre el papel de los medios en tiempos de adversidad. La participación de destacados expertos y el cierre musical garantizan una tarde enriquecedora tanto para los profesionales de la comunicación como para el público en general.</p>
+                                <br>
+                                
+
+                                <div class="text-start object-center">
+                                    {{-- <figure>
+                                        <img class="w-28 h-28  "
+                                            src="{{ asset('../img/der/Adri.svg') }}"
+                                            alt="">
+                                        
+                                        <p> <strong>Nota de Adriana Zerdín</strong></p>
+
+                                    </figure>  --}}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </li>
+        </ul>
+        <br>
+    </section>
+        {{--HOMENAJE A LA GARGANTA PODEROSA: VOZ Y MEMORIA.--}}
+    <section> 
+        <ul>
+            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                <article>
+
+                    <div class="py-4 px-4 justify-between items-center">
+                        <h2 class="text-xl font-serif  font-bold pb-6">
+                            <a href="">HOMENAJE A LA GARGANTA PODEROSA: VOZ Y MEMORIA</a>
+                        </h2>
+                        <p class="font-light  text-right text-gray-500">Publicado: 01/06/2024</p>
+                        <div class=" font-sans text-lg text-left col-span-6  ">
+                        <p><i>En un emotivo acto en la Legislatura porteña, La Garganta Poderosa recibió un merecido homenaje, recordando su lucha y compromiso con los sectores más vulnerables.</i>
+                        </p>
+                        <br>
+                        <figure>
+                            <img class="w-full object-cover" src="../img/soc/soc_levy.svg"
+                                alt="">
+                        </figure>
+                        
+                        {{-- <article>
+                            <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/Z8erUjiM40o?si=cY0HKLmYrrwJbmcA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            
+                        </article> --}}
+                        <br>
+                        <div
+                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                            <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                <p>La Garganta Poderosa, emblema de la lucha popular, fue homenajeada en la Legislatura porteña en un acto lleno de emoción y memoria. Nacho Levy, destacado referente del movimiento, resaltó la importancia de reconocer la historia y el legado de quienes precedieron a La Poderosa, subrayando la necesidad de unidad y reconocimiento de los sectores postergados. 
+                                </p>
+                                <br>
+                                <p>El acto en la Legislatura porteña fue un reconocimiento a La Garganta Poderosa, destacada organización que representa a los sectores populares y lucha por sus derechos. Levy, en su discurso, recordó que la historia de La Poderosa no comenzó con su fundación, sino con los sueños de miles de desaparecidos y vecinos de barrios populares que resistieron y se organizaron.</p>
+                                <br>
+                                <p>Levy recordó que "el camino de la garganta no es un camino que nació con La Poderosa como movimiento social, ni siquiera con la creación de los movimientos sociales en su gran mayoría después del 2001, sino que es la consecución histórica de un legado de sueños que tenían 30,000 compañeras y compañeros detenidos desaparecidos".
+                                </p>
+                                <br>
+                                <p>El referente de La Garganta Poderosa criticó la impunidad con la que son tratados los sectores populares, responsabilizándolos de la situación económica del país, mientras ellos luchan por subsistir. "Hay que ser muy cínico para pensar que la culpa de la situación económica la tengan vecinas y vecinos que vienen peleando por el derecho a la vivienda, al pan y al trabajo desde hace décadas", afirmó Levy.
+                                </p>
+                                <br>
+                                <p>En un llamado a la unidad y a la valoración del capital humano de los sectores postergados, Levy destacó la importancia de visibilizar y priorizar sus necesidades. La Garganta Poderosa, a través de su lucha y resistencia, sigue siendo un faro de esperanza y un ejemplo de organización y dignidad en medio de la adversidad.</p>
+                                <br>
+                                
+
+                                <div class="text-start object-center">
+                                    {{-- <figure>
+                                        <img class="w-28 h-28  "
+                                            src="{{ asset('../img/der/Adri.svg') }}"
+                                            alt="">
+                                        
+                                        <p> <strong>Nota de Adriana Zerdín</strong></p>
+
+                                    </figure>  --}}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </li>
+        </ul>
+        <br>
+    </section>
+        {{--LA DEFENSA DE LOS MEDIOS PÚBLICOS EN ARGENTINA..--}}
+    <section> 
+        <ul>
+            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                <article>
+
+                    <div class="py-4 px-4 justify-between items-center">
+                        <h2 class="text-xl font-serif  font-bold pb-6">
+                            <a href="">LA DEFENSA DE LOS MEDIOS PÚBLICOS EN ARGENTINA: UN LLAMADO A LA RESISTENCIA</a>
+                        </h2>
+                        <p class="font-light  text-right text-gray-500">Publicado: 01/06/2024</p>
+                        <div class=" font-sans text-lg text-left col-span-6  ">
+                        <p><i>Fernando Pedernera, miembro de la comisión directiva de SIPREBA y delegado de la intersindical en Radio Nacional, alerta sobre el peligro que enfrentan los medios públicos en Argentina, incluyendo la posible venta de Radio Nacional y el cierre de Télam, la agencia de noticias nacional.</i>
+                        </p>
+                        <br>
+                        {{-- <figure>
+                            <img class="w-full object-cover" src="../img/soc/soc_federa.svg"
+                                alt="">
+                        </figure> --}}
+                        
+                        <article>
+                            <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/Z8erUjiM40o?si=cY0HKLmYrrwJbmcA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            
+                        </article>
+                        <br>
+                        <div
+                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                            <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                <p>En un contexto de incertidumbre y preocupación, Fernando Pedernera, destacado miembro de la comisión directiva de SIPREBA y delegado de la intersindical en Radio Nacional, ha levantado la voz para advertir sobre los riesgos que enfrentan los medios públicos en Argentina. En declaraciones recientes, Pedernera ha señalado que el gobierno actual está considerando la venta de Radio Nacional y el cierre de Télam, la agencia de noticias nacional, lo que representa un grave peligro para la diversidad informativa y la democracia en el país. 
+                                </p>
+                                <br>
+                                <p>Para Pedernera, la defensa de los medios públicos va más allá de una cuestión laboral o sectorial: es un tema de soberanía informativa y de derecho de la ciudadanía a acceder a una información plural y diversa. En un momento en el que la concentración de medios privados es cada vez mayor, los medios públicos juegan un papel fundamental en garantizar que la información llegue de forma equitativa a toda la población.</p>
+                                <br>
+                                <p>El dirigente sindical destaca además la importancia histórica de los medios públicos en Argentina, recordando cómo las emisoras de Radio Nacional fueron clave durante momentos críticos de la historia del país, como el levantamiento de los carapintadas en 1987. Este legado de compromiso con la verdad y la diversidad informativa es lo que está en juego en la actualidad.
+                                </p>
+                                <br>
+                                <p>En un gesto de solidaridad y compromiso, el equipo de ADN Populares se ha unido a la defensa de los medios públicos, reconociendo su importancia en la construcción de una sociedad informada y democrática. Pedernera y su equipo están decididos a resistir cualquier intento de desmantelamiento de los medios públicos, reafirmando su compromiso con la libertad de expresión y la soberanía informativa en Argentina.
+                                </p>
+                                <br>
+                                
+                                
+
+                                <div class="text-start object-center">
+                                    {{-- <figure>
+                                        <img class="w-28 h-28  "
+                                            src="{{ asset('../img/der/Adri.svg') }}"
+                                            alt="">
+                                        
+                                        <p> <strong>Nota de Adriana Zerdín</strong></p>
+
+                                    </figure>  --}}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </li>
+        </ul>
+        <br>
+    </section>
+        {{--RODOLFO YANZÓN: "LA LUCHA POR LOS DERECHOS HUMANOS Y LA CLASE TRABAJADORA..--}}
+    <section> 
+        <ul>
+            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                <article>
+
+                    <div class="py-4 px-4 justify-between items-center">
+                        <h2 class="text-xl font-serif  font-bold pb-6">
+                            <a href="">RODOLFO YANZÓN: "LA LUCHA POR LOS DERECHOS HUMANOS Y LA CLASE TRABAJADORA VAN DE LA MANO"</a>
+                        </h2>
+                        <p class="font-light  text-right text-gray-500">Publicado: 01/06/2024</p>
+                        <div class=" font-sans text-lg text-left col-span-6  ">
+                        <p><i>Yanzón, quien recibió el reconocimiento en la legislatura porteña, reafirmó su compromiso con la clase trabajadora y la defensa de la memoria, la verdad y la justicia en Argentina.</i>
+                        </p>
+                        <br>
+                        {{-- <figure>
+                            <img class="w-full object-cover" src="../img/soc/soc_federa.svg"
+                                alt="">
+                        </figure> --}}
+                        
+                        <article>
+                            <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/c5VP9iT8Pvg?si=giH97dL_Y_icbxF7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            
+                        </article>
+                        <br>
+                        <div
+                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                            <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                <p>En el marco de la entrega de los premios Jorge Morresi 2024, Rodolfo Yanzón, reconocido abogado especializado en derechos humanos y miembro destacado de la Liga Argentina por los Derechos del Hombre, fue homenajeado por su incansable lucha por la memoria, la verdad y la justicia. Yanzón, quien también fue querellante en el juicio de la ESMA, recibió este galardón en un acto emotivo donde se destacó su compromiso y trayectoria en la defensa de los derechos humanos en Argentina. 
+                                </p>
+                                <br>
+                                <p>Durante la entrega del premio, Yanzón destacó la importancia de la universidad pública y gratuita en su formación como abogado y su vínculo con la clase trabajadora. "Yo vengo de la clase trabajadora y pude ser abogado gracias a la universidad pública gratuita. Nunca me olvidé de ser de esa clase y me voy a morir siendo de la clase trabajadora", afirmó Yanzón, resaltando la importancia de la educación pública en la formación de profesionales comprometidos con la justicia social.</p>
+                                <br>
+                                <p>Asimismo, Yanzón hizo hincapié en el ejemplo de las Madres y Abuelas de Plaza de Mayo, así como en el papel fundamental de las organizaciones de derechos humanos y los sindicatos en la lucha por los derechos humanos y laborales en Argentina. "Las organizaciones van a seguir, el payaso que hoy está en la Casa Rosada será algo transitorio, un dolor de cabeza seguro, pero va a pasar y las organizaciones van a quedar", expresó Yanzón, destacando la importancia de la resistencia y la continuidad en la lucha por los derechos humanos.
+                                </p>
+                                <br>
+                                <p>Además, Yanzón hizo referencia a la persistencia de los discursos negacionistas y reivindicatorios por parte de algunos sectores de la sociedad. "Estamos hablando de gente que reivindica, no es que niegan, reivindican lo afirman y dicen que lo volverían a hacer", señaló Yanzón, enfatizando la importancia de seguir combatiendo la impunidad y el olvido en relación con los crímenes de lesa humanidad cometidos durante la última dictadura militar en Argentina.
+                                </p>
+                                <br>
+                                <p>En este sentido, Yanzón resaltó la importancia de la lucha colectiva y la unidad en la defensa de los derechos humanos y la memoria histórica. "Este pueblo no se va a doblegar, hemos dejado claro que no vamos a permitir que se siga reivindicando el pacto de silencio que hemos querido romper en todos estos años", concluyó Yanzón, reafirmando su compromiso y el de toda la sociedad en la búsqueda de justicia y verdad.
+                                </p>
+                                <br>
+                                
+                                
+
+                                <div class="text-start object-center">
+                                    {{-- <figure>
+                                        <img class="w-28 h-28  "
+                                            src="{{ asset('../img/der/Adri.svg') }}"
+                                            alt="">
+                                        
+                                        <p> <strong>Nota de Adriana Zerdín</strong></p>
+
+                                    </figure>  --}}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </li>
+        </ul>
+        <br>
+    </section>
+        {{--FEDERACIÓN DE MEDIOS DIGITALES..--}}
+    <section> 
+        <ul>
+            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                <article>
+
+                    <div class="py-4 px-4 justify-between items-center">
+                        <h2 class="text-xl font-serif  font-bold pb-6">
+                            <a href="">FEDERACIÓN DE MEDIOS DIGITALES HACE SU PRESENTACIÓN EN LA PLATA</a>
+                        </h2>
+                        <p class="font-light  text-right text-gray-500">Publicado: 28/05/2024</p>
+                        <div class=" font-sans text-lg text-left col-span-6  ">
+                        <p><i>Con más de 80 medios asociados a la Red, la Federación de Medios Digitales realizará su presentación oficial en La Plata este miércoles 29 de mayo. Tras obtener la personería jurídica hace más de un año y visitar provincias como San Juan, Tucumán y Córdoba, la Federación hará su debut en la capital bonaerense.</i>
+                        </p>
+                        <br>
+                        <figure>
+                            <img class="w-full object-cover" src="../img/soc/soc_federa.svg"
+                                alt="">
+                        </figure>
+                        
+                        {{-- <article>
+                            <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/UqID0Ip36fk?si=YLUh3qCeGsHV25ll" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            
+                        </article> --}}
+                        <br>
+                        <div
+                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                            <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                <p>La presentación tendrá lugar a las 16 horas en la Sala Polivalente del Pasaje Dardo Rocha, en la calle 50 entre 6 y 7. En el evento participarán alrededor de 30 autoridades de cooperativas de medios digitales, radiales, impresos y productoras de contenidos multimediales, quienes abordarán el estado de situación de los medios cooperativos. 
+                                </p>
+                                <br>
+                                <p>La jornada continuará con una mesa cultural en Esquina América, calle 18 y 71, a partir de las 19 horas, que se transmitirá por streaming en el canal de Youtube de @argmediosok. En este espacio se espera la presencia de funcionarios del Gobierno municipal y provincial, académicos y estudiantes de la carrera de Periodismo y Comunicación Social de la Universidad Nacional de La Plata (UNLP).</p>
+                                <br>
+                                <p>La Federación de Medios Digitales, integrada por 80 medios de Argentina, tiene como objetivo defender y mejorar la situación de medios de comunicación alternativos. Laureano Barrera, referente de la Federación y perteneciente al medio Perycia, destacó que la elección de La Plata para la presentación se debe a que es donde está “asentado el poder político de la provincia”.
+                                </p>
+                                <br>
+                                <p>En este contexto, la Federación busca dialogar con otros actores institucionales y construir junto a funcionarios, dirigentes y políticos. Para ello, han preparado una intensa charla donde integrantes de distintos medios hablarán acerca de la situación que atraviesan los medios populares, alternativos y comunitarios.
+                                </p>
+                                <br>
+                                <p>Entre las actividades de la Federación se encuentran un proyecto de ley para fomentar los medios cooperativos en la agenda gubernamental, la regulación de plataformas para que empresas multinacionales paguen un porcentaje justo por el trabajo de los medios digitales, un censo para visibilizar el sector y gestionar mejor los recursos, pasantías con estudiantes universitarios y la preparación del Encuentro Federal en Santa Fe para trazar una agenda que permita nuevas conquistas.
+                                </p>
+                                <br>
+                                <p>La presentación en La Plata es un paso más en el camino de resistencia y crecimiento de la Federación de Medios Digitales, que busca mantener firmes sus objetivos a pesar de la coyuntura política y económica.</p>
+                                <br>
+                                
+
+                                <div class="text-start object-center">
+                                    {{-- <figure>
+                                        <img class="w-28 h-28  "
+                                            src="{{ asset('../img/der/Adri.svg') }}"
+                                            alt="">
+                                        
+                                        <p> <strong>Nota de Adriana Zerdín</strong></p>
+
+                                    </figure>  --}}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </li>
+        </ul>
+        <br>
+    </section>
+        {{--MINIBUSES ELÉCTRICOS RECORRERÁN EL MICROCENTRO PORTEÑO..--}}
+    <section> 
+        <ul>
+            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                <article>
+
+                    <div class="py-4 px-4 justify-between items-center">
+                        <h2 class="text-xl font-serif  font-bold pb-6">
+                            <a href="">MINIBUSES ELÉCTRICOS RECORRERÁN EL MICROCENTRO PORTEÑO</a>
+                        </h2>
+                        <p class="font-light  text-right text-gray-500">Publicado: 27/05/2024</p>
+                        <div class=" font-sans text-lg text-left col-span-6  ">
+                        <p><i>El Gobierno de la Ciudad de Buenos Aires adquirirá 12 minibuses eléctricos que recorrerán el Casco Histórico, mejorando la conectividad y reduciendo las emisiones de carbono.</i>
+                        </p>
+                        <br>
+                        <figure>
+                            <img class="w-full object-cover" src="../img/soc/soc_mini1.svg"
+                                alt="">
+                        </figure>
+                        
+                        {{-- <article>
+                            <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/UqID0Ip36fk?si=YLUh3qCeGsHV25ll" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            
+                        </article> --}}
+                        <br>
+                        <div
+                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                            <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                <p>Con el objetivo de avanzar en la descarbonización del transporte público, el Gobierno de la Ciudad de Buenos Aires ha lanzado una licitación pública para la adquisición de 12 minibuses eléctricos. Estos vehículos están destinados a recorrer el Casco Histórico, una zona que abarca desde Retiro hasta Parque Lezama, con un trayecto total de 12.3 kilómetros y 36 paradas. 
+                                </p>
+                                <br>
+                                <p>El proyecto busca mejorar la conectividad en áreas que fueron afectadas por las obras de puesta en valor realizadas en 2022, las cuales trasladaron las líneas de colectivos que circulaban por calles históricas como Perú, Chacabuco, Bolívar y Defensa hacia los Metrobuses de 9 de Julio y del Bajo. Ahora, los minibuses eléctricos ofrecerán una solución sostenible y eficiente para los residentes y visitantes del microcentro porteño.</p>
+                                <br>
+                                <p>Las unidades, que realizarán un trayecto de ida de 7.3 kilómetros y de vuelta de 5 kilómetros en aproximadamente 97 minutos, están diseñadas con piso bajo y adaptaciones para personas con movilidad reducida, garantizando accesibilidad para todos. Además, el servicio será operado exclusivamente por conductoras mujeres, quienes recibirán becas para obtener su licencia de conducir, en un esfuerzo por promover la inclusión laboral femenina.
+                                </p>
+                                <br>
+                                <p>El jefe de Gobierno porteño, Jorge Macri, destacó la importancia de este proyecto como parte de su compromiso con la movilidad sustentable. "La descarbonización del transporte público es uno de los objetivos que tenemos. Este minibus es el primer paso y buscamos vincular el Casco Histórico de la Ciudad cuidando el medio ambiente y ante el cambio climático para que todos podamos vivir mejor", afirmó.
+                                </p>
+                                <br>
+                                <p>Por su parte, el ministro de Infraestructura, Pablo Bereciartúa, subrayó la relevancia de la movilidad eléctrica en la lucha contra la contaminación urbana. "La movilidad sustentable es el camino hacia un futuro más limpio. Con el minibús eléctrico, Buenos Aires tiene la posibilidad de revitalizar su Casco urbano con una alternativa sostenible y sin emisiones", señaló.
+                                </p>
+                                <br>
+                                <p>El recorrido previsto para los minibuses eléctricos incluirá las siguientes calles y avenidas:</p>
+                                <br>
+                                <p><b>Ida</b> Desde Av. Elvira Rawson De Dellepiane y Av. Brasil, pasando por Av. Juan De Garay, Av. Paseo Colón, Av. Martín García, Uspallata, Ituzaingó, Piedras, Av. Brasil, Perú, Av. Belgrano, Av. Presidente Julio A. Roca, Moreno, Piedras, Esmeralda, Bartolomé Mitre, San Martín, Marcelo T. De Alvear, Esmeralda, Arenales, Crucero Gral. Belgrano, hasta Juncal.</p>
+                                <br>
+                                <p><b>Vuelta</b> Desde Juncal y Crucero General Belgrano, por Juncal, Maipú, Av. Santa Fe, Maipú, Chacabuco, Av. Brasil, hasta Av. Elvira Rawson de Dellepiane.</p>
+                                <br>
+                                <p>Se espera que este nuevo sistema de transporte beneficie a más de 500,000 pasajeros anualmente, ofreciendo una opción de movilidad moderna, accesible y ecológica en el corazón de Buenos Aires.</p>
+                                <br>
+
+                                <div class="text-start object-center">
+                                    {{-- <figure>
+                                        <img class="w-28 h-28  "
+                                            src="{{ asset('../img/der/Adri.svg') }}"
+                                            alt="">
+                                        
+                                        <p> <strong>Nota de Adriana Zerdín</strong></p>
+
+                                    </figure>  --}}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </li>
+        </ul>
+        <br>
+    </section>
+        {{--LA CIUDAD PLANTARÁ 18.000 ÁRBOLES....--}}
+    <section> 
+        <ul>
+            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                <article>
+
+                    <div class="py-4 px-4 justify-between items-center">
+                        <h2 class="text-xl font-serif  font-bold pb-6">
+                            <a href="">LA CIUDAD PLANTARÁ 18.000 ÁRBOLES Y REEMPLAZARÁ LOS CAÍDOS POR EL TEMPORAL</a>
+                        </h2>
+                        <p class="font-light  text-right text-gray-500">Publicado: 27/05/2024</p>
+                        <div class=" font-sans text-lg text-left col-span-6  ">
+                        <p><i>El Ministerio de Espacio Público e Higiene Urbana anunció un incremento del 20% en la plantación de árboles, con 18.074 ejemplares para este año.</i>
+                        </p>
+                        <br>
+                        <figure>
+                            <img class="w-full object-cover" src="../img/soc/soc_planta.svg"
+                                alt="">
+                        </figure>
+                        
+                        {{-- <article>
+                            <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/UqID0Ip36fk?si=YLUh3qCeGsHV25ll" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            
+                        </article> --}}
+                        <br>
+                        <div
+                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                            <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                <p>El Gobierno de la Ciudad de Buenos Aires plantará 18.074 árboles en 2024, sumando 3.074 adicionales para reemplazar los árboles caídos durante el temporal de diciembre. Este esfuerzo representa un incremento significativo en el arbolado urbano. 
+                                </p>
+                                <br>
+                                <p>El Ministerio de Espacio Público e Higiene Urbana del Gobierno de la Ciudad de Buenos Aires ha lanzado un ambicioso plan de arbolado que contempla la plantación de 18.074 árboles este año. De estos, 15.000 forman parte del plan maestro de arbolado porteño, mientras que los restantes 3.074 se añadirán para mitigar el impacto del fuerte temporal del 17 de diciembre, que derribó casi 1.000 árboles. Según el ministerio, esto representa un aumento de más del 20% en comparación con los árboles plantados en años anteriores y un incremento del 50% respecto a 2023.</p>
+                                <br>
+                                <p>Las plantaciones se llevarán a cabo en los espacios verdes de todas las comunas y en las planteras ubicadas en la vía pública. Las empresas encargadas del mantenimiento del arbolado urbano serán las responsables de proveer los nuevos árboles. Además, se sumarán 7.500 nuevas planteras y se relevó que 6.131 planteras están vacías. También se incorporarán 4.443 ejemplares en los espacios verdes de la ciudad.
+                                </p>
+                                <br>
+                                <p>El plan incluye una variedad de al menos 30 especies de árboles, como fresno dorado, crespón, fotinia, viscote, pata de vaca, anacahuita, cedro misionero, lapacho rosado, ciruelo de flor, jacarandá, liquidámbar, tulipanero, plátano, tilo, ibirapitá, caña fístula, tipa, fresno americano y arce plateado, entre otros. La elección de las especies se basará en la disponibilidad en el mercado al momento de la plantación, siempre respetando el diseño paisajístico original.
+                                </p>
+                                <br>
+                                <p>Una situación especial se presenta en el Parque Tres de Febrero de Palermo (Comuna 14), que sufrió importantes pérdidas en su patrimonio forestal durante el temporal. En este caso, se está realizando un censo total de los árboles para luego desarrollar un proyecto de reforestación que se ajuste lo más posible al diseño original, basado en la documentación gráfica histórica existente.
+                                </p>
+                                <br>
+                                <p>Este esfuerzo no solo busca embellecer la ciudad, sino también mejorar la calidad del aire y proporcionar más sombra y espacios verdes para los ciudadanos. El compromiso del Gobierno de la Ciudad con la reforestación y el mantenimiento del arbolado urbano es una respuesta directa a los desafíos ambientales y climáticos actuales.</p>
+                                <br>
+                                <p>La reforestación y plantación de árboles es una parte esencial del plan de la Ciudad de Buenos Aires para crear un entorno urbano más sostenible y saludable para sus residentes.</p>
+                                <br>
+                                
+                                <div class="text-start object-center">
+                                    {{-- <figure>
+                                        <img class="w-28 h-28  "
+                                            src="{{ asset('../img/der/Adri.svg') }}"
+                                            alt="">
+                                        
+                                        <p> <strong>Nota de Adriana Zerdín</strong></p>
+
+                                    </figure>  --}}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </li>
+        </ul>
+        <br>
+    </section>
         {{--JORNADA POR LA COMUNICACIÓN Y LA CULTURA--}}
     <section> 
         <ul>

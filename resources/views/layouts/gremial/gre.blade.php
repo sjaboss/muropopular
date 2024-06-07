@@ -1,5 +1,55 @@
 <x-app-layout>
     <div class="container ">
+        {{--LA CGT MARCHARÁ AL CONGRESO CONTRA LA LEY BASES  --}}
+    <section>
+        <ul>
+            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                <article>
+
+                    <div class="py-4 px-4 justify-between items-center">
+                        <h2 class="text-xl font-serif  font-bold pb-6">
+                            <a href="">LA CGT MARCHARÁ AL CONGRESO CONTRA LA LEY BASES
+                            </a>
+                        </h2>
+                        <p class="font-light  text-right text-gray-500">Publicado: 28/05/2024</p>
+                        <div class=" font-sans text-lg text-left col-span-6  ">
+                        <p><i>La movilización, anunciada por Pablo Moyano, tiene como objetivo "defender a los trabajadores". La central obrera rechaza la convocatoria al "Consejo de Mayo" propuesta por Javier Milei.</i>
+                        </p>
+                        <br>
+                        {{-- <article>
+                            <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/mDyomkBc1DE?si=bnT2gxK0tSpFUqx1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            
+                        </article> --}}
+                        <figure>
+                            <img class=" w-full object-cover" src="../img/grem/grem_leybases.svg"
+                                alt="">
+                        </figure>
+                        <br>
+                        <div
+                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                            <div class=" font-sans text-lg text-left col-span-6  ">
+                                <p>La Confederación General del Trabajo (CGT), a través de su cotitular Pablo Moyano, confirmó que marchará en contra de la Ley Bases el día en que se debata en el Senado. Además, Moyano rechazó formar parte del Consejo de Mayo propuesto por Javier Milei, a quien criticó duramente, llamándolo "el hazmerreír del mundo".
+                                </p>
+                                <br>
+                                <p>Estas declaraciones se realizaron durante el plenario de la CGT en Pergamino, donde Moyano ratificó "el compromiso de la central obrera con la defensa de los trabajadores" y llamó a la unidad en defensa de los derechos laborales, oponiéndose al proyecto oficialista que ya cuenta con media sanción en Diputados pero enfrenta dificultades para conseguir consensos en Senadores.
+                                </p>
+                                <br>
+                                <p>Moyano criticó a senadores y gobernadores por apoyar un decreto de necesidad y urgencia que, según él, perjudica a los trabajadores y a los argentinos, a pesar de que "cantan la marcha peronista y al llegar al Congreso votan en contra de los trabajadores".
+                                </p>
+                                <br>
+                                <p>El líder de la CGT expresó su esperanza de que la Ley Bases sea rechazada y vuelva a Diputados para ser tratada el año que viene, destacando que cada vez más sectores salen a la calle en protesta. Moyano también rechazó el Consejo de Mayo propuesto por Milei, calificándolo como un "manotazo de ahogado" y una "chantada".</p>
+                                <br>
+                                <p>En otro orden, el ministro de Trabajo bonaerense y dirigente del gremio de curtidores, Walter Correa, también presente en el plenario, criticó la norma que, según él, busca la venta indiscriminada de recursos naturales, convirtiendo a Argentina en una colonia.</p>
+                                <br>
+                                <p>La CGT, en un contexto de creciente malestar, se suma a la oposición contra la Ley Bases y promete movilizarse en defensa de los derechos de los trabajadores, mientras el Gobierno se ve envuelto en polémicas por la gestión de alimentos destinados a comedores sociales.</p>
+                                <br>
+                                
+                            </div>
+                        </div>
+                </article>
+            </li>
+        </ul>
+    </section>
         {{--PARO HISTÓRICO Y TRANSVERSAL: GREMIOS DOCENTES SE PLANTAN EN TODO EL PAÍS  --}}
     <section>
         <ul>
