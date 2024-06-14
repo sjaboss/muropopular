@@ -7616,6 +7616,496 @@
                     </aside>
                 </div>
             </section>
+        @elseif ($tituloSep == 'Sociedad-Noticia-Completa-soc60')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">LA VOZ INQUEBRANTABLE DEL PERIODISMO COMPROMETIDO</a>
+                                        </h2>
+                                        <p class="font-light  text-right text-gray-500">Publicado: 07/06/2024</p>
+                                        <div class=" font-sans text-lg text-left col-span-6  ">
+                                        <p><i>Siempre escribiendo y diciendo la verdad, denunciando el mal o la injusticia y en defensa del pueblo y de la Patria.</i>
+                                        </p>
+                                        <br>
+                                        <figure>
+                                            <img class="w-full object-cover" src="../img/soc/soc_voz2.svg"
+                                                alt="">
+                                        </figure>
+                                        
+                                        {{-- <article>
+                                            <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/Z8erUjiM40o?si=cY0HKLmYrrwJbmcA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                            
+                                        </article> --}}
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                                <p>"Sin esperanza de ser escuchado, con la certeza de ser perseguido, pero fiel al compromiso que asumí hace mucho tiempo de dar testimonio en momentos difíciles." — Rodolfo Walsh 
+                                                </p>
+                                                <br>
+                                                <p>El periodismo comprometido es una vocación que trasciende los límites del simple oficio, convirtiéndose en un baluarte de la verdad y la justicia. En una era donde la información puede ser manipulada y la voz del pueblo silenciada, la labor de los periodistas que abrazan esta causa es más esencial que nunca.</p>
+                                                <br>
+                                                <p>Estos periodistas no solo informan; denuncian y exponen las injusticias, actuando como guardianes de la verdad y la transparencia. La tinta de sus plumas, la fuerza de sus teclados y el poder de sus voces son herramientas que nunca deben ser silenciadas. Aunque el riesgo de persecución es una constante, el compromiso con la verdad y con el testimonio en momentos difíciles es una convicción que no puede ser doblegada.
+                                                </p>
+                                                <br>
+                                                <p>En este contexto, la lucha por un periodismo libre y valiente cobra un significado especial. La defensa de la Patria y del pueblo requiere una dedicación inquebrantable, una voluntad de enfrentar las adversidades y un deseo ferviente de construir una sociedad más justa y equitativa. La misión de estos periodistas es clara: ser la voz de los sin voz, exponer las verdades ocultas y desafiar las narrativas impuestas por aquellos en el poder.
+                                                </p>
+                                                <br>
+                                                <p>El periodista comprometido continúa su labor con una esperanza inquebrantable y una valentía admirable, a pesar de la incertidumbre y el peligro que conlleva esta profesión. Su testimonio se convierte en un faro de luz en tiempos oscuros, una fuente de inspiración para aquellos que buscan justicia y verdad. La tinta no se secará, la punta no se romperá y la voz no se callará, porque la lucha por un mundo más justo y veraz nunca cesará.</p>
+                                                <br>
+                                                <p>Siguiendo el espíritu de las palabras de Rodolfo Walsh, recordamos la importancia de mantener viva la llama del periodismo ético y comprometido, siempre en defensa del pueblo y de la Patria. Que cada artículo, cada reportaje y cada declaración sea un testimonio de la verdad, una denuncia contra la injusticia y un acto de resistencia en favor de una sociedad mejor.</p>
+                                                <br>
+                                                
+
+                                                <div class="text-start object-center">
+                                                    {{-- <figure>
+                                                        <img class="w-28 h-28  "
+                                                            src="{{ asset('../img/der/Adri.svg') }}"
+                                                            alt="">
+                                                        
+                                                        <p> <strong>Nota de Adriana Zerdín</strong></p>
+
+                                                    </figure>  --}}
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+                            </li>
+                        </ul>
+                        <br>
+                    </div>
+
+
+                    {{-- columna de la derecha chica --}}
+                    <aside>
+                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                            <div class=" col-span-6">
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/bener-leg2.png') }}"
+                                        alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
+                                        alt="">
+                                </a>
+
+                                <div id="app">
+
+                                    <div v-for="item in info">
+
+                                        <div class="flex-col pb-3">
+                                            <div
+                                                class="flex-col max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg"
+                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
+                                                        alt="" />
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5
+                                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                                            @{{ item.title }}</h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div v-for="va in clima">
+
+                                        <h5
+                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                            @{{ va }}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+                </div>
+            </section>
+        @elseif ($tituloSep == 'Sociedad-Noticia-Completa-soc61')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">KICILLOF Y DÍAZ LANZAN LA ESCUELA DE GÉNERO, GOBIERNO Y COMUNIDAD</a>
+                                        </h2>
+                                        <p class="font-light  text-right text-gray-500">Publicado: 09/06/2024</p>
+                                        <div class=" font-sans text-lg text-left col-span-6  ">
+                                        <p><i>Axel Kicillof y Estela Díaz presentaron la Escuela de Género, Gobierno y Comunidad en Buenos Aires, con un enfoque en formación y políticas de género.</i>
+                                        </p>
+                                        <br>
+                                        <figure>
+                                            <img class="w-full object-cover" src="../img/soc/soc_escuela.svg"
+                                                alt="">
+                                        </figure>
+                                        
+                                        {{-- <article>
+                                            <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/Z8erUjiM40o?si=cY0HKLmYrrwJbmcA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                            
+                                        </article> --}}
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                                <p>El gobernador de la provincia de Buenos Aires, Axel Kicillof, y la ministra de Mujeres y Diversidad, Estela Díaz, encabezaron el lanzamiento de la Escuela de Género, Gobierno y Comunidad, destinada a la formación de agentes del Estado e integrantes de organizaciones sociales y comunitarias para fortalecer el desarrollo territorial de las políticas de género en todo el territorio bonaerense. El acto se realizó en el Salón Dorado de la Casa de Gobierno, con la participación de la jefa de Asesores, Cristina Álvarez Rodríguez, y la presidenta honorífica del Consejo Asesor Académico de la nueva institución, Dora Barrancos.
+                                                </p>
+                                                <br>
+                                                <p>Esta herramienta pedagógica tiene como finalidad formar agentes del Estado, clubes, sindicatos, empresas, partidos políticos y a todos los actores sociales para alcanzar una provincia más justa y plural en materia de igualdad entre los géneros. Dependerá directamente del Ministerio de Mujeres y Diversidad y estará a cargo Iris Pezzarini, directora provincial de Formación, Investigación y Políticas Culturales para la Igualdad.</p>
+                                                <br>
+                                                <p>El gobernador Axel Kicillof destacó: “En este contexto de retroceso institucional en materia de políticas públicas y presupuestos, asumimos el desafío de federalizar las iniciativas de nuestro Ministerio de Mujeres y Diversidad, el único que ha quedado en la Argentina. Esta escuela va en esa dirección: no sólo sostenemos lo que está funcionando junto a los 135 municipios, sino que ampliamos el trabajo para abrir nuevos espacios de participación a toda la comunidad” y señaló: “Pedimos el rechazo de la Ley Bases porque, entre otros enormes retrocesos, elimina la moratoria previsional en un ataque frontal y despiadado contra las mujeres de nuestro país”.
+                                                </p>
+                                                <br>
+                                                <p>"Presentar una Escuela de Género, Gobierno y Comunidad en este contexto es muy importante, ya que vivimos una situación de ataque sistemático y constante a la perspectiva feminista, de género y a los derechos de las mujeres y las diversidades adquiridos en Argentina", expresó la ministra Estela Díaz y agregó: “Elegimos este día para ratificar la voluntad del Gobierno de la Provincia de Buenos Aires de seguir trabajando para prevenir, sancionar, erradicar, acompañar a las víctimas, trabajar en los procesos de salida de las violencias, pero también para todos aquellos aspectos que hacen a las desigualdades estructurales, que son las bases de discriminaciones y violencias.”
+                                                </p>
+                                                <br>
+                                                <p>Durante la presentación, la socióloga feminista Dora Barrancos recibió el título de presidenta honorífica de la Escuela, en reconocimiento a su amplia trayectoria política y académica en defensa de los derechos de las mujeres y diversidades de nuestro país y de América Latina. “Esta escuela ha venido para quedarse y es una respuesta ante los discursos de los sectores reaccionarios y conservadores. Aquí se está construyendo verdaderamente el gran muro de resistencia”, afirmó la historiadora.</p>
+                                                <br>
+                                                <p>El lanzamiento se produce a nueve años de la marcha “Ni Una Menos”, y en el marco de un fuerte recorte del gasto del Gobierno nacional en las políticas públicas que apuntan a reducir la desigualdad de género: en lo que va de 2024 ha sido un 33% menor respecto al año pasado. Además, se registran caídas del 80% en la ejecución interanual del presupuesto del programa Acompañar y del 25,52% del presupuesto dedicado a la atención de la Línea 144.</p>
+                                                <br>
+                                                <p>La Escuela está organizada en tres dispositivos: formativos; culturales; y de recursos, monitoreo y evaluación. Su Consejo Asesor Académico está conformado por la Comisión Económica para América Latina y el Caribe (CEPAL), el Consejo Latinoamericano de Ciencias Sociales (CLACSO) y Universidades Nacionales con asiento en la provincia de Buenos Aires.</p>
+                                                <br>
+                                                <p>En una primera instancia, se implementarán dos diplomaturas de pregrado. Una de ellas en “Prevención comunitaria de las Violencias por Razones de Género”, destinada a integrantes de organizaciones sociales; y otra en “Abordaje Estatal Integral de las Violencias por Razones de Género”, que alcanzará a 6.000 agentes estatales provinciales y municipales.</p>
+                                                <br>
+
+                                                <div class="text-start object-center">
+                                                    {{-- <figure>
+                                                        <img class="w-28 h-28  "
+                                                            src="{{ asset('../img/der/Adri.svg') }}"
+                                                            alt="">
+                                                        
+                                                        <p> <strong>Nota de Adriana Zerdín</strong></p>
+
+                                                    </figure>  --}}
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+                            </li>
+                        </ul>
+                        <br>
+                    </div>
+
+
+                    {{-- columna de la derecha chica --}}
+                    <aside>
+                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                            <div class=" col-span-6">
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/bener-leg2.png') }}"
+                                        alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
+                                        alt="">
+                                </a>
+
+                                <div id="app">
+
+                                    <div v-for="item in info">
+
+                                        <div class="flex-col pb-3">
+                                            <div
+                                                class="flex-col max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg"
+                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
+                                                        alt="" />
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5
+                                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                                            @{{ item.title }}</h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div v-for="va in clima">
+
+                                        <h5
+                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                            @{{ va }}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+                </div>
+            </section>
+        @elseif ($tituloSep == 'Sociedad-Noticia-Completa-soc62')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">SOCIALISMO NACIONAL: EL PERONISMO PENDIENTE</a>
+                                            <p class="font-light  text-lef text-gray-500">Por Jorge Rachid</p>
+                                        </h2>
+                                        <p class="font-light  text-right text-gray-500">Publicado: 10/06/2024</p>
+                                        <div class=" font-sans text-lg text-left col-span-6  ">
+                                        <p>Una situación internacional convulsa con un país en crisis profunda, nos debe obligar a repensar los ejes culturales y políticos que marcan nuestra historia, la de los pueblos latinoamericanos, que a lo largo de los siglos forjaron la construcción de identidad americana, con luchas emancipadoras y procesos de liberación nacional, que fueron siempre contra los imperios, primero español, luego inglés y desde hace un siglo el imperio norteamericano.
+                                        </p>
+                                        <br>
+                                        <figure>
+                                            <img class="w-full object-cover" src="../img/soc/soc_social.svg"
+                                                alt="">
+                                        </figure>
+                                        
+                                        {{-- <article>
+                                            <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/Z8erUjiM40o?si=cY0HKLmYrrwJbmcA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                            
+                                        </article> --}}
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                                <p>Desconocer nuestra historia, es convertir al país en una hoja al viento de los nuevos profetas, siempre apalancados en el coloniaje, tanto económico como militar, que intentan sujetar la posibilidad de una construcción latinoamericana, que ya hirió profundamente los intereses de EEUU, como fue el UNASUR y que destruido por la acción combinada de los gobiernos cipayos y una OEA que se puso al servicio de ese objetivo de intereses norteamericanos.
+                                                </p>
+                                                <br>
+                                                <p>En esa reflexión necesaria, debemos partir de aquellas utopías planteadas desde el marco teórico, filosófico y político por Perón en su actualización doctrinaria para la toma del poder, de la década de 1970, cuando desplegaba su planificación estratégica de la vuelta al poder, después de 18 años de proscripciones y dictaduras, que intentaron impedir la voluntad del pueblo de expresar su conciencia colectiva solidaria y transformadora.</p>
+                                                <br>
+                                                <p>El mismo Líder que nos anunciaba a sesenta días de morir un modelo argentino para el proyecto nacional, un camino donde alertaba sobre los planes del imperialismo sobre nuestros recursos naturales, los alimentos y el agua dulce y que “vendrían por ellos con nosotros o sin nosotros”, por lo cual los Estados Nación seríamos débiles ante el avance del enemigo, por lo que planteaba la necesidad de construir el Continentalismo, como masa crítica de una batalla asimétrica con el gigante norteamericano, fortalecido agresivamente desde la pos guerra.
+                                                </p>
+                                                <br>
+                                                <p>Nada mejor que reproducir a Perón en sus propias palabras: 
+                                                </p>
+                                                <br>
+                                                <p>"JUSTICIALISMO SOCIALISMO NACIONAL"</p>
+                                                <br>
+                                                <p>Entonces debe haber una Tercera Posición que es la que concibe el justicialismo, donde el hombre, en una comunidad que se realiza, pueda también realizarse como ente humano. Esa es la verdadera concepción justicialista que venimos expresando desde hace veinticinco años. Las dos terceras partes de los habitantes del mundo y sus comunidades están pujando por colocarse en esa Tercera Posición.</p>
+                                                <br>
+                                                <p>LA TERCERA POSICIÓN</p>
+                                                <br>
+                                                <p>El antiimperialismo del Tercer Mundo tan distante de uno como del otro de los imperialismos dominantes, lógicamente, el Tercer Mundo está en la tercera posición. La evolución de la humanidad ha ido hacia integraciones mayores: del hombre a la familia, la tribu, el estado primitivo, el estado feudal, la nacionalidad -que hemos vivido los de mi generación-.</p>
+                                                <br>
+                                                <p>Ahora ustedes vivirán la etapa que sigue: el continentalismo. Y es posible que sus nietos y sus bisnietos lleguen a la futura y última integración, que es el universalismo como aspiración de una humanidad realizada.</p>
+                                                <br>
+                                                <p> LIBERACIÓN NACIONAL Y SOCIAL</p>
+                                                <br>
+                                                <p>Si nuestra liberación es inseparable de la liberación continental, ¿debemos coordinar también esta lucha con la de Asia y África? ¿Es esta lucha del Tercer Mundo la que puede universalizar la liberación del hombre? ¡Natural!, es el Tercer Mundo, y hoy nosotros, los que trabajamos dentro de esta línea, estamos en el Tercer Mundo y trabajamos en el Tercer Mundo, y estamos conectados todos los dirigentes populares de América con ese Tercer Mundo, como estamos conectados con la idea de la liberación del continente, trabajando para eso. Y creemos que la juventud, la gente del futuro, debe aferrarse a esa posición, porque ésa será la posición del futuro.”</p>
+                                                <br>
+                                                <p>Este mensaje doctrinario filosófico y político, fue escondido por décadas de las demandas populares, incluso denigrado por una democracia limitada al Mercado por el Consenso de Washington, apertura “generosa” del enemigo anglosajón, después de cerrar las experiencias de las dictaduras militares de la Escuela de las Américas promotora de la Doctrina de Seguridad Nacional, que hoy pretende ser revivida por la lV Flota, la OTAN además de los cipayajes aliados al colonialismo, que hoy gobiernan la Argentina.</p>
+                                                <br>
+                                                <p>Si el peronismo se sigue moviendo en el estrecho margen de esa democracia limitada, sin asumirse como eje del Movimiento Nacional de Liberación, deberá revisar sus objetivos estratégicos, planificando aquellos ejes que respondan a las demandas de la hora, en un Mundo Multipolar que ha cambiado el escenario que conocimos hasta ahora, desde la pos guerra mundial. El peronismo filosófico sigue dando respuestas desde la construcción del pensamiento, que recupera la Patria Matria Grande que es nuestro espacio de una América Latina unida que nunca debió dejar de ser.</p>
+                                                <br>
+                                                <p>Hoy enfrentamos una ofensiva final del coloniaje, que intenta destruir la identidad y la memoria nacional, fragmentar la Patria, someter la Pueblo y saquear el patrimonio nacional. Ante ésta situación debemos desplegar una acción que responda al pensamiento situado, sin seguir la agenda del enemigo y con disposición plena de luchar por el poder, para romper los techos de la dependencia del Mercado como ordenador social, construyendo un camino de reencuentro con el pueblo, con sus demandas abandonadas en aras de procesos electorales, sin contenido, ni utopías, ni esperanzas en una dirigencia con debilidades doctrinarias, que nos ha alejado de la posibilidad cierta de construir Comunidad Organizada.</p>
+                                                <br>
+                                                <p>Recuperar la banderas del Socialismo Nacional es un llamado a la reconstrucción del Movimiento Nacional con sentimiento patriótico, luchando por la Soberanía Nacional, la Independencia Económica y la Justicia Social, en un Mundo que está esperando que nuestro país recupere la historia de lucha y de construcción de conocimiento científico tecnológico, que permita ir hacia un Modelos Social y Productivo solidario, que ha sido ejemplo en los Pueblos Latinoamericanos.</p>
+                                                <br>
+                                                
+
+                                                <div class="text-start object-center">
+                                                    {{-- <figure>
+                                                        <img class="w-28 h-28  "
+                                                            src="{{ asset('../img/der/Adri.svg') }}"
+                                                            alt="">
+                                                        
+                                                        <p> <strong>Nota de Adriana Zerdín</strong></p>
+
+                                                    </figure>  --}}
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+                            </li>
+                        </ul>
+                        <br>
+                    </div>
+
+
+                    {{-- columna de la derecha chica --}}
+                    <aside>
+                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                            <div class=" col-span-6">
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/bener-leg2.png') }}"
+                                        alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
+                                        alt="">
+                                </a>
+
+                                <div id="app">
+
+                                    <div v-for="item in info">
+
+                                        <div class="flex-col pb-3">
+                                            <div
+                                                class="flex-col max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg"
+                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
+                                                        alt="" />
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5
+                                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                                            @{{ item.title }}</h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div v-for="va in clima">
+
+                                        <h5
+                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                            @{{ va }}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+                </div>
+            </section>
+        @elseif ($tituloSep == 'Sociedad-Noticia-Completa-soc63')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">AMBIENTALISTAS PIDEN AL SENADO QUE NO APRUEBE PRIVILEGIOS</a>
+                                            {{-- <p class="font-light  text-lef text-gray-500">Por Jorge Rachid</p> --}}
+                                        </h2>
+                                        <p class="font-light  text-right text-gray-500">Publicado: 11/06/2024</p>
+                                        <div class=" font-sans text-lg text-left col-span-6  ">
+                                        <p><i>Más de 100 organizaciones ambientalistas instan al Senado a rechazar el Régimen de Incentivos a las Grandes Inversiones, argumentando que compromete derechos humanos y ambientales.</i>
+                                        </p>
+                                        <br>
+                                        <figure>
+                                            <img class="w-full object-cover" src="../img/soc/soc_ambiental.svg"
+                                                alt="">
+                                        </figure>
+                                        
+                                        {{-- <article>
+                                            <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/Z8erUjiM40o?si=cY0HKLmYrrwJbmcA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                            
+                                        </article> --}}
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                                <p>El Senado argentino está próximo a debatir el Régimen de Incentivos a las Grandes Inversiones (RIGI), un proyecto que ha generado controversia y fuertes críticas por parte de organizaciones ambientalistas. Más de 100 entidades de la sociedad civil han manifestado su oposición al proyecto, argumentando que este modelo de incentivos podría comprometer seriamente los derechos humanos y el medio ambiente en el país durante las próximas décadas.
+                                                </p>
+                                                <br>
+                                                <p>La Fundación Ambiente y Recursos Naturales (FARN), a través de un comunicado de prensa, ha instado a los senadores y senadoras a que no aprueben el RIGI. Según FARN, el proyecto otorgaría prioridad a los beneficios de las empresas sobre el respeto a los derechos humanos y la protección ambiental. En particular, preocupa a las organizaciones ambientalistas que los proyectos de inversión amparados por el RIGI no puedan ser afectados por regulaciones que protegen el suministro, transporte y procesamiento de recursos naturales, como el agua y la energía.</p>
+                                                <br>
+                                                <p>Además, el RIGI establecería que ninguna ley, provincial o nacional, podría limitar o afectar las obras de infraestructura realizadas por las empresas beneficiadas, incluso si estas leyes tienen como objetivo proteger derechos humanos o el medio ambiente. Para las organizaciones ambientalistas, esto representa un grave retroceso en términos de protección ambiental y derechos humanos en el país.
+                                                </p>
+                                                <br>
+                                                <p>En respuesta a estas preocupaciones, las organizaciones solicitan a los senadores y senadoras que defiendan los territorios, los recursos naturales y el derecho al ambiente sano de todos los habitantes del país. También piden que se protejan los derechos de las comunidades campesinas e indígenas que podrían verse afectadas por este tipo de proyectos. Finalmente, hacen un llamado a respetar el principio de equidad intergeneracional y a evitar comprometer a las generaciones futuras con legislaciones que no consideren aspectos sociales ni ambientales.
+                                                </p>
+                                                <br>
+                                                <p>El debate sobre el RIGI promete ser intenso en el Senado, donde las posturas a favor y en contra del proyecto se enfrentarán en un contexto marcado por la preocupación por el medio ambiente y los derechos humanos.</p>
+                                                <br>
+                                                
+                                                
+
+                                                <div class="text-start object-center">
+                                                    {{-- <figure>
+                                                        <img class="w-28 h-28  "
+                                                            src="{{ asset('../img/der/Adri.svg') }}"
+                                                            alt="">
+                                                        
+                                                        <p> <strong>Nota de Adriana Zerdín</strong></p>
+
+                                                    </figure>  --}}
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+                            </li>
+                        </ul>
+                        <br>
+                    </div>
+
+
+                    {{-- columna de la derecha chica --}}
+                    <aside>
+                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                            <div class=" col-span-6">
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/bener-leg2.png') }}"
+                                        alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
+                                        alt="">
+                                </a>
+
+                                <div id="app">
+
+                                    <div v-for="item in info">
+
+                                        <div class="flex-col pb-3">
+                                            <div
+                                                class="flex-col max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg"
+                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
+                                                        alt="" />
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5
+                                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                                            @{{ item.title }}</h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div v-for="va in clima">
+
+                                        <h5
+                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                            @{{ va }}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+                </div>
+            </section>
     @endif
 
     </div>

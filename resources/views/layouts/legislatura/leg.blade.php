@@ -1,5 +1,108 @@
 <x-app-layout>
     <div class="container ">
+        {{--LA LEGISLATURA DISTINGUIÓ EL TRABAJO DE LA EMPRENDEDORA LORENA ALBARRACÍN.. --}}
+        <section >
+            <ul>
+                <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                    <article>
+
+                        <div class="py-4 px-4 justify-between items-center">
+                            <h2 class="text-xl font-serif  font-bold pb-6">
+                                <a href="">LA LEGISLATURA DISTINGUIÓ EL TRABAJO DE LA EMPRENDEDORA LORENA ALBARRACÍN</a>
+                            </h2>
+                            <p class="font-light  text-right text-gray-500">Publicado: 11/06/2024</p>
+                            <p><i>El Cuerpo Legislativo destacó la labor de la homenajeada en el rubro científico-tecnológico.</i></p>
+                            <br>
+                            <figure>
+                                <a href="">
+                                    <img class="w-full object-cover object-center"
+                                        src="{{ asset('../img/leg/leg_lorena2.svg') }}" alt="">
+                                </a>
+                            </figure>
+                            <br>
+                            <div
+                                class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                    <p>La Legislatura de la Ciudad entregó el Diploma al Emprendedor a Lorena Albarracín, en el rubro científico-tecnológico. El acto se llevó a cabo dentro del Salón Montevideo y contó con la presencia del legislador Juan Pablo Modarelli; el autor del proyecto y diputado mandato cumplido, Claudio Morresi, y la homenajeada.</p>
+                                    <br>
+                                    <p>Lorena Albarracín, junto a Diana Castellanos, desarrolló el CANNATEST, un innovador método que permite identificar las concentraciones de cannabinoides en diferentes matrices, como material vegetal, extracciones, aceites y mantecas. Es una herramienta de gran utilidad, tanto para cultivadores como para fabricantes de derivados de Cannabis, médicos y usuarios, que deseen conocer el contenido en mg/g (miligramos sobre gramos) del material analizado, siendo un método cualitativo y cuantitativo.</p>
+                                    <br>
+                                    <p>Es el único test de estas características representando una innovadora invención argentina. Además de ser un test que cualquier persona puede utilizar, otro de los beneficios es que se requiere una mínima muestra para obtener el resultado. El test que desarrollaron Albarracín y Castellanos se encuentra en la última etapa de validación científica por parte de laboratorios FARMACOOP, contando con una validación previa. Este test proporciona resultados rápidos y precisos logrando que el uso de cannabis sea seguro, tanto el material vegetal como las extracciones, aceites y mantecas.
+                                    </p>
+                                    <br>
+                                    <p>“Con este test es la primera vez que de una manera no costosa, uno puede saber exactamente la composición y lo que tiene frente a sus ojos, ya sea un aceite o en cualquiera de sus derivados”, destacó Modarelli, respecto al trabajo de Albarracín. Y abogó por el acceso a la información, “la deconstrucción de mitos” y encontrar ventajas y desventajas.</p>
+                                    <br>
+                                    <p>Por su parte, Albarracín agradeció la distinción. Y afirmó: “Queríamos generar accesibilidad y hacer que más pacientes y personas puedan acceder a productos de calidad, que la industria y el monopolio del cannabis no sea un impedimento para los productores”. Finalmente Morresi celebró “las diferentes ideas e ideologías” que hay en la Ciudad de Buenos Aires.</p>
+                                    <br>
+                                    
+                                </div>
+
+
+
+                            </div>
+                        </div>
+                    </article>
+                </li>
+            </ul>
+        </section>
+        {{--DESTACAN A AMALIA LABRA SANZ DE LODI Y ALBERTO LÓPEZ POR SU CONTRIBUCIÓN.. --}}
+        <section >
+            <ul>
+                <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                    <article>
+
+                        <div class="py-4 px-4 justify-between items-center">
+                            <h2 class="text-xl font-serif  font-bold pb-6">
+                                <a href="">DESTACAN A AMALIA LABRA SANZ DE LODI Y ALBERTO LÓPEZ POR SU CONTRIBUCIÓN A LA EDUCACIÓN Y LA CULTURA</a>
+                            </h2>
+                            <p class="font-light  text-right text-gray-500">Publicado: 08/06/2024</p>
+                            <p><i>Los legisladores de la Ciudad destacaron la carrera profesional de la docente y la trayectoria del músico y gaitero, por medio de dos proyectos presentados por los legisladores Sergio Siciliano y María Cecilia Ferrero.</i></p>
+                            <br>
+                            <figure>
+                                <a href="">
+                                    <img class="w-full object-cover object-center"
+                                        src="{{ asset('../img/leg/leg_amalia2.svg') }}" alt="">
+                                </a>
+                            </figure>
+                            <br>
+                            <div
+                                class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                    <p>Los diputados de la Ciudad Autónoma de Buenos Aires declararon a la fundadora y directora general del Colegio Lincoln Hall del Barrio de Belgrano, Amalia Labra Sanz de Lodi, como Personalidad Destacada en el ámbito de la Educación. En el acto celebrado en el Salón San Martín participaron el diputado y autor del proyecto, Sergio Siciliano, y la homenajeada junto a familiares y amigos.</p>
+                                    <br>
+                                    <p>Después de dar la bienvenida a “la casa de todos los porteños  y porteñas”, Siciliano destacó: “En la figura de Amalia hay muchos reconocimientos a la vez, no solo un reconocimiento a una gran pedagoga, una persona que sigue dedicando su vida a la educación y el aprendizaje de los niños; sino también a una mujer con historia”. También relató cómo surgió la iniciativa, a través de un proyecto presentado por sus ex alumnos. E informó que fue votada en forma unánime por todo el Cuerpo Legislativo. A su turno, la docente agradeció la distinción y contó su historia de vida.</p>
+                                    <br>
+                                    <p>La Profesora Amalia Labra Sanz de Lodi tuvo durante toda su vida un gran compromiso con la educación en nuestro país. Exiliada de la guerra española, llegó a la Argentina con tan solo siete años. En el año 1946 egresó de la Escuela N°1 de Profesoras de la Capital "Presidente Roque Sáenz Peña" y en 1948 se convirtió en Profesora Normal Nacional de Jardín de Infantes, luego de estudiar en el Instituto de Profesorado Superior en Jardín de Infantes "Sara Ch. de Eccleston".
+                                    </p>
+                                    <br>
+                                    <p>Agradecida con el recibimiento en nuestro país, quiso devolver con su aporte a la educación la formación que recibió en la escuela pública y por eso funda en 1950 el Colegio Lincoln Hall en el Barrio de Belgrano.</p>
+                                    <br>
+                                    <p>Su incansable labor para jerarquizar la educación en nuestro país la hicieron merecedora de una serie reconocimientos de la Junta Coordinadora de Asociaciones de la Enseñanza Privada de la República Argentina (COORDIEP). En 2015, en el marco del XIII Encuentro Federal de Escuelas Públicas de Gestión Privada recibió un galardón en reconocimiento de su aporte a la educación; y en 2017 fue distinguida por su larga trayectoria y fortalecimiento de la Educación Privada en nuestro país. Entre otros laureles.</p>
+                                    <br>
+                                    <p>Hoy la Profesora Labra Sanz de Lodi tiene 95 años y aún continúa asistiendo diariamente a su trabajo en el Colegio Lincoln Hall donde, como fundadora y directora general, supervisa que su espíritu continúe en la tarea diaria de todos los y las docentes de esa institución educativa.</p>
+                                    <br>
+                                    <p>Luego tuvo lugar el acto que declaró al gaitero, Alberto López, como Personalidad Destacada de la Cultura. Allí participó la legisladora y autora del proyecto, María Cecilia Ferrero, junto al distinguido homenajeado. “Elegí trabajar muy cerca con la colectividad española por mi acercamiento, debemos fortalecer y honrar el fortalecimiento de nuestros pueblos”, señaló la legisladora. Y concluyó, respecto al gaitero: “Es sinónimo de galleguidad y defiende su identidad en cada rincón de la Ciudad, lo que destaca su impronta internacional”.</p>
+                                    <br>
+                                    <p>Nacido en Buenos Aires en 1971, Alberto López es hijo de inmigrantes gallegos, que llegaron a nuestra ciudad durante la llamada “última oleada migratoria” de Galicia a la Argentina. Compositor, intérprete virtuoso de diferentes instrumentos entre los que sobresale la gaita gallega, su formación artística es vasta. Como estudiante asistió a clases de gaita, danzas españolas, música celta, coro, tango y folklore argentino.  Mientras que su formación en la ejecución de la gaita comenzó en el Centro Galicia de Buenos Aires.</p>
+                                    <br>
+                                    <p>Actualmente Integra diversos conjuntos musicales, entre ellos el de música celta “Abrego”, cuyos orígenes se remontan a 1989. También, desde su creación en 1998, del grupo de folk celta “Sete Netos”, en alusión a la identidad galaico-porteña de sus miembros y a la influencia de los abuelos en su música.</p>
+                                    <br>
+                                    <p>Además es Director desde 1999 de las escuelas de gaita y la banda de la Asociación Galega Residentes de Mos en Buenos Aires (“Os demos de Mos”), y desde 2012 profesor y director de la  “Escuela de Gaitas” del Centro Galicia, con el que actúa con asiduidad. Y ha realizado giras internacionales, y donde también está a cargo de la “Escuela de Música Celta” de la institución.</p>
+                                    <br>
+                                    <p>Debido a sus sobresalientes dotes musicales, que han trascendido las fronteras de nuestro país y cruzado el océano llegando hasta el noroeste peninsular, fue convocado para actuar en distintos escenarios junto a grandes músicos de la Galicia metropolitana, entre los que sobresalen los reconocidos gaiteiros Carlos Núñez y Susana Seivane, durante sus visitas a nuestra ciudad.</p>
+                                    <br>
+                                </div>
+
+
+
+                            </div>
+                        </div>
+                    </article>
+                </li>
+            </ul>
+        </section>
         {{--Se reunió la Comisión de Justicia.. --}}
         <section >
             <ul>
