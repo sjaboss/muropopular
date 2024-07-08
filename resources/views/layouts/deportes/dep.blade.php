@@ -1,5 +1,138 @@
 <x-app-layout>
     <div class="container ">
+        {{-- ARGENTINA INICIA SU DEFENSA DEL TÍTULO EN LA COPA AMÉRICA CON UNA VICTORIA SÓLIDA  --}}
+    <section>
+        <ul>
+            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                <article>
+
+                    <div class="py-4 px-4 justify-between items-center">
+                        <h2 class="text-xl font-serif  font-bold pb-6">
+                            <a href="">ARGENTINA INICIA SU DEFENSA DEL TÍTULO EN LA COPA AMÉRICA CON UNA VICTORIA SÓLIDA
+                            </a>
+                        </h2>
+                        <p><i>La Selección Argentina de Fútbol comenzó su camino en la Copa América 2024 con una victoria convincente sobre Canadá, marcando el inicio de su defensa del título con un sólido desempeño en el Mercedes-Benz Stadium de Atlanta.</i>
+                    </p>
+                        <br>
+                        <figure>
+                            <img class="w-full object-cover"
+                                src="{{ asset('../img/dep/dep_argen.svg') }}" alt="">
+
+                        </figure>
+                        <br>
+                        <div
+                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                            <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                <p>El equipo dirigido por Lionel Scaloni, que venía de un empate en la edición anterior y una derrota en el Mundial de Qatar, mostró una mejora significativa en su juego y logró imponerse 2-0 en un partido que no estuvo exento de dificultades.
+                                </p>
+                                <br>
+                                <p>Desde el inicio del encuentro, Argentina mostró su dominio en el campo, con Ángel Di María generando la primera oportunidad clara a los 8 minutos. Sin embargo, fue en el segundo tiempo cuando el equipo logró abrir el marcador, con Julián Álvarez aprovechando un rebote para convertir el primer gol del partido.
+                                </p>
+                                <br>
+                                <p>El gol de Álvarez, que rompió una sequía de 13 partidos sin marcar con la camiseta argentina, fue un impulso importante para el equipo, que luego controló el juego y amplió la ventaja con un gol de Lautaro Martínez en los últimos minutos del partido.
+                                </p>
+                                <br>
+                                <p>A pesar de la victoria, los jugadores y el cuerpo técnico argentino expresaron su preocupación por el estado del campo de juego, que fue cambiado de sintético a natural pocas horas antes del partido. Esta modificación afectó el desarrollo del juego y generó críticas por parte de los protagonistas del encuentro.</p>
+                                <br>
+                                <p>Con esta victoria, Argentina comienza su camino en la Copa América con el pie derecho y se prepara para su próximo partido contra Chile el martes 25 de junio en Nueva Jersey. El equipo albiceleste buscará mantener su buen momento y seguir avanzando en el torneo, con la esperanza de revalidar el título obtenido en la edición anterior y consolidar su lugar entre los mejores equipos de América del Sur.</p>
+                                <br>
+                                <p>El debut sólido de Argentina en el torneo ha generado expectativas entre los aficionados y ha demostrado que el equipo está listo para enfrentar los desafíos que se presenten en la Copa América. Con Lionel Messi liderando el equipo y un grupo de jugadores talentosos y comprometidos, Argentina se perfila como uno de los favoritos para llegar a lo más alto en el torneo continental.</p>
+                                <br>
+                                
+                                <div class="text-start object-center">
+                                    {{-- <figure>
+                                        <img class="w-28 h-28  "
+                                            src="{{ asset('../img/noteros/gus.svg') }}"
+                                            alt="">
+                                        <p> <strong>Por Gustavo Cano<strong></p>
+
+                                        <p><strong><strong></p>
+
+                                    </figure> --}}
+                                </div>
+
+
+                            </div>
+
+
+
+                        </div>
+                    </div>
+                </article>
+            </li>
+        </ul>
+    </section>
+        {{-- JUGADORAS DE BOCA RECHAZAN CONVOCATORIA A LA SELECCIÓN  --}}
+    <section>
+        <ul>
+            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                <article>
+
+                    <div class="py-4 px-4 justify-between items-center">
+                        <h2 class="text-xl font-serif  font-bold pb-6">
+                            <a href="">JUGADORAS DE BOCA RECHAZAN CONVOCATORIA A LA SELECCIÓN
+                            </a>
+                        </h2>
+                        <p><i>Lorena Benítez, Julieta Cruz y Laurina Oliveros anunciaron su ausencia en los próximos amistosos de la selección femenina por descontento con la AFA.</i>
+                    </p>
+                        <br>
+                        <figure>
+                            <img class="w-full object-cover"
+                                src="{{ asset('../img/dep/dep_boca.svg') }}" alt="">
+
+                        </figure>
+                        <br>
+                        <div
+                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                            <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                <p>Tres jugadoras clave de Boca Juniors decidieron no participar en los amistosos de la selección argentina, citando irregularidades y maltrato por parte de la AFA. Los partidos se jugarán el 31 de mayo y el 3 de junio contra Costa Rica.
+                                </p>
+                                <br>
+                                <p>La selección argentina de fútbol femenino enfrenta una nueva crisis. Lorena Benítez, Julieta Cruz y Laurina Oliveros, tres jugadoras de Boca Juniors, han decidido no participar en los próximos amistosos debido a irregularidades en el trato recibido por la Asociación del Fútbol Argentino (AFA). Esta decisión, anunciada a través de redes sociales, destaca problemas estructurales en el equipo nacional.
+                                </p>
+                                <br>
+                                <p>En una publicación en Instagram, Lorena Benítez relató que desde los 14 años no había vivido una situación como la actual: falta de desayuno y almuerzo durante las convocatorias de entrenamiento. "Solo recibimos un sándwich de jamón y queso con una banana", denunció. Además, mencionó la falta de viáticos, ya que los partidos se jugarían en Buenos Aires, y criticó la contradicción de cobrar $5000 a sus familias por la entrada a los estadios.
+                                </p>
+                                <br>
+                                <p>Julieta Cruz también expresó su descontento en redes sociales, destacando la falta de valor y respeto hacia las jugadoras. "Cansa no ser valorada, no ser escuchada y peor aún ser humillada", afirmó. Cruz pidió mejoras en la selección argentina, no solo en términos económicos, sino en aspectos básicos como tener un almuerzo y desayuno durante los entrenamientos.</p>
+                                <br>
+                                <p>Laurina Oliveros, por su parte, habló con el "corazón partido" sobre las ilusiones que se esfuman debido a estas condiciones. Expresó su deseo de que las futuras generaciones puedan disfrutar plenamente de su carrera en la selección.</p>
+                                <br>
+                                <p>Los amistosos de la Albiceleste están programados para el 31 de mayo en el estadio Ciudad de Caseros y el 3 de junio en el Club Atlético Platense, ambos contra Costa Rica. Sin embargo, la ausencia de Benítez, Cruz y Oliveros pone en evidencia las fallas estructurales dentro de la AFA y la necesidad urgente de reformas.</p>
+                                <br>
+                                <p>No es la primera vez que las jugadoras de la selección femenina alzan su voz contra el maltrato. En la Copa América 2018, las jugadoras realizaron el gesto de "Topollillo" como protesta por las condiciones en las que jugaban. A raíz de esa manifestación, lograron algunas mejoras, como el pago de viáticos durante los partidos amistosos.</p>
+                                <br>
+                                <p>Sin embargo, las condiciones no han mejorado lo suficiente. La mayoría de las jugadoras de fútbol deben complementar su pasión por el deporte con otros trabajos para subsistir, ya que los días que representan a la selección resultan en pérdida de ingresos y descuentos en sus salarios. Además, muchas deben movilizarse en transporte público, lo que añade una carga adicional a su rutina diaria.</p>
+                                <br>
+                                <p>La decisión de Benítez, Cruz y Oliveros resalta la necesidad de un cambio estructural en la AFA para garantizar que las jugadoras puedan desempeñarse en condiciones dignas. Este es un llamado urgente a la acción para mejorar las condiciones de las atletas que representan al país en competencias internacionales.</p>
+                                <br>
+                                <p>Con estas ausencias, la selección argentina se enfrentará a Costa Rica en medio de un clima de descontento y reivindicación, evidenciando la urgencia de una reforma profunda en el fútbol femenino nacional.</p>
+                                <br>
+                                <div class="text-start object-center">
+                                    {{-- <figure>
+                                        <img class="w-28 h-28  "
+                                            src="{{ asset('../img/noteros/gus.svg') }}"
+                                            alt="">
+                                        <p> <strong>Por Gustavo Cano<strong></p>
+
+                                        <p><strong><strong></p>
+
+                                    </figure> --}}
+                                </div>
+
+
+                            </div>
+
+
+
+                        </div>
+                    </div>
+                </article>
+            </li>
+        </ul>
+    </section>
         {{-- JUGADORAS DE BOCA RECHAZAN CONVOCATORIA A LA SELECCIÓN  --}}
     <section>
         <ul>

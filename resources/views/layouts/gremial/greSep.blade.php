@@ -3905,6 +3905,335 @@
                 </div>
 
             </section>
+        @elseif ($tituloSep == 'Gremiales-Noticia-Completa-gre32')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">CTA DENUNCIA AL GOBIERNO DE MILEI ANTE LA OIT
+                                            </a>
+                                        </h2>
+                                        <p class="font-light  text-right text-gray-500">Publicado: 12/06/2024</p>
+                                        <div class=" font-sans text-lg text-left col-span-6  ">
+                                        <p><i>La Central de Trabajadores de la Argentina (CTA), liderada por Hugo Yasky, ha presentado una denuncia ante el Comité de Libertad Sindical de la Organización Internacional del Trabajo (OIT) acusando al gobierno de Javier Milei de violar los principios de libertad sindical y negociación colectiva.</i>
+                                        </p>
+                                        <br>
+                                        {{-- <article>
+                                            <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/mDyomkBc1DE?si=bnT2gxK0tSpFUqx1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                            
+                                        </article> --}}
+                                        <figure>
+                                            <img class=" w-full object-cover" src="../img/grem/grem_oit1.svg"
+                                                alt="">
+                                        </figure>
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+                                                <p>En el documento presentado, la CTA enfatiza que el gobierno de Milei ha llevado a cabo despidos masivos e ilegales en la administración pública, contraviniendo los derechos históricamente defendidos por las organizaciones sindicales. Estas acciones, según la denuncia, constituyen una clara violación de los convenios internacionales sobre libertad sindical y negociación colectiva.
+                                                </p>
+                                                <br>
+                                                <p>Desde la asunción del gobierno en diciembre último, se han producido múltiples despidos de trabajadores estatales bajo diversos decretos y resoluciones. En particular, el decreto 84/23 del 26 de diciembre pasado dispuso la no renovación contractual de los empleados ingresados en 2023 y la revisión de las contrataciones anteriores, lo que resultó en la cesantía de unos 20 mil trabajadores, con la amenaza de alcanzar los 70 mil, según declaraciones del propio presidente.
+                                                </p>
+                                                <br>
+                                                <p>La CTA también denunció que el gobierno estigmatiza públicamente a los trabajadores estatales, calificándolos como militantes y minimizando el valor de su trabajo. Estas acciones, según la central sindical, reflejan una clara intención de deslegitimar y debilitar a las organizaciones sindicales y a sus representantes, llamándolos "casta" y prometiendo erradicarlos.
+                                                </p>
+                                                <br>
+                                                <p>Ante esta situación, la CTA solicita la intervención urgente del Comité de Libertad Sindical de la OIT para investigar y detener las violaciones a los derechos laborales y sindicales en Argentina. Además, el secretario de Relaciones Internacionales de la CTA, Roberto Baradel, se reunió con el director general de la OIT, Gilbert Houngbo, para denunciar los atropellos del gobierno argentino contra los trabajadores.</p>
+                                                <br>
+                                                <p>En la reunión, Baradel planteó la preocupación por la situación argentina y por el principio rector del gobierno de Milei, que sostiene que "la justicia social es una aberración", contradiciendo uno de los temas fundamentales de la OIT. La CTA también denunció la decisión de Milei de despedir trabajadores, incumplir leyes y avasallar los derechos laborales fundamentales, reclamando la necesidad de que la OIT intervenga para propiciar el diálogo y la justicia social en Argentina.</p>
+                                                <br>
+                                                
+                                                
+                                            </div>
+                                        </div>
+                                </article>
+                            </li>
+                        </ul>
+                    </div>
+
+
+                    {{-- columna de la derecha chica --}}
+                    <aside>
+                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                            <div class=" col-span-6">
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/bener-leg2.png') }}"
+                                        alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/APSE.gif') }}" alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
+                                        alt="">
+                                </a>
+
+
+
+                                <div id="app">
+
+                                    <div v-for="item in info">
+
+                                        <div class="flex-col pb-3">
+                                            <div
+                                                class="flex-col max-w-sm  border  border-gray-700 rounded-lg shadow bg-gray-800">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg"
+                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
+                                                        alt="" />
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5 class="mb-2 text-2xl font-bold tracking-tight  text-white">
+                                                            @{{ item.title }}</h5>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div v-for="va in clima">
+
+                                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-white">
+                                            @{{ va }}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+
+                </div>
+
+            </section>
+        @elseif ($tituloSep == 'Gremiales-Noticia-Completa-gre33')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">LA CGT REPUDIA LA VIOLENCIA CONTRA MANIFESTANTES
+                                            </a>
+                                        </h2>
+                                        <p class="font-light  text-right text-gray-500">Publicado: 15/06/2024</p>
+                                        <div class=" font-sans text-lg text-left col-span-6  ">
+                                        <p><i>La CGT repudió la represión a manifestantes pacíficos frente al Congreso y denunció provocación por parte de las fuerzas de seguridad.</i>
+                                        </p>
+                                        <br>
+                                        {{-- <article>
+                                            <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/mDyomkBc1DE?si=bnT2gxK0tSpFUqx1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                            
+                                        </article> --}}
+                                        <figure>
+                                            <img class=" w-full object-cover" src="../img/grem/grem_repu2.svg"
+                                                alt="">
+                                        </figure>
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+                                                <p>La Confederación General del Trabajo (CGT) emitió un comunicado en el que repudia la violenta represión sufrida por trabajadores y ciudadanos que se manifestaban pacíficamente frente al Congreso Nacional en rechazo a la aprobación de la Ley Bases. Denunciaron que las fuerzas de seguridad, bajo el mando de la ministra Patricia Bullrich, provocaron a los manifestantes para luego desatar una represión brutal, con el objetivo de generar una reacción que justifique el uso de gas pimienta.
+                                                </p>
+                                                <br>
+                                                <p>La central obrera expresó su solidaridad con los manifestantes que fueron reprimidos en la Plaza de los Dos Congresos mientras expresaban su rechazo a la mencionada ley. Durante la jornada, sindicatos, organizaciones de derechos humanos, de la Economía Popular, militantes políticos, trabajadores de prensa y transeúntes se hicieron presentes. Incluso algunos legisladores fueron víctimas de la represión y debieron recibir atención médica.
+                                                </p>
+                                                <br>
+                                                <p>Según la CGT, las fuerzas de seguridad no dudaron en reprimir incluso en presencia de adultos mayores y diputados nacionales. Utilizaron balas de goma, carros hidrantes y motos para golpear a quienes se cruzaban en su camino, con la clara intención de infundir terror. Sin embargo, los trabajadores no respondieron a estas provocaciones.
+                                                </p>
+                                                <br>
+                                                <p>En un comunicado firmado por el secretario y la cosecretaria de Derechos Humanos de la CGT, Julio Piumato y Maia Volcovinsky, se afirma que la represión fue planificada para despejar la zona durante la votación de la ley, extendiéndose luego a los cacerolazos que se multiplicaron en el Congreso y otros puntos de la ciudad. Se denuncia la detención arbitraria de numerosos transeúntes para generar violencia.</p>
+                                                <br>
+                                                <p>La CGT compara esta situación con la vivida en 2000 durante la votación de la Ley Banelco, destacando la falta de legitimidad y consenso. En este contexto, la central obrera hace un llamado a la cordura, destacando que la represión nunca podrá acallar la voz del pueblo. Concluyen que tarde o temprano, habrá justicia.</p>
+                                                <br>
+                                                
+                                                
+                                            </div>
+                                        </div>
+                                </article>
+                            </li>
+                        </ul>
+                    </div>
+
+
+                    {{-- columna de la derecha chica --}}
+                    <aside>
+                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                            <div class=" col-span-6">
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/bener-leg2.png') }}"
+                                        alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/APSE.gif') }}" alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
+                                        alt="">
+                                </a>
+
+
+
+                                <div id="app">
+
+                                    <div v-for="item in info">
+
+                                        <div class="flex-col pb-3">
+                                            <div
+                                                class="flex-col max-w-sm  border  border-gray-700 rounded-lg shadow bg-gray-800">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg"
+                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
+                                                        alt="" />
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5 class="mb-2 text-2xl font-bold tracking-tight  text-white">
+                                                            @{{ item.title }}</h5>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div v-for="va in clima">
+
+                                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-white">
+                                            @{{ va }}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+
+                </div>
+
+            </section>
+        @elseif ($tituloSep == 'Gremiales-Noticia-Completa-gre34')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">PARO NACIONAL DE ACEITEROS CONTRA LA LEY BASES
+                                            </a>
+                                        </h2>
+                                        <p class="font-light  text-right text-gray-500">Publicado: 28/06/2024</p>
+                                        <div class=" font-sans text-lg text-left col-span-6  ">
+                                        <p><i>La Federación de Trabajadores del Complejo Industrial Oleaginoso, Desmotadores de Algodón y Afines de la República Argentina (FTCIODyARA) inició un paro por tiempo indeterminado en todas las plantas aceiteras del país en rechazo a las medidas regresivas incluidas en la Ley Bases y el Paquete Fiscal.</i>
+                                        </p>
+                                        <br>
+                                        {{-- <article>
+                                            <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/mDyomkBc1DE?si=bnT2gxK0tSpFUqx1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                            
+                                        </article> --}}
+                                        <figure>
+                                            <img class=" w-full object-cover" src="../img/grem/grem_aceite2.svg"
+                                                alt="">
+                                        </figure>
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+                                                <p>La FTCIODyARA lanzó un paro que abarca a todas las plantas aceiteras de Argentina, afectando tanto a grandes multinacionales como a establecimientos de la industria nacional. La medida se tomó en protesta contra el tratamiento en Diputados de las "medidas regresivas" incluidas en la Ley Bases y el Paquete Fiscal propuestos por el Ejecutivo.
+                                                </p>
+                                                <br>
+                                                <p>Entre los reclamos principales, los aceiteros exigen que no se aprueben las leyes que, según ellos, reinstalarían el Impuesto al Salario, promulgarían una Reforma Laboral anti obrera y rematarían el patrimonio público de la nación. La medida de fuerza se mantendrá hasta nueva información.
+                                                </p>
+                                                <br>
+                                                <p>En un comunicado oficial, la organización gremial expresó: "Nuestra organización gremial reafirma el profundo rechazo contra la Ley Ómnibus denominada ‘Bases’ por el gobierno nacional que incluye, entre otras medidas negativas, una Reforma Laboral regresiva y el remate del patrimonio público con privatizaciones y entrega de recursos comunes del pueblo argentino, junto al Paquete Fiscal que incluye enormes beneficios para los más ricos y la reinstalación del impuesto al Salario, mal llamado ‘Ganancias’, que alcanzará a la práctica totalidad de aceiteros y desmotadores de algodón".
+                                                </p>
+                                                <br>
+                                                <p>Desde la Federación, se enfatiza que el proyecto ha regresado del Senado a la Cámara de Diputados con un carácter aún más agresivo contra la clase trabajadora, buscando limitar el derecho constitucional de huelga y habilitar despidos y persecución contra quienes lo ejerzan. "Es necesario enfatizar que este proyecto vuelve del Senado a la Cámara de Diputados con un carácter aún más agresivo contra la clase trabajadora, buscando limitar el derecho constitucional de huelga y habilitar despidos y persecución contra quienes lo ejerzan", subraya el comunicado.</p>
+                                                <br>
+                                                <p>La comisión directiva del gremio cierra el comunicado con una declaración firme: "Nuestra lucha es por la defensa de los derechos laborales, sindicales y democráticos de toda la clase trabajadora argentina, y por el Salario Mínimo Vital y Móvil según su definición constitucional y legal que garantiza la vida digna para nuestras familias".</p>
+                                                <br>
+                                                <p>Este conflicto se enmarca en un contexto de creciente tensión social y política en el país, donde las políticas del gobierno han sido criticadas por su impacto negativo en los derechos laborales y sociales. La reacción de los aceiteros es un reflejo de la resistencia de la clase trabajadora ante medidas que consideran perjudiciales para sus condiciones de vida y laborales. La resolución de este conflicto será clave para el futuro de las relaciones laborales en Argentina y para la estabilidad social del país.</p>
+                                                <br>
+                                                
+                                                
+                                            </div>
+                                        </div>
+                                </article>
+                            </li>
+                        </ul>
+                    </div>
+
+
+                    {{-- columna de la derecha chica --}}
+                    <aside>
+                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                            <div class=" col-span-6">
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/bener-leg2.png') }}"
+                                        alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/APSE.gif') }}" alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
+                                        alt="">
+                                </a>
+
+
+
+                                <div id="app">
+
+                                    <div v-for="item in info">
+
+                                        <div class="flex-col pb-3">
+                                            <div
+                                                class="flex-col max-w-sm  border  border-gray-700 rounded-lg shadow bg-gray-800">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg"
+                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
+                                                        alt="" />
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5 class="mb-2 text-2xl font-bold tracking-tight  text-white">
+                                                            @{{ item.title }}</h5>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div v-for="va in clima">
+
+                                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-white">
+                                            @{{ va }}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+
+                </div>
+
+            </section>
         @endif
     </div>
     {{-- aca arrancamos vue --}}

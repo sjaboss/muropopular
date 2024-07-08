@@ -1,5 +1,710 @@
 <x-app-layout>
     <div class="container ">
+        {{--JUICIO POR EL ATENTADO A CRISTINA:--}}
+    <section> 
+        <ul>
+            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                <article>
+
+                    <div class="py-4 px-4 justify-between items-center">
+                        <h2 class="text-xl font-serif  font-bold pb-6">
+                            <a href="">JUICIO POR EL ATENTADO A CRISTINA: UN PROCESO CLAVE PARA LA JUSTICIA Y LA DEMOCRACIA</a>
+                            {{-- <p class="font-light  text-lef text-gray-500">Por Rosaura Audi y Gonzalo Carbajal</p> --}}
+                        </h2>
+                        <p class="font-light  text-right text-gray-500">Publicado: 27/06/2024</p>
+                        <div class=" font-sans text-lg text-left col-span-6  ">
+                        <p><i>Con casi 300 testigos convocados, el juicio por el intento de asesinato de la vicepresidenta Cristina Fernández de Kirchner promete ser un proceso exhaustivo y revelador.</i>
+                        </p>
+                        <br>
+                        <figure>
+                            <img class="w-full object-cover" src="../img/soc/soc_crisaten.svg"
+                                alt="">
+                        </figure>
+                        
+                        {{-- <article>
+                            <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/Z8erUjiM40o?si=cY0HKLmYrrwJbmcA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            
+                        </article> --}}
+                        <br>
+                        <div
+                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                            <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                <p>El juicio oral por el intento de asesinato de Cristina Fernández de Kirchner comenzó este miércoles en los tribunales de Comodoro Py. Este proceso judicial no solo busca juzgar a los responsables materiales del atentado, sino también desentrañar las posibles tramas detrás de este acto de violencia política. En un país donde la polarización y el discurso de odio se han intensificado, este juicio representa un momento crucial para la justicia y la democracia argentinas. 
+                                </p>
+                                <br>
+                                <p>En las primeras audiencias, los principales acusados, Fernando Sabag Montiel, Brenda Uliarte y Nicolás Carrizo, comparecerán ante los jueces Sabrina Namer, Adrián Grünberg e Ignacio Fornari. Sabag Montiel, quien intentó disparar contra la vicepresidenta el 1 de septiembre de 2022, enfrenta cargos de "homicidio doblemente calificado por alevosía y concurso premeditado de dos o más personas, agravado por el uso de arma de fuego". Uliarte está imputada como coautora y Carrizo como partícipe secundario.</p>
+                                <br>
+                                <p>El abogado de Cristina Fernández, José Manuel Ubeira, expresó su confianza en el tribunal, destacando la imparcialidad de los jueces y describiendo a la jueza Sabrina Namer como "impecable". "Lo que está claro es que hay dos momentos del atentado: lo que todos vimos y lo que se profundizará en las pericias para saber si esa arma fue idónea o no para el disparo. Sabemos que fue más que idónea; fue una circunstancia fortuita que no se disparara", afirmó Ubeira, subrayando la gravedad del intento de asesinato.
+                                </p>
+                                <br>
+                                <p>El intento de asesinato ocurrió en el barrio de Recoleta, cuando Sabag Montiel apuntó con una pistola Bersa contra Fernández y apretó el gatillo en dos ocasiones, sin que los disparos se produjeran. El atacante fue detenido de inmediato, revelándose su vinculación con el grupo ultraderechista Revolución Federal, lo que pone de manifiesto el peligroso avance de la violencia política en Argentina.</p>
+                                <br>
+                                <p>Este juicio no solo se centra en juzgar a los ejecutores materiales, sino también en identificar a los autores intelectuales detrás del ataque. La violencia política en Argentina ha sido alimentada por discursos de odio y polarización extrema, creando un ambiente donde la integridad de las figuras políticas está constantemente amenazada.</p>
+                                <br>
+                                <p>El desarrollo de este proceso judicial es crucial para la democracia argentina. La declaración de casi 300 testigos y la esperada testificación de la propia Cristina Fernández después de la feria judicial de invierno serán momentos determinantes. Este juicio promete ser un hito en la lucha contra la impunidad y la violencia política, fortaleciendo los pilares de la justicia y el estado de derecho en un contexto de creciente polarización.</p>
+                                <br>
+                                <p>Gran parte del pueblo argentino espera que los jueces y la justicia en general estén a la altura de las circunstancias, demostrando imparcialidad y firmeza en un caso que tiene implicaciones profundas para el futuro del país.</p>
+                                <br>
+                                <p>La sociedad argentina y observadores internacionales seguirán de cerca cada etapa del juicio, esperando que se haga justicia y se sienten precedentes claros contra la violencia política. En estos tiempos de amenaza a la democracia, el juicio por el intento de asesinato de Cristina Fernández es un recordatorio de la importancia de la justicia y la verdad para la construcción de un país más justo y seguro para todos.</p>
+                                <br>
+                                
+                                
+
+                                <div class="text-start object-center">
+                                    {{-- <figure>
+                                        <img class="w-28 h-28  "
+                                            src="{{ asset('../img/der/Adri.svg') }}"
+                                            alt="">
+                                        
+                                        <p> <strong>Nota de Adriana Zerdín</strong></p>
+
+                                    </figure>  --}}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </li>
+        </ul>
+    </section>
+        {{--LA ERA UNITARIA--}}
+    <section> 
+        <ul>
+            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                <article>
+
+                    <div class="py-4 px-4 justify-between items-center">
+                        <h2 class="text-xl font-serif  font-bold pb-6">
+                            <a href="">LA ERA UNITARIA</a>
+                            <p class="font-light  text-lef text-gray-500">Por Rosaura Audi y Gonzalo Carbajal</p>
+                        </h2>
+                        <p class="font-light  text-right text-gray-500">Publicado: 24/06/2024</p>
+                        <div class=" font-sans text-lg text-left col-span-6  ">
+                        <p><i>En esta nota, Rosaura Audi y Gonzalo Carbajal explican el desguace de los medios públicos por el Gobierno libertario, especialmente a nivel federal. Con la fuerte nevada en la Patagonia, se ven las enormes fallas del experimento mileísta en materia de comunicación.</i>
+                        </p>
+                        <br>
+                        <figure>
+                            <img class="w-full object-cover" src="../img/soc/soc_era2.svg"
+                                alt="">
+                        </figure>
+                        
+                        {{-- <article>
+                            <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/Z8erUjiM40o?si=cY0HKLmYrrwJbmcA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            
+                        </article> --}}
+                        <br>
+                        <div
+                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                            <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                <p>Télam, TV Pública, Radio Nacional, Encuentro, Pakapaka, DeporTV, Contar, Aunar, Animar, TEC, Cinear y TDA. Estos nombres tuvieron algo o mucho que ver en nuestras vidas. Son los medios públicos que se encuentran bajo la órbita del Estado nacional, pero que hoy están apagados, desfinanciados o a la deriva. No es casual, es un plan: imponer un mensaje único y porteño, que deje “afuera” lo que pasa en cada rincón del país. 
+                                </p>
+                                <br>
+                                <p>El plan se inició con la intervención de los medios públicos y la implementación de un proceso de recorte y paralización en cada uno de ellos.</p>
+                                <br>
+                                <p>Pero las ambiciones libertarias, que no contemplan el servicio social de la comunicación ni las necesidades de los pueblos, empiezan a evidenciar quiebres. Y eso es lo que se vio esta semana cuando nevó fuertemente en buena parte de la Patagonia continental dejando localidades aisladas. Las emisoras de Radio Nacional no pudieron avisar a los pobladores y Télam no pudo distribuir las alertas meteorológicas habituales a infinidad de medios, que a su vez las comunicarían a sus comunidades. Nadie se preparó. Ni a Elon Musk ni a Mark Zuckerberg les interesaba alertar nada. Y, claramente, las redes mostraron el después de la tormenta.
+                                </p>
+                                <br>
+                                <p>Ante esa situación, la emergencia y la insistencia de sus trabajadores hicieron que las emisoras de las zonas afectadas pudieran volver al aire con señales propias. Mantener contacto con poblaciones dispersas siempre fue una de sus características y en situaciones de aislamiento es la tarea esencial.</p>
+                                <br>
+                                <p>No nos interesa aquí analizar las causas del triunfo electoral de LLA, pero sí remarcar que todo aquello que dijeron que harían en el campo de lo público y de los medios están intentando concretarlo. No siempre con éxito, de hecho, el sistema de medios públicos ya ha cambiado de estructura varias veces y en el último pase de manos, sin la validación legislativa para privatizar Radio y Televisión Argentina (RTA), se encuentra bajo la órbita del crack de la mentira Manuel Adorni.</p>
+                                <br>
+                                <p>Dijimos ya que Télam fue apagada. Eso sucedió un 4 de marzo, cuando al inicio del día el servicio de noticias, la web y los archivos históricos dejaron de estar a disposición de los medios, mientras que a sus trabajadores se les negó el ingreso a los edificios. Las 28 corresponsalías fueron cerradas. En tanto, la TV Pública sufrió recorte de noticieros, se establecieron líneas editoriales que anularon coberturas y el aire comenzó a cubrirse con programas viejos. Los canales Encuentro y Pakapaka cancelaron las producciones para estreno de programación, con lo cual se repite lo ya emitido, salvo Zamba, ¡claro! ¡Siempre se la agarran con Zamba! A Radio Nacional (que tiene 49 emisoras distribuidas desde La Quiaca a la Antártida por toda la Argentina) se le impuso la retransmisión de la señal porteña (capitalina). Deportv, Contar, Aunar, Animar y la TDA navegan sin rumbo cierto.</p>
+                                <br>
+                                <p>En la crónica del desguace, el 21 de mayo apagaron las redes y las webs de todos estos medios públicos con un comunicado oficial en el que hablaban de “un proceso de reorganización”. Esas redes tenían en total 18,5 millones de usuarios. En algunos casos las restituyeron a las dos semanas para hacer lo que hacen hoy: oficialismo puro. En Radio Nacional sólo se reactivaron la web y las redes de la emisora de Buenos Aires AM870 y las FMs Clásica, Rock y Folklórica.</p>
+                                <br>
+                                <p>Adicionalmente, ya que los malos ejemplos se copian, un mandatario provincial arremetió contra su propio medio decretando el cierre como sucedió con el canal Acequia de Mendoza. Y esperamos que no haya más imitaciones en un esquema en red de medios públicos que tiene 19 canales provinciales, 11 universitarios y 63 radios universitarias.</p>
+                                <br>
+                                <p>A este panorama de apagón y desfinanciamiento se suma la eliminación (por ahora) de la pauta oficial y las paritarias del sector a la baja, para golpear a todo el esquema de medios, a los trabajadores de la comunicación y como consecuencia a una ciudadanía que tiene cada vez menos fuentes para informarse.</p>
+                                <br>
+                                <p>Un círculo vicioso que a la vez reduce el consumo de noticias, expulsa trabajadores de los medios ya precarizados, o los obliga a autoexplotarse. El formato de suscripción e ingresos por streaming supone un veranito para unos pocos pero queda lejos de las posibilidades de la mayoría de los medios, además establece un marco de canibalización de audiencias. Con menos posibilidades abiertas y gratuitas de consumo audiovisual, informativo y periodístico, las mayorías —ya castigadas por la recesión— se quedan afuera de esos flujos informativos, y con ellos de un aspecto elemental para la ciudadanía.</p>
+                                <br>
+                                <p>Con todo esto alcanza para afirmar que nos encontramos en el peor momento de la comunicación en los 40 años de democracia de la Argentina, porque sin un ecosistema de medios privados con y sin fines de lucro distribuido en todo el país y una red de medios públicos robusta, sin una comunicación asequible, la democracia no existe.</p>
+                                <br>
+                                <p>El experimento anarcocapitalista liberal libertario ya prometía destrozar la plataforma comunicacional pública en la campaña electoral de 2023. Sabían que para hacer digerible la motosierra necesitaban agitar fantasmas de fácil consumo como el de señalar como culpables de todos los males a los trabajadores de los medios públicos y la cultura, a los institutos del cine, el teatro y la música, a los medios públicos en sí mismos y a todo aquello que tuviera que ver con la construcción de una identidad cultural y nacional. Que a muchos no les preocupe lo que se está destrozando también forma parte del desastre que enfrentamos.</p>
+                                <br>
+                                <p>Esta batalla cultural es clave tanto para el gobierno como para las fuerzas populares. Como planteamos al inicio, el discurso oficial busca ser cada vez más unitario, por lo único y por lo porteño. Habrá que ver si otras nevadas nos estimulan a defender aquello que hemos construido por décadas y que hace a nuestra soberanía informativa, nuestra diversidad cultural y nuestra identidad.</p>
+                                <br>
+                                <p><b>Ex subsecretaria de Medios Públicos</b></p>
+                                <br>
+                                <p><b>Ex coordinador general de la Televisión Digital Abierta (TDA)</b>
+                                </p>
+                                <br>
+                                
+
+                                <div class="text-start object-center">
+                                    {{-- <figure>
+                                        <img class="w-28 h-28  "
+                                            src="{{ asset('../img/der/Adri.svg') }}"
+                                            alt="">
+                                        
+                                        <p> <strong>Nota de Adriana Zerdín</strong></p>
+
+                                    </figure>  --}}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </li>
+        </ul>
+    </section>
+        {{--UN ENCUENTRO MULTIDISCIPLINARIO PARA RECORDAR AL '10'--}}
+    <section> 
+        <ul>
+            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                <article>
+
+                    <div class="py-4 px-4 justify-between items-center">
+                        <h2 class="text-xl font-serif  font-bold pb-6">
+                            <a href="">UN ENCUENTRO MULTIDISCIPLINARIO PARA RECORDAR AL '10'</a>
+                            {{-- <p class="font-light  text-lef text-gray-500">Por Adriana Zerdìn</p> --}}
+                        </h2>
+                        <p class="font-light  text-right text-gray-500">Publicado: 23/06/2024</p>
+                        <div class=" font-sans text-lg text-left col-span-6  ">
+                        <p><i>La tercera edición de la 'Peña Maradoniana' se celebró en el Día del Futbolista, congregando a cientos de personas en un emotivo evento que homenajeó a Diego Armando Maradona, el ídolo popular más grande del país</i>
+                        </p>
+                        <br>
+                        <figure>
+                            <img class="w-full object-cover" src="../img/soc/soc_eldiez.svg"
+                                alt="">
+                        </figure>
+                        
+                        {{-- <article>
+                            <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/Z8erUjiM40o?si=cY0HKLmYrrwJbmcA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            
+                        </article> --}}
+                        <br>
+                        <div
+                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                            <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                <p>Organizado por la Federación de Organizaciones Deportivas de la Argentina (FODA) y la Revista Meta, el homenaje se llevó a cabo en el emblemático Palacio El Victorial, en San Telmo. Cerca de mil personas transitaron libremente por el espacio, disfrutando de una variedad de actividades diseñadas para celebrar la vida y legado del '10'. 
+                                </p>
+                                <br>
+                                <p>Entre los asistentes se destacó la presencia de Taty Almeida, reconocida defensora de los derechos humanos, quien participó activamente en el evento. Además, se presentó una muestra fotográfica sobre Maradona, diseñada y montada por Somos Télam, que capturó la esencia del eterno capitán del seleccionado argentino.</p>
+                                <br>
+                                <p>El evento también incluyó la entrega de los premios 22 de Junio, destinados a reconocer a figuras destacadas de la "cultura popular maradoniana". Entre los galardonados estuvieron la escritora Gabriela Saidon, el periodista Alejandro Apo, el cantante de tangos Hernán 'Cucuza' Castiello y el preparador físico Fernando Signorini, quien acompañó a Diego a lo largo de gran parte de su carrera. Héctor "Negro" Enrique, campeón del mundo en México '86 y recordado por asistir a Maradona en el legendario segundo gol contra Inglaterra, también recibió un premio en reconocimiento a su contribución al fútbol y a la memoria de Maradona.
+                                </p>
+                                <br>
+                                <p>El cierre de la jornada estuvo a cargo del cantautor Ariel Prat, excompañero de Maradona en Los Cebollitas de Argentinos Juniors. Prat ofreció un set de siete canciones, entre las que destacaron 'El zurdito', dedicada a Lionel Messi, 'No me olvides' y 'Los Trasplantados de Madrid'. Su presentación musical brindó un emotivo final a una jornada repleta de recuerdos y homenajes, reforzando el legado de Maradona como un símbolo inquebrantable del fútbol argentino y la cultura popular.</p>
+                                <br>
+                                <p>La 'Peña Maradoniana' no solo celebró la vida de Diego, sino que también reafirmó su impacto perdurable en la sociedad argentina, demostrando que su figura sigue viva en la memoria colectiva de quienes lo admiraron y acompañaron a lo largo de su extraordinaria carrera.</p>
+                                <br>
+                               
+                                
+
+                                <div class="text-start object-center">
+                                    {{-- <figure>
+                                        <img class="w-28 h-28  "
+                                            src="{{ asset('../img/der/Adri.svg') }}"
+                                            alt="">
+                                        
+                                        <p> <strong>Nota de Adriana Zerdín</strong></p>
+
+                                    </figure>  --}}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </li>
+        </ul>
+    </section>
+        {{--LIBERAN A DETENIDOS DE LA PROTESTA CONTRA LA LEY DE BASES--}}
+    <section> 
+        <ul>
+            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                <article>
+
+                    <div class="py-4 px-4 justify-between items-center">
+                        <h2 class="text-xl font-serif  font-bold pb-6">
+                            <a href="">LIBERAN A DETENIDOS DE LA PROTESTA CONTRA LA LEY DE BASES</a>
+                            {{-- <p class="font-light  text-lef text-gray-500">Por Adriana Zerdìn</p> --}}
+                        </h2>
+                        <p class="font-light  text-right text-gray-500">Publicado: 20/06/2024</p>
+                        <div class=" font-sans text-lg text-left col-span-6  ">
+                        <p><i>La jueza María Servini ordenó la liberación de 11 de las 16 personas que quedaban detenidas tras la represión de la protesta del 12 de junio.</i>
+                        </p>
+                        <br>
+                        <figure>
+                            <img class="w-full object-cover" src="../img/soc/soc_presxs.svg"
+                                alt="">
+                        </figure>
+                        
+                        {{-- <article>
+                            <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/Z8erUjiM40o?si=cY0HKLmYrrwJbmcA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            
+                        </article> --}}
+                        <br>
+                        <div
+                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                            <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                <p>Luego de una masiva marcha en Plaza de Mayo, familiares y organizaciones sociales lograron la liberación de 11 detenides que habían sido arrestados durante una manifestación contra la Ley de Bases. La jueza federal María Servini dictaminó que no había fundamentos suficientes para mantener la detención de estas personas, quedando solo cinco aún privadas de su libertad. 
+                                </p>
+                                <br>
+                                <p>La liberación se produjo tras una intensa movilización el pasado martes 18 de junio, donde miles de personas exigieron el cese de la criminalización de la protesta social. Bajo la consigna “presxs politicxs nunca más”, la marcha reunió a familiares de les detenides, dirigentes políticos y organizaciones sociales, quienes llevaron su reclamo al gobierno de Javier Milei.</p>
+                                <br>
+                                <p>La protesta del 12 de junio había sido fuertemente reprimida en el contexto de una creciente crisis económica y social. La aplicación estricta del protocolo antipiquete de la ministra de Seguridad, Patricia Bullrich, resultó en la detención de 33 personas, de las cuales 11 fueron liberadas por falta de mérito según lo determinado por la jueza Servini.
+                                </p>
+                                <br>
+                                <p>El gobierno de Milei, en su discurso, calificó a les manifestantes de terroristas y acusó a los movimientos sociales de intentar un golpe de Estado. Esta narrativa busca deslegitimar y criminalizar la protesta social, según denuncian las organizaciones y los familiares de les detenides. Sin embargo, la resistencia social se mantiene firme en las calles, defendiendo los derechos y garantías constitucionales.</p>
+                                <br>
+                                <p>La movilización del 18 de junio contó con la participación de diversas agrupaciones políticas y sociales, quienes exigieron la libertad de todas las personas detenidas, el cierre de las causas judiciales por luchar y el cese de las persecuciones. La lista de detenides incluía a Daniel Sica, Patricia Calardo Arredondo, Juan Ignacio Spinetto, Camila Juárez, Nicolás Mayorga, Sasha Lyardet, Héctor Mallea, Cristian Dario Ferreira, Juan Pablo Colombo, María de la Paz Cerruti, Ramona Tocaba, Lucía Belén Puglia, Cristian Valiente, Facundo Exequiel Gómez, Gabriel Famulari y Roberto María de la Cruz.</p>
+                                <br>
+                                <p>Actualmente, cinco de estas personas permanecen detenidas bajo prisión preventiva, mientras que las restantes han sido liberadas por falta de mérito, sin encontrar elementos acusatorios o responsabilidades en hechos delictivos. La lucha por la libertad de les detenides y el derecho a la protesta continúa, reafirmando la importancia de mantener los derechos democráticos y constitucionales en Argentina.</p>
+                                <br>
+                                <p>La liberación de estos 11 manifestantes representa un paso significativo en la lucha contra la criminalización de la protesta, y refuerza el compromiso de la sociedad argentina en la defensa de sus derechos fundamentales.</p>
+                                <br>
+                                
+
+                                <div class="text-start object-center">
+                                    {{-- <figure>
+                                        <img class="w-28 h-28  "
+                                            src="{{ asset('../img/der/Adri.svg') }}"
+                                            alt="">
+                                        
+                                        <p> <strong>Nota de Adriana Zerdín</strong></p>
+
+                                    </figure>  --}}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </li>
+        </ul>
+    </section>
+        {{--FALLO HISTÓRICO: ALPEROVICH CONDENADO A 16 AÑOS POR ABUSO SEXUAL--}}
+    <section> 
+        <ul>
+            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                <article>
+
+                    <div class="py-4 px-4 justify-between items-center">
+                        <h2 class="text-xl font-serif  font-bold pb-6">
+                            <a href="">FALLO HISTÓRICO: ALPEROVICH CONDENADO A 16 AÑOS POR ABUSO SEXUAL</a>
+                            {{-- <p class="font-light  text-lef text-gray-500">Por Adriana Zerdìn</p> --}}
+                        </h2>
+                        <p class="font-light  text-right text-gray-500">Publicado: 20/06/2024</p>
+                        <div class=" font-sans text-lg text-left col-span-6  ">
+                        <p><i>El ex gobernador de Tucumán, José Alperovich, fue sentenciado a 16 años de prisión por abusar sexualmente de su sobrina. La condena incluye la inhabilitación para ejercer cargos públicos.</i>
+                        </p>
+                        <br>
+                        <figure>
+                            <img class="w-full object-cover" src="../img/soc/soc_alperovich.svg"
+                                alt="">
+                        </figure>
+                        
+                        {{-- <article>
+                            <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/Z8erUjiM40o?si=cY0HKLmYrrwJbmcA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            
+                        </article> --}}
+                        <br>
+                        <div
+                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                            <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                <p>José Alperovich, ex gobernador de Tucumán y ex senador, recibió una condena ejemplar de 16 años de prisión por abuso sexual. La sentencia, dictada por el juez Juan Ramos Padilla, es histórica y marca un precedente en la lucha contra la violencia de género en Argentina. 
+                                </p>
+                                <br>
+                                <p>La sentencia fue leída en la pequeña sala del Tribunal Oral en lo Criminal (TOC) 29, ubicada en la calle Paraguay 1536, de la Ciudad de Buenos Aires. Alperovich se negó a declarar antes del veredicto final, que tuvo lugar a las 20 horas de ayer. El juez Ramos Padilla ordenó su detención inmediata y la investigación de tres personas por falso testimonio.</p>
+                                <br>
+                                <p>El juez Ramos Padilla encontró a Alperovich penalmente responsable de múltiples delitos de abuso sexual. Estos incluyen abuso sexual simple reiterado y seis casos de violencia sexual agravada, con acceso carnal por diversas vías. Los delitos ocurrieron tanto en Tucumán como en la Ciudad de Buenos Aires.
+                                </p>
+                                <br>
+                                <p>Gabriela Sosa, directora ejecutiva de la Mesa Federal de Mumala, expresó la importancia de esta condena: "Para nosotras, que venimos desde hace mucho tiempo trabajando en relación a la búsqueda de una vida libre de violencias, una sociedad sin machismo, nos parece por demás de importante". Sosa destacó la valentía de la víctima al denunciar y la relevancia de sancionar ejemplarmente a un agresor con poder.</p>
+                                <br>
+                                <p>El fallo ha generado fuertes repercusiones en la sociedad y el ámbito político. La organización Mumala y otras entidades defensoras de los derechos de las mujeres celebraron la decisión judicial. Sosa afirmó que la condena no solo busca justicia para la víctima, sino también establecer un precedente contra la presencia de violentos en el Estado.</p>
+                                <br>
+                                <p>En contraste, la hija de Alperovich, Sara Alperovich, defendió públicamente a su padre, calificando las acusaciones como "mentira" y confiando en que "la verdad va a salir a la luz".</p>
+                                <br>
+                                <p>Alperovich pasó su primera noche de detención en el hospital penitenciario. Se espera que permanezca allí al menos una semana para completar los análisis médicos antes de ser trasladado al pabellón de abusadores. La condena vence el 17 de julio de 2040, aunque Alperovich, de 69 años, puede apelar a la Cámara Federal de Casación y a la Corte Suprema.</p>
+                                <br>
+                                <p>UN PRECEDENTE CONTRA LA VIOLENCIA DE GÉNERO</p>
+                                <br>
+                                <p>La sentencia contra José Alperovich representa un avance significativo en la lucha contra la violencia de género y el abuso de poder. La condena a 16 años de prisión y la inhabilitación para ejercer cargos públicos envían un mensaje claro sobre la intolerancia hacia los delitos sexuales y la impunidad en el ámbito político. La sociedad argentina sigue de cerca este caso, esperando que marque un punto de inflexión en la protección de los derechos de las víctimas y en la justicia para todos.</p>
+                                <br>
+
+                                <div class="text-start object-center">
+                                    {{-- <figure>
+                                        <img class="w-28 h-28  "
+                                            src="{{ asset('../img/der/Adri.svg') }}"
+                                            alt="">
+                                        
+                                        <p> <strong>Nota de Adriana Zerdín</strong></p>
+
+                                    </figure>  --}}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </li>
+        </ul>
+    </section>
+        {{--203 AÑOS DEL PASO A LA INMORTALIDAD DE MARTÍN MIGUEL DE GÜEMES--}}
+    <section> 
+        <ul>
+            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                <article>
+
+                    <div class="py-4 px-4 justify-between items-center">
+                        <h2 class="text-xl font-serif  font-bold pb-6">
+                            <a href="">203 AÑOS DEL PASO A LA INMORTALIDAD DE MARTÍN MIGUEL DE GÜEMES</a>
+                            {{-- <p class="font-light  text-lef text-gray-500">Por Adriana Zerdìn</p> --}}
+                        </h2>
+                        <p class="font-light  text-right text-gray-500">Publicado: 18/06/2024</p>
+                        <div class=" font-sans text-lg text-left col-span-6  ">
+                        <p><i>Este 17 de junio se conmemoran 203 años del asesinato de Martín Miguel de Güemes, líder gaucho y defensor de la independencia argentina.</i>
+                        </p>
+                        <br>
+                        <figure>
+                            <img class="w-full object-cover" src="../img/soc/soc_guemes.svg"
+                                alt="">
+                        </figure>
+                        
+                        {{-- <article>
+                            <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/Z8erUjiM40o?si=cY0HKLmYrrwJbmcA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            
+                        </article> --}}
+                        <br>
+                        <div
+                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                            <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                <p>Cada 17 de junio, desde 1999, se celebra en Argentina el Día Nacional de la Libertad Latinoamericana en homenaje a Martín Miguel de Güemes. Este prócer, nacido el 8 de febrero de 1785 en Salta, se destacó como uno de los principales defensores de la independencia argentina, liderando la resistencia contra nueve invasiones españolas entre 1814 y 1821. 
+                                </p>
+                                <br>
+                                <p>Güemes comenzó su carrera militar a los 14 años, ingresando como cadete en la Compañía del 3er Batallón del Rey, Fijo de Buenos Aires. Participó activamente en la defensa de Buenos Aires durante las invasiones inglesas de 1806 y 1808. Más tarde, se unió al ejército patriota en el Alto Perú, y jugó un papel crucial en la victoria de la Batalla de Suipacha en 1810.</p>
+                                <br>
+                                <p>En 1816, el Director Supremo Juan Martín de Pueyrredón le encargó la defensa de las Provincias Unidas y la protección del Ejército Auxiliar del Alto Perú. Güemes organizó un ejército gaucho que operó de manera continua en defensa de la independencia argentina. En 1815, regresó a Salta y estableció el cuerpo militar conocido como Los Infernales de Güemes, integrado por jinetes de Tarija y Jujuy, mestizos y esclavos, quienes lucharon con la promesa de obtener su libertad.
+                                </p>
+                                <br>
+                                <p>Los Infernales implementaron tácticas de guerrilla, aprovechando su conocimiento del terreno para atacar en posiciones estratégicas y debilitar a las fuerzas realistas mediante emboscadas y ataques nocturnos. Estas estrategias resultaron efectivas para mantener a raya a los invasores españoles.</p>
+                                <br>
+                                <p>Para 1821, la situación social y política era compleja, y Güemes enfrentaba la oposición de algunos sectores. En mayo de ese año, fue depuesto por el Cabildo de Salta, aunque recuperó su puesto poco después. El 7 de junio, fue herido por tropas realistas con la colaboración de sus adversarios locales. Güemes falleció diez días después, el 17 de junio, en Cañada de la Horqueta, convirtiéndose en el único general argentino en morir en combate externo.</p>
+                                <br>
+                                <p>Actualmente, los restos de Martín Miguel de Güemes descansan en el Panteón de las Glorias del Norte, en la Catedral Basílica de Salta. Su legado perdura como símbolo de la lucha por la libertad y la independencia de Argentina, y su figura es recordada cada año en este día especial.</p>
+                                <br>
+                                
+
+                                <div class="text-start object-center">
+                                    {{-- <figure>
+                                        <img class="w-28 h-28  "
+                                            src="{{ asset('../img/der/Adri.svg') }}"
+                                            alt="">
+                                        
+                                        <p> <strong>Nota de Adriana Zerdín</strong></p>
+
+                                    </figure>  --}}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </li>
+        </ul>
+    </section>
+        {{--LA VIGENCIA DE PACO URONDO--}}
+    <section> 
+        <ul>
+            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                <article>
+
+                    <div class="py-4 px-4 justify-between items-center">
+                        <h2 class="text-xl font-serif  font-bold pb-6">
+                            <a href="">LA VIGENCIA DE PACO URONDO</a>
+                            {{-- <p class="font-light  text-lef text-gray-500">Por Adriana Zerdìn</p> --}}
+                        </h2>
+                        <p class="font-light  text-right text-gray-500">Publicado: 17/06/2024</p>
+                        <div class=" font-sans text-lg text-left col-span-6  ">
+                        <p><i>El legado de Paco Urondo sigue vivo en su poesía, un llamado a la resistencia y a la ternura en tiempos difíciles. Este poema refleja su indomable espíritu y su compromiso con la justicia y la humanidad. </i>
+                        </p>
+                        <br>
+                        <figure>
+                            <img class="w-full object-cover" src="../img/soc/soc_vigente.svg"
+                                alt="">
+                        </figure>
+                        
+                        {{-- <article>
+                            <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/Z8erUjiM40o?si=cY0HKLmYrrwJbmcA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            
+                        </article> --}}
+                        <br>
+                        <div
+                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                            <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                <p>El poeta, periodista y militante Paco Urondo dejó una huella imborrable en la literatura argentina. Su obra, cargada de pasión y lucha, resuena hoy más que nunca en un contexto de desafíos políticos y sociales. El poema "En caso de zafarrancho no siga las reglas" es una muestra palpable de su vigencia, invitándonos a resistir con dignidad y a encontrar fuerza en la solidaridad y la poesía. 
+                                </p>
+                                <br>
+                                <p><b>«En caso de zafarrancho no siga las reglas…» – Paco Urondo</b></p>
+                                <br>
+                                <p>En primer lugar, no se desespere y en caso de zafarrancho no siga las reglas que el huracán querrá imponerle. Refúgiese en la casa y asegure los postigos una vez que todos los suyos estén a salvo. Comparta el mate y la charla con los compañeros, los besos furtivos y las noches clandestinas, con quien le asegure ternura. No deje que la estupidez se imponga. Defiéndase. A la estética, ética. Esté siempre atento. No les bastará empobrecerlo y lo querrán someter con su propia tristeza.
+                                </p>
+                                <br>
+                                <p>Él se rió a carcajadas.</p>
+                                <br>
+                                <p>Mófese: la derecha está mal cogida. Será imprescindible cenar juntos cada día hasta que la tormenta pase.</p>
+                                <br>
+                                <p>Son cosas simples, sencillas, pero no por ello, menos eficaces. Diga hacia el costado buen día, por favor y gracias. Y la concha de tu madre cuando lo soliciten desde arriba. Tírele con lo que tenga, pero nunca solo. Ellos saben cómo emboscarlo en la desprevenida soledad de una tarde. Recuerde que los artistas serán siempre nuestros. Y el olvido será feroz con la comparsa de impostores que los acompaña. Todo va a estar bien si me hace caso.</p>
+                                <br>
+                                <p>Sobreviviremos nuevamente, estamos curtidos. Cuidemos a los pibes que querrán podarlos. Solo es menester bien pertrecharse y no escatimarnos amabilidades.</p>
+                                <br>
+                                <p>Deberemos dejar a mano los poemas indispensables, el vino tinto y la guitarra.</p>
+                                <br>
+                                <p>Sonreírles a nuestros viejos como vacuna contra la angustia diaria. Ser piadosos con los amigos. No confundir a los ingenuos con los traidores. Y aún con estos, tener el perdón fácil para cuando vuelvan con las ilusiones forreadas.</p>
+                                <br>
+                                <p>Aquí nadie sobra.</p>
+                                <br>
+                                <p>Y eso sí, ser perseverantes y tenaces, escribir religiosamente todos los días, todas las tardes, todas las noches. Aún sostenidos en terquedades si la fe se desmorona. En eso, no habrá tregua para nadie. La poesía les duele a estos hijos de puta.</p>
+                                <p><b>Paco Urondo.</b></p>
+                                <br>
+                                
+                                
+
+                                <div class="text-start object-center">
+                                    {{-- <figure>
+                                        <img class="w-28 h-28  "
+                                            src="{{ asset('../img/der/Adri.svg') }}"
+                                            alt="">
+                                        
+                                        <p> <strong>Nota de Adriana Zerdín</strong></p>
+
+                                    </figure>  --}}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </li>
+        </ul>
+    </section>
+        {{--FRANCISCO "PACO" URONDO: LEGADO DE UN ESCRITOR Y MILITANTE ARGENTINO--}}
+    <section> 
+        <ul>
+            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                <article>
+
+                    <div class="py-4 px-4 justify-between items-center">
+                        <h2 class="text-xl font-serif  font-bold pb-6">
+                            <a href="">FRANCISCO "PACO" URONDO: LEGADO DE UN ESCRITOR Y MILITANTE ARGENTINO</a>
+                            {{-- <p class="font-light  text-lef text-gray-500">Por Adriana Zerdìn</p> --}}
+                        </h2>
+                        <p class="font-light  text-right text-gray-500">Publicado: 17/06/2024</p>
+                        <div class=" font-sans text-lg text-left col-span-6  ">
+                        <p><i>Francisco "Paco" Urondo, un destacado escritor y militante político argentino, perdió la vida el 17 de junio de 1976 en Mendoza. Conocido por su papel en el cine y la televisión, y su activismo en Montoneros, Urondo dejó un legado significativo en la cultura y la política argentina. </i>
+                        </p>
+                        <br>
+                        <figure>
+                            <img class="w-full object-cover" src="../img/soc/soc_paco.svg"
+                                alt="">
+                        </figure>
+                        
+                        {{-- <article>
+                            <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/Z8erUjiM40o?si=cY0HKLmYrrwJbmcA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            
+                        </article> --}}
+                        <br>
+                        <div
+                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                            <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                <p>Francisco Urondo nació el 10 de enero de 1930 en Santa Fe y se destacó como uno de los intelectuales más influyentes de su generación. Como escritor, contribuyó a la creación de guiones cinematográficos para películas como "Pajarito Gómez" y "Noche terrible". Además, adaptó grandes obras literarias para la televisión, incluyendo "Madame Bovary" de Flaubert, "Rojo y Negro" de Stendhal y "Los Maïas" de Eça de Queiroz.
+                                </p>
+                                <br>
+                                <p>En 1968, Urondo fue nombrado Director General de Cultura de la Provincia de Santa Fe, y en 1973 asumió el cargo de Director del Departamento de Letras de la Facultad de Filosofía y Letras de la Universidad de Buenos Aires. Durante su carrera como periodista, colaboró con diversos medios nacionales e internacionales, tales como Primera Plana, Panorama, Crisis, La Opinión y Noticias.</p>
+                                <br>
+                                <p>Sin embargo, la faceta más controvertida y peligrosa de su vida fue su militancia en Montoneros, una organización guerrillera argentina. Rodolfo Walsh, otro destacado escritor y periodista, describió en sus escritos los últimos momentos de Urondo. En un trágico suceso ocurrido en Mendoza, Urondo y sus compañeros fueron perseguidos y tiroteados por fuerzas enemigas. Sin poder escapar, Urondo optó por tomar una pastilla de cianuro, un desenlace que lo llevó a la muerte antes de ser ejecutado con dos tiros en la cabeza.
+                                </p>
+                                <br>
+                                <p>Walsh relata: "El traslado de Paco a Mendoza fue un error. Cuyo era una sangría permanente desde 1975, nunca se la pudo mantener en pie. El Paco duró pocas semanas... Fue temiendo lo que sucedió. Hubo un encuentro con un vehículo enemigo, una persecución, un tiroteo de los dos coches a la par. Iban Paco, Lucía con la nena y una compañera. Tenían una metra pero estaba en el baúl. No se pudieron despegar. Finalmente Paco frenó, buscó algo en su ropa y dijo 'Disparen ustedes'. Luego agregó: 'Me tomé la pastilla y ya me siento mal'. La compañera recuerda que Lucía dijo 'Pero papá, ¿por qué hiciste eso?'. La compañera escapó entre las balas, días después llegó herida a Buenos Aires... a Paco le pegaron dos tiros en la cabeza aunque probablemente ya estaba muerto".
+                                </p>
+                                <br>
+                                <p>Urondo estaba casado con la actriz Zulema Katz, y su vida y muerte siguen siendo un testimonio del compromiso y la tragedia que marcaron a una generación de militantes y artistas en Argentina. Su legado como escritor y guerrillero continúa siendo una inspiración y un recordatorio de la lucha por la justicia social y la libertad.</p>
+                                <br>
+                                
+
+                                
+                                
+
+                                <div class="text-start object-center">
+                                    {{-- <figure>
+                                        <img class="w-28 h-28  "
+                                            src="{{ asset('../img/der/Adri.svg') }}"
+                                            alt="">
+                                        
+                                        <p> <strong>Nota de Adriana Zerdín</strong></p>
+
+                                    </figure>  --}}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </li>
+        </ul>
+    </section>
+        {{--BOMBARDEO EN PLAZA DE MAYO – Comienzo de una tragedia--}}
+    <section> 
+        <ul>
+            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                <article>
+
+                    <div class="py-4 px-4 justify-between items-center">
+                        <h2 class="text-xl font-serif  font-bold pb-6">
+                            <a href="">BOMBARDEO EN PLAZA DE MAYO – Comienzo de una tragedia</a>
+                            <p class="font-light  text-lef text-gray-500">Por Adriana Zerdìn</p>
+                        </h2>
+                        <p class="font-light  text-right text-gray-500">Publicado: 16/06/2024</p>
+                        <div class=" font-sans text-lg text-left col-span-6  ">
+                        <p><i>Pocas veces en la historia mundial miembros de las Fuerzas Armadas de un país, con la connivencia de sectores políticos y eclesiásticos, descargaron sus bombas y ametrallaron a la población civil como forma de implantar el terror e intentar tomar el poder. </i>
+                        </p>
+                        <br>
+                        <figure>
+                            <img class="w-full object-cover" src="../img/soc/soc_bomba1.svg"
+                                alt="">
+                        </figure>
+                        
+                        {{-- <article>
+                            <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/Z8erUjiM40o?si=cY0HKLmYrrwJbmcA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            
+                        </article> --}}
+                        <br>
+                        <div
+                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                            <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                <p>Resultaría insólito, además de criminal, que las Fuerzas Armadas, en contubernio y eterna complicidad con los sectores civiles y eclesiásticos, en cualquier país, arrojaran de 9 a 14 toneladas de explosivos con más de 100 bombas y ametrallaran impunemente a la población civil, en horas gran circulación de gente, de un día cualquiera, en una ciudad cualquiera, en cualquier tiempo de la historia.
+                                </p>
+                                <br>
+                                <p>Pero esto ocurrió, efectivamente, un 16 de junio de 1955, en horas del mediodía sobre la Plaza de Mayo en Buenos Aires, en esta castigada Patria que se llama Argentina.</p>
+                                <br>
+                                <p>La Armada, con apoyo de la Fuerza Aérea, perpetraron un ataque a mansalva cuyo objetivo era matar al presidente Perón y a los miembros de su gabinete y así ejecutar un golpe de Estado. El bombardeo no escatimó espacios ni personas: 364 muertos y más de mil heridos. Siniestro y cruel castigo para el pueblo que mayoritariamente apoyaba la gestión del General Perón.
+                                </p>
+                                <br>
+                                <p>La Plaza de Mayo, la Casa de Gobierno, el Edificio Libertador –antes Ministerio del Ejército y hoy Ministerio de Defensa, la Secretaría de Comunicaciones -hoy Centro Cultural Kirchner- fueron blanco del ataque.
+                                </p>
+                                <br>
+                                <p>Perón no estaba en la Casa Rosada al inicio de los ataques, razón por la que salvó su vida.</p>
+                                <br>
+                                <p>Trescientos comandos civiles (grupos armados terroristas civiles) participaron en diversas acciones ocupando Radio Mitre desde donde se emitió una proclama que dio a Perón por muerto.</p>
+                                <br>
+                                <p>Buenos Aires fue la primera capital de Sudamérica en ser bombardeada por sus propias fuerzas armadas. Los aviones atacantes, punta de lanza de un alzamiento en varios puntos del país, llevaban en sus colas una “V” y una cruz que señalaban “Cristo Vence”.</p>
+                                <br>
+                                <p>La conspiración en marcha perseguía el asesinato del Presidente para establecer un triunvirato civil integrado por Miguel Ángel Zavala Ortiz (UCR), Américo Ghioldi (Partido Socialista) y Adolfo Vicchi (Partido Conservador). Entre los civiles que apoyaron aquel intento de asesinar a Perón figuraban Mario Amadeo, Luis Agote, Alberto Benegas Lynch y Luis María de Pablo Pardo.</p>
+                                <br>
+                                <p>El Bombardeo de junio, no sólo fue precursor directo del golpe de Estado de 1955, que se ejecutó finalmente el día 16 de septiembre del mismo año, con activa participación del Ejército, hasta entonces leal a Perón, sino que da inicio a un ciclo de autoritarismo, represión estatal y persecución política, con que tuvo su manifestación extrema en la dictadura cívico-militar-eclesiástica en marzo de 1976.</p>
+                                <br>
+                                <p>Algunos nombres que no resultaban desconocidos y volvieron a tener primer plano con ferocidad: Olivieri, Massera, Mayorga, Montes, Suárez Mason, genocidas condenados por la Justicia. </p>
+                                <br>
+                                <p>Muchos de los responsables del Bombardeo se refugiaron en Uruguay una vez fracasado el intento de golpe. Allí fueron recibidos en el aeropuerto de Carrasco por el capitán Carlos Guillermo Suárez Mason, prófugo de la Justicia argentina desde su participación en un levantamiento militar contra el presidente Perón en septiembre de 1951.</p>
+                                <br>
+                                <p>Durante décadas, el Bombardeo a Plaza de Mayo permaneció como un hecho olvidado de la historia argentina, como tantos y tantos. Recién en 2005, por iniciativa del Presidente Néstor Kirchner, la Secretaría de Derechos Humanos inició una investigación sobre el ataque del 16 de junio de 1955. Luego, en 2008, durante el mandato inicial de Cristina Fernández de Kirchner, se inauguró el primer monumento oficial en homenaje a las víctimas del Bombardeo, ubicado en las inmediaciones de la Plaza de Mayo. Un año después se sancionó la ley 26.564, que otorgó el derecho a percibir indemnizaciones a las víctimas del ataque.</p>
+                                <br>
+                                <p>Este trágico episodio de nuestra historia fue un crimen de lesa humanidad ya que se lanzó un ataque generalizado y sistemático contra una población civil con total intencionalidad.</p>
+                                <br>
+                                <p>El bombardeo del 16 de Junio de 1955 encuadra perfectamente dentro de los requisitos de los crímenes de lesa humanidad, los cuales son imprescriptibles cualquiera sea la fecha en la que se hayan cometido.</p>
+                                <br>
+                                <p>Estos crímenes son condenados por la comunidad internacional y por nuestro país, como consecuencia de la ratificación de la convención sobre imprescriptibilidad de los crímenes de guerra y de lesa humanidad.</p>
+                                <br>
+                                <p>Ninguno de los autores de estos crímenes fue condenados.  Gozaron de absoluta impunidad.</p>
+                                <br>
+                                <p>Que la memoria no abandone al pueblo.</p>
+                                <br>
+
+                                
+                                
+
+                                <div class="text-start object-center">
+                                    {{-- <figure>
+                                        <img class="w-28 h-28  "
+                                            src="{{ asset('../img/der/Adri.svg') }}"
+                                            alt="">
+                                        
+                                        <p> <strong>Nota de Adriana Zerdín</strong></p>
+
+                                    </figure>  --}}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </li>
+        </ul>
+    </section>
+        {{--INFLACIÓN EN MAYO: DESACELERACIÓN, PERO LA CRISIS PERSISTE--}}
+    <section> 
+        <ul>
+            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                <article>
+
+                    <div class="py-4 px-4 justify-between items-center">
+                        <h2 class="text-xl font-serif  font-bold pb-6">
+                            <a href="">INFLACIÓN EN MAYO: DESACELERACIÓN, PERO LA CRISIS PERSISTE</a>
+                            {{-- <p class="font-light  text-lef text-gray-500">Por Jorge Rachid</p> --}}
+                        </h2>
+                        <p class="font-light  text-right text-gray-500">Publicado: 14/06/2024</p>
+                        <div class=" font-sans text-lg text-left col-span-6  ">
+                        <p><i>El Indec informa una desaceleración en la inflación de mayo. A pesar de ello, los precios continúan al alza, especialmente en alimentos, agravando la caída de los ingresos y acentuando la recesión.</i>
+                        </p>
+                        <br>
+                        <figure>
+                            <img class="w-full object-cover" src="../img/soc/soc_infla.svg"
+                                alt="">
+                        </figure>
+                        
+                        {{-- <article>
+                            <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/Z8erUjiM40o?si=cY0HKLmYrrwJbmcA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            
+                        </article> --}}
+                        <br>
+                        <div
+                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                            <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                <p>El Instituto Nacional de Estadística y Censos (Indec) revela que la inflación de mayo fue del 4,2%, marcando una leve desaceleración en la escalada de precios. Desde la asunción de Javier Milei, la inflación acumula un alarmante 276,4% interanual.
+                                </p>
+                                <br>
+                                <p>A pesar de esta desaceleración, se espera un rebote más fuerte para junio. Según el Relevamiento de Expectativas de Mercado (REM) del Banco Central, la inflación de mayo representa una mejora significativa respecto a meses anteriores, proyectando un aumento anual del 146,4%.</p>
+                                <br>
+                                <p>El indicador oficial de inflación en la Ciudad de Buenos Aires también registró un incremento de 4,4% en mayo, el porcentaje más bajo desde febrero de 2022. Sin embargo, en términos interanuales, la inflación en la capital acumula un aumento del 280,9% en los últimos 12 meses.
+                                </p>
+                                <br>
+                                <p>Para los próximos meses, las proyecciones no son alentadoras. Lorenzo Sigaut Gravina, director de Análisis Macroeconómico de Equilibra, estima que la inflación rondará el 4,5% en mayo, en parte debido a la postergación de subas en servicios públicos y el conflicto Gobierno-prepagas.
+                                </p>
+                                <br>
+                                <p>Las mediciones privadas también reflejan una tendencia similar, con cifras entre el 4,3% y el 5%. La Fundación Libertad y Progreso reportó un aumento del 4,3% en mayo, marcando la primera desaceleración en diez meses. EcoGo señaló que la inflación se ubicaría en el 4,8% mensual, siendo el mejor dato en más de dos años.</p>
+                                <br>
+                                <p>En el Gran Buenos Aires, los precios aumentaron un 4,6%, el menor incremento desde abril de 2022. Econviews estimó una inflación del 4,7% para mayo. Según la firma, la menor variación mensual se debió a la decisión del gobierno de limitar los ajustes de servicios públicos.</p>
+                                <br>
+                                <p>El Instituto de Estudios de Consumo Masivo (INDECOM) reportó una inflación del 4,8% para mayo, mostrando una caída superior al 40% respecto a abril. La inflación núcleo alcanzó el 3,8%.</p>
+                                <br>
+                                <p>En cuanto a los trabajadores, el Instituto de Estadística de los Trabajadores (IET) informó que la inflación fue del 4,7% en mayo, una desaceleración de 4,5 puntos respecto a abril. En lo que va del año, la inflación acumulada para este sector es del 79,2%.</p>
+                                <br>
+                                
+                                
+
+                                <div class="text-start object-center">
+                                    {{-- <figure>
+                                        <img class="w-28 h-28  "
+                                            src="{{ asset('../img/der/Adri.svg') }}"
+                                            alt="">
+                                        
+                                        <p> <strong>Nota de Adriana Zerdín</strong></p>
+
+                                    </figure>  --}}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </li>
+        </ul>
+    </section>
         {{--AMBIENTALISTAS PIDEN AL SENADO QUE NO APRUEBE PRIVILEGIOS.--}}
     <section> 
         <ul>

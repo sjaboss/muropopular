@@ -3203,6 +3203,256 @@
                 </div>
 
             </section>
+        @elseif ($tituloSep == 'Derechos-Humanos-Noticia-Completa-der24')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">ALERTA Y CRÍTICAS ANTE EL CONTROL ESTATAL DE TERRORISTAS
+                                            </a>
+                                        </h2>
+                                        <p class="font-light  text-right text-gray-500">Publicado: 14/06/2024</p>
+                                        <p><i>La medida del Gobierno de la Libertad Avanza de incluir en un registro público a personas vinculadas a actos de terrorismo ha generado controversia y críticas por parte de organizaciones de derechos humanos.</i>
+                                    </p>
+                                        <br>
+                                        <figure>
+                                            <img class="w-full object-cover"
+                                                src="{{ asset('../img/der/der_alerta.svg') }}" alt="">
+
+                                        </figure>
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                                <p>El Gobierno de la Libertad Avanza ha generado controversia con la reciente implementación de un decreto que permite la inclusión en el Registro Público de Personas vinculadas a actos de terrorismo y su financiamiento a individuos considerados como amenazas actuales o potenciales a la seguridad de la Nación. Esta medida, publicada el jueves 6 de junio en el Boletín Oficial, ha sido objeto de críticas por parte de diversas organizaciones y expertos en derechos humanos.
+                                                </p>
+                                                <br>
+                                                <p>Anteriormente, solo las personas o entidades incluidas en las listas consolidadas por el Consejo de Seguridad de las Naciones Unidas podían formar parte de este registro. Sin embargo, el Gobierno de la Libertad Avanza considera esta medida "insuficiente" y ha ampliado las condiciones para la inclusión en el registro.
+                                                </p>
+                                                <br>
+                                                <p>Gerardo Etcheverry, integrante de la Liga Argentina por los Derechos Humanos, ha expresado su preocupación, señalando que esta medida parece buscar más control sobre posibles enemigos del gobierno que abordar efectivamente el financiamiento de actividades peligrosas. Además, se ha cuestionado la falta de transparencia en los criterios utilizados para incluir personas o entidades en el registro, lo que podría conducir a la criminalización de organizaciones de derechos humanos y sociales.
+                                                </p>
+                                                <br>
+                                                <p>El decreto, que lleva el número 496/2024 y cuenta con las firmas del presidente y otros funcionarios de alto rango, modifica la normativa sobre encubrimiento y lavado de activos de origen delictivo. En los considerandos del decreto se hace referencia a los atentados a la Embajada de Israel y a la AMIA en la década de 1990 como justificación para la medida, pero se omite la posición del Gobierno de la Libertad Avanza respecto al conflicto israelí-palestino, lo que ha generado críticas sobre la posible intencionalidad política de la medida.</p>
+                                                <br>
+                                                <p>María del Carmen Verdú, integrante de CORREPI, ha destacado que esta medida se enmarca en una política represiva más amplia del gobierno, evidenciada también en proyectos de reforma del Código Penal que buscan legitimar el gatillo fácil y endurecer el sistema penal en general.</p>
+                                                <br>
+                                                <p>"En el marco de la política represiva llevada adelante por la actual gestión de gobierno, bajo el mandato de Javier Milei y Victoria Villarruel, acompañados en el gabinete por sus ministros Patricia Bullrich y Luis Petri, este decreto va en el mismo sentido que los proyectos de reforma del Código Penal que buscan legitimar el gatillo fácil, eliminar el derecho a querellar de las víctimas y endurecer aún más el sistema penal en una espiral de hiperpunitivismo y manodurismo extremo", asegura María del Carmen Verdú, integrante de CORREPI.</p>
+                                                <br>
+                                                <p>En resumen, la implementación de este decreto por parte del Gobierno de la Libertad Avanza plantea serias preocupaciones sobre la protección de los derechos y libertades individuales, así como sobre la transparencia y el respeto al Estado de Derecho en Argentina.</p>
+                                                <br>
+                                        
+                                                <div class="text-start object-center">
+                                                    {{-- <figure>
+                                                        <img class="w-28 h-28  "
+                                                            src="{{ asset('../img/noteros/gus.svg') }}"
+                                                            alt="">
+                                                        <p> <strong>Por Gustavo Cano<strong></p>
+
+                                                        <p><strong><strong></p>
+
+                                                    </figure> --}}
+                                                </div>
+
+
+                                            </div>
+
+
+
+                                        </div>
+                                    </div>
+                                </article>
+                            </li>
+                        </ul>
+                    </div>
+
+                    {{-- columna de la derecha chica --}}
+                    <aside>
+                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                            <div class=" col-span-6">
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/bener-leg2.png') }}"
+                                        alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
+                                        alt="">
+                                </a>
+
+                                <div id="app">
+
+                                    <div v-for="item in info">
+
+                                        <div class="flex-col pb-3">
+                                            <div
+                                                class="flex-col max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg"
+                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
+                                                        alt="" />
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5
+                                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                                            @{{ item.title }}</h5>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div v-for="va in clima">
+
+                                        <h5
+                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                            @{{ va }}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+                </div>
+
+            </section>
+        @elseif ($tituloSep == 'Derechos-Humanos-Noticia-Completa-der25')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">LEGISLADORES Y ORGANISMOS EXIGEN LIBERTAD DE LOS DETENIDOS
+                                            </a>
+                                        </h2>
+                                        <p class="font-light  text-right text-gray-500">Publicado: 16/06/2024</p>
+                                        <p><i>Una masiva y diversa concentración de dirigentes políticos, sindicales y de derechos humanos se reunió en el Serpaj para exigir la liberación de los detenidos en las protestas contra la Ley Bases. La jueza María Servini liberó a 17 de los 33 detenidos tras la presión popular.</i>
+                                    </p>
+                                        <br>
+                                        {{-- <figure>
+                                            <img class="w-full object-cover"
+                                                src="{{ asset('../img/der/der_alerta.svg') }}" alt="">
+
+                                        </figure> --}}
+                                        <article>
+                                            <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/XSNYTBkbmx4?si=V9zwrQyh3h5dyKbu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                            
+                                        </article>
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                                <p>La sede del Servicio Paz y Justicia (Serpaj) se llenó de dirigentes políticos, sindicales y de organismos de derechos humanos, reclamando la liberación de los detenidos durante las protestas contra la Ley Bases. La concentración, que cerró la calle Piedras al 700, mostró una imagen de unidad frente a la avanzada represiva del gobierno de Javier Milei. Finalmente, la jueza María Servini excarceló a 17 de los 33 detenidos.
+                                                </p>
+                                                <br>
+                                                <p>En la conferencia, Myriam Bregman, del FIT-U, ofició de moderadora, destacando las adhesiones de figuras emblemáticas de derechos humanos como Taty Almeida, Estela de Carlotto y Vera Jarach. “Es alentador saber que estas mujeres que enfrentaron a la dictadura están con nosotros”, afirmó Bregman.
+                                                </p>
+                                                <br>
+                                                <p>Eduardo Tavani, presidente de la Asamblea Permanente por los Derechos Humanos (APDH), llamó a consolidar la unidad en una coordinadora por la libertad de los presos políticos. En la sala, figuras como Horacio Pietragalla Corti y miembros de Abuelas de Plaza de Mayo manifestaron su apoyo. Desde afuera, Carlos Pisoni de H.I.J.O.S. Capital seguía atento.
+                                                </p>
+                                                <br>
+                                                <p>Carlos "Sueco" Lordkipanidse, sobreviviente del terrorismo de Estado, pidió un nuevo paro general contra el gobierno de La Libertad Avanza (LLA). La exministra de Seguridad, Sabina Frederic, criticó las acusaciones de terrorismo del gobierno, señalándolas como una excusa para el abuso de la fuerza.</p>
+                                                <br>
+                                                <p>Leopoldo Moreau, diputado de Unión por la Patria (UxP), anunció una denuncia contra la ministra de Seguridad, Patricia Bullrich, por la represión a los legisladores. “Bullrich es una mercenaria de la violencia de todos los gobiernos de derecha de la Argentina”, afirmó Moreau, quien llevará la denuncia ante organismos internacionales.</p>
+                                                <br>
+                                                <p>Victoria Montenegro, legisladora porteña, también intentó entrevistarse con Servini sin éxito. “Denunciaremos los abusos tanto del Ejecutivo como del Poder Judicial. Si no encontramos eco en la Argentina, seguiremos el camino de las Madres y Abuelas para denunciar en el exterior”, expresó Montenegro.</p>
+                                                <br>
+                                                <p>Diego Morales, del CELS, subrayó la importancia de que el Poder Judicial garantice la libertad de los detenidos y destacó la necesidad de recurrir a instancias internacionales. Su organismo ya notificó a tres relatorías de la ONU sobre las detenciones arbitrarias del gobierno de Milei.</p>
+                                                <br>
+                                                <p>Luego de la reunión en el Serpaj, se entregó un petitorio en el juzgado de Servini, firmado por figuras destacadas como Estela de Carlotto, Adolfo Pérez Esquivel y legisladores de diversos partidos. La conferencia concluyó con un fuerte llamado a la unidad y a la lucha por la libertad y los derechos humanos en Argentina.</p>
+                                                <br>
+                                                <p>En resumen estuvieron presentes representantes de diversas organizaciones de derechos humanos y sindicales, entre las que destacaban la Asamblea Permanente por los Derechos Humanos (APDH), H.I.J.O.S. Capital, Abuelas de Plaza de Mayo, Madres de Plaza de Mayo, el Centro de Estudios Legales y Sociales (CELS), Familiares y Compañeros de los 12 de la Santa Cruz, la Comisión Provincial por la Memoria, la Liga Argentina por los Derechos Humanos, y el Movimiento Ecuménico por los Derechos Humanos. También estuvieron presentes referentes sindicales y políticos de Unión por la Patria (UxP) y del Frente de Izquierda y de los Trabajadores - Unidad (FIT-U), mostrando una sólida unidad en la demanda por la liberación de los detenidos.</p>
+                                                <br>
+                                        
+                                                <div class="text-start object-center">
+                                                    {{-- <figure>
+                                                        <img class="w-28 h-28  "
+                                                            src="{{ asset('../img/noteros/gus.svg') }}"
+                                                            alt="">
+                                                        <p> <strong>Por Gustavo Cano<strong></p>
+
+                                                        <p><strong><strong></p>
+
+                                                    </figure> --}}
+                                                </div>
+
+
+                                            </div>
+
+
+
+                                        </div>
+                                    </div>
+                                </article>
+                            </li>
+                        </ul>
+                    </div>
+
+                    {{-- columna de la derecha chica --}}
+                    <aside>
+                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                            <div class=" col-span-6">
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/bener-leg2.png') }}"
+                                        alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
+                                        alt="">
+                                </a>
+
+                                <div id="app">
+
+                                    <div v-for="item in info">
+
+                                        <div class="flex-col pb-3">
+                                            <div
+                                                class="flex-col max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg"
+                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
+                                                        alt="" />
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5
+                                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                                            @{{ item.title }}</h5>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div v-for="va in clima">
+
+                                        <h5
+                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                            @{{ va }}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+                </div>
+
+            </section>
         @endif
     </div>
 

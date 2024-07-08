@@ -2257,6 +2257,590 @@
                 </div>
 
             </section>
+        @elseif ($tituloSep == 'Internacionales-Noticia-Completa-int17')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">LA POSIBLE CANDIDATURA DE BACHELET EN CHILE</a>
+                                            {{-- <p class="font-light text-gray-500">Por Carola Chávez
+                                            </p>  --}}
+                                            {{-- <p class="font-light text-gray-500">Presidente Honorario de la Unión de Periodistas de Cuba (UPEC) y de la Federación Latinoamericana de Periodistas (FELAP).
+                                            </p> --}}
+                                        </h2>
+                                        <p class="font-light  text-right text-gray-500">Publicado: 15/06/2024</p>
+                                        <p><i>La izquierda chilena debate la posible candidatura de Michelle Bachelet en las elecciones de 2025 como una opción para enfrentar el creciente liderazgo de la derecha representada por José Antonio Kast. ¿Será Bachelet la carta ganadora que necesita el progresismo para evitar una derrota electoral? </i>
+                                        </p>
+                                        <br>
+                                        <figure>
+                                            <img class=" w-full object-cover" src="../img/int/int_bachelet.svg"
+                                                alt="">
+
+                                        </figure>
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                                <p>La izquierda chilena se encuentra inmersa en un complejo escenario político, donde las elecciones presidenciales de 2025 se vislumbran como un hito crucial. El gobierno de Gabriel Boric, aunque con un inicio prometedor, no ha logrado consolidarse debido a diversos factores, entre ellos, el estancamiento del proceso constituyente y el creciente liderazgo de José Antonio Kast, cuyas propuestas de mano dura frente a la seguridad y la violencia han calado en un sector importante de la población.</p>
+                                                <br>
+                                                <p>Ante este panorama, surge una idea que cobra fuerza en ciertos sectores de la izquierda chilena: la posible candidatura de Michelle Bachelet en las elecciones de 2025. La ex presidenta, que gobernó en dos períodos (2006-2010 y 2014-2018) y posteriormente ocupó el Alto Comisionado para los Derechos Humanos de la ONU, se perfila como una figura capaz de unificar al progresismo y enfrentar a la derecha representada por Kast.</p>
+                                                <br>
+                                                <p>Fuentes cercanas a Bachelet han confirmado que ella estaría dispuesta a asumir este desafío, lo cual es visto con buenos ojos por parte del Partido Socialista y otros sectores de la izquierda, que la comparan con Lula en Brasil, quien logró su tercer mandato construyendo un frente amplio contra la ultraderecha de Bolsonaro.
+                                                </p>
+                                                <br>
+                                                <p>Para muchos, la candidatura de Bachelet es la única opción para evitar un escenario adverso en las elecciones de 2025. Sin un candidato fuerte que pueda hacer frente a Kast, la izquierda corre el riesgo de quedar fuera de la segunda vuelta electoral, lo cual sería un golpe duro para sus aspiraciones políticas.</p>
+                                                <br>
+                                                <p>En conclusión, la posible candidatura de Michelle Bachelet se presenta como una carta ganadora para la izquierda chilena. Su liderazgo, experiencia y capacidad de movilización podrían ser determinantes para asegurar la presencia de la izquierda en la segunda vuelta electoral y marcar un nuevo rumbo en la política del país.</p>
+                                                <br>
+                                                
+                                            </div>
+
+
+
+                                        </div>
+                                    </div>
+                                </article>
+                            </li>
+                        </ul>
+                        <br>
+
+                    </div>
+
+
+                    {{-- columna de la derecha chica --}}
+                    <aside>
+                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                            <div class=" col-span-6">
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/bener-leg2.png') }}"
+                                        alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
+                                        alt="">
+                                </a>
+
+                                <div id="app">
+
+                                    <div v-for="item in info">
+
+                                        <div class="flex-col pb-3">
+                                            <div
+                                                class="flex-col max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg"
+                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
+                                                        alt="" />
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5
+                                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                                            @{{ item.title }}</h5>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div v-for="va in clima">
+
+                                        <h5
+                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                            @{{ va }}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+
+                </div>
+
+            </section>
+        @elseif ($tituloSep == 'Internacionales-Noticia-Completa-int18')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">BRICS NO FIRMAN DECLARACIÓN SOBRE EL CONFLICTO EN UCRANIA</a>
+                                            {{-- <p class="font-light text-gray-500">Por Carola Chávez
+                                            </p>  --}}
+                                            {{-- <p class="font-light text-gray-500">Presidente Honorario de la Unión de Periodistas de Cuba (UPEC) y de la Federación Latinoamericana de Periodistas (FELAP).
+                                            </p> --}}
+                                        </h2>
+                                        <p class="font-light  text-right text-gray-500">Publicado: 18/06/2024</p>
+                                        <p><i>Un total de 16 naciones del Grupo BRICS, incluido México, no firmaron la declaración final en la Cumbre para la Paz en Ucrania en Suiza, destacando diferencias de opinión sobre el conflicto entre Ucrania y Rusia.</i>
+                                        </p>
+                                        <br>
+                                        <figure>
+                                            <img class=" w-full object-cover" src="../img/int/int_bricsucra.svg"
+                                                alt="">
+
+                                        </figure>
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                                <p>La Cumbre para la Paz en Ucrania, celebrada en Burgenstock, Suiza, no logró la unanimidad esperada. De los más de 100 países y organizaciones participantes, 84 firmaron el documento final, mientras que 16 naciones del Grupo BRICS, entre ellas México, Brasil, Sudáfrica, Arabia Saudita, Armenia, Bahréin, Emiratos Árabes Unidos, la India, Indonesia, Libia, Tailandia y el Vaticano, se abstuvieron.</p>
+                                                <br>
+                                                <p>La presidenta suiza, Viola Amherd, señaló que surgieron diferencias de opinión durante el foro. La cumbre se vio marcada por la ausencia de los presidentes de Brasil, Estados Unidos y China, y la falta de invitación a Rusia.</p>
+                                                <br>
+                                                <p>Alicia Bárcena, canciller de México, explicó las razones detrás de la abstención de su país. "Es imperativo que dediquemos esfuerzos diplomáticos para que la Federación de Rusia sea incluida en esta discusión. Debemos poner el proceso de paz bajo el paraguas de las Naciones Unidas y considerar acuerdos y medidas negociadas graduales para generar confianza", declaró Bárcena. Además, subrayó que México sigue de cerca el trabajo de la Corte Penal Internacional en la investigación de los ataques rusos a la infraestructura energética ucraniana.
+                                                </p>
+                                                <br>
+                                                <p>La cumbre dejó en claro las diferencias de opinión sobre cómo abordar el conflicto en Ucrania, reflejando las complejidades geopolíticas y las diferentes estrategias diplomáticas en juego.</p>
+                                                <br>
+                                                
+                                                
+                                            </div>
+
+
+
+                                        </div>
+                                    </div>
+                                </article>
+                            </li>
+                        </ul>
+                        <br>
+
+                    </div>
+
+
+                    {{-- columna de la derecha chica --}}
+                    <aside>
+                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                            <div class=" col-span-6">
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/bener-leg2.png') }}"
+                                        alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
+                                        alt="">
+                                </a>
+
+                                <div id="app">
+
+                                    <div v-for="item in info">
+
+                                        <div class="flex-col pb-3">
+                                            <div
+                                                class="flex-col max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg"
+                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
+                                                        alt="" />
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5
+                                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                                            @{{ item.title }}</h5>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div v-for="va in clima">
+
+                                        <h5
+                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                            @{{ va }}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+
+                </div>
+
+            </section>
+        @elseif ($tituloSep == 'Internacionales-Noticia-Completa-int19')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">VIOLACIÓN ANTISEMITA DE UNA NIÑA DE 12 AÑOS CONMOCIONA A FRANCIA A DIEZ DÍAS DE LAS ELECCIONES LEGISLATIVAS</a>
+                                            {{-- <p class="font-light text-gray-500">Por Carola Chávez
+                                            </p>  --}}
+                                            {{-- <p class="font-light text-gray-500">Presidente Honorario de la Unión de Periodistas de Cuba (UPEC) y de la Federación Latinoamericana de Periodistas (FELAP).
+                                            </p> --}}
+                                        </h2>
+                                        <p class="font-light  text-right text-gray-500">Publicado: 19/06/2024</p>
+                                        <p><i>La brutal agresión en Courbevoie sacude a la nación, exacerbando las tensiones políticas y sociales en medio de una campaña electoral decisiva.</i>
+                                        </p>
+                                        <br>
+                                        <figure>
+                                            <img class=" w-full object-cover" src="../img/int/int_antisemita.svg"
+                                                alt="">
+
+                                        </figure>
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                                <p>Francia se encuentra en estado de conmoción tras la violación de una niña judía de 12 años el pasado 15 de junio en Courbevoie, un suburbio cercano a París. Tres menores de edad, dos de 13 años y uno de 12, han sido imputados por este horrendo crimen que incluyó agresiones físicas y verbales con tintes antisemitas. El ataque ocurre en un momento sumamente delicado, a tan solo diez días de unas elecciones legislativas que podrían llevar a la extrema derecha al poder.</p>
+                                                <br>
+                                                <p>Según el testimonio de la víctima, publicado por el diario Le Parisien, los agresores la interceptaron mientras regresaba a su casa tras visitar a un amigo. La niña fue llevada a un edificio abandonado donde fue golpeada, insultada con epítetos antisemitas y amenazada. Pese a la brutalidad del ataque, la víctima denunció el hecho ese mismo día, lo que llevó a la rápida detención e imputación de los tres agresores.</p>
+                                                <br>
+                                                <p>Impacto Político y Social</p>
+                                                <br>
+                                                <p>El presidente Emmanuel Macron, en una reunión del Consejo de Ministros, condenó enérgicamente el ataque y denunció el antisemitismo como una "plaga" que amenaza las escuelas francesas. Macron instó a un diálogo nacional sobre el racismo y la intolerancia, advirtiendo sobre las graves consecuencias del discurso de odio en la sociedad. “No podemos permitir que el antisemitismo y el odio se infiltren en nuestras aulas y comunidades,” declaró el presidente.</p>
+                                                <br>
+                                                <p>La violación ha exacerbado las tensiones en una campaña electoral ya polarizada. Marine Le Pen, líder del Reagrupamiento Nacional (RN), ha utilizado el incidente para reforzar su discurso de seguridad y orden, presentándose como la defensora de la comunidad judía, a pesar de las raíces históricas de su partido en el antisemitismo. “La estigmatización de los judíos por parte de la extrema izquierda es una verdadera amenaza para la paz civil,” declaró Le Pen, quien ha recibido el apoyo de figuras prominentes como Serge Klarsfeld, historiador y cazador de nazis.</p>
+                                                <br>
+                                                <p>Jean-Luc Mélenchon, líder de La Francia Insumisa (LFI), también reaccionó rápidamente, condenando el ataque y llamando a no convertir el crimen en un espectáculo mediático. Sin embargo, Mélenchon y su partido han sido criticados por minimizar el antisemitismo, lo que ha generado fuertes reacciones en el espectro político. “¿Cómo se atreve a minimizar un ataque tan atroz?” cuestionó el ministro de Justicia, Éric Dupond-Moretti, dirigiéndose a Mélenchon.</p>
+                                                <br>
+                                                <p>Contexto de Inseguridad</p>
+                                                <br>
+                                                <p>Este ataque brutal se suma a una serie de incidentes violentos que han alimentado la sensación de inseguridad en Francia. Según un informe del Ministerio del Interior, en el último año hubo 84.000 víctimas de violencia sexual fuera del ámbito familiar, un aumento del 6% respecto al año anterior. Además, los actos antisemitas han experimentado un preocupante incremento, especialmente tras el conflicto entre Hamás e Israel.</p>
+                                                <br>
+                                                <p>La agresión en Courbevoie no solo es una tragedia personal sino también un reflejo de las tensiones sociales y políticas en Francia. Mientras el país se prepara para unas elecciones cruciales, este incidente se convierte en un doloroso recordatorio de los desafíos que enfrenta la nación en la lucha contra el odio y la violencia.</p>
+                                                <br>
+                                                <p>Reacciones y Consecuencias</p>
+                                                <br>
+                                                <p>El gobierno ha respondido rápidamente a la crisis. Macron ordenó al Ministerio de Educación organizar sesiones de intercambio en las escuelas para abordar el tema del antisemitismo. Sin embargo, las reacciones políticas han sido mixtas y han profundizado las divisiones en el país.</p>
+                                                <br>
+                                                <p>Éric Dupond-Moretti criticó duramente a Mélenchon por minimizar el antisemitismo y utilizar el caso con fines políticos. “Deje a esta chica y su familia en paz,” declaró, subrayando las contradicciones dentro de la coalición de izquierdas.</p>
+                                                <br>
+                                                <p>Marine Le Pen, por su parte, ha capitalizado el incidente para fortalecer su posición en la campaña electoral. Ha destacado que su partido, a pesar de sus raíces históricas en el antisemitismo, se presenta hoy como el defensor de los judíos en Francia.</p>
+                                                <br>
+                                                <p>La tragedia de Courbevoie subraya la necesidad urgente de abordar el antisemitismo y la violencia juvenil en Francia. En un momento en que las elecciones se acercan, este incidente ha puesto de manifiesto las profundas divisiones y desafíos que enfrenta la sociedad francesa en su lucha por la justicia y la seguridad.</p>
+                                                <br>
+
+                                                
+                                            </div>
+
+
+
+                                        </div>
+                                    </div>
+                                </article>
+                            </li>
+                        </ul>
+                        <br>
+
+                    </div>
+
+
+                    {{-- columna de la derecha chica --}}
+                    <aside>
+                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                            <div class=" col-span-6">
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/bener-leg2.png') }}"
+                                        alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
+                                        alt="">
+                                </a>
+
+                                <div id="app">
+
+                                    <div v-for="item in info">
+
+                                        <div class="flex-col pb-3">
+                                            <div
+                                                class="flex-col max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg"
+                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
+                                                        alt="" />
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5
+                                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                                            @{{ item.title }}</h5>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div v-for="va in clima">
+
+                                        <h5
+                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                            @{{ va }}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+
+                </div>
+
+            </section>
+        @elseif ($tituloSep == 'Internacionales-Noticia-Completa-int20')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">MILEI CRITICA A PEDRO SÁNCHEZ Y DETERIORA RELACIONES CON ESPAÑA</a>
+                                            {{-- <p class="font-light text-gray-500">Por Carola Chávez
+                                            </p>  --}}
+                                            {{-- <p class="font-light text-gray-500">Presidente Honorario de la Unión de Periodistas de Cuba (UPEC) y de la Federación Latinoamericana de Periodistas (FELAP).
+                                            </p> --}}
+                                        </h2>
+                                        <p class="font-light  text-right text-gray-500">Publicado: 21/06/2024</p>
+                                        <p><i>Las provocaciones de Javier Milei durante su visita a España han generado un impacto negativo en las relaciones diplomáticas entre Argentina y España, reflejando su postura agresiva y desmedida.</i>
+                                        </p>
+                                        <br>
+                                        <figure>
+                                            <img class=" w-full object-cover" src="../img/int/int_pedro.svg"
+                                                alt="">
+
+                                        </figure>
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                                <p>Durante su reciente discurso en Madrid, Javier Milei no solo recibió una medalla internacional, sino que también arremetió contra Pedro Sánchez, exacerbando las tensiones bilaterales y demostrando una vez más su falta de diplomacia y respeto.</p>
+                                                <br>
+                                                <p>El presidente argentino, Javier Milei, ha vuelto a desatar controversia internacional con sus declaraciones incendiarias, esta vez en el corazón de España. Durante su discurso al recibir la medalla internacional de la Comunidad de Madrid, Milei criticó duramente al primer ministro español, Pedro Sánchez, y advirtió sobre los supuestos peligros del socialismo, en un claro intento de promover su agenda ultraliberal a costa de la diplomacia.</p>
+                                                <br>
+                                                <p>UN DISCURSO POLEMICO Y DESACERTADO</p>
+                                                <br>
+                                                <p>Milei comenzó su discurso con una retórica alarmista, describiendo a Argentina como una nación devastada por más de un siglo de políticas socialistas. Con afirmaciones exageradas, comparó el presente de su país con un hipotético futuro español bajo la influencia de Pedro Sánchez, tratando de sembrar el miedo y el caos con afirmaciones sin fundamento y cifras alarmistas.</p>
+                                                <br>
+                                                <p>Sus críticas a la justicia social fueron especialmente virulentas, calificándola de "profundamente injusta y violenta". Estas declaraciones no solo demuestran una falta de comprensión sobre las políticas de bienestar social, sino también un desprecio absoluto por los principios de equidad y justicia que sostienen a muchas democracias modernas.</p>
+                                                <br>
+                                                <p>PROPUESTAS INCOHERENTES Y EXTREMAS</p>
+                                                <br>
+                                                <p>Milei también aprovechó la oportunidad para proponer medidas draconianas contra la emisión de dinero, sugiriendo que debería considerarse un delito de lesa humanidad. Esta propuesta no solo es absurda y extrema, sino que revela una falta de conexión con la realidad económica y una peligrosa inclinación hacia el autoritarismo.</p>
+                                                <br>
+                                                <p>Sus declaraciones sobre la inflación y la emisión monetaria muestran una visión simplista y reduccionista de problemas económicos complejos. Al insistir en que la inflación solo es causada por la emisión de dinero, Milei ignora factores cruciales como la demanda agregada, la estructura de mercado y las políticas fiscales.</p>
+                                                <br>
+                                                <p>CONSECUENCIAS NEGATIVAS EN LAS RELACIONES DIPLOMÁTICAS</p>
+                                                <br>
+                                                <p>Las palabras de Milei no solo son un ataque a las políticas de Pedro Sánchez, sino también un golpe a las relaciones diplomáticas entre Argentina y España. Su comportamiento en Madrid refleja una total falta de respeto por los protocolos diplomáticos y una peligrosa tendencia a la confrontación.</p>
+                                                <br>
+                                                <p>Las acciones de Milei, lejos de fortalecer la posición de Argentina en el escenario internacional, la debilitan, exponiéndola a tensiones innecesarias y conflictos diplomáticos. Este tipo de comportamiento no solo es irresponsable, sino que también pone en riesgo los intereses y la reputación de Argentina.</p>
+                                                <br>
+                                                <p>UNA POSTURA DESTRUCTIVA</p>
+                                                <br>
+                                                <p>El discurso de Milei en Madrid es un claro ejemplo de su estrategia destructiva: utilizar cualquier plataforma para promover su agenda ultraliberal, sin importar las consecuencias. Sus ataques no solo son un intento de desacreditar a Pedro Sánchez, sino también una señal de advertencia sobre su estilo de liderazgo polarizante y divisivo.</p>
+                                                <br>
+                                                <p>Milei ha demostrado que está dispuesto a sacrificar relaciones diplomáticas y estabilidad política en su búsqueda de imponer su visión radical. Esta actitud no solo es contraproducente para Argentina, sino que también amenaza la cooperación y el entendimiento entre naciones.</p>
+                                                <br>
+                                                <p>Las provocaciones de Javier Milei en España son una señal alarmante de su falta de diplomacia y su inclinación hacia la confrontación. Su retórica incendiaria y propuestas extremas no solo deterioran las relaciones bilaterales, sino que también revelan una peligrosa tendencia hacia el autoritarismo y la polarización. En un mundo que necesita más cooperación y menos conflicto, las acciones de Milei son un paso en la dirección equivocada.</p>
+                                                <br>
+                                            </div>
+
+
+
+                                        </div>
+                                    </div>
+                                </article>
+                            </li>
+                        </ul>
+                        <br>
+
+                    </div>
+
+
+                    {{-- columna de la derecha chica --}}
+                    <aside>
+                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                            <div class=" col-span-6">
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/bener-leg2.png') }}"
+                                        alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
+                                        alt="">
+                                </a>
+
+                                <div id="app">
+
+                                    <div v-for="item in info">
+
+                                        <div class="flex-col pb-3">
+                                            <div
+                                                class="flex-col max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg"
+                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
+                                                        alt="" />
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5
+                                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                                            @{{ item.title }}</h5>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div v-for="va in clima">
+
+                                        <h5
+                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                            @{{ va }}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+
+                </div>
+
+            </section>
+        @elseif ($tituloSep == 'Internacionales-Noticia-Completa-int21')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">ARCE FRENÓ EL GOLPE EN BOLIVIA: ZÚÑIGA DETENIDO Y LOS MILITARES SE RETIRAN</a>
+                                            {{-- <p class="font-light text-gray-500">Por Carola Chávez
+                                            </p>  --}}
+                                            {{-- <p class="font-light text-gray-500">Presidente Honorario de la Unión de Periodistas de Cuba (UPEC) y de la Federación Latinoamericana de Periodistas (FELAP).
+                                            </p> --}}
+                                        </h2>
+                                        <p class="font-light  text-right text-gray-500">Publicado: 29/06/2024</p>
+                                        <p><i>El presidente Luis Arce, respaldado por una multitud, logra aislar a los golpistas. El general Juan José Zúñiga fue detenido. La interna con Evo Morales sigue latente.</i>
+                                        </p>
+                                        <br>
+                                        <figure>
+                                            <img class=" w-full object-cover" src="../img/int/int_arce.svg"
+                                                alt="">
+
+                                        </figure>
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                                <p>El intento de golpe del Ejército boliviano fracasó y Luis Arce se mantiene en el poder, más fortalecido que nunca. En un acto de valentía y decisión política, el Presidente boliviano se presentó en Plaza Murillo y habló en el balcón presidencial, demostrando su control sobre la situación.</p>
+                                                <br>
+                                                <p>Arce actuó con rapidez, enfrentando al general golpista Zúñiga y nombrando de inmediato a un nuevo jefe del Ejército. En su discurso de asunción, el nuevo líder militar ordenó: "Todo el personal movilizado en las calles debe retornar a sus unidades".</p>
+                                                <br>
+                                                <p>El presidente boliviano enfatizó que "haremos respetar la democracia ganada con el voto del pueblo boliviano en las urnas. Saludamos al pueblo boliviano que, anoticiado de estos acontecimientos, está rodeando la Plaza Murillo, y a los organismos internacionales que han reprochado estos actos, así como a los países amigos que se han pronunciado en favor de la democracia".</p>
+                                                <br>
+                                                <p>Las fuerzas rebeldes se retiraron, y la Fiscalía General del Estado boliviano anunció la apertura de una investigación penal contra el ex jefe militar Juan José Zúñiga, quien fue detenido por la policía y declaró: "El presidente me pidió hacer algo para levantar su popularidad".</p>
+                                                <br>
+                                                <p>Arce obtuvo un amplio apoyo internacional de gobiernos de la región, algunos países europeos y la OEA. También recibió respaldo de ex presidentes del país y líderes opositores. Sin embargo, la derrota de este nuevo golpe no logró unir a las dos facciones del Movimiento Al Socialismo (MAS), que mantienen una disputa interna desde hace al menos tres años. "Todo terminó con la posesión de un nuevo alto mando militar. Zúñiga, el comandante del Ejército sublevado que sitió el Palacio Quemado, debió ser destituido ayer. No habríamos tenido este tremendo susto!", cuestionaron desde el sector del evismo.</p>
+                                                <br>
+                                                <p>Una fuente cercana al ex presidente dijo: "Venimos denunciando hace días la pasividad del gobierno frente a Zúñiga después de que, como Comandante del Ejército, amenazó a Evo Morales. Necesitamos explicaciones de lo que sucedió hoy, pero sobre todo, necesitamos justicia y a Zúñiga en la cárcel".</p>
+                                                <br>
+                                                <p>Desde el sector de Arce, una funcionaria del gobierno respondió: "No es tan fácil destituir a un general de ejército. Eso debería saber el mismo Evo Morales y su gente. Antes de destituir, que sufrió un golpe de Estado, ni siquiera era del Ejército, era de la policía, no tuvo tiempo de reaccionar". Añadió que "gracias a la fortaleza de nuestro presidente Lucho, que no salió corriendo, dio la cara, se enfrentó. Estamos en la historia de un presidente fuerte que derrotó un intento de golpe de Estado", en clara referencia a la salida de Evo del país durante el golpe de Estado de 2019.</p>
+                                                <br>
+                                                <p>Los debates internos del MAS se intensificaron en los grupos de Whatsapp, con seguidores de Evo insistiendo en la idea del autogolpe, mientras que otros remarcaron el "coraje" del presidente para derrotar el intento de golpe. El Grupo de Puebla, que agrupa a ex presidentes y líderes de centroizquierda y ha intentado mediar en la interna del MAS, también fue blanco de críticas. La Cancillería de Bolivia los acusó de sugerir que Arce había gestado un autogolpe y de construir una narrativa para acortar su mandato.</p>
+                                                <br>
+                                                <p>Con los puentes prácticamente detonados, las dos facciones del MAS profundizan la pelea por la candidatura del próximo año, con acusaciones cruzadas y el partido de gobierno al borde de la ruptura.</p>
+                                                <br>
+                                                <p>Frente a este escenario, gran parte del pueblo boliviano espera que la justicia y los jueces estén a la altura de las circunstancias, garantizando que los responsables del intento de golpe sean debidamente juzgados y que la democracia prevalezca.</p>
+                                                <br>
+                                                
+                                            </div>
+
+
+
+                                        </div>
+                                    </div>
+                                </article>
+                            </li>
+                        </ul>
+                        <br>
+
+                    </div>
+
+
+                    {{-- columna de la derecha chica --}}
+                    <aside>
+                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                            <div class=" col-span-6">
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/bener-leg2.png') }}"
+                                        alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
+                                        alt="">
+                                </a>
+
+                                <div id="app">
+
+                                    <div v-for="item in info">
+
+                                        <div class="flex-col pb-3">
+                                            <div
+                                                class="flex-col max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg"
+                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
+                                                        alt="" />
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5
+                                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                                            @{{ item.title }}</h5>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div v-for="va in clima">
+
+                                        <h5
+                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                            @{{ va }}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+
+                </div>
+
+            </section>
         @endif
 
 
@@ -2280,7 +2864,7 @@
                 mounted() {
 
 
-                    axios.get("https://api.dailymotion.com/videos?channel=news&limit=2")
+                    axios.get("https://api.dailymotion.com/videos?channel=news&limit=4")
                         .then(response => {
                             this.info = response.data.list
                         });

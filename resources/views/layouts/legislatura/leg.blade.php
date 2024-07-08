@@ -1,5 +1,236 @@
 <x-app-layout>
     <div class="container ">
+    {{--ALEJANDRO MEDINA ES NUEVA PERSONALIDAD DESTACADA DE LA CIUDAD --}}
+        <section >
+            <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">ALEJANDRO MEDINA ES NUEVA PERSONALIDAD DESTACADA DE LA CIUDAD</a>
+                                        </h2>
+                                        <p class="font-light  text-right text-gray-500">Publicado: 26/06/2024</p>
+                                        <p><i>El Cuerpo Legislativo destacó la trayectoria del ex bajista de Manal, Aeroblus, Pappo’s Blues y Billy Bond y La Pesada del Rock and Roll.</i></p>
+                                        <br>
+                                        <figure>
+                                            <a href="">
+                                                <img class="w-full object-cover object-center"
+                                                    src="{{ asset('../img/leg/leg_medina2.svg') }}" alt="">
+                                            </a>
+                                        </figure>
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                                <p>La Legislatura de la Ciudad, a través de sus diputados, declararon como Personalidad Destacada en el ámbito de la cultura al bajista y músico, Alejandro Medina. La ceremonia se llevó a cabo en el Salón San Martín y estuvo encabezada por la legisladora y autora del proyecto, Claudia Neira. Y quien estuvo acompañada por el homenajeado y su esposa, Lola Medina.</p>
+                                                <br>
+                                                <p>“Es un privilegio poder homenajear a uno de los próceres y de las leyendas vivas del rock nacional”, destacó Neira en el comienzo de las alocuciones. Luego puntualizó en la influencia de Manal -ex banda de Medina-: “En ese primer Manal hay mucho de la nostalgia tanguera de la Ciudad de Buenos Aires”. Y concluyó en la importancia de darle reconocimiento a la cultura que hay en nuestro país. Finalmente Medina agradeció el acompañamiento de los presentes, previo a realizar un número musical.</p>
+                                                <br>
+                                                <p>Alejandro Medina es un reconocido bajista, compositor y cantante argentino. Nacido en el barrio de Almagro, a sus diez años comenzó a tocar la trompeta y a sus catorce años realizó el cambio por su bajo. A su vez, desempeñó un papel fundamental en el desarrollo y consolidación del rock y el blues en Argentina. En ese sentido, a sus dieciocho años y junto a Claudio Gabis y Javier Martínez, fundaron la emblemática banda Manal, el primer grupo de blues en español; que constituye uno de los grupos fundacionales del rock argentino, en conjunto con Almendra y Los Gatos. Y uno de los primeros en componer el género de blues y rock en castellano.
+                                                </p>
+                                                <br>
+                                                <p>Tras la disolución de Manal en 1971, Medina continuó su carrera musical integrando la banda de Billy Bond y La Pesada del Rock and Roll junto con Billy Bond, Jorge Pinchevesky y Pappo, entre otros. La banda participó en festivales destacados como B.A. Rock. y grabando álbumes que se convirtieron en referentes del género. Su incursión en proyectos solistas y colaboraciones con otros músicos importantes, como Sui Generis y Raúl Porchetto, también dejaron su marca en la escena musical argentina de los años 70.</p>
+                                                <br>
+                                                <p>En 1977 formó la banda llamada Aeroblus junto con Pappo y Rolando Castello Junior, con quienes grabaron un álbum con el mismo nombre de la banda; y que constituye hasta el día de hoy una referencia del comienzo del rock pesado y el hard rock en Argentina. Con una trayectoria que abarca más de seis décadas, Alejandro Medina ha demostrado una dedicación con la música, continuando su labor musical a través de su proyecto actual, Medinight Band.</p>
+                                                <br>
+                                                <p>Alejandro Medina contribuyó significativamente al enriquecimiento musical argentino. Sus aportes tanto en la composición como sus realizaciones instrumentales fueron y son fundamentales para la evolución del rock y el blues en español.</p>
+                                                <br>
+                                                
+                                                
+                                                
+                                                
+                                            </div>
+
+
+
+                                        </div>
+                                    </div>
+                                </article>
+                            </li>
+                        </ul>
+        </section>
+        {{--LA LEGISLATURA DECLARÓ DE INTERÉS AL LIBRO ‘GUERRERO DEL SILENCIO’ --}}
+        <section >
+            <ul>
+                <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                    <article>
+
+                        <div class="py-4 px-4 justify-between items-center">
+                            <h2 class="text-xl font-serif  font-bold pb-6">
+                                <a href="">LA LEGISLATURA DECLARÓ DE INTERÉS AL LIBRO ‘GUERRERO DEL SILENCIO’</a>
+                            </h2>
+                            <p class="font-light  text-right text-gray-500">Publicado: 19/06/2024</p>
+                            <p><i>La publicación desarrolla la biografía del exministro de Educación de la Nación y ex legislador, Esteban Bullrich, quien fue homenajeado en el marco del mes de la Esclerosis Lateral Amiotrófica (ELA).</i></p>
+                            <br>
+                            <figure>
+                                <a href="">
+                                    <img class="w-full object-cover object-center"
+                                        src="{{ asset('../img/leg/leg_libro2.svg') }}" alt="">
+                                </a>
+                            </figure>
+                            <br>
+                            <div
+                                class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                    <p>En el marco del Día Mundial de la Esclerosis Lateral Amiotrófica (ELA), que se conmemora el 21 de junio, hoy se realizó ‘La Legislatura habla de ELA’, una jornada que buscó exponer las problemáticas sociales y el acceso a la salud de las familias que transitan esta enfermedad neuromuscular degenerativa. Durante el encuentro, los legisladores de la Ciudad de Buenos Aires declararon de Interés Social al libro ‘Guerrero del silencio’, biografía del exsenador nacional y exministro de Educación de la Nación, Esteban José Bullrich, escrito por Pablo Sirvén.</p>
+                                    <br>
+                                    <p>El acto se realizó en el Salón Dorado del Palacio Legislativo y contó con la presencia de la diputada y autora del proyecto, Silvia Imas; la Presidenta de la Legislatura y Vicejefa de Gobierno de la Ciudad, Clara Muzzio; la Directora Ejecutiva de la Fundación Esteban Bullrich, Agustina Bugnard; el Mayor Retirado del Ejército Argentino, Fernando Domínguez y el homenajeado, Esteban Bullrich.</p>
+                                    <br>
+                                    <p>En el inicio de las alocuciones, Muzzio enfatizó: “Mediante esta declaración de interés no solamente queremos reconocer el gran trabajo que hace la Fundación Esteban Bullrich y reconocer a todos los trabajadores de la salud, sino también a través de libro empezar a reconocer a Esteban; que es una fuente de inspiración para todos nosotros".
+                                    </p>
+                                    <br>
+                                    <p>A su turno, Imas señaló la importancia de la reunión para la comunidad y para la Legislatura. Luego puntualizó: “La ELA no afecta únicamente al paciente, sino a todo su entorno y transforma drásticamente la dinámica familiar”. Y destacó el rol de la Fundación Esteban Bullrich: “Quiero asumir un compromiso con la fundación y con todos ustedes, desde nuestro lugar, de hacer cada vez más visible la labor de la fundación”. ”. Finalmente Bullrich agradeció a Muzzio y a Imas por el reconocimiento y por darle voz a dicha enfermedad.</p>
+                                    <br>
+                                    <p>En el año 2022, el escritor Pablo Sirvén, encaró la desafiante tarea de escribir la biografía del exsenador Nacional Esteban Bullrich, quien había sido diagnosticado recientemente con Esclerosis Lateral Amiotrófica (ELA), una enfermedad neurodegenerativa que afecta, aproximadamente, a 2 por cada 100.000 argentinos por año.</p>
+                                    <br>
+                                    <p>El libro, presentado en mayo de 2023, no es un mero recorrido cronológico por la historia de Esteban, sino una verdadera inmersión en su lucha contra la enfermedad; su motivo de vida y su tan arraigada fe que jamás lo han alejado de su antigua lucha contra la “mala política” y la grieta. Sobre estos pilares, fundamentales en la vida del ex senador, versa “Guerrero del Silencio”.</p>
+                                    <br>
+                                    <p>La publicación narra, íntimamente, una crónica de lucha contra la enfermedad y resalta la actitud que Esteban Bullrich ha tomado a partir de su diagnóstico. De la mano de la fe y de su más preciado sostén, su familia, Esteban se ha convertido en un ejemplo de resiliencia y vitalidad.</p>
+                                    <br>
+                                    <p>Adicionalmente, la obra va en línea con la misión de Esteban, que es seguir concientizando a la población sobre la ELA, una enfermedad poco frecuente, que aún no despierta el suficiente interés y, por este mismo motivo, no consigue el financiamiento necesario para encontrar su cura. En palabras del protagonista: “La ELA tiene cura, solo falta investigarla”.</p>
+                                    <br>
+                                    
+                                    
+                                    
+                                </div>
+
+
+
+                            </div>
+                        </div>
+                    </article>
+                </li>
+            </ul>
+        </section>
+    {{--LA LEGISLATURA APROBÓ LA LEY DE REITERANCIA.. --}}
+        <section >
+            <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">LA LEGISLATURA APROBÓ LA LEY DE REITERANCIA</a>
+                                        </h2>
+                                        <p class="font-light  text-right text-gray-500">Publicado: 13/06/2024</p>
+                                        <p><i>Además de los cambios en el Código Procesal de la Ciudad, se creó el INDEC porteño, readecuaron la antigüedad de los taxis, se aprobaron beneficios para clubes de barrio y se hicieron modificaciones en Ley de Mecenazgo.</i></p>
+                                        <br>
+                                        <figure>
+                                            <a href="">
+                                                <img class="w-full object-cover object-center"
+                                                    src="{{ asset('../img/leg/leg_reite2.svg') }}" alt="">
+                                            </a>
+                                        </figure>
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                                <p>Los diputados de la Ciudad de Buenos Aires sancionaron hoy una ley que agrava la situación procesal penal de los imputados con “reiteración de delitos” en una sesión que comenzó cerca del mediodía y fue presidida por la Vicejefa de Gobierno, Clara Muzzio.</p>
+                                                <br>
+                                                <p>Estas modificaciones al Código Procesal Penal porteño fueron establecidas en una ley que impulsó el jefe de Gobierno de la Ciudad, Jorge Macri, la cual se analizó y discutió durante varias jornadas en las comisiones parlamentarias de Justicia y de Asuntos Constitucionales. Finalmente, este jueves se aprobó en sesión ordinaria por 36 votos positivos sobre 57 diputados presentes, con la oposición de Unión x la Patria y diputados de izquierda.</p>
+                                                <br>
+                                                <p>La adecuación consiste en modificar el artículo 182 del Código, incorporando a la reiteración delictiva como una nueva circunstancia objetiva a evaluar por los jueces y juezas a la hora de considerar el peligro de fuga. “Es una medida que encuentra sólido respaldo en la jurisprudencia de la Corte Suprema y en la normativa vigente”, se fundamentó en el despacho tratado y aprobado.
+                                                </p>
+                                                <br>
+                                                <p>Además, ciertos actos dictados en el marco de un proceso penal concernientes a personas de nacionalidad extranjera que se encuentren involucrados en hechos delictivos, deberán ser comunicados por los jueces a la Dirección Nacional de Migraciones. También se suma la obligación de informar cuando en un proceso penal se dicte sentencia condenatoria y respecto de los extranjeros que cumplen penas privativas de la libertad, si se dan las condiciones de extrañamiento (expulsión del territorio nacional).</p>
+                                                <br>
+                                                <p>En cuanto a situaciones de ilícitos en flagrancia, se legislan normas especiales en lo que se denomina “allanamiento de urgencia” y en todos los supuestos, efectuadas las actuaciones de urgencia, se deberá notificar de manera inmediata al juez y al fiscal.” Otra norma relacionada con lo judicial que fue aprobada este jueves es una ley que ordena y define taxativamente la nomenclatura de todos los órganos y estamentos del Poder Judicial de la Ciudad Autónoma.</p>
+                                                <br>
+                                                <p>Antigüedad de los taxis</p>
+                                                <br>
+                                                <p>Por unanimidad, los diputados legislaron sobre una prolongación de la vida útil de los automotores asignados al servicio de taxis. Se permitirá, para el año actual, la circulación de modelos de hasta 14 años de antigüedad. Para los años 2025 y 2026 regirá el tope máximo de 15 años de uso y, luego, mediante una tabla decreciente, se dispone volver en el 2030 al techo de 10 años de uso como máximo. Los coches con más de 10 años deberán hacer la verificación técnica cada 6 meses.</p>
+                                                <br>
+                                                <p>El INDEC de la Ciudad</p>
+                                                <br>
+                                                <p>Por unanimidad, quedó convertida en ley la normativa que regula y reglamenta el funcionamiento del sistema estadístico del ámbito metropolitano. Al efecto, se creó el Instituto de Estadística y Censo de la Ciudad de Buenos Aires (INDECBA).</p>
+                                                <br>
+                                                <p>Capacitación sobre mayores</p>
+                                                <br>
+                                                <p>Con despacho de las comisiones de Personas Mayores y Legislación del Trabajo y el voto ampliamente mayoritario de los legisladores, se ordenó la capacitación obligatoria de todo el personal de la función pública de la Ciudad, en sus tres poderes (Ejecutivo, Legislativo y Judicial), en lo que se denomina “perspectiva de edad”, que es el buen trato a las personas mayores.</p>
+                                                <br>
+                                                <p>Para los clubes de barrio</p>
+                                                <br>
+                                                <p>Por iniciativa de la comisión de Turismo y Deporte, el cuerpo parlamentario aprobó una medida que permitirá a los clubes de barrio abrir cuentas corrientes en el Banco Ciudad sin costos de apertura, operativos o de mantenimiento.</p>
+                                                <br>
+                                                <p>Designaciones</p>
+                                                <br>
+                                                <p>Adrián Hugo González y Tomás Aguerre fueron formalmente designados como director titular y director adjunto, respectivamente, del Instituto de Gestión Electoral de la Ciudad.</p>
+                                                <br>
+                                                <p>Por otra parte, se aprobó la nominación de Ezequiel Martín Quaine para cubrir el cargo de Juez de Primera Instancia en lo Penal, Penal Juvenil, Contravencional de Faltas de la Ciudad.</p>
+                                                <br>
+                                                <p>Nueva legisladora</p>
+                                                <br>
+                                                <p>Alejandrina Barry renunció este jueves a su banca de legisladora y fue reemplazada por Mercedes Trimarchi. Ambas fueron electas por el Frente de Izquierda, aunque en la Legislatura conforman monobloques con distintos nombres. El relevo está relacionado con decisiones internas de “rotación” de esa agrupación política.</p>
+                                                <br>
+                                                <p>Ley de Mecenazgo</p>
+                                                <br>
+                                                <p>El proyecto busca fomentar la financiación privada de iniciativas culturales, incentivando la creación de diversas manifestaciones artísticas y fortaleciendo el sector cultural de la Ciudad. Desde su implementación, ha apoyado miles de proyectos en áreas como teatro, danza, música, artes visuales y más, siendo fundamental para muchos artistas y colectivos.</p>
+                                                <br>
+                                                <p>A fin de seguir promoviendo el desarrollo de la cultura en la Ciudad Autónoma de Buenos Aires, y posibilitar una mayor participación de los privados en el sector, se propician las siguientes modificaciones a la norma vigente: establecer el veinte por ciento (20%) como aporte que puede imputar el patrocinador en virtud del régimen, salvo para los Grandes Contribuyentes que se mantiene en el diez por ciento (10%); establecer un esquema del ochenta por ciento (80%) de aporte al proyecto cultural para ser considerado como un pago a cuenta del impuesto sobre los Ingresos Brutos con el tope establecido por el artículo 15 de la Ley, y en consecuencia derogar el artículo 19 que exime a los proyectos culturales de inclusión social de la aplicación del artículo 17.</p>
+                                                <br>
+                                                <p>También introduce nuevas facultades para la Autoridad de Aplicación, como la aprobación de proyectos, la administración de recursos, el control del cumplimiento de los beneficios y la creación de un comité evaluador.  Los integrantes del Consejo de Participación Cultural y del comité evaluador quedan inhabilitados para presentar o participar en proyectos culturales durante su ejercicio y un año después.</p>
+                                                <br>
+                                                
+                                                
+                                            </div>
+
+
+
+                                        </div>
+                                    </div>
+                                </article>
+                            </li>
+                        </ul>
+        </section>
+        {{--SE REUNIERON LAS COMISIONES DE VIVIENDA Y DE PRESUPUESTO.. --}}
+        <section >
+            <ul>
+                <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                    <article>
+
+                        <div class="py-4 px-4 justify-between items-center">
+                            <h2 class="text-xl font-serif  font-bold pb-6">
+                                <a href="">SE REUNIERON LAS COMISIONES DE VIVIENDA Y DE PRESUPUESTO</a>
+                            </h2>
+                            <p class="font-light  text-right text-gray-500">Publicado: 12/06/2024</p>
+                            <p><i>Esta mañana en el salón Alfonsín se reunió la Comisión de Vivienda que preside Gustavo Mola (UCR Evolución) e integran Francisco Loupias (UCR Evolución), Victoria Freire, Berencie Iañez  Juan O´dezaille  (Unión por la Patria), Cecilia Ferrero (Vamos por Más), Sandra Rey y Leonardo Saifert (La Libertad Avanza)</i></p>
+                            <br>
+                            <figure>
+                                <a href="">
+                                    <img class="w-full object-cover object-center"
+                                        src="{{ asset('../img/leg/leg_vivienda2.svg') }}" alt="">
+                                </a>
+                            </figure>
+                            <br>
+                            <div
+                                class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                    <p>Durante el encuentro se elevó dictamen para solicitar información relacionada a los programas de créditos hipotecarios individuales del Instituto Vivienda de la Ciudad, el apoyo a personas en situación de vulnerabilidad habitacional,  las políticas de alquiler de vivienda y al accionar de corredores inmobiliarios y sobre la Ley 3902 -operatoria de regularización dominial de los bienes inmuebles-.</p>
+                                    <br>
+                                    <p>Antes del mediodía también se reunió la Comisión de Presupuesto, Hacienda, Administración Financiera y Política Tributaria en el salón San Martín. La legisladora Paola Michielotto (Vamos por más), presidenta de la comisión, puso a consideración el expediente propuesto por el Poder Ejecutivo que propone sustituir el texto del artículo 1 de la Ley 6504.</p>
+                                    <br>
+                                    <p>Se refiere a la autorización al Poder Ejecutivo, a través del Ministerio de Hacienda y Finanzas, a efectuar operaciones voluntarias de administración de pasivos, cualquiera sea el instrumento que las exprese, por hasta la suma de dólares estadounidenses mil cien millones (USD 1.100.000.000) o su equivalente en pesos, otra u otras monedas o unidades de valor (en adelante, los "Títulos"). Y a la ampliación, por tanto, del monto del Programa de Asistencia Financiera y/o del Programa de Financiamiento en el Mercado Local, por el importe máximo determinado en el párrafo anterior, en la proporción al monto a ser emitido en cada caso.”
+                                    </p>
+                                    <br>
+                                    <p>Además de Michielotto, estuvieron presentes Matías López, vicepresidente de la Legislatura porteña, juan Pablo Arenaza, Facundo Del Gaiso,  Darío Nieto,  Sergio Siciliano (Vamos por Más), Lucio Lapeña, Fernando Mollard (UCR Evolución), María Luisa Gonzalez Estevarena, Sebastián Nagata (Confianza Pública) y Pilar Ramírez (La Libertad Avanza).</p>
+                                    <br>
+                                    
+                                    
+                                </div>
+
+
+
+                            </div>
+                        </div>
+                    </article>
+                </li>
+            </ul>
+        </section>
         {{--LA LEGISLATURA DISTINGUIÓ EL TRABAJO DE LA EMPRENDEDORA LORENA ALBARRACÍN.. --}}
         <section >
             <ul>

@@ -5618,6 +5618,758 @@
                 </div>
 
             </section>
+        @elseif ($tituloSep == 'Politica-Noticia-Completa-pol62')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">REPRESIÓN Y DETENCIONES EN EL CONGRESO DURANTE TRATAMIENTO DE LA LEY BASES EN EL SENADO</a>
+                                        </h2>
+                                        <p class="font-light  text-right text-gray-500">Publicado: 12/06/2024</p>
+                                        <div class=" font-sans text-lg text-left col-span-6  ">
+                                        <p><i>Violenta represión y detenciones en el Congreso durante protesta contra la ley Bases en el Senado. Manifestantes y diputados afectados por el accionar policial en medio de una jornada de tensión.</i>
+                                        </p>
+                                        <br>
+                                        {{-- <article>
+                                            <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/YElDMxWtpio?si=B21D4BO6vjuKVj0Z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                            
+                                        </article> --}}
+                                        <figure>
+                                            <img class="w-full object-cover"
+                                                src="{{ asset('../img/pol/pol_repre.svg') }}" alt="">
+
+                                        </figure>
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+                                                <p>Manifestantes de diversas organizaciones sindicales, sociales y políticas fueron reprimidos hoy frente al Congreso de la Nación. La represión, que incluyó el uso de balas de goma, gases lacrimógenos y gas pimienta, resultó en al menos 39 detenidos. Los manifestantes se movilizaron para evitar la aprobación de la ley Bases, que continúa siendo tratada en la Cámara de Senadores. Entre los reprimidos se encuentran legisladores de Unión por la Patria (UxP) como Carlos Castagneto, Eduardo Valdés, Juan Manuel Pedrini, Carolina Yutrovic y Luis Basterra, según informó la diputada Cecilia Moreau.
+                                                </p>
+                                                <br>
+                                                <p>Los cinco diputados debieron ser trasladados al Hospital Santa Lucía y al Instituto del Quemado, siendo Castagneto hospitalizado por lesiones en su piel.
+                                                </p>
+                                                <br>
+                                                <p>La primera represión policial tuvo lugar cerca de las 14 cuando personal de Prefectura avanzó contra un cordón que los diputados de UxP intentaban conformar en la calle Entre Ríos. Prefectura también lanzó gas lacrimógeno contra los manifestantes autoconvocados en la intersección de Callao y Rivadavia.
+                                                </p>
+                                                <br>
+                                                <p>La mayor represión ocurrió a partir de las 16 cuando la Policía Federal junto a la Gendarmería avanzaron con gases lacrimógenos y balas de goma contra los manifestantes en la Plaza de los Dos Congresos, tras el acto convocado por las dos CTA y algunos sindicatos de la CGT.</p>
+                                                <br>
+                                                <p>Camiones hidrantes lanzaron agua a los presentes y abrieron las vallas que las fuerzas policiales habían colocado para desconectar las calles Hipólito Yrigoyen y Rivadavia de Entre Ríos, sobre la que se desplegaron gran cantidad de efectivos que controlaron durante toda la jornada a los manifestantes.</p>
+                                                <br>
+                                                <p>Algunos manifestantes respondieron con piedras y botellazos frente al avance de las fuerzas de seguridad que por momentos llegó hasta la calle Virrey Cevallos.</p>
+                                                <br>
+                                                <p>La Policía de la Ciudad detuvo a 18 personas, 16 hombres y 2 mujeres, por los incidentes ocurridos en las últimas horas en inmediaciones del Congreso. Entre los detenidos, hay un hombre de 41 años que tenía en su poder una granada, una mujer responsable de incendiar bicicletas del Gobierno de la Ciudad y otra mujer que estaba prendiendo fuego dos bicicletas de la Ciudad en Cevallos e Hipólito Yrigoyen. Todos quedaron a disposición del juzgado de turno.</p>
+                                                <br>
+                                                <p>Hasta el momento se contabilizaron 3 policías, dos mujeres y un hombre, heridos. Una de las oficiales heridas recibió un objeto contundente desde un balcón en Salta y Av de Mayo, derivada al Ramos Mejia con Traumatismo de cráneo. Otro de los heridos tuvo una fractura en un dedo por un golpe y otra de las detenidas un traumatismo en un pie.</p>
+                                                <br>
+                                                <p>Las organizaciones presentes incluyeron sindicatos como ATE, Sutna, Aceiteros, La Fraternidad, Ctera, Suteba, Smata, Utep, Fedun, Fatun, UTE-Ctera, entre otros, así como movimientos sociales como Barrios de Pie, el Movimiento Evita, la CCC, el MTE, el Polo Obrero, La Dignidad, y la Poderosa, y agrupaciones políticas como el Frente Patria Grande, La Cámpora, Liberación Popular, el Nuevo Más, el MST, la Izquierda Socialista, el PTS y Libres del Sur.</p>
+                                                <br>
+                                                <p>El acto culminó cerca de las 15.30 luego de que se cantara el himno nacional, con una retirada de muchas organizaciones, quedando los movimientos sociales junto a las agrupaciones de izquierda en la primera línea cerca de las vallas, momento en que inició la avanzada de las fuerzas de seguridad marcando un cambio en la jornada, aún cuando se trataba en el Senado la ley Bases pero con más presencia policial que de manifestantes.</p>
+                                                <br>
+
+                                                <div class="text-start object-center">
+                                                    {{-- <figure>
+                                                        <img class="w-28 h-28  "
+                                                            src="{{ asset('../img/der/Adri.svg') }}" alt="">
+
+                                                        <p> <strong>Adriana Zerdín</strong></p>
+
+                                                    </figure> --}}
+                                                </div>
+                                            </div>
+                                </article>
+                            </li>
+                        </ul>
+                    </div>
+
+
+                    {{-- columna de la derecha chica --}}
+                    <aside>
+                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                            <div class=" col-span-6">
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/baner-leg1.png') }}"
+                                        alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/APSE.gif') }}" alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
+                                        alt="">
+                                </a>
+
+
+
+                                <div id="app">
+
+                                    <div v-for="item in info">
+
+                                        <div class="flex-col pb-3">
+                                            <div
+                                                class="flex-col max-w-sm  border  border-gray-700 rounded-lg shadow bg-gray-800">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg"
+                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
+                                                        alt="" />
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5
+                                                            class="mb-2 text-2xl font-bold tracking-tight  text-white">
+                                                            @{{ item.title }}</h5>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div v-for="va in clima">
+
+                                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-white">
+                                            @{{ va }}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+
+                </div>
+
+            </section>
+        @elseif ($tituloSep == 'Politica-Noticia-Completa-pol63')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">VILLARRUEL DESATA EL EMPATE EN EL SENADO Y LA LEY BASES VUELVE A DIPUTADOS</a>
+                                        </h2>
+                                        <p class="font-light  text-right text-gray-500">Publicado: 13/06/2024</p>
+                                        <div class=" font-sans text-lg text-left col-span-6  ">
+                                        <p><i>Con Victoria Villarruel como figura clave, el Senado aprobó la ley Bases y el paquete fiscal tras 12 horas de debate. La norma ahora vuelve a Diputados tras recibir modificaciones.</i>
+                                        </p>
+                                        <br>
+                                        {{-- <article>
+                                            <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/YElDMxWtpio?si=B21D4BO6vjuKVj0Z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                            
+                                        </article> --}}
+                                        <figure>
+                                            <img class="w-full object-cover"
+                                                src="{{ asset('../img/pol/pol_empate.svg') }}" alt="">
+
+                                        </figure>
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+                                                <p>Tras una extensa sesión de 12 horas, el Senado de la Nación aprobó en general la ley Bases, clave en la agenda legislativa del gobierno de Javier Milei. La vicepresidenta Victoria Villarruel fue decisiva al desempatar la votación que cerró con 36 votos a favor y 36 en contra. Ahora, el proyecto regresa a la Cámara de Diputados debido a modificaciones realizadas durante el debate.
+                                                </p>
+                                                <br>
+                                                <p>La jornada legislativa estuvo marcada por intensos debates y momentos de tensión, dentro y fuera del recinto. En las inmediaciones del Congreso se registraron fuertes incidentes y represión policial, con más de diez detenidos y cinco diputados hospitalizados. A pesar de la violencia, la sesión continuó y se lograron avances en otros proyectos, como el paquete fiscal, que también fue aprobado y ahora pasa a discutirse en particular.
+                                                </p>
+                                                <br>
+                                                <p>Durante la votación en particular de la ley Bases, se aprobaron varios puntos conflictivos, como el Régimen de Incentivos para Grandes Inversiones (RIGI), las facultades delegadas, impuestos al tabaco y el paquete de privatizaciones. Estos temas generaron división entre los senadores, con algunos kirchneristas votando a favor de medidas clave para el oficialismo.
+                                                </p>
+                                                <br>
+                                                <p>El paquete fiscal, por su parte, fue aprobado con 37 votos a favor y 35 en contra. Este proyecto, que incluye modificaciones importantes en materia económica, fue respaldado por el senador Martín Lousteau (CABA) y criticado por otros sectores de la oposición, que lo consideran perjudicial para ciertos sectores.</p>
+                                                <br>
+                                                <p>La sesión estuvo marcada por negociaciones y acuerdos entre los legisladores, que buscaron obtener beneficios para sus provincias a cambio de apoyar ciertos proyectos. Uno de los temas más polémicos fue el posible nombramiento de la senadora Lucila Crexell como embajadora en París (Unesco), lo que generó críticas y denuncias de la oposición.</p>
+                                                <br>
+                                                <p>En resumen, la jornada legislativa fue intensa y dejó varias cuestiones para el debate público. La ley Bases y el paquete fiscal ahora deberán ser analizados en detalle en la Cámara de Diputados, donde se espera un nuevo round de discusiones y negociaciones políticas.</p>
+                                                <br>
+                                                
+
+                                                <div class="text-start object-center">
+                                                    {{-- <figure>
+                                                        <img class="w-28 h-28  "
+                                                            src="{{ asset('../img/der/Adri.svg') }}" alt="">
+
+                                                        <p> <strong>Adriana Zerdín</strong></p>
+
+                                                    </figure> --}}
+                                                </div>
+                                            </div>
+                                </article>
+                            </li>
+                        </ul>
+                    </div>
+
+
+                    {{-- columna de la derecha chica --}}
+                    <aside>
+                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                            <div class=" col-span-6">
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/baner-leg1.png') }}"
+                                        alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/APSE.gif') }}" alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
+                                        alt="">
+                                </a>
+
+
+
+                                <div id="app">
+
+                                    <div v-for="item in info">
+
+                                        <div class="flex-col pb-3">
+                                            <div
+                                                class="flex-col max-w-sm  border  border-gray-700 rounded-lg shadow bg-gray-800">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg"
+                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
+                                                        alt="" />
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5
+                                                            class="mb-2 text-2xl font-bold tracking-tight  text-white">
+                                                            @{{ item.title }}</h5>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div v-for="va in clima">
+
+                                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-white">
+                                            @{{ va }}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+
+                </div>
+
+            </section>
+        @elseif ($tituloSep == 'Politica-Noticia-Completa-pol64')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">MILEI NIEGA DEVALUACIÓN EN REUNIÓN CON SCHOLZ</a>
+                                        </h2>
+                                        <p class="font-light  text-right text-gray-500">Publicado: 25/06/2024</p>
+                                        <div class=" font-sans text-lg text-left col-span-6  ">
+                                        <p><i>En una nueva gira internacional, el presidente Javier Milei se reunió con el primer ministro alemán Olaf Scholz y descartó una devaluación del 30% exigida por el FMI, mientras el pueblo argentino sufre las consecuencias de las políticas neoliberales.</i>
+                                        </p>
+                                        <br>
+                                        {{-- <article>
+                                            <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/YElDMxWtpio?si=B21D4BO6vjuKVj0Z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                            
+                                        </article> --}}
+                                        <figure>
+                                            <img class="w-full object-cover"
+                                                src="{{ asset('../img/pol/pol_gira.svg') }}" alt="">
+
+                                        </figure>
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+                                                <p>LA REUNIÓN EN BERLÍN: MÁS QUE UN ENCUENTRO DIPLOMÁTICO
+                                                </p>
+                                                <br>
+                                                <p>La reunión, que se llevó a cabo en Berlín, abordó temas cruciales como la integración del Mercosur con la Unión Europea, el ingreso de Argentina a la OCDE y la OTAN. Sin embargo, la falta de honores militares y la cancelación de la conferencia de prensa reflejan la tensión subyacente en el encuentro. Alemania, con su peso en la UE y el FMI, es un actor clave en la economía global, y su postura frente a Argentina puede influir significativamente en el futuro del país.
+                                                </p>
+                                                <br>
+                                                <p>El comunicado del gobierno alemán subrayó la importancia de la cohesión social, una crítica velada a las políticas de ajuste impulsadas por Milei, que han profundizado la pobreza y la desigualdad en Argentina. Sin embargo, Milei negó cualquier comentario de Scholz sobre la política interna argentina y afirmó que la discusión se centró en fortalecer la economía bilateral.
+                                                </p>
+                                                <br>
+                                                <p>NEGACIÓN DE UNA DEVALUACIÓN NECESARIA</p>
+                                                <br>
+                                                <p>Ante los crecientes rumores sobre una devaluación del 30%, supuestamente sugerida por el FMI, Milei negó categóricamente que el organismo haya hecho tal recomendación. “El propio Caputo explicó que el informe del organismo no señala eso”, afirmó, intentando calmar los temores. Sin embargo, los economistas señalan que sin una devaluación, la economía argentina seguirá en caída libre, afectando gravemente a los sectores más vulnerables.</p>
+                                                <br>
+                                                <p>El retraso en la exportación de la cosecha de granos, fundamental para las reservas del Tesoro, ha exacerbado la crisis. Desde Alemania, Milei intentó disipar los temores, asegurando que una devaluación afectaría negativamente el poder adquisitivo de los trabajadores. No obstante, la falta de una fecha clara para eliminar el cepo cambiario genera más incertidumbre y desconfianza en su gestión.</p>
+                                                <br>
+                                                <p>DESAFÍOS ECONÓMICOS Y POLÍTICAS FALLIDAS</p>
+                                                <br>
+                                                <p>Milei destacó el desequilibrio fiscal como el principal problema económico, pero sus políticas han sido insuficientes para abordarlo. Criticó las “colocaciones de deuda” en el Banco Central, que representan alrededor del 4% del PBI, y apuntó a Rodrigo Valdés, del FMI, como responsable de la situación heredada. Sin embargo, esta narrativa no exime a su administración de las decisiones que han llevado a la crisis actual.</p>
+                                                <br>
+                                                <p>UNA IMAGEN INTERNACIONAL POLÉMICA</p>
+                                                <br>
+                                                <p>En su gira, Milei también buscó consolidar su imagen internacional participando en eventos con figuras alineadas con su ideología neoliberal. En Hamburgo, recibió una medalla de la Sociedad Hayek tras un discurso en el que criticó la “justicia social”. Estas declaraciones refuerzan su postura económica, pero alienan a amplios sectores de la sociedad que luchan por una mayor equidad.</p>
+                                                <br>
+                                                <p>En España, Milei se reunió con Isabel Díaz Ayuso y asistió a la Cena de la Libertad en el Casino de Madrid, donde fue premiado por el Instituto Juan de Mariana. Compartió escenario con figuras de la derecha europea, consolidando sus lazos con este sector y reafirmando su alineación con políticas neoliberales.</p>
+                                                <br>
+                                                <p>CONTINUACIÓN DE LA GIRA Y DESAFÍOS FUTUROS</p>
+                                                <br>
+                                                <p>La gira continuó en la República Checa, donde se reunió con el primer ministro Petr Fiala. Los ministros de Defensa de ambos países firmaron un acuerdo de cooperación para modernizar las Fuerzas Armadas argentinas, reflejando una dimensión militar en la estrategia de Milei para fortalecer la posición de Argentina.</p>
+                                                <br>
+                                                <p>En su noveno viaje internacional en seis meses, Milei busca consolidar su imagen como líder liberal y fortalecer lazos con aliados internacionales. Sin embargo, sus políticas y declaraciones generan controversia tanto a nivel nacional como internacional, reflejando las tensiones inherentes en su enfoque económico y político. La capacidad de Milei para manejar estas tensiones será crucial para el futuro de Argentina.</p>
+                                                <br>
+                                                <p>UNA VISIÓN ECONÓMICA Y POLÍTICA BAJO CUESTIONAMIENTO</p>
+                                                <br>
+                                                <p>La gira de Milei pone de manifiesto su compromiso con una visión económica neoliberal, pero sus políticas están bajo constante escrutinio. La falta de medidas efectivas para abordar la crisis económica y social en Argentina genera dudas sobre su capacidad para liderar el país hacia una recuperación sostenible. En un mundo interconectado y complejo, las decisiones de Milei no solo afectan a Argentina, sino que también tienen implicaciones globales, y la crítica de la comunidad internacional será un factor determinante en su éxito o fracaso.</p>
+                                                <br>
+
+                                                <div class="text-start object-center">
+                                                    {{-- <figure>
+                                                        <img class="w-28 h-28  "
+                                                            src="{{ asset('../img/der/Adri.svg') }}" alt="">
+
+                                                        <p> <strong>Adriana Zerdín</strong></p>
+
+                                                    </figure> --}}
+                                                </div>
+                                            </div>
+                                </article>
+                            </li>
+                        </ul>
+                    </div>
+
+
+                    {{-- columna de la derecha chica --}}
+                    <aside>
+                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                            <div class=" col-span-6">
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/baner-leg1.png') }}"
+                                        alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/APSE.gif') }}" alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
+                                        alt="">
+                                </a>
+
+
+
+                                <div id="app">
+
+                                    <div v-for="item in info">
+
+                                        <div class="flex-col pb-3">
+                                            <div
+                                                class="flex-col max-w-sm  border  border-gray-700 rounded-lg shadow bg-gray-800">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg"
+                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
+                                                        alt="" />
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5
+                                                            class="mb-2 text-2xl font-bold tracking-tight  text-white">
+                                                            @{{ item.title }}</h5>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div v-for="va in clima">
+
+                                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-white">
+                                            @{{ va }}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+
+                </div>
+
+            </section>
+        @elseif ($tituloSep == 'Politica-Noticia-Completa-pol65')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">LEY BASES: MILEI Y EL GOLPE AL PUEBLO</a>
+                                        </h2>
+                                        <p class="font-light  text-right text-gray-500">Publicado: 30/06/2024</p>
+                                        <div class=" font-sans text-lg text-left col-span-6  ">
+                                        <p><i>La Cámara de Diputados sancionó los proyectos de Javier Milei, otorgándole facultades delegadas. La regresiva reforma laboral y la restitución del Impuesto a las Ganancias son algunas de las preocupaciones que asedian a la población.</i>
+                                        </p>
+                                        <br>
+                                        {{-- <article>
+                                            <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/YElDMxWtpio?si=B21D4BO6vjuKVj0Z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                            
+                                        </article> --}}
+                                        <figure>
+                                            <img class="w-full object-cover"
+                                                src="{{ asset('../img/pol/pol_golpe1.svg') }}" alt="">
+
+                                        </figure>
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+                                                <p>En una sesión maratónica, la Cámara de Diputados aprobó con holgura la polémica Ley Bases y el paquete fiscal propuesto por el gobierno de Javier Milei. Este avance del Ejecutivo representa un duro golpe para la clase trabajadora, que se verá afectada por una reforma laboral regresiva y la restitución del Impuesto a las Ganancias. El paquete fiscal incluye además modificaciones en Bienes Personales y un blanqueo de capitales que favorece a las grandes fortunas.
+                                                </p>
+                                                <br>
+                                                <p>El Presidente Milei obtuvo facultades delegadas que le permiten privatizar empresas públicas estratégicas y gestionar la economía con amplio margen de maniobra. AySA, Trenes Argentinos, Belgrano Cargas, Corredores Viales, Enarsa e Intercargo están en la lista de posibles privatizaciones. El Régimen de Incentivo a las Grandes Inversiones (RIGI) prioriza a las multinacionales con beneficios impositivos y cambiarios, poniendo en jaque a la industria nacional.
+                                                </p>
+                                                <br>
+                                                <p>El paquete fiscal aprobado incluye la restitución del Impuesto a las Ganancias, afectando a unos 800 mil trabajadores que volverán a pagar este tributo con alícuotas que van del 5% al 35%. En contraste, las grandes fortunas tributarán menos: el nuevo piso de Bienes Personales sube a 100 millones de pesos, con una deducción por vivienda familiar de 350 millones.
+                                                </p>
+                                                <br>
+                                                <p>El gobierno de Javier Milei celebró la aprobación de las leyes. Jorge Macri, jefe de gobierno porteño, exclamó en X: “Ahora hay que poner en marcha los cambios que el país necesita”. Luis Caputo, ministro de Economía, felicitó a los dirigentes y agradeció a los políticos “que les importa la gente”.</p>
+                                                <br>
+                                                <p>Desde la oposición, la Diputada Nacional Cecilia Moreau lamentó: “El ajuste lo pagan los trabajadores y trabajadoras”. Myriam Bregman del FIT criticó la reforma laboral y la carga impositiva sobre los trabajadores. Victoria Tolosa Paz apuntó contra Milei, acusándolo de usar la extorsión y el maltrato mediático.</p>
+                                                <br>
+                                                <p>Con la aprobación definitiva de la Ley Bases y el paquete fiscal, se consolidan los problemas para la mayoría de la población. La concentración de poder en el Ejecutivo y la privatización de empresas públicas son solo algunas de las medidas que generan preocupación. El peronismo anticipó que judicializará algunos apartados, como la restitución del Impuesto a las Ganancias y las modificaciones en Bienes Personales, que habían sido rechazadas por el Senado.</p>
+                                                <br>
+                                                <p>En este contexto, gran parte del pueblo espera que los jueces y la justicia en general estén a la altura de las circunstancias, protegiendo los derechos de los trabajadores y garantizando la equidad en la distribución de cargas tributarias. La aprobación de estas leyes marca un punto de inflexión en la política argentina, con un gobierno que avanza en reformas que afectan profundamente a la clase trabajadora, mientras promete beneficios para las grandes inversiones y las fortunas más concentradas.</p>
+                                                <br>
+                                                <p>La situación que se avecina para los trabajadores y las clases medias argentinas es preocupante. La regresiva reforma laboral y la carga impositiva renovada sobre los ingresos más modestos contrastan con las ventajas otorgadas a las grandes fortunas y las empresas multinacionales. La respuesta del pueblo, que ya se manifiesta en diversos sectores, será crucial para enfrentar este embate que profundiza las desigualdades y pone en jaque los logros sociales de los últimos años.</p>
+                                                <br>
+                                                <p>Javier Milei ha conseguido un avance significativo con la aprobación de la Ley Bases y el paquete fiscal, pero el costo social y político de estas medidas se verá reflejado en la resistencia y la movilización de un pueblo que no está dispuesto a aceptar pasivamente estas reformas.</p>
+                                                <br>
+                                                
+
+                                                <div class="text-start object-center">
+                                                    {{-- <figure>
+                                                        <img class="w-28 h-28  "
+                                                            src="{{ asset('../img/der/Adri.svg') }}" alt="">
+
+                                                        <p> <strong>Adriana Zerdín</strong></p>
+
+                                                    </figure> --}}
+                                                </div>
+                                            </div>
+                                </article>
+                            </li>
+                        </ul>
+                    </div>
+
+
+                    {{-- columna de la derecha chica --}}
+                    <aside>
+                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                            <div class=" col-span-6">
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/baner-leg1.png') }}"
+                                        alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/APSE.gif') }}" alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
+                                        alt="">
+                                </a>
+
+
+
+                                <div id="app">
+
+                                    <div v-for="item in info">
+
+                                        <div class="flex-col pb-3">
+                                            <div
+                                                class="flex-col max-w-sm  border  border-gray-700 rounded-lg shadow bg-gray-800">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg"
+                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
+                                                        alt="" />
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5
+                                                            class="mb-2 text-2xl font-bold tracking-tight  text-white">
+                                                            @{{ item.title }}</h5>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div v-for="va in clima">
+
+                                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-white">
+                                            @{{ va }}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+
+                </div>
+
+            </section>
+        @elseif ($tituloSep == 'Politica-Noticia-Completa-pol66')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">ADIÓS A LA INDEPENDENCIA INFORMATIVA: FORMALIZAN EL GOLPE A TELAM</a>
+                                        </h2>
+                                        <p class="font-light  text-right text-gray-500">Publicado: 02/07/2024</p>
+                                        <div class=" font-sans text-lg text-left col-span-6  ">
+                                        <p><i>El gobierno ultra neoliberal de Javier Milei ha dado un golpe definitivo a la histórica Agencia Télam, transformándola en una Sociedad Anónima Unipersonal bajo la denominación de "Agencia de Publicidad del Estado".</i>
+                                        </p>
+                                        <br>
+                                        {{-- <article>
+                                            <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/YElDMxWtpio?si=B21D4BO6vjuKVj0Z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                            
+                                        </article> --}}
+                                        <figure>
+                                            <img class="w-full object-cover"
+                                                src="{{ asset('../img/pol/pol_adios2.svg') }}" alt="">
+
+                                        </figure>
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+                                                <p>En un movimiento ampliamente criticado, el gobierno de Javier Milei ha oficializado la transformación de Télam Sociedad del Estado en una entidad dedicada exclusivamente a la publicidad y propaganda estatal. Mediante el Decreto 548/24, publicado recientemente en el Boletín Oficial, se ha consumado la quita de derechos fundamentales para el pueblo argentino, en particular el acceso a una información plural y veraz.
+                                                </p>
+                                                <br>
+                                                <p>Desde su intervención hace casi cuatro meses, Télam ha sido sometida a una serie de medidas coercitivas: todos sus trabajadores fueron pasados a disponibilidad y una parte significativa del personal original fue obligada a aceptar un "retiro forzado". Este último decreto consolida la conversión de Télam en una entidad comercial bajo el nombre de AGENCIA DE PUBLICIDAD DEL ESTADO SOCIEDAD ANÓNIMA UNIPERSONAL (APE S.A.U.), con sede en la Jefatura de Gabinete de Ministros y regida por la Ley General de Sociedades N° 19.550.
+                                                </p>
+                                                <br>
+                                                <p>Organizaciones sindicales y periodistas han denunciado vehementemente esta maniobra como un ataque frontal a la libertad de prensa y al derecho a la información. Esta transformación no solo vulnera la autonomía informativa de Télam, sino que también representa un intento claro de control estatal sobre la agenda mediática del país.
+                                                </p>
+                                                <br>
+                                                <p>En respuesta a estas medidas draconianas, los trabajadores de Télam, respaldados por el sindicato SiPreBa, han mantenido una firme resistencia. Desde las sedes de la calle Bolívar y Avenida Belgrano, han expresado su determinación de defender su derecho a trabajar en una agencia de noticias independiente y libre de presiones políticas.</p>
+                                                <br>
+                                                <p>El cambio de Télam en una agencia de publicidad estatal marca un precedente peligroso para el periodismo argentino, consolidando un modelo informativo al servicio de los intereses gubernamentales y privando a la ciudadanía de una fuente crucial de información independiente y plural.
+                                                </p>
+                                                <br>
+                                                <p>El silenciamiento de Télam refleja una estrategia calculada de control de la información en un contexto político cada vez más polarizado. Este paso ha desatado un intenso debate sobre los límites del poder estatal en la comunicación pública y las implicancias para la democracia argentina.</p>
+                                                <br>
+                                                
+                                                
+
+                                                <div class="text-start object-center">
+                                                    {{-- <figure>
+                                                        <img class="w-28 h-28  "
+                                                            src="{{ asset('../img/der/Adri.svg') }}" alt="">
+
+                                                        <p> <strong>Adriana Zerdín</strong></p>
+
+                                                    </figure> --}}
+                                                </div>
+                                            </div>
+                                </article>
+                            </li>
+                        </ul>
+                    </div>
+
+
+                    {{-- columna de la derecha chica --}}
+                    <aside>
+                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                            <div class=" col-span-6">
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/baner-leg1.png') }}"
+                                        alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/APSE.gif') }}" alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
+                                        alt="">
+                                </a>
+
+
+
+                                <div id="app">
+
+                                    <div v-for="item in info">
+
+                                        <div class="flex-col pb-3">
+                                            <div
+                                                class="flex-col max-w-sm  border  border-gray-700 rounded-lg shadow bg-gray-800">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg"
+                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
+                                                        alt="" />
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5
+                                                            class="mb-2 text-2xl font-bold tracking-tight  text-white">
+                                                            @{{ item.title }}</h5>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div v-for="va in clima">
+
+                                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-white">
+                                            @{{ va }}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+
+                </div>
+
+            </section>
+        @elseif ($tituloSep == 'Politica-Noticia-Completa-pol67')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">LA ALTERNATIVA SE LLAMA PERONISMO</a>
+                                        </h2>
+                                        <p class="font-light  text-right text-gray-500">Publicado: 01/07/2024</p>
+                                        <div class=" font-sans text-lg text-left col-span-6  ">
+                                        <p><i>A 50 años del paso a la inmortalidad del General Perón, el gobernador de la provincia de Buenos Aires encabezó un emotivo acto de homenaje, reafirmando el peronismo como alternativa frente al experimento anarcocapitalista de Javier Milei y llamando a la unidad para defender el proyecto de país que el pueblo argentino merece.</i>
+                                        </p>
+                                        <br>
+                                        {{-- <article>
+                                            <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/YElDMxWtpio?si=B21D4BO6vjuKVj0Z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                            
+                                        </article> --}}
+                                        <figure>
+                                            <img class="w-full object-cover"
+                                                src="{{ asset('../img/pol/pol_alter2.svg') }}" alt="">
+
+                                        </figure>
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+                                                <p>En un emotivo acto conmemorativo por el 50 aniversario de la muerte de Juan Domingo Perón, el gobernador de la provincia de Buenos Aires, Axel Kicillof, reafirmó el rol transformador del peronismo como contrapeso al actual experimento anarcocapitalista liberal libertario que, según él, perjudica gravemente al pueblo argentino.
+                                                </p>
+                                                <br>
+                                                <p>"La alternativa al actual experimento anarcocapitalista liberal libertario que tanto daño le hace al pueblo se llama peronismo", proclamó Kicillof frente a una multitud que se congregó en la Quinta San Vicente. Acompañado por líderes políticos, sindicales y militantes, Kicillof destacó la vigencia de las ideas de Perón en tiempos de desafíos económicos y sociales.
+                                                </p>
+                                                <br>
+                                                <p>El gobernador enfatizó que, lejos de ser una mera conmemoración del pasado, el acto tenía como objetivo construir un futuro inclusivo y justo para todos los argentinos. Criticó duramente las políticas del gobierno nacional, liderado por Javier Milei, acusándolo de promover más desigualdad, menos derechos y un aumento del desempleo.
+                                                </p>
+                                                <br>
+                                                <p>"Hay más desigualdad, menos derechos y más desempleo. En resumen, Javier Milei significa más privilegios para pocos y menos derechos para muchos. Es exactamente lo contrario de lo que representa el peronismo", señaló Kicillof, haciendo eco de las preocupaciones de muchos sectores sociales.</p>
+                                                <br>
+                                                <p>El discurso del gobernador también apuntó a la desregulación y el achicamiento del Estado impulsado por el gobierno libertario de Milei. Criticó la idea de una Argentina sin Estado, advirtiendo que sería una pesadilla para la mayoría, privando al país de educación, salud, obra pública y soberanía.
+                                                </p>
+                                                <br>
+                                                <p>En un llamado a la unidad dentro del peronismo y a la resistencia popular, Kicillof hizo un guiño al federalismo y a la defensa de las instituciones democráticas frente a lo que describió como ataques sistemáticos por parte del gobierno actual.</p>
+                                                <p>"El objetivo es una patria justa, libre y soberana. El peronismo sigue de pie, va derecho al futuro", concluyó Kicillof, subrayando su compromiso de proteger los derechos sociales y económicos que considera amenazados por las políticas de Milei.
+                                                </p>
+                                                <br>
+                                                
+                                                
+
+                                                <div class="text-start object-center">
+                                                    {{-- <figure>
+                                                        <img class="w-28 h-28  "
+                                                            src="{{ asset('../img/der/Adri.svg') }}" alt="">
+
+                                                        <p> <strong>Adriana Zerdín</strong></p>
+
+                                                    </figure> --}}
+                                                </div>
+                                            </div>
+                                </article>
+                            </li>
+                        </ul>
+                    </div>
+
+
+                    {{-- columna de la derecha chica --}}
+                    <aside>
+                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                            <div class=" col-span-6">
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/baner-leg1.png') }}"
+                                        alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/APSE.gif') }}" alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
+                                        alt="">
+                                </a>
+
+
+
+                                <div id="app">
+
+                                    <div v-for="item in info">
+
+                                        <div class="flex-col pb-3">
+                                            <div
+                                                class="flex-col max-w-sm  border  border-gray-700 rounded-lg shadow bg-gray-800">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg"
+                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
+                                                        alt="" />
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5
+                                                            class="mb-2 text-2xl font-bold tracking-tight  text-white">
+                                                            @{{ item.title }}</h5>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div v-for="va in clima">
+
+                                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-white">
+                                            @{{ va }}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+
+                </div>
+
+            </section>
         @endif
 
     </div>
@@ -5640,7 +6392,7 @@
                 mounted() {
 
 
-                    axios.get("https://api.dailymotion.com/videos?channel=news&limit=3")
+                    axios.get("https://api.dailymotion.com/videos?channel=news&limit=2")
                         .then(response => {
                             this.info = response.data.list
                         });

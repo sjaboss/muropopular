@@ -1133,6 +1133,121 @@
                 </div>
 
             </section>
+        @elseif ($tituloSep == 'Deportes-Noticia-Completa-dep9')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">ARGENTINA INICIA SU DEFENSA DEL TÍTULO EN LA COPA AMÉRICA CON UNA VICTORIA SÓLIDA
+                                            </a>
+                                        </h2>
+                                        <p><i>La Selección Argentina de Fútbol comenzó su camino en la Copa América 2024 con una victoria convincente sobre Canadá, marcando el inicio de su defensa del título con un sólido desempeño en el Mercedes-Benz Stadium de Atlanta.</i>
+                                    </p>
+                                        <br>
+                                        <figure>
+                                            <img class="w-full object-cover"
+                                                src="{{ asset('../img/dep/dep_argen.svg') }}" alt="">
+
+                                        </figure>
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                                <p>El equipo dirigido por Lionel Scaloni, que venía de un empate en la edición anterior y una derrota en el Mundial de Qatar, mostró una mejora significativa en su juego y logró imponerse 2-0 en un partido que no estuvo exento de dificultades.
+                                                </p>
+                                                <br>
+                                                <p>Desde el inicio del encuentro, Argentina mostró su dominio en el campo, con Ángel Di María generando la primera oportunidad clara a los 8 minutos. Sin embargo, fue en el segundo tiempo cuando el equipo logró abrir el marcador, con Julián Álvarez aprovechando un rebote para convertir el primer gol del partido.
+                                                </p>
+                                                <br>
+                                                <p>El gol de Álvarez, que rompió una sequía de 13 partidos sin marcar con la camiseta argentina, fue un impulso importante para el equipo, que luego controló el juego y amplió la ventaja con un gol de Lautaro Martínez en los últimos minutos del partido.
+                                                </p>
+                                                <br>
+                                                <p>A pesar de la victoria, los jugadores y el cuerpo técnico argentino expresaron su preocupación por el estado del campo de juego, que fue cambiado de sintético a natural pocas horas antes del partido. Esta modificación afectó el desarrollo del juego y generó críticas por parte de los protagonistas del encuentro.</p>
+                                                <br>
+                                                <p>Con esta victoria, Argentina comienza su camino en la Copa América con el pie derecho y se prepara para su próximo partido contra Chile el martes 25 de junio en Nueva Jersey. El equipo albiceleste buscará mantener su buen momento y seguir avanzando en el torneo, con la esperanza de revalidar el título obtenido en la edición anterior y consolidar su lugar entre los mejores equipos de América del Sur.</p>
+                                                <br>
+                                                <p>El debut sólido de Argentina en el torneo ha generado expectativas entre los aficionados y ha demostrado que el equipo está listo para enfrentar los desafíos que se presenten en la Copa América. Con Lionel Messi liderando el equipo y un grupo de jugadores talentosos y comprometidos, Argentina se perfila como uno de los favoritos para llegar a lo más alto en el torneo continental.</p>
+                                                <br>
+                                                
+                                                <div class="text-start object-center">
+                                                    {{-- <figure>
+                                                        <img class="w-28 h-28  "
+                                                            src="{{ asset('../img/noteros/gus.svg') }}"
+                                                            alt="">
+                                                        <p> <strong>Por Gustavo Cano<strong></p>
+
+                                                        <p><strong><strong></p>
+
+                                                    </figure> --}}
+                                                </div>
+
+
+                                            </div>
+
+
+
+                                        </div>
+                                    </div>
+                                </article>
+                            </li>
+                        </ul>
+                        <br>
+
+                    </div>
+
+
+                    {{-- columna de la derecha chica --}}
+                    <aside>
+                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                            <div class=" col-span-6">
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
+                                        alt="">
+                                </a>
+
+                                <div id="app">
+
+                                    <div v-for="item in info">
+
+                                        <div class="flex-col pb-3">
+                                            <div
+                                                class="flex-col max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg"
+                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
+                                                        alt="" />
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5
+                                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                                            @{{ item.title }}</h5>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div v-for="va in clima">
+
+                                        <h5
+                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                            @{{ va }}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+
+                </div>
+
+            </section>
         @endif
     </div>
 
