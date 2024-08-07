@@ -1,5 +1,56 @@
 <x-app-layout>
     <div class="container ">
+        {{-- EL ESTRENO DE "SAPOS SECOS"....--}}
+<section>
+    <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">EL ESTRENO DE "SAPOS SECOS"</a>
+                                        </h2>
+                                        <p class="font-light  text-right text-gray-500">Publicado: 19/07/2024</p>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                                <p><i>Una obra musical que explora los vínculos humanos a través de las constelaciones familiares</i></p>
+                                                <br>
+                                                <figure>
+                                                    <a href="">
+                                                        <img class="w-full object-cover object-center"
+                                                            src="{{ asset('../img/cul/cul_sapos.svg') }}"
+                                                            alt="">
+                                                    </a>
+                                                </figure>
+                                                <br>
+                                                <p>La escena teatral argentina se prepara para recibir una propuesta innovadora y emotiva con el estreno de Sapos Secos, una obra de teatro musical que fusiona la narrativa dramática con las constelaciones familiares. La pieza, creada por los talentosos Pedro Velázquez y Seba Aldea, se estrenará el próximo domingo 21 de julio a las 17:00 horas en el Teatro El Extranjero, ubicado en Valentín Gómez 3378, CABA.
+                                                <br>
+                                                <p>La trama de Sapos Secos gira en torno a un hombre que, al enfrentar un vacío interno, decide someterse a una constelación familiar para sanar sus heridas emocionales. La historia se desarrolla en un espacio narrativo que va desde una casa de playa en Las Toninas hasta un entrelazado de pasado y presente, creando un carnaval de tiempo y espacio que incluye elementos de brujerías y tragedias griegas, todo aderezado con una lluvia simbólica de sapos. El desafío central de la obra es desentrañar qué pieza falta en la vida del protagonista para lograr su sanación y reconstruir los vínculos rotos.
+                                                </p>
+                                                <br>
+                                                <p>El elenco, conformado por destacados intérpretes de la escena musical argentina, incluye a Lucre Orlando, Nicolás Sousa, Nacho De Santis, Lucila Louzan, Fer Martins, Gaby Genovese, Catalina Lemos, Nano Galarza, AIMY y Guido Savino. La dirección vocal está en manos de Aldu Gribnicow, mientras que Anto Campaniello se encarga de las coreografías. La dirección musical es de Seba Aldea y la dirección general de Pedro Velázquez.</p>
+                                                <br>
+                                                <p>“Sapos Secos” se destaca por su originalidad y profundidad en la exploración de las relaciones humanas y los mecanismos de sanación a través de la técnica de las constelaciones familiares. Las entradas están disponibles a través de Alternativa Teatral y en la boletería del teatro, prometiendo una experiencia única para los amantes del teatro y la música.
+                                                </p>
+                                                <br>
+                                                <p>El gran estreno se perfila como una oportunidad para reflexionar sobre la complejidad de los vínculos familiares y personales, y para experimentar una obra que, sin duda, enriquecerá la oferta cultural de la ciudad.
+                                                </p>
+                                                <br>
+                                                
+                                                
+                                            </div>
+
+
+
+                                        </div>
+                                    </div>
+                                </article>
+                            </li>
+                        </ul>
+    <br>
+</section>
         {{-- "SOLO BRUMAS": UNA OBRA QUE EXPLORA....--}}
 <section>
     <ul>

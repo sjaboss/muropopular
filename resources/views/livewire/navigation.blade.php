@@ -137,7 +137,7 @@
         class="bg-gray-700 bg-opacity-25 absolute w-full hidden">
         <div class="container h-full hidden md:block">
             <div x-on:click.away="close()" class="grid grid-cols-4 h-full relative">
-                <ul class="bg-white">
+                <ul class="bg-gray-900">
 
                     @php
                         $titulo = 'Noticia-Completa';

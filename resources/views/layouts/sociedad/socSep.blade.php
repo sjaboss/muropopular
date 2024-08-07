@@ -9351,6 +9351,1151 @@
                     </aside>
                 </div>
             </section>
+        @elseif ($tituloSep == 'Sociedad-Noticia-Completa-soc74')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">UTOPÍAS: IMAGINANDO UNA SOCIEDAD SIN INJUSTICIAS</a>
+                                            {{-- <p class="font-light  text-lef text-gray-500">Por Rosaura Audi y Gonzalo Carbajal</p> --}}
+                                        </h2>
+                                        <p class="font-light  text-right text-gray-500">Publicado: 09/07/2024</p>
+                                        <div class=" font-sans text-lg text-left col-span-6  ">
+                                        <p><i>El anhelo de construir un paraíso terrenal ha impulsado a pensadores a imaginar sociedades ideales a lo largo de la historia. Desde la obra de Tomás Moro hasta los intentos de transformar realidades sociales, las utopías han sido un reflejo de las aspiraciones por una equidad real y profunda.</i>
+                                        </p>
+                                        <br>
+                                        <figure>
+                                            <img class="w-full object-cover" src="../img/soc/soc_utopias.svg"
+                                                alt="">
+                                        </figure>
+                                        
+                                        {{-- <article>
+                                            <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/Z8erUjiM40o?si=cY0HKLmYrrwJbmcA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                            
+                                        </article> --}}
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                                <p>El término "utopía" apareció en el siglo XVI, gracias a Tomás Moro, quien en 1516 publicó su obra Utopía. En esta novela, Moro describe una isla ficticia con 54 ciudades donde se elimina la propiedad privada y el lucro financiero. En este modelo, la jornada laboral se reduce a seis horas diarias y se organiza de forma rotativa entre el campo y la ciudad. La igualdad y la equidad son los pilares de esta sociedad, donde todos poseen vestimentas iguales y los recursos se distribuyen equitativamente. Moro, sorprendentemente abogado, prescinde de los abogados en su utopía, ya que considera que la simplificación legal elimina las causas de los conflictos. 
+                                                </p>
+                                                <br>
+                                                <p>Al igual que La República de Platón, Utopía se presenta en un "no lugar" imaginario. La utopía, que literalmente significa "lugar que no existe", busca ofrecer una crítica constructiva a las sociedades contemporáneas, imaginando un futuro más justo y equitativo.</p>
+                                                <br>
+                                                <p>En el siglo XX, Robert Nozick, en su obra Anarquía, Estado y Utopía, presenta una visión libertaria que limita el papel del Estado a la protección de las libertades individuales. Este enfoque inspiró a corrientes como el anarcocapitalismo, que defienden una mínima intervención estatal. No obstante, en un contexto progresista y comprometido con la justicia social, esta visión resulta insuficiente para abordar las desigualdades estructurales.
+                                                </p>
+                                                <br>
+                                                <p>Por otro lado, la utopía socialista de Edward Bellamy, descrita en Looking Backward (1888), imagina el año 2000 como una sociedad sin desigualdades ni carencias, donde el Estado controla todos los recursos y elimina la herencia privada. Esta visión inspiró a muchos y dio origen a un partido político que buscó poner en práctica estos ideales.</p>
+                                                <br>
+                                                <p>La Revolución Rusa de 1917 intentó aplicar las ideas utópicas de Marx, pero enfrentó el reto de adaptar conceptos diseñados para sociedades urbanas a la realidad campesina de Rusia. Esta experiencia demuestra que la implementación de utopías requiere considerar las particularidades geográficas y socioeconómicas.</p>
+                                                <br>
+                                                <p>En Latinoamérica, el político argentino Domingo Sarmiento propuso en 1850 la creación de los Estados Federados del Río de la Plata, uniendo Argentina, Paraguay y Uruguay bajo un solo gobierno. Su propuesta incluía la capitalización en la Isla Martín García, garantizando igualdad entre las provincias y libre navegación de los ríos. Aunque su visión no se concretó, la idea de una unión regional refleja un intento por resolver problemas contemporáneos mediante la cooperación y la equidad.</p>
+                                                <br>
+                                                <p>Las utopías, en última instancia, reflejan los deseos y críticas de sus tiempos. Desde la ficción literaria hasta los intentos de implementación real, estos sueños nos invitan a reflexionar sobre las posibilidades de construir una sociedad más justa. ¿Cómo habría sido el mundo si estas utopías se hubieran materializado? El debate sigue abierto, invitando a la reflexión sobre cómo avanzar hacia una sociedad que garantice justicia y equidad para todos.</p>
+                                                <br>
+                                                
+                                                
+                                                
+
+                                                <div class="text-start object-center">
+                                                    {{-- <figure>
+                                                        <img class="w-28 h-28  "
+                                                            src="{{ asset('../img/der/Adri.svg') }}"
+                                                            alt="">
+                                                        
+                                                        <p> <strong>Nota de Adriana Zerdín</strong></p>
+
+                                                    </figure>  --}}
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+                            </li>
+                        </ul>
+                        <br>
+                    </div>
+
+
+                    {{-- columna de la derecha chica --}}
+                    <aside>
+                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                            <div class=" col-span-6">
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/bener-leg2.png') }}"
+                                        alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
+                                        alt="">
+                                </a>
+
+                                <div id="app">
+
+                                    <div v-for="item in info">
+
+                                        <div class="flex-col pb-3">
+                                            <div
+                                                class="flex-col max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg"
+                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
+                                                        alt="" />
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5
+                                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                                            @{{ item.title }}</h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div v-for="va in clima">
+
+                                        <h5
+                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                            @{{ va }}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+                </div>
+            </section>
+        @elseif ($tituloSep == 'Sociedad-Noticia-Completa-soc75')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">EVITA Y EL MONCADA LA PATRIA LIBERADA</a>
+                                            {{-- <p class="font-light  text-lef text-gray-500">Por Rosaura Audi y Gonzalo Carbajal</p> --}}
+                                        </h2>
+                                        <p class="font-light  text-right text-gray-500">Publicado: 26/07/2024</p>
+                                        <div class=" font-sans text-lg text-left col-span-6  ">
+                                        <p><i>El legado de Evita y el asalto al Cuartel Moncada son hitos históricos que simbolizan la lucha por la justicia social y la liberación nacional en América Latina. Estas dos fechas, marcadas por la valentía y el sacrificio, reflejan el compromiso con un futuro mejor para los pueblos de Argentina y Cuba.</i>
+                                        </p>
+                                        <br>
+                                        <figure>
+                                            <img class="w-full object-cover" src="../img/soc/soc_evamoncada2.svg"
+                                                alt="">
+                                        </figure>
+                                        
+                                        {{-- <article>
+                                            <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/Z8erUjiM40o?si=cY0HKLmYrrwJbmcA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                            
+                                        </article> --}}
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                                <p>El 26 de julio es una fecha de gran significado en la historia de América Latina, uniendo dos eventos cruciales en la lucha por la justicia y la liberación: la muerte de Eva Perón en 1952 y el asalto al Cuartel Moncada en 1953. Aunque separados por un año y diferentes contextos nacionales, ambos acontecimientos simbolizan la resistencia contra la opresión y la búsqueda de un futuro más equitativo para sus respectivos pueblos. 
+                                                </p>
+                                                <br>
+                                                <p>Eva Perón, conocida cariñosamente como Evita, falleció el 26 de julio de 1952, dejando un legado imborrable en Argentina. Como Primera Dama y figura clave en el gobierno de Juan Domingo Perón, Evita se convirtió en un símbolo de lucha por los derechos de los trabajadores y las mujeres. A través de la Fundación Eva Perón, promovió una amplia gama de iniciativas sociales, desde la construcción de hospitales y escuelas hasta la entrega de viviendas a los sectores más vulnerables. Su carisma y dedicación consolidaron el apoyo popular al peronismo, transformando la política argentina.</p>
+                                                <br>
+                                                <p>Un año después, el 26 de julio de 1953, en Cuba, otro hito revolucionario marcó el inicio de una nueva era. Un grupo de jóvenes liderados por Fidel Castro intentó tomar el Cuartel Moncada en Santiago de Cuba, un acto de valentía que, aunque fallido, se convirtió en el punto de partida de la Revolución Cubana. La represión brutal que siguió al asalto, con muchos revolucionarios capturados y asesinados, no hizo más que fortalecer la determinación de Fidel y su movimiento. Durante su juicio, Castro pronunció el discurso "La historia me absolverá", esbozando su visión para un Cuba libre de la dictadura de Fulgencio Batista.
+                                                </p>
+                                                <br>
+                                                <p>El Movimiento 26 de Julio, nombre adoptado en honor a la fecha del asalto, continuó su lucha hasta lograr la victoria revolucionaria el 1 de enero de 1959. La revolución cubana, inspirada por ideales de justicia social y soberanía nacional, resuena con los principios que Evita defendió en Argentina. Ambos movimientos, aunque distintos en sus contextos y métodos, comparten una visión de un futuro donde los derechos de los oprimidos son reivindicados y la dignidad humana es restaurada.</p>
+                                                <br>
+                                                <p>La conexión simbólica entre Evita y el Moncada va más allá de la coincidencia de fechas. Ambos representan la esperanza y la lucha incansable por la justicia social. Evita, con su pasión por los humildes y los desposeídos, y los jóvenes revolucionarios cubanos, con su sacrificio y determinación, nos recuerdan que la lucha por la libertad y la equidad es un esfuerzo continuo que requiere valentía y compromiso.</p>
+                                                <br>
+                                                <p>Hoy, en Argentina y Cuba, se recuerda y celebra a estos héroes que, cada uno a su manera, contribuyeron a la liberación de sus patrias. Sus legados perduran como testimonio de que la justicia social y la libertad son ideales por los que vale la pena luchar, uniendo a los pueblos en una causa común de dignidad y soberanía.</p>
+                                                <br>
+                                                
+                                                
+                                                
+                                                
+
+                                                <div class="text-start object-center">
+                                                    {{-- <figure>
+                                                        <img class="w-28 h-28  "
+                                                            src="{{ asset('../img/der/Adri.svg') }}"
+                                                            alt="">
+                                                        
+                                                        <p> <strong>Nota de Adriana Zerdín</strong></p>
+
+                                                    </figure>  --}}
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+                            </li>
+                        </ul>
+                        <br>
+                    </div>
+
+
+                    {{-- columna de la derecha chica --}}
+                    <aside>
+                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                            <div class=" col-span-6">
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/bener-leg2.png') }}"
+                                        alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
+                                        alt="">
+                                </a>
+
+                                <div id="app">
+
+                                    <div v-for="item in info">
+
+                                        <div class="flex-col pb-3">
+                                            <div
+                                                class="flex-col max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg"
+                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
+                                                        alt="" />
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5
+                                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                                            @{{ item.title }}</h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div v-for="va in clima">
+
+                                        <h5
+                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                            @{{ va }}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+                </div>
+            </section>
+        @elseif ($tituloSep == 'Sociedad-Noticia-Completa-soc76')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">EL GOBIERNO INTERVIENE LA UNIVERSIDAD DE LAS MADRES DE PLAZA DE MAYO SIN NINGUNA LEGALIDAD</a>
+                                            {{-- <p class="font-light  text-lef text-gray-500">Por Rosaura Audi y Gonzalo Carbajal</p> --}}
+                                        </h2>
+                                        <p class="font-light  text-right text-gray-500">Publicado: 27/07/2024</p>
+                                        <div class=" font-sans text-lg text-left col-span-6  ">
+                                        <p><i>Por Demetrio Iramain, Docente de Historia de las Madres de Plaza de Mayo en la UNMa y Militante de la Asociación Madres de Plaza de Mayo.</i>
+                                        </p>
+                                        <br>
+                                        <figure>
+                                            <img class="w-full object-cover" src="../img/soc/soc_unma.svg"
+                                                alt="">
+                                        </figure>
+                                        
+                                        {{-- <article>
+                                            <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/Z8erUjiM40o?si=cY0HKLmYrrwJbmcA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                            
+                                        </article> --}}
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                                <p>El jueves 25 de julio, horas antes de que las Madres de Plaza de Mayo iniciaran su marcha semanal número 2415, el gobierno de Javier Milei dio a conocer una resolución de su ministra Sandra Pettovello, que establece la intervención de la Universidad Nacional Madres de Plaza de Mayo. Una provocación. 
+                                                </p>
+                                                <br>
+                                                <p>Como cuando un juez de Comodoro Py quiso detener a Hebe de Bonafini, en agosto de 2016, la medida fue dictada un jueves, día de la histórica movilización de las Madres alrededor de la Pirámide de Mayo. El goce perfecto del gobierno maldito.</p>
+                                                <br>
+                                                <p>La resolución es, además de ilegal, violatoria de la autonomía universitaria que rige en la Argentina desde el año 1918, hace 106 años.
+                                                </p>
+                                                <br>
+                                                <p>En efecto, la UNMa realizó no una Asamblea Universitaria para consagrar su autonomía, sino dos. La primera, el 6 de diciembre de 2023, a 4 días de que asuma el gobierno de Milei, y la segunda el 5 de marzo de este año, en la que resultó elegida en forma unánime Cristina Caamaño rectora de la Universidad, tal como reclamaban las Madres, siguiendo un mandato que había expresado Hebe, antes de su fallecimiento.</p>
+                                                <br>
+                                                <p>La figura de “rector organizador” que el gobierno intenta imponer, no corresponde en la UNMa, que se encuentra plenamente organizada, con sus representantes por los claustros docentes, no docentes, alumnos y estudiantes ya elegidos y ejerciendo el cogobierno de la Universidad. Porque la Universidad de las Madres no se creó en septiembre del año pasado, cuando se promulgó la ley que la rige, sino el 6 de abril de 2000, cuando las Madres crearon su Universidad Popular, que en noviembre de 2014 se convirtió en Instituto Universitario Nacional de Derechos Humanos Madres de Plaza de Mayo, hasta 2023, cuando se transformó en su forma actual: la UNMa.</p>
+                                                <br>
+                                                <p>En efecto, desde el corto tiempo que pasó entre hoy y la sanción de la ley de su creación, la Universidad de las Madres debió atravesar un conflicto político interno que comenzó el 6 de diciembre y se extendió hasta marzo de este año.</p>
+                                                <br>
+                                                <p>La disputa derivó de la elección realizada en aquella primera asamblea de diciembre. Las Madres denunciaron que quienes se habían impuesto, María Elena Patzer y Jacobo Grossman, iban a traicionar a las Madres, frustrar el proyecto educativo y entregarle la Universidad a Milei: hoy queda comprobado que tenían razón. El “organizador” nombrado por el decreto de intervención del gobierno es, precisamente, el entonces secretario administrativo de esa gestión, Luis Eduardo Maurizzio.</p>
+                                                <br>
+                                                <p>La denuncia pública de las Madres, en su marcha del jueves 7 de diciembre de 2023, movilizó a la comunidad de la Universidad, que comprendió la maniobra, hizo cambiar el voto de los asambleístas y motivó la convocatoria de una nueva asamblea soberana, que se realizó el 5 de marzo, en la que Cristina Caamaño resultó elegida por unanimidad.</p>
+                                                <br>
+                                                <p>Desde entonces, la Universidad atraviesa las dificultades propias de ejercer su objetivo pedagógico sin ningún tipo de recursos: el gobierno se niega a girar los fondos que le corresponden para su normal funcionamiento desde el 1 de enero, por lo que su plantel docente y el cuerpo de trabajadores no docentes no perciben su salario desde entonces.</p>
+                                                <br>
+                                                <p>Para revertir esta situación, la Universidad, a la vez que movilizó a su comunidad repetidas veces, recurrió a la Justicia. Decir "la Justicia" es una manera de decir. El lunes 15 de julio, el juez de Feria decidió habilitarla ante la urgencia de la situación y la gravedad institucional que supone todo esto, para resolver sobre un recurso en el que se reclaman los fondos.</p>
+                                                <br>
+                                                <p>¿Qué hizo el gobierno ante la inminencia de un fallo que podría serle adverso? Recusó al juez. No le daba ninguna garantía. El viernes 19 el juez al que le dieron la causa por pedido del gobierno, rechazó la pretensión de la Universidad de las Madres. ¿Cómo se llama el juez? Pablo Cayssials, otro de los que viajó a Lago Escondido.</p>
+                                                <br>
+                                                <p>Fue el primer movimiento de otro siguiente: la intervención. Ni siquiera así el gobierno podrá detener el proyecto de las Madres de Plaza de Mayo. Desde el jueves 25, cuando se conoció el decreto, se sucedieron múltiples muestras de solidaridad que auguran un futuro de dura resistencia para su Universidad, pero con grandes posibilidades de triunfo. Este gobierno va a pasar, y la Universidad de las Madres, producto de sus 47 años de lucha, seguirá. Qué duda cabe.</p>
+                                                <br>
+                                                
+
+                                                <div class="text-start object-center">
+                                                    {{-- <figure>
+                                                        <img class="w-28 h-28  "
+                                                            src="{{ asset('../img/der/Adri.svg') }}"
+                                                            alt="">
+                                                        
+                                                        <p> <strong>Nota de Adriana Zerdín</strong></p>
+
+                                                    </figure>  --}}
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+                            </li>
+                        </ul>
+                        <br>
+                    </div>
+
+
+                    {{-- columna de la derecha chica --}}
+                    <aside>
+                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                            <div class=" col-span-6">
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/bener-leg2.png') }}"
+                                        alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
+                                        alt="">
+                                </a>
+
+                                <div id="app">
+
+                                    <div v-for="item in info">
+
+                                        <div class="flex-col pb-3">
+                                            <div
+                                                class="flex-col max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg"
+                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
+                                                        alt="" />
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5
+                                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                                            @{{ item.title }}</h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div v-for="va in clima">
+
+                                        <h5
+                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                            @{{ va }}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+                </div>
+            </section>
+        @elseif ($tituloSep == 'Sociedad-Noticia-Completa-soc77')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">EL ARBOLITO DE LA PLAZA MITRE EN LA LOCALIDAD DE RAUCH</a>
+                                            <p class="font-light  text-lef text-gray-500">Por Emanuel Corrado</p>
+                                        </h2>
+                                        <p class="font-light  text-right text-gray-500">Publicado: 28/07/2024</p>
+                                        <div class=" font-sans text-lg text-left col-span-6  ">
+                                        <p><i>Alguna vez les he contado sobre el Castillo de Engaña, más conocido como el Castillo de Rauch, justamente por estar ubicado en el Partido de Rauch a 277 km de Capital Federal al sur de la provincia de Buenos Aires. Este castillo perteneció a la familia Díaz Vélez, propietarios también de la famosa "Casa de los Leones" de la Av. Montes de Oca, en el barrio de Barracas.</i>
+                                        </p>
+                                        <br>
+                                        <figure>
+                                            <img class="w-full object-cover" src="../img/soc/soc_arbolito.svg"
+                                                alt="">
+                                        </figure>
+                                        
+                                        {{-- <article>
+                                            <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/Z8erUjiM40o?si=cY0HKLmYrrwJbmcA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                            
+                                        </article> --}}
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                                <p>El motivo de este escrito es contar una historia que aconteció en el Combate de las Vizcacheras, donde se enfrentaron los indios ranqueles, que apoyaban a los federales, y las fuerzas unitarias comandadas por el coronel Federico Rauch. 
+                                                </p>
+                                                <br>
+                                                <p>Rauch era un prusiano nacido en Weinheim que vino a esta tierra en 1819 bajo el ala de Juan Martín de Pueyrredón y, con apenas 33 años, alcanzó el grado de coronel. En 1826, el entonces presidente Bernardino Rivadavia le encomienda la expansión del territorio en lo que posteriormente se llamó "Campañas previas a la Conquista del Desierto". Sí, nos guste o no, la creación del estado argentino se basó en la usurpación de territorio a pueblos indígenas.</p>
+                                                <br>
+                                                <p>Rauch llevó adelante tres campañas, pero en la tercera las cosas venían complicadas por las internas entre los indios pampas y los ranqueles. Sacando provecho de esta situación, los unitarios consiguieron el apoyo de los indios pampas, pero los ranqueles eran aliados de los federales.
+                                                </p>
+                                                <br>
+                                                <p>El 28 de marzo de 1828, después de dos años de masacrar ranqueles en Las Vizcacheras, Rauch se adelanta a sus tropas y su caballo es boleado (atrapado por las patas con una boleadora). Caído y sin su espada, Federico Rauch es degollado y decapitado por el indio ranquel Nicasio Maciel, conocido como “Arbolito”.</p>
+                                                <br>
+                                                <p>Hoy, un monumento homenajea al héroe de los indios en la plaza de un conocido unitario, en el pueblo del coronel que el mismo Arbolito decapitó. La escultura de Nicasio “Arbolito” Maciel se encuentra en la plaza Bartolomé Mitre en la localidad de Rauch, en homenaje al indio que mató a su verdugo en el Combate de las Vizcacheras.</p>
+                                                <br>
+                                                <p>Este relato no solo pone en relieve la valentía de los ranqueles, sino también la complejidad y brutalidad de la historia argentina en su camino hacia la conformación de un estado nacional. El Castillo de Rauch, testigo mudo de estos eventos, sigue siendo un símbolo de las luchas y resistencias que marcaron nuestro pasado.</p>
+                                                <br>
+                                               
+                                                
+
+                                                <div class="text-start object-center">
+                                                    {{-- <figure>
+                                                        <img class="w-28 h-28  "
+                                                            src="{{ asset('../img/der/Adri.svg') }}"
+                                                            alt="">
+                                                        
+                                                        <p> <strong>Nota de Adriana Zerdín</strong></p>
+
+                                                    </figure>  --}}
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+                            </li>
+                        </ul>
+                        <br>
+                    </div>
+
+
+                    {{-- columna de la derecha chica --}}
+                    <aside>
+                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                            <div class=" col-span-6">
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/bener-leg2.png') }}"
+                                        alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
+                                        alt="">
+                                </a>
+
+                                <div id="app">
+
+                                    <div v-for="item in info">
+
+                                        <div class="flex-col pb-3">
+                                            <div
+                                                class="flex-col max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg"
+                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
+                                                        alt="" />
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5
+                                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                                            @{{ item.title }}</h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div v-for="va in clima">
+
+                                        <h5
+                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                            @{{ va }}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+                </div>
+            </section>
+        @elseif ($tituloSep == 'Sociedad-Noticia-Completa-soc78')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">MENTIRAS QUE GOBIERNAN: HÉCTOR SOSA DESENMASCARA LA DESINFORMACIÓN</a>
+                                            {{-- <p class="font-light  text-lef text-gray-500">Por Emanuel Corrado</p> --}}
+                                        </h2>
+                                        <p class="font-light  text-right text-gray-500">Publicado: 29/07/2024</p>
+                                        <div class=" font-sans text-lg text-left col-span-6  ">
+                                        <p><i>En una era donde la verdad se distorsiona constantemente, Héctor Sosa, editor general de Motor Económico, analiza la construcción y el impacto de las mentiras en la política y la economía. En una conversación reveladora, Sosa desentraña cómo las corporaciones y los medios manipulan la información.</i>
+                                        </p>
+                                        <br>
+                                        {{-- <figure>
+                                            <img class="w-full object-cover" src="../img/soc/soc_sosa.svg"
+                                                alt="">
+                                        </figure> --}}
+                                        
+                                        <article>
+                                            <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/GeOVAG1Bfz8?si=r2ihOrxI6uEWI0IU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                            
+                                        </article>
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                                <p>La entrevista con Héctor Sosa ofrece una perspectiva incisiva sobre cómo se construyen y perpetúan las mentiras en la arena política y económica. Con una trayectoria en la comunicación y el periodismo económico, Sosa examina cómo los datos se manipulan y las narrativas se crean para influir en la opinión pública. 
+                                                </p>
+                                                <br>
+                                                <p>"Hoy el 60% de la información que circula en las redes es mentira. No solo en Argentina, sino en la región y a nivel global. La mentira se construye con elementos técnicos y científicos, no solo con trolls que hacen chistes", explica Sosa. Según él, la desinformación no es un fenómeno aislado, sino una estrategia meticulosamente elaborada que incluye tanto la distorsión de datos como el ocultamiento sistemático de información relevante.</p>
+                                                <br>
+                                                <p>Uno de los ejemplos que destaca es la manipulación de los datos económicos. "Si digo que la inflación está bajando después de subir a 160%, es una media inglesa. La inflación puede parecer que baja, pero no se menciona el aumento previo", señala Sosa. Este tipo de tácticas, según él, son diseñadas para distraer y confundir al público.
+                                                </p>
+                                                <br>
+                                                <p>En el ámbito local, Sosa menciona el caso reciente de la desaparición de un niño en Corrientes. "Se puede presentar el caso de muchas maneras: como un accidente, un descuido, o una distracción. Sin embargo, la cuestión que no se está señalando es cuántos casos similares han ocurrido en la misma región. La información se oculta y la comunicación popular debe desentrañar la verdad", argumenta.</p>
+                                                <br>
+                                                <p>Sosa también critica la utilización de la política de shock, una estrategia que busca generar una conmoción para implementar cambios drásticos. "El shock económico es una herramienta para imponer políticas, como lo vimos con la ley de base. La idea es generar una crisis para justificar medidas que, de otro modo, serían impopulares", afirma.</p>
+                                                <br>
+                                                <p>El editor de Motor Económico concluye con un llamado a la acción para los comunicadores y medios: "Debemos mostrar lo que no se muestra. Enfrentar la mentira con datos concretos y comparaciones válidas. La verdad puede no ser absoluta, pero el compromiso con la información precisa es fundamental".</p>
+                                                <br>
+                                                <p>Sosa destaca que, a pesar de la manipulación generalizada, la verdad eventualmente sale a la luz. "Lo que se oculta por un dique terminará encontrando su camino a través de las fisuras", concluye.</p>
+                                                <br>
+                                               
+                                                
+
+                                                <div class="text-start object-center">
+                                                    {{-- <figure>
+                                                        <img class="w-28 h-28  "
+                                                            src="{{ asset('../img/der/Adri.svg') }}"
+                                                            alt="">
+                                                        
+                                                        <p> <strong>Nota de Adriana Zerdín</strong></p>
+
+                                                    </figure>  --}}
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+                            </li>
+                        </ul>
+                        <br>
+                    </div>
+
+
+                    {{-- columna de la derecha chica --}}
+                    <aside>
+                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                            <div class=" col-span-6">
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/bener-leg2.png') }}"
+                                        alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
+                                        alt="">
+                                </a>
+
+                                <div id="app">
+
+                                    <div v-for="item in info">
+
+                                        <div class="flex-col pb-3">
+                                            <div
+                                                class="flex-col max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg"
+                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
+                                                        alt="" />
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5
+                                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                                            @{{ item.title }}</h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div v-for="va in clima">
+
+                                        <h5
+                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                            @{{ va }}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+                </div>
+            </section>
+        @elseif ($tituloSep == 'Sociedad-Noticia-Completa-soc79')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">BUENOS AIRES Y SUS MUSEOS: UN RECORRIDO IMPERDIBLE</a>
+                                            {{-- <p class="font-light  text-lef text-gray-500">Por Emanuel Corrado</p> --}}
+                                        </h2>
+                                        <p class="font-light  text-right text-gray-500">Publicado: 30/07/2024</p>
+                                        <div class=" font-sans text-lg text-left col-span-6  ">
+                                        <p><i>La ciudad de Buenos Aires alberga una vasta y diversa colección de museos que reflejan su rica historia y cultura. Desde el Museo de Arte Latinoamericano hasta el Museo de la Pasión Boquense, cada uno ofrece una experiencia única e invaluable.</i>
+                                        </p>
+                                        <br>
+                                        <figure>
+                                            <img class="w-full object-cover" src="../img/soc/soc_museos2.svg"
+                                                alt="">
+                                        </figure>
+                                        
+                                        {{-- <article>
+                                            <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/GeOVAG1Bfz8?si=r2ihOrxI6uEWI0IU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                            
+                                        </article> --}}
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                                <p>Buenos Aires es una ciudad que vibra con historia y cultura, y sus museos son testigos silenciosos de esa rica herencia. Desde el arte hasta la ciencia, cada museo ofrece una experiencia única, invitando a los visitantes a explorar y descubrir. 
+                                                </p>
+                                                <br>
+                                                <p>ARCHIVO Y MUSEO HISTÓRICOS DEL BANCO DE LA PROVINCIA DE BUENOS AIRES “DR. ARTURO JAURETCHE”</p>
+                                                <br>
+                                                <p>Ubicado en el corazón del microcentro porteño, este museo preserva la historia del primer banco que emitió billetes en Argentina. En su exposición, los visitantes pueden encontrar piezas numismáticas, documentos históricos y objetos personales de figuras como Arturo Jauretche.</p>
+                                                <br>
+                                                <p>Ubicación: Sarmiento 364</p>
+                                                <p>Lunes a viernes de 10:00 a 18:00 h</p>
+                                                <p>Entrada: Libre y gratuita</p>
+                                                <br>
+                                                <p>BUENOS AIRES MUSEO (BAM)</p>
+                                                <br>
+                                                <p>Ubicación: Defensa 187</p>
+                                                <p>Horario: Lunes a domingo de 11:00 a 19:00 h</p>
+                                                <br>
+                                                <p>BUQUE MUSEO FRAGATA ARA PRESIDENTE SARMIENTO</p>
+                                                <br>
+                                                <p>Este icónico buque escuela de la Armada Argentina, ahora convertido en museo, permite a los visitantes revivir las aventuras de sus 37 viajes alrededor del mundo. En sus salas se exhiben objetos traídos de diversas partes del mundo, como una piedra de la Gran Muralla China.</p>
+                                                <br>
+                                                <p>Ubicación: Av. Alicia Moreau de Justo 980</p>
+                                                <p>Horario: Lunes a domingos de 10.00 a 19.00 h</p>
+                                                <br>
+                                                <p>CENTRO CULTURAL BORGES</p>
+                                                <br>
+                                                <p>Inaugurado en 1995, este centro cultural ubicado en las Galerías Pacífico es un espacio dedicado a las artes, con exposiciones que van desde las artes visuales hasta el tango. Su oferta incluye auditorios, salas de exposición y un cine.</p>
+                                                <br>
+                                                <p>Ubicación: Viamonte 525</p>
+                                                <p>Horario: Miércoles a domingos de 14 a 20 h</p>
+                                                <p>Entrada: Libre y gratuita</p>
+                                                <br>
+                                                <p>MEGA - MUSEO DE LA EMIGRACIÓN GALLEGA EN LA ARGENTINA</p>
+                                                <br>
+                                                <p>Este museo exhibe el patrimonio de la comunidad gallega en Argentina, con objetos que van desde correspondencia epistolar hasta instrumentos musicales. Es un espacio dedicado al estudio y la difusión de la cultura gallega.</p>
+                                                <br>
+                                                <p>Ubicación: Chacabuco 955, San Telmo</p>
+                                                <p>Horario: Miércoles y viernes de 15 a 20 h, sábados de 17 a 20 h</p>
+                                                <p>Entrada: Gratuita</p>
+                                                <br>
+                                                <p>MUSEO ANCONETANI DEL ACORDEÓN</p>
+                                                <br>
+                                                <p>Dedicado al acordeón, este museo familiar en Chacarita muestra la historia de los Anconetani, fabricantes de estos instrumentos desde 1916. El museo ofrece una recreación de un taller de acordeones y cuenta con una sala de música para eventos.</p>
+                                                <br>
+                                                <p>Ubicación: Guevara 490, Chacarita</p>
+                                                <p>Horario:  Martes y jueves de 15:00 a 18:30 h</p>
+                                                <p>Entrada: Gratuita</p>
+                                                <br>
+                                                <p>MUSEO BEATLE</p>
+                                                <br>
+                                                <p>Con la colección de objetos relacionados con los Beatles más grande del mundo, este museo en el Paseo La Plaza ofrece un recorrido por la historia de la banda a través de autógrafos, cartas, tickets y más.</p>
+                                                <br>
+                                                <p>Ubicación: Av. Corrientes 1660, Paseo La Plaza</p>
+                                                <p>Horario: Lunes a viernes de 10 a 00 h, sábados y domingos de 18 a 00 h</p>
+                                                <br>
+                                                <p>MUSEO DE ARTE LATINOAMERICANO DE BUENOS AIRES (MALBA)</p>
+                                                <br>
+                                                <p>Desde su apertura en 1990, el MALBA es un referente del arte latinoamericano del siglo XX y XXI. Ofrece una variedad de actividades culturales, incluyendo cine y literatura, y programas educativos para niños.</p>
+                                                <br>
+                                                <p>Ubicación: Av. Figueroa Alcorta 3415</p>
+                                                <p>Horario: Jueves a lunes de 12:00 a 20:00 h, miércoles de 11:00 a 20:00 h, martes cerrado</p>
+                                                <br>
+                                                <p>MUSEO DE ARTE POPULAR JOSÉ HERNÁNDEZ</p>
+                                                <br>
+                                                <p>Ubicado en una histórica casona en Barrio Parque, este museo colecciona y promueve el arte popular argentino, con una amplia variedad de artesanías y una de las mejores colecciones de platería del país.</p>
+                                                <br>
+                                                <p>Ubicación: Av. del Libertador 2373</p>
+                                                <p>Horario: Lunes, miércoles, jueves y viernes de 11 a 19 h, sábados, domingos y feriados de 11 a 20 h, martes cerrado</p>
+                                                <p>Entrada: Gratis los días miércoles</p>
+                                                <br>
+                                                <p>MUSEO DE ARTE HISPANOAMERICANO ISAAC FERNÁNDEZ BLANCO</p>
+                                                <br>
+                                                <p>Este museo en Retiro, ubicado en una casa de estilo neocolonial, alberga colecciones de arte virreinal americano y ofrece una amplia variedad de actividades culturales.</p>
+                                                <br>
+                                                <p>Ubicación: Suipacha 1422, Retiro</p>
+                                                <p>Horario: Lunes, miércoles, jueves y viernes de 11 a 19 h, sábados, domingos y feriados de 11 a 20 h, martes cerrado</p>
+                                                <p>Entrada: Gratis los días miércoles</p>
+                                                <br>
+                                                <p>MUSEO DE LA PASIÓN BOQUENSE</p>
+                                                <br>
+                                                <p>Ubicado en el estadio de Boca Juniors, este museo ofrece a los visitantes una experiencia inmersiva en la historia del club, con un recorrido que incluye una sala de experiencias 360°.</p>
+                                                <br>
+                                                <p>Ubicación: Brandsen 805</p>
+                                                <p>Horario:Lunes a domingo de 10 a 19 h</p>
+                                                <br>
+                                                <p>MUSEO ARGENTINO DE CIENCIAS NATURALES BERNARDINO RIVADAVIA</p>
+                                                <br>
+                                                <p>Este museo, uno de los más completos de Sudamérica, invita a descubrir la riqueza natural del país con colecciones que abarcan desde la geología hasta la zoología.</p>
+                                                <br>
+                                                <p>Ubicación: Parque Centenario, Av. Ángel Gallardo 470</p>
+                                                <p>Horario:Lunes a viernes de 9:00 a 19:00 h, sábados, domingos y feriados de 10:00 a 20:00 h</p>
+                                                <br>
+
+
+
+                                                <div class="text-start object-center">
+                                                    {{-- <figure>
+                                                        <img class="w-28 h-28  "
+                                                            src="{{ asset('../img/der/Adri.svg') }}"
+                                                            alt="">
+                                                        
+                                                        <p> <strong>Nota de Adriana Zerdín</strong></p>
+
+                                                    </figure>  --}}
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+                            </li>
+                        </ul>
+                        <br>
+                    </div>
+
+
+                    {{-- columna de la derecha chica --}}
+                    <aside>
+                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                            <div class=" col-span-6">
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/bener-leg2.png') }}"
+                                        alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
+                                        alt="">
+                                </a>
+
+                                <div id="app">
+
+                                    <div v-for="item in info">
+
+                                        <div class="flex-col pb-3">
+                                            <div
+                                                class="flex-col max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg"
+                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
+                                                        alt="" />
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5
+                                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                                            @{{ item.title }}</h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div v-for="va in clima">
+
+                                        <h5
+                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                            @{{ va }}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+                </div>
+            </section>
+        @elseif ($tituloSep == 'Sociedad-Noticia-Completa-soc80')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">PRESENTAN PROYECTO PARA ASEGURAR Y AMPLIAR LA ASIGNACIÓN ECONÓMICA A JÓVENES SIN CUIDADOS PARENTALES</a>
+                                            {{-- <p class="font-light  text-lef text-gray-500">Por Emanuel Corrado</p> --}}
+                                        </h2>
+                                        <p class="font-light  text-right text-gray-500">Publicado: 31/07/2024</p>
+                                        <div class=" font-sans text-lg text-left col-span-6  ">
+                                        <p><i>Ante el recorte y ajuste en el pago de las asignaciones para 2600 adolescentes que egresaron de los hogares sin cuidados parentales, la diputada nacional Victoria Tolosa Paz presentó un proyecto de ley que modifica el Artículo 21 de la Ley 27.634, para asegurar una asignación económica mensual adecuada y actualizada.</i>
+                                        </p>
+                                        <br>
+                                        <figure>
+                                            <img class="w-full object-cover" src="../img/soc/soc_jovenes.svg"
+                                                alt="">
+                                        </figure>
+                                        
+                                        {{-- <article>
+                                            <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/GeOVAG1Bfz8?si=r2ihOrxI6uEWI0IU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                            
+                                        </article> --}}
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                                <p>En el marco del compromiso con los derechos de los adolescentes y jóvenes sin cuidados parentales, y en contraposición a la arbitraria decisión de la ministra de Capital Humano Sandra Pettovello, la diputada nacional impulsa modificar el Artículo 21 de la Ley 27.634, para garantizar una asignación económica mensual para este universo de jóvenes para que puedan cubrir sus necesidades esenciales de alimentación, vivienda, vestimenta, salud y educación, reduciendo desigualdades y ofreciendo una oportunidad justa de desarrollo en su transición a la vida adulta. 
+                                                </p>
+                                                <br>
+                                                <p>Según el proyecto la asignación económica, que hoy corresponde al 80 % del Salario Mínimo Vital y Móvil ($187.452,09), se ajustará para ser equivalente a la de una Canasta Básica Total (CBT) para un Adulto calculada por el INDEC, completando un total de $282.579 a día de hoy.</p>
+                                                <br>
+                                                <p>Al respecto, la diputada nacional Victoria Tolosa Paz destacó: “Este proyecto de ley responde al artículo 27 de la Convención sobre los Derechos del Niño, que establece el derecho de todos los niños a un nivel de vida adecuado para su desarrollo. En este sentido, pretende reforzar el compromiso que debe tener el Estado argentino con la igualdad y la inclusión social, asegurando que los jóvenes más vulnerables reciban el apoyo necesario para una transición estable a la vida adulta”.</p>
+                                                <br>
+                                                <p>La asignación se actualizará trimestralmente según la evolución de la CBT, manteniendo su poder adquisitivo frente a la inflación, y podrá extenderse hasta los 25 años, conforme si estudian o se capacitan en un oficio.</p>
+                                                <br>
+                                                <p>Además, en el mencionado proyecto, se incorpora a dicha Ley el Artículo 21 bis, que establece la emisión de un comprobante de pago mensual por parte de la Secretaría Nacional de Niñez, Adolescencia y Familia. Este comprobante cumplirá con las normativas de la AFIP y facilitará el acceso de los beneficiarios a otros servicios y facilidades, como la apertura de cuentas bancarias, acceso a créditos educativos y otros programas de apoyo.</p>
+                                                <br>
+
+
+                                                <div class="text-start object-center">
+                                                    {{-- <figure>
+                                                        <img class="w-28 h-28  "
+                                                            src="{{ asset('../img/der/Adri.svg') }}"
+                                                            alt="">
+                                                        
+                                                        <p> <strong>Nota de Adriana Zerdín</strong></p>
+
+                                                    </figure>  --}}
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+                            </li>
+                        </ul>
+                        <br>
+                    </div>
+
+
+                    {{-- columna de la derecha chica --}}
+                    <aside>
+                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                            <div class=" col-span-6">
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/bener-leg2.png') }}"
+                                        alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
+                                        alt="">
+                                </a>
+
+                                <div id="app">
+
+                                    <div v-for="item in info">
+
+                                        <div class="flex-col pb-3">
+                                            <div
+                                                class="flex-col max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg"
+                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
+                                                        alt="" />
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5
+                                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                                            @{{ item.title }}</h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div v-for="va in clima">
+
+                                        <h5
+                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                            @{{ va }}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+                </div>
+            </section>
+        @elseif ($tituloSep == 'Sociedad-Noticia-Completa-soc81')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">VIGILANCIA TOTALITARIA: LA NUEVA UNIDAD DE IA DE BULLRICH</a>
+                                            {{-- <p class="font-light  text-lef text-gray-500">Por Emanuel Corrado</p> --}}
+                                        </h2>
+                                        <p class="font-light  text-right text-gray-500">Publicado: 02/08/2024</p>
+                                        <div class=" font-sans text-lg text-left col-span-6  ">
+                                        <p><i>La creación de la UIAAS en Argentina desata alarmas por sus implicaciones en la privacidad y los derechos fundamentales, en un contexto de creciente autoritarismo bajo el gobierno de Milei.</i>
+                                        </p>
+                                        <br>
+                                        <figure>
+                                            <img class="w-full object-cover" src="../img/soc/soc_uiaas.svg"
+                                                alt="">
+                                        </figure>
+                                        
+                                        {{-- <article>
+                                            <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/GeOVAG1Bfz8?si=r2ihOrxI6uEWI0IU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                            
+                                        </article> --}}
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                                <p>El Ministerio de Seguridad de la Nación ha anunciado la creación de la Unidad de Inteligencia Artificial Aplicada a la Seguridad (UIAAS), un organismo que promete intensificar el control digital en la lucha contra los delitos cibernéticos. Este nuevo aparato de vigilancia, coordinado por el Director de Ciberdelito y Asuntos Cibernéticos, incorporará tecnologías avanzadas como el reconocimiento facial y la vigilancia mediante drones, con la participación de las principales fuerzas federales del país. 
+                                                </p>
+                                                <br>
+                                                <p>Sin embargo, la implementación de esta unidad ha generado un fuerte rechazo entre defensores de los derechos humanos y expertos en privacidad. El informe de la ONU, dirigido por la relatora especial Fionnuala Ní Aoláin, advierte sobre el uso peligroso de tecnologías intrusivas que, bajo la retórica de la lucha antiterrorista, pueden comprometer gravemente derechos fundamentales como la privacidad, la libertad de expresión y el derecho a la reunión pacífica.</p>
+                                                <br>
+                                                <p>Este despliegue tecnológico se enmarca en un gobierno cada vez más autoritario bajo la administración de Javier Milei, donde la represión y el control social se justifican en nombre de la seguridad nacional. La creación de la UIAAS es vista como un avance hacia un estado de vigilancia totalitaria, que prioriza el control sobre las libertades civiles.</p>
+                                                <br>
+                                                <p>Es esencial que se establezcan salvaguardias estrictas para evitar abusos y proteger los derechos fundamentales de los ciudadanos. La comunidad internacional y las organizaciones de derechos humanos deben actuar para asegurar una regulación adecuada y prevenir que la tecnología se convierta en un instrumento de represión.</p>
+                                                <br>
+                                                <p>La UIAAS, bajo el gobierno de Milei, marca un preocupante giro hacia un estado de vigilancia. Aunque la tecnología puede ofrecer mejoras en la seguridad, su uso debe ser cuidadosamente regulado para no justificar la represión y el control excesivo. Es imperativo mantener un escrutinio riguroso para preservar las libertades individuales y los principios democráticos en Argentina.</p>
+                                                <br>
+
+
+                                                <div class="text-start object-center">
+                                                    {{-- <figure>
+                                                        <img class="w-28 h-28  "
+                                                            src="{{ asset('../img/der/Adri.svg') }}"
+                                                            alt="">
+                                                        
+                                                        <p> <strong>Nota de Adriana Zerdín</strong></p>
+
+                                                    </figure>  --}}
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+                            </li>
+                        </ul>
+                        <br>
+                    </div>
+
+
+                    {{-- columna de la derecha chica --}}
+                    <aside>
+                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                            <div class=" col-span-6">
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/bener-leg2.png') }}"
+                                        alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
+                                        alt="">
+                                </a>
+
+                                <div id="app">
+
+                                    <div v-for="item in info">
+
+                                        <div class="flex-col pb-3">
+                                            <div
+                                                class="flex-col max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg"
+                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
+                                                        alt="" />
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5
+                                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                                            @{{ item.title }}</h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div v-for="va in clima">
+
+                                        <h5
+                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                            @{{ va }}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+                </div>
+            </section>
+        @elseif ($tituloSep == 'Sociedad-Noticia-Completa-soc82')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">LACTANCIA MATERNA, UNA POLÍTICA PÚBLICA INTERRUMPIDA</a>
+                                            {{-- <p class="font-light  text-lef text-gray-500">Por Emanuel Corrado</p> --}}
+                                        </h2>
+                                        <p class="font-light  text-right text-gray-500">Publicado: 03/08/2024</p>
+                                        <div class=" font-sans text-lg text-left col-span-6  ">
+                                        <p><i>El gobierno de Javier Milei ha suspendido políticas clave para promover la lactancia materna, afectando gravemente a familias vulnerables.</i>
+                                        </p>
+                                        <br>
+                                        <figure>
+                                            <img class="w-full object-cover" src="../img/soc/soc_lactancia.svg"
+                                                alt="">
+                                        </figure>
+                                        
+                                        {{-- <article>
+                                            <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/GeOVAG1Bfz8?si=r2ihOrxI6uEWI0IU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                            
+                                        </article> --}}
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                                <p>En el marco de la Semana Mundial de la Lactancia Materna, que se celebra del 1° al 7 de agosto, el desmantelamiento de las políticas públicas destinadas a la promoción de la lactancia materna se convierte en una preocupación urgente. La administración de Javier Milei ha interrumpido varias iniciativas esenciales, incluida la distribución de kits de lactancia, que eran parte fundamental de la Estrategia Nacional de Apoyo a la Lactancia. Esta estrategia, desarrollada en la gestión anterior, buscaba fomentar la lactancia exclusiva hasta el sexto mes y proporcionar apoyo a las madres que regresaban al trabajo. 
+                                                </p>
+                                                <br>
+                                                <p>El impacto de la cancelación de estas políticas es significativo. Los kits de lactancia, que incluían sacaleches, vasos recolectores y otros materiales esenciales, estaban destinados a mujeres de bajos recursos que, por motivos laborales o educativos, debían pasar largas horas fuera de sus hogares. La suspensión de esta medida ha sido criticada por especialistas, quienes destacan que el apoyo a la lactancia no debe ser visto como una responsabilidad exclusiva de la madre, sino como una cuestión social que involucra a toda la comunidad.</p>
+                                                <br>
+                                                <p>La administración de Milei ha desactivado numerosas políticas implementadas bajo la Ley de los 1000 días, como capacitaciones y la certificación de Espacios Amigos de la Lactancia. Estas medidas eran cruciales para garantizar un entorno adecuado para la lactancia, especialmente en el contexto laboral. La cancelación de estas políticas refleja una desatención preocupante hacia una cuestión fundamental para la salud pública.</p>
+                                                <br>
+                                                <p>Expertos de UNICEF y otros organismos internacionales subrayan que la lactancia materna exclusiva durante los primeros seis meses de vida tiene beneficios comprobados para la salud del bebé y de la madre. Entre estos beneficios se incluyen la prevención de enfermedades, una recuperación posparto más rápida y una menor incidencia de cáncer en la madre. Además, la lactancia materna tiene un impacto positivo en el medioambiente al reducir el uso de envases y costos asociados a la alimentación del bebé.</p>
+                                                <br>
+                                                <p>A pesar de la desactivación de políticas, es crucial que la sociedad, los empleadores y los sistemas de salud colaboren para apoyar la lactancia. Las empresas tienen un rol fundamental en la implementación de políticas que faciliten la lactancia materna, como la provisión de salas de lactancia y horarios flexibles. Sin embargo, la realidad es que solo una minoría de las empresas implementa medidas adecuadas.</p>
+                                                <br>
+                                                <p>La situación actual plantea un desafío importante para la promoción de la lactancia materna en Argentina. Es necesario que se reintegren y fortalezcan las políticas públicas y que se fomente un enfoque integral que reconozca la lactancia como una responsabilidad compartida por toda la sociedad.</p>
+                                                <br>
+                                                <div class="text-start object-center">
+                                                    {{-- <figure>
+                                                        <img class="w-28 h-28  "
+                                                            src="{{ asset('../img/der/Adri.svg') }}"
+                                                            alt="">
+                                                        
+                                                        <p> <strong>Nota de Adriana Zerdín</strong></p>
+
+                                                    </figure>  --}}
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+                            </li>
+                        </ul>
+                        <br>
+                    </div>
+
+
+                    {{-- columna de la derecha chica --}}
+                    <aside>
+                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                            <div class=" col-span-6">
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/bener-leg2.png') }}"
+                                        alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
+                                        alt="">
+                                </a>
+
+                                <div id="app">
+
+                                    <div v-for="item in info">
+
+                                        <div class="flex-col pb-3">
+                                            <div
+                                                class="flex-col max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg"
+                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
+                                                        alt="" />
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5
+                                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                                            @{{ item.title }}</h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div v-for="va in clima">
+
+                                        <h5
+                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                            @{{ va }}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+                </div>
+            </section>
     @endif
 
     </div>
@@ -9373,7 +10518,7 @@
                 mounted() {
 
 
-                    axios.get("https://api.dailymotion.com/videos?channel=news&limit=4")
+                    axios.get("https://api.dailymotion.com/videos?channel=news&limit=3")
                         .then(response => {
                             this.info = response.data.list
                         });

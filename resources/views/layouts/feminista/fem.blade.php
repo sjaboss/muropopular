@@ -1,5 +1,63 @@
 <x-app-layout>
     <div class="container ">
+        {{--PEDRO BRIEGER Y LA CULTURA DEL ACOSO... --}}
+<section>
+    <ul>
+        <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+            <article>
+
+                <div class="py-4 px-4 justify-between items-center">
+                    <h2 class="text-xl font-serif  font-bold pb-6">
+                        <a href="">PEDRO BRIEGER Y LA CULTURA DEL ACOSO: UN LLAMADO A LA JUSTICIA Y LA REPARACIÓN</a>
+                        <p class="font-light  text-right text-gray-500">Publicado: 06/07/2024</p>
+                    </h2>
+                    <p><i>Periodistas Argentinas denuncia un sistema de acoso sexual por parte del periodista Pedro Brieger y demanda reformas legales y medidas reparadoras para las víctimas.</i>
+                    </p>
+                    <br>
+                    <figure>
+                        <img class="w-full object-cover" src="../img/fem/fem_adhe.svg"
+                            alt="">
+                    </figure>
+                    {{-- <article>
+                        <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/KgLeMhUAufY?si=LCmXJy-t6RqfgsUb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        
+                    </article> --}}
+                    <br>
+                    <div
+                        class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                        <div class=" font-sans text-lg text-left col-span-6  ">
+                            <p>La organización Periodistas Argentinas ha presentado un informe revelador sobre las prácticas de acoso sexual del periodista especializado en temas internacionales, Pedro Brieger. El documento, titulado “La cultura del acoso: punto y aparte”, incluye 19 testimonios de mujeres que vivieron situaciones de acoso a lo largo de casi 30 años. La denuncia se hizo pública el 2 de julio en el Senado de la Nación, marcando un hito en la lucha por la justicia y la visibilidad de las víctimas de acoso sexual.
+                            </p>
+                            <br>
+                            <p>Las denuncias revelan una historia de abuso sistemático y reiterado por parte de Brieger, que afecta a alumnas, vecinas y colegas. Los testimonios documentan casos desde 1995, y el informe pone de manifiesto cómo el poder y la influencia de Brieger se usaron para someter a las mujeres a situaciones de acoso en contextos profesionales y académicos. La conferencia de prensa, acompañada por representantes del Sindicato de Prensa de Buenos Aires, la presidenta de la Comisión de Mujeres y Diversidades Mónica Macha, y la ministra de Mujeres y Diversidades Estela Díaz, no solo expuso las conductas abusivas sino también la necesidad urgente de legislar sobre estas situaciones.
+                            </p>
+                            <br>
+                            <p><b>Una cultura de impunidad</b>
+                            </p>
+                            <br>
+                            <p>Nancy Pazos, quien presentó el informe, enfatizó que el objetivo no es el “escrache”, sino terminar con la “cultura del acoso”. El informe revela patrones de comportamiento que demuestran una sistematicidad y recurrencia alarmantes. Los testimonios detallan exhibicionismo sin consentimiento, masturbación y conversaciones sexualmente explícitas, así como la utilización del poder para forzar situaciones de acoso en espacios cerrados donde las víctimas se sentían atrapadas y sin posibilidad de pedir ayuda.
+                            </p>
+                            <br>
+                            <p>Agustina Kämpfer, otra de las voces en la conferencia, destacó la gravedad del abuso de autoridad que caracterizó los actos de Brieger. La mayoría de las víctimas eran significativamente más jóvenes y enfrentaron un entorno en el que sus carreras profesionales quedaron destruidas tras sufrir acoso. Esta dinámica subraya la asimetría de poder que facilitó el abuso y la desprotección de las víctimas.
+                            </p>
+                            <br>
+                            <p><b>Exigencias de justicia y reformas</b></p>
+                            <br>
+                            <p>Periodistas Argentinas ha demandado una serie de medidas para abordar la falta de legislación específica para el acoso en ámbitos laborales y académicos. El informe subraya que las leyes existentes no son suficientes para enfrentar las violencias que ocurren en contextos de poder, como los de un profesor o un jefe. Las propuestas incluyen la implementación de campañas de prevención y erradicación del acoso en medios de comunicación y universidades, así como la creación de procedimientos claros y capacitados para gestionar denuncias de manera confidencial y efectiva.</p>
+                            <br>
+                            <p>Además, se exige que Pedro Brieger pida disculpas públicas a las víctimas, como un primer paso hacia la reparación y la justicia. La necesidad de transformar el entorno institucional y garantizar un espacio seguro para las víctimas es imperativa para evitar que estas violencias continúen impunes y sin reconocimiento.</p>
+                            <br>
+                            <p><b>Un llamado a la acción</b></p>
+                            <br>
+                            <p>El informe de Periodistas Argentinas no solo denuncia un caso de acoso, sino que abre una puerta a la discusión sobre la necesidad de cambios legislativos y culturales en la forma en que se trata el acoso sexual en contextos de poder. Es una llamada urgente a la acción para enfrentar la cultura de la impunidad y garantizar que las víctimas reciban la justicia y el apoyo que merecen. La visibilidad de estos casos es un paso crucial hacia la construcción de un entorno donde el acoso no sea tolerado y las mujeres puedan trabajar y estudiar en un espacio de respeto y dignidad.
+                            </p>
+                            <br>
+                        </div>
+                    </div>
+            </article>
+        </li>
+    </ul>
+</section>
         {{--ADHESIÓN AL PROGRAMA MUNICIPIOS POR LA IGUALDAD.... --}}
 <section>
     <ul>

@@ -553,6 +553,455 @@
                 </div>
 
             </section>
+        @elseif ($tituloSep == 'Economia-Noticia-Completa-eco4')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">CON MILEI, LAS PYMES DESAPARECEN Y LAS GRANDES EMPRESAS TRIUNFAN</a>
+                                            <p class="font-light  text-right text-gray-500">Publicado: 11/07/2024</p>
+                                        </h2>
+                                        <p><i>En medio año de gobierno de Javier Milei, 10 mil pymes han cerrado y 100 mil empleos se han evaporado. Contrariamente, las grandes corporaciones, algunas con estrechos lazos con el Ejecutivo, están obteniendo beneficios sin precedentes.</i>
+                                        </p>
+                                        <br>
+                                        <figure>
+                                            <img class=" w-full object-cover" src="../img/eco/eco_pyme.svg"
+                                                alt="">
+                                        </figure>
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+                                                <p>Desde que Javier Milei asumió la presidencia, la brecha entre grandes y pequeñas empresas se ha ensanchado a pasos agigantados. Las pequeñas y medianas empresas (pymes) enfrentan una crisis devastadora, mientras las grandes corporaciones disfrutan de un auge económico sin precedentes.
+                                                </p>
+                                                <br>
+                                                <p>Este fenómeno no es un mero efecto colateral, sino una clara consecuencia de las políticas del gobierno libertario. Milei, que se define como un paladín del mercado y de las corporaciones, ha puesto en marcha un plan económico que claramente favorece a los grandes jugadores y deja en la cuerda floja a las pymes.</p>
+                                                <br>
+                                                <p>La situación es alarmante. En los primeros seis meses de gestión, más de 10 mil pymes han desaparecido, según la Asociación de Empresarios Nacionales para el Desarrollo Argentino (ENAC). Esto representa una pérdida de alrededor de 50 empresas por día, una cifra preocupante que refleja el impacto brutal del ajuste económico.
+                                                </p>
+                                                <br>
+                                                <p>El ajuste ha llevado a una contracción severa en el consumo, afectando especialmente a los sectores más vulnerables y, en consecuencia, el nivel de empleo ha caído dramáticamente. Los datos del Sistema Integrado Previsional (SIPA) indican que hasta marzo se han perdido 100 mil puestos de trabajo en el sector privado, con la construcción como el sector más golpeado.</p>
+                                                <br>
+                                                <p>A pesar de la crisis laboral, el Secretario de Trabajo, Julio Cordero, ha minimizado el impacto, describiendo la pérdida de empleos como algo “natural” y atribuyendo la lentitud en la recuperación a la demora en la aprobación de la Ley Bases. Según Cordero, esta ley, que introduce flexibilización laboral, creará las condiciones para nuevos puestos de trabajo.
+                                                </p>
+                                                <br>
+                                                <p>Mientras tanto, el panorama para las grandes empresas es diametralmente opuesto. Un informe del Centro de Investigación y Formación de la Central de Trabajadores de la Argentina (CIFRA-CTA) revela que 17 de las 23 empresas más grandes del país duplicaron su rentabilidad en el primer trimestre de 2024. Algunas de estas empresas, como Aeropuertos Argentina 2000, el laboratorio Richmond y Ternium (del grupo Techint), han registrado ganancias superiores al 40% sobre sus ventas.</p>
+                                                <br>
+                                                <p>El éxito de algunas de estas empresas está estrechamente ligado a sus vínculos con el gobierno. Paolo Rocca, presidente de Techint, designó personalmente a Horacio Marín para dirigir YPF, mientras que Nicolás Caputo, primo del ministro de Economía, lidera Mirgor. Además, la rentabilidad de otras empresas se debe a la liberalización de precios y a la desregulación impulsada por Milei, como en el caso del laboratorio Richmond y las compañías de servicios Metrogas y Edenor.
+                                                </p>
+                                                <br>
+                                                <p>“El ajuste brutal que ha puesto en marcha el gobierno de Milei no solo ha desencadenado una recesión sin precedentes, sino que ha creado una redistribución regresiva del ingreso que tendrá consecuencias aún desconocidas”, concluyen desde CIFRA.</p>
+                                                <br>
+                                                
+                                                {{-- <figure>
+                                                    {{-- <img class="w-28 h-28  "
+                                                        src="{{ asset('../img/noteros/ramiro.svg') }}" alt=""> --}}
+                                                   {{--  <p> <b><i>Nota de Adrián Rojze</i></b></p></a>
+                                                    <p><b><i>Economista y Politólogo</i></b></p>
+                                                </figure>  --}}
+                                                <br>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+                            </li>
+                        </ul>
+                        <br>
+
+                    </div>
+
+
+                    {{-- columna de la derecha chica --}}
+                    <aside>
+                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                            <div class=" col-span-6">
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/bener-leg2.png') }}" alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}" alt="">
+                                </a>
+
+                                <div id="app">
+
+                                    <div v-for="item in info">
+
+                                        <div class="flex-col pb-3">
+                                            <div
+                                                class="flex-col max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg"
+                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
+                                                        alt="" />
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5
+                                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                                            @{{ item.title }}</h5>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div v-for="va in clima">
+
+                                        <h5
+                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                            @{{ va }}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+
+                </div>
+
+            </section>
+        @elseif ($tituloSep == 'Economia-Noticia-Completa-eco5')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">LA BANCARIA DENUNCIA QUE EL CENTRAL ESTÁ SACANDO DEL PAÍS EL ORO DE LAS RESERVAS</a>
+                                            <p class="font-light  text-right text-gray-500">Publicado: 17/07/2024</p>
+                                        </h2>
+                                        <p><i>El gremio presentó un pedido de informes tras detectar dos operaciones sospechosas.</i>
+                                        </p>
+                                        <br>
+                                        <figure>
+                                            <img class=" w-full object-cover" src="../img/eco/eco_oro.svg"
+                                                alt="">
+                                        </figure>
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+                                                <p>El gremio La Bancaria, liderado por el diputado nacional Sergio Palazzo, ha alertado sobre la posibilidad de que el Banco Central de la República Argentina (BCRA) esté retirando lingotes de oro de las reservas del país sin una decisión oficial que lo respalde. Ante esta preocupación, La Bancaria ha presentado un pedido de informes para que la entidad dirigida por Santiago Bausili, mano derecha de Toto Caputo, brinde detalles sobre dos operaciones sospechosas detectadas por el sindicato.
+                                                </p>
+                                                <br>
+                                                <p>La solicitud del gremio exige al BCRA informar si existen operaciones de envío de lingotes de oro al exterior durante el mes de junio, en particular, si el 7 de junio de 2024 hubo una partida y el 28 de junio otra. Según La Bancaria, estas maniobras se habrían llevado a cabo a través de la transportadora Loomis y la aerolínea British Airways.</p>
+                                                <br>
+                                                <p>El gremio también pide especificar "qué cantidad, por qué monto y en qué moneda se realizaron estas operaciones, bajo qué características comerciales u otras, y cuál fue el destino". Se sospecha que entre las dos operaciones se habrían transferido unos 450 millones de dólares en oro.
+                                                </p>
+                                                <br>
+                                                <p>Fuentes del gobierno afirman que el Banco Central posee alrededor de 4.700 millones de dólares en oro, y que estos fondos podrían estar siendo utilizados como garantía para obtener préstamos del Banco de Basilea. “Cuando Caputo estaba con Macri, se llevaron lingotes del Central al Banco de Basilea para cambiarlos por dólares que luego se usaron para venderlos a quienes los fugaban. No queremos que vuelva a pasar”, señalaron fuentes del gremio.</p>
+                                                <br>
+                                                <p>El sindicato también exigió a Bausili que informe en qué reunión de Directorio se trató el tema, qué funcionarios intervinieron y si es parte de un plan del que el Ministerio de Economía está al tanto.
+                                                </p>
+                                                <br>
+                                                <p>En medio de la crisis cambiaria, han surgido fuertes rumores de que Caputo busca un préstamo del Banco de Basilea, que suele exigir respaldo en oro para conceder fondos frescos. En el banco suizo ya habría el equivalente a unos 500 millones de dólares, además de los 450 millones que se sospecha fueron trasladados recientemente.</p>
+                                                <br>
+                                                <p>Este asunto amenaza con convertirse en un problema serio para Bausili y podría terminar en la justicia. La Bancaria está a la espera de que se cumpla el plazo legal para que el BCRA responda el pedido de informes.
+                                                </p>
+                                                <br>
+                                                
+                                                
+                                                {{-- <figure>
+                                                    {{-- <img class="w-28 h-28  "
+                                                        src="{{ asset('../img/noteros/ramiro.svg') }}" alt=""> --}}
+                                                   {{--  <p> <b><i>Nota de Adrián Rojze</i></b></p></a>
+                                                    <p><b><i>Economista y Politólogo</i></b></p>
+                                                </figure>  --}}
+                                                <br>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+                            </li>
+                        </ul>
+                        <br>
+
+                    </div>
+
+
+                    {{-- columna de la derecha chica --}}
+                    <aside>
+                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                            <div class=" col-span-6">
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/bener-leg2.png') }}" alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}" alt="">
+                                </a>
+
+                                <div id="app">
+
+                                    <div v-for="item in info">
+
+                                        <div class="flex-col pb-3">
+                                            <div
+                                                class="flex-col max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg"
+                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
+                                                        alt="" />
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5
+                                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                                            @{{ item.title }}</h5>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div v-for="va in clima">
+
+                                        <h5
+                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                            @{{ va }}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+
+                </div>
+
+            </section>
+        @elseif ($tituloSep == 'Economia-Noticia-Completa-eco6')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">EL PLAN DE EMISIÓN CERO DE MILEI: UNA RUTA HACIA LA INESTABILIDAD</a>
+                                            <p class="font-light  text-right text-gray-500">Publicado: 22/07/2024</p>
+                                        </h2>
+                                        <p><i>Las nuevas medidas económicas de Javier Milei, con emisión cero y transferencia de deuda, prometen estabilidad, pero esconden un riesgo elevado para el bienestar de los argentinos.</i>
+                                        </p>
+                                        <br>
+                                        <figure>
+                                            <img class=" w-full object-cover" src="../img/eco/eco_ruta.svg"
+                                                alt="">
+                                        </figure>
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+                                                <p>El 28 de junio, el ministro de Economía, Luis Caputo, y el presidente del Banco Central (BCRA), Santiago Bausili, presentaron una nueva fase en la política económica de Javier Milei que se basa en una promesa de emisión cero por parte del BCRA. Esta medida incluye la transferencia de la deuda del Banco Central al Tesoro Nacional, con vencimientos para 2024/2025, y la introducción de las Letras Fiscal de Liquidez (Lefi), títulos de deuda del Tesoro Nacional, que reemplazarán a las Leliqs.
+                                                </p>
+                                                <br>
+                                                <p>La estrategia pretende reducir la inflación mediante la eliminación de la emisión monetaria, pero su implementación ha generado una serie de cuestionamientos. La idea de que el Tesoro asumirá la deuda del BCRA sin recurrir a la emisión de dinero parece más un ejercicio de contabilidad creativa que una solución real para los problemas económicos del país.</p>
+                                                <br>
+                                                <p>Caputo y Milei insisten en que estas medidas traerán estabilidad económica, pero la realidad es que el impacto en la vida cotidiana de los argentinos es alarmante. La transferencia de deuda y la emisión cero podrían intensificar la crisis económica al limitar las herramientas disponibles para enfrentar los desafíos financieros. Mientras el gobierno promete un futuro sin inflación, los ciudadanos ya enfrentan un presente donde el peso se devalúa a pasos agigantados y los precios de bienes y servicios continúan en aumento.
+                                                </p>
+                                                <br>
+                                                <p>El cambio de deuda del BCRA por letras del Tesoro podría parecer una jugada estratégica, pero en la práctica podría significar una mayor carga para el Tesoro, que tendría que afrontar pagos sin nuevos ingresos monetarios. Las propuestas de Caputo, incluyendo la sugerencia de que los ciudadanos vendan dólares para pagar impuestos, resultan desconectadas de la realidad de un pueblo que sufre la falta de recursos y la creciente inseguridad económica.</p>
+                                                <br>
+                                                <p>Milei ha declarado que su objetivo es erradicar la inflación y reducir el "crawling peg" del 2% mensual, pero la eficacia de estas medidas es dudosa. La distancia entre las promesas oficiales y la realidad que viven los argentinos refleja una política económica que no solo falla en abordar los problemas fundamentales, sino que también amenaza con profundizar la crisis social y económica.
+                                                </p>
+                                                <br>
+                                                
+                                                
+                                                
+                                                {{-- <figure>
+                                                    {{-- <img class="w-28 h-28  "
+                                                        src="{{ asset('../img/noteros/ramiro.svg') }}" alt=""> --}}
+                                                   {{--  <p> <b><i>Nota de Adrián Rojze</i></b></p></a>
+                                                    <p><b><i>Economista y Politólogo</i></b></p>
+                                                </figure>  --}}
+                                                <br>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+                            </li>
+                        </ul>
+                        <br>
+
+                    </div>
+
+
+                    {{-- columna de la derecha chica --}}
+                    <aside>
+                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                            <div class=" col-span-6">
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/bener-leg2.png') }}" alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}" alt="">
+                                </a>
+
+                                <div id="app">
+
+                                    <div v-for="item in info">
+
+                                        <div class="flex-col pb-3">
+                                            <div
+                                                class="flex-col max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg"
+                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
+                                                        alt="" />
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5
+                                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                                            @{{ item.title }}</h5>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div v-for="va in clima">
+
+                                        <h5
+                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                            @{{ va }}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+
+                </div>
+
+            </section>
+        @elseif ($tituloSep == 'Economia-Noticia-Completa-eco7')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">ORO Y SOBERANÍA A CAMBIO DE FINANCIAMIENTO EXTRANJERO</a>
+                                            <p class="font-light  text-right text-gray-500">Publicado: 07/08/2024</p>
+                                        </h2>
+                                        <p><i>El ministro de Economía recurre a lingotes de oro como garantía para obtener fondos y activar el Régimen de Incentivo a las Grandes Inversiones</i>
+                                        </p>
+                                        <br>
+                                        <figure>
+                                            <img class=" w-full object-cover" src="../img/eco/eco_orosobe.svg"
+                                                alt="">
+                                        </figure>
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+                                                <p>En un intento desesperado por aumentar las reservas del Banco Central (BCRA) y sostener el programa económico del gobierno de Javier Milei, el ministro de Economía, Luis Caputo, ha recurrido a medidas altamente cuestionables. En lugar de fortalecer las reservas con recursos nacionales, Caputo ha optado por enviar lingotes de oro a Inglaterra como garantía para obtener financiamiento.
+                                                </p>
+                                                <br>
+                                                <p>Desde la aprobación de la Ley Bases y la desaceleración de la inflación, el gobierno ha enfrentado dos obstáculos significativos: la recesión económica y la escasez de dólares en el BCRA. A medida que la situación económica se deteriora, el ministro Caputo busca soluciones drásticas, entre ellas la negociación con el Fondo Monetario Internacional (FMI) y el envío de oro al exterior.</p>
+                                                <br>
+                                                <p>El oro enviado a Inglaterra se utilizará como garantía para un préstamo de recompra, una maniobra financiera compleja que ha generado preocupación. La falta de transparencia en la operación y el hecho de que el oro de las reservas nacionales se destine a un país con el cual Argentina mantiene un reclamo de soberanía sobre las Malvinas, refuerza las críticas sobre la estrategia del gobierno.
+                                                </p>
+                                                <br>
+                                                <p>Además, el Régimen de Incentivo a las Grandes Inversiones (RIGI), impulsado por el gobierno, busca atraer inversiones extranjeras para explotar recursos estratégicos en el país. El RIGI ha sido presentado como una solución para atraer grandes inversiones, como el proyecto de Gas Natural Licuado (GNL) y la explotación de cobre en San Juan a cargo de la minera australiana BHP.</p>
+                                                <br>
+                                                <p>Sin embargo, este enfoque conlleva riesgos significativos. La estrategia del gobierno implica ofrecer generosos beneficios impositivos y cambiarios a empresas extranjeras, a cambio de una explotación intensiva de los recursos naturales sin generar valor agregado en el país. La promesa de aumentar las reservas y atraer inversiones llega a costa de entregar parte de la soberanía económica y de renunciar a un rol activo del Estado en la planificación estratégica de los recursos nacionales.
+                                                </p>
+                                                <br>
+                                                <p>En un contexto donde la recaudación fiscal ha caído y los pagos al FMI se han pospuesto, el envío de oro al exterior y la apertura a grandes inversiones extranjeras reflejan una estrategia de corto plazo que podría comprometer gravemente los intereses nacionales a largo plazo. La falta de información clara sobre estas maniobras financieras y la entrega de recursos estratégicos a entidades extranjeras plantean serias interrogantes sobre el futuro económico del país y la protección de su soberanía.</p>
+                                                <br>
+                                                <p>En definitiva, la política económica del gobierno actual, caracterizada por medidas extremas como el envío de oro al exterior y la promoción de inversiones extranjeras sin un adecuado retorno para el país, pone en riesgo no solo la estabilidad económica, sino también los principios de autonomía y control sobre los recursos nacionales.</p>
+                                                <br>
+                                                
+                                                
+                                                
+                                                {{-- <figure>
+                                                    {{-- <img class="w-28 h-28  "
+                                                        src="{{ asset('../img/noteros/ramiro.svg') }}" alt=""> --}}
+                                                   {{--  <p> <b><i>Nota de Adrián Rojze</i></b></p></a>
+                                                    <p><b><i>Economista y Politólogo</i></b></p>
+                                                </figure>  --}}
+                                                <br>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+                            </li>
+                        </ul>
+                        <br>
+
+                    </div>
+
+
+                    {{-- columna de la derecha chica --}}
+                    <aside>
+                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                            <div class=" col-span-6">
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/bener-leg2.png') }}" alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}" alt="">
+                                </a>
+
+                                <div id="app">
+
+                                    <div v-for="item in info">
+
+                                        <div class="flex-col pb-3">
+                                            <div
+                                                class="flex-col max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg"
+                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
+                                                        alt="" />
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5
+                                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                                            @{{ item.title }}</h5>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div v-for="va in clima">
+
+                                        <h5
+                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                            @{{ va }}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+
+                </div>
+
+            </section>
         @endif
     </div>
     {{-- aca arrancamos vue --}}

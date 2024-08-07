@@ -4234,6 +4234,458 @@
                 </div>
 
             </section>
+        @elseif ($tituloSep == 'Gremiales-Noticia-Completa-gre35')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">LA CGT CONTRAATACA: BATALLA LEGAL POR LOS SALARIOS
+                                            </a>
+                                        </h2>
+                                        <p class="font-light  text-right text-gray-500">Publicado: 04/07/2024</p>
+                                        <div class=" font-sans text-lg text-left col-span-6  ">
+                                        <p><i>La central obrera se prepara para una nueva ofensiva judicial, esta vez contra la reinstalación del impuesto a las ganancias sobre los sueldos, que afecta a varios sectores laborales.</i>
+                                        </p>
+                                        <br>
+                                        {{-- <article>
+                                            <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/mDyomkBc1DE?si=bnT2gxK0tSpFUqx1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                            
+                                        </article> --}}
+                                        <figure>
+                                            <img class=" w-full object-cover" src="../img/grem/grem_impuesto.svg"
+                                                alt="">
+                                        </figure>
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+                                                <p>En un nuevo capítulo de resistencia sindical, la Confederación General del Trabajo (CGT) ha decidido redoblar esfuerzos para frenar la reinstalación del impuesto a las ganancias sobre los salarios. Luego de haber presentado un amparo exitoso contra el capítulo laboral del Decreto de Necesidad y Urgencia (DNU) 70/2023, los líderes sindicales ahora apuntan sus cañones contra el retroceso impositivo impulsado por el gobierno de Javier Milei.
+                                                </p>
+                                                <br>
+                                                <p>La CGT, encabezada por Mario Manrique, Pablo Moyano, Héctor Daer, Carlos Acuña y Andrés Rodríguez, ha vuelto a encontrar consenso tras algunas tensiones internas. La falta de un plan unificado para resistir la sanción de la Ley de Bases y el Paquete Fiscal había generado divisiones, pero la necesidad de enfrentar el impuesto a las ganancias ha reunificado a la dirigencia sindical.
+                                                </p>
+                                                <br>
+                                                <p>No todos los gremios serán afectados por este impuesto, pero los petroleros, aceiteros y pilotos de aerolíneas están entre los primeros perjudicados. Estos sectores ya han comenzado a trabajar con sus abogados para preparar presentaciones judiciales que frenen lo que consideran un golpe directo a los trabajadores. La CGT planea una acción institucional similar a la que presentó contra el DNU 70/2023, que aún sigue vigente por la falta de tratamiento en la Cámara de Diputados.
+                                                </p>
+                                                <br>
+                                                <p>Días atrás, la central obrera emitió un contundente comunicado en rechazo al regreso del impuesto al trabajo. “Este impuesto representa un duro golpe a los ya deprimidos ingresos de los trabajadores”, señalaron, advirtiendo que la medida agravará la pérdida del poder adquisitivo, potenciando los índices de pobreza en un contexto de recesión y desempleo crecientes. La CGT también denunció que, mientras se fomentan prácticas como la evasión y el fraude laboral, se desfinancian los sistemas de seguridad social y se generan nuevos contribuyentes entre los trabajadores.</p>
+                                                <br>
+                                                <p>"Se condonan multas, se fomenta la evasión, el fraude en materia laboral, se desfinancian los sistemas de seguridad social, pero se generan nuevos contribuyentes: los trabajadores, imposibilitados de las prerrogativas de evasión o blanqueos de las que se benefician los grandes contribuyentes", reza el comunicado. Además, la CGT advirtió que utilizará todas las herramientas a su alcance para proteger los ingresos de quienes realmente producen riqueza en Argentina.</p>
+                                                <br>
+                                                <p>La unidad en la CGT se manifiesta también en la lucha contra el artículo de la Ley de Bases que considera el bloqueo de una empresa motivo suficiente para el despido con causa. El gremio de camioneros, en particular, se prepara para enfrentar esta disposición, argumentando que puede ser utilizada contra cualquier actividad sindical legítima.</p>
+                                                <br>
+                                                <p>La CGT también debe definir su posición respecto al intento del gobierno de involucrarlos en la reglamentación de la reforma laboral que incluye la Ley de Bases. Existe un consenso general en no participar en este proceso, ya que quedar "pegado" a la redacción de la reglamentación no beneficia a ninguno de los integrantes del consejo directivo.
+                                                </p>
+                                                <br>
+                                                <p>Otro punto crucial a definir es la participación en el Pacto de Mayo, convocado por la Casa Rosada para el 9 de julio en Tucumán. Milei busca una foto rodeado de gobernadores, expresidentes, legisladores, jueces y dirigentes sindicales. Sin embargo, estos últimos deben decidir si se sumarán a un pacto en el que no tuvieron participación en la redacción.
+                                                </p>
+                                                <br>
+                                                
+                                            </div>
+                                        </div>
+                                </article>
+                            </li>
+                        </ul>
+                    </div>
+
+
+                    {{-- columna de la derecha chica --}}
+                    <aside>
+                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                            <div class=" col-span-6">
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/bener-leg2.png') }}"
+                                        alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/APSE.gif') }}" alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
+                                        alt="">
+                                </a>
+
+
+
+                                <div id="app">
+
+                                    <div v-for="item in info">
+
+                                        <div class="flex-col pb-3">
+                                            <div
+                                                class="flex-col max-w-sm  border  border-gray-700 rounded-lg shadow bg-gray-800">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg"
+                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
+                                                        alt="" />
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5 class="mb-2 text-2xl font-bold tracking-tight  text-white">
+                                                            @{{ item.title }}</h5>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div v-for="va in clima">
+
+                                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-white">
+                                            @{{ va }}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+
+                </div>
+
+            </section>
+        @elseif ($tituloSep == 'Gremiales-Noticia-Completa-gre36')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">Plenario Nacional de la CTA-T con Axel Kicillof
+                                            </a>
+                                        </h2>
+                                        <p class="font-light  text-right text-gray-500">Publicado: 14/07/2024</p>
+                                        <div class=" font-sans text-lg text-left col-span-6  ">
+                                        <p><i>Construir una salida política para confrontar con el modelo de la miseria planificada.</i>
+                                        </p>
+                                        <br>
+                                        {{-- <article>
+                                            <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/mDyomkBc1DE?si=bnT2gxK0tSpFUqx1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                            
+                                        </article> --}}
+                                        <figure>
+                                            <img class=" w-full object-cover" src="../img/grem/grem_plenario.svg"
+                                                alt="">
+                                        </figure>
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+                                                <p>En la ciudad de La Plata se realizó el Plenario Nacional de la Central de Trabajadores y Trabajadoras de la Argentina, con la presencia del gobernador de la provincia de Buenos Aires, Axel Kicillof; del Ministro de Trabajo de PBA, Walter Correa; del ex Ministro de Trabajo, Carlos Tomada, así como de secretarixs generales y delegadxs de las distintas regionales de la CTA-T de todo el país. 
+                                                </p>
+                                                <br>
+                                                <p>El secretario general de la CTA-T y diputado nacional, Hugo Yasky, apeló a la unidad del movimiento obrero y de las centrales sindicales para enfrentar las políticas del gobierno de Javier Milei "para que las víctimas de la motosierra de recortar salarios y echar trabajadores sepan que no están en soledad".
+                                                </p>
+                                                <br>
+                                                <p>"Este gobierno posee la fortaleza que le da tener detrás de sí la concurrencia de los grupos corporativos más poderosos de la República Argentina, del poder económico y financiero del país", describió Yasky y agregó: "El éxito o el fracaso de lo que pretenden hacer depende de que puedan cumplir su cometido que es destruir al movimiento sindical. De nosotros depende, en gran medida, que no lo puedan hacer".
+                                                </p>
+                                                <br>
+                                                <p>Para concluir, señaló: "El camino es organizar una resistencia que nos permita construir la salida política, que sea capaz de confrontar con el modelo de miseria y represión sistematizada y que implique la distribución de la riqueza y la defensa de los Derechos Humanos".</p>
+                                                <br>
+                                                <p>En el cierre del encuentro, el Gobernador de la Provincia de Buenos Aires compartió sus reflexiones con el auditorio y afirmó que el gobierno de Milei “es una formidable estafa electoral”. Y explicó que en campaña el actual presidente “decía que no se puede cambiar si están siempre los mismos, pero convocó a Caputo, Sturzenegger y Bullrich, un trío de fracasadores seriales que estuvo en todos los gobiernos neoliberales”.</p>
+                                                <br>
+                                                <p>Kicillof celebró que venía de cerrar paritarias con los trabajadores del estado provincial. Lo que demuestra que “a pesar del recorte de fondos a la provincia por 6,3 millones de millones de pesos que de forma anticonstitucional le fueron arrebatados por la autoridades nacionales, estamos cumpliendo con un mandato para darle más dignidad a lxs laburantes".</p>
+                                                <br>
+                                                <p>Por último, Axel señaló que Milei, “aunque tenga esas ideas estrafalarias y sea el único anarcocapitalista realmente existente sobre la tierra, no puede desoír o incumplir los deberes que le impone la Constitución Nacional que son derechos consagrados y no son optativos”. Por eso afirmó que “si a Milei le va bien con su modelo de sociedad dual extractivista a la Argentina le va a ir muy mal”.
+                                                </p>
+                                                <br>
+                                                
+                                                
+                                            </div>
+                                        </div>
+                                </article>
+                            </li>
+                        </ul>
+                    </div>
+
+
+                    {{-- columna de la derecha chica --}}
+                    <aside>
+                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                            <div class=" col-span-6">
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/bener-leg2.png') }}"
+                                        alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/APSE.gif') }}" alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
+                                        alt="">
+                                </a>
+
+
+
+                                <div id="app">
+
+                                    <div v-for="item in info">
+
+                                        <div class="flex-col pb-3">
+                                            <div
+                                                class="flex-col max-w-sm  border  border-gray-700 rounded-lg shadow bg-gray-800">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg"
+                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
+                                                        alt="" />
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5 class="mb-2 text-2xl font-bold tracking-tight  text-white">
+                                                            @{{ item.title }}</h5>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div v-for="va in clima">
+
+                                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-white">
+                                            @{{ va }}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+
+                </div>
+
+            </section>
+        @elseif ($tituloSep == 'Gremiales-Noticia-Completa-gre37')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">MOYANO DENUNCIA ATAQUE A CAMIONEROS POR PARTE DE CABA
+                                            </a>
+                                        </h2>
+                                        <p class="font-light  text-right text-gray-500">Publicado: 23/07/2024</p>
+                                        <div class=" font-sans text-lg text-left col-span-6  ">
+                                        <p><i>Pablo Moyano critica duramente la decisión de Jorge Macri sobre los choferes de grúas y denuncia la falta de soluciones del gobierno de Javier Milei</i>
+                                        </p>
+                                        <br>
+                                        {{-- <article>
+                                            <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/mDyomkBc1DE?si=bnT2gxK0tSpFUqx1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                            
+                                        </article> --}}
+                                        <figure>
+                                            <img class=" w-full object-cover" src="../img/grem/grem_camion.svg"
+                                                alt="">
+                                        </figure>
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+                                                <p>El conflicto entre el sindicato de Camioneros y la administración de Jorge Macri ha escalado tras la decisión del jefe de gobierno porteño de estatizar a 300 choferes de grúas encuadrados en el gremio. Esta medida, anunciada recientemente, ha llevado a una notable disminución en la recolección de basura en la Ciudad de Buenos Aires, generando una acumulación de residuos en las calles. 
+                                                </p>
+                                                <br>
+                                                <p>Pablo Moyano, secretario adjunto del sindicato, ha expresado su firme rechazo a la estatización y al intento de cambiar el convenio laboral de los trabajadores. En declaraciones radiales, Moyano denunció las “irregularidades” en las empresas de recolección de basura y cuestionó la lógica de que “un barrendero pague Ganancias”, resaltando las graves inconsistencias en las políticas de recolección y el impacto negativo sobre los trabajadores.
+                                                </p>
+                                                <br>
+                                                <p>En respuesta a la medida de Macri, que incluye la cancelación del proceso licitatorio para el servicio de grúas y acarreo, el sindicato ha decidido reducir la recolección de basura como forma de protesta. Moyano aclaró que no se trata de un paro total, sino de una manifestación bajo el convenio actual, con una reducción en el tiempo de trabajo para expresar el descontento.
+                                                </p>
+                                                <br>
+                                                <p>El jefe de gobierno porteño, Jorge Macri, justificó su decisión argumentando la necesidad de “cuidar cada peso de los contribuyentes” y prometió una revisión exhaustiva del servicio de grúas. Según Macri, el servicio continuará a cargo de la Ciudad a un costo significativamente menor, aunque esto ha sido visto por el sindicato como un mero intento de ganar tiempo sin resolver el fondo del problema.</p>
+                                                <br>
+                                                <p>En otro frente, Pablo Moyano criticó duramente al gobierno nacional de Javier Milei. En referencia a la reciente audiencia del Consejo del Salario, el sindicalista expresó su escepticismo, afirmando que el gobierno no ofrece soluciones reales y que las negociaciones resultan en medidas que afectan directamente a los trabajadores, como la reimplementación del impuesto a las Ganancias. Moyano aseguró que muchos trabajadores siguieron operando durante la pandemia, mientras que hoy se enfrentan a cargas impositivas injustas.</p>
+                                                <br>
+                                                <p>Moyano también abordó la disputa interna en la CGT sobre cómo enfrentar al gobierno de Milei. Mientras algunos sectores buscan una oposición dura, otros prefieren explorar vías de diálogo. El sindicalista adelantó que los gremios del transporte, bajo su liderazgo, están considerando judicializar la nueva normativa del impuesto a las Ganancias.</p>
+                                                <br>
+                                                <p>Finalmente, el secretario adjunto del sindicato de Camioneros señaló que no se han fijado fechas para futuras movilizaciones o paros, dejando claro que la central obrera está en proceso de debate interno sobre la mejor estrategia de lucha frente a un gobierno que considera ineficaz y perjudicial para los trabajadores.
+                                                </p>
+                                                <br>
+                                                
+                                                
+                                            </div>
+                                        </div>
+                                </article>
+                            </li>
+                        </ul>
+                    </div>
+
+
+                    {{-- columna de la derecha chica --}}
+                    <aside>
+                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                            <div class=" col-span-6">
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/bener-leg2.png') }}"
+                                        alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/APSE.gif') }}" alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
+                                        alt="">
+                                </a>
+
+
+
+                                <div id="app">
+
+                                    <div v-for="item in info">
+
+                                        <div class="flex-col pb-3">
+                                            <div
+                                                class="flex-col max-w-sm  border  border-gray-700 rounded-lg shadow bg-gray-800">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg"
+                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
+                                                        alt="" />
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5 class="mb-2 text-2xl font-bold tracking-tight  text-white">
+                                                            @{{ item.title }}</h5>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div v-for="va in clima">
+
+                                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-white">
+                                            @{{ va }}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+
+                </div>
+
+            </section>
+        @elseif ($tituloSep == 'Gremiales-Noticia-Completa-gre38')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">CGT REACTIVA PROTESTAS ANTE EL GOBIERNO DE MILEI
+                                            </a>
+                                        </h2>
+                                        <p class="font-light  text-right text-gray-500">Publicado: 04/08/2024</p>
+                                        <div class=" font-sans text-lg text-left col-span-6  ">
+                                        <p><i>La central obrera se prepara para una nueva marcha el 7 de agosto, en respuesta al ajuste y la reforma laboral del gobierno. La estrategia incluye movilizaciones con las CTA y movimientos sociales.</i>
+                                        </p>
+                                        <br>
+                                        {{-- <article>
+                                            <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/mDyomkBc1DE?si=bnT2gxK0tSpFUqx1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                            
+                                        </article> --}}
+                                        <figure>
+                                            <img class=" w-full object-cover" src="../img/grem/grem_central.svg"
+                                                alt="">
+                                        </figure>
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+                                                <p>La CGT ha decidido abandonar la inercia observada desde el paro general del 9 de mayo y se prepara para un nuevo ciclo de movilizaciones. La primera manifestación será una marcha programada para el 7 de agosto, en el día de San Cayetano, con la participación de las dos CTA y movimientos sociales. La táctica elegida para enfrentar al gobierno de Javier Milei es la de "golpear y salir", estrategia que será definida con mayor precisión en un próximo plenario de regionales. 
+                                                </p>
+                                                <br>
+                                                <p>La crisis comenzó días después de la asunción de Luis Caputo como ministro de Economía, cuando anunció una devaluación del 118%. Este ajuste provocó un impacto inmediato en los trabajadores, llevando a la CGT a tomar medidas rápidas. Inicialmente, la central sindical emprendió acciones legales contra el DNU 70/2023 y convocó un paro general el 24 de enero. Aunque la CGT participó en movilizaciones hasta el 9 de mayo, experimentó un periodo de calma que no reflejaba la creciente tensión social. Los sectores más dialoguistas de la CGT, conocidos como los "gordos" y "independientes", intentaron negociar con el secretario de Trabajo, Julio Cordero, sin éxito, y la ley Bases, que afectó la legislación laboral, fue sancionada sin la intervención del peronismo en el Congreso.
+                                                </p>
+                                                <br>
+                                                <p>En la reciente reunión del consejo directivo de la CGT, se acordó retomar la iniciativa y asegurar el éxito en las convocatorias futuras. La marcha del 7 de agosto se plantea como una oportunidad para movilizar a los trabajadores bajo la consigna de "paz, pan y trabajo". Pablo Moyano destacó que la protesta será pacífica pero multitudinaria, abordando temas como la recesión, despidos, reforma laboral, ganancias y apoyo a comedores y merenderos.
+                                                </p>
+                                                <br>
+                                                <p>El fracaso en las negociaciones con el gobierno ha llevado al sector dialoguista a adoptar una táctica más activa. Andrés Rodríguez, titular de UPCN, propuso la estrategia de "golpear y salir", que fue aceptada por el consejo directivo. Esta estrategia debe ser ratificada en un plenario de regionales previsto para la segunda quincena de agosto. La CGT planea coordinar estas acciones con las dos CTA y organizaciones sociales que representan a trabajadores no registrados. A pesar de estos esfuerzos, persiste una queja entre los dirigentes gremiales por la falta de liderazgo político del peronismo, resumida en el desalentador "estamos solos".</p>
+                                                <br>
+                                                
+                                                
+                                                
+                                            </div>
+                                        </div>
+                                </article>
+                            </li>
+                        </ul>
+                    </div>
+
+
+                    {{-- columna de la derecha chica --}}
+                    <aside>
+                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                            <div class=" col-span-6">
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/bener-leg2.png') }}"
+                                        alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/APSE.gif') }}" alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
+                                        alt="">
+                                </a>
+
+
+
+                                <div id="app">
+
+                                    <div v-for="item in info">
+
+                                        <div class="flex-col pb-3">
+                                            <div
+                                                class="flex-col max-w-sm  border  border-gray-700 rounded-lg shadow bg-gray-800">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg"
+                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
+                                                        alt="" />
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5 class="mb-2 text-2xl font-bold tracking-tight  text-white">
+                                                            @{{ item.title }}</h5>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div v-for="va in clima">
+
+                                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-white">
+                                            @{{ va }}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+
+                </div>
+
+            </section>
         @endif
     </div>
     {{-- aca arrancamos vue --}}

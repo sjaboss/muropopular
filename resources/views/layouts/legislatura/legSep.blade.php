@@ -5457,6 +5457,338 @@
                 </div>
 
             </section>
+        @elseif ($tituloSep == 'Legislatura-Noticia-Completa-leg44')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">ERNESTO CHERQUIS BIALO FUE DECLARADO COMO PERSONALIDAD DESTACADA DE LA CIUDAD</a>
+                                        </h2>
+                                        <p class="font-light  text-right text-gray-500">Publicado: 03/07/2024</p>
+                                        <p><i>El reconocido periodista deportivo fue distinguido por su extensa trayectoria profesional, por medio de un proyecto presentado por el diputado, Alejandro Grillo.</i></p>
+                                        <br>
+                                        <figure>
+                                            <a href="">
+                                                <img class="w-full object-cover object-center"
+                                                    src="{{ asset('../img/leg/leg_cherquis1.svg') }}" alt="">
+                                            </a>
+                                        </figure>
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                                <p>El Cuerpo Legislativo de la Ciudad declaró a Ernesto Cherquis Bialo como Personalidad Destacada en el ámbito del periodismo deportivo. El acto se realizó en el Salón Dorado y contó con la presencia del diputado y autor del proyecto, Alejandro Grillo; los periodistas deportivos Julio Ricardo, Diego Horacio Fucks y Luana Viera; y el homenajeado. Además el cantor, Leonardo Pastore, realizó un número musical.</p>
+                                                <br>
+                                                <p>“Es una tarde de emociones en nuestra casa”, declaró Grillo, en la apertura de las alocuciones. Luego señaló que la iniciativa contó con el voto unánime del arco político. Y destacó: “Encontramos en Cherquis un paradigma principalmente del periodismo y de la cultura, un tipo con rigurosidad, objetividad, con una pluma privilegiada que pocos tienen”.</p>
+                                                <br>
+                                                <p>Finalmente, el homenajeado comentó: “Soy un contador de historias y las veces que me designaron para hablar con motivo de algún reconocimiento, el sujeto era el otro porque nuestra vida es el otro”.
+                                                </p>
+                                                <br>
+                                                <p>Ernesto Cherquis Bialo nació el 30 de septiembre de 1940 en la ciudad de Montevideo, Uruguay. Su carrera profesional como periodista deportivo se desarrolló íntegramente en nuestro país desde hace 62 años de manera ininterrumpida, sus primeros pasos en la profesión fueron como pasante en la revista El Gráfico desde el 28 de marzo de 1963, retirándose como director editorial el 31 de diciembre de 1990.</p>
+                                                <br>
+                                                <p>Durante esos años también trabajó en radio Mitre y en radio Rivadavia. Por esta dicotomía, en El Gráfico tuvo que apelar al seudónimo de Robinson con el que firmó más de 1.200 notas durante una trayectoria de 28 años, llegando a cubrir 144 peleas de boxeo por campeonato del mundo. La profesión le permitió visitar infinidad de ciudades cubriendo Juegos Olímpicos, campeonatos mundiales de fútbol, grandes entrevistas a deportistas de época, tales como Muhammad Alí, Bobby Fischer, Pele, Alfredo Di Stéfano, y decenas de deportistas de élite.</p>
+                                                <br>
+                                                <p>Además, tuvo el privilegio de ser el biógrafo de Ringo Bonavena, Carlos Monzón y Diego Armando Maradona. Fue profesor de la Universidad Católica Argentina en el curso de extensión de la carrera de periodismo durante 15 años como profesor titular de la materia “Fuentes de información y otras nuevas tecnologías”. En la actualidad trabaja como columnista en Infobae, en C5N y en Radio 10.</p>
+                                                <br>
+                                                
+                                                
+                                                
+                                                
+                                            </div>
+
+
+
+                                        </div>
+                                    </div>
+                                </article>
+                            </li>
+                        </ul>
+                        <br>
+
+                    </div>
+
+
+                    {{-- columna de la derecha chica --}}
+                    <aside>
+                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                            <div class=" col-span-6">
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/bener-leg2.png') }}"
+                                        alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
+                                        alt="">
+                                </a>
+
+                                <div id="app">
+
+                                    <div v-for="item in info">
+
+                                        <div class="flex-col pb-3">
+                                            <div
+                                                class="flex-col max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg"
+                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
+                                                        alt="" />
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5
+                                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                                            @{{ item.title }}</h5>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div v-for="va in clima">
+
+                                        <h5
+                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                            @{{ va }}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+
+                </div>
+
+            </section>
+        @elseif ($tituloSep == 'Legislatura-Noticia-Completa-leg45')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">LA LEGISLATURA APROBÓ MODIFICACIONES A LA LEY 6505 Y DIO PREFERENCIA A LOS PROYECTOS DE LUDOPATÍA</a>
+                                        </h2>
+                                        <p class="font-light  text-right text-gray-500">Publicado: 12/07/2024</p>
+                                        <p><i>Autorizó al Ejecutivo realizar operaciones de administración de deudas y aprobó darle preferencia a los 19 proyectos que abordan la problemática de la Ludopatía, entre otros temas.</i></p>
+                                        <br>
+                                        <figure>
+                                            <a href="">
+                                                <img class="w-full object-cover object-center"
+                                                    src="{{ asset('../img/leg/leg_6505.svg') }}" alt="">
+                                            </a>
+                                        </figure>
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                                <p>La Legislatura porteña realizó durante el día se hoy una sesión ordinaria presidida por la Vicejefa de Gobierno de la Ciudad, Clara Muzzio, en la cual se aprobó cambiar el texto del artículo 1° de la Ley Nº 6.504. Esta iniciativa autoriza al Poder Ejecutivo, a través del Ministerio de Hacienda y Finanzas, a realizar operaciones de administración de deudas y reabrir series de títulos en circulación, dentro de ciertos límites financieros establecidos, hasta la suma de mil cien millones de dólares estadounidenses (USD 1.100.000.000) o su equivalente en pesos, otras monedas o unidades de valor. Con 37 votos afirmativos y 20 votos negativos, se aprobó esta iniciativa que amplía el monto de los programas de asistencia financiera y financiamiento en el mercado local en la misma proporción que el monto a ser emitido en cada caso.</p>
+                                                <br>
+                                                <p>También se aprobaron distintas declaraciones relacionadas a aniversarios y conmemoraciones, nomenclaturas de instituciones y se declaró personalidad destacada en el ámbito de la Educación al Sr. Esteban José Bullrich y en el ámbito de la Cultura al Sr. Julián Kartun. También se acordó rendir homenaje a Natalio Zirulnik, dibujante de Hijitus y creador de Dibu, el personaje del que nació el apodo del arquero de la selección, a través de la colocación de una placa.</p>
+                                                <br>
+                                                <p>Por iniciativa de varios bloques, se aprobó la declaración para solidarizarse con las víctimas que denunciaron al periodista Pedro Brieger por situaciones de acoso sexual y otra declaración que exige al Poder Ejecutivo Nacional el cumplimiento de lo establecido por la Corte Suprema de Justicia de la Nación en el fallo N° 1865/2020 “Gobierno de la Ciudad de Buenos Aires c/ Estado Nacional s/ Acción Declarativa de Inconstitucionalidad - Cobro de Pesos”.
+                                                </p>
+                                                <br>
+                                                <p>Además, durante la sesión se acordó darle preferencia para las próximas sesiones a los 19 proyectos de Ludopatía que presentaron los distintos espacios y se unificaron los giros de los proyectos referidos a esta temática entre diez comisiones para abordar las diferentes temáticas que toca: -Desarrollo Económico, Mercosur y Políticas de Empleo, Salud, Niñez, Infancia, Adolescencia y Juventud, Justicia y Presupuesto, Hacienda, Administración Financiera y Política Tributaria.
+                                                </p>
+                                                <br>
+                                                
+                                                
+                                                
+                                                
+                                            </div>
+
+
+
+                                        </div>
+                                    </div>
+                                </article>
+                            </li>
+                        </ul>
+                        <br>
+
+                    </div>
+
+
+                    {{-- columna de la derecha chica --}}
+                    <aside>
+                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                            <div class=" col-span-6">
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/bener-leg2.png') }}"
+                                        alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
+                                        alt="">
+                                </a>
+
+                                <div id="app">
+
+                                    <div v-for="item in info">
+
+                                        <div class="flex-col pb-3">
+                                            <div
+                                                class="flex-col max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg"
+                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
+                                                        alt="" />
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5
+                                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                                            @{{ item.title }}</h5>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div v-for="va in clima">
+
+                                        <h5
+                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                            @{{ va }}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+
+                </div>
+
+            </section>
+        @elseif ($tituloSep == 'Legislatura-Noticia-Completa-leg46')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">LIBRO "POETAS ARGENTINOS, AMIGOS DE MARRUECOS" DECLARADO DE INTERÉS CULTURAL</a>
+                                        </h2>
+                                        <p class="font-light  text-right text-gray-500">Publicado: 15/07/2024</p>
+                                        <p><i>Ante una concurrida presencia de embajadores, la Legislatura porteña destacó esta publicación que presenta 50 obras literarias basadas en pinturas de artistas marroquíes.</i></p>
+                                        <br>
+                                        <figure>
+                                            <a href="">
+                                                <img class="w-full object-cover object-center"
+                                                    src="{{ asset('../img/leg/leg_poetas.svg') }}" alt="">
+                                            </a>
+                                        </figure>
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                                <p>En el Salón San Martín de la Legislatura porteña, por iniciativa de la Diputada María Cecilia Ferrero, se realizó la entrega del diploma que declara de interés para la comunicación social el libro "Poetas Argentinos, amigos de Marruecos, Antología III. Diálogos entre Marruecos y Argentina". Esta iniciativa, promovida por la embajada de Marruecos en Argentina desde 2019, presenta en su tercera edición 50 obras literarias inspiradas en 9 pinturas de artistas marroquíes. Las obras exploran el bagaje cultural e histórico de Marruecos a través de poesías, relatos y ensayos.</p>
+                                                <br>
+                                                <p>El embajador de Marruecos en Argentina, Fares Yassir, escribió el prólogo del libro, destacando que describir una imagen artística con palabras permite transmitir una idea y un sentimiento. En su discurso, subrayó la importancia de este proyecto como un llamado a fortalecer el vínculo entre Marruecos y Argentina.</p>
+                                                <br>
+                                                <p>Estuvieron presentes representantes de embajadas y provincias argentinas, así como Pablo Garzonio, Subsecretario de Relaciones Internacionales, Ornela Vanzillota, Directora de Relaciones Internacionales, y el legislador Yamil Santoro.
+                                                </p>
+                                                <br>
+                                                <p>La Diputada Ferrero expresó: “Esta trilogía de escritores argentinos amigos de Marruecos es un llamado a reforzar la hermandad entre nuestros países. Los poemas se agrupan en 9 maravillosas pinturas. Es una muestra de cómo la cultura puede servir de puente y también ser una industria. La importancia de las políticas públicas culturales para el desarrollo de un pueblo es indiscutible en el escenario global. El proyecto que lleva adelante el embajador es una acción cultural y diplomática que contribuye a fortalecer la hermandad entre ambos países”.
+                                                </p>
+                                                <br>
+                                                <p>Mariela Palermo, directora del proyecto, destacó “lo imprescindible que es contar historias para la comunicación social y la cultura. La capacidad de contar historias le da valor a cada objeto que nos rodea. Elegimos la literatura para mostrar paisajes y tradiciones a través de la belleza y la emoción”.</p>
+                                                <br>
+                                                <p>El periodista marroquí Rachid Mamouni expresó: “Es una obra maravillosa. Poetas argentinos amigos de Marruecos tiene un enfoque inédito e innovador. A partir de cuadros de la vida cotidiana de Marruecos, esta antología de escritores argentinos logra interpretar y analizar estas obras, creando páginas íntimas y ayudándonos a descubrir aspectos propios desde una visión extranjera”.</p>
+                                                <br>
+                                                <p>El embajador Fares Yassir agregó: “Esta es la tercera antología. Esta obra y este acto los considero de lujo. Agradezco a la Legislatura de Buenos Aires por este reconocimiento que rinde homenaje a los 50 escritores que participaron y creyeron en este proyecto. Es diplomacia cultural que permite tender puentes entre Argentina y Marruecos. Esta antología y las anteriores aportan, a través del arte, mayor visibilidad a lo que veníamos haciendo y contribuyen a la difusión de un mensaje que debe seguir vivo, dejando una huella”.</p>
+                                                <br>
+                                                <p>Participaron los embajadores de Congo, Hungría, Bélgica, Emiratos Árabes Unidos, Armenia y la Liga de los Emiratos Árabes, así como encargados de negocios de Palestina y El Salvador, el secretario delegado de Santa Fe y de Santiago del Estero, y representantes de Cancillería.</p>
+                                                <br>
+                                                
+                                                
+                                                
+                                                
+                                            </div>
+
+
+
+                                        </div>
+                                    </div>
+                                </article>
+                            </li>
+                        </ul>
+                        <br>
+
+                    </div>
+
+
+                    {{-- columna de la derecha chica --}}
+                    <aside>
+                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                            <div class=" col-span-6">
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/bener-leg2.png') }}"
+                                        alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
+                                        alt="">
+                                </a>
+
+                                <div id="app">
+
+                                    <div v-for="item in info">
+
+                                        <div class="flex-col pb-3">
+                                            <div
+                                                class="flex-col max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg"
+                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
+                                                        alt="" />
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5
+                                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                                            @{{ item.title }}</h5>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div v-for="va in clima">
+
+                                        <h5
+                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                            @{{ va }}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+
+                </div>
+
+            </section>
         @endif
 
     </div>

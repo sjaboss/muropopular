@@ -1,5 +1,288 @@
 <x-app-layout>
     <div class="container ">
+        {{--CRISTINA KIRCHNER CRITICÓ ... --}}
+        <section >
+            <ul>
+                <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                    <article>
+
+                        <div class="py-4 px-4 justify-between items-center">
+                            <h2 class="text-xl font-serif  font-bold pb-6">
+                                <a href="">CRISTINA KIRCHNER CRITICÓ EL "PARTIDO JUDICIAL" Y EXIGE TRANSPARENCIA EN VENEZUELA</a>
+                                {{-- <p class="font-light text-gray-500">Por Carola Chávez
+                                </p>  --}}
+                                {{-- <p class="font-light text-gray-500">Presidente Honorario de la Unión de Periodistas de Cuba (UPEC) y de la Federación Latinoamericana de Periodistas (FELAP).
+                                </p> --}}
+                            </h2>
+                            <p class="font-light  text-right text-gray-500">Publicado: 05/08/2024</p>
+                            <p><i>Durante su conferencia en México, cuestionó a quienes critican a Maduro y exigió la publicación de las actas electorales de Venezuela, abogó por una reforma judicial en México y criticó el sistema judicial argentino, describiéndolo como una "rémora monárquica".</i>
+                            </p>
+                            <br>
+                            <figure>
+                                <img class=" w-full object-cover" src="../img/int/int_crismexico.svg"
+                                    alt="">
+                            </figure>
+                            <br>
+                            <div
+                                class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                    <p>Cristina Kirchner, expresidenta de Argentina, ofreció una contundente intervención en México, en el marco del curso sobre "realidad política y electoral de América Latina". En su reaparición pública, Kirchner abordó los temas candentes de la región, enfocándose en las elecciones venezolanas y criticando el rol del "partido judicial" en su país natal.</p>
+                                    <br>
+                                    <p>Durante el evento, realizado en el Centro Cultural México Contemporáneo, Kirchner reafirmó su postura alineada con el comunicado conjunto de Manuel López Obrador, Lula Da Silva y Gustavo Petro, que pedía paz y respeto a la institucionalidad en Venezuela. Sin embargo, la expresidenta fue más allá, exigiendo la publicación de las actas electorales venezolanas. “Pido, por el legado de Hugo Chávez, que muestren las actas”, declaró, insistiendo en la necesidad de transparencia para evaluar los resultados electorales sin caer en maniqueísmos.</p>
+                                    <br>
+                                    <p>Kirchner cuestionó a los críticos de Nicolás Maduro, tildándolos de “hongos demócratas” y apuntando a su falta de coherencia. En su intervención, subrayó que aquellos que acusan a Maduro de dictador son frecuentemente los mismos que han apoyado a gobiernos involucrados en actos de represión, como el golpe de Estado en Bolivia o la visita a genocidas por parte de ciertos diputados. Esta crítica refleja su preocupación por la falta de consistencia en el discurso político internacional.</p>
+                                    <br>
+                                    <p>Además, Kirchner destacó el contexto geopolítico de Venezuela, haciendo hincapié en que el país posee la mayor reserva de petróleo convencional del mundo. Según ella, este factor económico es crucial para entender el conflicto sin caer en una visión simplista de "ángeles y demonios".</p>
+                                    <br>
+                                    <p>En el evento, la expresidenta también se refirió al tratamiento que reciben los gobiernos progresistas en América Latina, acusando una campaña sistemática de estigmatización y persecución. Resaltó el ataque personal que sufrió, señalando que el atentado en su contra es un ejemplo extremo de esta estrategia. En contraposición, elogió la reforma judicial propuesta por el gobierno de AMLO en México, que busca transformar un sistema judicial que, según ella, está “cooptado por los factores de poder económico” y presionado por los medios hegemónicos.</p>
+                                    <br>
+                                    <p>Kirchner aprovechó la oportunidad para reflexionar sobre el sistema judicial argentino, al que calificó de “rémora monárquica”. Criticó la longevidad de los magistrados y la falta de mecanismos de rendición de cuentas. Al respecto, comparó el sistema argentino con el mexicano, destacando la propuesta de AMLO de reducir el período de mandato de los jueces y de implementar una elección popular para todos los magistrados.</p>
+                                    <br>
+                                    <p>En su discurso, también hizo alusión a la causa Vialidad, que fue impulsada por el gobierno de Mauricio Macri. Kirchner consideró que el juicio, que se inició en enero de 2016 y duró cuatro años, fue diseñado para perjudicar al peronismo en un momento clave del ciclo electoral.</p>
+                                    <br>
+                                    <p>El encuentro se desarrolló en un ambiente de entusiasmo y apoyo, con banderas argentinas y wiphalas, y un público que se mostró receptivo a las palabras de Kirchner. Entre los asistentes estaban figuras destacadas de Morena y otros sectores progresistas, quienes manifestaron su admiración y reconocimiento hacia la expresidenta.</p>
+                                    <br>
+                                    <p>Kirchner cerró su intervención destacando la importancia de la formación política y la información para el fortalecimiento de los movimientos progresistas en la región. La presencia de la expresidenta en México fue vista como un respaldo a la formación de un "think tank progresista" en América Latina, que busca promover un entendimiento más profundo y coordinado de los desafíos regionales.</p>
+                                    <br>
+                                    
+                                    
+                                </div>
+
+
+
+                            </div>
+                        </div>
+                    </article>
+                </li>
+            </ul>
+        </section>
+        {{--EL 45% DE LAS FAMILIAS SIN VIVIENDA... --}}
+        <section >
+            <ul>
+                <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                    <article>
+
+                        <div class="py-4 px-4 justify-between items-center">
+                            <h2 class="text-xl font-serif  font-bold pb-6">
+                                <a href="">EL 45% DE LAS FAMILIAS SIN VIVIENDA DIGNA, SEGÚN EL BID</a>
+                                {{-- <p class="font-light text-gray-500">Por Carola Chávez
+                                </p>  --}}
+                                {{-- <p class="font-light text-gray-500">Presidente Honorario de la Unión de Periodistas de Cuba (UPEC) y de la Federación Latinoamericana de Periodistas (FELAP).
+                                </p> --}}
+                            </h2>
+                            <p class="font-light  text-right text-gray-500">Publicado: 01/08/2024</p>
+                            <p><i>El Banco Interamericano de Desarrollo (BID) revela que casi la mitad de las familias en América Latina y el Caribe carecen de una vivienda adecuada. Factores como la falta de planificación, cambios demográficos y políticas públicas ineficaces agravan la situación. Expertos y autoridades discuten soluciones en el 3° Foro Regional de Vivienda.</i>
+                            </p>
+                            <br>
+                            <figure>
+                                <img class=" w-full object-cover" src="../img/int/int_vivienda.svg"
+                                    alt="">
+                            </figure>
+                            <br>
+                            <div
+                                class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                    <p>América Latina y el Caribe enfrentan una crisis de vivienda alarmante: el 45% de las familias no cuenta con una vivienda digna, según el Banco Interamericano de Desarrollo (BID). Durante el 3° Foro Regional de Vivienda, Tomás Bermúdez, representante del BID en México, destacó que este problema es producto de una planificación deficiente, afectada por cambios demográficos, composición de los hogares y un marco político y normativo inadecuado.</p>
+                                    <br>
+                                    <p>La situación es agravada por la falta de políticas públicas que promuevan la vivienda incluyente y resiliente, así como por una lenta recuperación económica tras la pandemia de COVID-19. Bermúdez subrayó la necesidad urgente de fortalecer las capacidades institucionales de las dependencias encargadas del desarrollo urbano. Según él, dotar a los ministerios y autoridades locales de mayor experiencia técnica, infraestructuras adecuadas y autonomía financiera es crucial para mejorar su desempeño fiscal y proporcionar viviendas dignas a quienes más lo necesitan.</p>
+                                    <br>
+                                    <p>En contraste, Román Meyer, titular de la Secretaría de Desarrollo Agrario, Territorial y Urbano (Sedatu) de México, informó que en los últimos seis años, alrededor de 4 millones de mexicanos han superado el rezago habitacional gracias a una estrategia de planeación territorial eficaz. Este avance ha sido posible mediante la colaboración entre diferentes dependencias de vivienda, que han generado sinergias para mejorar la calidad de vida de las familias en situación vulnerable.</p>
+                                    <br>
+                                    <p>Carlos Martínez Velázquez, director del Instituto del Fondo Nacional de la Vivienda para los Trabajadores (Infonavit), destacó las medidas que México está adoptando para enfrentar la crisis de vivienda. Mencionó que se alinean con la propuesta de Claudia Sheinbaum, virtual presidenta electa, de construir un millón de viviendas durante su administración. Este plan incluye un sistema de rentas que no superen el 30% del ingreso de las personas, un paso significativo hacia la vivienda asequible y digna.</p>
+                                    <br>
+                                    <p>La crisis de vivienda en América Latina y el Caribe es un desafío multifacético que requiere soluciones integrales. La colaboración entre organismos internacionales, gobiernos locales y estatales, y la implementación de políticas públicas eficaces son esenciales para garantizar que más familias tengan acceso a una vivienda digna. Los avances en México ofrecen un rayo de esperanza y un modelo a seguir para otros países de la región en la lucha contra el rezago habitacional.</p>
+                                    <br>
+                                    
+                                    
+                                    
+                                </div>
+
+
+
+                            </div>
+                        </div>
+                    </article>
+                </li>
+            </ul>
+        </section>
+        {{--BIDEN RENUNCIA A SU CAMPAÑA... --}}
+        <section >
+            <ul>
+                <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                    <article>
+
+                        <div class="py-4 px-4 justify-between items-center">
+                            <h2 class="text-xl font-serif  font-bold pb-6">
+                                <a href="">BIDEN RENUNCIA A SU CAMPAÑA</a>
+                                {{-- <p class="font-light text-gray-500">Por Carola Chávez
+                                </p>  --}}
+                                {{-- <p class="font-light text-gray-500">Presidente Honorario de la Unión de Periodistas de Cuba (UPEC) y de la Federación Latinoamericana de Periodistas (FELAP).
+                                </p> --}}
+                            </h2>
+                            <p class="font-light  text-right text-gray-500">Publicado: 21/07/2024</p>
+                            <p><i>La decisión del presidente de retirarse de la carrera electoral marca un "punto de inflexión" en la política estadounidense, con Kamala Harris liderando la lucha por el futuro del país.</i>
+                            </p>
+                            <br>
+                            <figure>
+                                <img class=" w-full object-cover" src="../img/int/int_biden.svg"
+                                    alt="">
+                            </figure>
+                            <br>
+                            <div
+                                class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                    <p>El presidente de Estados Unidos, Joe Biden, sorprendió al anunciar el fin de su campaña de reelección, declarando que "la ambición personal no podía anteponerse a salvar la democracia". En un emotivo discurso desde el Despacho Oval, Biden subrayó que Estados Unidos está en un "punto de inflexión" y que su prioridad es unir al partido demócrata en un momento crítico para la nación. La vicepresidenta Kamala Harris, ahora candidata presidencial, ya está movilizando su campaña con un enfoque activo, particularmente buscando el apoyo de las mujeres negras a través de una de las hermandades afroamericanas más antiguas del país.</p>
+                                    <br>
+                                    <p>Biden, en un discurso de 11 minutos, defendió su historial como presidente y expresó que su liderazgo justificaría un segundo mandato. Sin embargo, enfatizó que nada es más importante que la defensa de la democracia: "Creo que mi historial como presidente, mi liderazgo en el mundo y mi visión para el futuro de Estados Unidos, todo justificaría un segundo mandato, pero nada puede interponerse en el camino de salvar nuestra democracia. Eso incluye la ambición personal". Con estas palabras, Biden pasó la antorcha a una nueva generación, buscando así unir a la nación.</p>
+                                    <br>
+                                    <p>El presidente destacó que la defensa de la democracia es una tarea sagrada y que su trabajo siempre ha sido para el pueblo estadounidense. Citando a presidentes anteriores, Biden señaló las amenazas que, en su opinión, representa Donald Trump para el país, enfatizando que en Estados Unidos "no gobiernan reyes ni dictadores. El pueblo lo hace".</p>
+                                    <br>
+                                    <p>En su retirada, Biden prometió concentrarse en terminar su mandato, reduciendo los costos para las familias trabajadoras, impulsando la economía y defendiendo los derechos civiles y libertades personales. Elogió a Kamala Harris, destacando su experiencia y liderazgo, y dejando claro que ahora la decisión está en manos del pueblo estadounidense.</p>
+                                    <br>
+                                    <p><b>HARRIS Y SU CAMPAÑA ACTIVA</b></p>
+                                    <br>
+                                    <p>Desde Indianápolis, Kamala Harris continúa la campaña demócrata advirtiendo que en estas elecciones está en juego la libertad de votar, la protección contra la violencia con armas de fuego y la lucha contra la intolerancia y el odio. En un evento organizado por Zeta Phi Beta, Harris destacó la elección entre dos visiones para la nación: una centrada en el futuro y otra en el pasado. Prometió convertir en ley las protecciones federales al aborto, reafirmando la libertad reproductiva y el derecho de la mujer a elegir.</p>
+                                    <br>
+                                    <p>Harris criticó el Proyecto 2025 propuesto por Trump, que busca eliminar el Departamento de Educación, señalándolo como un intento de regresar a un pasado oscuro. Enfatizó la necesidad de organizar y movilizar a los votantes para luchar por un futuro mejor para la nación.</p>
+                                    <br>
+                                    <p><b>TRUMP CONTRA HARRIS</b></p>
+                                    <br>
+                                    <p>Donald Trump, por su parte, no perdió tiempo en atacar a Harris, calificándola de "lunática radical de izquierda" y acusándola de ser la fuerza impulsora detrás de las supuestas catástrofes del gobierno de Biden. Trump cuestionó la capacidad mental de Biden y sugirió que Harris y los líderes demócratas están manipulando la situación para mantenerse en el poder.</p>
+                                    <br>
+                                    <p>El candidato republicano se comprometió a debatir con Harris, a quien considera una rival más fácil de vencer que Biden, y continuó sus ataques, especialmente en temas de política exterior e inmigración. A pesar de las acusaciones y la polarización, las encuestas muestran una carrera cerrada entre Harris y Trump, con una ligera ventaja para la demócrata según la última encuesta de Reuters/Ipsos.</p>
+                                    <br>
+                                    <p>La campaña de Trump presentó una denuncia contra Harris por la recaudación de fondos, destacando el récord de 81 millones de dólares en solo 24 horas. Este contexto de acusaciones y ataques directos pinta un panorama electoral altamente polarizado y tenso, con el futuro de la democracia estadounidense en juego.</p>
+                                    <br>
+                                    
+                                    
+                                </div>
+
+
+
+                            </div>
+                        </div>
+                    </article>
+                </li>
+            </ul>
+        </section>
+        {{--MASACRE ISRAELÍ EN ZONA HUMANITARIA DE GAZA... --}}
+        <section >
+            <ul>
+                <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                    <article>
+
+                        <div class="py-4 px-4 justify-between items-center">
+                            <h2 class="text-xl font-serif  font-bold pb-6">
+                                <a href="">MASACRE ISRAELÍ EN ZONA HUMANITARIA DE GAZA: MÁS DE 70 MUERTOS</a>
+                                {{-- <p class="font-light text-gray-500">Por Carola Chávez
+                                </p>  --}}
+                                {{-- <p class="font-light text-gray-500">Presidente Honorario de la Unión de Periodistas de Cuba (UPEC) y de la Federación Latinoamericana de Periodistas (FELAP).
+                                </p> --}}
+                            </h2>
+                            <p class="font-light  text-right text-gray-500">Publicado: 13/07/2024</p>
+                            <p><i>El ataque contra la zona humanitaria de Mawasi en Gaza, con apoyo militar de Estados Unidos, ha dejado un saldo trágico de más de 70 víctimas mortales, según el portavoz palestino Nabil Abu Rudeineh.</i>
+                            </p>
+                            <br>
+                            <figure>
+                                <img class=" w-full object-cover" src="../img/int/int_masacre.svg"
+                                    alt="">
+                            </figure>
+                            <br>
+                            <div
+                                class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                    <p>En un nuevo capítulo de la tragedia que azota la Franja de Gaza, las fuerzas israelíes llevaron a cabo una agresión en la zona humanitaria de Mawasi, al sur de Gaza, que resultó en la muerte de al menos 71 personas y dejó a 289 más heridas, según informes del Ministerio de Salud de Gaza. Este ataque, que se realizó con el presunto objetivo de eliminar al jefe militar de Hamás, Mohamed Deif, ha sido catalogado como una "masacre" por Nabil Abu Rudeineh, portavoz de la presidencia de la Autoridad Nacional Palestina.</p>
+                                    <br>
+                                    <p>Abu Rudeineh acusó al Gobierno estadounidense de complicidad en esta agresión, al considerar que el apoyo militar estadounidense a Israel contraviene las resoluciones internacionales y perpetúa una ocupación que, diariamente, comete “masacres sangrientas” contra el pueblo palestino. La agencia de noticias palestina Wafa reportó que el portavoz condenó la acción, destacando que es una continuación del genocidio que ha sufrido el pueblo palestino desde el 7 de octubre de 2023.</p>
+                                    <br>
+                                    <p>El ataque se llevó a cabo en una zona considerada humanitaria por las fuerzas de ocupación, lo que ha intensificado las críticas y el rechazo internacional hacia las tácticas militares israelíes. A pesar de los informes israelíes que indican que el objetivo era un complejo de Hamás en una zona abierta, los funcionarios palestinos y diversas organizaciones internacionales han expresado su indignación por la magnitud de la tragedia y el hecho de que se produjera en una zona destinada a proteger a los desplazados.</p>
+                                    <br>
+                                    <p>Además del ataque en Mawasi, se reportó un bombardeo en una mezquita del campamento de refugiados de Shati, en Ciudad de Gaza, que resultó en la muerte de 17 personas. El titular de Exteriores de la Autoridad Palestina ha solicitado apoyo internacional para poner fin a la violencia y el conflicto, reiterando la necesidad urgente de una resolución que garantice la seguridad y los derechos de la población palestina.</p>
+                                    <br>
+                                    <p>La situación continúa evolucionando, y el mundo observa con preocupación el desenlace de estos trágicos eventos, mientras se espera una respuesta concreta de la comunidad internacional para abordar la crisis humanitaria en Gaza.</p>
+                                    <br>
+                                    
+                                    
+                                </div>
+
+
+
+                            </div>
+                        </div>
+                    </article>
+                </li>
+            </ul>
+        </section>
+        {{--RUSIA Y CHINA MARCAN EL CAMINO HACIA UN NUEVO ORDEN MUNDIAL --}}
+        <section >
+            <ul>
+                <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                    <article>
+
+                        <div class="py-4 px-4 justify-between items-center">
+                            <h2 class="text-xl font-serif  font-bold pb-6">
+                                <a href="">RUSIA Y CHINA MARCAN EL CAMINO HACIA UN NUEVO ORDEN MUNDIAL</a>
+                                {{-- <p class="font-light text-gray-500">Por Carola Chávez
+                                </p>  --}}
+                                {{-- <p class="font-light text-gray-500">Presidente Honorario de la Unión de Periodistas de Cuba (UPEC) y de la Federación Latinoamericana de Periodistas (FELAP).
+                                </p> --}}
+                            </h2>
+                            <p class="font-light  text-right text-gray-500">Publicado: 08/07/2024</p>
+                            <p><i>Xi Jinping y Vladimir Putin estrechan lazos en una cumbre clave que podría redefinir el equilibrio global.</i>
+                            </p>
+                            <br>
+                            <figure>
+                                <img class=" w-full object-cover" src="../img/int/int_ruchi.svg"
+                                    alt="">
+                            </figure>
+                            <br>
+                            <div
+                                class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                    <p>En la capital kazaja, Astaná, se celebró la 24º reunión del Consejo de Jefes de Estado de la Organización de Cooperación de Shanghái (OCS) desde el miércoles hasta el jueves, destacando la creciente influencia de China y Rusia en un contexto internacional marcado por múltiples crisis. Esta cumbre ha consolidado una nueva etapa en la cooperación bilateral entre Moscú y Pekín, con la promesa de enfrentar desafíos globales y redefinir el orden mundial.</p>
+                                    <br>
+                                    <p><b>El fortalecimiento de los lazos entre Moscú y Pekín</b></p>
+                                    <br>
+                                    <p>La OCS, constituida en 2001, ha evolucionado desde su enfoque inicial en la seguridad regional hacia una plataforma de cooperación integral entre sus miembros: China, India, Irán, Kazajistán, Kirguistán, Pakistán, Rusia, Tayikistán y Uzbekistán. La organización, que representa cerca de la mitad de la población mundial, ha ampliado su alcance y relevancia, particularmente con la incorporación de Irán en 2023.</p>
+                                    <br>
+                                    <p>En esta cumbre, los líderes de China y Rusia, Xi Jinping y Vladimir Putin, se destacaron no solo por su presencia, sino por el contenido de sus declaraciones y su proyección conjunta. Xi Jinping subrayó la necesidad de “crear nuevas oportunidades en tiempos de crisis”, apelando al fortalecimiento del derecho internacional respaldado por la ONU. Por su parte, Putin destacó la consolidación de un “mundo multipolar” como una realidad ineludible, marcando una clara diferencia con la hegemonía unipolar que dominó el siglo XX.</p>
+                                    <br>
+                                    <p>Kazajistán, anfitrión del evento, puso de manifiesto su alianza estratégica con China, con el presidente Kasym-Yomart Tokayev describiendo el momento actual como un “período dorado” en las relaciones bilaterales. La cooperación entre Astaná y Pekín ha alcanzado nuevos niveles, con un incremento exponencial en el comercio y una asociación multifacética que apunta a la estabilidad regional y global.</p>
+                                    <br>
+                                    <p><b>El impacto en Ucrania y otras crisis internacionales</b></p>
+                                    <br>
+                                    <p>La cumbre también se destacó por las intensas reuniones bilaterales, especialmente entre Putin y Xi. Esta fue la segunda reunión entre ambos líderes en menos de dos meses, con una próxima cumbre del BRICS en Kazán programada para octubre. Ambos mandatarios coincidieron en que la cooperación entre Rusia y China está en su “mejor momento histórico” y resaltaron el papel de la OCS y el BRICS en la configuración de un nuevo orden mundial multipolar.</p>
+                                    <br>
+                                    <p>Xi y Putin coincidieron en que la resolución política de la crisis en Ucrania y la situación en Palestina es esencial para la estabilidad global. Putin, en particular, criticó a la OTAN por su papel en el conflicto ucraniano, reiterando que Rusia ha buscado consistentemente una solución pacífica. Subrayó que la cooperación bilateral no tiene intenciones injerencistas, aunque también demandó un enfoque más inclusivo en la resolución del conflicto ucraniano, incluyendo el retiro de tropas y la reconsideración de la membresía ucraniana en la OTAN.</p>
+                                    <br>
+                                    <p><b>Rumores de un nuevo orden mundial</b></p>
+                                    <br>
+                                    <p>La dinámica de la OCS y la colaboración entre Rusia y China sugieren una transición hacia un nuevo orden multipolar, que desafía el sistema unipolar establecido por Estados Unidos tras la caída de la Unión Soviética. Las posibles configuraciones futuras incluyen:</p>
+                                    <br>
+                                    <p>1. Bipolaridad renovada: Una nueva forma de bipolaridad entre China y Estados Unidos, impulsada por la creciente competencia comercial y geopolítica.</p>
+                                    <br>
+                                    <p>2. Unipolaridad china: La posibilidad de que China reemplace a Estados Unidos como el nuevo líder global en un sistema unipolar.</p>
+                                    <br>
+                                    <p>3. Multipolaridad: La emergente realidad de un orden mundial en el que múltiples actores se disputan el poder sin que ninguno logre la hegemonía total.</p>
+                                    <br>
+                                    <p>La cumbre de la OCS, en este contexto, subraya la creciente importancia de las alianzas estratégicas y la búsqueda de una estabilidad global en tiempos de incertidumbre.</p>
+                                    <br>
+                                    
+                                </div>
+
+
+
+                            </div>
+                        </div>
+                    </article>
+                </li>
+            </ul>
+        </section>
         {{--ARCE FRENÓ EL GOLPE EN BOLIVIA: ZÚÑIGA DETENIDO Y LOS MILITARES SE RETIRAN --}}
         <section >
             <ul>

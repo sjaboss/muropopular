@@ -3453,6 +3453,263 @@
                 </div>
 
             </section>
+        @elseif ($tituloSep == 'Derechos-Humanos-Noticia-Completa-der26')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">DIPUTADOS DE MILEI REAVIVAN LA TEORÍA DE LOS DOS DEMONIOS
+                                            </a>
+                                        </h2>
+                                        <p class="font-light  text-right text-gray-500">Publicado: 18/07/2024</p>
+                                        <p><i>Diputados de la Libertad Avanza visitaron a condenados por crímenes de lesa humanidad, reavivando la teoría de los dos demonios y justificando los actos de la última dictadura cívico-militar</i>
+                                    </p>
+                                        <br>
+                                        <figure>
+                                            <img class="w-full object-cover"
+                                                src="{{ asset('../img/der/der_2demonios.svg') }}" alt="">
+
+                                        </figure>
+                                        {{-- <article>
+                                            <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/XSNYTBkbmx4?si=V9zwrQyh3h5dyKbu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                            
+                                        </article> --}}
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                                <p>El pasado 11 de julio, seis diputados de la Libertad Avanza acudieron al penal de Ezeiza bajo el pretexto de una "visita humanitaria" a detenidos por crímenes de lesa humanidad. Argumentaron que se trataba de una visita a "excombatientes que liberaron batallas contra la subversión marxista". Esta acción, impulsada por la política negacionista de Javier Milei y Victoria Villarruel, busca justificar los más aberrantes hechos cometidos por la última dictadura cívico-militar en Argentina.
+                                                </p>
+                                                <br>
+                                                <p>La visita fue organizada por el diputado entrerriano Beltrán Benedit, quien asisitó junto con los también diputados/as,  Lourdes Arrieta, Alida Ferreyra, Guillermo Montenegro y María Fernanda Araujo. Por parte de los genocidas, estuvieron presentes Alfredo Astiz, Raúl Guglielminetti, Adolfo Donda, Antonio Pernías, Gerardo Arráez, el "Pájaro" Martínez Ruíz, Agustín Oyarzábal Navarro, Juan Manuel Cordero, Mario "el Cura" Marcote y Miguel Angel Britos.
+                                                </p>
+                                                <br>
+                                                <p>ADN Populares expresa su repudio a estas acciones que reivindican el terrorismo de Estado y buscan la impunidad de los genocidas condenados por delitos de lesa humanidad. "No fue una guerra, fue genocidio. No olvidamos, no perdonamos, no nos reconciliamos. Son 30.000. Nunca más. Memoria, verdad y justicia” siempre.
+                                                </p>
+                                                <br>
+                                                <p>La visita de los diputados de la Libertad Avanza a los perpetuadores de los peores crímenes de la dictadura no solo es un intento de reactivar la teoría de los dos demonios, sino que también expone el negacionismo y la justificación de los actos más aberrantes cometidos por el régimen cívico-militar. Esta postura es coherente con la línea política de Milei y Villarruel, quienes han mostrado reiteradamente su desprecio por las políticas de memoria, verdad y justicia.</p>
+                                                <br>
+                                                <p>La teoría de los dos demonios, que equipara la violencia de la dictadura con la de las organizaciones guerrilleras, ha sido ampliamente refutada y criticada por organismos de derechos humanos, historiadores y la sociedad en general. Sin embargo, este intento de reavivarla demuestra una peligrosa tendencia a minimizar y justificar el terrorismo de Estado.</p>
+                                                <br>
+                                                <p>La política de memoria, verdad y justicia ha sido un pilar fundamental en la democracia argentina desde la recuperación del Estado de derecho en 1983. Los juicios por crímenes de lesa humanidad han permitido que la sociedad conozca la verdad sobre los hechos ocurridos durante la dictadura y que los responsables sean juzgados y condenados. Intentar revertir estos avances es un ataque directo a los derechos humanos y a la democracia.</p>
+                                                <br>
+                                                <p>La sociedad argentina ha demostrado en múltiples ocasiones su compromiso con la memoria, la verdad y la justicia. Marchas multitudinarias, actos de conmemoración y la constante vigilancia de organismos de derechos humanos son testimonio de ello. La visita de los diputados libertarios al penal de Ezeiza es un recordatorio de que la lucha por los derechos humanos y contra el negacionismo debe continuar.</p>
+                                                <br>
+                                                <p>En conclusión, la visita de los diputados de la Libertad Avanza a los condenados por crímenes de lesa humanidad en el penal de Ezeiza es un grave retroceso en la lucha por los derechos humanos en Argentina. La sociedad, las organizaciones de derechos humanos y los sectores democráticos deben mantenerse firmes en la defensa de la memoria, la verdad y la justicia.</p>
+                                                <br>
+                                                <p><b>No fue una guerra, fue genocidio. No olvidamos, no perdonamos, no nos reconciliamos. Son 30.000. Nunca más. Memoria, verdad y justicia.</b></p>
+                                                <br>
+                                        
+                                                <div class="text-start object-center">
+                                                    {{-- <figure>
+                                                        <img class="w-28 h-28  "
+                                                            src="{{ asset('../img/noteros/gus.svg') }}"
+                                                            alt="">
+                                                        <p> <strong>Por Gustavo Cano<strong></p>
+
+                                                        <p><strong><strong></p>
+
+                                                    </figure> --}}
+                                                </div>
+
+
+                                            </div>
+
+
+
+                                        </div>
+                                    </div>
+                                </article>
+                            </li>
+                        </ul>
+                    </div>
+
+                    {{-- columna de la derecha chica --}}
+                    <aside>
+                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                            <div class=" col-span-6">
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/bener-leg2.png') }}"
+                                        alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
+                                        alt="">
+                                </a>
+
+                                <div id="app">
+
+                                    <div v-for="item in info">
+
+                                        <div class="flex-col pb-3">
+                                            <div
+                                                class="flex-col max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg"
+                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
+                                                        alt="" />
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5
+                                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                                            @{{ item.title }}</h5>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div v-for="va in clima">
+
+                                        <h5
+                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                            @{{ va }}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+                </div>
+
+            </section>
+        @elseif ($tituloSep == 'Derechos-Humanos-Noticia-Completa-der27')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">MILITARIZACIÓN DE LAS CALLES: EL PELIGRO DE VOLVER AL PASADO
+                                            </a>
+                                        </h2>
+                                        <p class="font-light  text-right text-gray-500">Publicado: 06/08/2024</p>
+                                        <p><i>El gobierno de Javier Milei avanza en una reforma que pone en riesgo los consensos democráticos</i>
+                                    </p>
+                                        <br>
+                                        <figure>
+                                            <img class="w-full object-cover"
+                                                src="{{ asset('../img/der/der_militariza.svg') }}" alt="">
+
+                                        </figure>
+                                        {{-- <article>
+                                            <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/XSNYTBkbmx4?si=V9zwrQyh3h5dyKbu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                            
+                                        </article> --}}
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                                <p>El gobierno de Javier Milei ha presentado un proyecto para modificar la Ley 24.059 de Seguridad Interior, con el objetivo de permitir que las Fuerzas Armadas realicen tareas de seguridad en las calles bajo el pretexto de combatir el terrorismo. Esta iniciativa, que parte del Ministerio de Defensa dirigido por Luis Petri, representa un grave retroceso en los consensos democráticos alcanzados tras el fin de la dictadura cívico-militar.
+                                                </p>
+                                                <br>
+                                                <p>La propuesta, anunciada por el vocero presidencial Manuel Adorni, pretende cambiar el artículo 27 de la mencionada ley para permitir el despliegue militar en operaciones de patrullaje y control en zonas específicas. Según Adorni, el objetivo es permitir una respuesta más directa ante amenazas terroristas, evitando la necesidad de declarar un Estado de Sitio para movilizar a los militares.
+                                                </p>
+                                                <br>
+                                                <p>Este cambio es particularmente preocupante dado el historial de violaciones a los derechos humanos durante la dictadura, que aún pesa sobre la memoria colectiva del país. La Ley 24.059, junto con otras normativas como la Ley 23.554 de Defensa Nacional y la Ley 25.520 de Inteligencia, fue diseñada para limitar el papel de las Fuerzas Armadas en la seguridad interior y proteger la democracia de cualquier intento de autoritarismo.
+                                                </p>
+                                                <br>
+                                                <p>El hecho de que la iniciativa surja en un contexto donde el oficialismo también está promoviendo la desregulación de la Ley de Armas y una reforma electoral, añade una capa adicional de preocupación. La propuesta de permitir a los militares realizar funciones de seguridad interna, que hasta ahora estaban reservadas a las fuerzas de seguridad, va en contra de los pactos políticos y sociales establecidos para prevenir el regreso a un pasado autoritario.</p>
+                                                <br>
+                                                <p>Además, la influencia de figuras como Patricia Bullrich, quien previamente promovió una agenda similar y ahora forma parte del gobierno de La Libertad Avanza, refuerza la percepción de que esta reforma no solo busca enfrentar amenazas actuales, sino también retroceder en los avances en materia de derechos humanos y justicia que se han logrado en las últimas décadas.</p>
+                                                <br>
+                                                <p>La vicepresidenta Victoria Villarruel, defensora de genocidas condenados, ya había manifestado su preocupación por el papel de las Fuerzas Armadas en el combate contra el narcotráfico, advirtiendo sobre los riesgos de repetir errores del pasado. Su postura refleja el temor a que esta reforma pueda desatar consecuencias negativas y reabrir heridas históricas.</p>
+                                                <br>
+                                                <p>En este sentido, la propuesta de Milei y Petri no solo pone en riesgo los logros en términos de derechos humanos y democracia, sino que también podría significar un regreso a prácticas que la sociedad argentina ha rechazado de manera contundente. La militarización de la seguridad interna representa una amenaza directa a los valores democráticos y a la protección de los derechos fundamentales que han sido duramente conquistados y defendidos en la Argentina.</p>
+                                                <br>
+                                                <p>La sociedad y las instituciones deben estar atentas y actuar con firmeza para preservar los principios democráticos y evitar el regreso a prácticas autoritarias que podrían poner en peligro el legado de la democracia y los derechos humanos en el país.</p>
+                                                <br>
+                                                
+                                        
+                                                <div class="text-start object-center">
+                                                    {{-- <figure>
+                                                        <img class="w-28 h-28  "
+                                                            src="{{ asset('../img/noteros/gus.svg') }}"
+                                                            alt="">
+                                                        <p> <strong>Por Gustavo Cano<strong></p>
+
+                                                        <p><strong><strong></p>
+
+                                                    </figure> --}}
+                                                </div>
+
+
+                                            </div>
+
+
+
+                                        </div>
+                                    </div>
+                                </article>
+                            </li>
+                        </ul>
+                    </div>
+
+                    {{-- columna de la derecha chica --}}
+                    <aside>
+                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                            <div class=" col-span-6">
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/bener-leg2.png') }}"
+                                        alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
+                                        alt="">
+                                </a>
+
+                                <div id="app">
+
+                                    <div v-for="item in info">
+
+                                        <div class="flex-col pb-3">
+                                            <div
+                                                class="flex-col max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg"
+                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
+                                                        alt="" />
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5
+                                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                                            @{{ item.title }}</h5>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div v-for="va in clima">
+
+                                        <h5
+                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                            @{{ va }}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+                </div>
+
+            </section>
         @endif
     </div>
 

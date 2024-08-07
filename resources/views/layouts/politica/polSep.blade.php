@@ -6370,6 +6370,748 @@
                 </div>
 
             </section>
+        @elseif ($tituloSep == 'Politica-Noticia-Completa-pol68')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">REINO UNIDO INTENSIFICA SU ACCIÓN ILEGAL EN MALVINAS CON NUEVAS EXPLORACIONES PETROLÍFERAS</a>
+                                        </h2>
+                                        <p class="font-light  text-right text-gray-500">Publicado: 05/07/2024</p>
+                                        <div class=" font-sans text-lg text-left col-span-6  ">
+                                        <p><i>El país europeo planea extraer 500 millones de barriles de petróleo de la Isla de los Leones Marinos. El diputado Gustavo Pulti presentó un proyecto para repudiar esta actividad y exigir una respuesta del Gobierno argentino.</i>
+                                        </p>
+                                        <br>
+                                        {{-- <article>
+                                            <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/YElDMxWtpio?si=B21D4BO6vjuKVj0Z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                            
+                                        </article> --}}
+                                        <figure>
+                                            <img class="w-full object-cover"
+                                                src="{{ asset('../img/pol/pol_islas.svg') }}" alt="">
+
+                                        </figure>
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+                                                <p>Reino Unido ha renovado su interés por los recursos naturales de las Islas Malvinas, con una nueva operación petrolífera que pone en riesgo la soberanía argentina sobre estos territorios. La compañía israelí Navitas Petroleum ha sido identificada como la principal responsable de este proyecto, que pretende extraer 500 millones de barriles de petróleo de la Isla de los Leones Marinos.
+                                                </p>
+                                                <br>
+                                                <p>El anuncio ha generado una fuerte preocupación en Argentina, especialmente tras la revelación de que la isla podría contener cerca de 1.700 millones de barriles, una cantidad significativamente mayor que la estimada en el desarrollo de Rosebank en el Mar del Norte británico, que cuenta con aproximadamente 300 millones.
+                                                </p>
+                                                <br>
+                                                <p>El medio británico The Telegraph informa que el petróleo extraído de la Isla de los Leones Marinos sería procesado a través de un buque flotante de producción, almacenamiento y descarga. Este buque permitiría el transporte del crudo a los mercados internacionales, un plan que parece estar en marcha a pesar de la falta de consenso con Argentina.
+                                                </p>
+                                                <br>
+                                                <p>La situación se complica aún más con el hecho de que el Gobierno británico ha iniciado un período de consulta con los isleños, que se extenderá hasta el 5 de agosto. Sin embargo, la falta de participación argentina en las negociaciones resalta la ilegalidad de las acciones británicas en las islas.</p>
+                                                <br>
+                                                <p>El diputado provincial Gustavo Pulti ha levantado la voz contra esta nueva agresión. En un comunicado contundente, Pulti calificó el proceder británico como "ilegítimo" y recordó que el proceso de licitación para la exploración de hidrocarburos en las Malvinas data de 2010. “El yacimiento en cuestión se calificó como de clase mundial, con reservas comprobables de 580 millones de barriles de petróleo”, destacó el legislador.
+                                                </p>
+                                                <br>
+                                                <p>Pulti expresó su preocupación por el impacto ambiental y económico que podría tener esta actividad, que contempla la perforación de 23 pozos y la producción de más de 300 millones de barriles en un período de 30 años. "El silencio y la inacción de la Cancillería violan las leyes y la Constitución nacional", enfatizó el diputado, llamando a una firme postura del Gobierno argentino frente a la explotación británica.
+                                                </p>
+                                                <br>
+                                                <p>El legislador ha presentado un proyecto en la Cámara de Diputados provincial para repudiar esta decisión unilateral e inconsulta y exigir una respuesta contundente del Ministerio de Relaciones Exteriores, Comercio Internacional y Culto. Esta acción busca denunciar la “inacción inexplicable” del gobierno nacional en un tema de vital importancia para la soberanía argentina.</p>
+                                                <br>
+                                                <p>Desde Argentina, la protesta ha sido constante, pero la empresa Navitas Petroleum ha continuado con sus exploraciones. En 2022, la Secretaría de Energía de Argentina la calificó como “clandestina” e inhabilitó a la compañía por 20 años para desarrollar actividades en territorio nacional.</p>
+                                                <br>
+                                                <p>La situación en las Islas Malvinas se mantiene en el centro del conflicto diplomático entre Argentina y Reino Unido, con el accionar británico subrayando la necesidad de una respuesta firme y efectiva del gobierno argentino para defender los recursos naturales y la soberanía nacional.</p>
+                                                <br>
+                                                
+                                                
+
+                                                <div class="text-start object-center">
+                                                    {{-- <figure>
+                                                        <img class="w-28 h-28  "
+                                                            src="{{ asset('../img/der/Adri.svg') }}" alt="">
+
+                                                        <p> <strong>Adriana Zerdín</strong></p>
+
+                                                    </figure> --}}
+                                                </div>
+                                            </div>
+                                </article>
+                            </li>
+                        </ul>
+                    </div>
+
+
+                    {{-- columna de la derecha chica --}}
+                    <aside>
+                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                            <div class=" col-span-6">
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/baner-leg1.png') }}"
+                                        alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/APSE.gif') }}" alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
+                                        alt="">
+                                </a>
+
+
+
+                                <div id="app">
+
+                                    <div v-for="item in info">
+
+                                        <div class="flex-col pb-3">
+                                            <div
+                                                class="flex-col max-w-sm  border  border-gray-700 rounded-lg shadow bg-gray-800">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg"
+                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
+                                                        alt="" />
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5
+                                                            class="mb-2 text-2xl font-bold tracking-tight  text-white">
+                                                            @{{ item.title }}</h5>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div v-for="va in clima">
+
+                                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-white">
+                                            @{{ va }}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+
+                </div>
+
+            </section>
+        @elseif ($tituloSep == 'Politica-Noticia-Completa-pol69')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">LA HORA DE LA VERDAD: EL FIN DEL GOBIERNO MILEI</a>
+                                            <p class="font-light text-gray-500">Por Daniel Gomez, Politologo.</p> 
+                                        </h2>
+                                        <p class="font-light  text-right text-gray-500">Publicado: 07/07/2024</p>
+                                        <div class=" font-sans text-lg text-left col-span-6  ">
+                                        <p><i>Los argentinos tenemos muchas formas de decir que algo ha llegado a su fin. Siempre está presente esa picardía heredada de nuestros abuelos, que llegaron a esta tierra tras interminables viajes y cruzando fronteras.</i>
+                                        </p>
+                                        <br>
+                                        {{-- <article>
+                                            <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/YElDMxWtpio?si=B21D4BO6vjuKVj0Z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                            
+                                        </article> --}}
+                                        <figure>
+                                            <img class="w-full object-cover"
+                                                src="{{ asset('../img/pol/pol_clon.svg') }}" alt="">
+
+                                        </figure>
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+                                                <p>Recordemos algunas de nuestras expresiones: "está doblando la curva", "le picaron el boleto", "llegó a su punto de inflexión". Con estas frases, entendemos que junio marcó el momento de no retorno para este gobierno, al que, con su permiso, calificaré de nefasto.
+                                                </p>
+                                                <br>
+                                                <p>El llamado "plan", o mejor dicho, la serie de medidas económicas que parecieran ser más propias de una licuadora o una motosierra que de una política económica coherente, llegó a su fin. Este gobierno pauperizó a un pueblo ya empobrecido y, a contramano de lo que hace el gran presidente de la República Federativa del Brasil, Luiz Inácio Lula da Silva, que lucha por elevar a los pobres a la clase media, el gobierno de Milei empujó a más gente de clase media a la pobreza.
+                                                </p>
+                                                <br>
+                                                <p>La promesa de no emisión fue un cuento chino. La baja de la inflación se desvaneció y ya se percibe un rebote ascendente. Se devoraron la devaluación de diciembre y volvieron a tener una brecha de más del 50% entre los dólares más usados. El campo, como suele suceder, se acomodó a la situación y comenzó la sequía de liquidación de divisas, lo que podría anticipar una nueva devaluación, un salto inflacionario, más emisión o un default de la deuda en pesos con los bancos.
+                                                </p>
+                                                <br>
+                                                <p>Algunos indicadores a considerar son los siguientes: la producción de las automotrices nacionales cayó 16.7 puntos respecto al mes anterior; la venta de cemento se desplomó, lo que afecta tanto a la obra pública como a las remodelaciones en los hogares; y las ventas en autoservicios de cercanía cayeron más del 10% en mayo en comparación con el mismo mes de 2023. Estos datos, entre otros, sugieren que al gobierno de Milei le picaron el boleto, que las fuerzas del cielo lo han abandonado y que ha comenzado su caída.</p>
+                                                <br>
+                                                <p>Como alguien dijo, no diré nada más, pero habrá señales.
+                                                </p>
+                                                <br>
+                                               
+                                                
+                                                
+
+                                                <div class="text-start object-center">
+                                                    {{-- <figure>
+                                                        <img class="w-28 h-28  "
+                                                            src="{{ asset('../img/der/Adri.svg') }}" alt="">
+
+                                                        <p> <strong>Adriana Zerdín</strong></p>
+
+                                                    </figure> --}}
+                                                </div>
+                                            </div>
+                                </article>
+                            </li>
+                        </ul>
+                    </div>
+
+
+                    {{-- columna de la derecha chica --}}
+                    <aside>
+                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                            <div class=" col-span-6">
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/baner-leg1.png') }}"
+                                        alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/APSE.gif') }}" alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
+                                        alt="">
+                                </a>
+
+
+
+                                <div id="app">
+
+                                    <div v-for="item in info">
+
+                                        <div class="flex-col pb-3">
+                                            <div
+                                                class="flex-col max-w-sm  border  border-gray-700 rounded-lg shadow bg-gray-800">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg"
+                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
+                                                        alt="" />
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5
+                                                            class="mb-2 text-2xl font-bold tracking-tight  text-white">
+                                                            @{{ item.title }}</h5>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div v-for="va in clima">
+
+                                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-white">
+                                            @{{ va }}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+
+                </div>
+
+            </section>
+        @elseif ($tituloSep == 'Politica-Noticia-Completa-pol70')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">MILEI CELEBRA SU PACTO DE MAYO, EN JULIO, ENTRE AUSENCIAS Y REPRESIÓN POLICIAL</a>
+                                            {{-- <p class="font-light text-gray-500">Por Daniel Gomez, Politologo.</p>  --}}
+                                        </h2>
+                                        <p class="font-light  text-right text-gray-500">Publicado: 10/07/2024</p>
+                                        <div class=" font-sans text-lg text-left col-span-6  ">
+                                        <p><i>El presidente Javier Milei consiguió la fotografía que había buscado desde el inicio de su mandato: la firma del Pacto de Mayo en la Casa Histórica de Tucumán, con la presencia de 18 gobernadores. Sin embargo, el acto que celebró como una victoria política estuvo marcado por ausencias destacadas y una represión policial que oscureció el evento.</i>
+                                        </p>
+                                        <br>
+                                        {{-- <article>
+                                            <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/YElDMxWtpio?si=B21D4BO6vjuKVj0Z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                            
+                                        </article> --}}
+                                        <figure>
+                                            <img class="w-full object-cover"
+                                                src="{{ asset('../img/pol/pol_pacto.svg') }}" alt="">
+
+                                        </figure>
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+                                                <p>A la medianoche del 8 de julio, en un acto que se llevó a cabo para conmemorar el 208º aniversario de la Declaración de la Independencia, Milei y los gobernadores firmaron un acuerdo compuesto por diez puntos destinados a "refundar el país". Entre los firmantes se destacaron los expresidentes Mauricio Macri y Adolfo Rodríguez Saá, así como un grupo de gobernadores alineados con la visión neoliberal del actual presidente. No obstante, la firma no logró el consenso total: importantes figuras políticas y representantes de distintos sectores se ausentaron, evidenciando la falta de apoyo y legitimidad del pacto.
+                                                </p>
+                                                <br>
+                                                <p>El acto, que el gobierno presentó como un hito histórico, no pudo ocultar la realidad de su rechazo generalizado. Gobernadores como Axel Kicillof de Buenos Aires, Gildo Insfrán de Formosa y Ricardo Quintela de La Rioja, entre otros, se ausentaron, al igual que la vicepresidenta Victoria Villarruel, que alegó un estado gripal. La ausencia de la Corte Suprema y de la CGT también fue notable, reflejando un desdén institucional hacia el acuerdo.
+                                                </p>
+                                                <br>
+                                                <p>La represión en los alrededores del teatro del evento agravó la controversia. La policía provincial reprimió con violencia a militantes que habían convocado un acto con olla popular para expresar su desacuerdo con el gobierno de Milei. Cuatro personas fueron detenidas, entre ellas Jesús Ruiz de Patria Grande, Walter Díaz de ADIUNT, Daniel Leal de la CCC y Peter Delgadino del Frente Barrial 19 de diciembre. Los hechos fueron reportados por medios alternativos, que mostraron una realidad muy diferente a la imagen oficial del evento.
+                                                </p>
+                                                <br>
+                                                <p>En su discurso, Milei hizo hincapié en la necesidad de reformas económicas y sociales que, según él, son imprescindibles para el futuro del país. No obstante, sus críticas a quienes se oponen al pacto y su insistencia en una agenda neoliberal, desestimaron las voces disidentes y exacerbaron la polarización. El presidente acusó a sus detractores de intentar boicotear su gobierno y de beneficiarse a expensas del sufrimiento general.</p>
+                                                <br>
+                                                <p>El Pacto de Mayo, en lugar de consolidar un acuerdo nacional, se ha convertido en un símbolo de las divisiones políticas y sociales que caracterizan a la Argentina actual. La falta de consenso y la represión de la disidencia evidencian la falta de legitimidad y el carácter excluyente de las políticas impulsadas por Milei. En definitiva, el acto no ha logrado más que profundizar la fractura en la sociedad argentina, evidenciando la resistencia de un gobierno que parece más interesado en imponer su agenda que en construir verdaderos consensos.
+                                                </p>
+                                                <br>
+                                                
+                                                
+
+                                                <div class="text-start object-center">
+                                                    {{-- <figure>
+                                                        <img class="w-28 h-28  "
+                                                            src="{{ asset('../img/der/Adri.svg') }}" alt="">
+
+                                                        <p> <strong>Adriana Zerdín</strong></p>
+
+                                                    </figure> --}}
+                                                </div>
+                                            </div>
+                                </article>
+                            </li>
+                        </ul>
+                    </div>
+
+
+                    {{-- columna de la derecha chica --}}
+                    <aside>
+                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                            <div class=" col-span-6">
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/baner-leg1.png') }}"
+                                        alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/APSE.gif') }}" alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
+                                        alt="">
+                                </a>
+
+
+
+                                <div id="app">
+
+                                    <div v-for="item in info">
+
+                                        <div class="flex-col pb-3">
+                                            <div
+                                                class="flex-col max-w-sm  border  border-gray-700 rounded-lg shadow bg-gray-800">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg"
+                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
+                                                        alt="" />
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5
+                                                            class="mb-2 text-2xl font-bold tracking-tight  text-white">
+                                                            @{{ item.title }}</h5>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div v-for="va in clima">
+
+                                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-white">
+                                            @{{ va }}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+
+                </div>
+
+            </section>
+        @elseif ($tituloSep == 'Politica-Noticia-Completa-pol71')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">DENUNCIAN A DIPUTADA LIBERTARIA POR EXTORSIÓN A SUS ASESORES</a>
+                                            {{-- <p class="font-light text-gray-500">Por Daniel Gomez, Politologo.</p>  --}}
+                                        </h2>
+                                        <p class="font-light  text-right text-gray-500">Publicado: 20/07/2024</p>
+                                        <div class=" font-sans text-lg text-left col-span-6  ">
+                                        <p><i>La acusación surge en medio de la polémica por la visita de diputados oficialistas a represores en Ezeiza, incrementando la tensión dentro de La Libertad Avanza.</i>
+                                        </p>
+                                        <br>
+                                        {{-- <article>
+                                            <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/YElDMxWtpio?si=B21D4BO6vjuKVj0Z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                            
+                                        </article> --}}
+                                        <figure>
+                                            <img class="w-full object-cover"
+                                                src="{{ asset('../img/pol/pol_libertaria.svg') }}" alt="">
+
+                                        </figure>
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+                                                <p>La bancada libertaria en el Congreso se enfrenta a una nueva controversia que expone aún más la naturaleza corrupta y opaca de La Libertad Avanza. Esta vez, la denuncia es contra la diputada cordobesa María Celeste Ponce, acusada de extorsionar a sus propios colaboradores. Según el youtuber El Presto, Ponce habría exigido pagos a sus asesores a cambio de contratos. La denuncia llega en un momento crítico, añadiendo combustible a la ya tensa situación generada por la polémica visita de diputados oficialistas a represores en Ezeiza.
+                                                </p>
+                                                <br>
+                                                <p>El Presto reveló en uno de sus streams que Ponce, después de nombrar apresuradamente a un grupo de asesores en diciembre, habría solicitado a una de las denunciantes el pago de 500 mil pesos para asegurar un contrato que le reportaría a la asesora unos 700 mil pesos. Esta maniobra no es más que otro ejemplo de la corrupción y el clientelismo que caracterizan al espacio liderado por Javier Milei.
+                                                </p>
+                                                <br>
+                                                <p>Ponce llegó a la lista de diputados el año pasado por un fuerte pedido desde la cúpula libertaria, respaldada por su agrupación Pumas Libertarios, con una base sólida en el sur de Córdoba. "Vino impuesta e injertada de afuera y hubo que acceder. Y siempre se ponía al frente la relación con el muchacho", comentó una fuente familiarizada con la campaña de Milei en 2023, destacando la falta de transparencia y democracia interna en el armado de listas.
+                                                </p>
+                                                <br>
+                                                <p>Convertida en una de las tres diputadas de La Libertad Avanza junto a Gabriel Bornoroni y Cecilia Ibáñez, Ponce enfrenta ahora serias acusaciones internas. "Si esto crece, va a ser otro tema de fricción que se suma a lo de la visita a los genocidas", afirmó una persona cercana a la bancada que lidera Bornoroni. Este tipo de prácticas corruptas y la falta de ética parecen ser la norma y no la excepción en el espacio libertario.</p>
+                                                <br>
+                                                <p>La situación se complica con la posibilidad de un interbloque con el PRO, una estrategia que Milei siempre ha deseado para consolidar su poder a expensas del verdadero debate y representación democrática. "Es probable, es lo que siempre quiso Milei, que nos juntemos con los amarillos. Estamos en conversaciones", añadió la fuente, subrayando la desesperación por mantenerse a flote en medio de la creciente impopularidad y escándalos.
+                                                </p>
+                                                <br>
+                                                <p>Cecilia Ibáñez, quien se unió al Movimiento de Integración y Desarrollo (MID) en abril, podría distanciarse de Ponce si la denuncia resulta ser cierta. "Si llega a ser así, Cecilia se va a despegar de manera completa de Ponce. Es todo lo contrario a lo que Ibáñez piensa, hace y dice", comentaron desde su entorno, tratando de salvar las apariencias en un espacio plagado de prácticas cuestionables.</p>
+                                                <br>
+                                                <p>La situación en Córdoba se vuelve más crítica, ya que Bornoroni, además de ser jefe de bloque, ha sido apoyado por Karina Milei y Martín Menem para fortalecer el sello de La Libertad Avanza en la provincia. Este conflicto interno ocurre en un contexto donde no habrá elecciones para el Senado ni renovaciones de bancas en la Legislatura provincial el próximo año, complicando aún más el panorama político. Todo esto refleja la incapacidad de La Libertad Avanza para manejarse de manera ética y coherente.</p>
+                                                <br>
+                                                <p>La denuncia contra Ponce y la tensión creciente dentro de La Libertad Avanza podrían tener repercusiones significativas en el futuro político del partido, exponiendo la corrupción y la falta de transparencia que impera en sus filas. Es imperativo que la justicia y la sociedad civil actúen con firmeza para desenmascarar y sancionar estas prácticas, asegurando que el verdadero espíritu democrático y representativo prevalezca.</p>
+                                                <br>
+                                                
+                                                
+
+                                                <div class="text-start object-center">
+                                                    {{-- <figure>
+                                                        <img class="w-28 h-28  "
+                                                            src="{{ asset('../img/der/Adri.svg') }}" alt="">
+
+                                                        <p> <strong>Adriana Zerdín</strong></p>
+
+                                                    </figure> --}}
+                                                </div>
+                                            </div>
+                                </article>
+                            </li>
+                        </ul>
+                    </div>
+
+
+                    {{-- columna de la derecha chica --}}
+                    <aside>
+                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                            <div class=" col-span-6">
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/baner-leg1.png') }}"
+                                        alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/APSE.gif') }}" alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
+                                        alt="">
+                                </a>
+
+
+
+                                <div id="app">
+
+                                    <div v-for="item in info">
+
+                                        <div class="flex-col pb-3">
+                                            <div
+                                                class="flex-col max-w-sm  border  border-gray-700 rounded-lg shadow bg-gray-800">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg"
+                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
+                                                        alt="" />
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5
+                                                            class="mb-2 text-2xl font-bold tracking-tight  text-white">
+                                                            @{{ item.title }}</h5>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div v-for="va in clima">
+
+                                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-white">
+                                            @{{ va }}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+
+                </div>
+
+            </section>
+        @elseif ($tituloSep == 'Politica-Noticia-Completa-pol72')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">MILEI DESVÍA FONDOS MILLONARIOS A LA SIDE MIENTRAS LA SOCIEDAD SUFRE AJUSTES</a>
+                                            {{-- <p class="font-light text-gray-500">Por Daniel Gomez, Politologo.</p>  --}}
+                                        </h2>
+                                        <p class="font-light  text-right text-gray-500">Publicado: 24/07/2024</p>
+                                        <div class=" font-sans text-lg text-left col-span-6  ">
+                                        <p><i>El gobierno de Javier Milei asigna $100 mil millones a la SIDE mientras la población enfrenta severos recortes y dificultades económicas.</i>
+                                        </p>
+                                        <br>
+                                        {{-- <article>
+                                            <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/YElDMxWtpio?si=B21D4BO6vjuKVj0Z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                            
+                                        </article> --}}
+                                        <figure>
+                                            <img class="w-full object-cover"
+                                                src="{{ asset('../img/pol/pol_desvio.svg') }}" alt="">
+
+                                        </figure>
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+                                                <p>La reciente decisión del gobierno de Javier Milei de asignar $100 mil millones a la Secretaría de Inteligencia del Estado (SIDE), anunciada mediante el Decreto 656/2024, ha generado una fuerte polémica. Este significativo desembolso ocurre en un contexto de ajuste fiscal que impacta severamente a la población, evidenciado por altos niveles de desocupación y pobreza.
+                                                </p>
+                                                <br>
+                                                <p>La resolución establece la reedición de la SIDE, reemplazando a la Agencia Federal de Inteligencia (AFI). La medida, descrita como parte de una reforma del Sistema de Inteligencia Nacional (SIN), tiene como objetivo fortalecer los mecanismos de coordinación entre los distintos organismos de inteligencia del país. Según el decreto, el propósito es “proteger la soberanía nacional, preservar el orden constitucional y proporcionar apreciaciones de inteligencia útiles para los objetivos nacionales”.
+                                                </p>
+                                                <br>
+                                                <p>La SIDE, bajo la dependencia directa de Milei, supervisará la operación de cuatro nuevas agencias: el Servicio de Inteligencia Argentino (SIA), la Agencia de Seguridad Nacional (ASN), la Agencia Federal de Inteligencia (AFC) y la División de Asuntos Internos (DAI). Cada una de estas entidades tiene funciones específicas, que van desde la recopilación de información estratégica hasta la supervisión de recursos.
+                                                </p>
+                                                <br>
+                                                <p>Desde la asunción de Milei, los gastos reservados en inteligencia han aumentado un 391%. El decreto establece que los $100 mil millones asignados serán de carácter reservado, sin necesidad de rendir cuentas. Esta cifra se destinará a la reorganización y funcionamiento de la SIDE y sus agencias asociadas, en un contexto donde el gobierno ha priorizado el ajuste económico sobre el bienestar social.</p>
+                                                <br>
+                                                <p>El artículo 1 del decreto menciona que los fondos se asignan para el fortalecimiento del Sistema de Inteligencia Nacional, mientras que el segundo artículo subraya el carácter reservado de los recursos. La firma del decreto cuenta con el respaldo de figuras clave del gobierno, incluidos el presidente Javier Milei y varios ministros de su gabinete.
+                                                </p>
+                                                <br>
+                                                <p>En resumen, la asignación millonaria a la SIDE en un periodo de ajuste severo pone de relieve una contradicción en la política de Milei, que prioriza los gastos en inteligencia mientras enfrenta críticas por la creciente pobreza y desocupación en el país.</p>
+                                                <br>
+                                                
+                                                
+                                                
+
+                                                <div class="text-start object-center">
+                                                    {{-- <figure>
+                                                        <img class="w-28 h-28  "
+                                                            src="{{ asset('../img/der/Adri.svg') }}" alt="">
+
+                                                        <p> <strong>Adriana Zerdín</strong></p>
+
+                                                    </figure> --}}
+                                                </div>
+                                            </div>
+                                </article>
+                            </li>
+                        </ul>
+                    </div>
+
+
+                    {{-- columna de la derecha chica --}}
+                    <aside>
+                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                            <div class=" col-span-6">
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/baner-leg1.png') }}"
+                                        alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/APSE.gif') }}" alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
+                                        alt="">
+                                </a>
+
+
+
+                                <div id="app">
+
+                                    <div v-for="item in info">
+
+                                        <div class="flex-col pb-3">
+                                            <div
+                                                class="flex-col max-w-sm  border  border-gray-700 rounded-lg shadow bg-gray-800">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg"
+                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
+                                                        alt="" />
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5
+                                                            class="mb-2 text-2xl font-bold tracking-tight  text-white">
+                                                            @{{ item.title }}</h5>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div v-for="va in clima">
+
+                                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-white">
+                                            @{{ va }}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+
+                </div>
+
+            </section>
+        @elseif ($tituloSep == 'Politica-Noticia-Completa-pol73')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">KICILLOF DEFENDIÓ A BUENOS AIRES EN LA DISPUTA POR LA PLANTA DE GNL</a>
+                                            {{-- <p class="font-light text-gray-500">Por Daniel Gomez, Politologo.</p>  --}}
+                                        </h2>
+                                        <p class="font-light  text-right text-gray-500">Publicado: 25/07/2024</p>
+                                        <div class=" font-sans text-lg text-left col-span-6  ">
+                                        <p><i>El gobernador Axel Kicillof enfrenta una maniobra política del presidente Javier Milei que pone en riesgo el desarrollo estratégico de Buenos Aires. La disputa por la ubicación de la planta de Gas Natural Licuado (GNL) destaca la diferencia entre el compromiso regional de Kicillof y las tácticas de Milei.</i>
+                                        </p>
+                                        <br>
+                                        {{-- <article>
+                                            <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/YElDMxWtpio?si=B21D4BO6vjuKVj0Z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                            
+                                        </article> --}}
+                                        <figure>
+                                            <img class="w-full object-cover"
+                                                src="{{ asset('../img/pol/pol_kicignl.svg') }}" alt="">
+
+                                        </figure>
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+                                                <p>Uno de los proyectos más significativos en términos de desarrollo estratégico y inversiones de los últimos años es la planta de Gas Natural Licuado (GNL), promovida por YPF y la petrolera malaya Petronas. La iniciativa, que consiste en construir una planta de licuefacción de gas proveniente del yacimiento Vaca Muerta, promete una importante entrada de divisas extranjeras a Argentina al facilitar la exportación de gas.
+                                                </p>
+                                                <br>
+                                                <p>A pesar de que las condiciones estructurales indican que Bahía Blanca sería la ubicación ideal para la planta debido a su infraestructura portuaria y cercanía con los nodos de distribución, el presidente Javier Milei ha propuesto trasladar el proyecto a Punta Colorada, en la provincia de Río Negro. Esta decisión, lejos de responder a consideraciones técnicas, tiene motivaciones puramente políticas.
+                                                </p>
+                                                <br>
+                                                <p>Milei busca disciplinar a Axel Kicillof, gobernador de Buenos Aires y principal referente de la oposición, como represalia por su rechazo a adherir al Régimen de Incentivo a las Grandes Inversiones (RIGI), una política impulsada por Milei que ha sido ampliamente criticada por su impacto negativo en el desarrollo equilibrado del país.
+                                                </p>
+                                                <br>
+                                                <p>El proyecto original, impulsado durante el gobierno de Alberto Fernández, contemplaba la construcción de la planta en Bahía Blanca. Esta ubicación ofrecía ventajas logísticas cruciales para el desarrollo del proyecto, que requiere una inversión histórica de 50.000 millones de dólares. Sin embargo, el cambio de gobierno y la inclusión del RIGI en el paquete de leyes fiscales detuvieron el avance del proyecto.</p>
+                                                <br>
+                                                <p>El gobierno de Kicillof se opuso al RIGI, presentando en su lugar un sistema tributario alternativo que busca proteger los intereses de Buenos Aires y asegurar que las inversiones generen beneficios claros para la provincia. Kicillof ha señalado que las exportaciones desde Buenos Aires representarían la mitad de las exportaciones del país, subrayando la importancia estratégica de su propuesta.
+                                                </p>
+                                                <br>
+                                                <p>Mientras tanto, Milei, al apoyar la ubicación en Río Negro, ha criticado a Kicillof, tildándolo de “comunista expropiador” y buscando beneficiar al gobernador de Río Negro, Alberto Weretilneck, quien ha prometido un puerto privado para la planta. Sin embargo, la provincia patagónica no cuenta con la infraestructura necesaria, y la construcción de un puerto en esa región implicaría costos adicionales significativos.</p>
+                                                <br>
+                                                <p>A pesar de los desafíos, Kicillof se mantiene firme en su posición, confiando en que YPF y Petronas evaluarán la conveniencia técnica y económica de la ubicación del proyecto con total profesionalismo. Su postura destaca su compromiso con los derechos de Buenos Aires y su rechazo a las políticas perjudiciales de Milei, reafirmando su papel como defensor de los intereses de su provincia frente a las maniobras políticas del gobierno nacional.</p>
+                                                <br>
+                                                
+                                                
+
+                                                <div class="text-start object-center">
+                                                    {{-- <figure>
+                                                        <img class="w-28 h-28  "
+                                                            src="{{ asset('../img/der/Adri.svg') }}" alt="">
+
+                                                        <p> <strong>Adriana Zerdín</strong></p>
+
+                                                    </figure> --}}
+                                                </div>
+                                            </div>
+                                </article>
+                            </li>
+                        </ul>
+                    </div>
+
+
+                    {{-- columna de la derecha chica --}}
+                    <aside>
+                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                            <div class=" col-span-6">
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/baner-leg1.png') }}"
+                                        alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/APSE.gif') }}" alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
+                                        alt="">
+                                </a>
+
+
+
+                                <div id="app">
+
+                                    <div v-for="item in info">
+
+                                        <div class="flex-col pb-3">
+                                            <div
+                                                class="flex-col max-w-sm  border  border-gray-700 rounded-lg shadow bg-gray-800">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg"
+                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
+                                                        alt="" />
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5
+                                                            class="mb-2 text-2xl font-bold tracking-tight  text-white">
+                                                            @{{ item.title }}</h5>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div v-for="va in clima">
+
+                                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-white">
+                                            @{{ va }}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+
+                </div>
+
+            </section>
         @endif
 
     </div>

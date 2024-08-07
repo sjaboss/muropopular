@@ -1,5 +1,86 @@
 <x-app-layout>
     <div class="container ">
+        {{-- CAMPEÓN EN TIERRA AJENA, LA COPA AMÉRICA ES NUESTRA  --}}
+    <section>
+        <ul>
+            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                <article>
+
+                    <div class="py-4 px-4 justify-between items-center">
+                        <h2 class="text-xl font-serif  font-bold pb-6">
+                            <a href="">CAMPEÓN EN TIERRA AJENA, LA COPA AMÉRICA ES NUESTRA
+                            </a>
+                            <p class="font-light  text-right text-gray-500">Publicado: 16/07/2024</p>
+                        </h2>
+                        <p><i>Argentina conquista la Copa América en Miami con una victoria ajustada pero gloriosa frente a Colombia, marcando un bicampeonato y reafirmando su dominio en el continente.</i>
+                    </p>
+                        <br>
+                        <figure>
+                            <img class="w-full object-cover"
+                                src="{{ asset('../img/dep/dep_campeon.svg') }}" alt="">
+
+                        </figure>
+                        <br>
+                        <div
+                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                            <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                <p>La euforia de los hinchas argentinos se desbordó en el Obelisco y en cada rincón del país, festejando un triunfo que nos llena de orgullo y renueva nuestras esperanzas futbolísticas. El camino hacia esta victoria, sin embargo, no estuvo exento de desafíos y polémicas.
+                                </p>
+                                <br>
+                                <p><b>Una Organización en Jaque</b></p>
+                                <br>
+                                <p><b>El Héroe de la Noche</b>
+                                </p>
+                                <br>
+                                <p>Lautaro Martínez, máximo goleador de la Copa con cinco tantos, definió por encima del arquero colombiano Camilo Vargas, sellando el 1-0 definitivo y asegurando el título para Argentina. Su gol no solo le dio la victoria al equipo, sino que también se convirtió en el momento decisivo de la noche.</p>
+                                <br>
+                                <p><b>Un Partido Complejo</b></p>
+                                <br>
+                                <p>El encuentro contra Colombia, dirigido por el argentino Néstor Lorenzo, fue intenso y lleno de momentos de tensión. Con un planteamiento basado en la posesión y salidas pausadas, Colombia complicó a la Albiceleste durante los primeros 25 minutos. Lionel Messi, visiblemente afectado físicamente, no pudo desplegar su magia habitual, y Ángel Di María, en su último partido con la selección, encontró dificultades para desequilibrar a la sólida defensa rival.</p>
+                                <br>
+                                <p><b>Segunda Mitad y Suplementario</b></p>
+                                <br>
+                                <p>La segunda mitad mostró una mejora en el juego argentino, con una posesión más equilibrada y varias ocasiones de peligro, aunque sin la contundencia necesaria para romper el empate. Las lesiones de Messi y Gonzalo Montiel fueron golpes duros, pero las entradas de Nahuel Molina y Nicolás González revitalizaron al equipo.</p>
+                                <br>
+                                <p>Durante el tiempo suplementario, Argentina continuó cediendo la posesión pero mantuvo el control táctico del partido. Los ingresos de Lautaro Martínez, Leandro Paredes y Giovanni Lo Celso cambiaron nuevamente la dinámica, y finalmente, un rápido contragolpe culminó en el gol de Martínez, desatando la alegría en los corazones argentinos.</p>
+                                <br>
+                                <p><b>Estadísticas y Legado</b></p>
+                                <br>
+                                <p>Los números fríos dirán que Argentina tuvo solo el 44% de la posesión y generó menos situaciones de gol que su rival. Sin embargo, lo verdaderamente importante es que obtuvimos nuestra 16ª Copa América, consolidando nuestro lugar en lo más alto del fútbol continental. Además, cortamos una racha de 28 partidos invictos de Colombia, subrayando la magnitud de nuestro logro.</p>
+                                <br>
+                                <p><b>Un Futuro Prometedor y Despedidas Emotivas</b></p>
+                                <br>
+                                <p>Este triunfo no solo asegura un lugar en la Finalissima 2025 contra España, sino que también marca el cierre de una etapa gloriosa para varios de nuestros jugadores. Di María y Franco Armani se despidieron del seleccionado, y otros como Nicolás Otamendi, Germán Pezzella, Guido Rodríguez y quizás Messi, podrían seguir sus pasos antes del Mundial 2026.</p>
+                                <br>
+                                <p><b>Reflexión y Celebración</b></p>
+                                <br>
+                                <p>En tiempos difíciles, este triunfo nos ofrece una razón para celebrar y sentir orgullo. La bandera albiceleste ondea en lo más alto del continente, recordándonos que, a pesar de los desafíos, siempre encontramos la manera de prevalecer.</p>
+                                <br>
+                                
+                                <div class="text-start object-center">
+                                    {{-- <figure>
+                                        <img class="w-28 h-28  "
+                                            src="{{ asset('../img/noteros/gus.svg') }}"
+                                            alt="">
+                                        <p> <strong>Por Gustavo Cano<strong></p>
+
+                                        <p><strong><strong></p>
+
+                                    </figure> --}}
+                                </div>
+
+
+                            </div>
+
+
+
+                        </div>
+                    </div>
+                </article>
+            </li>
+        </ul>
+    </section>
         {{-- ARGENTINA INICIA SU DEFENSA DEL TÍTULO EN LA COPA AMÉRICA CON UNA VICTORIA SÓLIDA  --}}
     <section>
         <ul>
