@@ -1,5 +1,64 @@
 <x-app-layout>
     <div class="container ">
+        {{--MASIVA MARCHA CONTRA LA CRISIS DE MILEI....--}}
+    <section> 
+        <ul>
+            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                <article>
+
+                    <div class="py-4 px-4 justify-between items-center">
+                        <h2 class="text-xl font-serif  font-bold pb-6">
+                            <a href="">MASIVA MARCHA CONTRA LA CRISIS DE MILEI</a>
+                            {{-- <p class="font-light  text-lef text-gray-500">Por Emanuel Corrado</p> --}}
+                        </h2>
+                        <p class="font-light  text-right text-gray-500">Publicado: 08/08/2024</p>
+                        <div class=" font-sans text-lg text-left col-span-6  ">
+                        <p><i>La CGT, las CTA y movimientos sociales marcharon desde San Cayetano a Plaza de Mayo, denunciando la crisis social y laboral que afecta a millones de argentinos bajo la gestión de Javier Milei.</i>
+                        </p>
+                        <br>
+                        <figure>
+                            <img class="w-full object-cover" src="../img/soc/soc_cayetano2.svg"
+                                alt="">
+                        </figure>
+                        
+                        {{-- <article>
+                            <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/GeOVAG1Bfz8?si=r2ihOrxI6uEWI0IU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            
+                        </article> --}}
+                        <br>
+                        <div
+                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                            <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                <p>En una jornada marcada por la protesta social, movimientos sociales, la CGT, las CTA y diversos partidos políticos protagonizaron una masiva marcha desde el Santuario de San Cayetano en Liniers hasta la Plaza de Mayo, denunciando la crisis social y laboral bajo el gobierno de Javier Milei. 
+                                </p>
+                                <br>
+                                <p>Desde temprano, la Ciudad de Buenos Aires fue escenario de la resistencia, comenzando con una ceremonia religiosa encabezada por el arzobispo porteño Jorge García Cuerva y el vicario general Gustavo Carrara. La peregrinación avanzó por la Avenida Rivadavia, culminando en Plaza de Mayo con un acto central donde se leyó un documento crítico hacia la gestión actual. Las organizaciones denunciaron una “emergencia alimentaria, social y laboral” que afecta a millones de argentinos.</p>
+                                <br>
+                                <p>Pablo Moyano, cosecretario general de la CGT, destacó que esta movilización es parte de un plan de lucha que se intensificará si el gobierno no cambia su rumbo. Criticó a Manuel Adorni, vocero presidencial, y al ministro de Desregulación, Federico Sturzenegger, por presentar una imagen distorsionada del país. Silvia Saravia, dirigente nacional de Libres del Sur, expresó la necesidad de “echar a Milei” debido a la crueldad de sus políticas.</p>
+                                <br>
+                                <p>La marcha también contó con la participación de figuras como Rodolfo Aguiar de la ATE, quien informó sobre un paro con acatamiento superior al 90%, y Juan Grabois, de Patria Grande, quien abogó por una “resistencia no violenta” y rechazó la baja de la edad de imputabilidad. Esteban “Gringo” Castro, de la UTEP, elogió el apoyo del Papa Francisco y destacó la participación de las Madres de Plaza de Mayo.</p>
+                                <br>
+                                <p>La marcha de San Cayetano reflejó la creciente resistencia y la demanda de cambio frente a la crisis que vive Argentina bajo el gobierno de Milei, mostrando una vez más la capacidad de movilización y unidad de los sectores sociales y sindicales en defensa de los derechos fundamentales de la población.</p>
+                                <br>
+                                
+                                <div class="text-start object-center">
+                                    {{-- <figure>
+                                        <img class="w-28 h-28  "
+                                            src="{{ asset('../img/der/Adri.svg') }}"
+                                            alt="">
+                                        
+                                        <p> <strong>Nota de Adriana Zerdín</strong></p>
+
+                                    </figure>  --}}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </li>
+        </ul>
+    </section>
         {{--VIGILANCIA TOTALITARIA: LA NUEVA....--}}
     <section> 
         <ul>

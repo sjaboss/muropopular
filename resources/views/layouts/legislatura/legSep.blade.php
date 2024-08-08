@@ -5789,6 +5789,111 @@
                 </div>
 
             </section>
+        @elseif ($tituloSep == 'Legislatura-Noticia-Completa-leg47')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">LA LEGISLATURA DECLARÓ DE INTERÉS AL PROYECTO ‘BAR DE VIEJES’</a>
+                                        </h2>
+                                        <p class="font-light  text-right text-gray-500">Publicado: 08/08/2024</p>
+                                        <p><i>El Cuerpo Legislativo resaltó la iniciativa que pone en valor a los bares de la Ciudad de Buenos Aires.</i></p>
+                                        <br>
+                                        <figure>
+                                            <a href="">
+                                                <img class="w-full object-cover object-center"
+                                                    src="{{ asset('../img/leg/leg_viejes2.svg') }}" alt="">
+                                            </a>
+                                        </figure>
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                                <p>Los diputados de la Ciudad declararon de Interés Cultural al proyecto ‘Bar de Viejes’. El acto se llevó a cabo en el Salón Montevideo y contó con la presencia del legislador y autor de la declaración, Matías Barroetaveña; la creadora de la iniciativa, Martina Sofía Alfuso; la poeta, Belén Nahuz; el licenciado en Diseño del Paisaje, Fabio Márquez; y el artista plástico, Patricio Larrambebere.</p>
+                                                <br>
+                                                <p>Luego de dar la bienvenida y de explicar el trámite legislativo del proyecto de declaración, Barroetavela declaró: “Lo que nosotros buscamos es enviar mensajes, poder señalar lo que el pueblo de la Ciudad de Buenos Aires valora, en relación al tipo de comunidad y sociedad que queremos construir”. Y señaló la importancia de los bares en la configuración de la Ciudad.</p>
+                                                <br>
+                                                <p>“Gracias a los bares, que siempre hacen que tenga un camino para volver a casa. En los bares, las personas nos encontramos para construir un mundo sin resultados; parece tonto, pero hoy en este mundo del algoritmo es revolucionario”, estableció finalmente Alfuso. Y lo calificó como el “espacio de la justa banalidad, de generalidades compartidas” y el lugar de las “personas sin plan, sin agenda y que repiten sistemáticamente la misma ceremonia”.
+                                                </p>
+                                                <br>
+                                                <p>‘Bar de viejes’ es un proyecto cultural que nació hace más de 5 años con el objetivo de poner en valor una práctica cultural porteña, que es ir al bar. A través de diferentes iniciativas comunicacionales, artículos, mapas interactivos, encuentros y actividades artísticas, propone una nueva topografía de la Ciudad de Buenos Aires; en cuyo centro se encuentran aquellos bares que conforman parte de la identidad de la ciudad, según su creadora, los “cafés de toda la vida”. El proyecto representa un aporte en la preservación y difusión del patrimonio gastronómico local. Además, brinda nuevas maneras de habitar los espacios de café a través del arte y se ha convertido en salvaguarda de parte de la historia de nuestra Ciudad.
+                                                </p>
+                                                <br>
+                                                
+                                                
+                                            </div>
+
+
+
+                                        </div>
+                                    </div>
+                                </article>
+                            </li>
+                        </ul>
+                        <br>
+
+                    </div>
+
+
+                    {{-- columna de la derecha chica --}}
+                    <aside>
+                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                            <div class=" col-span-6">
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/bener-leg2.png') }}"
+                                        alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
+                                        alt="">
+                                </a>
+
+                                <div id="app">
+
+                                    <div v-for="item in info">
+
+                                        <div class="flex-col pb-3">
+                                            <div
+                                                class="flex-col max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg"
+                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
+                                                        alt="" />
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5
+                                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                                            @{{ item.title }}</h5>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div v-for="va in clima">
+
+                                        <h5
+                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                            @{{ va }}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+
+                </div>
+
+            </section>
         @endif
 
     </div>
@@ -5811,7 +5916,7 @@
                 mounted() {
 
 
-                    axios.get("https://api.dailymotion.com/videos?channel=news&limit=3")
+                    axios.get("https://api.dailymotion.com/videos?channel=news&limit=2")
                         .then(response => {
                             this.info = response.data.list
                         });
