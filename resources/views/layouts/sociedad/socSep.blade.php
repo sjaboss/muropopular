@@ -10609,6 +10609,118 @@
                     </aside>
                 </div>
             </section>
+        @elseif ($tituloSep == 'Sociedad-Noticia-Completa-soc84')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">FIRMAN CONVENIO PARA COMBATIR LA TRATA DE PERSONAS EN BUENOS AIRES</a>
+                                            {{-- <p class="font-light  text-lef text-gray-500">Por Emanuel Corrado</p> --}}
+                                        </h2>
+                                        <p class="font-light  text-right text-gray-500">Publicado: 09/08/2024</p>
+                                        <div class=" font-sans text-lg text-left col-span-6  ">
+                                        <p><i>Walter Correa y Juan Martín Mena suscriben un acuerdo para intensificar la lucha contra la trata y explotación de personas en la Provincia. La colaboración incluye acciones conjuntas para la prevención, detección y asistencia a víctimas.</i>
+                                        </p>
+                                        <br>
+                                        <figure>
+                                            <img class="w-full object-cover" src="../img/soc/soc_convenio.svg"
+                                                alt="">
+                                        </figure>
+                                        
+                                        {{-- <article>
+                                            <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/GeOVAG1Bfz8?si=r2ihOrxI6uEWI0IU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                            
+                                        </article> --}}
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                                <p>En un importante paso para fortalecer la lucha contra la trata de personas y la explotación sexual infantil, los ministros Walter Correa y Juan Martín Mena firmaron un convenio de colaboración. El acuerdo permitirá coordinar esfuerzos entre el Ministerio de Trabajo y el de Justicia de la Provincia de Buenos Aires para mejorar la prevención, detección y persecución de estos delitos. Además, se enfocará en proporcionar asistencia integral a las víctimas. 
+                                                </p>
+                                                <br>
+                                                <p>Durante la firma del convenio, realizada en el Auditorio "Hebe de Bonafini" de la Secretaría de Derechos Humanos, Correa destacó el notable aumento en las inspecciones realizadas en la Provincia, que han crecido un 150% en el último año y medio. "El compromiso y trabajo de los empleados del Estado bonaerense han sido fundamentales para este incremento. Estamos abordando la trata y explotación de forma integral, colaborando directamente en los territorios y con organizaciones sindicales", afirmó Correa.</p>
+                                                <br>
+                                                <p>Por su parte, Mena enfatizó la importancia del convenio para fortalecer la capacitación de los inspectores y mejorar el monitoreo de los protocolos existentes. “Este acuerdo permitirá diseñar y ejecutar nuevas campañas de sensibilización y concientización, así como optimizar la asistencia a las víctimas”, señaló Mena.</p>
+                                                <br>
+                                                <p>El evento también incluyó la Plenaria 2024 de la Oficina para la Lucha contra la Trata de Personas, que reunió a representantes de diversos organismos y organizaciones civiles. Esta colaboración interinstitucional busca garantizar una respuesta efectiva y coordinada frente a estos graves delitos en la Provincia de Buenos Aires.</p>
+                                                <br>
+                                                
+                                                
+                                                <div class="text-start object-center">
+                                                    {{-- <figure>
+                                                        <img class="w-28 h-28  "
+                                                            src="{{ asset('../img/der/Adri.svg') }}"
+                                                            alt="">
+                                                        
+                                                        <p> <strong>Nota de Adriana Zerdín</strong></p>
+
+                                                    </figure>  --}}
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+                            </li>
+                        </ul>
+                        <br>
+                    </div>
+
+
+                    {{-- columna de la derecha chica --}}
+                    <aside>
+                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                            <div class=" col-span-6">
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/bener-leg2.png') }}"
+                                        alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
+                                        alt="">
+                                </a>
+
+                                <div id="app">
+
+                                    <div v-for="item in info">
+
+                                        <div class="flex-col pb-3">
+                                            <div
+                                                class="flex-col max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg"
+                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
+                                                        alt="" />
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5
+                                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                                            @{{ item.title }}</h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div v-for="va in clima">
+
+                                        <h5
+                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                            @{{ va }}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+                </div>
+            </section>
     @endif
 
     </div>

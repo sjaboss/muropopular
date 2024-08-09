@@ -1,5 +1,51 @@
 <x-app-layout>
     <div class="container ">
+        {{--LA LEGISLATURA PORTEÑA RECONOCE A NADIAH DEMARCO Y A RGC EDICIONES --}}
+        <section >
+            <ul>
+                <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                    <article>
+
+                        <div class="py-4 px-4 justify-between items-center">
+                            <h2 class="text-xl font-serif  font-bold pb-6">
+                                <a href="">LA LEGISLATURA PORTEÑA RECONOCE A NADIAH DEMARCO Y A RGC EDICIONES</a>
+                            </h2>
+                            <p class="font-light  text-right text-gray-500">Publicado: 09/08/2024</p>
+                            <p><i>En un emotivo acto, se destacó la trayectoria cultural y el compromiso social de la cantante y del proyecto editorial especializado en políticas culturales.</i></p>
+                            <br>
+                            <figure>
+                                <a href="">
+                                    <img class="w-full object-cover object-center"
+                                        src="{{ asset('../img/leg/leg_demarco2.svg') }}" alt="">
+                                </a>
+                            </figure>
+                            <br>
+                            <div
+                                class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                    <p>La Legislatura de la Ciudad de Buenos Aires reconoció el trabajo y la trayectoria de dos importantes actores de la cultura argentina. Por un lado, la cantante Nadiah Demarco fue declarada Personalidad Destacada en el ámbito de la Cultura. Por otro, RGC Ediciones fue declarado de Interés Cultural por su aporte en la gestión y políticas culturales.</p>
+                                    <br>
+                                    <p>Nadiah Demarco, quien recibió su reconocimiento en el Salón San Martín del Palacio Legislativo, fue destacada no solo por su talento artístico y su labor en la difusión del bolero, sino también por su fuerte compromiso social. El diputado Alejandro Grillo, autor del proyecto, resaltó la importancia de su labor en la defensa de los derechos de los trabajadores y su rol en el Comité de Discapacidad. Demarco, a su vez, recordó con emoción sus inicios en la música y la importancia del bolero en la cultura argentina.</p>
+                                    <br>
+                                    <p>En otro acto realizado en el Salón Presidente Alfonsín, RGC Ediciones fue declarado de Interés Cultural. La legisladora María Bielli, impulsora del reconocimiento, subrayó la relevancia de esta editorial en la construcción de políticas culturales más democráticas e inclusivas. RGC Ediciones, gestionada por la Asociación Civil por los Derechos Culturales, ha sido un referente en la capacitación y articulación de políticas culturales en Argentina y América Latina.
+                                    </p>
+                                    <br>
+                                    <p>Estos reconocimientos reflejan el compromiso de la Legislatura porteña con la promoción de la cultura y el apoyo a quienes, desde diferentes ámbitos, contribuyen al enriquecimiento cultural y social de la ciudad y del país.
+                                    </p>
+                                    <br>
+                                    
+                                    
+                                </div>
+
+
+
+                            </div>
+                        </div>
+                    </article>
+                </li>
+            </ul>
+        </section>
         {{--LA LEGISLATURA DECLARÓ DE INTERÉS AL PROYECTO ‘BAR DE VIEJES’ --}}
         <section >
             <ul>

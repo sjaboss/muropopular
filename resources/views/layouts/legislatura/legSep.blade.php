@@ -5894,6 +5894,111 @@
                 </div>
 
             </section>
+        @elseif ($tituloSep == 'Legislatura-Noticia-Completa-leg48')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">LA LEGISLATURA PORTEÑA RECONOCE A NADIAH DEMARCO Y A RGC EDICIONES</a>
+                                        </h2>
+                                        <p class="font-light  text-right text-gray-500">Publicado: 09/08/2024</p>
+                                        <p><i>En un emotivo acto, se destacó la trayectoria cultural y el compromiso social de la cantante y del proyecto editorial especializado en políticas culturales.</i></p>
+                                        <br>
+                                        <figure>
+                                            <a href="">
+                                                <img class="w-full object-cover object-center"
+                                                    src="{{ asset('../img/leg/leg_demarco2.svg') }}" alt="">
+                                            </a>
+                                        </figure>
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                                <p>La Legislatura de la Ciudad de Buenos Aires reconoció el trabajo y la trayectoria de dos importantes actores de la cultura argentina. Por un lado, la cantante Nadiah Demarco fue declarada Personalidad Destacada en el ámbito de la Cultura. Por otro, RGC Ediciones fue declarado de Interés Cultural por su aporte en la gestión y políticas culturales.</p>
+                                                <br>
+                                                <p>Nadiah Demarco, quien recibió su reconocimiento en el Salón San Martín del Palacio Legislativo, fue destacada no solo por su talento artístico y su labor en la difusión del bolero, sino también por su fuerte compromiso social. El diputado Alejandro Grillo, autor del proyecto, resaltó la importancia de su labor en la defensa de los derechos de los trabajadores y su rol en el Comité de Discapacidad. Demarco, a su vez, recordó con emoción sus inicios en la música y la importancia del bolero en la cultura argentina.</p>
+                                                <br>
+                                                <p>En otro acto realizado en el Salón Presidente Alfonsín, RGC Ediciones fue declarado de Interés Cultural. La legisladora María Bielli, impulsora del reconocimiento, subrayó la relevancia de esta editorial en la construcción de políticas culturales más democráticas e inclusivas. RGC Ediciones, gestionada por la Asociación Civil por los Derechos Culturales, ha sido un referente en la capacitación y articulación de políticas culturales en Argentina y América Latina.
+                                                </p>
+                                                <br>
+                                                <p>Estos reconocimientos reflejan el compromiso de la Legislatura porteña con la promoción de la cultura y el apoyo a quienes, desde diferentes ámbitos, contribuyen al enriquecimiento cultural y social de la ciudad y del país.
+                                                </p>
+                                                <br>
+                                                
+                                                
+                                            </div>
+
+
+
+                                        </div>
+                                    </div>
+                                </article>
+                            </li>
+                        </ul>
+                        <br>
+
+                    </div>
+
+
+                    {{-- columna de la derecha chica --}}
+                    <aside>
+                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                            <div class=" col-span-6">
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/bener-leg2.png') }}"
+                                        alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
+                                        alt="">
+                                </a>
+
+                                <div id="app">
+
+                                    <div v-for="item in info">
+
+                                        <div class="flex-col pb-3">
+                                            <div
+                                                class="flex-col max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg"
+                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
+                                                        alt="" />
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5
+                                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                                            @{{ item.title }}</h5>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div v-for="va in clima">
+
+                                        <h5
+                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                            @{{ va }}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+
+                </div>
+
+            </section>
         @endif
 
     </div>
