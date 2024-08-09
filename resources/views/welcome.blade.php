@@ -471,7 +471,7 @@
                             <div class=" mt-4 col-span-6">
 
                                 <a href="" class="object-cover object-center h-35  " width="200">
-                                    <img class="pb-3" src="{{ asset('img/publi/Recurso 1.png') }}" alt="">
+                                    <img class="pb-3" src="{{ asset('img/publi/bener-leg2.png') }}" alt="">
                                 </a>
 
                                 <a href="" class="object-cover object-center " width="200">
