@@ -41,43 +41,44 @@
         <!-- Nota 1 -->
         <div class="rounded-lg border shadow border-emerald-600 p-2">
                 @php
-                $tituloSep = 'Sociedad-Noticia-Completa-soc84#soc84';
+                $tituloSep = 'Derechos-Humanos-Noticia-Completa-der28#der28';
                 @endphp
-                <a href="{{ route('sociedadSep.show', $tituloSep) }}">
+                <a href="{{ route('derechoSep.show', $tituloSep) }}">
                     <img class="h-48 w-full object-cover object-center rounded-lg"
-                        src="{{ asset('../img/soc/soc_convenio.svg') }}" alt="Imagen Nota 1">
+                        src="{{ asset('../img/der/der_genocidas1.svg') }}" alt="Imagen Nota 1">
                 </a>
             <div class="py-4 px-6">
                 <h1 class="text-lg font-serif">
-                    <a href="{{ route('sociedadSep.show', $tituloSep) }}">
-                        FIRMAN CONVENIO PARA COMBATIR LA TRATA DE PERSONAS EN BUENOS AIRES
+                    <a href="{{ route('derechoSep.show', $tituloSep) }}">
+                        LIBERTARIOS ALIADOS CON GENOCIDAS
                     </a>
                 </h1>
             </div>
             <div class="pt-4 text-white font-light text-right">
-                <p>Publicado: 09/08/2024</p>
+                <p>Publicado: 10/08/2024</p>
             </div>
         </div>
         <!-- Nota 2 -->
-        <div class="rounded-lg border shadow border-emerald-600 p-2">  
-                @php
-                $tituloSep = 'Legislatura-Noticia-Completa-leg48#leg48';
-                @endphp
-                <a href="{{ route('legislaturaSep.show', $tituloSep) }}">
-                    <img class="h-48 w-full object-cover object-center rounded-lg"src="{{ asset('../img/leg/leg_demarco1.svg') }}" alt="Imagen Nota 2">
-                </a>
+        <div class="rounded-lg border shadow border-emerald-600 p-2">
+            @php
+            $tituloSep = 'Sociedad-Noticia-Completa-soc84#soc84';
+            @endphp
+            <a href="{{ route('sociedadSep.show', $tituloSep) }}">
+                <img class="h-48 w-full object-cover object-center rounded-lg"
+                    src="{{ asset('../img/soc/soc_convenio.svg') }}" alt="Imagen Nota 1">
+            </a>
             <div class="py-4 px-6">
-                <h1 class="text-lg font-serif">
-                    <a href="{{ route('legislaturaSep.show', $tituloSep) }}">
-                        LA LEGISLATURA PORTEÑA RECONOCE A NADIAH DEMARCO Y A RGC EDICIONES
-                    </a>
-                </h1>
+            <h1 class="text-lg font-serif">
+                <a href="{{ route('sociedadSep.show', $tituloSep) }}">
+                    FIRMAN CONVENIO PARA COMBATIR LA TRATA DE PERSONAS EN BUENOS AIRES
+                </a>
+            </h1>
             </div>
             <div class="pt-4 text-white font-light text-right">
-                <p>Publicado: 09/08/2024</p>
+            <p>Publicado: 09/08/2024</p>
+            </div>
             </div>
         </div>
-    </div>
 </div>
         <!-- Fecha -->
         <div class="flex flex-col sm:flex-row items-center justify-center pb-4 gap-4">
@@ -110,6 +111,32 @@
                                         <div class="pt-2 text-emerald-500">
                                             <h2>
                                                 @php
+                                                    $tituloSep = 'Legislatura-Noticia-Completa-leg48#leg48';
+                                                @endphp
+
+                                                <a href="{{ route('legislaturaSep.show', $tituloSep) }}">
+                                                    <img class=" h-56  w-full object-cover rounded-lg border-gray-900 "
+                                                        alt="a1" src="../img/leg/leg_demarco1.svg">
+                                                </a>
+                                                <h1 class="text-lg font-serif animate-fade-right text-white">
+
+                                                    <a href="{{ route('legislaturaSep.show', $tituloSep) }}">MASIVA MARCHA CONTRA LA CRISIS DE MILEI</a>
+                                                </h1>
+                                                <a href="{{ route('legislaturaSep.show', $tituloSep) }}">Ir a la
+                                                    Noticía</a>
+                                            </h2>
+                                        </div>
+                                    </div>
+                                    <div class="font-light  text-right text-white bg-gray-800">
+                                        <p>Publicado: 09/08/2024</p>
+                                    </div>
+                                </li>
+                                {{-- Nota A-2 --}}
+                                <li class="rounded-lg  border shadow border-emerald-600">
+                                    <div class=" py-2 px-2 bg-gray-800">
+                                        <div class="pt-2 text-emerald-500">
+                                            <h2>
+                                                @php
                                                     $tituloSep = 'Sociedad-Noticia-Completa-soc83#soc83';
                                                 @endphp
 
@@ -130,7 +157,12 @@
                                         <p>Publicado: 08/08/2024</p>
                                     </div>
                                 </li>
-                                {{-- Nota A-2 --}}
+                            </ul>
+                        </section>
+                        {{-- segundalinea de noticias --}}
+                        <section>
+                            <ul class="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 py-6">
+                                <!-- Nota B-1 -->
                                 <li class="rounded-lg  border shadow border-emerald-600 ">
                                     <div class=" py-2 px-4">
                                         <div class="pt-2 text-emerald-500">
@@ -154,12 +186,7 @@
                                         <p>Publicado: 08/08/2024</p>
                                     </div>
                                 </li>
-                            </ul>
-                        </section>
-                        {{-- segundalinea de noticias --}}
-                        <section>
-                            <ul class="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 py-6">
-                                <!-- Nota B-1 -->
+                                <!-- Nota B-2 -->
                                 <li class="rounded-lg  border shadow border-emerald-600">
                                     <div class=" py-2 px-2 bg-gray-800">
                                         <div class="pt-2 text-emerald-500">
@@ -235,7 +262,13 @@
                                         <p>Publicado: 05/08/2024</p>
                                     </div>
                                 </li>
-                                <!-- Nota B-4 -->
+                            </ul>
+                        </section>
+
+                        {{-- tercera linea de noticias --}}
+                        <section>
+                            <ul class="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-2  gap-6 py-4">
+                                <!-- Nota c-1 -->
                                 <li class="rounded-lg  border shadow border-emerald-600 ">
                                     <div class=" py-2 px-4">
                                         <div class="pt-2 text-emerald-500">
@@ -259,13 +292,7 @@
                                         <p>Publicado: 04/08/2024</p>
                                     </div>
                                 </li>
-                            </ul>
-                        </section>
-
-                        {{-- tercera linea de noticias --}}
-                        <section>
-                            <ul class="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-2  gap-6 py-4">
-                                <!-- Nota c-1 -->
+                                <!-- Nota c-2 -->
                                 <li class="rounded-lg border shadow border-emerald-600 p-1 ">
                                     @php
                                         $tituloSep = 'Sociedad-Noticia-Completa-soc82#soc82';
@@ -288,30 +315,6 @@
                                     </div>
                                     <div class="font-light text-right text-white bg-gray-800">
                                         <p>Publicado: 03/08/2024</p>
-                                    </div>
-                                </li>
-                                <!-- Nota c-2 -->
-                                <li class="rounded-lg border shadow border-emerald-600 p-1">
-                                    @php
-                                        $tituloSep = 'Sociedad-Noticia-Completa-soc81#soc81';
-                                    @endphp
-                                    <a href="{{ route('sociedadSep.show', $tituloSep) }}">
-                                        <img class="h-52 w-full object-cover rounded-lg border-gray-900"
-                                            src="../img/soc/soc_uiaas.svg" alt="b2">
-                                    </a>
-                                    <div class="py-4 px-6 bg-gray-800">
-                                        <h1 class="text-lg font-serif animate-fade-right">
-                                            <a href="{{ route('sociedadSep.show', $tituloSep) }}">VIGILANCIA TOTALITARIA: LA NUEVA UNIDAD DE IA DE BULLRICH</a>
-                                        </h1>
-                                        <div class="pt-2 text-emerald-500">
-                                            <h2>
-                                                <a href="{{ route('sociedadSep.show', $tituloSep) }}">Ir a la
-                                                    Noticía</a>
-                                            </h2>
-                                        </div>
-                                    </div>
-                                    <div class="font-light text-right text-white bg-gray-800">
-                                        <p>Publicado: 02/08/2024</p>
                                     </div>
                                 </li>
                             </ul>
@@ -359,6 +362,30 @@
                         <section>
                             <ul class="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 py-6">
                                 <!-- Nota e-1 -->
+                                <li class="rounded-lg border shadow border-emerald-600 p-1">
+                                    @php
+                                        $tituloSep = 'Sociedad-Noticia-Completa-soc81#soc81';
+                                    @endphp
+                                    <a href="{{ route('sociedadSep.show', $tituloSep) }}">
+                                        <img class="h-52 w-full object-cover rounded-lg border-gray-900"
+                                            src="../img/soc/soc_uiaas.svg" alt="b2">
+                                    </a>
+                                    <div class="py-4 px-6 bg-gray-800">
+                                        <h1 class="text-lg font-serif animate-fade-right">
+                                            <a href="{{ route('sociedadSep.show', $tituloSep) }}">VIGILANCIA TOTALITARIA: LA NUEVA UNIDAD DE IA DE BULLRICH</a>
+                                        </h1>
+                                        <div class="pt-2 text-emerald-500">
+                                            <h2>
+                                                <a href="{{ route('sociedadSep.show', $tituloSep) }}">Ir a la
+                                                    Noticía</a>
+                                            </h2>
+                                        </div>
+                                    </div>
+                                    <div class="font-light text-right text-white bg-gray-800">
+                                        <p>Publicado: 02/08/2024</p>
+                                    </div>
+                                </li>
+                                <!-- Nota E-2 -->
                                 <li class="rounded-lg border shadow border-emerald-600 p-1">
                                     @php
                                         $tituloSep = 'Internacionales-Noticia-Completa-int25#int25';
@@ -433,32 +460,6 @@
                                         <p>Publicado: 30/07/2024</p>
                                     </div>
 
-                                </li>
-                                <!-- Nota E-4 -->
-                                <li class="rounded-lg  border shadow border-emerald-600 p-4">
-                                    @php
-                                        $tituloSep = 'Sociedad-Noticia-Completa-soc78#soc78';
-                                    @endphp
-                                    <a href="{{ route('sociedadSep.show', $tituloSep) }}">
-                                        <img class=" h-56  w-full object-cover" src="../img/soc/soc_sosa.svg"
-                                            alt="c2">
-                                    </a>
-                                    <div class=" py-4 px-6 bg-gray-800">
-                                        <h1 class="text-lg font-serif animate-fade-right ">
-                                            <a href="{{ route('sociedadSep.show', $tituloSep) }}">
-                                                <a href="">MENTIRAS QUE GOBIERNAN: HÉCTOR SOSA DESENMASCARA LA DESINFORMACIÓN</a>
-                                            </a>
-                                        </h1>
-                                        <div class="pt-2 text-emerald-500">
-                                            <h2>
-                                                <a href="{{ route('sociedadSep.show', $tituloSep) }}">Ir a la
-                                                    Noticía</a>
-                                            </h2>
-                                        </div>
-                                    </div>
-                                    <div class="font-light  text-right text-white bg_gray-800">
-                                        <p>Publicado: 29/07/2024</p>
-                                    </div>
                                 </li>
                             </ul>
                         </section>

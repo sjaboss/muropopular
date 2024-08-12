@@ -1,5 +1,129 @@
 <x-app-layout>
     <div class="container ">
+        {{--  LIBERTARIOS ALIADOS CON GENOCIDAS.... --}}
+<section>
+    <ul>
+        <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+            <article>
+
+                <div class="py-4 px-4 justify-between items-center">
+                    <h2 class="text-xl font-serif  font-bold pb-6">
+                        <a href="">LIBERTARIOS ALIADOS CON GENOCIDAS
+                        </a>
+                    </h2>
+                    <p class="font-light  text-right text-gray-500">Publicado: 10/08/2024</p>
+                    <p><i>La polémica reunión entre legisladores de La Libertad Avanza y represores
+                        condenados por crímenes de lesa humanidad en Ezeiza desató fuertes críticas
+                        de organismos de derechos humanos y sectores políticos.</i>
+                </p>
+                    <br>
+                    <figure>
+                        <img class="w-full object-cover"
+                            src="{{ asset('../img/der/der_genocidas2.svg') }}" alt="">
+
+                    </figure>
+                    {{-- <article>
+                        <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/XSNYTBkbmx4?si=V9zwrQyh3h5dyKbu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        
+                    </article> --}}
+                    <br>
+                    <div
+                        class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                        <div class=" font-sans text-lg text-left col-span-6  ">
+
+                            <p>Los legisladores Beltrán Benedit, Lourdes Arrieta, Alida Ferreyra, Guillermo
+                                Montenegro y María Fernanda Araujo se reunieron con Alfredo Astiz, Adolfo
+                                Donda, Antonio Pernías, entre otros represores, con el objetivo de impulsar un
+                                proyecto que busca la liberación o prisión domiciliaria de genocidas mayores de
+                                70 años.
+                            </p>
+                            <br>
+                            <p>Esta iniciativa es apoyada por 13 diputados libertarios y un grupo de abogados
+                                vinculados con la dictadura, junto al cura Javier Olivera Ravasi, hijo del
+                                genocida Jorge Olivera, condenado a perpetua.
+                            </p>
+                            <br>
+                            <p><b>¿Quiénes son los genocidas?</b>
+                            </p>
+                            <br>
+                            <p>Alfredo Astiz, conocido como “El Ángel de la Muerte”, es uno de los represores
+                                más notorios de la última dictadura. Infiltrado en organizaciones de derechos
+                                humanos, participó en el secuestro y asesinato de las fundadoras de Madres
+                                de Plaza de Mayo y las monjas francesas Alice Domon y Léonie Duquet. Astiz
+                                fue condenado a cadena perpetua por sus crímenes.</p>
+                            <br>
+                            <p>Antonio Pernías, miembro del Grupo de Tareas 3.3.2 de la ESMA, fue
+                                responsable de la desaparición y tortura de militantes, incluyendo a las
+                                fundadoras de Madres de Plaza de Mayo y los curas palotinos asesinados en la
+                                Masacre de San Patricio. Su condena también es a perpetua.</p>
+                            <br>
+                            <p>Adolfo Donda, exmilitar, tiene dos condenas a perpetua por delitos de lesa
+                                humanidad, incluyendo la desaparición de su propio hermano y cuñada, y la
+                                apropiación de su sobrina, la actual diputada Victoria Donda.</p>
+                            <br>
+                            <p>Entre los visitados también se encuentran Miguel Britos, condenado a perpetua
+                                por secuestro y asesinato, y Raúl Guglielminetti, exagente de inteligencia,
+                                condenado por privación ilegal de la libertad y torturas.</p>
+                            <br>
+                            <p>La visita ha sido duramente criticada por organismos de derechos humanos,
+                                partidos políticos y organizaciones sociales, que la calificaron como un intento
+                                de retroceso en las políticas de memoria, verdad y justicia.</p>
+                            <br>
+                            <p>Este escándalo pone en evidencia la peligrosa cercanía entre algunos sectores
+                                políticos y los responsables de los crímenes más atroces de la historia
+                                argentina, en un contexto donde la lucha por los derechos humanos sigue
+                                siendo un pilar fundamental de la democracia.</p>
+                            <br>
+                            <p>En la imagen se pueden ver:</p>
+                            <br>
+                            <p>1 Mario “El Cura” Marcote: miembro del Servicio de Informaciones y condenado a 17 años de prisión en Rosario.</p>
+                            
+                            <p>2 Alfredo Astiz, conocido como “el Ángel de la muerte” y condenado por infiltrarse en Madres de Plaza de Mayo, así como por desapariciones y torturas en la ESMA.</p>
+                            
+                            <p>3 Miguel Britos, ex miembro de la Superintendencia de Seguridad Federal, condenado por delitos en el circuito represivo ABO (Atlético-Banco-Olimpo).</p>
+                            
+                            <p>4 Honorio Carlos Martínez Ruíz, condenado a perpetua por los crímenes cometidos en el centro clandestino Automotores Orletti.</p>
+                            
+                            <p>5 Raúl Guglielminetti, también condenado por su accionar en Automotores Orletti.</p>
+                            
+                            <p>6 Beltrán Benedit, diputado nacional LLA, sindicado como el organizador de la visita al penal de Ezeiza.</p>
+                            <p>7 Lourdes Arrieta, diputada nacional LLA. “Fue una reunión que fuimos engañados un grupo de diputados. No puedo decir si todos lo sabían o no, pero en el caso de la diputada Bonacci y como yo, empezamos a hablar de este tema porque en un momento teníamos angustia y entramos en un estado de shock”, sostuvo la semana pasada sobre el encuentro. Y, de manera insólita, agregó: “Nací en 1993, no tenía ni idea de quiénes eran”.</p>
+                            <p>8 Marcos Williams Prim, asesor del diputado Beltran Benedit.</p>
+                            <p>9 Julio César Arguello, condenado a perpetua por delitos cometidos en el “Circuito Camps”</p>
+                            <p>10 María Fernanda Araujo, diputada nacional LLA.</p>
+                            <p>11 Juan Manuel Cordero, condenado a 25 años de prisión por crímenes cometidos en el marco del Plan Cóndor.</p>
+                            <p>12 Carlos Guillermo Suárez Mason (hijo), alias “El hijo de Sam”, condenado por delitos de lesa humanidad en la ESMA.</p>
+                            <p>13 Guillermo Montenegro, diputado nacional LLA. Ex asesor de la vicepresidenta, Victoria Villarruel.</p>
+                            <p>14 Gerardo Arraez, condenado a 25 años de prisión por delitos en el circuito represivo ABO (Atlético-Banco-Olimpo).</p>
+                            <p>15 Alida Ferrerya, diputada nacional LLA.</p>
+                            <p>16 Adolfo Donda, condenado por su accionar en la ESMA y por el secuestro de la exdiputada Victoria Donda.</p>
+                            <p>17 Antonio Pernías, (alias “Trueno” o “Rata”), condenado a perpetua por delitos de lesa humanidad en la ESMA.</p>
+                            <p>18 Juan Carlos Vázquez Sarmiento, responsable de secuestros y torturas, prófugo de la Justicia durante casi 20 años.</p>
+                            <b>
+                    
+                            <div class="text-start object-center">
+                                {{-- <figure>
+                                    <img class="w-28 h-28  "
+                                        src="{{ asset('../img/noteros/gus.svg') }}"
+                                        alt="">
+                                    <p> <strong>Por Gustavo Cano<strong></p>
+
+                                    <p><strong><strong></p>
+
+                                </figure> --}}
+                            </div>
+
+
+                        </div>
+
+
+
+                    </div>
+                </div>
+            </article>
+        </li>
+    </ul>
+</section>
         {{--   MILITARIZACIÓN DE LAS CALLES.... --}}
 <section>
     <ul>
