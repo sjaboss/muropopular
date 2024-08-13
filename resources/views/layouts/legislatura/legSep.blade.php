@@ -5999,6 +5999,111 @@
                 </div>
 
             </section>
+        @elseif ($tituloSep == 'Legislatura-Noticia-Completa-leg49')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">RECONOCIMIENTOS A LA SALUD, LA CULTURA Y LA INCLUSIÓN</a>
+                                        </h2>
+                                        <p class="font-light  text-right text-gray-500">Publicado: 13/08/2024</p>
+                                        <p><i>El Cuerpo Legislativo de la Ciudad de Buenos Aires entregó diversas distinciones de interés cultural y social.</i></p>
+                                        <br>
+                                        <figure>
+                                            <a href="">
+                                                <img class="w-full object-cover object-center"
+                                                    src="{{ asset('../img/leg/leg_recono2.svg') }}" alt="">
+                                            </a>
+                                        </figure>
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                                <p>El Dr. Horacio Mario Roque fue reconocido como Personalidad Destacada en Salud por su trayectoria en el ámbito de la salud pública. La ceremonia, celebrada en el Salón San Martín, contó con la presencia del diputado Franco Vitalli, impulsor del proyecto, y del ex diputado Javier Andrade, autor de la iniciativa. Vitalli destacó la importancia del reconocimiento, subrayando el "compromiso con la salud pública, especialmente en áreas vulnerables". Roque, graduado en 1978 en la Universidad de Buenos Aires, comenzó su carrera en el Hospital Rivadavia y se destacó en el Hogar Naval 'Stella Maris'. Además, fue Jefe del Centro de Salud y Acción Comunitaria N°25 hasta 2022.</p>
+                                                <br>
+                                                <p>Durante su carrera, Roque recibió varios premios, incluyendo el ‘Profesor Dr. Enrique Nájera’ en 2010 y un Diploma de Honor del Senado en 2019. En su discurso, Roque enfatizó la importancia de su trabajo no solo en la prevención y tratamiento de enfermedades, sino en "resolver la vida de las personas" que más lo necesitan.</p>
+                                                <br>
+                                                <p>En el Salón Dorado, se declaró de Interés Cultural el libro "Ahora Alfonsín. Historia íntima de la campaña electoral que cambió la Argentina para siempre", de Rodrigo Estévez Andrade y Matías Méndez. La legisladora Manuela Thourte destacó el legado de Raúl Alfonsín, afirmando que su campaña electoral "marcó un antes y un después en la historia democrática argentina". También estuvo presente el senador Martín Lousteau, quien elogió el libro como un importante aporte a la historiografía nacional.
+                                                </p>
+                                                <br>
+                                                <p>Por último, la obra infantil "Soy Muni, una aventura musical" fue declarada de Interés para la Promoción y Defensa de los Derechos de las Personas con Discapacidad. En el Salón Montevideo, la legisladora María Luisa González Estevarena y la actriz Mariana 'Muni' Seligmann presentaron la función adaptada para niños neurodivergentes, con ajustes en sonido, iluminación y ambiente. Estas adaptaciones representan un avance en la inclusión cultural, permitiendo que más personas disfruten del arte en condiciones adecuadas.
+                                                </p>
+                                                <br>
+                                                
+                                                
+                                            </div>
+
+
+
+                                        </div>
+                                    </div>
+                                </article>
+                            </li>
+                        </ul>
+                        <br>
+
+                    </div>
+
+
+                    {{-- columna de la derecha chica --}}
+                    <aside>
+                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                            <div class=" col-span-6">
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/bener-leg2.png') }}"
+                                        alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
+                                        alt="">
+                                </a>
+
+                                <div id="app">
+
+                                    <div v-for="item in info">
+
+                                        <div class="flex-col pb-3">
+                                            <div
+                                                class="flex-col max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg"
+                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
+                                                        alt="" />
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5
+                                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                                            @{{ item.title }}</h5>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div v-for="va in clima">
+
+                                        <h5
+                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                            @{{ va }}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+
+                </div>
+
+            </section>
         @endif
 
     </div>

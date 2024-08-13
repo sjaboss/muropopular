@@ -1,5 +1,78 @@
 <x-app-layout>
     <div class="container ">
+        {{--  QUÉ SE ESCONDE DETRÁS DEL NUEVO PROYECTO EN EL FARO DE MAR DEL PLATA.... --}}
+<section>
+    <ul>
+        <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+            <article>
+
+                <div class="py-4 px-4 justify-between items-center">
+                    <h2 class="text-xl font-serif  font-bold pb-6">
+                        <a href="">QUÉ SE ESCONDE DETRÁS DEL NUEVO PROYECTO EN EL FARO DE MAR DEL PLATA
+                        </a>
+                    </h2>
+                    <p class="font-light  text-right text-gray-500">Publicado: 13/08/2024</p>
+                    <p><i>"La memoria apunta hasta matar, a los pueblos que la callan, y no la dejan volar...Libre como el viento, Libre como el viento." León Gieco</i>
+                </p>
+                    <br>
+                    <figure>
+                        <img class="w-full object-cover"
+                            src="{{ asset('../img/der/der_faro2.svg') }}" alt="">
+
+                    </figure>
+                    {{-- <article>
+                        <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/XSNYTBkbmx4?si=V9zwrQyh3h5dyKbu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        
+                    </article> --}}
+                    <br>
+                    <div
+                        class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                        <div class=" font-sans text-lg text-left col-span-6  ">
+
+                            <p>Llegará el día, impensado, cuando en un predio a orillas del mar, choquen copas en salvaje brindis mientras los parroquianos engullan papas recién freídas, profieran sonoras carcajadas y la destilería de gin produzca alcoholes las 24 horas de los días por venir.
+                            </p>
+                            <br>
+                            <p>Hace 48 años allí mismo, los gritos no eran de  rugidos de felicidad sino de dolores por picanas perforando los cuerpos. Ningún alcohol adormecía el infierno de una pesadilla que ataba a toda la sociedad al terror impuesto  por el Estado.
+                            </p>
+                            <br>
+                            <p>Como un mal sueño, y acomodando los direccionamientos epocales a borrar la historia,  el predio lindero al  Faro de la Memoria será un lugar  de esparcimiento cool, post moderno, donde la mentira es la verdad y donde todo vale. Lo pasado pisado.
+                            </p>
+                            <br>
+                            <p>Los concejales de Gral Puyerredón  en  breve debate de comisión , como si no hiciera falta profundizar este tema tan sensible, apoyaron el proyecto y a la hora de votar los representes de Juntos por el Cambio,  los concejales radicales Marianela Romero y Daniel Núñez, Mercedes Morro y Florencia Ranellucci de Vamos Juntos-Pro y Angélica González de la Coalición Cívica. Los representantes de Unión por la Patria, Frente Renovador y Acción Marplatense votaron en contra.</p>
+                            <br>
+                            <p>Los libertarios se abstuvieron y adujeron cuestiones técnicas porque, según el concejal Emiliano Recalt, “ que los datos con que se cuenta para dar vía libre a la obra no son confiables porque el estudio de impacto ambiental, que data de 2022, está desactualizado”.</p>
+                            <br>
+                            <p>Lo que no está desactualizado en nuestras memorias es las desapariciones, las torturas, las violaciones, las  apropiaciones  de bebés nacidos en cautiverio  con sus  identidades cambiadas.</p>
+                            <br>
+                            <p>Acompañamos desde ADN populares a los militantes de la Asociación de Familiares de Desaparecidos y Detenidos del Faro Mar del Plata, la Asociación Vecinal de Fomento Faro Norte y todos aquellos que no olvidamos, que la Verdad, la Memoria y la Justicia siguen siendo nuestro Faro, junto al de Mar del Plata.</p>
+                            <br>
+                            <p>Que el alcalde Guillerno Montenegro de la Ciudad Feliz sea conteste a esta intención no nos sorprende por finalmente business is business.</p>
+                            <br>
+                            <p><b>Agradecimiento especial al colega Gustavo Campana.</b></p>
+                            <br>
+                            <div class="text-start object-center">
+                                <figure>
+                                    <img class="w-28 h-28  "
+                                        src="{{ asset('../img/der/Adri.svg') }}"
+                                        alt="">
+                                    <p> <strong>Por Adriana Zerdín<strong></p>
+
+                                    <p><strong><strong></p>
+
+                                </figure>
+                            </div>
+
+
+                        </div>
+
+
+
+                    </div>
+                </div>
+            </article>
+        </li>
+    </ul>
+</section>
         {{--  LIBERTARIOS ALIADOS CON GENOCIDAS.... --}}
 <section>
     <ul>

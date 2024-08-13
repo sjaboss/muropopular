@@ -1,5 +1,237 @@
 <x-app-layout>
     <div class="container ">
+        {{--MILEI PODRÍA VETAR EL AUMENTO DE JUBILACIONES SI SE APRUEBA EN EL SENADO..--}}
+    <section> 
+        <ul>
+            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                <article>
+
+                    <div class="py-4 px-4 justify-between items-center">
+                        <h2 class="text-xl font-serif  font-bold pb-6">
+                            <a href="">MILEI PODRÍA VETAR EL AUMENTO DE JUBILACIONES SI SE APRUEBA EN EL SENADO</a>
+                            {{-- <p class="font-light  text-lef text-gray-500">Por Emanuel Corrado</p> --}}
+                        </h2>
+                        <p class="font-light  text-right text-gray-500">Publicado: 12/08/2024</p>
+                        <div class=" font-sans text-lg text-left col-span-6  ">
+                        <p><i>El presidente Javier Milei amenaza con vetar un proyecto de aumento jubilatorio que podría ser aprobado en el Senado esta semana, generando incertidumbre sobre el futuro de la fórmula de movilidad.</i>
+                        </p>
+                        <br>
+                        <figure>
+                            <img class="w-full object-cover" src="../img/soc/soc_veto.svg"
+                                alt="">
+                        </figure>
+                        
+                        {{-- <article>
+                            <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/GeOVAG1Bfz8?si=r2ihOrxI6uEWI0IU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            
+                        </article> --}}
+                        <br>
+                        <div
+                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                            <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                <p>El bloque de Unión por la Patria y parte de la UCR se unieron en el Senado para avanzar en un proyecto que incrementa las jubilaciones un 8,1% y modifica la fórmula de movilidad. Esta iniciativa, que ya obtuvo media sanción en la Cámara de Diputados en junio, está a punto de llegar al recinto del Senado esta semana. 
+                                </p>
+                                <br>
+                                <p>El presidente Javier Milei ha reaccionado de manera contundente ante la posibilidad de que el Senado apruebe el proyecto, advirtiendo que vetará la medida si se convierte en ley. Milei ha calificado a los legisladores que apoyan el proyecto como "degenerados fiscales" y ha señalado que su gobierno no comprometerá el "déficit cero". En un posteo en redes sociales, Milei argumentó que la aprobación de la ley implicaría un aumento en el riesgo país y una subida en la tasa de interés, lo que exacerbaría la inflación y la decadencia económica que, según él, ha afectado al país durante un siglo.</p>
+                                <br>
+                                <p>El presidente también hizo declaraciones en el Latam Economic Forum 2024, reiterando su postura de veto frente a cualquier intento de romper el equilibrio fiscal. La amenaza de veto presidencial ha generado una expectación en el Senado, que podría votar el proyecto el 15 de agosto.</p>
+                                <br>
+                                <p>Si el Senado aprueba el proyecto, Milei tiene la opción de vetarlo, pero según el artículo 83 de la Constitución nacional, el proyecto regresaría a la Cámara de Diputados. Si Diputados decide insistir en el proyecto y consigue los dos tercios necesarios, el Senado tendría que volver a considerar la ley, y Milei no podría aplicar el veto una vez más.</p>
+                                <br>
+                                
+                                
+                                <div class="text-start object-center">
+                                    {{-- <figure>
+                                        <img class="w-28 h-28  "
+                                            src="{{ asset('../img/der/Adri.svg') }}"
+                                            alt="">
+                                        
+                                        <p> <strong>Nota de Adriana Zerdín</strong></p>
+
+                                    </figure>  --}}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </li>
+        </ul>
+    </section>
+    {{--HOMENAJE A ENVAR EL KADRI EN PLAZA FLORES....--}}
+    <section> 
+        <ul>
+            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                <article>
+
+                    <div class="py-4 px-4 justify-between items-center">
+                        <h2 class="text-xl font-serif  font-bold pb-6">
+                            <a href="">HOMENAJE A ENVAR EL KADRI EN PLAZA FLORES</a>
+                            {{-- <p class="font-light  text-lef text-gray-500">Por Emanuel Corrado</p> --}}
+                        </h2>
+                        <p class="font-light  text-right text-gray-500">Publicado: 11/08/2024</p>
+                        <div class=" font-sans text-lg text-left col-span-6  ">
+                        <p><i>El acto de restitución de la placa en honor al histórico referente peronista Envar El Kadri reunió a familiares, militantes y políticos.</i>
+                        </p>
+                        <br>
+                        <figure>
+                            <img class="w-full object-cover" src="../img/soc/soc_enva2.svg"
+                                alt="">
+                        </figure>
+                        
+                        {{-- <article>
+                            <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/GeOVAG1Bfz8?si=r2ihOrxI6uEWI0IU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            
+                        </article> --}}
+                        <br>
+                        <div
+                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                            <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                <p>El pasado viernes 9 de agosto, se llevó a cabo en Plaza Flores un emotivo acto para restituir una placa en homenaje a Envar El Kadri, destacado militante de la Resistencia Peronista. La ceremonia, aprobada por la Legislatura de CABA, fue organizada por la familia de El Kadri, con la participación de su hermana Susana Eva El Kadri, la agrupación Peronismo de Base Envar El Kadri y diversos referentes políticos y de Derechos Humanos. 
+                                </p>
+                                <br>
+                                <p>Envar "Cacho" El Kadri, nacido en Río Cuarto en 1941 y fallecido en Tilcara en 1998, fue un valiente líder del movimiento peronista. Desde temprana edad, El Kadri resistió la dictadura que derrocó a Juan Domingo Perón, trabajando incansablemente por su retorno. En 1960, fue encarcelado por tenencia de explosivos y recuperó su libertad con la amnistía de 1963 decretada por Arturo Illia. Fundador de las Fuerzas Armadas Peronistas, El Kadri se exilió en París durante la dictadura cívico-militar de 1976. A su regreso al país, se destacó como productor de cine junto a Pino Solanas y productor musical de Miguel Ángel Estrella.</p>
+                                <br>
+                                <p>La actividad, coordinada por Guillermo Varela, Secretario de Finanzas de la CTA-T Avellaneda, y Gabriela Casanova, contó con discursos de la Diputada Nacional Lorena Pokoik, el Legislador de la Ciudad (MC) Javier Andrade, Federico Rudi de la Juventud PJ de la CABA, Martín González de la Agrupación Envar El Kadri, así como Marcelo Duhalde, Ana Lorenzo y Jorge Rachid.</p>
+                                <br>
+                                <p>En un contexto de violencia política y económica impulsada por las oligarquías y las dictaduras militares, Envar El Kadri se destacó por su firme compromiso con la resistencia popular y la lucha por el retorno del peronismo.</p>
+                                <br>
+                                
+                                
+                                <div class="text-start object-center">
+                                    {{-- <figure>
+                                        <img class="w-28 h-28  "
+                                            src="{{ asset('../img/der/Adri.svg') }}"
+                                            alt="">
+                                        
+                                        <p> <strong>Nota de Adriana Zerdín</strong></p>
+
+                                    </figure>  --}}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </li>
+        </ul>
+    </section>
+        {{--EL GOBIERNO PUSO EN VENTA CUATRO CENTRALES....--}}
+    <section> 
+        <ul>
+            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                <article>
+
+                    <div class="py-4 px-4 justify-between items-center">
+                        <h2 class="text-xl font-serif  font-bold pb-6">
+                            <a href="">EL GOBIERNO PUSO EN VENTA CUATRO CENTRALES HIDROELÉCTRICAS CLAVE</a>
+                            {{-- <p class="font-light  text-lef text-gray-500">Por Emanuel Corrado</p> --}}
+                        </h2>
+                        <p class="font-light  text-right text-gray-500">Publicado: 11/08/2024</p>
+                        <div class=" font-sans text-lg text-left col-span-6  ">
+                        <p><i>El presidente Javier Milei ordena la privatización de Alicurá, el Chocón, Cerros Colorados y Piedra del Águila, con un plazo de 180 días para la venta.</i>
+                        </p>
+                        <br>
+                        <figure>
+                            <img class="w-full object-cover" src="../img/soc/soc_hidro2.svg"
+                                alt="">
+                        </figure>
+                        
+                        {{-- <article>
+                            <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/GeOVAG1Bfz8?si=r2ihOrxI6uEWI0IU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            
+                        </article> --}}
+                        <br>
+                        <div
+                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                            <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                <p>El gobierno de Javier Milei ha anunciado la venta de cuatro centrales hidroeléctricas esenciales para la generación y distribución de energía en Argentina. Mediante un decreto reciente, se estableció un plazo de 180 días para la privatización de las plantas Alicurá, el Chocón, Cerros Colorados y Piedra del Águila, ubicadas en la región del Comahue, entre Neuquén y Río Negro. El decreto 718/2024, firmado por Milei, el ministro Luis Caputo y el jefe de Gabinete Guillermo Francos, ordena la renovación de concesiones vencidas y la convocatoria a un concurso público nacional e internacional para la venta del paquete accionario mayoritario o controlante de estas centrales. 
+                                </p>
+                                <br>
+                                <p>Actualmente, las plantas están operadas por Orazul Energy (Cerros Colorados), ENEL Generación (El Chocón-Arroyito), AES SA (Alicurá) y Central Puerto SA (Piedra del Águila). El decreto aclara que, aunque las concesiones de estas plantas fueron transferidas al sector privado anteriormente, están ahora en un período de transición.</p>
+                                <br>
+                                <p>En el pasado, la concesión de estas centrales estuvo a cargo de Enarsa (Energía Argentina NA) y Nucleoeléctrica Argentina SA, que también serán privatizadas bajo la nueva legislación. Con esta medida, la supervisión estatal en el sector energético se verá reducida, ya que la Secretaría de Energía y el Ministerio de Economía serán las autoridades responsables de la aplicación de los nuevos criterios de privatización.</p>
+                                <br>
+                                <p>Este movimiento marca un cambio significativo en la gestión de los recursos energéticos del país y podría tener implicaciones importantes para la soberanía energética y el control estatal de sectores estratégicos.</p>
+                                <br>
+                                
+                                
+                                <div class="text-start object-center">
+                                    {{-- <figure>
+                                        <img class="w-28 h-28  "
+                                            src="{{ asset('../img/der/Adri.svg') }}"
+                                            alt="">
+                                        
+                                        <p> <strong>Nota de Adriana Zerdín</strong></p>
+
+                                    </figure>  --}}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </li>
+        </ul>
+    </section>
+        {{--RIESGO DE PÉRDIDA DE SOBERANÍA POR PRIVATIZACIÓN....--}}
+    <section> 
+        <ul>
+            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                <article>
+
+                    <div class="py-4 px-4 justify-between items-center">
+                        <h2 class="text-xl font-serif  font-bold pb-6">
+                            <a href="">RIESGO DE PÉRDIDA DE SOBERANÍA POR PRIVATIZACIÓN DE FABRICACIONES MILITARES</a>
+                            {{-- <p class="font-light  text-lef text-gray-500">Por Emanuel Corrado</p> --}}
+                        </h2>
+                        <p class="font-light  text-right text-gray-500">Publicado: 10/08/2024</p>
+                        <div class=" font-sans text-lg text-left col-span-6  ">
+                        <p><i>El posible cambio de Fabricaciones Militares a una Sociedad Anónima abre la puerta a capitales extranjeros, poniendo en riesgo la soberanía nacional y la seguridad estratégica del país.</i>
+                        </p>
+                        <br>
+                        <figure>
+                            <img class="w-full object-cover" src="../img/soc/soc_fabrica.svg"
+                                alt="">
+                        </figure>
+                        
+                        {{-- <article>
+                            <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/GeOVAG1Bfz8?si=r2ihOrxI6uEWI0IU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            
+                        </article> --}}
+                        <br>
+                        <div
+                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                            <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                <p>El Gobierno Nacional enfrenta crecientes críticas por su intención de transformar Fabricaciones Militares en una Sociedad Anónima (S.A.), lo que permitiría la participación de capitales privados, incluidos inversores extranjeros. Este cambio podría tener serias repercusiones para la soberanía del país y la seguridad nacional, al comprometer el control estatal sobre una industria clave para la defensa. 
+                                </p>
+                                <br>
+                                <p>Fabricaciones Militares ha sido una pieza clave en la infraestructura de defensa del país, produciendo armamento y equipamiento estratégico. La privatización significaría no solo un cambio en la estructura legal, sino también una posible pérdida de control sobre estas capacidades estratégicas. La entrada de capitales privados podría trasladar el poder de decisión a actores externos, debilitando la capacidad del país para gestionar sus recursos y asegurar su independencia en áreas críticas.</p>
+                                <br>
+                                <p>Además, la reciente inspección secreta del Departamento de Defensa de EE.UU. en las instalaciones de Fabricaciones Militares plantea interrogantes sobre el destino de la producción. Se ha sugerido que podría orientarse a satisfacer las necesidades de la OTAN en lugar de las Fuerzas Armadas argentinas. Este escenario subraya el riesgo de que la privatización permita una mayor influencia extranjera sobre las capacidades defensivas nacionales.</p>
+                                <br>
+                                <p>La privatización de sectores estratégicos como Fabricaciones Militares refleja una tendencia preocupante de ajuste y desmantelamiento de recursos estatales vitales. La entrega de estas empresas a manos extranjeras no solo debilita la soberanía económica y política del país, sino que también representa un desafío significativo para la seguridad nacional. La comunidad y las autoridades deben considerar con urgencia las implicancias de estas políticas y actuar para proteger la autonomía y los intereses estratégicos del país.</p>
+                                <br>
+                                
+                                
+                                <div class="text-start object-center">
+                                    {{-- <figure>
+                                        <img class="w-28 h-28  "
+                                            src="{{ asset('../img/der/Adri.svg') }}"
+                                            alt="">
+                                        
+                                        <p> <strong>Nota de Adriana Zerdín</strong></p>
+
+                                    </figure>  --}}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </li>
+        </ul>
+    </section>
         {{--FIRMAN CONVENIO PARA COMBATIR LA TRATA DE PERSONAS EN BUENOS AIRES....--}}
     <section> 
         <ul>

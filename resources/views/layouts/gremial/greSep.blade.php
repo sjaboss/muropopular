@@ -4686,6 +4686,115 @@
                 </div>
 
             </section>
+        @elseif ($tituloSep == 'Gremiales-Noticia-Completa-gre39')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">DANIEL YOFRA: “LAS EMPRESAS QUERÍAN CONFLICTO PARA PRESIONAR AL GOBIERNO”
+                                            </a>
+                                        </h2>
+                                        <p class="font-light  text-right text-gray-500">Publicado: 12/08/2024</p>
+                                        <div class=" font-sans text-lg text-left col-span-6  ">
+                                        <p><i>Las agroexportadoras buscan presionar al Gobierno a través del conflicto con los aceiteros, especulando con cambios en el dólar y las retenciones.</i>
+                                        </p>
+                                        <br>
+                                        {{-- <article>
+                                            <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/mDyomkBc1DE?si=bnT2gxK0tSpFUqx1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                            
+                                        </article> --}}
+                                        <figure>
+                                            <img class=" w-full object-cover" src="../img/grem/grem_yofra.svg"
+                                                alt="">
+                                        </figure>
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+                                                <p>Luego de casi una semana de conflicto en Rosario entre el sindicato de aceiteros y las industrias del sector agroexportador, aún no se vislumbra un acuerdo. Daniel Yofra, secretario general de la Federación de Aceiteros, declaró que los trabajadores solicitan un aumento salarial del 26%, mientras que las empresas ofrecen un 17% en cuotas. En una reciente entrevista, Yofra acusó a las agroexportadoras de utilizar el conflicto como herramienta de presión sobre el Gobierno para obtener un dólar a 1.800 pesos y la reducción de retenciones. 
+                                                </p>
+                                                <br>
+                                                <p>Yofra destacó que la falta de avance en las negociaciones se debe a que las empresas no han solicitado la conciliación obligatoria, a pesar del impacto del paro en las exportaciones y el ingreso de divisas. Además, criticó la política gubernamental, argumentando que el actual Ministerio de Trabajo, bajo la dirección de un representante de las patronales, no está resolviendo los problemas de los trabajadores.
+                                                </p>
+                                                <br>
+                                                <p>Las empresas agroexportadoras, según Yofra, parecen estar especulando con el conflicto para presionar al Gobierno, recordando huelgas anteriores donde se ha solicitado la intervención gubernamental en temas como el valor del dólar y las retenciones. En su opinión, esta estrategia busca que el Gobierno tome nota de las pérdidas ocasionadas por el paro.
+                                                </p>
+                                                <br>
+                                                <p>El dirigente sindical también arremetió contra la política oficialista hacia los sindicatos, señalando que no se trata de mejorar las condiciones laborales, sino de conservar los acuerdos existentes. Criticó la gestión actual y pasada por su falta de compromiso con la mejora de las condiciones de los trabajadores, y mencionó que los aportes sindicales se utilizan para capacitar y mejorar la calidad de vida de los trabajadores.</p>
+                                                <br>
+                                                <p>Yofra enfatizó que el salario mínimo ha aumentado un 122% en el último año, mientras que el precio de la canasta básica se ha disparado un 250%. Frente a estas disparidades, instó a cambiar la percepción sobre los trabajadores y cuestionó los altos salarios de los políticos en comparación con las demandas salariales de los aceiteros.</p>
+                                                <br>
+                                                
+                                                
+                                                
+                                            </div>
+                                        </div>
+                                </article>
+                            </li>
+                        </ul>
+                    </div>
+
+
+                    {{-- columna de la derecha chica --}}
+                    <aside>
+                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                            <div class=" col-span-6">
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/bener-leg2.png') }}"
+                                        alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/APSE.gif') }}" alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
+                                        alt="">
+                                </a>
+
+
+
+                                <div id="app">
+
+                                    <div v-for="item in info">
+
+                                        <div class="flex-col pb-3">
+                                            <div
+                                                class="flex-col max-w-sm  border  border-gray-700 rounded-lg shadow bg-gray-800">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg"
+                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
+                                                        alt="" />
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5 class="mb-2 text-2xl font-bold tracking-tight  text-white">
+                                                            @{{ item.title }}</h5>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div v-for="va in clima">
+
+                                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-white">
+                                            @{{ va }}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+
+                </div>
+            </section>
         @endif
     </div>
     {{-- aca arrancamos vue --}}
