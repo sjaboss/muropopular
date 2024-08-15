@@ -1,5 +1,53 @@
 <x-app-layout>
     <div class="container ">
+        {{--LA RESPONSABILIDAD DE LOS MEDIOS EN LA DIFUSIÓN... --}}
+<section>
+    <ul>
+        <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+            <article>
+
+                <div class="py-4 px-4 justify-between items-center">
+                    <h2 class="text-xl font-serif  font-bold pb-6">
+                        <a href="">LA RESPONSABILIDAD DE LOS MEDIOS EN LA DIFUSIÓN DE IMÁGENES DE VIOLENCIA DE GÉNERO</a>
+                        <p class="font-light  text-right text-gray-500">Publicado: 14/08/2024</p>
+                    </h2>
+                    <p><i>La cobertura de la violencia de género es crucial, pero cuando los medios difunden imágenes explícitas de las víctimas, contribuyen a su revictimización y perpetúan la violencia que intentan combatir. Es hora de replantear el enfoque.</i>
+                    </p>
+                    <br>
+                    <figure>
+                        <img class="w-full object-cover" src="../img/fem/fem_medios2.svg"
+                            alt="">
+                    </figure>
+                    {{-- <article>
+                        <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/KgLeMhUAufY?si=LCmXJy-t6RqfgsUb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        
+                    </article> --}}
+                    <br>
+                    <div
+                        class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                        <div class=" font-sans text-lg text-left col-span-6  ">
+                            <p>La cobertura mediática sobre violencia de género es esencial para visibilizar un problema estructural que afecta a miles de mujeres y personas LGTBI+. Sin embargo, la manera en que los medios abordan estos casos puede contribuir a la revictimización y al refuerzo de la violencia. La difusión de imágenes que muestran el sufrimiento de las víctimas, especialmente aquellas que son parte de una causa judicial, es una de las prácticas más cuestionables y dañinas.
+                            </p>
+                            <br>
+                            <p>Publicar imágenes explícitas de violencia no solo viola la privacidad de las víctimas, sino que también perpetúa un ciclo de morbo y consumo sensacionalista que desvirtúa la gravedad de los hechos. Las imágenes utilizadas como prueba en un proceso legal no deben ser objeto de espectáculo. Al hacerlo, los medios vulneran los derechos fundamentales de las personas afectadas y diluyen el verdadero propósito de informar y sensibilizar a la sociedad sobre la violencia de género.
+                            </p>
+                            <br>
+                            <p>Los medios tienen la responsabilidad de abordar estos temas con ética y respeto. Esto implica no solo evitar la exposición innecesaria de las víctimas, sino también contextualizar los hechos, subrayando la necesidad de justicia y reparación. La lucha contra la violencia de género no se gana con titulares escandalosos o imágenes impactantes, sino con un compromiso genuino con los derechos humanos y la dignidad de las personas.
+                            </p>
+                            <br>
+                            <p>En un contexto donde la violencia de género sigue siendo un flagelo, los medios deben asumir un rol activo en la promoción de una cultura de respeto y equidad. Esto incluye evitar la revictimización, proteger la privacidad y garantizar que la información publicada contribuya a la sensibilización y educación de la sociedad, sin caer en prácticas que refuercen la violencia que intentan condenar.
+                            </p>
+                            <br>
+                            <p>Los medios que realmente aspiran a ser parte del cambio deben replantear su enfoque, entendiendo que cada imagen, cada palabra, tiene un impacto directo en la vida de las víctimas y en la percepción social de la violencia de género. Es imperativo que, en lugar de reproducir la violencia, se esfuercen en erradicarla, siendo fieles a los principios de ética y humanidad.
+                            </p>
+                            <br>
+                            
+                        </div>
+                    </div>
+            </article>
+        </li>
+    </ul>
+</section>
         {{--PEDRO BRIEGER Y LA CULTURA DEL ACOSO... --}}
 <section>
     <ul>

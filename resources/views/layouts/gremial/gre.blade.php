@@ -1,5 +1,54 @@
 <x-app-layout>
     <div class="container ">
+        {{--ESTATALES EXIGEN FIN DE LA PRECARIZACIÓN Y AUMENTOS SALARIALES EN CABA  --}}
+    <section>
+        <ul>
+            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                <article>
+
+                    <div class="py-4 px-4 justify-between items-center">
+                        <h2 class="text-xl font-serif  font-bold pb-6">
+                            <a href="">ESTATALES EXIGEN FIN DE LA PRECARIZACIÓN Y AUMENTOS SALARIALES EN CABA
+                            </a>
+                        </h2>
+                        <p class="font-light  text-right text-gray-500">Publicado: 14/08/2024</p>
+                        <div class=" font-sans text-lg text-left col-span-6  ">
+                        <p><i>Trabajadores estatales de CABA exigen el fin de la precarización y aumentos salariales justos ante la inflación, mientras el gobierno porteño los mantiene en una situación desfavorecedora.</i>
+                        </p>
+                        <br>
+                        {{-- <article>
+                            <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/mDyomkBc1DE?si=bnT2gxK0tSpFUqx1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            
+                        </article> --}}
+                        <figure>
+                            <img class=" w-full object-cover" src="../img/grem/grem_estatales.svg"
+                                alt="">
+                        </figure>
+                        <br>
+                        <div
+                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                            <div class=" font-sans text-lg text-left col-span-6  ">
+                                <p>Este martes, trabajadores estatales de la Ciudad de Buenos Aires se movilizan frente al Ministerio de Hacienda Porteño para exigir el fin de la precarización laboral y ajustes salariales acordes a la inflación. La Asociación de Trabajadores del Estado (ATE) revela que más de 20 mil empleados del Gobierno de la Ciudad de Buenos Aires (GCBA) se encuentran facturando como monotributistas, con una pérdida salarial que superó el 22% en 2023 y una paritaria 2024 que acentúa el deterioro del poder adquisitivo, con un ajuste del 5% por debajo de la inflación real. Muchos de estos trabajadores han estado en esta situación durante más de seis años. 
+                                </p>
+                                <br>
+                                <p>Romina Piccirillo, secretaria de Comunicación de ATE Capital, denuncia que “los monotributistas están desfasados respecto a los trabajadores de planta permanente, realizando las mismas tareas por un salario cercano a los $400 mil sin cobertura de ART, sin cargas sociales y sin seguro”. Además, los trabajadores que se encuentran en esta situación deben enfrentar el aumento de las cuotas del monotributo establecidas por el Gobierno nacional.
+                                </p>
+                                <br>
+                                <p>ATE Capital exige el pase a planta de estos trabajadores precarizados y un aumento salarial que se equipare al del resto de los empleados de planta. También propone que los monotributistas no tributen Ingresos Brutos. El gremio demanda que la suma fija recientemente acordada sea extendida a todos los empleados y que se considere como parte del salario remunerativo.
+                                </p>
+                                <br>
+                                <p>Un ejemplo notable de esta precarización en el GCBA es la Dirección de Prevención del Delito, que cuenta con 1.400 trabajadores, de los cuales solo 60 están en planta permanente o transitoria. ATE también critica los mecanismos de retiro voluntario impulsados por el Gobierno de Jorge Macri, que han dejado en crisis a varios organismos, incluido el Consejo de Derechos de Niños, Niñas y Adolescentes, exacerbando la crisis con amenazas y descuentos por inasistencias injustificadas. Esta situación está generando un impacto negativo en la atención y cumplimiento de funciones esenciales.</p>
+                                <br>
+                                
+                                
+                                
+                                
+                            </div>
+                        </div>
+                </article>
+            </li>
+        </ul>
+    </section>
         {{--DANIEL YOFRA: “LAS EMPRESAS QUERÍAN CONFLICTO PARA PRESIONAR AL GOBIERNO”  --}}
     <section>
         <ul>

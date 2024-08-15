@@ -4017,6 +4017,146 @@
                 </div>
 
             </section>
+        @elseif ($tituloSep == 'Derechos-Humanos-Noticia-Completa-der30')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">DE LA CIÉNAGA A LA VERDAD
+                                            </a>
+                                            <p class="font-light text-gray-500">Por Adriana Zerdín
+                                            </p> 
+                                        </h2>
+                                        <p class="font-light  text-right text-gray-500">Publicado: 15/08/2024</p>
+                                        <p><i>"Para descartar esta sensación, de perderlo todo, para analizar por dónde seguir, y elegir el modo..." VÍCTOR HEREDIA</i>
+                                    </p>
+                                        <br>
+                                        <figure>
+                                            <img class="w-full object-cover"
+                                                src="{{ asset('../img/der/der_cienaga2.svg') }}" alt="">
+
+                                        </figure>
+                                        {{-- <article>
+                                            <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/XSNYTBkbmx4?si=V9zwrQyh3h5dyKbu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                            
+                                        </article> --}}
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                                <p>Cuando las Políticas de Estado vinculadas a la Memoria, la Verdad y la Justicia fueron implementadas en nuestro país se accionaron los juicios a los perpetradores de crímenes aberrantes, a los genocidas y a  sus cómplices civiles, pocos,  y a varios eclesiásticos. Fueron sentenciados a largas condenas por crímenes de lesa humanidad y alojados en cárceles comunes.
+                                                </p>
+                                                <br>
+                                                <p>Más de 30. 000 detenidos desaparecidos  cautivos en centros clandestinos  de detención,   cerca de  600 centros de detención tortura y exterminio en todo el país, miles de presos políticos a disposición del PEN (Poder Ejecutivo Nacional), como manera de blanquearlos, más de 400 bebés nacidos en cautiverio y despojados de sus identidades, miles de mujeres violadas como práctica sistemática, la tortura como inicio de crueles padecimientos, millares de detenidos desaparecidos arrojados vivos desde aviones al Río del Plata, y ningún hábeas corpus aceptado para la búsqueda de paradero de les desaparecides.
+                                                </p>
+                                                <br>
+                                                <p>Luego del  Juicio a las Juntas (1985)  cientos de otros juicios fueron llevados a cabo en todo el territorio del país desde 2006 sobre los crímenes de la última dictadura cívico-militar-eclesástica. Desde el inicio de los juzgamientos en 1985, 1221  personas fueron condenadas por delitos de Lesa Humanidad con cumplimiento efectivo en cárcel común. A muchos de ellos los alcanzó su fin biológico llevando con sus pactos de silencio el destino de los desaparecidos.
+                                                </p>
+                                                <br>
+                                                <p>En muchos países que sufrieron dictaduras, regímenes totalitarios, genocidios, limpiezas étnicas, falsos positivos y demás aberraciones propias del Terrorismo de Estado  optan por refrendar en su legislación  la prohibición de hacer apología y enaltecimiento de las dictaduras.</p>
+                                                <br>
+                                                <p>Es el caso de Alemania que azotada por el nazismo, extendió el régimen con impronta de conquista imperial, desde donde se pergeñó la solución final con la eliminación del pueblo judío como chivo expiatorio.</p>
+                                                <br>
+                                                <p>El  Código Penal alemán caracteriza la exaltación del nazismo como una de las formas del delito de incitación al odio racial  con  penas de hasta tres años de cárcel.</p>
+                                                <br>
+                                                <p>Asimismo, la legislación alemana aplica castigos por negar o relativizar los crímenes del nacionalsocialismo y en especial la negación del Holocausto.</p>
+                                                <br>
+                                                <p>En Italia, la Ley Mancino, de 1993, castiga gestos, acciones y lemas relacionados con la ideología nazi-fascista y la incitación a la violencia y a la discriminación por motivos raciales, étnicos, religiosos o nacionales, y contiene penas por el uso de símbolos vinculados a los citados movimientos políticos.</p>
+                                                <br>
+                                                <p>Austria también aprobó en 1947 la Ley de Prohibición, para ilegalizar todas las organizaciones nazis y contribuir a eliminar toda influencia del nazismo en la sociedad. En 1992 fue ampliada para incluir claramente la prohibición de negar, minimizar, aprobar o justificar los crímenes del nacionalsocialismo, especialmente el Holocausto judío, delito de "negacionismo" penado con hasta diez años de cárcel.</p>
+                                                <br>
+                                                <p>En Francia son considerados delitos penales tanto la apología de los crímenes de guerra y contra la humanidad como el negacionismo del Holocausto o del genocidio cometido contra los armenios durante la dominación otomana en 1915.</p>
+                                                <br>
+                                                <p>Dónde quedó la legislación argentina sobre penalizar la apología de los crímenes aberrantes de  la dictadura cívico militar eclesiática ? Dónde perdimos la brújula, creyendo con convicción que el NUNCA MÁS sería NUNCA MÁS?</p>
+                                                <br>
+                                                <p>Con gran preocupación vemos como avanzan algunos proyectos para la liberación de los genocidas: algunos con prisión domiciliara y otros, tal vez al confort de sus hogares.  Pero más indignación nos provocan las visitas de diputados nacionales del oficialismo a los mencionados penales, so pretexto de compartir meriendas, comprobar el estado de los condenados por los más aberrantes crímenes contra la humidad, como una inocente visita social, aduciendo que nada sabían quiénes serían “los anfitriones”. Las autoridades de la Cámara de Diputados de la Nación  sí tenían conocimientos y  facilitaron un transporte oficial para viajar hasta la bucólica localidad de Ezeiza. Muros afuera.</p>
+                                                <br>
+                                                <p>Una vez más, las MADRES, LAS ABUELAS, LOS FAMILIARES, LOS HIJOS son nuestros faros que nos reubican en los caminos de los que no debemos apartarnos.  La Memoria, la Verdad y la Justicia llegaron para quedarse. No nos han vencido. De nosotros depende.</p>
+                                                <br>
+                                                <p><i>Fuentes: La Vanguardia, Juicios de Lesa Humanidad, Página12, Leyes Raciales de Nüremberg.</i></p>
+                                                <br>
+                                                <div class="text-start object-center">
+                                                    <figure>
+                                                        <img class="w-28 h-28  "
+                                                            src="{{ asset('../img/der/Adri.svg') }}"
+                                                            alt="">
+                                                        <p> <strong>Por Adriana Zerdín<strong></p>
+
+                                                        <p><strong><strong></p>
+
+                                                    </figure>
+                                                </div>
+
+
+                                            </div>
+
+
+
+                                        </div>
+                                    </div>
+                                </article>
+                            </li>
+                        </ul>
+                    </div>
+
+                    {{-- columna de la derecha chica --}}
+                    <aside>
+                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                            <div class=" col-span-6">
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/bener-leg2.png') }}"
+                                        alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
+                                        alt="">
+                                </a>
+
+                                <div id="app">
+
+                                    <div v-for="item in info">
+
+                                        <div class="flex-col pb-3">
+                                            <div
+                                                class="flex-col max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg"
+                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
+                                                        alt="" />
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5
+                                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                                            @{{ item.title }}</h5>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div v-for="va in clima">
+
+                                        <h5
+                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                            @{{ va }}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+                </div>
+
+            </section>
         @endif
     </div>
 

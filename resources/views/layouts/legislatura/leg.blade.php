@@ -1,5 +1,57 @@
 <x-app-layout>
     <div class="container ">
+        {{--JORNADA EN LA LEGISLATURA PORTEÑA ABORDÓ LA CRECIENTE LUDOPATÍA DIGITAL --}}
+    <section >
+        <ul>
+            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                <article>
+
+                    <div class="py-4 px-4 justify-between items-center">
+                        <h2 class="text-xl font-serif  font-bold pb-6">
+                            <a href="">JORNADA EN LA LEGISLATURA PORTEÑA ABORDÓ LA CRECIENTE LUDOPATÍA DIGITAL</a>
+                        </h2>
+                        <p class="font-light  text-right text-gray-500">Publicado: 15/08/2024</p>
+                        <p><i>La ludopatía digital está en aumento y genera preocupación; expertos y figuras públicas se reúnen para discutir su impacto y la necesidad de intervención y regulación.</i></p>
+                        <br>
+                        <figure>
+                            <a href="">
+                                <img class="w-full object-cover object-center"
+                                    src="{{ asset('../img/leg/leg_ludo2.svg') }}" alt="">
+                            </a>
+                        </figure>
+                        <br>
+                        <div
+                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                            <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                <p>En el salón Montevideo de la Legislatura de la Ciudad Autónoma de Buenos Aires, se llevó a cabo una jornada dedicada a la ludopatía, con un foco especial en su manifestación digital. Este evento reunió a diversos expertos y figuras públicas para discutir un fenómeno en expansión, impulsado por la tecnología.</p>
+                                <br>
+                                <p>El Vicepresidente primero, Matías López, inauguró el encuentro destacando la creciente preocupación por la ludopatía en la era digital. López advirtió sobre los peligros asociados con el acceso a la tecnología, señalando que, aunque estos avances ofrecen soluciones, también traen desafíos significativos como la ludopatía, que afecta profundamente a los jóvenes al destruir sus entornos familiares y sociales.</p>
+                                <br>
+                                <p>El panel inicial contó con la participación del periodista Nicolás Cayetano, la influencer Bernardita Siutti (Mami Albañil), el especialista en adicciones Leandro Faur y la psicóloga Victoria Gómez Bonilla. Cayetano compartió su experiencia personal con la ludopatía, describiéndola como una "enfermedad brava, silenciosa y solitaria" y subrayó la importancia de visibilizar el problema para facilitar la recuperación. Relató cómo su adicción lo llevó a perder propiedades y destacó la necesidad de un mayor conocimiento y apoyo durante el proceso de recuperación.
+                                </p>
+                                <br>
+                                <p>Gómez Bonilla abordó el desafío de la detección tardía en adolescentes, destacando que los jóvenes a menudo buscan ayuda solo cuando la situación se ha agravado. También advirtió sobre la influencia de los algoritmos digitales en el incremento de adicciones, señalando que estos conocen a los usuarios de manera más íntima que sus propias familias.
+                                </p>
+                                <br>
+                                <p>Faur hizo hincapié en la necesidad de regular los estímulos que fomentan el consumo problemático, subrayando la importancia de educar a los jóvenes sobre los riesgos asociados con estas prácticas.</p>
+                                <br>
+                                <p>Por su parte, Bernardita Siutti relató cómo las empresas de apuestas buscan influenciadores para promocionar sus servicios, lo que puede contribuir a la proliferación del problema. Siutti, quien rechazó ofertas de promoción de casinos, lanzó una campaña para exponer la relación entre influencers y empresas de apuestas, destacando los riesgos de recaídas con solo un clic.</p>
+                                <br>
+                                <p>La jornada concluyó con un llamado a la acción para una mayor regulación y educación sobre la ludopatía digital, y a un compromiso colectivo para abordar este creciente desafío en la sociedad.</p>
+                                <br>
+                                
+                                
+                            </div>
+
+
+
+                        </div>
+                    </div>
+                </article>
+            </li>
+        </ul>
+    </section>
     {{--RECONOCIMIENTOS A LA SALUD, LA CULTURA Y LA INCLUSIÓN --}}
     <section >
         <ul>
