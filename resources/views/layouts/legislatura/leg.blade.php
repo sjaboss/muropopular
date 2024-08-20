@@ -1,5 +1,56 @@
 <x-app-layout>
     <div class="container ">
+        {{--LA LEGISLATURA DE LA CIUDAD HOMENAJEÓ AL AUTOMÓVIL CLUB ARGENTINO POR SU 120° ANIVERSARIO --}}
+    <section >
+        <ul>
+            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                <article>
+
+                    <div class="py-4 px-4 justify-between items-center">
+                        <h2 class="text-xl font-serif  font-bold pb-6">
+                            <a href="">LA LEGISLATURA DE LA CIUDAD HOMENAJEÓ AL AUTOMÓVIL CLUB ARGENTINO POR SU 120° ANIVERSARIO</a>
+                        </h2>
+                        <p class="font-light  text-right text-gray-500">Publicado: 19/08/2024</p>
+                        <p><i>EL Cuerpo Legislativo celebró la destacada trayectoria del ACA por sus múltiples servicios a la comunidad y al automovilismo.</i></p>
+                        <br>
+                        <figure>
+                            <a href="">
+                                <img class="w-full object-cover object-center"
+                                    src="{{ asset('../img/leg/leg_auto2.svg') }}" alt="">
+                            </a>
+                        </figure>
+                        <br>
+                        <div
+                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                            <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                <p>Este viernes, en el Salón Dorado de la Legislatura porteña, se llevó a cabo el acto para conmemorar el 120° aniversario del Automóvil Club Argentino (ACA). Durante la ceremonia, se entregó un reconocimiento oficial y estuvieron presentes Matías López, Vicepresidente Primero de la Legislatura; Sandra Rey, diputada y autora del proyecto; Ramiro Marra, diputado y coautor; y las autoridades del ACA: César C. Carman, presidente de la Comisión Directiva, y Carlos González Cambaceres, Vicepresidente Primero.</p>
+                                <br>
+                                <p>Matías López abrió el evento, reivindicando al ACA como un referente de la familia argentina y afirmando que la institución "se convirtió en un símbolo de unión y pertenencia de los argentinos". Luego, Sandra Rey señaló que “el Automóvil Club Argentino es una pasión arraigada por los automovilistas y forma parte de la cultura de nuestro país”.</p>
+                                <br>
+                                <p>Se proyectó un video sobre la historia del ACA, destacando su rol en la cultura y la infraestructura vial del país bajo el lema: “120 años presente de una gran historia abriendo camino al futuro”. Ramiro Marra mencionó que el ACA evoca nostalgia en la vida de los argentinos: "Todos tenemos una historia con el Automóvil Club Argentino, fue parte de nuestras vidas y nos permite sentirnos parte".
+                                </p>
+                                <br>
+                                <p>César Carman, en representación del ACA, recibió la bandeja conmemorativa y cerró el acto expresando su orgullo por la magnitud de la institución. “Esta institución es algo entrañable que le pertenece a todos los argentinos. Estos 120 años son un momento de reflexión en un mundo que crece a pasos agigantados”.
+                                </p>
+                                <br>
+                                <p>El ACA, fundado el 11 de junio de 1904, ha sido un pilar en la organización y regulación del automovilismo deportivo en nuestro país. Más allá del deporte motor, ofrece una amplia gama de servicios, incluyendo asistencia al viajero, auxilio mecánico, cartografía, hospedaje y otros servicios turísticos.</p>
+                                <br>
+                                <p>Entre sus logros se destacan la promoción de la Ley Nacional de Vialidad, la creación de la Escuela de Conductores, el Instituto Superior de Enseñanza, la biblioteca y el Museo de Automóviles Históricos, así como la publicación de la Revista Autoclub desde 1961.</p>
+                                <br>
+                                
+                                
+                                
+                            </div>
+
+
+
+                        </div>
+                    </div>
+                </article>
+            </li>
+        </ul>
+    </section>
         {{--JORNADA EN LA LEGISLATURA PORTEÑA ABORDÓ LA CRECIENTE LUDOPATÍA DIGITAL --}}
     <section >
         <ul>

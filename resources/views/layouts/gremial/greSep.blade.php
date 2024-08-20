@@ -4903,6 +4903,114 @@
 
                 </div>
             </section>
+        @elseif ($tituloSep == 'Gremiales-Noticia-Completa-gre41')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">CORREA INAUGURÓ LA SUBDELEGACIÓN DE EZEIZA CON GRANADOS Y MOYANO
+                                            </a>
+                                        </h2>
+                                        <p class="font-light  text-right text-gray-500">Publicado: 19/08/2024</p>
+                                        <div class=" font-sans text-lg text-left col-span-6  ">
+                                        <p><i>La nueva sede en Ezeiza permitirá a los vecinos realizar trámites sin necesidad de viajar a Lomas de Zamora y representa un contraste con las políticas del gobierno nacional.</i>
+                                        </p>
+                                        <br>
+                                        {{-- <article>
+                                            <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/mDyomkBc1DE?si=bnT2gxK0tSpFUqx1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                            
+                                        </article> --}}
+                                        <figure>
+                                            <img class=" w-full object-cover" src="../img/grem/grem_ezeiza.svg"
+                                                alt="">
+                                        </figure>
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+                                                <p>El ministro de Trabajo de la provincia de Buenos Aires, Walter Correa, inauguró hoy la nueva subdelegación Regional de Trabajo y Empleo en Ezeiza. En el acto, también participaron el intendente Gastón Granados y el secretario General Adjunto de Camioneros, Pablo Moyano. La nueva oficina, ubicada en el Shopping Los Nogales en calle Las Hortensias Nº31, permitirá a los vecinos realizar consultas y trámites del Ministerio de Trabajo sin tener que trasladarse hasta la Delegación de Lomas de Zamora. 
+                                                </p>
+                                                <br>
+                                                <p>Esta apertura es parte de una política más amplia del gobernador Axel Kicillof, que busca acercar el Estado a la población mediante la creación de nuevas sedes en toda la provincia. Correa destacó que esta medida tiene como objetivo ratificar los derechos laborales y ofrecer herramientas accesibles a los trabajadores, a diferencia de la política del gobierno nacional, que ha sido criticada por su falta de atención a las necesidades del sector laboral.
+                                                </p>
+                                                <br>
+                                                <p>Durante el acto, el ministro Correa y el intendente Granados firmaron un convenio en el que el municipio cede el uso de las instalaciones para el funcionamiento de la nueva subdelegación. Granados enfatizó la importancia de seguir luchando por los derechos de los trabajadores en un contexto de amenazas a esos derechos, y Moyano resaltó que la presencia del Estado provincial es crucial frente a las políticas nacionales que, según él, buscan desmantelar los logros laborales.
+                                                </p>
+                                                <br>
+                                                <p>El acto contó también con la presencia de varios funcionarios del Ministerio de Trabajo, incluyendo la jefa de Gabinete Cecilia Cecchini, el subsecretario de Relaciones del Trabajo Andrés Reveles, y otros directores provinciales. Este evento resalta la creciente preocupación y el esfuerzo por proteger los derechos de los trabajadores en un momento de incertidumbre política.</p>
+                                                <br>
+                                                
+                                                
+                                                
+                                                
+                                            </div>
+                                        </div>
+                                </article>
+                            </li>
+                        </ul>
+                    </div>
+
+
+                    {{-- columna de la derecha chica --}}
+                    <aside>
+                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                            <div class=" col-span-6">
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/bener-leg2.png') }}"
+                                        alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/APSE.gif') }}" alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
+                                        alt="">
+                                </a>
+
+
+
+                                <div id="app">
+
+                                    <div v-for="item in info">
+
+                                        <div class="flex-col pb-3">
+                                            <div
+                                                class="flex-col max-w-sm  border  border-gray-700 rounded-lg shadow bg-gray-800">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg"
+                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
+                                                        alt="" />
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5 class="mb-2 text-2xl font-bold tracking-tight  text-white">
+                                                            @{{ item.title }}</h5>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div v-for="va in clima">
+
+                                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-white">
+                                            @{{ va }}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+
+                </div>
+            </section>
         @endif
     </div>
     {{-- aca arrancamos vue --}}

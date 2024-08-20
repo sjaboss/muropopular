@@ -1,5 +1,65 @@
 <x-app-layout>
     <div class="container ">
+        {{-- MOREAU CUESTIONÓ AL GOBIERNO Y ALERTÓ SOBRE DERIVA AUTORITARIA....--}}
+<section>
+    <ul>
+        <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+            <article>
+                <div class="py-4 px-4 justify-between items-center">
+                    <h2 class="text-xl font-serif  font-bold pb-6">
+                        <a href="">MOREAU CUESTIONÓ AL GOBIERNO Y ALERTÓ SOBRE DERIVA AUTORITARIA</a>
+                        {{-- <p class="font-light text-gray-500">Por Daniel Gomez, Politologo.</p>  --}}
+                    </h2>
+                    <p class="font-light  text-right text-gray-500">Publicado: 16/08/2024</p>
+                    <div class=" font-sans text-lg text-left col-span-6  ">
+                    <p><i>El diputado Leopoldo Moreau criticó el desorden en las sesiones de la Cámara y denunció el uso excesivo de decretos por parte del gobierno, alertando sobre la erosión de la democracia y el desmantelamiento de instituciones clave.</i>
+                    </p>
+                    <br>
+                    <article>
+                        <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/Z4mV98JfsV4?si=s0FbdjMb5jjA76Yf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        
+                    </article>
+                    {{-- <figure>
+                        <img class="w-full object-cover"
+                            src="{{ asset('../img/pol/pol_kicignl.svg') }}" alt="">
+
+                    </figure> --}}
+                    <br>
+                    <div
+                        class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                        <div class=" font-sans text-lg text-left col-span-6  ">
+                            <p>En una acalorada sesión en la Cámara de Diputados, el legislador Leopoldo Moreau expresó su preocupación por el caos en los debates parlamentarios, destacando que la discusión simultánea de múltiples temas conduce a la confusión y socava la credibilidad del Congreso. "Es muy difícil transitar una sesión debatiendo a la vez 10 temas que se mezclan y se termina por no saber qué se está discutiendo", señaló, advirtiendo que esta desorganización daña la confianza pública en la democracia.
+                            </p>
+                            <br>
+                            <p>Moreau criticó duramente al gobierno por recurrir sistemáticamente a los decretos de necesidad y urgencia (DNU), acusándolo de erosionar las facultades del Poder Legislativo. Recordó que un sector político había otorgado al gobierno herramientas poderosas, que fueron utilizadas en exceso. "El gobierno siguió adelante con decretos a troche y moche", afirmó, preocupándose por el debilitamiento del Congreso en su rol legislativo.
+                            </p>
+                            <br>
+                            <p>El diputado también cuestionó las visitas de legisladores a represores encarcelados, sugiriendo que podrían estar orientadas a "poner en marcha una conspiración que pretenda dar vuelta la historia de la Argentina". Criticó la posible complicidad del Servicio Penitenciario Federal, ahora bajo la órbita del Ministerio de Seguridad, y evocó su propia experiencia en visitas a detenidos, destacando las estrictas normas que entonces imperaban.
+                            </p>
+                            <br>
+                            <p>Además, Moreau denunció la reciente decisión del gobierno de suprimir la unidad especial para la búsqueda de niños desaparecidos durante la dictadura, adscripta a la Comisión Nacional por el Derecho a la Identidad (CONADI). "El gobierno suprimió la unidad especial para la desaparición de niños en la época del terrorismo de Estado", señaló, subrayando la incoherencia con el avance de una ley para la base de datos genéticos discutida en la misma sesión.</p>
+                            <br>
+                            <p>Para Moreau, estas acciones revelan una peligrosa deriva autoritaria y una falta de compromiso con la memoria histórica. Llamó a superar la polarización política y a enfocarse en la defensa de los valores democráticos: "Se está con la democracia o se está con el autoritarismo", concluyó, advirtiendo sobre los riesgos de permitir prácticas autoritarias en el corazón de la democracia argentina.
+                            </p>
+                            <br>
+                            
+                            
+                            
+
+                            <div class="text-start object-center">
+                                {{-- <figure>
+                                    <img class="w-28 h-28  "
+                                        src="{{ asset('../img/der/Adri.svg') }}" alt="">
+
+                                    <p> <strong>Adriana Zerdín</strong></p>
+
+                                </figure> --}}
+                            </div>
+                        </div>
+            </article>
+        </li>
+    </ul>
+</section>
         {{-- KICILLOF DEFENDIÓ A BUENOS AIRES EN LA DISPUTA POR LA PLANTA DE GNL....--}}
 <section>
     <ul>

@@ -2450,6 +2450,114 @@
                 </div>
 
             </section>
+        @elseif ($tituloSep == 'Cultura-Noticia-Completa-cul22')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">ADIÓS AL MITO: ALAIN DELON HA MUERTO A LOS 88 AÑOS</a>
+                                        </h2>
+                                        <p class="font-light  text-right text-gray-500">Publicado: 20/08/2024</p>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                                <p><i>El legendario actor francés Alain Delon falleció a los 88 años en su casa de Douchy, según confirmaron sus hijos en un comunicado.</i></p>
+                                                <br>
+                                                <figure>
+                                                    <a href="">
+                                                        <img class="w-full object-cover object-center"
+                                                            src="{{ asset('../img/cul/cul_alain.svg') }}"
+                                                            alt="">
+                                                    </a>
+                                                </figure>
+                                                <br>
+                                                <p>El pasado domingo 18 de agosto de 2024, Alain Delon, uno de los actores más icónicos del cine francés, murió a los 88 años en su residencia de Douchy, Francia. La noticia fue confirmada por sus hijos Alain Fabien, Anouchka y Anthony, quienes en un comunicado pidieron respeto por su intimidad en este difícil momento. Según el mensaje, la muerte de Delon ocurrió de manera "serena".</p>
+                                                <br>
+                                                <p>Desde 2019, cuando sufrió un ataque vascular cerebral, la salud del actor había sido motivo de discordia entre sus hijos, y sus apariciones públicas se volvieron escasas. A pesar de estos conflictos familiares, Delon permaneció en la memoria colectiva por sus icónicas interpretaciones, que marcaron una época en el cine mundial.
+                                                </p>
+                                                <br>
+                                                <p>Nacido en Sceaux en 1935, Delon tuvo una infancia difícil marcada por el divorcio de sus padres y su crianza en una familia adoptiva. A los 17 años decidió adelantar su servicio militar y fue enviado a la guerra de Indochina. A su regreso, fue descubierto por el actor Jean-Claude Brialy, quien lo llevó al Festival de Cannes. Allí, Delon recibió sus primeras propuestas cinematográficas y debutó en 1957 en la película Envía a una mujer cuando el diablo falla, dirigida por Yves Allégret.</p>
+                                                <br>
+                                                <p>Durante seis décadas, Delon protagonizó algunas de las películas más emblemáticas del cine francés, con actuaciones inolvidables en filmes como A pleno sol (1960) de René Clément y El otro señor Klein (1976) de Joseph Losey. Colaboró con directores de renombre como Luchino Visconti en Rocco y sus hermanos y El gatopardo, y Michelangelo Antonioni en El eclipse, junto a Monica Vitti.
+                                                </p>
+                                                <br>
+                                                <p>Uno de los momentos más importantes en su carrera fue su colaboración con Jean-Pierre Melville, quien lo dirigió en clásicos como El samurái (1967) y El círculo rojo (1970).
+                                                </p>
+                                                <br>
+                                                <p>Las redes sociales se llenaron de mensajes en homenaje al actor. El presidente francés Emmanuel Macron destacó a Delon como un "monumento francés," recordando sus papeles en filmes como Rocco y sus hermanos y El samurái. “Más que una estrella, era un monumento francés,” escribió Macron en X. Jack Lang, exministro de Cultura y amigo cercano de Delon, lo describió como un "inmenso actor". Gilles Jacob, expresidente del Festival de Cannes, expresó que Delon fue "un león majestuoso, que lo controló todo menos su final".</p>
+                                                <br>
+                                                
+                                            </div>
+
+
+
+                                        </div>
+                                    </div>
+                                </article>
+                            </li>
+                        </ul>
+                        <br>
+
+                    </div>
+
+
+                    {{-- columna de la derecha chica --}}
+                    <aside>
+                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                            <div class=" col-span-6">
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/bener-leg2.png') }}"
+                                        alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
+                                        alt="">
+                                </a>
+
+                                <div id="app">
+
+                                    <div v-for="item in info">
+
+                                        <div class="flex-col pb-3">
+                                            <div
+                                                class="flex-col max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg"
+                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
+                                                        alt="" />
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5
+                                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                                            @{{ item.title }}</h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div v-for="va in clima">
+
+                                        <h5
+                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                            @{{ va }}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+
+                </div>
+
+            </section>
         @endif
     </div>
 

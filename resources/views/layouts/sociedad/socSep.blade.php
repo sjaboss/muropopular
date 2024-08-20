@@ -11169,6 +11169,693 @@
                     </aside>
                 </div>
             </section>
+        @elseif ($tituloSep == 'Sociedad-Noticia-Completa-soc89')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">LA INFLACIÓN DE JULIO SIGUE CASTIGANDO LOS BOLSILLOS</a>
+                                            {{-- <p class="font-light  text-lef text-gray-500">Por Emanuel Corrado</p> --}}
+                                        </h2>
+                                        <p class="font-light  text-right text-gray-500">Publicado: 16/08/2024</p>
+                                        <div class=" font-sans text-lg text-left col-span-6  ">
+                                        <p><i>El gobierno de Javier Milei prometió bajar la inflación, pero el índice de precios al consumidor alcanzó el 4% en julio, sumando un 91,9% desde su asunción. La situación se agrava con un consumo en caída y expectativas negativas para lo que resta del año.</i>
+                                        </p>
+                                        <br>
+                                        <figure>
+                                            <img class="w-full object-cover" src="../img/soc/soc_inflacion.svg"
+                                                alt="">
+                                        </figure>
+                                        
+                                        {{-- <article>
+                                            <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/GeOVAG1Bfz8?si=r2ihOrxI6uEWI0IU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                            
+                                        </article> --}}
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                                <p>El Instituto Nacional de Estadística y Censos (INDEC) publicó este miércoles el dato de inflación de julio, que fue de 4%, apenas una leve desaceleración respecto a junio. Este índice muestra un alza interanual del 263,4%, un golpe contundente a los bolsillos que pone en evidencia la incapacidad del gobierno de Javier Milei para controlar la suba de precios. 
+                                                </p>
+                                                <br>
+                                                <p>A pesar de las promesas del ministro de Economía, Luis Caputo, de que la inflación comenzaría con un "tres adelante", la barrera del 4% aún no ha sido quebrada. Desde que Milei asumió, la inflación acumulada ya llega al 91,9%, reflejando una falta de medidas eficaces para detener la espiral inflacionaria. Además, el consumo sigue en picada: las ventas en supermercados cayeron un 10,6% en términos interanuales y un 0,2% respecto a junio, lo que refleja el impacto directo de la inflación en la capacidad de compra de los argentinos.</p>
+                                                <br>
+                                                <p>Las regiones más afectadas por las subas de precios en julio fueron el Noreste y Cuyo, con un incremento del 4,6%, seguidas por la Patagonia con un 4,2%. Entre las divisiones que más aumentaron se encuentran Restaurantes y hoteles (6,5%) y Bebidas alcohólicas y tabaco (6,1%), debido al incremento en cigarrillos. Por su parte, la división de Alimentos y bebidas no alcohólicas registró una suba del 3,2%, con aumentos destacados en frutas y verduras, tubérculos y legumbres, lo que afecta directamente a los sectores más vulnerables.</p>
+                                                <br>
+                                                <p>En la Ciudad de Buenos Aires, la inflación subió al 5,1% en julio, tres décimas más que el mes anterior, lo que pone en duda las previsiones del gobierno sobre una supuesta "desinflación". Esta cifra, superior al promedio nacional, resalta la ineficacia de las políticas económicas actuales para contener el aumento de precios en el principal distrito del país.</p>
+                                                <br>
+                                                <p>El panorama se torna aún más preocupante al considerar las proyecciones de los analistas económicos consultados por el Banco Central. Según el último Relevamiento de Expectativas de Mercado (REM), se estima que la inflación acumulada para todo 2024 será del 138,1%, una cifra alarmante que refuerza la percepción de que las medidas adoptadas por el gobierno no están logrando revertir la tendencia.</p>
+                                                <br>
+                                                <p>A medida que la inflación sigue siendo un problema persistente, el gobierno de Javier Milei enfrenta un desafío cada vez mayor para cumplir con sus promesas de campaña. Las expectativas de una inflación a la baja parecen cada vez más lejanas, mientras que los argentinos continúan soportando el peso de una economía que no logra estabilizarse. La pregunta que surge es cuánto más podrán resistir los sectores más golpeados antes de que las consecuencias sociales se vuelvan insostenibles.</p>
+                                                <br>
+                                                
+                                                <div class="text-start object-center">
+                                                    {{-- <figure>
+                                                        <img class="w-28 h-28  "
+                                                            src="{{ asset('../img/der/Adri.svg') }}"
+                                                            alt="">
+                                                        
+                                                        <p> <strong>Nota de Adriana Zerdín</strong></p>
+
+                                                    </figure>  --}}
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+                            </li>
+                        </ul>
+                        <br>
+                    </div>
+
+
+                    {{-- columna de la derecha chica --}}
+                    <aside>
+                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                            <div class=" col-span-6">
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/bener-leg2.png') }}"
+                                        alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
+                                        alt="">
+                                </a>
+
+                                <div id="app">
+
+                                    <div v-for="item in info">
+
+                                        <div class="flex-col pb-3">
+                                            <div
+                                                class="flex-col max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg"
+                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
+                                                        alt="" />
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5
+                                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                                            @{{ item.title }}</h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div v-for="va in clima">
+
+                                        <h5
+                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                            @{{ va }}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+                </div>
+            </section>
+        @elseif ($tituloSep == 'Sociedad-Noticia-Completa-soc90')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">KICILLOF IMPULSA LA CREACIÓN DE UNA UNIDAD PARA BUSCAR A LOS NIETOS APROPIADOS</a>
+                                            {{-- <p class="font-light  text-lef text-gray-500">Por Emanuel Corrado</p> --}}
+                                        </h2>
+                                        <p class="font-light  text-right text-gray-500">Publicado: 17/08/2024</p>
+                                        <div class=" font-sans text-lg text-left col-span-6  ">
+                                        <p><i>El gobernador de Buenos Aires creó la Unidad Provincial Especializada para la búsqueda de personas apropiadas durante la última dictadura, en respuesta al desmantelamiento de la Conadi por parte del gobierno nacional.</i>
+                                        </p>
+                                        <br>
+                                        <figure>
+                                            <img class="w-full object-cover" src="../img/soc/soc_kicinietes2.svg"
+                                                alt="">
+                                        </figure>
+                                        
+                                        {{-- <article>
+                                            <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/GeOVAG1Bfz8?si=r2ihOrxI6uEWI0IU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                            
+                                        </article> --}}
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                                <p>El gobernador Axel Kicillof ha anunciado la creación de la Unidad Provincial Especializada para la búsqueda de personas apropiadas, en respuesta al desmantelamiento de la Comisión Nacional por el Derecho a la Identidad (CONADI) y al reciente decreto 727/2024, que desactivó la Unidad Especial de Investigación de la Desaparición de Niños. Esta nueva unidad, dependiente del Ministerio de Justicia bonaerense, se enfocará en la búsqueda de bebés apropiados durante la última dictadura cívico-militar, estimando que la mitad de estos casos podrían corresponder a personas nacidas en la provincia de Buenos Aires. 
+                                                </p>
+                                                <br>
+                                                <p>Matías Moreno, subsecretario de Derechos Humanos de la provincia, detalló que la unidad recibirá denuncias, solicitará documentación y coordinará con organismos nacionales para realizar pericias genéticas en el Banco Nacional de Datos Genéticos. La creación de esta unidad responde al compromiso provincial con la memoria, verdad, justicia y reparación, en contraste con el desmantelamiento de la CONADI por parte del gobierno nacional.</p>
+                                                <br>
+                                                <p>El gobernador Kicillof se reunió con Estela Carlotto, presidenta de Abuelas de Plaza de Mayo, para coordinar el trabajo de la nueva unidad. Kicillof subrayó que la provincia continuará buscando a los 300 nietos y nietas aún no recuperados y defenderá el trabajo de las Abuelas de Plaza de Mayo. El gobernador también expresó su preocupación por el desmantelamiento de la CONADI y destacó que la provincia actuará como un "escudo" para mitigar el impacto de esta decisión sobre los bonaerenses.</p>
+                                                <br>
+                                                <p>La Subsecretaría de Derechos Humanos de Buenos Aires ya implementa políticas de restitución de identidad, incluyendo la colaboración con el equipo de Antropología Forense y el Ministerio de Salud para la identificación de restos óseos de desaparecidos. La nueva unidad también asumirá el rol de recepción y tramitación de denuncias de apropiaciones, garantizando el acceso a documentación y coordinación con autoridades judiciales.</p>
+                                                <br>
+                                                <p>Roberto Cipriano, miembro de la Comisión Provincial por la Memoria, celebró la creación de la unidad, considerándola indispensable para continuar la búsqueda de identidades aún no recuperadas. Cipriano criticó al Gobierno nacional por no abordar adecuadamente el tema y por promover una narrativa que minimiza los efectos de la dictadura, resaltando la importancia de mantener el compromiso con la memoria y la justicia.</p>
+                                                <br>
+                                                
+                                                
+                                                <div class="text-start object-center">
+                                                    {{-- <figure>
+                                                        <img class="w-28 h-28  "
+                                                            src="{{ asset('../img/der/Adri.svg') }}"
+                                                            alt="">
+                                                        
+                                                        <p> <strong>Nota de Adriana Zerdín</strong></p>
+
+                                                    </figure>  --}}
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+                            </li>
+                        </ul>
+                        <br>
+                    </div>
+
+
+                    {{-- columna de la derecha chica --}}
+                    <aside>
+                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                            <div class=" col-span-6">
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/bener-leg2.png') }}"
+                                        alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
+                                        alt="">
+                                </a>
+
+                                <div id="app">
+
+                                    <div v-for="item in info">
+
+                                        <div class="flex-col pb-3">
+                                            <div
+                                                class="flex-col max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg"
+                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
+                                                        alt="" />
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5
+                                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                                            @{{ item.title }}</h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div v-for="va in clima">
+
+                                        <h5
+                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                            @{{ va }}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+                </div>
+            </section>
+        @elseif ($tituloSep == 'Sociedad-Noticia-Completa-soc91')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">CRISTINA FERNÁNDEZ: "FALTA INVESTIGAR A LOS LOS AUTORES INTELECTUALES”</a>
+                                            {{-- <p class="font-light  text-lef text-gray-500">Por Emanuel Corrado</p> --}}
+                                        </h2>
+                                        <p class="font-light  text-right text-gray-500">Publicado: 17/08/2024</p>
+                                        <div class=" font-sans text-lg text-left col-span-6  ">
+                                        <p><i>En su declaración, la exvicepresidenta cuestionó la ausencia de los responsables intelectuales en el juicio y criticó la influencia de los medios y del fiscal Diego Luciani en el contexto previo al ataque.</i>
+                                        </p>
+                                        <br>
+                                        <figure>
+                                            <img class="w-full object-cover" src="../img/soc/soc_cristinak.svg"
+                                                alt="">
+                                        </figure>
+                                        
+                                        {{-- <article>
+                                            <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/GeOVAG1Bfz8?si=r2ihOrxI6uEWI0IU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                            
+                                        </article> --}}
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                                <p>Este miércoles, en el marco del proceso judicial por el atentado en su contra, Cristina Fernández de Kirchner declaró como testigo ante el Tribunal Oral Federal 6. La ex vicepresidenta afirmó que enfrentó a los autores materiales del ataque, pero no a los intelectuales que lo habrían planificado. 
+                                                </p>
+                                                <br>
+                                                <p>La audiencia comenzó a las 9:34 con la presencia de los principales acusados: Fernando Sabag Montiel, Brenda Uliarte y Nicolás Carrizo, miembros de “La banda de Los Copitos”. Sabag Montiel, autor material del intento de homicidio, confesó: “Yo quería matar a Cristina y Brenda Uliarte quería que muriera”. Uliarte, en chats revelados tras el atentado, había expresado su deseo de atacar a Fernández y su autodenominación como la “libertadora de Argentina”.</p>
+                                                <br>
+                                                <p>Fernández de Kirchner criticó que el proceso no incluya a los ideólogos y financiadores del ataque. Subrayó: “Sería ingenuo pensar que los tres acusados fueron los únicos responsables de idear el atentado”. Mencionó al diputado Gerardo Milman y a su proyecto que, según ella, vinculaba a la violencia política. Recordó que Milman dijo: “Cuando la maten, voy a estar camino a la costa”, y acusó a Patricia Bullrich de eliminar pruebas en los celulares de sus secretarias.</p>
+                                                <br>
+                                                <p>La ex vicepresidenta también cuestionó el papel de los medios y del Poder Judicial en el clima de odio previo al atentado. Aseguró que el fiscal Diego Luciani, al acusar al peronismo de corrupción, avivó la violencia que culminó en el ataque fallido. “En épocas de odio, de redes, de absoluta hegemonía de la comunicación, ya no es necesario desaparecer ni matar físicamente a nadie. Si hay una articulación con los medios hegemónicos de comunicación y Poder Judicial se ve el poder económico concentrado”, aseveró.</p>
+                                                <br>
+                                                <p>Fernández de Kirchner remarcó que, aunque nunca temió por su vida, el atentado afectó psicológicamente a su nieta, quien recibió tratamiento por el miedo a ser atacada. En redes sociales, compartió un video denunciando la protección que gozan los autores intelectuales del ataque, quienes, según ella, permanecen impunes en Comodoro Py.</p>
+                                                <br>
+                                                <p>La defensa de Kirchner argumentó que la organización vinculada a los acusados recibió fondos de Caputo Hermanos S.A., de los hermanos del ministro de Economía Luis Caputo, pero la jueza decidió no incluir esta información en el juicio.</p>
+                                                <br>
+                                                
+                                                
+                                                <div class="text-start object-center">
+                                                    {{-- <figure>
+                                                        <img class="w-28 h-28  "
+                                                            src="{{ asset('../img/der/Adri.svg') }}"
+                                                            alt="">
+                                                        
+                                                        <p> <strong>Nota de Adriana Zerdín</strong></p>
+
+                                                    </figure>  --}}
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+                            </li>
+                        </ul>
+                        <br>
+                    </div>
+
+
+                    {{-- columna de la derecha chica --}}
+                    <aside>
+                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                            <div class=" col-span-6">
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/bener-leg2.png') }}"
+                                        alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
+                                        alt="">
+                                </a>
+
+                                <div id="app">
+
+                                    <div v-for="item in info">
+
+                                        <div class="flex-col pb-3">
+                                            <div
+                                                class="flex-col max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg"
+                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
+                                                        alt="" />
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5
+                                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                                            @{{ item.title }}</h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div v-for="va in clima">
+
+                                        <h5
+                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                            @{{ va }}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+                </div>
+            </section>
+        @elseif ($tituloSep == 'Sociedad-Noticia-Completa-soc92')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">PLATAFORMA DIGITAL DE UTPBA: UNA APUESTA POR LA COMUNICACIÓN PROPIA</a>
+                                            {{-- <p class="font-light  text-lef text-gray-500">Por Emanuel Corrado</p> --}}
+                                        </h2>
+                                        <p class="font-light  text-right text-gray-500">Publicado: 18/08/2024</p>
+                                        <div class=" font-sans text-lg text-left col-span-6  ">
+                                        <p><i>La Unión de Trabajadores de Prensa de Buenos Aires (UTPBA) lanzó su innovadora plataforma DATA.U, destinada a revolucionar el panorama comunicacional con contenidos digitales de calidad.</i>
+                                        </p>
+                                        <br>
+                                        <figure>
+                                            <img class="w-full object-cover" src="../img/soc/soc_utpba2.svg"
+                                                alt="">
+                                        </figure>
+                                        
+                                        {{-- <article>
+                                            <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/GeOVAG1Bfz8?si=r2ihOrxI6uEWI0IU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                            
+                                        </article> --}}
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                                <p>En un evento realizado en su sede de Avenida de Mayo, la UTPBA presentó DATA.U, una plataforma que integra contenidos en múltiples formatos, incluyendo archivos digitales y en papel, radio streaming, y estudios para filmación y televisión. Los asistentes tuvieron la oportunidad de explorar las nuevas herramientas de comunicación, como cámaras de realidad virtual, y reflexionar sobre la evolución del periodismo. 
+                                                </p>
+                                                <br>
+                                                <p>Leandro Torres, secretario general de la UTPBA, destacó la importancia de mantener una comunicación propia frente a las corporaciones mediáticas. Enfatizó la necesidad de generar contenidos independientes, citando la histórica afirmación de la UTPBA: “No hay democracia informativa sin democracia económica”. Torres subrayó que la plataforma DATA.U permitirá distribuir contenidos audiovisuales, gráficos y radiales de manera directa a los afiliados y a la Federación Latinoamericana de Prensa (FELAP), promoviendo una visión inclusiva y no elitista del periodismo.</p>
+                                                <br>
+                                                <p>Durante la presentación, también se discutió la influencia de la comunicación digital y audiovisual en la región. El humorista Jorge Meiji Meijide participó con su ciclo de entrevistas “Charlas Dibujadas”, enriqueciendo el debate sobre las nuevas formas de comunicación.</p>
+                                                <br>
+                                                <p>Torres criticó la concentración mediática y defendió la idea de que “todos somos comunicadores”. Señaló que la UTPBA enfrenta resistencia de sectores empresariales y mediáticos tradicionales, pero reafirmó su compromiso con una comunicación equitativa y diversa, libre de agendas impuestas por el poder económico.</p>
+                                                <br>
+                                                
+                                                
+                                                
+                                                <div class="text-start object-center">
+                                                    {{-- <figure>
+                                                        <img class="w-28 h-28  "
+                                                            src="{{ asset('../img/der/Adri.svg') }}"
+                                                            alt="">
+                                                        
+                                                        <p> <strong>Nota de Adriana Zerdín</strong></p>
+
+                                                    </figure>  --}}
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+                            </li>
+                        </ul>
+                        <br>
+                    </div>
+
+
+                    {{-- columna de la derecha chica --}}
+                    <aside>
+                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                            <div class=" col-span-6">
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/bener-leg2.png') }}"
+                                        alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
+                                        alt="">
+                                </a>
+
+                                <div id="app">
+
+                                    <div v-for="item in info">
+
+                                        <div class="flex-col pb-3">
+                                            <div
+                                                class="flex-col max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg"
+                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
+                                                        alt="" />
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5
+                                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                                            @{{ item.title }}</h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div v-for="va in clima">
+
+                                        <h5
+                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                            @{{ va }}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+                </div>
+            </section>
+        @elseif ($tituloSep == 'Sociedad-Noticia-Completa-soc93')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">ALLANAN SEDE DE UTEP Y BLOQUEAN COMEDOR COMUNITARIO</a>
+                                            {{-- <p class="font-light  text-lef text-gray-500">Por Emanuel Corrado</p> --}}
+                                        </h2>
+                                        <p class="font-light  text-right text-gray-500">Publicado: 18/08/2024</p>
+                                        <div class=" font-sans text-lg text-left col-span-6  ">
+                                        <p><i>La Unión de Trabajadores y Trabajadoras de la Economía Popular (UTEP) denunció que el allanamiento realizado hoy por la Policía Federal en su sede central, en Constitución, obstruyó la actividad de un comedor comunitario.</i>
+                                        </p>
+                                        <br>
+                                        <figure>
+                                            <img class="w-full object-cover" src="../img/soc/soc_utep2.svg"
+                                                alt="">
+                                        </figure>
+                                        
+                                        {{-- <article>
+                                            <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/GeOVAG1Bfz8?si=r2ihOrxI6uEWI0IU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                            
+                                        </article> --}}
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                                <p>En un comunicado, UTEP criticó el operativo ordenado por el juez Julián Ercolini, que, según indican, irrumpió de manera violenta en el lugar. “Preguntaron por una cooperativa que ni siquiera tiene domicilio en este espacio”, detalla el comunicado. En paralelo, al menos 15 cooperativas fueron allanadas en la Ciudad de Buenos Aires y el conurbano. 
+                                                </p>
+                                                <br>
+                                                <p><b>Operativo cuestionado</b></p>
+                                                <br>
+                                                <p>Nicolás Caropresi, referente de UTEP presente durante el allanamiento, relató que los agentes de la Policía Federal llegaron a las 9 de la mañana con una orden que no correspondía con la dirección real de la cooperativa mencionada. “Revisan papeles y buscan máquinas de coser”, informó Caropresi.</p>
+                                                <br>
+                                                <p>El allanamiento interrumpió el funcionamiento del comedor comunitario, que opera los miércoles para brindar alimentos a quienes los necesitan. Aunque el servicio pudo reanudarse tras la difusión pública del hecho, los trabajadores sociales, psicólogos y otros voluntarios fueron impedidos de acceder al espacio.</p>
+                                                <br>
+                                                <p>El comunicado de UTEP también denuncia que en la zona, “la policía y la justicia persiguen a una cola de gente esperando que le sirvan el alimento” mientras que la criminalidad en el barrio continúa sin ser abordada.</p>
+                                                <br>
+                                                <p>A la espera de la conclusión del operativo, UTEP cuestiona la temporalidad del allanamiento, vinculándolo con eventos recientes del 7 de agosto. “No nos dejaremos intimidar por esta persecución y hostigamiento hacia las organizaciones populares”, concluye el comunicado.</p>
+                                                <br>
+                                                
+                                                <div class="text-start object-center">
+                                                    {{-- <figure>
+                                                        <img class="w-28 h-28  "
+                                                            src="{{ asset('../img/der/Adri.svg') }}"
+                                                            alt="">
+                                                        
+                                                        <p> <strong>Nota de Adriana Zerdín</strong></p>
+
+                                                    </figure>  --}}
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+                            </li>
+                        </ul>
+                        <br>
+                    </div>
+
+
+                    {{-- columna de la derecha chica --}}
+                    <aside>
+                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                            <div class=" col-span-6">
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/bener-leg2.png') }}"
+                                        alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
+                                        alt="">
+                                </a>
+
+                                <div id="app">
+
+                                    <div v-for="item in info">
+
+                                        <div class="flex-col pb-3">
+                                            <div
+                                                class="flex-col max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg"
+                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
+                                                        alt="" />
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5
+                                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                                            @{{ item.title }}</h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div v-for="va in clima">
+
+                                        <h5
+                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                            @{{ va }}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+                </div>
+            </section>
+        @elseif ($tituloSep == 'Sociedad-Noticia-Completa-soc94')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">EL CAMINO DE PISTARINI</a>
+                                            <p class="font-light  text-lef text-gray-500">Por Emanuel Corrado</p>
+                                        </h2>
+                                        <p class="font-light  text-right text-gray-500">Publicado: 20/08/2024</p>
+                                        <div class=" font-sans text-lg text-left col-span-6  ">
+                                        <p><i>Un recorrido por los hitos que marcaron la transformación de Ezeiza, desde la construcción de la Autopista Riccheri hasta la creación del Bosque Nacional, pasando por la historia del Aeropuerto Internacional y el cambio del sentido de circulación.</i>
+                                        </p>
+                                        <br>
+                                        <figure>
+                                            <img class="w-full object-cover" src="../img/soc/soc_pistarini2.svg"
+                                                alt="">
+                                        </figure>
+                                        
+                                        {{-- <article>
+                                            <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/GeOVAG1Bfz8?si=r2ihOrxI6uEWI0IU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                            
+                                        </article> --}}
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                                <p>Construida en 1948, la Autopista Riccheri es la primera autovía del país, comunicando la Av. General Paz con el Aeropuerto Internacional de Ezeiza, inaugurado el 12 de marzo de 1949. En su momento, se consideró uno de los más grandes del mundo, y su infraestructura es tan sólida que no fue necesario modificar las pistas para acomodar a las aeronaves modernas más grandes y pesadas. 
+                                                </p>
+                                                <br>
+                                                <p>A tan solo 3 kilómetros del aeropuerto, se encuentra el Barrio Uno, creado en 1944 como un barrio residencial. Este lugar albergó al viejo hospital de Ezeiza, inaugurado en 1949 y posteriormente reubicado en la localidad de Unión Ferroviaria del Partido de Ezeiza.</p>
+                                                <br>
+                                                <p>El 31 de mayo de 1950 se creó la Comisión Nacional de Energía Atómica, que comprende tres centros atómicos: Bariloche, Constituyentes y Ezeiza. Este último se encuentra dentro del Bosque de Ezeiza, un predio de casi 600 hectáreas inaugurado el 21 de enero de 1950, que incluía un centro recreativo y deportivo con piletas olímpicas. En 1955, la llamada Revolución Libertadora vació las piletas y prendió fuego el centro recreativo, el cual fue recuperado recién en 2008 por el Estado Nacional.</p>
+                                                <br>
+                                                <p>Durante la década de los 80, el Bosque de Ezeiza fue hogar de "Mundo Animal", un zoológico famoso de Jorge Cutini que ofrecía una experiencia única con animales sueltos. Sin embargo, el 8 de octubre de 1988, un niño de 7 años perdió un brazo, lo que desató una serie de denuncias por maltrato animal.</p>
+                                                <br>
+                                                <p>Juan Pistarini, ministro de Obras Públicas del gobierno de Juan Domingo Perón, ya había ocupado el mismo puesto durante la presidencia de Agustín P. Justo, cuando presentó por primera vez la idea de construir el Aeropuerto Internacional de Ezeiza. Un dato curioso es que Pistarini realizó miles de kilómetros de rutas e infraestructura para el cambio del sentido de circulación; hasta el 6 de junio de 1945, se circulaba por la mano izquierda, siguiendo el sistema inglés.</p>
+                                                <br>
+                                                
+                                                
+                                                <div class="text-start object-center">
+                                                    {{-- <figure>
+                                                        <img class="w-28 h-28  "
+                                                            src="{{ asset('../img/der/Adri.svg') }}"
+                                                            alt="">
+                                                        
+                                                        <p> <strong>Nota de Adriana Zerdín</strong></p>
+
+                                                    </figure>  --}}
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+                            </li>
+                        </ul>
+                        <br>
+                    </div>
+
+
+                    {{-- columna de la derecha chica --}}
+                    <aside>
+                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                            <div class=" col-span-6">
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/bener-leg2.png') }}"
+                                        alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
+                                        alt="">
+                                </a>
+
+                                <div id="app">
+
+                                    <div v-for="item in info">
+
+                                        <div class="flex-col pb-3">
+                                            <div
+                                                class="flex-col max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg"
+                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
+                                                        alt="" />
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5
+                                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                                            @{{ item.title }}</h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div v-for="va in clima">
+
+                                        <h5
+                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                            @{{ va }}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+                </div>
+            </section>
     @endif
 
     </div>
@@ -11191,7 +11878,7 @@
                 mounted() {
 
 
-                    axios.get("https://api.dailymotion.com/videos?channel=news&limit=3")
+                    axios.get("https://api.dailymotion.com/videos?channel=news&limit=2")
                         .then(response => {
                             this.info = response.data.list
                         });
