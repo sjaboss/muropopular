@@ -3414,6 +3414,116 @@
                 </div>
 
             </section>
+        @elseif ($tituloSep == 'Internacionales-Noticia-Completa-int27')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">ARCE PROPONE REFERÉNDUM CONTROVERTIDO CONTRA EVO MORALES</a>
+                                            {{-- <p class="font-light text-gray-500">Por Carola Chávez
+                                            </p>  --}}
+                                            {{-- <p class="font-light text-gray-500">Presidente Honorario de la Unión de Periodistas de Cuba (UPEC) y de la Federación Latinoamericana de Periodistas (FELAP).
+                                            </p> --}}
+                                        </h2>
+                                        <p class="font-light  text-right text-gray-500">Publicado: 23/08/2024</p>
+                                        <p><i>El presidente Luis Arce impulsa una consulta popular que busca restringir la reelección presidencial, un movimiento que muchos ven como un intento de bloquear la candidatura de Evo Morales.</i>
+                                        </p>
+                                        <br>
+                                        <figure>
+                                            <img class=" w-full object-cover" src="../img/int/int_arce-evo.svg"
+                                                alt="">
+                                        </figure>
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                                <p>Luis Arce ha intensificado el conflicto con Evo Morales al proponer un referéndum que busca restringir la posibilidad de reelección presidencial para quienes ya hayan ejercido dos mandatos consecutivos. Esta medida ha sido interpretada por muchos como una estrategia para bloquear la candidatura de Morales en futuras elecciones.</p>
+                                                <br>
+                                                <p>En su discurso del 6 de agosto, con motivo del aniversario 199 de Bolivia, Arce anunció que la consulta popular se llevará a cabo el 1 de diciembre, coincidiendo con las elecciones judiciales. El referéndum incluye cuatro preguntas clave: la redistribución de escaños parlamentarios, la reelección presidencial continua o discontinua, y la subvención de hidrocarburos.</p>
+                                                <br>
+                                                <p>La pregunta más polémica es la que propone modificar la Constitución para permitir la reelección discontinua de presidentes y vicepresidentes. Morales ha criticado fuertemente esta propuesta, comparándola con la maniobra de Lenin Moreno en Ecuador, que en 2018 buscó bloquear la reelección de Rafael Correa. Morales acusa a Arce de utilizar el referéndum para suprimir a la oposición interna y desviar la atención de la crisis económica que enfrenta el país.</p>
+                                                <br>
+                                                <p>Morales ha señalado que Arce evita plantear preguntas directas sobre su proscripción y la gestión del gobierno actual. En lugar de abordar estos temas, el referéndum propuesto se enfoca en cuestiones que Morales considera secundarias y que, según él, sirven para atacar a su liderazgo en lugar de enfrentar los problemas reales de Bolivia.</p>
+                                                <br>
+                                                <p>Además, las otras preguntas del referéndum abordan la subvención de combustibles y la modificación del número de diputados, temas que también han generado controversia. Morales ha cuestionado la legitimidad del proceso, sugiriendo que Arce está eludiendo el debate legislativo y delegando decisiones en un Tribunal Constitucional que él considera cuestionable.</p>
+                                                <br>
+                                                <p>Con este panorama, el conflicto entre Arce y Morales no solo refleja una lucha interna dentro del MAS, sino que también plantea riesgos para la estabilidad política del país. La fragmentación de la izquierda y la posibilidad de que la oposición de derecha se beneficie de esta crisis podrían tener implicaciones significativas para el futuro político de Bolivia.</p>
+                                                <br>
+                                                
+                                                
+                                                
+                                            </div>
+
+
+
+                                        </div>
+                                    </div>
+                                </article>
+                            </li>
+                        </ul>
+                        <br>
+
+                    </div>
+
+
+                    {{-- columna de la derecha chica --}}
+                    <aside>
+                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                            <div class=" col-span-6">
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/bener-leg2.png') }}"
+                                        alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
+                                        alt="">
+                                </a>
+
+                                <div id="app">
+
+                                    <div v-for="item in info">
+
+                                        <div class="flex-col pb-3">
+                                            <div
+                                                class="flex-col max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg"
+                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
+                                                        alt="" />
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5
+                                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                                            @{{ item.title }}</h5>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div v-for="va in clima">
+
+                                        <h5
+                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                            @{{ va }}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+
+                </div>
+
+            </section>
         @endif
 
 

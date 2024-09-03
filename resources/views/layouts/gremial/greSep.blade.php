@@ -5011,6 +5011,334 @@
 
                 </div>
             </section>
+        @elseif ($tituloSep == 'Gremiales-Noticia-Completa-gre42')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">CTA RECHAZA VETO DE MILEI A LA LEY DE MOVILIDAD PREVISIONAL
+                                            </a>
+                                        </h2>
+                                        <p class="font-light  text-right text-gray-500">Publicado: 25/08/2024</p>
+                                        <div class=" font-sans text-lg text-left col-span-6  ">
+                                        <p><i>La Central de Trabajadores y Trabajadoras de la Argentina (CTA-T) cuestiona duramente el veto presidencial a la ley de movilidad previsional y la decisión de destinar $100 mil millones a la SIDE.</i>
+                                        </p>
+                                        <br>
+                                        {{-- <article>
+                                            <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/mDyomkBc1DE?si=bnT2gxK0tSpFUqx1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                            
+                                        </article> --}}
+                                        <figure>
+                                            <img class=" w-full object-cover" src="../img/grem/grem_movilidad.svg"
+                                                alt="">
+                                        </figure>
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+                                                <p>En un comunicado de prensa, la Central de Trabajadores y Trabajadoras de la Argentina (CTA-T) ha expresado su firme rechazo al veto presidencial sobre la ley de movilidad previsional, recientemente aprobada por el Congreso. La ley, diseñada para ajustar mensualmente los haberes mínimos en función del Índice de Precios al Consumidor (IPC) y agregar un 8,1% para cubrir la inflación de enero, pretendía elevar el haber mínimo de $234.540 a $251.427 en septiembre, asegurando que el ingreso más bajo del sistema contributivo alcanzara los $317.704. 
+                                                </p>
+                                                <br>
+                                                <p>El presidente Javier Milei, quien ha declarado que "no hay plata para los jubilados", ha optado en cambio por firmar un decreto de $100 mil millones destinado a la Secretaría de Inteligencia (SIDE). Este presupuesto había sido previamente rechazado por la Cámara de Diputados, generando una fuerte controversia.
+                                                </p>
+                                                <br>
+                                                <p>La CTA-T, en su comunicado, critica esta decisión como una clara muestra de prioridades erradas, donde el gasto en seguridad interna supera el necesario apoyo a los jubilados. La organización también ha destacado que la movilización de hoy, en la que participaron miembros de la Multisectorial en Defensa de la Seguridad Social, tuvo como objetivo expresar el rechazo a las políticas del gobierno y exigir un ajuste que no perjudique a los sectores más vulnerables.
+                                                </p>
+                                                <br>
+                                                <p>El comunicado subraya que el ajuste económico propuesto por el gobierno no solo ignora las necesidades de los jubilados, sino que también profundiza la desigualdad al beneficiar a los sectores más poderosos a expensas de los trabajadores y jubilados. La CTA-T destaca que la situación actual es una transferencia injusta de recursos hacia unos pocos, mientras que los jubilados y sectores vulnerables quedan desprotegidos.</p>
+                                                <br>
+                                                <p>En respuesta a estas medidas, se está conformando una mayoría en el Congreso que busca marcar límites a las políticas de ajuste del gobierno. La CTA-T, junto con distintos sectores sociales, como docentes, universitarios y coordinadoras de jubilados, está trabajando para promover una política más justa y equitativa.</p>
+                                                <br>
+                                                <p>El comunicado finaliza con un llamado a la defensa de los derechos de los jubilados, subrayando que el veto a la ley de movilidad es una injusticia que debe ser rechazada en favor de una política que priorice el bienestar de todos los ciudadanos.</p>
+                                                <br>
+                                                
+                                                
+                                            </div>
+                                        </div>
+                                </article>
+                            </li>
+                        </ul>
+                    </div>
+
+
+                    {{-- columna de la derecha chica --}}
+                    <aside>
+                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                            <div class=" col-span-6">
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/bener-leg2.png') }}"
+                                        alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/APSE.gif') }}" alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
+                                        alt="">
+                                </a>
+
+
+
+                                <div id="app">
+
+                                    <div v-for="item in info">
+
+                                        <div class="flex-col pb-3">
+                                            <div
+                                                class="flex-col max-w-sm  border  border-gray-700 rounded-lg shadow bg-gray-800">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg"
+                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
+                                                        alt="" />
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5 class="mb-2 text-2xl font-bold tracking-tight  text-white">
+                                                            @{{ item.title }}</h5>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div v-for="va in clima">
+
+                                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-white">
+                                            @{{ va }}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+
+                </div>
+            </section>
+        @elseif ($tituloSep == 'Gremiales-Noticia-Completa-gre43')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">EL GOBIERNO DESPIDE TRABAJADORES POR MOTIVOS IDEOLÓGICOS
+                                            </a>
+                                        </h2>
+                                        <p class="font-light  text-right text-gray-500">Publicado: 26/08/2024</p>
+                                        <div class=" font-sans text-lg text-left col-span-6  ">
+                                        <p><i>ATE Capital denunció que la administración de La Libertad Avanza impulsa despidos por razones políticas y la desaparición de organismos estatales clave.</i>
+                                        </p>
+                                        <br>
+                                        {{-- <article>
+                                            <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/mDyomkBc1DE?si=bnT2gxK0tSpFUqx1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                            
+                                        </article> --}}
+                                        <figure>
+                                            <img class=" w-full object-cover" src="../img/grem/grem_despido.svg"
+                                                alt="">
+                                        </figure>
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+                                                <p>La Asociación Trabajadores del Estado (ATE) Capital emitió un comunicado en el que acusó al gobierno de La Libertad Avanza de llevar a cabo una política de despidos discriminatorios y persecución ideológica. Según el sindicato, las filtraciones de los últimos días revelan que los despidos no solo se justifican en la supuesta reorganización estatal, sino también por motivos políticos, sindicales y de afiliación partidaria. 
+                                                </p>
+                                                <br>
+                                                <p>"El Gobierno, no contento con destruir el Estado y mantener salarios de pobreza, ahora pretende despedir por pertenecer a un partido político o sindicato", expresó ATE Capital, que hace ocho meses denuncia lo que consideran "un ataque sistemático contra el Estado y sus trabajadores".
+                                                </p>
+                                                <br>
+                                                <p>Desde ATE Capital aseguran que, en una primera instancia, la administración de La Libertad Avanza comenzó a perseguir al cupo trans, lo que derivó en el cierre del Instituto Nacional contra la Discriminación, la Xenofobia y el Racismo (INADI). En los últimos meses, afirman que el gobierno intensificó la persecución a empleados por razones políticas, gremiales y de salud. "Hoy persiguen a cualquiera que se comprometa con construir una realidad distinta a la crueldad impuesta por el Estado", sostuvieron desde el sindicato.
+                                                </p>
+                                                <br>
+                                                <p>El comunicado del gremio hace énfasis en que los despidos actuales pueden ser considerados discriminatorios, ya que están motivados por etnia, raza, género, religión, afiliación política o gremial, entre otros. "Estos despidos son una clara muestra de la vuelta del autoritarismo al Estado", afirmaron.</p>
+                                                <br>
+                                                <p>La gestión de La Libertad Avanza, según ATE Capital, no busca solamente reducir la planta del Estado, sino también eliminar voces disidentes y consolidar un modelo de persecución ideológica dentro de la administración pública. "Como en las épocas más oscuras de nuestra historia, se dice defender la libertad, pero lo que realmente se aplica es un autoritarismo descarado", concluyeron en su denuncia.</p>
+                                                <br>
+                                                
+                                                
+                                                
+                                            </div>
+                                        </div>
+                                </article>
+                            </li>
+                        </ul>
+                    </div>
+
+
+                    {{-- columna de la derecha chica --}}
+                    <aside>
+                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                            <div class=" col-span-6">
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/bener-leg2.png') }}"
+                                        alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/APSE.gif') }}" alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
+                                        alt="">
+                                </a>
+
+
+
+                                <div id="app">
+
+                                    <div v-for="item in info">
+
+                                        <div class="flex-col pb-3">
+                                            <div
+                                                class="flex-col max-w-sm  border  border-gray-700 rounded-lg shadow bg-gray-800">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg"
+                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
+                                                        alt="" />
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5 class="mb-2 text-2xl font-bold tracking-tight  text-white">
+                                                            @{{ item.title }}</h5>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div v-for="va in clima">
+
+                                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-white">
+                                            @{{ va }}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+
+                </div>
+            </section>
+        @elseif ($tituloSep == 'Gremiales-Noticia-Completa-gre44')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">PRIMERA REUNIÓN DEL PAPA CON LA CÚPULA DE LA CGT EN SEPTIEMBRE
+                                            </a>
+                                        </h2>
+                                        <p class="font-light  text-right text-gray-500">Publicado: 27/08/2024</p>
+                                        <div class=" font-sans text-lg text-left col-span-6  ">
+                                        <p><i>Dirigentes de la CGT se reunirán con el Papa Francisco para presentar un informe detallado sobre el impacto de las políticas de Javier Milei en el ámbito laboral y social.</i>
+                                        </p>
+                                        <br>
+                                        {{-- <article>
+                                            <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/mDyomkBc1DE?si=bnT2gxK0tSpFUqx1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                            
+                                        </article> --}}
+                                        <figure>
+                                            <img class=" w-full object-cover" src="../img/grem/grem_papacgt.svg"
+                                                alt="">
+                                        </figure>
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+                                                <p>El Papa Francisco recibirá el 16 de septiembre a la cúpula de la CGT en el Vaticano, en un encuentro inédito en el que los líderes sindicales entregarán un documento que expresa su preocupación por las políticas económicas del presidente Javier Milei. Esta será la primera vez que Francisco reciba a una delegación completa de la central obrera, que incluirá a los secretarios generales Héctor Daer y Pablo Moyano, además de Gerardo Martínez, Andrés Rodríguez, José Luis Lingeri y Maia Volcovinsky. 
+                                                </p>
+                                                <br>
+                                                <p>El documento que presentarán los sindicalistas aborda las reformas laborales impulsadas por la administración de Milei y otros aspectos de su política económica que han generado tensión entre la CGT y el Gobierno. La central obrera ha expresado su desacuerdo a través de dos paros generales en los primeros meses de la gestión de Milei y su retiro de la mesa del diálogo social en el marco del Pacto de Mayo.
+                                                </p>
+                                                <br>
+                                                <p>El Papa Francisco se encontrará con los sindicalistas poco después de regresar de una gira por Asia, que comenzará en Indonesia el 2 de septiembre y finalizará en Singapur el 13 del mismo mes. Esta reunión con la CGT se suma a otros encuentros recientes del Papa con figuras críticas del Gobierno argentino, como el gobernador de La Rioja, Ricardo Quintela.
+                                                </p>
+                                                <br>
+                                                <p>La visita de los líderes sindicales al Vaticano marca un momento significativo en la relación entre la CGT y el Papa Francisco, quienes previamente habían tenido audiencias individuales pero nunca como una comitiva conjunta. El encuentro será una oportunidad para que los sindicalistas expresen sus preocupaciones directamente al Sumo Pontífice sobre las reformas laborales y su impacto en la situación laboral y social del país.
+                                                </p>
+                                                <br>
+                                                
+                                                
+                                                
+                                                
+                                            </div>
+                                        </div>
+                                </article>
+                            </li>
+                        </ul>
+                    </div>
+
+
+                    {{-- columna de la derecha chica --}}
+                    <aside>
+                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                            <div class=" col-span-6">
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/bener-leg2.png') }}"
+                                        alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/APSE.gif') }}" alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
+                                        alt="">
+                                </a>
+
+
+
+                                <div id="app">
+
+                                    <div v-for="item in info">
+
+                                        <div class="flex-col pb-3">
+                                            <div
+                                                class="flex-col max-w-sm  border  border-gray-700 rounded-lg shadow bg-gray-800">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg"
+                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
+                                                        alt="" />
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5 class="mb-2 text-2xl font-bold tracking-tight  text-white">
+                                                            @{{ item.title }}</h5>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div v-for="va in clima">
+
+                                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-white">
+                                            @{{ va }}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+
+                </div>
+            </section>
         @endif
     </div>
     {{-- aca arrancamos vue --}}

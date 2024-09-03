@@ -41,43 +41,43 @@
         <!-- Nota 1 -->
         <div class="rounded-lg border shadow border-emerald-600 p-2">
                 @php
-                $tituloSep = 'Sociedad-Noticia-Completa-soc94#soc94';
+                $tituloSep = 'Sociedad-Noticia-Completa-soc113#soc113';
                 @endphp
                 <a href="{{ route('sociedadSep.show', $tituloSep) }}">
                     <img class="h-48 w-full object-cover object-center rounded-lg"
-                        src="{{ asset('../img/soc/soc_pistarini1.svg') }}" alt="Imagen Nota 1">
+                        src="{{ asset('../img/soc/soc_expo1.svg') }}" alt="Imagen Nota 1">
                 </a>
             <div class="py-4 px-6">
                 <h1 class="text-lg font-serif">
                     <a href="{{ route('sociedadSep.show', $tituloSep) }}">
-                        EL CAMINO DE PISTARINI
+                        SE VIENE LA EXPO IGUALDAD BONAERENSE EN LA PLATA
                     </a>
-                    <p class="font-light text-gray-500">Por Emanuel Corrado
-                    </p>
+                    {{-- <p class="font-light text-gray-500">Por Emanuel Corrado
+                    </p> --}}
                 </h1>
             </div>
             <div class="pt-4 text-white font-light text-right">
-                <p>Publicado: 20/08/2024</p>
+                <p>Publicado: 03/09/2024</p>
             </div>
         </div>
         <!-- Nota 2 -->
         <div class="rounded-lg border shadow border-emerald-600 p-2">
             @php
-            $tituloSep = 'Cultura-Noticia-Completa-cul22#cul22';
+            $tituloSep = 'Sociedad-Noticia-Completa-soc112#soc112';
             @endphp
-            <a href="{{ route('culturaSep.show', $tituloSep) }}">
+            <a href="{{ route('sociedadSep.show', $tituloSep) }}">
                 <img class="h-48 w-full object-cover object-center rounded-lg"
-                    src="{{ asset('../img/cul/cul_alain.svg') }}" alt="Imagen Nota 1">
+                    src="{{ asset('../img/soc/soc_vejez1.svg') }}" alt="Imagen Nota 1">
             </a>
             <div class="py-4 px-6">
             <h1 class="text-lg font-serif">
-                <a href="{{ route('culturaSep.show', $tituloSep) }}">
-                    ADIÓS AL MITO: ALAIN DELON HA MUERTO A LOS 88 AÑOS
+                <a href="{{ route('sociedadSep.show', $tituloSep) }}">
+                    INFANCIAS Y VEJECES OLVIDADAS, EL RETROCESO DE UNA NACIÓN
                 </a>
             </h1>
             </div>
             <div class="pt-4 text-white font-light text-right">
-            <p>Publicado: 20/08/2024</p>
+            <p>Publicado: 03/09/2024</p>
             </div>
             </div>
         </div>
@@ -113,24 +113,24 @@
                                         <div class="pt-2 text-emerald-500">
                                             <h2>
                                                 @php
-                                                    $tituloSep = 'Legislatura-Noticia-Completa-leg51#leg51';
+                                                    $tituloSep = 'Sociedad-Noticia-Completa-soc111#soc111';
                                                 @endphp
 
-                                                <a href="{{ route('legislaturaSep.show', $tituloSep) }}">
+                                                <a href="{{ route('sociedadSep.show', $tituloSep) }}">
                                                     <img class=" h-56  w-full object-cover rounded-lg border-gray-900 "
-                                                        alt="a1" src="../img/leg/leg_auto1.svg">
+                                                        alt="a1" src="../img/soc/soc_dadoro.svg">
                                                 </a>
                                                 <h1 class="text-lg font-serif animate-fade-right text-white">
 
-                                                    <a href="{{ route('legislaturaSep.show', $tituloSep) }}">LA LEGISLATURA DE LA CIUDAD HOMENAJEÓ AL AUTOMÓVIL CLUB ARGENTINO POR SU 120° ANIVERSARIO</a>
+                                                    <a href="{{ route('sociedadSep.show', $tituloSep) }}">EL PERONISMO PRESENTA LISTA OPOSITORA EN LA CARRERA DE COMUNICACIÓN DE LA UBA</a>
                                                 </h1>
-                                                <a href="{{ route('legislaturaSep.show', $tituloSep) }}">Ir a la
+                                                <a href="{{ route('sociedadSep.show', $tituloSep) }}">Ir a la
                                                     Noticía</a>
                                             </h2>
                                         </div>
                                     </div>
                                     <div class="font-light  text-right text-white bg-gray-800">
-                                        <p>Publicado: 19/08/2024</p>
+                                        <p>Publicado: 02/09/2024</p>
                                     </div>
                                 </li>
                                 {{-- Nota A-2 --}}
@@ -139,24 +139,27 @@
                                         <div class="pt-2 text-emerald-500">
                                             <h2>
                                                 @php
-                                                    $tituloSep = 'Gremiales-Noticia-Completa-gre41#gre41';
+                                                    $tituloSep = 'Sociedad-Noticia-Completa-soc110#soc110';
                                                 @endphp
 
-                                                <a href="{{ route('gremialSep.show', $tituloSep) }}">
+                                                <a href="{{ route('sociedadSep.show', $tituloSep) }}">
                                                     <img class=" h-56  w-full object-cover rounded-lg border-gray-900 "
-                                                        alt="a1" src="../img/grem/grem_ezeiza.svg">
+                                                        alt="a1" src="../img/soc/soc_gaso1.svg">
                                                 </a>
                                                 <h1 class="text-lg font-serif animate-fade-right text-white">
 
-                                                    <a href="{{ route('gremialSep.show', $tituloSep) }}">CORREA INAUGURÓ LA SUBDELEGACIÓN DE EZEIZA CON GRANADOS Y MOYANO</a>
+                                                    <a href="{{ route('sociedadSep.show', $tituloSep) }}">EL VIEJO GASÓMETRO</a>
+                                                    <p class="font-light text-gray-500">Por Emanuel Corrado
+                                                    </p>
                                                 </h1>
-                                                <a href="{{ route('gremialSep.show', $tituloSep) }}">Ir a la
+                                            
+                                                <a href="{{ route('sociedadSep.show', $tituloSep) }}">Ir a la
                                                     Noticía</a>
                                             </h2>
                                         </div>
                                     </div>
                                     <div class="font-light  text-right text-white bg-gray-800">
-                                        <p>Publicado: 19/08/2024</p>
+                                        <p>Publicado: 02/09/2024</p>
                                     </div>
                                 </li>
                             </ul>
@@ -170,14 +173,16 @@
                                         <div class="pt-2 text-emerald-500">
                                             <h2>
                                                 @php
-                                                    $tituloSep = 'Sociedad-Noticia-Completa-soc93#soc93';
+                                                    $tituloSep = 'Sociedad-Noticia-Completa-soc109#soc109';
                                                 @endphp
                                                 <a href="{{ route('sociedadSep.show', $tituloSep) }}">
                                                     <img class="h-56  w-full object-cover rounded-lg border-gray-900 "
-                                                        src="../img/soc/soc_utep1.svg" alt="a2">
+                                                        src="../img/soc/soc_conduccion.svg" alt="a2">
                                                 </a>
                                                 <h1 class="text-lg font-serif animate-fade-right text-white">
-                                                    <a href="{{ route('sociedadSep.show', $tituloSep) }}">ALLANAN SEDE DE UTEP Y BLOQUEAN COMEDOR COMUNITARIO</a>
+                                                    <a href="{{ route('sociedadSep.show', $tituloSep) }}">UNA CONDUCCIÓN ESTRATÉGICA</a>
+                                                    <p class="font-light text-gray-500">Por Jorge Rachid
+                                                    </p>
                                                 </h1>
                                                 <a href="{{ route('sociedadSep.show', $tituloSep) }}">Ir a la
                                                     Noticía</a>
@@ -185,7 +190,7 @@
                                         </div>
                                     </div>
                                     <div class="font-light  text-right text-white bg-gray-800">
-                                        <p>Publicado: 18/08/2024</p>
+                                        <p>Publicado: 01/09/2024</p>
                                     </div>
                                 </li>
                                 <!-- Nota B-2 -->
@@ -194,16 +199,16 @@
                                         <div class="pt-2 text-emerald-500">
                                             <h2>
                                                 @php
-                                                    $tituloSep = 'Sociedad-Noticia-Completa-soc92#soc92';
+                                                    $tituloSep = 'Sociedad-Noticia-Completa-soc108#soc108';
                                                 @endphp
 
                                                 <a href="{{ route('sociedadSep.show', $tituloSep) }}">
                                                     <img class=" h-56  w-full object-cover rounded-lg border-gray-900 "
-                                                        alt="a1" src="../img/soc/soc_utpba1.svg">
+                                                        alt="a1" src="../img/soc/soc_tarigas.svg">
                                                 </a>
                                                 <h1 class="text-lg font-serif animate-fade-right text-white">
 
-                                                    <a href="{{ route('sociedadSep.show', $tituloSep) }}">PLATAFORMA DIGITAL DE UTPBA: UNA APUESTA POR LA COMUNICACIÓN PROPIA</a>
+                                                    <a href="{{ route('sociedadSep.show', $tituloSep) }}">EL GOBIERNO OFICIALIZÓ AUMENTOS EN TARIFAS DE GAS Y ELECTRICIDAD</a>
                                                 </h1>
                                                 <a href="{{ route('sociedadSep.show', $tituloSep) }}">Ir a la
                                                     Noticía</a>
@@ -211,7 +216,7 @@
                                         </div>
                                     </div>
                                     <div class="font-light  text-right text-white bg-gray-800">
-                                        <p>Publicado: 18/08/2024</p>
+                                        <p>Publicado: 01/09/2024</p>
                                     </div>
                                 </li>
                                 <!-- Nota B-3 -->
@@ -220,24 +225,24 @@
                                         <div class="pt-2 text-emerald-500">
                                             <h2>
                                                 @php
-                                                    $tituloSep = 'Sociedad-Noticia-Completa-soc91#soc91';
+                                                    $tituloSep = 'Agenda-Feminista-Completa-fem21#fem21';
                                                 @endphp
 
-                                                <a href="{{ route('sociedadSep.show', $tituloSep) }}">
+                                                <a href="{{ route('feministaSep.show', $tituloSep) }}">
                                                     <img class=" h-56  w-full object-cover rounded-lg border-gray-900 "
-                                                        alt="a1" src="../img/soc/soc_cristinak.svg">
+                                                        alt="a1" src="../img/fem/fem_tehuel1.svg">
                                                 </a>
                                                 <h1 class="text-lg font-serif animate-fade-right text-white">
 
-                                                    <a href="{{ route('sociedadSep.show', $tituloSep) }}">CRISTINA FERNÁNDEZ: "FALTA INVESTIGAR A LOS LOS AUTORES INTELECTUALES”</a>
+                                                    <a href="{{ route('feministaSep.show', $tituloSep) }}">CADENA PERPETUA PARA EL ASESINO DE TEHUEL DE LA TORRE</a>
                                                 </h1>
-                                                <a href="{{ route('sociedadSep.show', $tituloSep) }}">Ir a la
+                                                <a href="{{ route('feministaSep.show', $tituloSep) }}">Ir a la
                                                     Noticía</a>
                                             </h2>
                                         </div>
                                     </div>
                                     <div class="font-light  text-right text-white bg-gray-800">
-                                        <p>Publicado: 17/08/2024</p>
+                                        <p>Publicado: 31/08/2024</p>
                                     </div>
                                 </li>
                                 <!-- Nota B-4 -->
@@ -246,16 +251,16 @@
                                         <div class="pt-2 text-emerald-500">
                                             <h2>
                                                 @php
-                                                    $tituloSep = 'Sociedad-Noticia-Completa-soc90#soc90';
+                                                    $tituloSep = 'Sociedad-Noticia-Completa-soc107#soc107';
                                                 @endphp
 
                                                 <a href="{{ route('sociedadSep.show', $tituloSep) }}">
                                                     <img class=" h-56  w-full object-cover rounded-lg border-gray-900 "
-                                                        alt="a1" src="../img/soc/soc_kicinietes1.svg">
+                                                        alt="a1" src="../img/soc/soc_veto1.svg">
                                                 </a>
                                                 <h1 class="text-lg font-serif animate-fade-right text-white">
 
-                                                    <a href="{{ route('sociedadSep.show', $tituloSep) }}">KICILLOF IMPULSA LA CREACIÓN DE UNA UNIDAD PARA BUSCAR A LOS NIETOS APROPIADOS</a>
+                                                    <a href="{{ route('sociedadSep.show', $tituloSep) }}">MILEI VETA LA LEY DE JUBILACIONES Y RECHAZA EL AUMENTO A LOS JUBILADOS</a>
                                                 </h1>
                                                 <a href="{{ route('sociedadSep.show', $tituloSep) }}">Ir a la
                                                     Noticía</a>
@@ -263,7 +268,7 @@
                                         </div>
                                     </div>
                                     <div class="font-light  text-right text-white bg-gray-800">
-                                        <p>Publicado: 17/08/2024</p>
+                                        <p>Publicado: 31/08/2024</p>
                                     </div>
                                 </li>
                             </ul>
@@ -278,22 +283,22 @@
                                         <div class="pt-2 text-emerald-500">
                                             <h2>
                                                 @php
-                                                    $tituloSep = 'Politica-Noticia-Completa-pol74#pol74';
+                                                    $tituloSep = 'Sociedad-Noticia-Completa-soc106#soc106';
                                                 @endphp
-                                                <a href="{{ route('politicaSep.show', $tituloSep) }}">
+                                                <a href="{{ route('sociedadSep.show', $tituloSep) }}">
                                                     <img class="h-56  w-full object-cover rounded-lg border-gray-900 "
-                                                        src="../img/pol/pol_leopoldo.svg" alt="a2">
+                                                        src="../img/soc/soc_nafta.svg" alt="a2">
                                                 </a>
                                                 <h1 class="text-lg font-serif animate-fade-right text-white">
-                                                    <a href="{{ route('politicaSep.show', $tituloSep) }}">MOREAU CUESTIONÓ AL GOBIERNO Y ALERTÓ SOBRE DERIVA AUTORITARIA</a>
+                                                    <a href="{{ route('sociedadSep.show', $tituloSep) }}">NAFTA ROMPE LA BARRERA DE $1.000</a>
                                                 </h1>
-                                                <a href="{{ route('politicaSep.show', $tituloSep) }}">Ir a la
+                                                <a href="{{ route('sociedadSep.show', $tituloSep) }}">Ir a la
                                                     Noticía</a>
                                             </h2>
                                         </div>
                                     </div>
                                     <div class="font-light  text-right text-white bg-gray-800">
-                                        <p>Publicado: 16/08/2024</p>
+                                        <p>Publicado: 30/08/2024</p>
                                     </div>
                                 </li>
                                 <!-- Nota c-2 -->
@@ -302,16 +307,16 @@
                                         <div class="pt-2 text-emerald-500">
                                             <h2>
                                                 @php
-                                                    $tituloSep = 'Sociedad-Noticia-Completa-soc89#soc89';
+                                                    $tituloSep = 'Sociedad-Noticia-Completa-soc105#soc105';
                                                 @endphp
 
                                                 <a href="{{ route('sociedadSep.show', $tituloSep) }}">
                                                     <img class=" h-56  w-full object-cover rounded-lg border-gray-900 "
-                                                        alt="a1" src="../img/soc/soc_inflacion.svg">
+                                                        alt="a1" src="../img/soc/soc_alimento1.svg">
                                                 </a>
                                                 <h1 class="text-lg font-serif animate-fade-right text-white">
 
-                                                    <a href="{{ route('sociedadSep.show', $tituloSep) }}">LA INFLACIÓN DE JULIO SIGUE CASTIGANDO LOS BOLSILLOS</a>
+                                                    <a href="{{ route('sociedadSep.show', $tituloSep) }}">LA JUSTICIA ALLANÓ EL MINISTERIO DE CAPITAL HUMANO</a>
                                                 </h1>
                                                 <a href="{{ route('sociedadSep.show', $tituloSep) }}">Ir a la
                                                     Noticía</a>
@@ -319,7 +324,7 @@
                                         </div>
                                     </div>
                                     <div class="font-light  text-right text-white bg-gray-800">
-                                        <p>Publicado: 16/08/2024</p>
+                                        <p>Publicado: 30/08/2024</p>
                                     </div>
                                 </li>
                             </ul>
@@ -372,24 +377,24 @@
                                         <div class="pt-2 text-emerald-500">
                                             <h2>
                                                 @php
-                                                    $tituloSep = 'Gremiales-Noticia-Completa-gre40#gre40';
+                                                    $tituloSep = 'Sociedad-Noticia-Completa-soc104#soc104';
                                                 @endphp
 
-                                                <a href="{{ route('gremialSep.show', $tituloSep) }}">
+                                                <a href="{{ route('sociedadSep.show', $tituloSep) }}">
                                                     <img class=" h-56  w-full object-cover rounded-lg border-gray-900 "
-                                                        alt="a1" src="../img/grem/grem_estatales.svg">
+                                                        alt="a1" src="../img/soc/soc_forja.svg">
                                                 </a>
                                                 <h1 class="text-lg font-serif animate-fade-right text-white">
 
-                                                    <a href="{{ route('gremialSep.show', $tituloSep) }}">ESTATALES EXIGEN FIN DE LA PRECARIZACIÓN Y AUMENTOS SALARIALES EN CABA</a>
+                                                    <a href="{{ route('sociedadSep.show', $tituloSep) }}">RICARDO ALFONSÍN RENUNCIÓ A LA UCR Y CONVOCÓ A LA CONSTRUCCIÓN DE UN FRENTE PROGRESISTA</a>
                                                 </h1>
-                                                <a href="{{ route('gremialSep.show', $tituloSep) }}">Ir a la
+                                                <a href="{{ route('sociedadSep.show', $tituloSep) }}">Ir a la
                                                     Noticía</a>
                                             </h2>
                                         </div>
                                     </div>
                                     <div class="font-light  text-right text-white bg-gray-800">
-                                        <p>Publicado: 14/08/2024</p>
+                                        <p>Publicado: 29/08/2024</p>
                                     </div>
                                 </li>
                                 <!-- Nota E-2 -->
@@ -398,24 +403,24 @@
                                         <div class="pt-2 text-emerald-500">
                                             <h2>
                                                 @php
-                                                    $tituloSep = 'Agenda-Feminista-Completa-fem20#fem20';
+                                                    $tituloSep = 'Sociedad-Noticia-Completa-soc103#soc103';
                                                 @endphp
 
-                                                <a href="{{ route('feministaSep.show', $tituloSep) }}">
+                                                <a href="{{ route('sociedadSep.show', $tituloSep) }}">
                                                     <img class=" h-56  w-full object-cover rounded-lg border-gray-900 "
-                                                        alt="a1" src="../img/fem/fem_medios1.svg">
+                                                        alt="a1" src="../img/soc/soc_cuneo1.svg">
                                                 </a>
                                                 <h1 class="text-lg font-serif animate-fade-right text-white">
 
-                                                    <a href="{{ route('feministaSep.show', $tituloSep) }}">LA RESPONSABILIDAD DE LOS MEDIOS EN LA DIFUSIÓN DE IMÁGENES DE VIOLENCIA DE GÉNERO</a>
+                                                    <a href="{{ route('sociedadSep.show', $tituloSep) }}">UN MINISTRO ANTI-DIVERSIDAD EN EL SIGLO XXI</a>
                                                 </h1>
-                                                <a href="{{ route('feministaSep.show', $tituloSep) }}">Ir a la
+                                                <a href="{{ route('sociedadSep.show', $tituloSep) }}">Ir a la
                                                     Noticía</a>
                                             </h2>
                                         </div>
                                     </div>
                                     <div class="font-light  text-right text-white bg-gray-800">
-                                        <p>Publicado: 14/08/2024</p>
+                                        <p>Publicado: 29/08/2024</p>
                                     </div>
                                 </li>
                                 <!-- Nota E-3 -->
@@ -424,22 +429,22 @@
                                         <div class="pt-2 text-emerald-500">
                                             <h2>
                                                 @php
-                                                    $tituloSep = 'Derechos-Humanos-Noticia-Completa-der29#der29';
+                                                    $tituloSep = 'Sociedad-Noticia-Completa-soc102#soc102';
                                                 @endphp
-                                                <a href="{{ route('derechoSep.show', $tituloSep) }}">
+                                                <a href="{{ route('sociedadSep.show', $tituloSep) }}">
                                                     <img class="h-56  w-full object-cover rounded-lg border-gray-900 "
-                                                        src="../img/der/der_faro1.svg" alt="a2">
+                                                        src="../img/soc/soc_comudemo.svg" alt="a2">
                                                 </a>
                                                 <h1 class="text-lg font-serif animate-fade-right text-white">
-                                                    <a href="{{ route('derechoSep.show', $tituloSep) }}">QUÉ SE ESCONDE DETRÁS DEL NUEVO PROYECTO EN EL FARO DE MAR DEL PLATA</a>
+                                                    <a href="{{ route('sociedadSep.show', $tituloSep) }}">20 AÑOS DE LA COALICIÓN POR UNA COMUNICACIÓN DEMOCRÁTICA</a>
                                                 </h1>
-                                                <a href="{{ route('derechoSep.show', $tituloSep) }}">Ir a la
+                                                <a href="{{ route('sociedadSep.show', $tituloSep) }}">Ir a la
                                                     Noticía</a>
                                             </h2>
                                         </div>
                                     </div>
                                     <div class="font-light  text-right text-white bg-gray-800">
-                                        <p>Publicado: 13/08/2024</p>
+                                        <p>Publicado: 28/08/2024</p>
                                     </div>
                                 </li>
                                 <!-- Nota E-4 -->
@@ -448,24 +453,24 @@
                                         <div class="pt-2 text-emerald-500">
                                             <h2>
                                                 @php
-                                                    $tituloSep = 'Legislatura-Noticia-Completa-leg49#leg49';
+                                                    $tituloSep = 'Economia-Noticia-Completa-eco9#eco9';
                                                 @endphp
 
-                                                <a href="{{ route('legislaturaSep.show', $tituloSep) }}">
+                                                <a href="{{ route('economiaSep.show', $tituloSep) }}">
                                                     <img class=" h-56  w-full object-cover rounded-lg border-gray-900 "
-                                                        alt="a1" src="../img/leg/leg_recono1.svg">
+                                                        alt="a1" src="../img/eco/eco_felleti.svg">
                                                 </a>
                                                 <h1 class="text-lg font-serif animate-fade-right text-white">
 
-                                                    <a href="{{ route('legislaturaSep.show', $tituloSep) }}">RECONOCIMIENTOS A LA SALUD, LA CULTURA Y LA INCLUSIÓN</a>
+                                                    <a href="{{ route('economiaSep.show', $tituloSep) }}">ALERTA SOBRE EL RIESGO DE "DOBLE D" EN EL PLAN DE CAPUTO</a>
                                                 </h1>
-                                                <a href="{{ route('legislaturaSep.show', $tituloSep) }}">Ir a la
+                                                <a href="{{ route('economiaSep.show', $tituloSep) }}">Ir a la
                                                     Noticía</a>
                                             </h2>
                                         </div>
                                     </div>
                                     <div class="font-light  text-right text-white bg-gray-800">
-                                        <p>Publicado: 13/08/2024</p>
+                                        <p>Publicado: 28/08/2024</p>
                                     </div>
                                 </li>
                             </ul>

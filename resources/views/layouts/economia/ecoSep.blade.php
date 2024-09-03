@@ -1002,6 +1002,224 @@
                 </div>
 
             </section>
+        @elseif ($tituloSep == 'Economia-Noticia-Completa-eco8')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">EL FORO ECONOMÍA Y TRABAJO PROPONE UN PLAN PARA ENFRENTAR LA CRISIS ECONÓMICA</a>
+                                            <p class="font-light  text-right text-gray-500">Publicado: 24/08/2024</p>
+                                        </h2>
+                                        <p><i>Líderes sindicales y economistas presentaron un plan integral en el Foro Economía y Trabajo de la UBA, abordando la emergencia alimentaria, la reforma tributaria progresiva, y la necesidad de renegociar la deuda para enfrentar la crisis económica.</i>
+                                        </p>
+                                        <br>
+                                        <figure>
+                                            <img class=" w-full object-cover" src="../img/eco/eco_foro.svg"
+                                                alt="">
+                                        </figure>
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+                                                <p>Este jueves, en la Facultad de Ciencias Económicas de la Universidad de Buenos Aires, se llevó a cabo el Foro Economía y Trabajo, donde se discutió un plan para enfrentar la grave crisis económica que enfrenta Argentina bajo el gobierno de Javier Milei. Abel Furlan, Daniel Ricci y Walter Correa encabezaron la jornada, que reunió a sindicalistas, economistas y representantes de organizaciones sociales.
+                                                </p>
+                                                <br>
+                                                <p>Los participantes destacaron la urgencia de declarar la emergencia alimentaria para combatir el aumento de la pobreza y la inseguridad alimentaria. También se propuso una reforma tributaria progresiva y un programa federal de industrialización para revitalizar la producción y crear empleo. Las propuestas incluyen una renegociación integral de la deuda externa y la recuperación del poder adquisitivo de salarios y jubilaciones.</p>
+                                                <br>
+                                                <p>El Foro presentó datos alarmantes sobre la situación económica. Según los informes, la pobreza aumentó un 9,8% en los primeros meses de 2024, con un costo de la canasta básica que superó los $900.000, mientras que el salario mínimo apenas alcanza los $262.432, insuficiente para cubrir las necesidades básicas. Además, se reportó una pérdida de más de 655.000 empleos en el primer trimestre del año, con un notable aumento en los despidos y una caída en la actividad económica.
+                                                </p>
+                                                <br>
+                                                <p>El Foro criticó duramente la política económica del ministro de Economía, Luis Caputo, y del presidente del Banco Central, Santiago Bausili, acusándolos de priorizar los intereses de fondos de inversión y grandes corporaciones en lugar del bienestar de la mayoría de los argentinos. Se alertó sobre la fuga de capitales y la especulación financiera, que agravan la crisis económica y afectan negativamente el empleo y la actividad productiva.</p>
+                                                <br>
+                                                <p>Los participantes hicieron un llamado urgente para implementar las medidas propuestas, enfatizando la necesidad de un acuerdo nacional para enfrentar la crisis y garantizar la estabilidad económica. La implementación del plan, según los organizadores, es esencial para revertir el deterioro económico y asegurar el bienestar de la población.
+                                                </p>
+                                                <br>
+                                                
+                                                
+                                                
+                                                {{-- <figure>
+                                                    {{-- <img class="w-28 h-28  "
+                                                        src="{{ asset('../img/noteros/ramiro.svg') }}" alt=""> --}}
+                                                   {{--  <p> <b><i>Nota de Adrián Rojze</i></b></p></a>
+                                                    <p><b><i>Economista y Politólogo</i></b></p>
+                                                </figure>  --}}
+                                                <br>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+                            </li>
+                        </ul>
+                        <br>
+
+                    </div>
+
+
+                    {{-- columna de la derecha chica --}}
+                    <aside>
+                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                            <div class=" col-span-6">
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/bener-leg2.png') }}" alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}" alt="">
+                                </a>
+
+                                <div id="app">
+
+                                    <div v-for="item in info">
+
+                                        <div class="flex-col pb-3">
+                                            <div
+                                                class="flex-col max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg"
+                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
+                                                        alt="" />
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5
+                                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                                            @{{ item.title }}</h5>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div v-for="va in clima">
+
+                                        <h5
+                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                            @{{ va }}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+
+                </div>
+
+            </section>
+        @elseif ($tituloSep == 'Economia-Noticia-Completa-eco9')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">ALERTA SOBRE EL RIESGO DE "DOBLE D" EN EL PLAN DE CAPUTO</a>
+                                            <p class="font-light  text-right text-gray-500">Publicado: 28/08/2024</p>
+                                        </h2>
+                                        <p><i>Las inconsistencias del plan económico de Luis Caputo podrían llevar a la Argentina a una crisis de devaluación y default, advierte el equipo de economistas peronistas, que compara la situación actual con los años previos a la crisis de 2001.</i>
+                                        </p>
+                                        <br>
+                                        <figure>
+                                            <img class=" w-full object-cover" src="../img/eco/eco_felleti.svg"
+                                                alt="">
+                                        </figure>
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+                                                <p>El equipo de economistas del peronismo bonaerense, liderado por Roberto Feletti, advierte que el plan de estabilización a corto plazo del ministro Luis "Toto" Caputo podría llevar al gobierno de La Libertad Avanza (LLA) hacia una situación de "doble D": devaluación y default. Según el análisis, las inconsistencias del programa económico podrían poner a Argentina en una posición comprometida para afrontar los vencimientos de deuda pública que se intensifican a partir de 2025.
+                                                </p>
+                                                <br>
+                                                <p>Feletti y su equipo comparan la situación actual con los años previos a la crisis de 2001, cuando políticas económicas similares llevaron al colapso. La ausencia de medidas para consolidar un orden externo en el plan de Caputo se considera una debilidad crítica que remite a la crisis de la Convertibilidad, caracterizada por una prolongada recesión y deflación.</p>
+                                                <br>
+                                                <p>El análisis también destaca la falta de ingresos por privatizaciones y la imposibilidad de endeudarse en el exterior, contrastando con las experiencias de convertibilidad durante la gestión de Carlos Menem y el gobierno de Mauricio Macri. Esta falta de herramientas financieras aumenta el riesgo de una crisis inminente para el gobierno libertario.
+                                                </p>
+                                                <br>
+                                                <p>El informe critica la incapacidad del gobierno para equilibrar el sector externo, a pesar de la devaluación del 118% del tipo de cambio oficial y las políticas restrictivas implementadas. La falta de competitividad resultó en una caída en los ingresos por exportaciones agropecuarias, con una reducción de U$S 4.000 millones en comparación con el año anterior.</p>
+                                                <br>
+                                                <p>El gobierno enfrenta serios problemas para regularizar pagos de importaciones y servicios de deuda, lo que complica aún más la desregulación completa del mercado cambiario. Este escenario subraya la importancia de mantener reservas internacionales en el Banco Central como un indicador clave para la estabilización económica.
+                                                </p>
+                                                <br>
+                                                
+                                                
+                                                
+                                                {{-- <figure>
+                                                    {{-- <img class="w-28 h-28  "
+                                                        src="{{ asset('../img/noteros/ramiro.svg') }}" alt=""> --}}
+                                                   {{--  <p> <b><i>Nota de Adrián Rojze</i></b></p></a>
+                                                    <p><b><i>Economista y Politólogo</i></b></p>
+                                                </figure>  --}}
+                                                <br>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+                            </li>
+                        </ul>
+                        <br>
+
+                    </div>
+
+
+                    {{-- columna de la derecha chica --}}
+                    <aside>
+                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                            <div class=" col-span-6">
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/bener-leg2.png') }}" alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}" alt="">
+                                </a>
+
+                                <div id="app">
+
+                                    <div v-for="item in info">
+
+                                        <div class="flex-col pb-3">
+                                            <div
+                                                class="flex-col max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg"
+                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
+                                                        alt="" />
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5
+                                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                                            @{{ item.title }}</h5>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div v-for="va in clima">
+
+                                        <h5
+                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                            @{{ va }}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+
+                </div>
+
+            </section>
         @endif
     </div>
     {{-- aca arrancamos vue --}}

@@ -8,6 +8,54 @@
 
                 <div class="py-4 px-4 justify-between items-center">
                     <h2 class="text-xl font-serif  font-bold pb-6">
+                        <a href="">CADENA PERPETUA PARA EL ASESINO DE TEHUEL DE LA TORRE</a>
+                        <p class="font-light  text-right text-gray-500">Publicado: 31/08/2024</p>
+                    </h2>
+                    <p><i>El Tribunal Oral Criminal II de La Plata condenó a Luis Alberto Ramos a cadena perpetua por el asesinato de Tehuel de la Torre. El fallo es histórico en materia de género y diversidad, subrayando el impacto de los crímenes de odio en la comunidad LGBTQ+.</i>
+                    </p>
+                    <br>
+                    <figure>
+                        <img class="w-full object-cover" src="../img/fem/fem_tehuel2.svg"
+                            alt="">
+                    </figure>
+                    {{-- <article>
+                        <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/KgLeMhUAufY?si=LCmXJy-t6RqfgsUb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        
+                    </article> --}}
+                    <br>
+                    <div
+                        class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                        <div class=" font-sans text-lg text-left col-span-6  ">
+                            <p>El Tribunal Oral Criminal (TOC) II de La Plata dictó hoy una sentencia histórica al condenar a Luis Alberto Ramos a cadena perpetua por el asesinato de Tehuel de la Torre. Tehuel, un joven de 21 años, había desaparecido el 11 de marzo de 2021 cuando se dirigía a una entrevista laboral en Alejandro Korn. La condena a Ramos marca un hito significativo en la justicia argentina al ser el primer fallo por homicidio agravado por odio a la identidad de género, reflejando un compromiso con la justicia y los derechos humanos en el contexto de crímenes de odio.
+                            </p>
+                            <br>
+                            <p>El tribunal, compuesto por los jueces Claudio Joaquín Bernard, Silvia Hoerr y Ramiro Fernández Lorenzo, encontró a Ramos culpable después de un juicio que presentó pruebas cruciales. Entre estas pruebas se encontraban un celular y una campera de la víctima, hallados en la residencia del acusado. Además, se descubrieron manchas de sangre en la pared del hogar de Ramos, las cuales coincidían con el ADN de Tehuel, confirmando su implicación en el crimen.
+                            </p>
+                            <br>
+                            <p>A pesar de los esfuerzos exhaustivos realizados por la fiscal Karina Guyot, que incluyeron múltiples allanamientos y rastrillajes en diversos sitios, como basurales y campos, el cuerpo de Tehuel nunca fue encontrado. Esta falta de resolución en cuanto a los restos del joven no ha desalentado a la comunidad y a los colectivos LGBTQ+ que han convertido el caso de Tehuel en un símbolo en su lucha contra la violencia y la discriminación hacia las personas trans.
+                            </p>
+                            <br>
+                            <p>El caso de Tehuel ha tenido un impacto considerable en la visibilidad de los crímenes de odio en Argentina. Desde marzo de 2022, el Ministerio de Seguridad de la Nación ofrece una recompensa de $5 millones para quien brinde información sobre el paradero de los restos de Tehuel, destacando la importancia de continuar buscando justicia y protección para las personas en riesgo. La sentencia de hoy no solo proporciona un sentido de justicia para la familia de Tehuel, sino que también subraya la necesidad de persistir en la lucha contra la violencia basada en la identidad de género.
+                            </p>
+                            <br>
+                            <p>Con este fallo, el sistema judicial argentino da un paso importante en la garantía de justicia y en la protección de los derechos de las personas más vulnerables, reafirmando su compromiso en la lucha contra los crímenes de odio y la violencia de género.
+                            </p>
+                            <br>
+                            
+                        </div>
+                    </div>
+            </article>
+        </li>
+    </ul>
+</section>
+        {{--LA RESPONSABILIDAD DE LOS MEDIOS EN LA DIFUSIÓN... --}}
+<section>
+    <ul>
+        <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+            <article>
+
+                <div class="py-4 px-4 justify-between items-center">
+                    <h2 class="text-xl font-serif  font-bold pb-6">
                         <a href="">LA RESPONSABILIDAD DE LOS MEDIOS EN LA DIFUSIÓN DE IMÁGENES DE VIOLENCIA DE GÉNERO</a>
                         <p class="font-light  text-right text-gray-500">Publicado: 14/08/2024</p>
                     </h2>

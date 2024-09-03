@@ -1,5 +1,114 @@
 <x-app-layout>
     <div class="container ">
+    {{--EL CONGRESO MUNDIAL DE PERSONAS MAYORES LLEGA A LATINOAMÉRICA --}}
+    <section >
+        <ul>
+            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                <article>
+
+                    <div class="py-4 px-4 justify-between items-center">
+                        <h2 class="text-xl font-serif  font-bold pb-6">
+                            <a href="">EL CONGRESO MUNDIAL DE PERSONAS MAYORES LLEGA A LATINOAMÉRICA</a>
+                        </h2>
+                        <p class="font-light  text-right text-gray-500">Publicado: 26/08/2024</p>
+                        <p><i>La Legislatura porteña declaró de interés el Congreso Mundial de Apoyos y Cuidados de Personas Adultas Mayores “De la curatela a la autonomía personal”, que se celebrará del 27 al 30 de agosto en la UBA.</i></p>
+                        <br>
+                        <figure>
+                            <a href="">
+                                <img class="w-full object-cover object-center"
+                                    src="{{ asset('../img/leg/leg_congreso.svg') }}" alt="">
+                            </a>
+                        </figure>
+                        {{-- <article>
+                            <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/cNeE0eEE5Tc?si=RMO51UzsraJUAVpK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            
+                        </article> --}}
+                        <br>
+                        <div
+                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                            <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                <p>El Congreso Mundial “De la curatela a la autonomía personal” ha sido declarado de interés por la Legislatura de la Ciudad de Buenos Aires. Este evento, que se llevará a cabo del 27 al 30 de agosto en la Facultad de Derecho de la Universidad de Buenos Aires, es el primero de su tipo en Latinoamérica. Contará con la participación de más de 600 profesionales internacionales, quienes abordarán temas cruciales como la autonomía, el género, la salud mental, la diversidad cultural y los marcos normativos relacionados con el cuidado de personas mayores.</p>
+                                <br>
+                                <p>Organizado por la International Guardianship Network (IGN), el congreso busca ofrecer una perspectiva integral sobre los derechos y cuidados de las personas adultas mayores, promoviendo una mayor comprensión y mejores prácticas en el apoyo a este sector de la población. La Diputada Graciela Ocaña, Vicepresidenta Tercera de la Legislatura, encabezó un acto de reconocimiento en el que destacó la importancia del evento. “Nos une el desafío de mejorar las condiciones de vida de las personas mayores. Estamos trabajando en una ley de protección integral, la primera en su tipo, que cuenta con el consenso de todos los sectores”, afirmó Ocaña.</p>
+                                <br>
+                                <p>Durante el acto, otros legisladores como Aldana Crucitta, Patricia Glize, Pablo Donati y María Sol Méndez subrayaron la relevancia del congreso. Glize enfatizó que “es una deuda pendiente la lucha por las personas mayores” y Méndez agregó que el desafío del Cuerpo Legislativo es desarrollar políticas transversales para garantizar un envejecimiento de calidad. Donati también destacó la política transversal y el enfoque innovador que se busca implementar para abordar estas cuestiones a nivel nacional.
+                                </p>
+                                <br>
+                                <p>El congreso es organizado por la IGN, una ONG dedicada a la capacitación y el intercambio académico entre profesionales y voluntarios que trabajan con personas con discapacidad y dependencia. Además, contará con la presencia de destacados expertos internacionales en el campo, incluyendo a Soledad Cisternas Reyes, presidenta del Comité sobre los Derechos de las Personas con Discapacidad de Naciones Unidas, y a Marina Baras, Directora Nacional del Instituto de las Personas Mayores en Uruguay.
+                                </p>
+                                <br>
+                                <p>Este congreso será una plataforma clave para discutir y promover el bienestar de las personas mayores, marcando un hito en la región.</p>
+                                <br>
+                                
+                                
+                                
+                                
+                            </div>
+
+
+
+                        </div>
+                    </div>
+                </article>
+            </li>
+        </ul>
+    </section>
+    {{--LEGISLATURA DISTINGUE A RUBÉN RAMÍREZ LEZCANO --}}
+    <section >
+        <ul>
+            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                <article>
+
+                    <div class="py-4 px-4 justify-between items-center">
+                        <h2 class="text-xl font-serif  font-bold pb-6">
+                            <a href="">LEGISLATURA DISTINGUE A RUBÉN RAMÍREZ LEZCANO</a>
+                        </h2>
+                        <p class="font-light  text-right text-gray-500">Publicado: 24/08/2024</p>
+                        <p><i>El Canciller paraguayo fue reconocido por su destacada labor en la diplomacia y la integración regional durante una ceremonia en el Salón Dorado.</i></p>
+                        <br>
+                        {{-- <figure>
+                            <a href="">
+                                <img class="w-full object-cover object-center"
+                                    src="{{ asset('../img/leg/leg_auto2.svg') }}" alt="">
+                            </a>
+                        </figure> --}}
+                        <article>
+                            <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/cNeE0eEE5Tc?si=RMO51UzsraJUAVpK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            
+                        </article>
+                        <br>
+                        <div
+                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                            <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                <p>El Salón Dorado de la Legislatura de la Ciudad de Buenos Aires fue escenario de un acto especial en honor a Rubén Ramírez Lezcano, Canciller de la República del Paraguay. El reconocimiento, que destaca su contribución a la diplomacia y al desarrollo de proyectos internacionales, fue presidido por el Vicepresidente Primero de la Legislatura, Matías López; el legislador autor del proyecto, Claudio Romero; y la Embajadora de Paraguay en Argentina, Helena Felip, entre otros distinguidos invitados.</p>
+                                <br>
+                                <p>Matías López abrió la ceremonia subrayando la importancia de fortalecer los lazos entre países hermanos y fomentar la cooperación regional más allá de los cambios de gobierno. Destacó la labor de Ramírez Lezcano en la integración regional y su impacto en la coordinación de políticas públicas, la protección del ambiente y la atracción de inversiones para la región.</p>
+                                <br>
+                                <p>Claudio Romero, autor del proyecto, expresó que el homenajeado no solo representa un honor, sino una oportunidad para valorar su trayectoria y contribución al ámbito internacional. Agradeció a la comunidad paraguaya por su influencia en el mercado laboral y el enriquecimiento cultural en Argentina.
+                                </p>
+                                <br>
+                                <p>En su discurso, Rubén Ramírez Lezcano manifestó su gratitud por el reconocimiento, enfatizando la importancia de la cooperación entre ambos países. Hizo hincapié en su conexión personal con Buenos Aires y su compromiso continuo con la hermandad entre Paraguay y Argentina.
+                                </p>
+                                <br>
+                                <p>Ramírez Lezcano, economista y diplomático con una carrera destacada, se formó en la Universidad de Buenos Aires y obtuvo especializaciones en la Universidad de la Sorbona y en la Universidad de California, Los Ángeles. Su trayectoria incluye roles clave en el Ministerio de Relaciones Exteriores de Paraguay y la Corporación Andina de Fomento, donde impulsó importantes proyectos de infraestructura y desarrollo social en la región.</p>
+                                <br>
+                                <p>Al concluir el acto, se entregó el diploma de distinción como Huésped de Honor de la Ciudad de Buenos Aires, celebrando así la destacada trayectoria y el compromiso de Ramírez Lezcano con la integración regional y la cooperación internacional.</p>
+                                <br>
+                                
+                                
+                                
+                            </div>
+
+
+
+                        </div>
+                    </div>
+                </article>
+            </li>
+        </ul>
+    </section>
         {{--LA LEGISLATURA DE LA CIUDAD HOMENAJEÓ AL AUTOMÓVIL CLUB ARGENTINO POR SU 120° ANIVERSARIO --}}
     <section >
         <ul>

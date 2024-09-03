@@ -1,5 +1,1168 @@
 <x-app-layout>
-    <div class="container ">
+    <div class="container"
+    {{--SE VIENE LA EXPO IGUALDAD BONAERENSE EN LA PLATA..--}}
+<section> 
+    <ul>
+        <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+            <article>
+
+                <div class="py-4 px-4 justify-between items-center">
+                    <h2 class="text-xl font-serif  font-bold pb-6">
+                        <a href="">SE VIENE LA EXPO IGUALDAD BONAERENSE EN LA PLATA</a>
+                        {{-- <p class="font-light  text-lef text-gray-500">Por Emanuel Corrado</p> --}}
+                    </h2>
+                    <p class="font-light  text-right text-gray-500">Publicado: 03/09/2024</p>
+                    <div class=" font-sans text-lg text-left col-span-6  ">
+                    <p><i>Los días 7 y 8 de septiembre, entre las 12.00 a 18.00 hs., se realizará la Expo Igualdad Bonaerense en el Estadio Único Diego Armando Maradona, en La Plata</i>
+                    </p>
+                    <br>
+                    <figure>
+                        <img class="w-full object-cover" src="../img/soc/soc_expo2.svg"
+                            alt="">
+                    </figure>
+                    
+                    {{-- <article>
+                        <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/GeOVAG1Bfz8?si=r2ihOrxI6uEWI0IU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        
+                    </article> --}}
+                    <br>
+                    <div
+                        class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                        <div class=" font-sans text-lg text-left col-span-6  ">
+
+                            <p>La Expo Igualdad Bonaerense busca fortalecer las alianzas entre las y los distintos protagonistas de las cadenas de producción local, desde un enfoque integral para garantizar un nodo productivo en clave de género, abonando a la igualdad y al fortalecimiento de la comunidad bonaerense.</p>
+                            <br>
+                            <p>La feria Expo@diseño desplegará más de 160 stands, dónde participarán mujeres emprendedoras, diseñadoras, empresarias, profesionales del arte, decoradoras y profesionales del ambiente productivo y sectores gastronómicos de la ciudad de La Plata.</p>
+                            <br>
+                            <p>Las y los productores de alimentos que integran el programa Mercados Bonaerenses estarán presentes con diversas propuestas para la comercialización.</p>
+                            <br>
+                            <p>A través de Cuenta DNI, el Banco de la provincia de Buenos Aires ofrecerá una serie de descuentos que estarán disponibles sólo para los días del evento: 40% de descuento en stands adheridos, con tope de $4000 por acción y por persona; 40% de descuento en comercios de Mercados Bonaerenses, con tope de $4000 por acción y por persona y 30% de descuento en stands de gastronomía adheridos, con tope de $5.000 unificado por semana y por persona.</p>
+                            <br>
+                            <p>Con el objetivo de promover el derecho a la salud de mujeres y diversidades, junto a Expo Mujer Saludable, el ministerio de Salud de la provincia de Buenos Aires e instituciones de la salud privada, se desarrollarán actividades de promoción de salud integral, en las que se  brindará información sobre primeros auxilios, vacunación, donación de sangre, prevención de enfermedades como cáncer de mama, de útero y de transmisión sexual.</p>
+                            <br>
+                            <p>En el marco de la Expo, se llevará adelante “Nosotras producimos”, un programa del Ministerio de Mujeres y Diversidad que busca propiciar acciones que potencien experiencias productivas de mujeres y personas LGTBI+ de la provincia de Buenos Aires. Es un espacio de intercambio entre diversos nodos productivos pensado para promover el intercambio de experiencias entre empresas, sindicatos, cooperativistas, mutuales, universidades y emprendedoras.</p>
+                            <br>
+                            <p>En los stands institucionales de la Provincia, los distintos ministerios y organismos participantes brindarán información sobre  sus principales políticas y programas desarrollados en el territorio bonaerense.</p>
+                            <br>
+                            <p>Durante todas las jornadas habrá actividades culturales y funcionará una variada oferta gastronómica.<p>
+                            <br>
+                            
+                            
+                            <div class="text-start object-center">
+                                {{-- <figure>
+                                    <img class="w-28 h-28  "
+                                        src="{{ asset('../img/der/Adri.svg') }}"
+                                        alt="">
+                                    
+                                    <p> <strong>Nota de Adriana Zerdín</strong></p>
+
+                                </figure>  --}}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </li>
+    </ul>
+</section>
+{{--INFANCIAS Y VEJECES OLVIDADAS, EL RETROCESO DE UNA NACIÓN...--}}
+<section> 
+    <ul>
+        <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+            <article>
+
+                <div class="py-4 px-4 justify-between items-center">
+                    <h2 class="text-xl font-serif  font-bold pb-6">
+                        <a href="">INFANCIAS Y VEJECES OLVIDADAS, EL RETROCESO DE UNA NACIÓN</a>
+                        {{-- <p class="font-light  text-lef text-gray-500">Por Emanuel Corrado</p> --}}
+                    </h2>
+                    <p class="font-light  text-right text-gray-500">Publicado: 03/09/2024</p>
+                    <div class=" font-sans text-lg text-left col-span-6  ">
+                    <p><i>Hubo un tiempo que fui hermoso, Y fui libre de verdad, Guardaba todos mis sueños, En castillos de cristal, Poco a poco fuí creciendo, Y mis fábulas de amor, Se fueron desvaneciendo, Como pompas de jabón. “Canción para mi muerte” - Sui Generis</i>
+                    </p>
+                    <br>
+                    <figure>
+                        <img class="w-full object-cover" src="../img/soc/soc_vejez2.svg"
+                            alt="">
+                    </figure>
+                    
+                    {{-- <article>
+                        <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/GeOVAG1Bfz8?si=r2ihOrxI6uEWI0IU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        
+                    </article> --}}
+                    <br>
+                    <div
+                        class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                        <div class=" font-sans text-lg text-left col-span-6  ">
+
+                            <p>Si hay dos extremos frágiles en la vida de las personas son la infancia y la vejez.  Las niñeces sufren la vulnerabilidad de su llegada a este planeta tan hostil. Hambre, abandono, muertes prematuras totalmente evitables, indiferencias de este Estado con muestras innegables de crueldad.</p>
+                            <br>
+                            <p>Los que tienen la buena fortuna de llegar a la vejez, cosa que no todos lo logran, sienten la misma debilidad y desamparo que en aquel lejano principio.</p>
+                            <br>
+                            <p>Los Estados de bienestar, fuertes, contenedores y empáticos con sus congéneres siempre nos garantizan contención.   El peronismo fue el primer Estado que tomó en cuenta estas variables, ni más ni menos que de “la buena vida”. El derecho al goce de los adultos mayores del “Decálogo de la Ancianidad”, con una lista de condiciones de plena dignidad que fueron incorporados en la Constitución en 1949 y siguen siendo un paradigma. Claro que el benemérito Arturo Sampay, ideólogo de la Constitución de 1949, jamás imaginó que su tan progresista y justa Carta Magna tendría tan poca vida.</p>
+                            <br>
+                            <p>Las infancias y sus inicios de vida fueron acompañados por una magnífica consigna “Los únicos privilegiados son los niños”. Coincidentemente en esa época se integran los Derechos del Niño a la Declaración Universal de los Derechos Humanos, proclamada por la Naciones Unidas en 1948. La Constitución de 1949 va a dedicar un capítulo a los Derechos de la Familia, incluyendo la Niñez y la Ancianidad. La familia toda, en sus diferentes etapas de la vida, tenía sus derechos expresamente enunciados y garantizados con el fin de lograr el objetivo esencial del peronismo: el bienestar de las familias. También en el plano legal, se igualaron los hijos llamados hasta entonces “legítimos e ilegítimos” (nacidos dentro o fuera del matrimonio), sin ninguna diferencia de derechos.</p>
+                            <br>
+                            <p>Sin embargo, después de 75 años seguimos recordando y añorando aquel compendio de derechos que nos fue arrebatado a partir 1956 por el gobierno de facto (la fusiladora) liderado por Pedro Eugenio Aramburu, con un decreto que derogó la Constitución y restauró la vigencia de la anterior Constitución de 1853, con sus reformas de 1860, 1866. Desde entonces, la Constitución de 1949 ha sido relegada y su reforma se ha omitido en los planes de estudio de derecho y en los textos de constitucionalistas. ¡Cómo nos remite a los actuales tiempos de ferocidad e impiedad!</p>
+                            <br>
+                            <p>Qué destino para esta Patria.</p>
+                            <br>
+                            <p>Mientras el Pami recorta medicaciones fundamentales para sobrellevar la salud de las vejeces, los niños nacidos en estado de hiper vulnerabilidad, en hospitales públicos con necesidad de internación en neonatología, con mamás apenas alimentadas durante sus embarazos, hacen que sus vidas pendan de un hilo a punto de cortarse. Esas niñeces tampoco gozarán del buen vivir.</p>
+                            <br>
+                            <p>Mientras los trabajadores de la salud hacen lo imposible, día a día, para que las vidas tengan el valor de ser vividas, desde un Estado canalla no hay una pizca de solidaridad con la especie, entonces estamos frente al final de una civilización<p>
+                            <br>
+                            <p>Si desde un Estado angurriento de bienes y dineros para unos muy pocos, que sólo se conmueve con las opulencias exuberantes para las minorías, el final está más próximo.</p>
+                            <br>
+                            
+                            <div class="text-start object-center">
+                                {{-- <figure>
+                                    <img class="w-28 h-28  "
+                                        src="{{ asset('../img/der/Adri.svg') }}"
+                                        alt="">
+                                    
+                                    <p> <strong>Nota de Adriana Zerdín</strong></p>
+
+                                </figure>  --}}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </li>
+    </ul>
+</section>
+{{--EL PERONISMO PRESENTA LISTA OPOSITORA EN LA CARRERA DE...--}}
+<section> 
+    <ul>
+        <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+            <article>
+
+                <div class="py-4 px-4 justify-between items-center">
+                    <h2 class="text-xl font-serif  font-bold pb-6">
+                        <a href="">EL PERONISMO PRESENTA LISTA OPOSITORA EN LA CARRERA DE COMUNICACIÓN DE LA UBA</a>
+                        {{-- <p class="font-light  text-lef text-gray-500">Por Emanuel Corrado</p> --}}
+                    </h2>
+                    <p class="font-light  text-right text-gray-500">Publicado: 02/09/2024</p>
+                    <div class=" font-sans text-lg text-left col-span-6  ">
+                    <p><i>Dr. Christian Dodaro, candidato a director: "Tenemos que volver a construir comunidad, vincularnos con el mundo del trabajo y pensar las nuevas formas de comunicación" </i>
+                    </p>
+                    <br>
+                    <figure>
+                        <img class="w-full object-cover" src="../img/soc/soc_dadoro.svg"
+                            alt="">
+                    </figure>
+                    
+                    {{-- <article>
+                        <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/GeOVAG1Bfz8?si=r2ihOrxI6uEWI0IU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        
+                    </article> --}}
+                    <br>
+                    <div
+                        class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                        <div class=" font-sans text-lg text-left col-span-6  ">
+
+                            <p>El peronismo presentó una lista opositora a la dirección de la carrera de ciencias de la comunicación de la UBA. “Es necesario recuperar la centralidad de la carrera en las discusiones públicas sobre la comunicación como derecho humano y con base comunitaria, pensar la carrera desde el territorio y desde los desafíos que plantean las innovaciones tecnológicas y el mundo del trabajo” señaló Christian Dodaro en el lanzamiento de su candidatura a Director de Carrera de Ciencias de la Comunicación de la Facultad de Ciencias Sociales.</p>
+                            <br>
+                            <p>Dodaro asume la candidatura acompañando la lista de la agrupación peronista de graduados y estudiantes UES desde la necesidad de generar debates en una carrera que tiene una conducción progresista de ocho años y que intenta renovar por dos mas.</p>
+                            <br>
+                            <p>Una de las dimensiones centrales de su proyecto es el crecimiento de la matrícula, que hoy hay cada vez menos estudiantes, y en la permanencia y el egreso de estudiantes. "Para lograrlo, es fundamental recuperar una carrera de puertas abiertas, entender sus problemas para pagarse el boleto, los apuntes, algo para comer" señaló.</p>
+                            <br>
+                            <p>En sus diálogos con graduados, docentes y estudiantes señala que es imprescindible pensar la comunicación como derecho humano y al servicio de la democracia, las producciones de bienes y servicios culturales mirada desde una perspectiva comunitaria, recuperar las formas de hacer y los saberes en plural y desde allí producir conocimiento, organizar las audiencias y politizarlas (dar talleres en clubes, escuelas, sindicatos para el consumo crítico de medios), promover mediaciones culturales, sociales y políticas. Rearmar lo comunitario, la comunidad organizada y la federalización y regionalización de la comunicación.</p>
+                            <br>
+                            <p>También destaca la defensa del sistema de medios públicos de comunicación y la defenza los puestos de trabajo de periodistas y personal técnico de la comunicación, así como combatir los discursos de odio, las fake news y las formas de invisibilización del diferente.</p>
+                            <br>
+                            <p>Christian Dodaro, es Dr en Ciencias Sociales, Magister en comunicación y cultura y Licenciado en Comunicación. Todo por la UBA. Es docente de comunicación desde 2003 y ha dado clases de grado y postgrado en distintas universidades del país. Es militante peronista, territorial y sindical. Es periodista y participa de programas en Radio Caput y Radio Madres de Plaza de Mayo. Desarrolla el seminario de comunicación sindical y ha dirigido muchisimas tesis y TIF.  Sus producciones sobre cultura y comunicación pueden leerse en Página 12, Pacu Urondo, Diario Ku entre otros portales.</p>
+                            <br>
+                            
+                            <div class="text-start object-center">
+                                {{-- <figure>
+                                    <img class="w-28 h-28  "
+                                        src="{{ asset('../img/der/Adri.svg') }}"
+                                        alt="">
+                                    
+                                    <p> <strong>Nota de Adriana Zerdín</strong></p>
+
+                                </figure>  --}}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </li>
+    </ul>
+</section>
+{{--EL VIEJO GASÓMETRO--}}
+<section> 
+    <ul>
+        <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+            <article>
+
+                <div class="py-4 px-4 justify-between items-center">
+                    <h2 class="text-xl font-serif  font-bold pb-6">
+                        <a href="">EL VIEJO GASÓMETRO</a>
+                        <p class="font-light  text-lef text-gray-500">Por Emanuel Corrado</p>
+                    </h2>
+                    <p class="font-light  text-right text-gray-500">Publicado: 02/09/2024</p>
+                    <div class=" font-sans text-lg text-left col-span-6  ">
+                    <p><i>Un monumento a la historia industrial y energética de Buenos Aires, el Gasómetro de Constituyentes se alza con sus 85 metros de altura y 54 metros de diámetro en el cruce de la autopista Av. General Paz y Av. Constituyentes. Este gigante de acero, que marcó el paisaje porteño durante más de siete décadas, tiene un legado que va más allá de su tamaño imponente.</i>
+                    </p>
+                    <br>
+                    <figure>
+                        <img class="w-full object-cover" src="../img/soc/soc_gaso2.svg"
+                            alt="">
+                    </figure>
+                    
+                    {{-- <article>
+                        <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/GeOVAG1Bfz8?si=r2ihOrxI6uEWI0IU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        
+                    </article> --}}
+                    <br>
+                    <div
+                        class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                        <div class=" font-sans text-lg text-left col-span-6  ">
+
+                            <p>Construido por una empresa alemana en 1948, el Gasómetro fue terminado en 1951, pero su función real duró poco más de tres años, ya que dejó de operar en 1954. Aunque comúnmente se lo asocia con San Lorenzo, el gasómetro no tiene relación directa con el club, ni es simplemente un depósito de gas. En lugar de ello, fue una pieza clave en la infraestructura de distribución de gas.</p>
+                            <br>
+                            <p>Antes de la década de 1950, el gas natural aún no estaba disponible y el gas se fabricaba a partir de carbón de coque en la Usina de Corrales, en el barrio de Parque Patricios. Este gas, que incluso iluminaba la ciudad con lámparas de gas, se almacenaba en los gasómetros a través de tuberías. La magia del gasómetro residía en su émbolo interno, que permitía regular la presión del gas al subir y bajar, facilitando su distribución.</p>
+                            <br>
+                            <p>La llegada del gas natural desde Chubut en 1954 hizo obsoleto el uso de gasómetras y fábricas de gas similares. Sin embargo, el Gasómetro de Constituyentes ha resistido el paso del tiempo, y a pesar de los embates de la historia, incluida una tentativa de bombardeo en 1955 que lo esquivó, sigue en pie como un testimonio de una era pasada.</p>
+                            <br>
+                            <p>Hoy en día, el Gasómetro de Constituyentes no solo es un símbolo de la historia industrial, sino también un ícono cultural que promete mantenerse en la memoria colectiva de Buenos Aires.</p>
+                            <br>
+                            
+                            
+                            
+                            <div class="text-start object-center">
+                                {{-- <figure>
+                                    <img class="w-28 h-28  "
+                                        src="{{ asset('../img/der/Adri.svg') }}"
+                                        alt="">
+                                    
+                                    <p> <strong>Nota de Adriana Zerdín</strong></p>
+
+                                </figure>  --}}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </li>
+    </ul>
+</section>
+{{--UNA CONDUCCIÓN ESTRATÉGICA--}}
+<section> 
+    <ul>
+        <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+            <article>
+
+                <div class="py-4 px-4 justify-between items-center">
+                    <h2 class="text-xl font-serif  font-bold pb-6">
+                        <a href="">UNA CONDUCCIÓN ESTRATÉGICA</a>
+                        <p class="font-light  text-lef text-gray-500">Por Jorge Rachid</p>
+                    </h2>
+                    <p class="font-light  text-right text-gray-500">Publicado: 01/09/2024</p>
+                    <div class=" font-sans text-lg text-left col-span-6  ">
+                    <p><i>La principal preocupación de los sectores nacionales y populares además de la falta de una conducción clara, es sin dudas la construcción de una planificación estratégica en conjunto de todos los sectores que acuerden en los objetivos de soberanía y justicia social, con los instrumentos necesarios que garanticen esa direccionalidad en las decisiones tácticas. La Patria se construye a diario junto al Pueblo en la Comunidad Organizada máxima expresión de la organización comunitaria y herramienta de poder indispensable en la disputa permanente con los enemigos colonizadores de nuestro país, tanto las élites oligárquicas como los avances imperiales.</i>
+                    </p>
+                    <br>
+                    <figure>
+                        <img class="w-full object-cover" src="../img/soc/soc_conduccion.svg"
+                            alt="">
+                    </figure>
+                    
+                    {{-- <article>
+                        <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/GeOVAG1Bfz8?si=r2ihOrxI6uEWI0IU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        
+                    </article> --}}
+                    <br>
+                    <div
+                        class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                        <div class=" font-sans text-lg text-left col-span-6  ">
+
+                            <p>Los límites se marcan al fijar esos objetivos a largo plazo, entre quienes acuerdan o no sobre cuestiones liminares, innegociables, en tanto se garantice un proceso de liberación nacional, en el marco de la Patria Grande Latinoamericana, integrado al mundo multipolar. Los ejes de construcción electorales limitan esta posibilidad, porque la supuesta búsqueda de votos termina clausurando los sueños compartidos y una comunidad que ya descree de promesas y cánticos incumplidos a la hora de la verdad.</p>
+                            <br>
+                            <p>La pérdida de identidad y el borramiento de la memoria es el objetivo central del enemigo que actúa en forma permanente sobre esos ejes, en una profundización de la cultura dominante que luego irradia a los ámbitos económicos financieros e institucionales. Las construcciones electorales desprovistas de programas estratégicos, lleva a un proceso de debilidades doctrinarias a la hora de ejercer el rol tanto de oposición u oficialismo, llegando a la hora de la verdad a actuar consentidamente con los factores de poder, consolidando la posición ya dominante.</p>
+                            <br>
+                            <p>Esto viene sucediendo desde el inicio mismo de la democracia, claudicando a cada paso en el objetivo final de derrotar la pobreza, distribuir la riqueza, generar producción nacional, con un Estado con presencia determinante en la direccionalidad de los recursos que garantice la ampliación de los derechos sociales, la preservación de los DDHH y la investigación y desarrollo en ciencia y tecnología, que nos brinde la máxima posibilidad de construcción de soberanía nacional en un mundo integrado al multipolarismo.</p>
+                            <br>
+                            <p>La ausencia de una conducción totalizadora del Movimiento Nacional y Popular, no impide realizar el esfuerzo de todas las fuerzas comprometidas y militantes, desde agrupaciones políticas a movimiento obrero organizado, desde movimientos sociales hasta organizaciones libres del Pueblo, a confluir desde el convencimiento que la fragmentación nos lleva a la derrota, hacia un objetivo compartido donde las supuestas alquimias salvadoras dejen de ser protagónicas, construyendo caminos estratégicos que se verifiquen en la decisiones de cada día, identificando al enemigo, que no pude desaparecer del radar militante, porque al difuminarse éste, comienza el canibalismo interno y a debilitarse el campo nacional y popular.</p>
+                            <br>
+                            <p>Es entonces reflexionar sobre los caminos a recorrer, escuchando y aprendiendo de las jóvenes generaciones que serán responsables de construir el futuro, apuntalar la Patria Matria Grande, comprendiendo sus mecanismos de interpretación de la realidad, sin demonizarlos ni denigrarlos, como se suele hacer desde posiciones soberbias y rencorosas. El camino es recuperar valores y virtudes arrojadas a la vera del camino por el posibilismo individualista dominante. Sin utopías y esperanzas no se puede construir un destino, por esa razón levantar los sueños de una Patria justa y soberana se puede realizar colocando los límites en lo estratégico, sin demandas electorales que licuan los mismos, pero consolidando objetivos que más temprano que tarde serán recogidos por nuestros compatriotas cuando se sientan comprendidos en esos sueños. </p>
+                            <br>
+                            
+                            
+                            <div class="text-start object-center">
+                                {{-- <figure>
+                                    <img class="w-28 h-28  "
+                                        src="{{ asset('../img/der/Adri.svg') }}"
+                                        alt="">
+                                    
+                                    <p> <strong>Nota de Adriana Zerdín</strong></p>
+
+                                </figure>  --}}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </li>
+    </ul>
+</section>
+    {{--EL GOBIERNO OFICIALIZÓ AUMENTOS EN TARIFAS DE GAS Y ELECTRICIDAD--}}
+<section> 
+    <ul>
+        <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+            <article>
+
+                <div class="py-4 px-4 justify-between items-center">
+                    <h2 class="text-xl font-serif  font-bold pb-6">
+                        <a href="">EL GOBIERNO OFICIALIZÓ AUMENTOS EN TARIFAS DE GAS Y ELECTRICIDAD</a>
+                        {{-- <p class="font-light  text-lef text-gray-500">Por Gustavo Cano</p> --}}
+                    </h2>
+                    <p class="font-light  text-right text-gray-500">Publicado: 01/09/2024</p>
+                    <div class=" font-sans text-lg text-left col-span-6  ">
+                    <p><i>Los nuevos ajustes tarifarios, vigentes desde septiembre, elevarán los costos del gas y la electricidad en promedio un 4%, afectando a usuarios de todos los ingresos.</i>
+                    </p>
+                    <br>
+                    <figure>
+                        <img class="w-full object-cover" src="../img/soc/soc_tarigas.svg"
+                            alt="">
+                    </figure>
+                    
+                    {{-- <article>
+                        <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/GeOVAG1Bfz8?si=r2ihOrxI6uEWI0IU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        
+                    </article> --}}
+                    <br>
+                    <div
+                        class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                        <div class=" font-sans text-lg text-left col-span-6  ">
+
+                            <p>El Gobierno oficializó este viernes un aumento del 4% en las tarifas de gas y electricidad que entrará en vigor a partir de septiembre. La medida tiene como objetivo mitigar el impacto de la devaluación y la inflación sobre los subsidios, pero implicará un nuevo ajuste en los bolsillos de los ciudadanos.</p>
+                            <br>
+                            <p>El incremento será aplicado de manera diferenciada según el nivel de ingresos: los usuarios de altos ingresos (N1), comercios e industrias pagarán el 72% del costo del gas y el 90,5% de la electricidad. Los hogares de ingresos medios (N3) cubrirán el 32% del valor del gas y el 40% de la electricidad, mientras que los usuarios de bajos ingresos (N2) abonarán el 26% y 25%, respectivamente. En caso de superar el bloque de consumo establecido, los N3 y N2 deberán pagar el costo adicional al mismo valor que los N1.</p>
+                            <br>
+                            <p>La Secretaría de Energía justificó el ajuste afirmando que es necesario para garantizar un suministro de gas sostenible y evitar el desabastecimiento. Sin embargo, el aumento se produce en un contexto de creciente presión económica sobre los hogares. Los nuevos precios del gas serán de US$3,45 por millón de BTU para los usuarios de altos ingresos y de US$1,24 para los usuarios de bajos ingresos en un bloque subsidiado. El costo real del gas es de US$4,77 por millón de BTU.</p>
+                            <br>
+                            <p>En cuanto a la electricidad, el precio de referencia subirá de $58.596 a $61.526 por MWh, aunque el costo real sin subsidios es de $68.016. Esta medida busca alinear los precios con el costo real de producción y distribución, aunque implica una mayor carga económica para los ciudadanos.</p>
+                            <br>
+                            
+                            
+                            
+                            <div class="text-start object-center">
+                                {{-- <figure>
+                                    <img class="w-28 h-28  "
+                                        src="{{ asset('../img/der/Adri.svg') }}"
+                                        alt="">
+                                    
+                                    <p> <strong>Nota de Adriana Zerdín</strong></p>
+
+                                </figure>  --}}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </li>
+    </ul>
+</section>
+{{--MILEI VETA LA LEY DE JUBILACIONES Y RECHAZA EL AUMENTO A LOS JUBILADOS--}}
+<section> 
+    <ul>
+        <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+            <article>
+
+                <div class="py-4 px-4 justify-between items-center">
+                    <h2 class="text-xl font-serif  font-bold pb-6">
+                        <a href="">MILEI VETA LA LEY DE JUBILACIONES Y RECHAZA EL AUMENTO A LOS JUBILADOS</a>
+                        {{-- <p class="font-light  text-lef text-gray-500">Por Gustavo Cano</p> --}}
+                    </h2>
+                    <p class="font-light  text-right text-gray-500">Publicado: 31/08/2024</p>
+                    <div class=" font-sans text-lg text-left col-span-6  ">
+                    <p><i>El Presidente denegó el aumento a los jubilados y pensionados, al vetar la ley que había votado el Congreso.</i>
+                    </p>
+                    <br>
+                    <figure>
+                        <img class="w-full object-cover" src="../img/soc/soc_veto1.svg"
+                            alt="">
+                    </figure>
+                    
+                    {{-- <article>
+                        <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/GeOVAG1Bfz8?si=r2ihOrxI6uEWI0IU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        
+                    </article> --}}
+                    <br>
+                    <div
+                        class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                        <div class=" font-sans text-lg text-left col-span-6  ">
+
+                            <p>El presidente Javier Milei firmó el veto total a la ley de jubilaciones aprobada por el Congreso el pasado 22 de agosto, desestimando el aumento del 8,1% vinculado al Índice de Precios al Consumidor (IPC). La medida fue oficializada en la noche del viernes tras una reunión con los líderes de los bloques dialoguistas en la Casa Rosada, quienes respaldaron la decisión del Ejecutivo.</p>
+                            <br>
+                            <p>Durante el encuentro, Milei explicó que el veto se basa en la necesidad de controlar el déficit fiscal. Cristian Ritondo, jefe del bloque del PRO, justificó el veto argumentando que la ley generaba un déficit adicional de entre 1.2% y 1.8%, afirmando que el gasto en aumentos no es sostenible sin incrementar el déficit o recurrir a endeudamiento.</p>
+                            <br>
+                            <p>El presidente del PRO, Mauricio Macri, había anticipado el apoyo a la medida, y la presencia del PRO en la discusión asegura que la oposición no alcanzará los dos tercios necesarios para revertir el veto. Además, la estrategia del Gobierno incluye publicar el veto de manera excepcional esta misma noche, garantizando que el aumento jubilatorio no se implemente.</p>
+                            <br>
+                            <p>La reunión también contó con la participación de la secretaria general de la Presidencia, Karina Milei, y el jefe de Gabinete, Guillermo Francos, quienes se reunieron con los jefes de bloque del PRO, MID y La Libertad Avanza. Entre los asistentes estaban figuras destacadas como María Eugenia Vidal, Luciano Laspina, Diego Santilli, y senadores libertarios.</p>
+                            <br>
+                            <p>El veto a la ley de jubilaciones subraya la postura del Gobierno en su estrategia de ajuste fiscal y control del gasto público, en línea con el objetivo de déficit cero defendido por Milei. La decisión refuerza la postura del Ejecutivo frente a la presión de la oposición para implementar aumentos que, según el Gobierno, no son viables en el contexto económico actual.</p>
+                            <br>
+                            
+                            
+                            
+                            <div class="text-start object-center">
+                                {{-- <figure>
+                                    <img class="w-28 h-28  "
+                                        src="{{ asset('../img/der/Adri.svg') }}"
+                                        alt="">
+                                    
+                                    <p> <strong>Nota de Adriana Zerdín</strong></p>
+
+                                </figure>  --}}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </li>
+    </ul>
+</section>
+    {{--NAFTA ROMPE LA BARRERA DE $1.000--}}
+<section> 
+    <ul>
+        <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+            <article>
+
+                <div class="py-4 px-4 justify-between items-center">
+                    <h2 class="text-xl font-serif  font-bold pb-6">
+                        <a href="">NAFTA ROMPE LA BARRERA DE $1.000</a>
+                        {{-- <p class="font-light  text-lef text-gray-500">Por Gustavo Cano</p> --}}
+                    </h2>
+                    <p class="font-light  text-right text-gray-500">Publicado: 30/08/2024</p>
+                    <div class=" font-sans text-lg text-left col-span-6  ">
+                    <p><i>El nuevo aumento en los combustibles llevará a la nafta a superar los $ 1.000 por litro, evidenciando la ineficacia del Gobierno para controlar la inflación.</i>
+                    </p>
+                    <br>
+                    <figure>
+                        <img class="w-full object-cover" src="../img/soc/soc_nafta.svg"
+                            alt="">
+                    </figure>
+                    
+                    {{-- <article>
+                        <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/GeOVAG1Bfz8?si=r2ihOrxI6uEWI0IU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        
+                    </article> --}}
+                    <br>
+                    <div
+                        class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                        <div class=" font-sans text-lg text-left col-span-6  ">
+
+                            <p>Las estaciones de servicio aplicarán nuevos aumentos en los precios de los combustibles este fin de semana, con incrementos que oscilarán entre el 2,5% y el 3,5%, según la provincia. Este ajuste hará que todas las variedades de nafta y gasoil superen los $1.000 por litro en la Ciudad de Buenos Aires, reflejando el desinterés del gobierno por aliviar la carga económica que soportan los ciudadanos.</p>
+                            <br>
+                            <p>Desde el inicio de 2024, los precios de los combustibles han subido más del 85%. Este nuevo incremento, diseñado para compensar la devaluación del peso y ajustar los impuestos, pone en evidencia la preferencia del gobierno por las ganancias de las empresas petroleras sobre el bienestar de los consumidores. Mientras los precios suben, los ciudadanos sufren el impacto de un costo de vida creciente, sin que el Ejecutivo tome medidas efectivas para controlar la inflación o proteger el poder adquisitivo.</p>
+                            <br>
+                            <p>Fuentes de la industria revelan que los precios internos de los combustibles aún están un 12% por debajo de la paridad de exportación, lo que desincentiva las ventas al exterior. Este desfase muestra una clara falta de políticas que prioricen el interés público sobre los beneficios de las grandes empresas. El Gobierno, en lugar de implementar controles de precios o políticas que beneficien al pueblo, elige mantener una postura que favorece a los empresarios y perpetúa la injusticia económica.</p>
+                            <br>
+                            <p>Además, el Gobierno se prepara para emitir un decreto que retrasará otras actualizaciones de precios previstas para el próximo mes, mientras busca recuperar hasta $135 en impuestos a la nafta y $87 en el gasoil. Este ajuste tributario, que tiene como objetivo recuperar aproximadamente US$3.000 millones, refleja una estrategia enfocada en equilibrar las cuentas fiscales en lugar de ofrecer un alivio real a los consumidores.</p>
+                            <br>
+                            <p>En lugar de implementar soluciones efectivas para controlar los precios y proteger a la ciudadanía, la administración actual continúa priorizando los intereses de las grandes corporaciones. La falta de acciones concretas para abordar las verdaderas causas de la inflación demuestra que el gobierno sigue desentendiéndose de las necesidades de la gente y enfocándose en satisfacer a los poderosos.</p>
+                            <br>
+                            
+                            
+                            
+                            <div class="text-start object-center">
+                                {{-- <figure>
+                                    <img class="w-28 h-28  "
+                                        src="{{ asset('../img/der/Adri.svg') }}"
+                                        alt="">
+                                    
+                                    <p> <strong>Nota de Adriana Zerdín</strong></p>
+
+                                </figure>  --}}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </li>
+    </ul>
+</section>
+{{--LA JUSTICIA ALLANÓ EL MINISTERIO DE CAPITAL HUMANO--}}
+<section> 
+    <ul>
+        <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+            <article>
+
+                <div class="py-4 px-4 justify-between items-center">
+                    <h2 class="text-xl font-serif  font-bold pb-6">
+                        <a href="">LA JUSTICIA ALLANÓ EL MINISTERIO DE CAPITAL HUMANO</a>
+                        {{-- <p class="font-light  text-lef text-gray-500">Por Gustavo Cano</p> --}}
+                    </h2>
+                    <p class="font-light  text-right text-gray-500">Publicado: 30/08/2024</p>
+                    <div class=" font-sans text-lg text-left col-span-6  ">
+                    <p><i>La Justicia investiga la retención de alimentos en el Ministerio de Capital Humano, con la ministra Sandra Pettovello acusada de abuso de autoridad y violación de sus deberes.</i>
+                    </p>
+                    <br>
+                    <figure>
+                        <img class="w-full object-cover" src="../img/soc/soc_alimento2.svg"
+                            alt="">
+                    </figure>
+                    
+                    {{-- <article>
+                        <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/GeOVAG1Bfz8?si=r2ihOrxI6uEWI0IU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        
+                    </article> --}}
+                    <br>
+                    <div
+                        class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                        <div class=" font-sans text-lg text-left col-span-6  ">
+
+                            <p>El juez Sebastián Casanello ordenó el allanamiento del Ministerio de Capital Humano en el marco de una investigación por la retención de alimentos destinados a comedores y merenderos populares. La ministra Sandra Pettovello enfrenta acusaciones de incumplimiento de los deberes de funcionario público y abuso de autoridad.</p>
+                            <br>
+                            <p>Este jueves, el Juzgado Criminal y Correccional Federal Nº 7, bajo la dirección del juez Sebastián Casanello, realizó un allanamiento en el Ministerio de Capital Humano. La investigación se centra en las 6 mil toneladas de alimentos que, en lugar de ser distribuidos, han permanecido en depósitos, afectando a comedores y merenderos populares.</p>
+                            <br>
+                            <p>El juez dispuso el secuestro de elementos cruciales para la causa, incluyendo una copia de seguridad de la computadora asignada a Pablo Berardi, director de Logística del Ministerio; todas las órdenes de entrega desde el 27 de mayo; y los partes diarios de los depósitos “Buenos Aires” en Villa Martelli y del Centro Operativo Tucumán en Tafí Viejo. También se revisará el sistema informático S.U.M.A. para rastrear los movimientos de los alimentos.</p>
+                            <br>
+                            <p>Entre los hallazgos del allanamiento se incluyen el backup de la computadora del Director de Logística, las órdenes de entrega desde mayo, los partes diarios con detalles de stock y estado de los alimentos, y el acceso a diversas cuentas de correos electrónicos de empleados y funcionarios.</p>
+                            <br>
+                            <p>Desde el Ministerio de Capital Humano, encabezado por Sandra Pettovello, se defendieron asegurando que han estado trabajando para transparentar la distribución y aumentar el poder de compra de las familias vulnerables, afirmando que cumplen con el plan de distribución de alimentos. También acusaron al Poder Judicial de entrometerse en la gestión del Poder Ejecutivo.</p>
+                            <br>
+                            <p>El conflicto se intensificó cuando, a fines de julio, el juez federal Martín Cormick rechazó una apelación del ministerio y exigió la distribución inmediata de los alimentos retenidos. Pettovello había apelado la decisión que requería un informe detallado sobre la distribución, pero el juez mantuvo su orden, estableciendo un plazo de 48 horas para restituir el servicio a los comedores y merenderos.</p>
+                            <br>
+                            
+                            
+                            <div class="text-start object-center">
+                                {{-- <figure>
+                                    <img class="w-28 h-28  "
+                                        src="{{ asset('../img/der/Adri.svg') }}"
+                                        alt="">
+                                    
+                                    <p> <strong>Nota de Adriana Zerdín</strong></p>
+
+                                </figure>  --}}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </li>
+    </ul>
+</section>
+{{--RICARDO ALFONSÍN RENUNCIÓ A LA UCR Y CONVOCÓ A LA CONSTRUCCIÓN--}}
+<section> 
+    <ul>
+        <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+            <article>
+
+                <div class="py-4 px-4 justify-between items-center">
+                    <h2 class="text-xl font-serif  font-bold pb-6">
+                        <a href="">RICARDO ALFONSÍN RENUNCIÓ A LA UCR Y CONVOCÓ A LA CONSTRUCCIÓN DE UN FRENTE PROGRESISTA</a>
+                        {{-- <p class="font-light  text-lef text-gray-500">Por Gustavo Cano</p> --}}
+                    </h2>
+                    <p class="font-light  text-right text-gray-500">Publicado: 29/08/2024</p>
+                    <div class=" font-sans text-lg text-left col-span-6  ">
+                    <p><i>Ricardo Alfonsín convocó a la formación de un espacio progresista en la Provincia de Buenos Aires, junto a Forja y Libres del Sur y anunció su renuncia a la Unión Cívica Radical.</i>
+                    </p>
+                    <br>
+                    <figure>
+                        <img class="w-full object-cover" src="../img/soc/soc_forja.svg"
+                            alt="">
+                    </figure>
+                    
+                    {{-- <article>
+                        <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/GeOVAG1Bfz8?si=r2ihOrxI6uEWI0IU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        
+                    </article> --}}
+                    <br>
+                    <div
+                        class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                        <div class=" font-sans text-lg text-left col-span-6  ">
+
+                            <p>En un acto que reunió a los principales referentes de los tres espacios políticos, Ricardo Alfonsín, Gustavo López y Silvia Saravia llamaron a unir y fortalecer al progresismo bonaerense contra las políticas de ajuste y deshumanizantes de Javier Milei.</p>
+                            <br>
+                            <p>“Creemos firmemente en la importancia de alcanzar la justicia social como base para garantizar el bienestar y la igualdad de oportunidades para todos”, sostuvieron a lo largo del acto.</p>
+                            <br>
+                            <p>Gustavo López fue el primer orador y señaló que “Forja nació, históricamente, para mantener el legado del campo nacional y democrático frente a las políticas de entrega. La contradicción fundamental siempre fue entre dos modelos de Argentina: Patria o Colonia, Democracia o Dictadura, desarrollo con inclusión o pobreza y desocupación. Cuando se pierde el norte, la brújula en la política son los principios, por eso llamamos a unir al progresismo desde los Principios, defendiendo la República, la democracia, la libertad con equidad y justicia social frente a un modelo brutal de exclusión y antidemocrático”.</p>
+                            <br>
+                            <p>A su turno, Silvia Saravia, referente de Libres del Sur, sostuvo que “tenemos que hacer todos los esfuerzos para convocar a quienes, desde distintas identidades tenemos el convencimiento de que hay que frenar este proceso de desigualdad, autoritarismo y frustración que intenta consolidar Milei. Y construir definitivamente un espacio dispuesto a poner de pie un modelo de país soberano en toda su dimensión."</p>
+                            <br>
+                            <p>Finalmente, Ricardo Alfonsín cerró el acto anunciando primero, su desafiliación de la Unión Cívica Radical: “tomar esta decisión que me ha costado tiempo y dolor, pero se corresponde con mis convicciones acerca de lo que es más consecuente con los valores e ideas que, como ciudadano y político, siempre me han acompañado”.</p>
+                            <br>
+                            <p>El último candidato a presidente del partido del que se aleja recordó que “en la campaña electoral decíamos que las recetas económicas y sociales de LLA no solo no resolverían los problemas de los argentinos, sino que los agravarían. La historia lo demuestra. No hay un solo país en el mundo que haya progresado socialmente con estas políticas. Al contrario.</p>
+                            <br>
+                            <p>Y agregó que: “En la segunda parte del mandato, irán más a fondo: intentará derogar las leyes e instituciones que le atribuyen al Estado la responsabilidad de promover sociedades justas. Pero para el presidente esta atribución es una aberración.</p>
+                            <br>
+                            <p>El parlamento es el terreno donde podemos darle pelea. Hoy, entre LLA y la oposición amigable, la derecha tiene mayoría. Hay que modificar la actual correlación de fuerzas en el Parlamento. Ese es el desafío”.</p>
+                            <br>
+                            
+                            <div class="text-start object-center">
+                                {{-- <figure>
+                                    <img class="w-28 h-28  "
+                                        src="{{ asset('../img/der/Adri.svg') }}"
+                                        alt="">
+                                    
+                                    <p> <strong>Nota de Adriana Zerdín</strong></p>
+
+                                </figure>  --}}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </li>
+    </ul>
+</section>
+{{--UN MINISTRO ANTI-DIVERSIDAD EN EL SIGLO XXI--}}
+<section> 
+    <ul>
+        <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+            <article>
+
+                <div class="py-4 px-4 justify-between items-center">
+                    <h2 class="text-xl font-serif  font-bold pb-6">
+                        <a href="">UN MINISTRO ANTI-DIVERSIDAD EN EL SIGLO XXI</a>
+                        {{-- <p class="font-light  text-lef text-gray-500">Por Gustavo Cano</p> --}}
+                    </h2>
+                    <p class="font-light  text-right text-gray-500">Publicado: 29/08/2024</p>
+                    <div class=" font-sans text-lg text-left col-span-6  ">
+                    <p><i>Las declaraciones transfóbicas del ministro de Justicia en la Comisión de Mujeres y Diversidad generaron un fuerte rechazo de organizaciones y políticas de género, mientras que algunos funcionarios oficialistas salieron en su defensa.</i>
+                    </p>
+                    <br>
+                    <figure>
+                        <img class="w-full object-cover" src="../img/soc/soc_cuneo2.svg"
+                            alt="">
+                    </figure>
+                    
+                    {{-- <article>
+                        <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/GeOVAG1Bfz8?si=r2ihOrxI6uEWI0IU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        
+                    </article> --}}
+                    <br>
+                    <div
+                        class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                        <div class=" font-sans text-lg text-left col-span-6  ">
+
+                            <p>Las recientes declaraciones del ministro de Justicia, Mariano Cúneo Libarona, han generado una ola de rechazo y preocupación. En su intervención en la Comisión de Mujeres y Diversidad de la Cámara de Diputados, Cúneo Libarona se manifestó en contra de la diversidad sexual, afirmando que las identidades no alineadas con la biología son "inventos subjetivos". Esta postura retrógrada ha sido ampliamente criticada, pero también respaldada por algunos sectores del Gobierno.</p>
+                            <br>
+                            <p>El ministro reafirmó sus palabras en redes sociales, donde calificó las políticas de género como "caprichos ideológicos" que, según él, han servido para ocultar la pobreza en el país. Esta visión no solo ha causado indignación entre activistas y sectores políticos, sino que también ha sido respaldada por otros funcionarios del Gobierno, como el vocero presidencial, Manuel Adorni, quien argumentó que estas políticas han escondido negocios perjudiciales.</p>
+                            <br>
+                            <p>Cúneo Libarona también hizo énfasis en valores tradicionales como la familia y la educación, contraponiéndolos a lo que describió como una "agenda cultural de izquierda". Sin embargo, su discurso parece desconectado de la realidad, ya que el Gobierno que él representa ha sido criticado por rechazar la diversidad de género, atacar a los trabajadores y menospreciar la educación pública. La administración actual está envuelta en escándalos, como la visita a genocidas y la fuga del diputado pedófilo Germán Kiczka, lo que ha intensificado el rechazo hacia sus políticas.</p>
+                            <br>
+                            <p>El movimiento feminista y disidente Mujeres de la Matria Latinoamericana (MuMaLá) ha exigido la renuncia del ministro, denunciando sus declaraciones como una negación de derechos fundamentales. Estela Díaz, ministra de Mujeres, Políticas de Género y Diversidad bonaerense, también criticó la postura de Cúneo Libarona, subrayando que sus opiniones van en contra de la Constitución y de las leyes vigentes en Argentina.</p>
+                            <br>
+                            <p>En respuesta a las declaraciones de Cúneo Libarona, la Confederación de Trabajadores de la Educación (CTERA) y diversos grupos han expresado un fuerte rechazo hacia las políticas del Gobierno en materia de género y diversidad. La postura del ministro ha profundizado la polarización en torno a derechos fundamentales, evidenciando una creciente disconformidad entre sectores de la sociedad que defienden la igualdad y la inclusión frente a las políticas regresivas impulsadas por el oficialismo.</p>
+                            <br>
+                            
+                            
+                            <div class="text-start object-center">
+                                {{-- <figure>
+                                    <img class="w-28 h-28  "
+                                        src="{{ asset('../img/der/Adri.svg') }}"
+                                        alt="">
+                                    
+                                    <p> <strong>Nota de Adriana Zerdín</strong></p>
+
+                                </figure>  --}}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </li>
+    </ul>
+</section>
+    {{--20 AÑOS DE LA COALICIÓN POR UNA COMUNICACIÓN DEMOCRÁTICA--}}
+<section> 
+    <ul>
+        <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+            <article>
+
+                <div class="py-4 px-4 justify-between items-center">
+                    <h2 class="text-xl font-serif  font-bold pb-6">
+                        <a href="">20 AÑOS DE LA COALICIÓN POR UNA COMUNICACIÓN DEMOCRÁTICA</a>
+                        <p class="font-light  text-lef text-gray-500">Por Gustavo Cano</p>
+                    </h2>
+                    <p class="font-light  text-right text-gray-500">Publicado: 28/08/2024</p>
+                    <div class=" font-sans text-lg text-left col-span-6  ">
+                    <p><i>La CCD cumple dos décadas de lucha por la pluralidad y la libertad en el acceso a la información. En un contexto de creciente autoritarismo, su rol es más necesario que nunca para garantizar la democracia y la diversidad de voces en nuestro país.</i>
+                    </p>
+                    <br>
+                    <figure>
+                        <img class="w-full object-cover" src="../img/soc/soc_comudemo.svg"
+                            alt="">
+                    </figure>
+                    
+                    {{-- <article>
+                        <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/GeOVAG1Bfz8?si=r2ihOrxI6uEWI0IU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        
+                    </article> --}}
+                    <br>
+                    <div
+                        class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                        <div class=" font-sans text-lg text-left col-span-6  ">
+
+                            <p>La Coalición por una Comunicación Democrática (CCD) ha sido, a lo largo de estos 20 años, un faro indispensable en la defensa de un derecho esencial: el derecho a la comunicación. Desde su creación en 2004, esta red de organizaciones y medios ha sido un pilar fundamental en la construcción de un sistema de medios plural y democrático. Desde ADN Populares, aunque aún no formamos parte de la red, adherimos plenamente a sus principios, valores y objetivos, y compartimos su compromiso por un espacio mediático en el que todas las voces puedan ser escuchadas.</p>
+                            <br>
+                            <p>Gracias a la CCD, se impulsaron debates esenciales sobre la necesidad de desconcentrar el poder mediático en Argentina, promoviendo políticas públicas que garantizaran el acceso a la información para todos, como la Ley de Servicios de Comunicación Audiovisual (LSCA) de 2009. Esta ley marcó un antes y un después en la historia de la comunicación en el país, limitando la acumulación de licencias y reservando espacio para medios comunitarios, alternativos y sin fines de lucro. Fue una victoria para la democracia, la pluralidad y la inclusión de sectores históricamente silenciados.</p>
+                            <br>
+                            <p>Hoy, más que nunca, los principios que defiende la CCD resultan vitales. Nos encontramos en un momento en el que la libertad de expresión está amenazada por políticas que buscan concentrar aún más el poder en manos de unos pocos, en detrimento de la información libre, veraz y plural. En este contexto de autoritarismo rampante, donde la diversidad de voces está en peligro, la Coalición vuelve a erigirse como la trinchera desde donde debemos dar esta batalla.</p>
+                            <br>
+                            <p>Como medio comprometido con la justicia social, la igualdad y los derechos humanos, desde ADN Populares hacemos nuestra la lucha de la CCD. Sus valores no solo resuenan con nuestro trabajo periodístico, sino que también reflejan nuestro compromiso inquebrantable con la construcción de una comunicación al servicio del pueblo y no de los intereses empresariales o políticos que intentan someterla.</p>
+                            <br>
+                            <p>El camino trazado por la Coalición durante estos 20 años nos señala que es posible resistir, que no estamos solos en la defensa del derecho a la información. Y que, a pesar de los obstáculos, seguimos luchando por un país más justo, más inclusivo, más democrático. Pero para ello, necesitamos redoblar esfuerzos y fortalecer esta red de medios populares y comunitarios, que son una barrera contra el avasallamiento de las libertades que algunos sectores autoritarios pretenden instaurar.</p>
+                            <br>
+                            <p>La <p>Coalición por una Comunicación Democrática</p> no es solo un espacio de resistencia; es una apuesta concreta por un futuro donde la verdad y la pluralidad sean las bases del ejercicio de la comunicación. Por ello, a 20 años de su nacimiento, reafirmamos nuestro apoyo incondicional a esta causa. Porque hoy, más que nunca, necesitamos estar unidos para defender lo conquistado y enfrentar las nuevas amenazas.</p>
+                            <br>
+                            <p>Desde <p>ADN Populares</p>, celebramos estas dos décadas de lucha y nos comprometemos a seguir construyendo, junto a la CCD, una comunicación libre, popular y verdaderamente democrática. La libertad de expresión no es negociable; la pluralidad no puede ser silenciada.</p>
+                            <br>
+                            
+                            <div class="text-start object-center">
+                                {{-- <figure>
+                                    <img class="w-28 h-28  "
+                                        src="{{ asset('../img/der/Adri.svg') }}"
+                                        alt="">
+                                    
+                                    <p> <strong>Nota de Adriana Zerdín</strong></p>
+
+                                </figure>  --}}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </li>
+    </ul>
+</section>
+{{--MILEI CONVIERTE LA PEDOFILIA EN OBJETO DE BURLA POLÍTICA--}}
+<section> 
+    <ul>
+        <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+            <article>
+
+                <div class="py-4 px-4 justify-between items-center">
+                    <h2 class="text-xl font-serif  font-bold pb-6">
+                        <a href="">MILEI CONVIERTE LA PEDOFILIA EN OBJETO DE BURLA POLÍTICA</a>
+                        <p class="font-light  text-lef text-gray-500">Por Gustavo Cano</p>
+                    </h2>
+                    <p class="font-light  text-right text-gray-500">Publicado: 27/08/2024</p>
+                    <div class=" font-sans text-lg text-left col-span-6  ">
+                    <p><i>El presidente usa un caso grave de pedofilia para atacar a un rival político, mostrando una falta de respeto y sensibilidad hacia el sufrimiento de las víctimas.</i>
+                    </p>
+                    <br>
+                    <figure>
+                        <img class="w-full object-cover" src="../img/soc/soc_pedofilia.svg"
+                            alt="">
+                    </figure>
+                    
+                    {{-- <article>
+                        <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/GeOVAG1Bfz8?si=r2ihOrxI6uEWI0IU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        
+                    </article> --}}
+                    <br>
+                    <div
+                        class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                        <div class=" font-sans text-lg text-left col-span-6  ">
+
+                            <p>Javier Milei ha cruzado una línea de decencia al usar la acusación de pedofilia contra el diputado misionero Germán Kiczka como un instrumento para atacar a Martín Tetaz. En un acto de extrema insensibilidad, Milei retuiteó una imagen que ridiculiza la gravedad de las acusaciones con un mensaje que burla el sufrimiento de las víctimas: "Prueba gráfica del diputado pedófilo de Misiones queriendo abusar de un pibito".</p>
+                            <br>
+                            <p>Este acto desprecia el dolor real que acompaña a las acusaciones de abuso infantil, convirtiendo un tema de seriedad abrumadora en una herramienta para la confrontación política. Kiczka, aunque aliado de Milei, está acusado de un crimen atroz y está prófugo, lo que debería generar una respuesta de seriedad y empatía. Sin embargo, el Presidente ha optado por la burla, mostrando un alarmante desdén por la gravedad del asunto.</p>
+                            <br>
+                            <p>La actitud de Milei resalta un patrón peligroso en su conducta: el uso de cualquier circunstancia, por dolorosa que sea, para atacar a sus opositores. Este comportamiento no solo demuestra una falta de respeto por las víctimas y sus familias, sino que también revela una estrategia política enfermiza centrada en la agresión y el escándalo.</p>
+                            <br>
+                            <p>Mientras Milei se regodea en ataques burlescos, otros políticos como Martín Tetaz han elegido mantener la dignidad y enfocarse en cuestiones de política pública, como el aumento a los jubilados. La decisión de Milei de trivializar un caso de abuso infantil para desacreditar a un rival refleja una falta de moralidad y responsabilidad.</p>
+                            <br>
+                            <p>El Presidente no solo banaliza un tema crucial, sino que también utiliza su plataforma para atacar a quienes no están de acuerdo con él. La burla de Milei es un insulto a las víctimas y a la dignidad humana, y es un recordatorio de cómo la política puede ser usada para fines deshonestos y crueles. Este episodio exige una reflexión profunda sobre la ética en el liderazgo y el respeto por los temas serios. La falta de sensibilidad de Milei ante un asunto tan grave es inaceptable y debe ser condenada enérgicamente.</p>
+                            <br>
+                            
+                            
+                            
+                            <div class="text-start object-center">
+                                {{-- <figure>
+                                    <img class="w-28 h-28  "
+                                        src="{{ asset('../img/der/Adri.svg') }}"
+                                        alt="">
+                                    
+                                    <p> <strong>Nota de Adriana Zerdín</strong></p>
+
+                                </figure>  --}}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </li>
+    </ul>
+</section>
+    {{--500 KILOS DE ALIMENTOS PARA LOS QUE MÁS LO NECESITAN.--}}
+    <section> 
+        <ul>
+            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                <article>
+
+                    <div class="py-4 px-4 justify-between items-center">
+                        <h2 class="text-xl font-serif  font-bold pb-6">
+                            <a href="">500 KILOS DE ALIMENTOS PARA LOS QUE MÁS LO NECESITAN</a>
+                            {{-- <p class="font-light  text-lef text-gray-500">Por Teresita Frias, publicado en www.diarioinfosalta.com</p> --}}
+                        </h2>
+                        <p class="font-light  text-right text-gray-500">Publicado: 25/08/2024</p>
+                        <div class=" font-sans text-lg text-left col-span-6  ">
+                        <p><i>En una jornada solidaria organizada por Palermo K, casi 100 personas se reunieron con el padre Paco Olveira para entregar alimentos a familias vulnerables. La solidaridad contrasta con las políticas de ajuste del gobierno nacional.</i>
+                        </p>
+                        <br>
+                        <figure>
+                            <img class="w-full object-cover" src="../img/soc/soc_500.svg"
+                                alt="">
+                        </figure>
+                        
+                        {{-- <article>
+                            <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/GeOVAG1Bfz8?si=r2ihOrxI6uEWI0IU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            
+                        </article> --}}
+                        <br>
+                        <div
+                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                            <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                <p>El pasado viernes, se llevó a cabo una jornada solidaria en Palermo organizada por el colectivo Palermo K, que reunió a cerca de un centenar de personas comprometidas con apoyar a los sectores más afectados por la crisis económica. Encabezada por el padre Paco Olveira, la actividad permitió la entrega de 500 kilos de alimentos a familias en situación de vulnerabilidad. Durante la noche, Juan Ruggieri y Tango Compañero se encargaron de la música, generando un ambiente emotivo y de unión entre los presentes.</p>
+                                <br>
+                                <p>El evento tuvo como objetivo central mitigar el hambre que padecen muchas familias a causa de las políticas económicas del gobierno nacional de Javier Milei. En su discurso, el padre Olveira resaltó que “mientras el gobierno sigue con su ajuste, es la solidaridad la que responde a las necesidades del pueblo”. Además, valoró el rol del gobierno de la Provincia de Buenos Aires en este contexto, destacándolo como un ejemplo de gestión comprometida frente a la crisis social y económica que atraviesa el país.</p>
+                                <br>
+                                <p>Los asistentes formaron una cadena humana para cargar los alimentos en una camioneta que partiría hacia la provincia de Buenos Aires, donde se encuentran las familias destinatarias. La escena reflejó el esfuerzo colectivo para llevar alivio a quienes más lo necesitan, bajo la consigna de que “solo el pueblo salvará al pueblo”.</p>
+                                <br>
+                                <p>El acto fue una respuesta directa a la creciente pobreza y la indigencia que afectan a un amplio sector de la población. Según estadísticas recientes, cerca del 70% de los niños en Argentina viven en la pobreza, y uno de cada cuatro hogares no cuenta con los recursos suficientes para cubrir sus necesidades básicas. Frente a este escenario, actividades como la organizada por Palermo K se vuelven fundamentales para contrarrestar la falta de respuestas del gobierno.</p>
+                                <br>
+                                <p>El padre Olveira también hizo hincapié en la importancia de la organización comunitaria como forma de resistencia frente a la deshumanización que, según sus palabras, caracteriza a la gestión nacional actual. La jornada fue, en definitiva, un testimonio del poder de la solidaridad y de la necesidad de seguir construyendo redes de apoyo en tiempos difíciles.</p>
+                                <br>
+                                
+                                
+                                
+                                <div class="text-start object-center">
+                                    {{-- <figure>
+                                        <img class="w-28 h-28  "
+                                            src="{{ asset('../img/der/Adri.svg') }}"
+                                            alt="">
+                                        
+                                        <p> <strong>Nota de Adriana Zerdín</strong></p>
+
+                                    </figure>  --}}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </li>
+        </ul>
+    </section>
+        {{--NUEVOS CASOS DE VIRUELA DEL MONO EN EL CONURBANO..--}}
+    <section> 
+        <ul>
+            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                <article>
+
+                    <div class="py-4 px-4 justify-between items-center">
+                        <h2 class="text-xl font-serif  font-bold pb-6">
+                            <a href="">NUEVOS CASOS DE VIRUELA DEL MONO EN EL CONURBANO</a>
+                            {{-- <p class="font-light  text-lef text-gray-500">Por Teresita Frias, publicado en www.diarioinfosalta.com</p> --}}
+                        </h2>
+                        <p class="font-light  text-right text-gray-500">Publicado: 23/08/2024</p>
+                        <div class=" font-sans text-lg text-left col-span-6  ">
+                        <p><i>Las autoridades de salud confirman nuevos casos de viruela del mono en el conurbano bonaerense, mientras el país sigue en alerta ante el brote global.</i>
+                        </p>
+                        <br>
+                        <figure>
+                            <img class="w-full object-cover" src="../img/soc/soc_viruela.svg"
+                                alt="">
+                        </figure>
+                        
+                        {{-- <article>
+                            <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/GeOVAG1Bfz8?si=r2ihOrxI6uEWI0IU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            
+                        </article> --}}
+                        <br>
+                        <div
+                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                            <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                <p>Este martes, el Ministerio de Salud de la Nación informó sobre la activación de un protocolo de emergencia en un buque proveniente de Brasil. Un tripulante del barco “Ina-Lotte” presentó lesiones cutáneas sospechosas, pero finalmente se descartó la presencia de viruela del mono al confirmarse que se trataba de varicela.</p>
+                                <br>
+                                <p><b>El conurbano en alerta</b></p>
+                                <br>
+                                <p>El Ministerio de Salud de la provincia de Buenos Aires confirmó dos nuevos casos de viruela del mono en el conurbano: uno en La Matanza y otro en Berazategui. El paciente de La Matanza presentó síntomas en junio tras un viaje, mientras que el caso de Berazategui se registró en julio, asociado al contacto con un viajero. Ambos pacientes se encuentran en buen estado de salud y bajo seguimiento.</p>
+                                <br>
+                                <p>A nivel nacional, el primer caso de viruela del mono se registró en 2022, acumulándose hasta la fecha 1.158 casos y dos fallecidos. En 2024, ya se confirmaron 9 casos sin víctimas fatales, según el Boletín Epidemiológico Nacional.</p>
+                                <br>
+                                <p><b>Transmisión y síntomas</b></p>
+                                <br>
+                                <p>La viruela del mono, declarada como emergencia internacional por la OMS, se transmite principalmente por contacto directo con las lesiones en la piel, secreciones respiratorias o superficies contaminadas. Los síntomas incluyen fiebre, dolor de cabeza, erupciones cutáneas y dolores musculares.</p>
+                                <br>
+                                <p>Las autoridades recomiendan que cualquier persona con síntomas o antecedentes de viaje consulte inmediatamente a un hospital, mientras refuerzan las medidas preventivas de higiene y distanciamiento para evitar nuevos contagios.</p>
+                                <br>
+                                
+                                
+                                <div class="text-start object-center">
+                                    {{-- <figure>
+                                        <img class="w-28 h-28  "
+                                            src="{{ asset('../img/der/Adri.svg') }}"
+                                            alt="">
+                                        
+                                        <p> <strong>Nota de Adriana Zerdín</strong></p>
+
+                                    </figure>  --}}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </li>
+        </ul>
+    </section>
+        {{--EL GOBIERNO ENTREGA EL PATRIMONIO NACIONAL AL PRIVADO..--}}
+    <section> 
+    <ul>
+        <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+            <article>
+
+                <div class="py-4 px-4 justify-between items-center">
+                    <h2 class="text-xl font-serif  font-bold pb-6">
+                        <a href="">EL GOBIERNO ENTREGA EL PATRIMONIO NACIONAL AL PRIVADO</a>
+                        {{-- <p class="font-light  text-lef text-gray-500">Por Teresita Frias, publicado en www.diarioinfosalta.com</p> --}}
+                    </h2>
+                    <p class="font-light  text-right text-gray-500">Publicado: 22/08/2024</p>
+                    <div class=" font-sans text-lg text-left col-span-6  ">
+                    <p><i>El decreto 747/24 elimina la obligación del Estado de contratar empresas públicas, profundizando la entrega de sectores estratégicos al capital privado en detrimento de la soberanía nacional.</i>
+                    </p>
+                    <br>
+                    <figure>
+                        <img class="w-full object-cover" src="../img/soc/soc_patri.svg"
+                            alt="">
+                    </figure>
+                    
+                    {{-- <article>
+                        <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/GeOVAG1Bfz8?si=r2ihOrxI6uEWI0IU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        
+                    </article> --}}
+                    <br>
+                    <div
+                        class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                        <div class=" font-sans text-lg text-left col-span-6  ">
+
+                            <p>El gobierno avanza en su objetivo de desmantelar el Estado y entregar el control de sectores clave al capital privado. Con el decreto 747/24, publicado en el Boletín Oficial, se eliminan los decretos que obligaban al Estado a contratar empresas públicas como YPF, Nación Seguros, Optar y el Banco Nación. Esta medida, que aparece como una simple "desregulación", en realidad desnuda la profunda entrega del patrimonio nacional a manos de intereses foráneos.</b>
+                            </p>
+                            <br>
+                            <p>Federico Sturzenegger, ministro de Desregulación, justificó la decisión afirmando que "las empresas públicas no deben servirse de los ciudadanos", un discurso repetido hasta el cansancio por quienes buscan beneficiar a los monopolios privados, asegurando que solo ellos tienen la capacidad de brindar servicios "eficientes". Sin embargo, este cambio no es más que otro paso hacia la pérdida de soberanía sobre sectores estratégicos como la energía, las finanzas y el transporte.</p>
+                            <br>
+                            <p>El decreto 853/23, que garantizaba que los seguros de las entidades públicas fueran contratados con Nación Seguros, y los decretos 1187/12 y 1189/12, que priorizaban al Banco Nación y YPF, respectivamente, eran pilares que aseguraban que las utilidades generadas por estas contrataciones quedaran en manos del Estado. Con esta derogación, la puerta queda abierta para que multinacionales extranjeras se lleven esa riqueza, mientras se debilitan las herramientas del Estado para intervenir en la economía.</p>
+                            <br>
+                            <p>La medida también afecta a Optar SA, una empresa pública vinculada a la gestión de pasajes para el personal estatal. El gobierno eliminó esta obligación, argumentando que "impedía la competencia", sin reconocer que empresas como Optar cumplen una función social que va mucho más allá del simple beneficio económico.</p>
+                            <br>
+                            <p>Bajo el pretexto de una "emergencia económica", el gobierno impulsa la desregulación de sectores que, por su relevancia, deberían mantenerse bajo control estatal. Esto no es más que una entrega descarada al capital privado, siguiendo los dictados del mercado, que solo busca maximizar ganancias sin preocuparse por el bienestar de la población ni por el control soberano de recursos estratégicos.</p>
+                            <br>
+                            <p>La excusa de la "eficiencia" no es más que una cortina de humo. Lo que realmente se busca es que el Estado argentino ceda su rol a favor de corporaciones extranjeras que verán sus arcas crecer mientras los argentinos pagamos las consecuencias. Cada vez más, el gobierno actual parece decidido a despojar al país de su propio futuro.</p>
+                            <br>
+                            
+                            <div class="text-start object-center">
+                                {{-- <figure>
+                                    <img class="w-28 h-28  "
+                                        src="{{ asset('../img/der/Adri.svg') }}"
+                                        alt="">
+                                    
+                                    <p> <strong>Nota de Adriana Zerdín</strong></p>
+
+                                </figure>  --}}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </li>
+    </ul>
+    </section>
+        {{--TAXISTAS ACUSAN A ENTIDADES EMPRESARIALES Y SINDICALES..--}}
+    <section> 
+        <ul>
+            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                <article>
+
+                    <div class="py-4 px-4 justify-between items-center">
+                        <h2 class="text-xl font-serif  font-bold pb-6">
+                            <a href="">TAXISTAS ACUSAN A ENTIDADES EMPRESARIALES Y SINDICALES DE RESPALDAR APLICACIONES ILEGALES</a>
+                            {{-- <p class="font-light  text-lef text-gray-500">Por Teresita Frias, publicado en www.diarioinfosalta.com</p> --}}
+                        </h2>
+                        <p class="font-light  text-right text-gray-500">Publicado: 22/08/2024</p>
+                        <div class=" font-sans text-lg text-left col-span-6  ">
+                        <p><b>Identidad Taxista rechaza la legalización de las apps de transporte y acusa al gobierno de favorecer intereses extranjeros en detrimento del sector. Convocan a una asamblea abierta el 31 de agosto.</b>
+                        </p>
+                        <br>
+                        <figure>
+                            <img class="w-full object-cover" src="../img/soc/soc_taxistas.svg"
+                                alt="">
+                        </figure>
+                        
+                        {{-- <article>
+                            <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/GeOVAG1Bfz8?si=r2ihOrxI6uEWI0IU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            
+                        </article> --}}
+                        <br>
+                        <div
+                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                            <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                <p>Identidad Taxista amplió su denuncia contra el avance de la legalización de las aplicaciones de transporte, señalando que el presidente de la Sociedad de Propietarios de Automóviles con Taxímetro (SPAT), Celia, admitió en una reciente entrevista radial que varias entidades empresariales y sindicales apoyan la legalización de estas plataformas, a pesar de la legislación vigente que regula el transporte de pasajeros.</b>
+                                </p>
+                                <br>
+                                <p>Entre las entidades mencionadas están SPAT, UPAT, UPINRA, CAMETAX y los sindicatos de Conductores de Taxis y de Peones de Taxi. Todas ellas, según denuncian, se benefician económicamente del aporte de los taxistas, pero están avalando un modelo que pone en riesgo la subsistencia del sector.</p>
+                                <br>
+                                <p>Identidad Taxista advierte sobre la posible desaparición del taxi, declarado de interés cultural en la Ciudad de Buenos Aires, y sobre el impacto que estas políticas tendrían en miles de trabajadores que dependen de esta actividad.</p>
+                                <br>
+                                <p>Por ello, convocan a una asamblea el próximo 31 de agosto a las 14:00 horas en Amancio Alcorta y Ramón Carrillo, donde discutirán el futuro de la actividad y las acciones a seguir. Agradecen la difusión de esta convocatoria.</p>
+                                <br>
+                                
+                                
+                                
+                                <div class="text-start object-center">
+                                    {{-- <figure>
+                                        <img class="w-28 h-28  "
+                                            src="{{ asset('../img/der/Adri.svg') }}"
+                                            alt="">
+                                        
+                                        <p> <strong>Nota de Adriana Zerdín</strong></p>
+
+                                    </figure>  --}}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </li>
+        </ul>
+    </section>
+        {{--ROMERO EL MÁS ‘CASTA’ DEL SENADO ASEGURÓ SU FORTUNA IMPULSANDO UN AUMENTO DE 8 MILLONES..--}}
+    <section> 
+        <ul>
+            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                <article>
+
+                    <div class="py-4 px-4 justify-between items-center">
+                        <h2 class="text-xl font-serif  font-bold pb-6">
+                            <a href="">ROMERO EL MÁS ‘CASTA’ DEL SENADO ASEGURÓ SU FORTUNA IMPULSANDO UN AUMENTO DE 8 MILLONES POR MES PARA ÉL Y LEGISLADORES NACIONALES</a>
+                            <p class="font-light  text-lef text-gray-500">Por Teresita Frias, publicado en www.diarioinfosalta.com</p>
+                        </h2>
+                        <p class="font-light  text-right text-gray-500">Publicado: 21/08/2024</p>
+                        <div class=" font-sans text-lg text-left col-span-6  ">
+                        <p><b>El legislador salteño que supo enriquecerse a costa del pueblo que dice representar, vuelve a estar en el centro de la polémica esta vez por presentar un proyecto que lo benefició con un aumento mensual millonario.</b>
+                        </p>
+                        <br>
+                        <figure>
+                            <img class="w-full object-cover" src="../img/soc/soc_casta.svg"
+                                alt="">
+                        </figure>
+                        
+                        {{-- <article>
+                            <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/GeOVAG1Bfz8?si=r2ihOrxI6uEWI0IU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            
+                        </article> --}}
+                        <br>
+                        <div
+                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                            <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                <p>En una argentina dónde hay más de un millón de niños con hambre, <b>Juan Carlos Romero</b>, el ‘Zar’ salteño que logró notoriedad por negociados que le valieron el control de buena parte de la provincia, elaboró <b>proyecto que llevó a los senadores nacionales a aprobar un aumento de sus dietas hasta los ocho millones de pesos en bruto, lo que se traduce en cinco millones en mano tras los descuentos.</b>
+                                </p>
+                                <br>
+                                <p>La propuesta, que fue sancionada por la <b>Cámara Alta casi sin oposición y en tiempo récord, tiene la marca registrada de Romero</b>, quién no solo es uno de los hombres más poderosos de Salta, sino también en uno de los más cuestionados.</p>
+                                <br>
+                                <p>Con causas judiciales aún pendientes y una fortuna amasada a través de negocios que dejan mucho que desear, este senador salteño sigue acumulando privilegios.</p>
+                                <br>
+                                <p>El aumento, que fue el resultado de un acuerdo en la Comisión Negociadora paritaria del Congreso, eleva las dietas en bruto de los senadores a nueve millones de pesos, consolidando una vez más la brecha entre la clase política y el ciudadano común.</p>
+                                <br>
+                                <p>Mientras tanto, en la <b>Cámara de Diputados</b>, el impacto será menor, ya que el presidente <b>Martín Menem decidió no vincular el aumento de las dietas de los diputados a los incrementos salariales del personal legislativo, limitando así su alcance.</b></p>
+                                <br>
+                                <p>En abril, Romero logró que su proyecto para atar los ingresos de los senadores a los aumentos del personal legislativo se aprobara sin apenas debate, en una sesión que duró <b>menos de dos minutos.</b></p>
+                                <br>
+                                <p>Sin embargo, esta maniobra no hizo más que reforzar la imagen de un político que, lejos de trabajar por el bienestar de su provincia, parece estar <b>más interesado en llenar sus bolsillos y perpetuar su poder</b>.</p>
+                                <br>
+                                <p>La vicepresidenta del Senado, Victoria Villarruel, intentó desentenderse de la decisión, afirmando en redes sociales que no tiene herramientas para frenar este tipo de resoluciones. Pero lo cierto es que, una vez más, los senadores nacionales se aseguraron un aumento <b>en medio de una crisis que golpea duramente a los argentinos, demostrando que, cuando se trata de beneficios propios, la clase política actúa con una celeridad que en otros temas parece no tener.</b></p>
+                                <br>
+                                <p>Así, mientras Juan Carlos Romero sigue manejando los hilos en Salta y sumando ceros a su cuenta bancaria, el pueblo salteño muere de hambre.</p>
+                                <br>
+                                
+                                
+                                <div class="text-start object-center">
+                                    {{-- <figure>
+                                        <img class="w-28 h-28  "
+                                            src="{{ asset('../img/der/Adri.svg') }}"
+                                            alt="">
+                                        
+                                        <p> <strong>Nota de Adriana Zerdín</strong></p>
+
+                                    </figure>  --}}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </li>
+        </ul>
+    </section>
+        {{--INAUGURACIÓN DE LA CASA BONAERENSE DE LA PATRIA ES EL OTRO--}}
+    <section> 
+        <ul>
+            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                <article>
+
+                    <div class="py-4 px-4 justify-between items-center">
+                        <h2 class="text-xl font-serif  font-bold pb-6">
+                            <a href="">INAUGURACIÓN DE LA CASA BONAERENSE DE LA PATRIA ES EL OTRO</a>
+                            {{-- <p class="font-light  text-lef text-gray-500">Por Emanuel Corrado</p> --}}
+                        </h2>
+                        <p class="font-light  text-right text-gray-500">Publicado: 21/08/2024</p>
+                        <div class=" font-sans text-lg text-left col-span-6  ">
+                        <p><i>La inauguración de la casa bonaerense de La Patria es el Otro en La Plata fue una demostración de unidad y apoyo al gobernador Axel Kicillof, además de un homenaje a la militante Ana Herrán de Castagneto.</i>
+                        </p>
+                        <br>
+                        <figure>
+                            <img class="w-full object-cover" src="../img/soc/soc_lapatria.svg"
+                                alt="">
+                        </figure>
+                        
+                        {{-- <article>
+                            <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/GeOVAG1Bfz8?si=r2ihOrxI6uEWI0IU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            
+                        </article> --}}
+                        <br>
+                        <div
+                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                            <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                <p>La casa bonaerense de la organización La Patria es el Otro, ubicada en el centro de La Plata, fue inaugurada con un evento que combinó apoyo a la gestión de Axel Kicillof, homenajes y críticas al actual contexto político. Andrés Larroque, anfitrión y ministro de Desarrollo de la Comunidad, subrayó la importancia de la autocrítica y la necesidad de pedir perdón al pueblo argentino por los desafíos que enfrenta el peronismo. 
+                                </p>
+                                <br>
+                                <p>El acto, realizado en la calle 40 de La Plata, contó con la presencia de figuras destacadas como el intendente de La Plata, Julio Alak, el de Ensenada, Mario Secco, y los ministros Carlos Bianco y Walter Correa, así como la jefa de asesores del gobierno, Cristina Álvarez Rodríguez. La casa, abarrotada de militantes y representantes de más de 40 organizaciones, reflejó la vitalidad y el compromiso de La Patria es el Otro en un contexto político complicado para el peronismo.</p>
+                                <br>
+                                <p>Mario Secco, en su discurso, reiteró su apoyo a Kicillof y criticó a quienes prefieren esperar a que la situación mejore para actuar. Walter Correa, por su parte, comparó a la organización con los libertos que lucharon por la libertad, y destacó el papel de La Patria es el Otro en la defensa de causas justas. Carlos Bianco, en un tono más crítico, afirmó que el "Cuervo" Larroque ha dictado una estrategia de doble discurso: ser oficialista en la provincia y opositor a nivel nacional.</p>
+                                <br>
+                                <p>Cristina Álvarez Rodríguez destacó el significado de la unidad básica como un espacio de encuentro y lucha, mientras que Larroque ofreció una visión histórica que conectó los desafíos actuales con figuras como San Martín y Juan Manuel de Rosas, y criticó a Javier Milei, sugiriendo que debería agradecer a Kicillof por la gestión en la provincia. Además, Larroque reflexionó sobre la historia del peronismo y la necesidad de aprender de los errores pasados, mencionando la importancia de pedir perdón al pueblo argentino por la situación actual.</p>
+                                <br>
+                                <p>La inauguración también rindió homenaje a Ana Herrán de Castagneto, una militante peronista fallecida recientemente. La ceremonia incluyó un minuto de aplausos en su honor, resaltando su contribución al movimiento y su legado.</p>
+                                <br>
+                                
+                                
+                                <div class="text-start object-center">
+                                    {{-- <figure>
+                                        <img class="w-28 h-28  "
+                                            src="{{ asset('../img/der/Adri.svg') }}"
+                                            alt="">
+                                        
+                                        <p> <strong>Nota de Adriana Zerdín</strong></p>
+
+                                    </figure>  --}}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </li>
+        </ul>
+    </section>
     {{--EL CAMINO DE PISTARINI..--}}
     <section> 
         <ul>
