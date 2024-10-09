@@ -14045,6 +14045,555 @@
                     </aside>
                 </div>
             </section>
+        @elseif ($tituloSep == 'Sociedad-Noticia-Completa-soc114')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">EXPO IGUALDAD REUNIÓ A 25 MIL PERSONAS</a>
+                                            {{-- <p class="font-light  text-lef text-gray-500">Por Emanuel Corrado</p> --}}
+                                        </h2>
+                                        <p class="font-light  text-right text-gray-500">Publicado: 08/09/2024</p>
+                                        <div class=" font-sans text-lg text-left col-span-6  ">
+                                        {{-- <p><i>Los días 7 y 8 de septiembre, entre las 12.00 a 18.00 hs., se realizará la Expo Igualdad Bonaerense en el Estadio Único Diego Armando Maradona, en La Plata</i>
+                                        </p> --}}
+                                        <br>
+                                        <figure>
+                                            <img class="w-full object-cover" src="../img/soc/soc_expoigualdad.svg"
+                                                alt="">
+                                        </figure>
+                                        
+                                        {{-- <article>
+                                            <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/GeOVAG1Bfz8?si=r2ihOrxI6uEWI0IU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                            
+                                        </article> --}}
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+                                                <p>El gobernador Axel Kicillof visitó el primer día de la Expo, en tanto que el intendente de La Plata, Julio Alak, y el ministro de Desarollo Agrario Javier Rodríguez recorrieron los stands en la jornada que se desarrolló el domingo 8</p>
+                                                <br>
+                                                <p>El Estadio Único Diego Armando Maradona fue el escenario de la primera edición de Expo Igualdad Bonaerense, un encuentro que reunió a más de 25.000 personas los días 7 y 8 de septiembre. Organizado por el Ministerio de Mujeres y Diversidad de la Provincia de Buenos Aires, el evento contó con la participación de más de 160 stands de productoras y productores locales, además de diversas charlas y talleres.</p>
+                                                <br>
+                                                <p>La iniciativa se destacó por la articulación entre el Estado y el sector privado, con el objetivo de fortalecer la trama productiva bonaerense y colocar a las mujeres en el centro de la producción. “Reunimos propuestas de lo público y lo privado, en una articulación muy virtuosa, donde el Estado estuvo claramente presente dando una oportunidad para fortalecer la trama productiva bonaerense pero con las mujeres en el centro de la producción y el trabajo”, señaló la ministra Estela Díaz durante el cierre de la jornada.
+                                                </p>
+                                                <br>
+                                                <p>Los productores, tanto del programa Mercados Bonaerenses como de Expo@diseño, realizaron un balance positivo de la experiencia, destacando las oportunidades de visibilización de sus productos y las ventas alcanzadas. A su vez, el público aprovechó los descuentos ofrecidos a través de la aplicación Cuenta DNI del Banco Provincia, cuyo stand fue uno de los más visitados.</p>
+                                                <br>
+                                                <p>La jornada también tuvo un emotivo homenaje a Herenia Sánchez Viamonte, cofundadora de Madres de Plaza de Mayo La Plata, quien falleció a los 97 años. Sánchez Viamonte dedicó su vida a la búsqueda de su hijo y su nuera, desaparecidos durante la última dictadura cívico-militar.</p>
+                                                <br>
+                                                <p>En el marco de la Expo, se realizaron actividades enfocadas en la salud y la inclusión financiera, destacándose las charlas de Expo Mujer Saludable y la presentación de los servicios del Banco Provincia. También hubo un espacio para el cine, con proyecciones del ciclo “Proyectando Feminismos”.
+                                                </p>
+                                                <br>
+                                                <p>El cierre musical estuvo a cargo de DJ La Puta Ama y la banda Potencia Bernarda, quienes animaron a las miles de personas presentes con una combinación de nuevos temas y clásicos de la cumbia argentina.
+                                                </p>
+                                                <br>
+                                                <div class="text-start object-center">
+                                                    {{-- <figure>
+                                                        <img class="w-28 h-28  "
+                                                            src="{{ asset('../img/der/Adri.svg') }}"
+                                                            alt="">
+                                                        
+                                                        <p> <strong>Nota de Adriana Zerdín</strong></p>
+                                                    </figure>  --}}
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+                            </li>
+                        </ul>
+                        <br>
+                    </div>
+
+
+                    {{-- columna de la derecha chica --}}
+                    <aside>
+                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                            <div class=" col-span-6">
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/bener-leg2.png') }}"
+                                        alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
+                                        alt="">
+                                </a>
+
+                                <div id="app">
+
+                                    <div v-for="item in info">
+
+                                        <div class="flex-col pb-3">
+                                            <div
+                                                class="flex-col max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg"
+                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
+                                                        alt="" />
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5
+                                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                                            @{{ item.title }}</h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div v-for="va in clima">
+
+                                        <h5
+                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                            @{{ va }}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+                </div>
+            </section>
+        @elseif ($tituloSep == 'Sociedad-Noticia-Completa-soc115')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">MARCHA CONTRA EL VETO DE MILEI</a>
+                                            {{-- <p class="font-light  text-lef text-gray-500">Por Emanuel Corrado</p> --}}
+                                        </h2>
+                                        <p class="font-light  text-right text-gray-500">Publicado: 09/09/2024</p>
+                                        <div class=" font-sans text-lg text-left col-span-6  ">
+                                        {{-- <p><i>Los días 7 y 8 de septiembre, entre las 12.00 a 18.00 hs., se realizará la Expo Igualdad Bonaerense en el Estadio Único Diego Armando Maradona, en La Plata</i>
+                                        </p> --}}
+                                        <br>
+                                        <figure>
+                                            <img class="w-full object-cover" src="../img/soc/soc_jubiladosmilei.svg"
+                                                alt="">
+                                        </figure>
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+                                                <p>La oposición en Diputados buscará voltear el veto presidencial a la ley de movilidad jubilatoria. La protesta contará con el apoyo de la CGT, las CTA y movimientos sociales, en medio de la creciente tensión.
+                                                </p>
+                                                <br>
+                                                <p>Este miércoles, una manifestación masiva promete colmar las calles frente al Congreso de la Nación. Gremios, movimientos sociales y organismos de derechos humanos se movilizarán en apoyo a los jubilados que exigen la restitución de la ley de movilidad, vetada por el presidente Javier Milei. La medida, que afecta a los jubilados que perciben la mínima, ha sido un detonante de indignación en diversos sectores, que denuncian el brutal ajuste sobre los más.
+                                                </p>
+                                                <br>
+                                                <p>"Estamos al límite: gente sin trabajo, chicos muertos de hambre, jubilados sin medicación. Esta crisis es insostenible y el gobierno tiene que cambiar su política económica", advirtió Carlos Minucci, de la Asociación del Personal Superior de Empresas de Energía (APSEE), al confirmar la adhesión de su gremio a la marcha.</p>
+                                                <br>
+                                                <p>La convocatoria se organiza en torno a una amplia unidad de sectores. El Frente Sindical, la Corriente Federal, la UTEP y las dos CTA estarán presentes. También se espera la participación activa de movimientos sociales de izquierda, que en las últimas semanas han exigido un paro nacional. El Polo Obrero, uno de los grupos más combativos, dejó clara su postura: "Las calles no son de Patricia Bullrich ni de Milei, son de los trabajadores", lanzó Eduardo Belliboni.
+                                                </p>
+                                                <br>
+                                                <p>La represión sufrida por los jubilados en las dos protestas anteriores marcó un punto de quietud. Las imágenes de ancianos gaseados por las fuerzas de seguridad han generado un fuerte rechazo. Esta vez, la apuesta es reunir una multitud imposible de ignorar. “Los que voten a favor del veto estarán condenando a los jubilados a morir de hambre. No vamos a permitir que se aplique nuevamente el protocolo represivo de Bullrich”, aseguró Rodolfo Aguiar, titular de ATE, quien anunció un paro de 24
+                                                </p>
+                                                <br>
+                                                <p>El Congreso será el epicentro de la jornada de lucha. A partir de las 10 de la mañana, la Cámara de Diputados debatirá el veto, mientras millas de personas se concentrarán afuera para presionar a los legisladores. "No podemos dejar solos a los jubilados. Todos los sindicatos tienen jubilados, y todos nosotros seremos jubilados algún día. No se puede tolerar que tengan que elegir entre comprar medicamentos o comer", advirtió Vanesa Siley, diputada de Unión por la Patria y dirigente gremial</p>
+                                                <br>
+                                                <p>La decisión de adelantar la sesión parlamentaria al miércoles fue una respuesta directa al pedido de la oposición para tratar de anular el veto presidencial. Con una fuerte expectativa por la magnitud de la movilización, los gremios combativos piden un paro general que refuerce la lucha en las calles 
+                                                </p>
+                                                <br>
+                                                <p>La movilización promete ser una demostración contundente de que el ajuste sobre los jubilados encontrará una resistencia implacable, tanto en las calles como en el recinto parlamentario.
+                                                </p>
+                                                <br>
+                                                <br>
+                                                <div class="text-start object-center">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+                            </li>
+                        </ul>
+                        <br>
+                    </div>
+
+
+                    {{-- columna de la derecha chica --}}
+                    <aside>
+                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                            <div class=" col-span-6">
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/bener-leg2.png') }}"
+                                        alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
+                                        alt="">
+                                </a>
+
+                                <div id="app">
+
+                                    <div v-for="item in info">
+
+                                        <div class="flex-col pb-3">
+                                            <div
+                                                class="flex-col max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg"
+                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
+                                                        alt="" />
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5
+                                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                                            @{{ item.title }}</h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div v-for="va in clima">
+
+                                        <h5
+                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                            @{{ va }}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+                </div>
+            </section>
+        @elseif ($tituloSep == 'Sociedad-Noticia-Completa-soc116')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">FRANCISCO CRITICÓ EL AJUSTE Y LA REPRESIÓN EN ARGENTINA </a>
+                                            {{-- <p class="font-light  text-lef text-gray-500">Por Emanuel Corrado</p> --}}
+                                        </h2>
+                                        <p class="font-light  text-right text-gray-500">Publicado: 22/09/2024</p>
+                                        <div class=" font-sans text-lg text-left col-span-6  ">
+                                        {{-- <p><i>Los días 7 y 8 de septiembre, entre las 12.00 a 18.00 hs., se realizará la Expo Igualdad Bonaerense en el Estadio Único Diego Armando Maradona, en La Plata</i>
+                                        </p> --}}
+                                        <br>
+                                        <figure>
+                                            <img class="w-full object-cover" src="../img/soc/soc_papa-milei.svg"
+                                                alt="">
+                                        </figure>
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+                                                <p>El Papa apuntó contra el gobierno de Javier Milei por las políticas de ajuste y la represión de las protestas sociales. Respaldó a los movimientos populares y denunció la corrupción en el gobierno. 
+                                                </p>
+                                                <br>
+                                                <p>El Papa Francisco, en un reciente simposio en el Vaticano, se pronunció enérgicamente sobre la realidad argentina, enfocándose en la represión de las protestas sociales y el ajuste implementado por el gobierno de Javier Milei. Durante su intervención, respaldó la lucha de los movimientos sociales, denunciando un episodio en el que un ministro del gabinete libertario solicitó sobornos a un inversor extranjero. "El diablo entra por el bolsillo, no lo olviden", afirmó, aludiendo a la corrupción en el actual gobierno.
+                                                </p>
+                                                <br>
+                                                <p>Francisco no dudó en criticar la represión que sufren aquellos que reclaman sus derechos. “En vez de pagar la justicia social, pagaron el gas pimienta”, subrayó, refiriéndose a la represión policial que enfrentan quienes protestan por condiciones dignas. “Obreros y ciudadanos no deberían ser tratados como revoltosos por exigir justicia”, agregó.
+                                                </p>
+                                                <br>
+                                                <p>Su discurso resonó en un momento crucial, ya que se produjo justo después de recibir a altos funcionarios de la CGT y otros líderes sociales. Francisco instó a la clase media a reflexionar sobre su situación: “¿Creen que los más ricos van a compartir lo que tienen o continuarán acumulando insaciablemente?”. Este cuestionamiento desafía la narrativa de que la riqueza se distribuye equitativamente.
+                                                </p>
+                                                <br>
+                                                <p>El Papa advirtió sobre la "cobardía" de muchos políticos que, presionados por los medios, claudican ante los poderosos. “Renegar de los ideales por conveniencia es una apostasía”, enfatizó, dirigiéndose tanto a políticos como a otros actores sociales. Su mensaje subraya la importancia de mantener los principios en un contexto de presión económica.
+                                                </p>
+                                                <br>
+                                                <p>En su intervención, Francisco recordó que “los pobres no pueden esperar”, resaltando la urgencia de abordar la justicia social. “Tierra, techo y trabajo son derechos sagrados”, afirmó, instando a los movimientos sociales a perseverar en su lucha. “El grito de los excluidos puede despertar las conciencias adormecidas de los dirigentes políticos”, concluyó.
+                                                </p>
+                                                <br>
+                                                <p>Al finalizar, el Papa reiteró que la inequidad es la raíz de los problemas sociales. “No se resolverán los problemas del mundo sin una distribución equitativa de la riqueza”, advirtió, sugiriendo que la solución radica en un compromiso colectivo y la acción conjunta.
+                                                </p>
+                                                <br>
+                                                
+                                                <div class="text-start object-center">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+                            </li>
+                        </ul>
+                        <br>
+                    </div>
+
+
+                    {{-- columna de la derecha chica --}}
+                    <aside>
+                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                            <div class=" col-span-6">
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/bener-leg2.png') }}"
+                                        alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
+                                        alt="">
+                                </a>
+
+                                <div id="app">
+
+                                    <div v-for="item in info">
+
+                                        <div class="flex-col pb-3">
+                                            <div
+                                                class="flex-col max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg"
+                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
+                                                        alt="" />
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5
+                                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                                            @{{ item.title }}</h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div v-for="va in clima">
+
+                                        <h5
+                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                            @{{ va }}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+                </div>
+            </section>
+        @elseif ($tituloSep == 'Sociedad-Noticia-Completa-soc117')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">MILEI HUNDE AL PAÍS CON SU AJUSTE NEOLIBERAL  </a>
+                                            {{-- <p class="font-light  text-lef text-gray-500">Por Emanuel Corrado</p> --}}
+                                        </h2>
+                                        <p class="font-light  text-right text-gray-500">Publicado: 22/09/2024</p>
+                                        <div class=" font-sans text-lg text-left col-span-6  ">
+                                        {{-- <p><i>Los días 7 y 8 de septiembre, entre las 12.00 a 18.00 hs., se realizará la Expo Igualdad Bonaerense en el Estadio Único Diego Armando Maradona, en La Plata</i>
+                                        </p> --}}
+                                        <br>
+                                        <figure>
+                                            <img class="w-full object-cover" src="../img/soc/soc_hunde.svg"
+                                                alt="">
+                                        </figure>
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+                                                <p>La imagen de Javier Milei cae en picada mientras sus políticas de ajuste favorecen a los poderosos y hunden al pueblo. El malestar social crece, y su gobierno ya no puede ocultar el fracaso.
+                                                </p>
+                                                <br>
+                                                <p>La gestión de Javier Milei está desmoronándose bajo el peso de sus propias políticas. El ajuste salvaje, que prioriza a los sectores más ricos y al FMI, ha generado un fuerte rechazo en la sociedad. La popularidad del presidente se desploma, perdiendo más de 20 puntos en las encuestas, mientras su imagen negativa ya supera el 54%. Las promesas de "cambio" que alguna vez convencieron a sectores precarizados y jóvenes han quedado en evidencia como lo que realmente son: un engaño.
+                                                </p>
+                                                <br>    
+                                                <p>Raúl Timerman, del Grupo de Opinión, asegura que el ajuste en las jubilaciones y el recorte presupuestario en las universidades son las principales razones de este desplome. Mientras Milei festeja con los ricos, el pueblo sufre. Las políticas que buscan beneficiar a los poderosos han dejado a los más humildes a la deriva. El veto presidencial y los recortes no hacen más que profundizar la desigualdad en el país.
+                                                </p>
+                                                <br>    
+                                                <p>Por su parte, Roberto Bacman, del Centro de Estudios de Opinión Pública, señala que los jóvenes que alguna vez apoyaron a Milei ahora lo abandonan. Los sectores populares, golpeados por la precarización laboral y la falta de apoyo estatal, ven cómo sus vidas empeoran bajo el mandato del libertario. El discurso del "cambio" se desmorona ante la cruda realidad de un ajuste que solo favorece a los de arriba.
+                                                </p>
+                                                <br>    
+                                                <p>Federico Aurelio, de ARESCO, prevé que la caída en las encuestas continuará si la situación económica no mejora. Pero no hay esperanzas de mejora cuando el gobierno sigue apostando por las mismas políticas neoliberales que ya fracasaron en el pasado. El ajuste no es la solución, es el problema. Y Milei está haciendo pagar ese precio al pueblo.
+                                                </p>
+                                                <br>    
+                                                <p>La gestión de Milei es el reflejo de un gobierno que gobierna para unos pocos, mientras el pueblo trabajador paga las consecuencias. No es una sorpresa que su imagen caiga en picada. Este es el precio de traicionar a quienes confiaron en sus promesas vacías.
+                                                </p>
+                                                <br>    
+                                                
+                                                <div class="text-start object-center">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+                            </li>
+                        </ul>
+                        <br>
+                    </div>
+
+
+                    {{-- columna de la derecha chica --}}
+                    <aside>
+                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                            <div class=" col-span-6">
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/bener-leg2.png') }}"
+                                        alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
+                                        alt="">
+                                </a>
+
+                                <div id="app">
+
+                                    <div v-for="item in info">
+
+                                        <div class="flex-col pb-3">
+                                            <div
+                                                class="flex-col max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg"
+                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
+                                                        alt="" />
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5
+                                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                                            @{{ item.title }}</h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div v-for="va in clima">
+
+                                        <h5
+                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                            @{{ va }}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+                </div>
+            </section>
+        @elseif ($tituloSep == 'Sociedad-Noticia-Completa-soc118')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">CRISTINA LLAMA A ENFRENTAR EL DESASTRE DEL GOBIERNO DE MILEI   </a>
+                                            {{-- <p class="font-light  text-lef text-gray-500">Por Emanuel Corrado</p> --}}
+                                        </h2>
+                                        <p class="font-light  text-right text-gray-500">Publicado: 23/09/2024</p>
+                                        <div class=" font-sans text-lg text-left col-span-6  ">
+                                        {{-- <p><i>Los días 7 y 8 de septiembre, entre las 12.00 a 18.00 hs., se realizará la Expo Igualdad Bonaerense en el Estadio Único Diego Armando Maradona, en La Plata</i>
+                                        </p> --}}
+                                        <br>
+                                        <figure>
+                                            <img class="w-full object-cover" src="../img/soc/soc_desastre.svg"
+                                                alt="">
+                                        </figure>
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+                                                <p>La expresidenta alertó sobre la crisis social y económica en los barrios populares y pidió construir una alternativa política.
+                                                </p>
+                                                <br>
+                                                <p>Cristina Fernández de Kirchner lanzó un mensaje contundente durante un acto conmemorativo de los 20 años del partido Nuevo Encuentro. En su intervención, la exmandataria criticó de manera frontal la política de ajuste impulsada por Javier Milei, que definió como "un desastre social y económico sin precedentes". El llamado fue claro: es necesario construir una alternativa frente a lo que considera un modelo de exclusión y sufrimiento para las mayorías populares.
+                                                </p>
+                                                <br>
+                                                <p>El deterioro de las condiciones de vida en los barrios populares fue uno de los ejes principales de su mensaje. Cristina advirtió que la retirada del Estado ha dejado a millones de argentinos en una situación de abandono, exacerbando la pobreza y la inseguridad. "Medicamentos que no se pueden comprar, alimentos que se dejaron de consumir, trabajos que se pierden", enumeró, trazando un panorama desolador sobre el impacto directo de las políticas libertarias en la vida cotidiana de la población.
+                                                </p>
+                                                <br>
+                                                <p>A diferencia de otras ocasiones en las que la crítica al gobierno se centró en aspectos puramente económicos, en esta oportunidad Fernández también subrayó una dimensión emocional. Según la ex presidenta, la crisis que atraviesa el país "no solo golpea el bolsillo, sino que también afecta la moral y el ánimo de los argentinos". Aludió a un clima de tristeza y desesperanza, especialmente entre los sectores más humildes, que ven cómo sus condiciones de vida se deterioran día tras día.
+                                                </p>
+                                                <br>
+                                                <p>El ajuste, en particular, está haciendo estragos en los jubilados y los sectores más vulnerables. La decisión de recortar beneficios sociales y reducir el financiamiento a universidades ha despertado una fuerte indignación entre quienes confiaron en Milei, llevándolos a un creciente descontento. Según Cristina, el avance de las políticas neoliberales está dejando heridas profundas en la sociedad argentina, y el pueblo empieza a darse cuenta de las verdaderas consecuencias de la gestión de La Libertad Avanza.
+                                                </p>
+                                                <br>
+                                                <p>Fernández también alertó sobre el aumento de la violencia y el narcotráfico en los barrios más pobres, fenómenos que, según su diagnóstico, son el resultado de la desatención estatal. Al cerrar su intervención, instó a la militancia a "redoblar esfuerzos para frenar este modelo de ajuste" y recordó que "la política debe estar al servicio de las necesidades del pueblo, no de los intereses de las grandes corporaciones".
+                                                </p>
+                                                <br>
+                                                <p>En este contexto, su mensaje fue un llamado a la acción, a la resistencia frente a lo que considera una ofensiva neoliberal destructiva. "Es el momento de unirse y seguir militando, porque lo que está en juego es el futuro del país", sentenció la ex presidenta.
+                                                </p>
+                                                <br>
+                                                <div class="text-start object-center">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+                            </li>
+                        </ul>
+                        <br>
+                    </div>
+
+
+                    {{-- columna de la derecha chica --}}
+                    <aside>
+                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                            <div class=" col-span-6">
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/bener-leg2.png') }}"
+                                        alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
+                                        alt="">
+                                </a>
+
+                                <div id="app">
+
+                                    <div v-for="item in info">
+
+                                        <div class="flex-col pb-3">
+                                            <div
+                                                class="flex-col max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg"
+                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
+                                                        alt="" />
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5
+                                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                                            @{{ item.title }}</h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div v-for="va in clima">
+
+                                        <h5
+                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                            @{{ va }}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+                </div>
+            </section>
     @endif
 
     </div>
