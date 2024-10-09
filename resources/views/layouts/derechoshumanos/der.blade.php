@@ -1,5 +1,61 @@
 <x-app-layout>
     <div class="container ">
+
+{{--JUSTICIA TARDÍA Y OLVIDOS PERSISTENTES  --}}
+<section>
+            <ul>
+                <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                    <article>
+                        <div class="py-4 px-4 justify-between items-center">
+                            <h2 class="text-xl font-serif  font-bold pb-6">
+                                <a href="">DE LA CIÉNAGA A LA VERDAD
+                                </a>
+                                <p class="font-light text-gray-500">JUSTICIA TARDÍA Y OLVIDOS PERSISTENTES
+                                </p> 
+                            </h2>
+                            <p class="font-light  text-right text-gray-500">Publicado: 16/09/2024</p>
+                            <p><i>A 48 años de la Noche de los Lápices, la justicia argentina aún debe enfrentar el desafío de visibilizar las violencias de género en el terrorismo de Estado</i>
+                        </p>
+                            <br>
+                            <figure>
+                                <img class="w-full object-cover"
+                                    src="{{ asset('../img/der/der_lapices.svg') }}" alt="">
+                            </figure>
+                            {{-- <article>
+                                <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/XSNYTBkbmx4?si=V9zwrQyh3h5dyKbu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                
+                            </article> --}}
+                            <br>
+                            <div
+                                class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                <div class=" font-sans text-lg text-left col-span-6  ">
+                                    <p>En un momento en que el discurso de odio y la negación de la historia cobran protagonismo en la política argentina, resulta vital recordar y reivindicar la memoria de quienes sufrieron las atrocidades del terrorismo de Estado. Este año, 48 años después de la Noche de los Lápices, la justicia finalmente reconoció los crímenes de violencia sexual sufridos por las víctimas de aquel operativo. Sin embargo, este reconocimiento llega en un contexto de ajuste y represión, donde el gobierno actual parece más interesado en silenciar voces que en garantizar la verdad y la justicia
+                                    </p>
+                                    <br>
+                                    <p>La reciente condena a seis represores por los crímenes sexuales cometidos durante la Noche de los Lápices representa un hito importante en la búsqueda de justicia, pero también pone de relieve la larga lucha que han enfrentado las víctimas y sus familias. A lo largo de los años, muchos testimonios fueron ignorados o minimizados por un sistema judicial que, en ocasiones, ha mostrado resistencia a abordar las violencias de género en el contexto del terrorismo de Estado. Este año, la justicia ha comenzado a visibilizar estos crímenes, pero es fundamental que no se detenga aquí. La sociedad debe seguir exigiendo que se reconozcan y se juzguen todas las formas de violencia sufridas por las víctimas, garantizando así un tratamiento justo y equitativo de sus historias.
+                                    </p>
+                                    <br>
+                                    <p>La continuidad de políticas de memoria, verdad y justicia es crucial en este contexto de negacionismo. Si bien la condena a los responsables de estos delitos es un avance, el Estado debe asumir una postura activa en la defensa de los derechos humanos, garantizando que la historia no se repita. Solo así se podrá honrar la memoria de quienes fueron víctimas de la represión y se podrá construir un futuro en el que la justicia y la dignidad sean valores innegociables.
+                                    </p>
+                                    <br>
+                                    <div class="text-start object-center">
+                                        <figure>
+                                            <img class="w-28 h-28  "
+                                                src="{{ asset('../img/der/Adri.svg') }}"
+                                                alt="">
+                                            <p> <strong>Por Adriana Zerdín<strong></p>
+                                            <p><strong><strong></p>
+                                        </figure>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </li>
+            </ul>
+
+</section>
+
         {{--  DE LA CIÉNAGA A LA VERDAD.... --}}
 <section>
     <ul>

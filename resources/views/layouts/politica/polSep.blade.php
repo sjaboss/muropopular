@@ -7233,7 +7233,474 @@
                 </div>
 
             </section>
-        @endif
+        @elseif ($tituloSep == 'Politica-Noticia-Completa-pol75')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">ADIÓS A LA INDEPENDENCIA INFORMATIVA: FORMALIZAN EL GOLPE A TELAM</a>
+                                        </h2>
+                                        <p class="font-light  text-right text-gray-500">Publicado: 02/07/2024</p>
+                                        <div class=" font-sans text-lg text-left col-span-6  ">
+                                        <p><i>El gobierno ultra neoliberal de Javier Milei ha dado un golpe definitivo a la histórica Agencia Télam, transformándola en una Sociedad Anónima Unipersonal bajo la denominación de "Agencia de Publicidad del Estado".</i>
+                                        </p>
+                                        <br>
+                                        {{-- <article>
+                                            <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/YElDMxWtpio?si=B21D4BO6vjuKVj0Z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                            
+                                        </article> --}}
+                                        <figure>
+                                            <img class="w-full object-cover"
+                                            src="{{ asset('../img/pol/pol_uniside.svg') }}" alt="">
+                                        </figure>
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+                                                <p>En el Senado, la oposición logró aprobar por amplia mayoría el financiamiento a las universidades nacionales y rechazó el DNU de la SIDE, marcando una doble derrota para el gobierno. Mientras tanto, la aprobación de la Boleta Única de Papel fue el único consuelo oficialista.
+                                                </p>
+                                                <br>
+                                                <p>La oposición, tras haber sufrido una derrota en Diputados, redobló su apuesta en el Senado y logró aprobar el aumento del presupuesto para las universidades nacionales. Con 57 votos a favor y solo 10 en contra, la oposición no solo consiguió blindar la ley ante un posible veto presidencial, sino que también logró rechazar el DNU de la SIDE con 49 votos.
+                                                </p>
+                                                <br>
+                                                <p>El debate sobre la Ley de Financiamiento Universitario se dio en un contexto de movilizaciones masivas a favor de la educación pública. La ley sancionada garantiza fondos para funcionamiento y salarios docentes ajustados al Índice de Precios al Consumidor (IPC). "Un presidente que veta esta ley desconoce la brecha entre el pueblo y su gobierno", sentenció Maximiliano Abad, de la UCR, ante la amenaza de un veto por parte del Ejecutivo.
+                                                </p>
+                                                <br>
+                                                <p>Por otro lado, el rechazo del DNU de la SIDE representó otro golpe para el gobierno. Conducida por el radical Eduardo Vischi, la oposición logró una mayoría sólida en ambas votaciones, dejando a la Casa Rosada en una posición defensiva. "Nadie quiere que el VAR te marque dos veces en offside", ironizó un senador opositor tras las dos derrotas legislativas.
+                                                </p>
+                                                <br>
+                                                <p>La única victoria del gobierno fue la aprobación de la Boleta Única de Papel (BUP), con 39 votos a favor y 30 en contra, aunque la ley deberá ser tratada nuevamente en Diputados. La BUP propone cambiar el mecanismo de votación, reemplazando las boletas partidarias por una única que incluya todas las opciones electorales.
+                                                </p>
+                                                <br>
+                                                
+                                                
+
+                                                <div class="text-start object-center">
+                                                    {{-- <figure>
+                                                        <img class="w-28 h-28  "
+                                                            src="{{ asset('../img/der/Adri.svg') }}" alt="">
+
+                                                        <p> <strong>Adriana Zerdín</strong></p>
+
+                                                    </figure> --}}
+                                                </div>
+                                            </div>
+                                </article>
+                            </li>
+                        </ul>
+                    </div>
+
+
+                    {{-- columna de la derecha chica --}}
+                    <aside>
+                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                            <div class=" col-span-6">
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/baner-leg1.png') }}"
+                                        alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/APSE.gif') }}" alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
+                                        alt="">
+                                </a>
+
+
+
+                                <div id="app">
+
+                                    <div v-for="item in info">
+
+                                        <div class="flex-col pb-3">
+                                            <div
+                                                class="flex-col max-w-sm  border  border-gray-700 rounded-lg shadow bg-gray-800">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg"
+                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
+                                                        alt="" />
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5
+                                                            class="mb-2 text-2xl font-bold tracking-tight  text-white">
+                                                            @{{ item.title }}</h5>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div v-for="va in clima">
+
+                                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-white">
+                                            @{{ va }}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+
+                </div>
+
+            </section>
+        @elseif ($tituloSep == 'Politica-Noticia-Completa-pol76')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">CRISTINA A MILEI: “DEJE DE SEGUIR A FRIEDMAN Y ADMINISTRE EL PAÍS”</a>
+                                        </h2>
+                                        <p class="font-light  text-right text-gray-500">Publicado: 14/09/2024</p>
+                                        <div class=" font-sans text-lg text-left col-span-6  ">
+                                        <p><i>Cristina Kirchner criticó duramente la política económica de Javier Milei, cuestionando el veto a la Ley de Movilidad Jubilatoria y pidiendo un enfoque más pragmático.</i>
+                                        </p>
+                                        <br>
+                                        {{-- <article>
+                                            <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/YElDMxWtpio?si=B21D4BO6vjuKVj0Z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                            
+                                        </article> --}}
+                                        <figure>
+                                            <img class="w-full object-cover"
+                                            src="{{ asset('../img/pol/pol_crismerlo.svg') }}" alt="">
+                                        </figure>
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+                                                <p>La expresidenta Cristina Kirchner criticó severamente la política económica de Javier Milei en un evento en la Universidad Nacional del Oeste, donde recibió el doctorado Honoris Causa. En su discurso, cuestionó el veto a la Ley de Movilidad Jubilatoria y pidió al presidente que abandone la "escuela austríaca" para adoptar un enfoque más pragmático.
+                                                </p>
+                                                <br>
+                                                <p>Durante la ceremonia, Kirchner, acompañada por el gobernador Axel Kicillof y la vicegobernadora Verónica Magario, condenó el reciente veto a la Ley de Movilidad Jubilatoria, argumentando que este ha perjudicado a los jubilados. Se refirió a los cinco votos de la UCR que permitieron el veto, señalando que Milei ha terminado comprando a la "casta política" que criticaba durante su campaña. Según Kirchner, esta situación refleja una traición a los principios de su campaña electoral.
+                                                </p>
+                                                <br>
+                                                <p>En su análisis de la situación económica, Kirchner criticó la política de "economía bimonetaria" promovida por el gobierno actual, que, según ella, ha llevado al país a una crisis profunda, con empresas quebrando y deflación. La expresidenta cuestionó la efectividad de las políticas de ajuste, argumentando que el superávit fiscal obtenido a costa de los más vulnerables no es una solución real. Instó a Milei a "abandonar a Friedman y la escuela austríaca" y a adoptar un enfoque que considere la realidad económica del país.
+                                                </p>
+                                                <br>
+                                                <p>Kirchner también abordó el tema de la competencia de monedas propuesta por Milei, criticando la contradicción entre esta teoría y las dificultades económicas actuales. Se refirió a la falta de dólares para la dolarización prometida y a las tensiones con el FMI, subrayando la ineficacia de las políticas actuales.
+                                                </p>
+                                                <br>
+                                                <p>Además, la exmandataria celebró la reciente sanción de la Ley de Financiamiento Universitario, destacando su importancia para asegurar la calidad educativa. A pesar del casi seguro veto presidencial, Kirchner elogió a los senadores por su apoyo a la ley.
+                                                </p>
+                                                <br>
+                                                <p>En su mensaje final, Kirchner hizo un llamado a la militancia para que se comprometa a cambiar el sentido común a través de datos y a promover el respeto mutuo en el debate político. "La tarea no solo es modificar el sentido común de las cosas a través de datos, sino salir a convencer del respeto al otro", concluyó, destacando la necesidad de un diálogo más inclusivo y respetuoso.
+                                                </p>
+                                                <br>
+                                                <div class="text-start object-center">
+                                                    {{-- <figure>
+                                                        <img class="w-28 h-28  "
+                                                            src="{{ asset('../img/der/Adri.svg') }}" alt="">
+
+                                                        <p> <strong>Adriana Zerdín</strong></p>
+
+                                                    </figure> --}}
+                                                </div>
+                                            </div>
+                                </article>
+                            </li>
+                        </ul>
+                    </div>
+
+
+                    {{-- columna de la derecha chica --}}
+                    <aside>
+                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                            <div class=" col-span-6">
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/baner-leg1.png') }}"
+                                        alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/APSE.gif') }}" alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
+                                        alt="">
+                                </a>
+
+
+
+                                <div id="app">
+
+                                    <div v-for="item in info">
+
+                                        <div class="flex-col pb-3">
+                                            <div
+                                                class="flex-col max-w-sm  border  border-gray-700 rounded-lg shadow bg-gray-800">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg"
+                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
+                                                        alt="" />
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5
+                                                            class="mb-2 text-2xl font-bold tracking-tight  text-white">
+                                                            @{{ item.title }}</h5>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div v-for="va in clima">
+
+                                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-white">
+                                            @{{ va }}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+
+                </div>
+
+            </section>
+        @elseif ($tituloSep == 'Politica-Noticia-Completa-pol77')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">ENFRENTAMIENTO EN EL CONGRESO POR MALVINAS</a>
+                                        </h2>
+                                        <p class="font-light  text-right text-gray-500">Publicado: 28/09/2024</p>
+                                        <div class=" font-sans text-lg text-left col-span-6  ">
+                                        <p><i>La embajadora británica se negó a una foto con diputada peronista que llevaba una remera con el lema "Las Malvinas son Argentinas".</i>
+                                        </p>
+                                        <br>
+                                        {{-- <article>
+                                            <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/YElDMxWtpio?si=B21D4BO6vjuKVj0Z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                            
+                                        </article> --}}
+                                        <figure>
+                                            <img class="w-full object-cover"
+                                            src="{{ asset('../img/pol/pol_diputadamalvinas.svg') }}" alt="">
+                                        </figure>
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+                                                <p>La Cámara de Diputados vivió un momento tenso este jueves cuando la embajadora del Reino Unido, Kirsty Hayes, se negó a participar de una fotografía protocolar con legisladores argentinos debido a la vestimenta de la diputada Agustina Propato. La legisladora de Unión por la Patria, que asistió al evento con una remera que decía “Las Malvinas son Argentinas”, se negó a cambiarse, argumentando su derecho a llevar un símbolo que representa la lucha por la soberanía nacional.
+                                                </p>
+                                                <br>
+                                                <p>El incidente ocurrió durante la constitución del grupo parlamentario entre el Reino Unido y Argentina. A pesar de las insistencias de la embajadora, quien solicitó a Propato que se cambiara de remera o se retirara de la foto, la diputada se mantuvo firme en su decisión. “No se me puede pedir que me quite un símbolo que homenajea a nuestros caídos en Malvinas”, sostuvo Propato, quien además enfatizó que todos los argentinos deberían poder lucir una prenda similar en honor a los héroes de la guerra.
+                                                </p>
+                                                <br>
+                                                <p>La controversia se intensificó cuando otros diputados, como Martín Tetaz, Lisandro Almirón y Margarita Stolbizer, apoyaron la petición de la embajadora, lo que llevó a Propato a manifestar su desacuerdo en redes sociales. “Esta es la remera que no me pienso sacar”, publicó, acompañado de una foto que mostró su postura inquebrantable sobre el tema. A través de sus declaraciones, la diputada reafirmó su compromiso con la causa Malvinas y criticó la exigencia de la embajadora británica como un intento de silenciar la historia y la memoria colectiva de los argentinos.
+                                                </p>
+                                                <br>
+                                                <div class="text-start object-center">
+                                                    {{-- <figure>
+                                                        <img class="w-28 h-28  "
+                                                            src="{{ asset('../img/der/Adri.svg') }}" alt="">
+
+                                                        <p> <strong>Adriana Zerdín</strong></p>
+
+                                                    </figure> --}}
+                                                </div>
+                                            </div>
+                                </article>
+                            </li>
+                        </ul>
+                    </div>
+
+
+                    {{-- columna de la derecha chica --}}
+                    <aside>
+                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                            <div class=" col-span-6">
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/baner-leg1.png') }}"
+                                        alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/APSE.gif') }}" alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
+                                        alt="">
+                                </a>
+
+
+
+                                <div id="app">
+
+                                    <div v-for="item in info">
+
+                                        <div class="flex-col pb-3">
+                                            <div
+                                                class="flex-col max-w-sm  border  border-gray-700 rounded-lg shadow bg-gray-800">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg"
+                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
+                                                        alt="" />
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5
+                                                            class="mb-2 text-2xl font-bold tracking-tight  text-white">
+                                                            @{{ item.title }}</h5>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div v-for="va in clima">
+
+                                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-white">
+                                            @{{ va }}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+
+                </div>
+
+            </section>
+        @elseif ($tituloSep == 'Politica-Noticia-Completa-pol78')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">TRUMP SE DIFERENCIA DE MILEI EN SU ENFOQUE ECONÓMICO</a>
+                                        </h2>
+                                        <p class="font-light  text-right text-gray-500">Publicado: 29/09/2024</p>
+                                        <div class=" font-sans text-lg text-left col-span-6  ">
+                                        <p><i>El expresidente busca repatriar la producción automotriz con medidas proteccionistas, a diferencia del enfoque de Milei que promueve un mercado abierto.</i>
+                                        </p>
+                                        <br>
+                                        {{-- <article>
+                                            <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/YElDMxWtpio?si=B21D4BO6vjuKVj0Z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                            
+                                        </article> --}}
+                                        <figure>
+                                            <img class="w-full object-cover"
+                                            src="{{ asset('../img/pol/pol_trumpmilei.svg') }}" alt="">
+                                        </figure>
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+                                                <p>Donald Trump ha intensificado su discurso proteccionista al proponer un arancel del 100% sobre los automóviles fabricados en México, con el objetivo de repatriar la producción automotriz y evitar que las empresas estadounidenses trasladen sus operaciones al extranjero. Esta medida forma parte de su visión para una “nueva industrialización estadounidense”, donde la manufactura y los empleos regresen al país a través de fuertes aranceles y la oferta de incentivos para empresas que decidan producir en Estados Unidos.
+                                                </p>
+                                                <br>
+                                                <p>El expresidente enfatizó que su meta es convertir a compañías extranjeras, como las automotrices alemanas, en fabricantes estadounidenses. Su enfoque se basa en obligar a las empresas a trasladar su producción a EE. UU. para evitar el elevado arancel, una estrategia que podría alterar significativamente la industria automotriz global. Muchas automotrices, que producen vehículos en México debido a menores costos de mano de obra, se verían obligadas a replantear sus operaciones.
+                                                </p>
+                                                <br>
+                                                <p>A diferencia de Javier Milei, quien promueve una política de mercado completamente abierta, sin intervención estatal y con una clara oposición a los impuestos y retenciones, Trump adopta un enfoque pragmático que incluye aranceles y medidas proteccionistas. Mientras Milei sostiene que la libertad económica absoluta es el camino para el crecimiento, Trump no descarta la intervención del Estado para proteger y desarrollar la industria nacional. Esta diferencia clave subraya que Trump está dispuesto a imponer barreras comerciales para asegurar que las fábricas y los empleos permanezcan en EE. 
+                                                </p>
+                                                <br>
+                                                <p>UU., mientras que Milei, con su ideología de mercado libre, corre el riesgo de desindustrializar a Argentina y dejar a su economía aún más vulnerable.
+                                                </p>
+                                                <br>
+                                                <p>Además de los aranceles, Trump propone reducir el impuesto corporativo del 21% al 15%, pero solo para las empresas que fabriquen en EE. UU. También sugiere crear un “embajador industrial” para atraer inversiones extranjeras, ofreciendo terrenos federales como incentivo. Sin embargo, estas promesas enfrentan posibles restricciones legales, lo que genera dudas sobre su viabilidad.
+                                                </p>
+                                                <br>
+                                                <p>En resumen, la visión económica de Trump se centra en una mezcla de proteccionismo, incentivos fiscales y medidas intervencionistas para fortalecer la manufactura estadounidense. Esto contrasta drásticamente con las políticas de libre mercado promovidas por Javier Milei, quien parece llevar a Argentina por un camino equivocado, ignorando las lecciones que la economía global ha dejado sobre la importancia de proteger la industria local.
+                                                </p>
+                                                <br>
+                                                <div class="text-start object-center">
+                                                    {{-- <figure>
+                                                        <img class="w-28 h-28  "
+                                                            src="{{ asset('../img/der/Adri.svg') }}" alt="">
+
+                                                        <p> <strong>Adriana Zerdín</strong></p>
+
+                                                    </figure> --}}
+                                                </div>
+                                            </div>
+                                </article>
+                            </li>
+                        </ul>
+                    </div>
+
+
+                    {{-- columna de la derecha chica --}}
+                    <aside>
+                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                            <div class=" col-span-6">
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/baner-leg1.png') }}"
+                                        alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/APSE.gif') }}" alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
+                                        alt="">
+                                </a>
+
+
+
+                                <div id="app">
+
+                                    <div v-for="item in info">
+
+                                        <div class="flex-col pb-3">
+                                            <div
+                                                class="flex-col max-w-sm  border  border-gray-700 rounded-lg shadow bg-gray-800">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg"
+                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
+                                                        alt="" />
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5
+                                                            class="mb-2 text-2xl font-bold tracking-tight  text-white">
+                                                            @{{ item.title }}</h5>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div v-for="va in clima">
+
+                                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-white">
+                                            @{{ va }}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+
+                </div>
+
+            </section>
+            @endif
 
     </div>
 
@@ -7262,7 +7729,7 @@
 
                     /*    axios.get( */
                     /*      "https://api.weatherbit.io/v2.0/current?lat=35.7796&lon=-78.6382&key=f2207d043ea74a359ff232a1d03d0c72&include=minutely"
-                     )*/
+                )*/
                     axios.get(
                             "https://api.openweathermap.org/2.5/wheater?q=BURNOS AIRESlat=35.7796&lon=-78.6382&key=f2207d043ea74a359ff232a1d03d0c72&include=minutely"
                         )

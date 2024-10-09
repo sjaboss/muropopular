@@ -1,5 +1,162 @@
 <x-app-layout>
     <div class="container ">
+
+{{-- MILEI ATACA A LA ONU Y EVADE LA CRISIS ARGENTINA --}}
+<section>
+                    <ul>
+                        <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                            <article>
+                                <div class="py-4 px-4 justify-between items-center">
+                                    <h2 class="text-xl font-serif  font-bold pb-6">
+                                        <a href="">MILEI ATACA A LA ONU Y EVADE LA CRISIS ARGENTINA</a>
+                                        {{-- <p class="font-light text-gray-500">Por Carola Chávez
+                                        </p>  --}}
+                                        {{-- <p class="font-light text-gray-500">Presidente Honorario de la Unión de Periodistas de Cuba (UPEC) y de la Federación Latinoamericana de Periodistas (FELAP).
+                                        </p> --}}
+                                    </h2>
+                                    <p class="font-light  text-right text-gray-500">Publicado: 25/09/2024</p>
+                                    <p><i>En su discurso inaugural en la ONU, Milei ataca a la organización y rechaza la Agenda 2030, sin mencionar la profunda crisis económica del país.
+                                    </i>
+                                    </p>
+                                    <br>
+                                    <figure>
+                                        <img class=" w-full object-cover" src="../img/int/int_onu.svg"
+                                            alt="">
+                                    </figure>
+                                    <br>
+                                    <div
+                                        class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                        <div class=" font-sans text-lg text-left col-span-6  ">
+                                            <p>En un debut polémico ante la Asamblea General de la ONU, el presidente Javier Milei calificó a la organización de "socialista" y denunció lo que considera un "rumbo trágico" en sus políticas, que, según él, han llevado a la violación de la libertad. Mientras el recinto se mostraba con numerosas butacas vacías, Milei anunció que Argentina abandonará su histórica neutralidad y se alineará con Israel en el conflicto en Medio Oriente, al tiempo que confirmó su rechazo al Pacto del Futuro, firmado por 193 naciones.
+                                            </p>
+                                            <br>
+                                            <p>El discurso de Milei se centró en criticar a la ONU por lo que él considera un desvío de su misión original, acusándola de promover un modelo de gobierno supranacional que busca imponer un estilo de vida a los ciudadanos. Sin embargo, lo que más sorprendió fue la ausencia de cualquier referencia a la grave crisis económica que atraviesa Argentina, marcada por un aumento alarmante de la pobreza y la desocupación.
+                                            </p>
+                                            <br>
+                                            <p>Milei, presentándose como un "economista liberal libertario", hizo hincapié en su objetivo de "combatir las políticas colectivistas", pero su falta de atención a los problemas internos de su país ha generado críticas tanto a nivel nacional como internacional. Su rechazo a la Agenda 2030 fue categorizado por él como un intento de profundizar la crisis que enfrenta la ONU, mientras eludía las difíciles realidades que viven millones de argentinos.
+                                            </p>
+                                            <br>
+                                            <p>El presidente, en su intento de ganar protagonismo internacional, optó por confrontar a la ONU y desviar la atención de los desafíos críticos que enfrenta su gobierno. Con una estrategia que pone en riesgo la integración de Argentina en la comunidad internacional, la pregunta queda en el aire: ¿realmente se está preparando para enfrentar la crisis que golpea a su país, o simplemente busca un escenario para su espectáculo personal?
+                                            </p>
+                                            <br>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+                        </li>
+                    </ul>
+                    <br>
+</section>
+{{--MARCHA MASIVA DE EVO MORALES RETA A ARCE EN BOLIVIA  --}}
+<section>
+            <ul>
+                <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                    <article>
+
+                        <div class="py-4 px-4 justify-between items-center">
+                            <h2 class="text-xl font-serif  font-bold pb-6">
+                                <a href="">MARCHA MASIVA DE EVO MORALES RETA A ARCE EN BOLIVIA</a>
+                                {{-- <p class="font-light text-gray-500">Por Carola Chávez
+                                </p>  --}}
+                                {{-- <p class="font-light text-gray-500">Presidente Honorario de la Unión de Periodistas de Cuba (UPEC) y de la Federación Latinoamericana de Periodistas (FELAP).
+                                </p> --}}
+                            </h2>
+                            <p class="font-light  text-right text-gray-500">Publicado: 20/09/2024</p>
+                            <p><i>La presión del ex presidente aumenta mientras el gobierno lo acusa de intentar desestabilizar el país en medio de una crisis económica. 
+                            </i>
+                            </p>
+                            <br>
+                            <figure>
+                                <img class=" w-full object-cover" src="../img/int/int_marcha.svg"
+                                    alt="">
+                            </figure>
+                            <br>
+                            <div
+                                class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                <div class=" font-sans text-lg text-left col-span-6  ">
+                                    <p>La situación política en Bolivia se intensifica con la movilización de Evo Morales, quien ha convocado a cerca de 200 mil personas en una marcha destinada a presionar al presidente Luis Arce para que respete su derecho a postularse en las elecciones presidenciales de 2025. Desde el inicio de esta manifestación, los seguidores de Morales han recorrido diversas localidades con la intención de llegar a la sede del gobierno en La Paz, desafiando abiertamente la autoridad del actual mandatario.
+                                    </p>
+                                    <br>
+                                    <p>La marcha se ha visto envuelta en un clima de tensión, especialmente tras los enfrentamientos ocurridos en Vila Vila, donde grupos leales a Arce intentaron bloquear el avance de los evistas. Morales y sus seguidores acusan al gobierno de manipular las instituciones judiciales y electorales para obstaculizar su candidatura, argumentando que esta es una táctica para afianzarse en el poder.
+                                    </p>
+                                    <br>
+                                    <p>Los organizadores de la movilización han denunciado la grave crisis económica que afecta al país, señalando la escasez de dólares y combustibles como síntomas de una gestión fallida. En este marco, la marcha busca no solo reivindicar el derecho político de Morales, sino también exigir soluciones a los problemas económicos que afectan a la población.
+                                    </p>
+                                    <br>
+                                    <p>El gobierno, por su parte, ha reaccionado con contundencia. El ministro de Justicia ha declarado que la movilización de Morales forma parte de un plan para derrocar a Arce, sugiriendo la apertura de un proceso penal contra los organizadores. Asimismo, el ministro del Interior ha manifestado que Morales podría estar tratando de repetir los eventos que llevaron a su caída en 2019, cuando renunció en medio de protestas masivas.
+                                    </p>
+                                    <br>
+                                    <p>A medida que la situación se desarrolla, los mediadores del Grupo de Puebla han decidido abandonar las conversaciones entre las partes, lo que aumenta la incertidumbre sobre el futuro político del país. La ruptura de los diálogos deja entrever que la crisis podría intensificarse, poniendo en riesgo tanto la estabilidad de Arce como la de Morales.
+                                    </p>
+                                    <br>
+                                    <p>Con 200 mil personas en las calles y una crisis económica en curso, el desenlace de esta confrontación es incierto. Los días venideros podrían ser decisivos para el rumbo de Bolivia y para la historia política del país.
+                                    </p>
+                                    <br>                
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </li>
+            </ul>
+            <br>
+       
+
+    </div>
+
+</section>
+{{-- LÓPEZ OBRADOR CRITICA CORRUPCIÓN EN EL PODER JUDICIAL Y PRESENTA ESTUDIO SOBRE NEPOTISMO --}}
+<section>
+                    <ul>
+                        <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                            <article>
+                                <div class="py-4 px-4 justify-between items-center">
+                                    <h2 class="text-xl font-serif  font-bold pb-6">
+                                        <a href="">LÓPEZ OBRADOR CRITICA CORRUPCIÓN EN EL PODER JUDICIAL Y PRESENTA ESTUDIO SOBRE NEPOTISMO</a>
+                                        {{-- <p class="font-light text-gray-500">Por Carola Chávez
+                                        </p>  --}}
+                                        {{-- <p class="font-light text-gray-500">Presidente Honorario de la Unión de Periodistas de Cuba (UPEC) y de la Federación Latinoamericana de Periodistas (FELAP).
+                                        </p> --}}
+                                    </h2>
+                                    <p class="font-light  text-right text-gray-500">Publicado: 10/09/2024</p>
+                                    <p><i>El presidente de México reacciona a la contrapropuesta de la ministra Norma Piña para la reforma del Poder Judicial y asegura que es urgente "limpiar" la corrupción en ese sector.
+                                    </i>
+                                    </p>
+                                    <br>
+                                    <figure>
+                                        <img class=" w-full object-cover" src="../img/int/int_nepo.svg"
+                                            alt="">
+                                    </figure>
+                                    <br>
+                                    <div
+                                        class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                        <div class=" font-sans text-lg text-left col-span-6  ">
+                                            <p>El presidente de México, Andrés Manuel López Obrador, respondió este lunes a la contrapropuesta de reforma del Poder Judicial presentada por la ministra presidenta de la Suprema Corte de Justicia de la Nación (SCJN), Norma Lucía Piña Hernández. Durante su conferencia matutina, el mandatario destacó la necesidad de una transformación profunda en dicho poder, al que calificó de "corrupto y decadente".
+                                            </p>
+                                            <br>
+                                            <p>“La mayoría de la población sabe que en el Poder Judicial impera la corrupción y urge limpiarlo”, expresó el mandatario, al tiempo que presentó un estudio que revela la prevalencia del nepotismo entre jueces y magistrados, señalando que muchos de ellos habrían utilizado su poder. para emplear a familiares dentro del sistema judicial
+                                            </p>
+                                            <br>
+                                            <p>López Obrador aprovechó la ocasión para reiterar la necesidad de una reforma integral en el Poder Judicial, el único que, según él, aún no ha experimentado cambios significativos en comparación con el Ejecutivo y el Legislativo. "El Poder Judicial sigue intacto, como un enigma que nadie cuestionaba", subrayó, mientras anticipaba la presentación de más detalles sobre las violaciones a la ley cometidas por jueces y ministros en su conferencia del martes.
+                                            </p>
+                                            <br>
+                                            <p>El presidente también se refirió a la resistencia que ha encontrado su propuesta de reforma, señalando que "es de dominio público" que la corrupción en el Poder Judicial es un problema que afecta no solo al pueblo mexicano, sino también a empresarios e inversores extranjeros. “Se requiere que haya legalidad, estado de derecho, para proteger a todos, pero especialmente a aquellos que buscan justicia con razón”, afirmó
+                                            </p>
+                                            <br>
+                                            <p>La respuesta del presidente López Obrador llega en medio de una creciente polémica sobre el control y la independencia del Poder Judicial en México. Mientras el Senado discute la propuesta de reforma por el Ejecutivo, la ministra Piña y otros sectores han presentado contrapropuestas que buscan garantizar la autonomía del poder, lo que ha generado tensiones entre los diferentes
+                                            </p>
+                                            <br>
+                                            <p>La discusión sobre la reforma del Poder Judicial se intensifica, con López Obrador defendiendo la necesidad de una purificación del sistema a través de un proceso democrático en el que, según él, “el pueblo” debe jugar un papel.
+                                            </p>
+                                            <br>                
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+                        </li>
+                    </ul>
+                    <br>
+</section>
+
     {{--ARCE PROPONE REFERÉNDUM CONTROVERTIDO CONTRA EVO MORALES ... --}}
     <section >
         <ul>

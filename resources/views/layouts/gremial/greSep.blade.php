@@ -5339,6 +5339,768 @@
 
                 </div>
             </section>
+        @elseif ($tituloSep == 'Gremiales-Noticia-Completa-gre45')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">MILEI VULNERA LOS DERECHOS LABORALES DE LOS AERONÁUTICOS
+                                            </a>
+                                        </h2>
+                                        <p class="font-light  text-right text-gray-500">Publicado: 15/09/2024</p>
+                                        <div class=" font-sans text-lg text-left col-span-6  ">
+                                        <p><i>El gobierno avanza con medidas que limitan el derecho a huelga, ignorando los compromisos internacionales de Argentina y la protección constitucional de los trabajadores.</i>
+                                        </p>
+                                        <br>
+                                        {{-- <article>
+                                            <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/mDyomkBc1DE?si=bnT2gxK0tSpFUqx1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                            
+                                        </article> --}}
+                                        <figure>
+                                            <img class=" w-full object-cover" src="../img/grem/grem_aeronauticos.svg"
+                                                alt="">
+                                        </figure>
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+                                                <p>El reciente anuncio del presidente Javier Milei de declarar la aviación como un "servicio esencial" ha generado polémica. La medida, que busca imponer niveles mínimos de servicio, atenta contra el derecho fundamental de los trabajadores a la huelga, protegido tanto por la Constitución argentina como por convenios internacionales.
+                                                </p>
+                                                <br>
+                                                <p>Stephen Cotton, secretario general de la Federación Internacional de los Trabajadores del Transporte (ITF), calificó la decisión como "regresiva" y "peligrosa". Según Cotton, la aviación no es un servicio esencial en el sentido legal estricto, y cualquier intento de limitar las huelgas en este sector contraviene los principios de la Organización Internacional del Trabajo (OIT), que Argentina ha ratificado.
+                                                </p>
+                                                <br>
+                                                <p>La ITF, que representa a más de 17 millones de trabajadores en todo el mundo, denunció que el gobierno de Milei está ignorando la legislación argentina. La ley establece que una comisión independiente debe determinar qué servicios son esenciales y qué niveles mínimos deben mantenerse. Sin embargo, el gobierno está avanzando sin consultar a los sindicatos ni respetar este procedimiento.
+                                                </p>
+                                                <br>
+                                                <p>Las principales centrales sindicales del país, la CGT y la CTA, ya han llevado el caso a la OIT, mientras la ITF se prepara para denunciar al gobierno argentino si se avanza con la reglamentación. Para Cotton, cualquier acto administrativo que imponga esta medida sin seguir el marco legal constituiría un abuso de autoridad y una violación de las obligaciones internacionales del país.
+                                                </p>
+                                                <br>
+                                                <p>El conflicto, que amenaza con escalar, no solo afecta los derechos laborales, sino que plantea un serio desafío a la democracia argentina. “Cuando un gobierno ataca los derechos laborales, está atacando los cimientos mismos de la democracia”, advirtió Cotton.
+                                                </p>
+                                                <br>
+                                                
+                                                
+                                            </div>
+                                        </div>
+                                </article>
+                            </li>
+                        </ul>
+                    </div>
+
+
+                    {{-- columna de la derecha chica --}}
+                    <aside>
+                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                            <div class=" col-span-6">
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/bener-leg2.png') }}"
+                                        alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/APSE.gif') }}" alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
+                                        alt="">
+                                </a>
+
+
+
+                                <div id="app">
+
+                                    <div v-for="item in info">
+
+                                        <div class="flex-col pb-3">
+                                            <div
+                                                class="flex-col max-w-sm  border  border-gray-700 rounded-lg shadow bg-gray-800">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg"
+                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
+                                                        alt="" />
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5 class="mb-2 text-2xl font-bold tracking-tight  text-white">
+                                                            @{{ item.title }}</h5>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div v-for="va in clima">
+
+                                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-white">
+                                            @{{ va }}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+
+                </div>
+            </section>
+        @elseif ($tituloSep == 'Gremiales-Noticia-Completa-gre46')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">EL PAPA FRANCISCO IMPULSA LA DEFENSA DEL TRABAJO ANTE LA CGT 
+                                            </a>
+                                        </h2>
+                                        <p class="font-light  text-right text-gray-500">Publicado: 17/09/2024</p>
+                                        <div class=" font-sans text-lg text-left col-span-6  ">
+                                        <p><i>En un encuentro con Pablo Moyano y Héctor Daer, el Papa llamó a preservar la justicia social frente a las reformas laborales del gobierno. </i>
+                                        </p>
+                                        <br>
+                                        {{-- <article>
+                                            <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/mDyomkBc1DE?si=bnT2gxK0tSpFUqx1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                            
+                                        </article> --}}
+                                        <figure>
+                                            <img class=" w-full object-cover" src="../img/grem/grem_papatrabajo.svg"
+                                                alt="">
+                                        </figure>
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+                                                <p>El Papa Francisco recibió en la Ciudad del Vaticano a una delegación de la Confederación General del Trabajo (CGT) encabezada por Pablo Moyano y Héctor Daer, instando a los sindicalistas a “defender la justicia social como instrumento de equilibrio de las sociedades modernas”. La reunión, que tuvo lugar en la sede de Santa Bárbara, se prolongó por más de una hora y sirvió como un espacio para analizar la situación política y socioeconómica actual de Argentina, marcada por las políticas de ajuste del gobierno de Javier Milei.
+                                                </p>
+                                                <br>
+                                                <p>Los líderes sindicales expresaron su profunda preocupación por las reformas laborales promovidas por La Libertad Avanza (LLA) y coincidieron con el Papa en la urgencia de dignificar el trabajo. Resaltaron la necesidad de establecer un diálogo social entre sindicatos, el Gobierno y el sector empresarial, buscando soluciones conjuntas a los desafíos que enfrenta el país.
+                                                </p>
+                                                <br>
+                                                <p>Daer compartió que el planteo central fue el camino hacia la defensa de la dignidad del trabajo, un principio fundamental en la conducta social y la dignidad humana. “El Papa nos exhortó a defender esta cuestión y a defender la justicia social como instrumento de equilibrio de las sociedades modernas”, afirmó. Durante el encuentro, también se abordó el impacto de las crisis globales, reconociendo que “las convulsiones del mundo no sólo son nuestra coyuntura, sino que vivimos en un mundo eternamente convulsionado”.
+                                                </p>
+                                                <br>
+                                                <p>Las principales centrales sindicales del país, la CGT y la CTA, ya han llevado el caso a la OIT, mientras la ITF se prepara para denunciar al gobierno argentino si se avanza con la reglamentación. Para Cotton, cualquier acto administrativo que imponga esta medida sin seguir el marco legal constituiría un abuso de autoridad y una violación de las obligaciones internacionales del país.
+                                                </p>
+                                                <br>
+                                                <p>Adicionalmente, se discutió la necesidad de proteger a los niños y jóvenes de la influencia del narcotráfico, fortaleciendo la comunicación con la comunidad educativa. La posibilidad de una visita pastoral de Francisco a Argentina también fue tema de conversación. “Él dijo que quiere venir a la Argentina”, aseguró Daer, quien destacó que el Papa tiene compromisos previos, pero que “si Dios quiere, va a venir”.
+                                                </p>
+                                                <br>
+                                                <p>La comitiva de la CGT incluyó a figuras destacadas como Andrés Rodríguez (Estatales), Gerardo Martínez (Uocra) y Marina Jaureguiberry (Sadop), entre otros. Daer enfatizó que la reunión representó a “todos los sectores” de la central obrera, incluyendo a los compañeros de la Economía Popular, marcando un claro compromiso con la defensa de la dignidad del trabajo en el país.
+                                                </p>
+                                                <br>
+                                            </div>
+                                        </div>
+                                </article>
+                            </li>
+                        </ul>
+                    </div>
+
+
+                    {{-- columna de la derecha chica --}}
+                    <aside>
+                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                            <div class=" col-span-6">
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/bener-leg2.png') }}"
+                                        alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/APSE.gif') }}" alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
+                                        alt="">
+                                </a>
+
+
+
+                                <div id="app">
+
+                                    <div v-for="item in info">
+
+                                        <div class="flex-col pb-3">
+                                            <div
+                                                class="flex-col max-w-sm  border  border-gray-700 rounded-lg shadow bg-gray-800">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg"
+                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
+                                                        alt="" />
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5 class="mb-2 text-2xl font-bold tracking-tight  text-white">
+                                                            @{{ item.title }}</h5>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div v-for="va in clima">
+
+                                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-white">
+                                            @{{ va }}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+
+                </div>
+            </section>
+        @elseif ($tituloSep == 'Gremiales-Noticia-Completa-gre47')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">LA CTA VUELVE A SER UNA SOLA 
+                                            </a>
+                                        </h2>
+                                        <p class="font-light  text-right text-gray-500">Publicado: 18/09/2024</p>
+                                        <div class=" font-sans text-lg text-left col-span-6  ">
+                                        <p><i>La reunificación de la Central de Trabajadores Argentinos marca un nuevo capítulo tras 15 años de división.. </i>
+                                        </p>
+                                        <br>
+                                        {{-- <article>
+                                            <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/mDyomkBc1DE?si=bnT2gxK0tSpFUqx1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                            
+                                        </article> --}}
+                                        <figure>
+                                            <img class=" w-full object-cover" src="../img/grem/grem_1cta.svg"
+                                                alt="">
+                                        </figure>
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+                                                <p>La Central de Trabajadores Argentinos (CTA) se reunificó oficialmente, uniendo a la CTA de los Trabajadores y la CTA Autónoma, un evento anunciado por los líderes de ambas organizaciones, Hugo “Cachorro” Godoy y Hugo Yasky, en una reciente entrevista radial. Este acuerdo se produce en un contexto de creciente tensión con el gobierno actual, lo que ha llevado a ambas vertientes a reconocer la necesidad de una respuesta unificada ante políticas que afectan a los sectores más vulnerables.
+                                                </p>
+                                                <br>
+                                                <p>“Con este Gobierno no cabe otra posibilidad que confrontar en todos los planos que podamos, porque no deja abierta ninguna vía que no sea la de la confrontación”, afirmó Yasky durante la entrevista en AM 530, la radio de las Madres de Plaza de Mayo. Este llamado a la unidad surge de la observación de una “crueldad sistemática” en las decisiones económicas que impactan a jubilados, maestros y trabajadores del sector público, lo que ha incentivado a los líderes a actuar en conjunto.
+                                                </p>
+                                                <br>
+                                                <p>Godoy complementó esta visión al señalar que la reunificación representa un proceso enriquecedor en un contexto marcado por la precarización laboral. “Es evidente el fraccionamiento que existe en la sociedad argentina y es una estrategia del poder efectivizarlo también en el seno de la clase trabajadora”, explicó. La historia de la CTA se remonta a los años 90, cuando se formó como una respuesta a la situación laboral de los trabajadores y a las decisiones de quienes eligieron aliarse con el entonces presidente Menem.
+                                                </p>
+                                                <br>
+                                                <p>Ambos líderes coincidieron en la responsabilidad histórica que tienen frente a la actual administración, que han calificado de antidemocrática. “La salida de esto tiene que ser emancipadora”, concluyó Godoy, haciendo énfasis en la importancia de proporcionar no solo capacidad de resistencia, sino también propuestas concretas para enfrentar el modelo económico actual.
+                                                </p>
+                                                <br>
+                                                <p>Este nuevo capítulo en la historia de la CTA representa una respuesta colectiva a los desafíos del presente y una promesa de movilización para proteger los derechos de los trabajadores en un clima político cada vez más adverso.
+                                                </p>
+                                                <br>
+                                            </div>
+                                        </div>
+                                </article>
+                            </li>
+                        </ul>
+                    </div>
+                    {{-- columna de la derecha chica --}}
+                    <aside>
+                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                            <div class=" col-span-6">
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/bener-leg2.png') }}"
+                                        alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/APSE.gif') }}" alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
+                                        alt="">
+                                </a>
+
+
+
+                                <div id="app">
+
+                                    <div v-for="item in info">
+
+                                        <div class="flex-col pb-3">
+                                            <div
+                                                class="flex-col max-w-sm  border  border-gray-700 rounded-lg shadow bg-gray-800">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg"
+                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
+                                                        alt="" />
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5 class="mb-2 text-2xl font-bold tracking-tight  text-white">
+                                                            @{{ item.title }}</h5>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div v-for="va in clima">
+
+                                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-white">
+                                            @{{ va }}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+
+                </div>
+            </section>
+        @elseif ($tituloSep == 'Gremiales-Noticia-Completa-gre48')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">CGT Y UNIVERSITARIOS UNIDOS CONTRA EL VETO A LA EDUCACIÓN
+                                            </a>
+                                        </h2>
+                                        <p class="font-light  text-right text-gray-500">Publicado: 26/09/2024</p>
+                                        <div class=" font-sans text-lg text-left col-span-6  ">
+                                        <p><i>La CGT se sumará a la marcha del 2 de octubre en la Plaza del Congreso, en defensa de la Ley de Financiamiento Educativo y en rechazo al ajuste impulsado por Javier Milei, en un contexto de crisis en la educación pública.</i>
+                                        </p>
+                                        <br>
+                                        {{-- <article>
+                                            <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/mDyomkBc1DE?si=bnT2gxK0tSpFUqx1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                            
+                                        </article> --}}
+                                        <figure>
+                                            <img class=" w-full object-cover" src="../img/grem/grem_cgt_uni.svg"
+                                                alt="">
+                                        </figure>
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+                                                <p>La CGT confirmó su participación en la marcha del 2 de octubre en la Plaza del Congreso, en rechazo al veto a la Ley de Financiamiento Educativo anunciado por Javier Milei. La movilización, organizada por el Consejo Interuniversitario Nacional junto a diversos gremios, busca visibilizar la crisis que atraviesa la educación pública y frenar el ajuste gubernamental.
+                                                </p>
+                                                <br>
+                                                <p>Pablo Moyano, líder de la CGT, expresó que es una obligación movilizarse y criticó las intenciones del presidente, indicando que este veto responde a las presiones del FMI. “Vamos a estar en la Plaza del Congreso”, afirmó Moyano, subrayando la importancia de apoyar a los trabajadores y a la educación.
+                                                </p>
+                                                <br>
+                                                <p>La marcha se llevará a cabo como cierre de una semana de actividades que incluye clases abiertas, abrazos simbólicos en universidades, y un paro nacional. Esta serie de acciones busca poner de relieve la crisis educativa que se enfrenta debido a la falta de financiamiento y el recorte de presupuestos.
+                                                </p>
+                                                <br>
+                                                <p>Daniel Ricci, de la Federación de Docentes de las Universidades (FEDUN), denunció que los salarios han perdido más del 60% de su poder adquisitivo desde la llegada de Milei al poder. “No hemos tenido respuestas a nuestros reclamos salariales, ni del presupuesto, ni de las becas que están congeladas hace más de un año”, aseguró.
+                                                </p>
+                                                <br>
+                                                <p>La marcha del 2 de octubre será una oportunidad para que la CGT y el movimiento universitario se unan en defensa de la educación pública, planteando un frente común contra el ajuste y el desfinanciamiento que afectan tanto a estudiantes como a trabajadores del sector. La participación de la central obrera es clave para fortalecer la visibilidad de la crisis educativa y laboral en el país.
+                                                </p>
+                                                <br>
+                                            </div>
+                                        </div>
+                                </article>
+                            </li>
+                        </ul>
+                    </div>
+                    {{-- columna de la derecha chica --}}
+                    <aside>
+                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                            <div class=" col-span-6">
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/bener-leg2.png') }}"
+                                        alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/APSE.gif') }}" alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
+                                        alt="">
+                                </a>
+
+
+
+                                <div id="app">
+
+                                    <div v-for="item in info">
+
+                                        <div class="flex-col pb-3">
+                                            <div
+                                                class="flex-col max-w-sm  border  border-gray-700 rounded-lg shadow bg-gray-800">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg"
+                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
+                                                        alt="" />
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5 class="mb-2 text-2xl font-bold tracking-tight  text-white">
+                                                            @{{ item.title }}</h5>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div v-for="va in clima">
+
+                                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-white">
+                                            @{{ va }}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+
+                </div>
+            </section>
+        @elseif ($tituloSep == 'Gremiales-Noticia-Completa-gre49')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">TRABAJADORES DE AEROLÍNEAS ARGENTINAS PROTESTAN CONTRA PRIVATIZACIÓN
+
+                                            </a>
+                                        </h2>
+                                        <p class="font-light  text-right text-gray-500">Publicado: 26/09/2024</p>
+                                        <div class=" font-sans text-lg text-left col-span-6  ">
+                                        <p><i>LEn una clara defensa de la línea de bandera, los trabajadores denunciaron que la privatización representa una amenaza no solo para sus empleos, sino también para el patrimonio nacional.
+                                        </i>
+                                        </p>
+                                        <br>
+                                        {{-- <article>
+                                            <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/mDyomkBc1DE?si=bnT2gxK0tSpFUqx1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                            
+                                        </article> --}}
+                                        <figure>
+                                            <img class=" w-full object-cover" src="../img/grem/grem_aerolineas.svg"
+                                                alt="">
+                                        </figure>
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+                                                <p>Los trabajadores de Aerolíneas Argentinas se movilizaron frente al Congreso en rechazo a la privatización de la línea de bandera, en un contexto donde los diputados debatían el proyecto en las comisiones de Transporte y Presupuesto. Pilotos, tripulantes, técnicos y trabajadores de carga expresaron su disconformidad con la medida, acompañados por sindicatos de la CGT y la CTA.
+                                                </p>
+                                                <br>
+                                                <p>Durante la protesta, Pablo Biró, presidente de la Asociación de Pilotos de Líneas Aéreas (APLA), denunció que el gobierno busca estigmatizar a la empresa para justificar su venta, recordando las nefastas consecuencias de la privatización de los años '90. “El gobierno quiere que la sociedad se enoje para justificar, como en los ‘90, la privatización de la línea, que nos dejó consecuencias catastróficas”, afirmó.
+                                                </p>
+                                                <br>
+                                                <p>Los manifestantes, uniformados y con pancartas en mano, se agruparon detrás de las vallas del operativo antipiquetes. En la plaza, se recordó cómo la privatización anterior de Aerolíneas, impulsada por Carlos Menem en 1990 y posteriormente vaciada en 2001, llevó a una pérdida significativa de patrimonio. A pesar de la recuperación de la aerolínea en 2008, los trabajadores advirtieron sobre el riesgo que representa la actual intentona privatizadora.
+                                                <br>
+                                                <p>La protesta surgió inicialmente por un reclamo salarial, ya que los trabajadores de Aerolíneas han perdido un 80% de su poder adquisitivo desde noviembre del año pasado. Andrés Junor, secretario gremial de Aeronavegantes, enfatizó que el gobierno ha ignorado sus demandas salariales, desviando la atención hacia la privatización.
+                                                </p>
+                                                <br>
+                                                <p>Con proyectos de privatización en curso, los trabajadores sostienen que Aerolíneas Argentinas tiene un valioso patrimonio y advirtieron sobre el peligro de transferirlo a intereses privados. “Hay años de inversión puestos ahí, que están en riesgo de que se los transfieran a algún testaferro amigo de este gobierno”, señaló Gabriel Urrestarazu, piloto con 20 años de antigüedad.
+                                                </p>
+                                                <br>
+                                                <p>La movilización de los trabajadores de Aerolíneas Argentinas pone de relieve no solo el temor por la pérdida de empleo y de la empresa, sino también el desafío que representa la defensa de la línea de bandera como un símbolo nacional frente a las políticas de ajuste y privatización.
+                                                </p>
+                                                <br>
+                                            </div>
+                                        </div>
+                                </article>
+                            </li>
+                        </ul>
+                    </div>
+                    {{-- columna de la derecha chica --}}
+                    <aside>
+                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                            <div class=" col-span-6">
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/bener-leg2.png') }}"
+                                        alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/APSE.gif') }}" alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
+                                        alt="">
+                                </a>
+
+
+
+                                <div id="app">
+
+                                    <div v-for="item in info">
+
+                                        <div class="flex-col pb-3">
+                                            <div
+                                                class="flex-col max-w-sm  border  border-gray-700 rounded-lg shadow bg-gray-800">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg"
+                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
+                                                        alt="" />
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5 class="mb-2 text-2xl font-bold tracking-tight  text-white">
+                                                            @{{ item.title }}</h5>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div v-for="va in clima">
+
+                                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-white">
+                                            @{{ va }}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+
+                </div>
+            </section>
+        @elseif ($tituloSep == 'Gremiales-Noticia-Completa-gre50')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">AUMENTO DEL SUBTE Y DENUNCIAS POR PELIGRO EN LA LÍNEA B
+
+                                            </a>
+                                        </h2>
+                                        <p class="font-light  text-right text-gray-500">Publicado: 27/09/2024</p>
+                                        <div class=" font-sans text-lg text-left col-span-6  ">
+                                        <p><i>Los metrodelegados confirman que el boleto llegará a $860 sin SUBE registrada, mientras denuncian graves problemas de seguridad en la Línea B, calificándola como "una bomba de tiempo"
+
+                                        </i>
+                                        </p>
+                                        <br>
+                                        {{-- <article>
+                                            <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/mDyomkBc1DE?si=bnT2gxK0tSpFUqx1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                            
+                                        </article> --}}
+                                        <figure>
+                                            <img class=" w-full object-cover" src="../img/grem/grem_subte.svg"
+                                                alt="">
+                                        </figure>
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+                                                <p>El secretario ejecutivo de la Asociación Gremial de Trabajadores del Subte y Premetro (AGTSyP), Claudio Dellecarbonara, confirmó el aumento del boleto de subte, que pasará a costar $750 con la SUBE registrada y $860 sin ella. Sin embargo, más allá del golpe al bolsillo de los usuarios, el dirigente sindical alertó sobre un problema mayor: la grave situación de la Línea B. "Es una bomba de tiempo", señaló Dellecarbonara, advirtiendo que no se sabe cuándo ocurrirá una tragedia debido a las condiciones en las que opera esa línea.
+                                                </p>
+                                                <br>
+                                                <p>Los trabajadores del subte denuncian desde hace años la presencia de asbesto, un mineral cancerígeno, en las formaciones y otros problemas estructurales que ponen en riesgo a los empleados y a los pasajeros. "Estamos trabajando en un ámbito con asbesto, los trenes tienen 70 años de fabricación, se prenden fuego y a veces las puertas se abren en pleno túnel", explicó el metrodelegado.
+                                                </p>
+                                                <br>
+                                                <p>A pesar de los reiterados anuncios sobre la compra de nuevo material rodante, la situación no mejora. "Todo anuncio sobre trenes nuevos es positivo, pero siempre terminan quedando en promesas", lamentó. La situación empeora con cada aumento tarifario, que no se traduce en mejoras visibles para los trabajadores ni para los usuarios, mientras el sistema de transporte subterráneo sigue operando en condiciones peligrosas.
+                                                <p>Desde el gremio también se lanzó una crítica hacia la CGT, a la que acusaron de estar ausente en la lucha por mejores condiciones laborales y salariales en un contexto de suba constante de tarifas y precarización del servicio. Según Dellecarbonara, algunos sectores del sindicalismo "prefieren defender sus intereses como casta antes que los de los trabajadores", mientras el riesgo en la Línea B sigue latente.
+                                                </p>
+                                                <br>
+                                                <p>Este nuevo incremento del boleto en el subte agrava la situación de millones de usuarios que ven cómo el costo de la vida sigue subiendo sin que se traduzca en mejoras concretas en los servicios públicos, ni en las condiciones laborales de quienes operan en uno de los transportes más utilizados de la ciudad.
+                                                </p>
+                                                <br>
+                                            </div>
+                                        </div>
+                                </article>
+                            </li>
+                        </ul>
+                    </div>
+                    {{-- columna de la derecha chica --}}
+                    <aside>
+                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                            <div class=" col-span-6">
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/bener-leg2.png') }}"
+                                        alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/APSE.gif') }}" alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
+                                        alt="">
+                                </a>
+
+
+
+                                <div id="app">
+
+                                    <div v-for="item in info">
+
+                                        <div class="flex-col pb-3">
+                                            <div
+                                                class="flex-col max-w-sm  border  border-gray-700 rounded-lg shadow bg-gray-800">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg"
+                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
+                                                        alt="" />
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5 class="mb-2 text-2xl font-bold tracking-tight  text-white">
+                                                            @{{ item.title }}</h5>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div v-for="va in clima">
+
+                                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-white">
+                                            @{{ va }}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+
+                </div>
+            </section>
+        @elseif ($tituloSep == 'Gremiales-Noticia-Completa-gre51')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">LA CTA DENUNCIA EL AUMENTO HISTÓRICO DE LA POBREZA
+
+                                            </a>
+                                        </h2>
+                                        <p class="font-light  text-right text-gray-500">Publicado: 27/09/2024</p>
+                                        <div class=" font-sans text-lg text-left col-span-6  ">
+                                        <p><i>La CTA advierte sobre un aumento alarmante de la pobreza al 52,9% en solo seis meses, llamando a la unidad popular para frenar esta crisis.
+
+
+                                        </i>
+                                        </p>
+                                        <br>
+                                        {{-- <article>
+                                            <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/mDyomkBc1DE?si=bnT2gxK0tSpFUqx1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                            
+                                        </article> --}}
+                                        <figure>
+                                            <img class=" w-full object-cover" src="../img/grem/grem_freno.svg"
+                                                alt="">
+                                        </figure>
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+                                                <p>La Central de Trabajadores de la Argentina (CTA) ha hecho pública una gacetilla que señala un alarmante aumento de la pobreza en el país. En solo seis meses de gestión del gobierno de Javier Milei, la pobreza ha escalado al 52,9%, afectando a 24,9 millones de argentinos, lo que representa el peor registro en dos décadas, solo superado por la crisis de la convertibilidad en 2001.
+                                                </p>
+                                                <br>
+                                                <p>El informe detalla que la pobreza afecta al 42,5% de los hogares, y que la indigencia ha alcanzado un preocupante 18,1%, lo que equivale a 8,5 millones de personas. Este escenario se agrava con datos que revelan que el 66,1% de los niños y niñas de entre 0 y 14 años viven en condiciones de pobreza, sumando un total de 7,3 millones de menores que sufren las consecuencias de esta crisis.
+                                                </p>
+                                                <br>
+                                                <p>A pesar de los reiterados anuncios sobre la compra de nuevo material rodante, la situación no mejora. "Todo anuncio sobre trenes nuevos es positivo, pero siempre terminan quedando en promesas", lamentó. La situación empeora con cada aumento tarifario, que no se traduce en mejoras visibles para los trabajadores ni para los usuarios, mientras el sistema de transporte subterráneo sigue operando en condiciones peligrosas.
+                                                </p>
+                                                <p>La CTA sostiene que este aumento en los índices de pobreza e indigencia es resultado directo de las decisiones políticas del gobierno, con figuras como el ministro de Desregulación, Federico Sturzenegger, y el Toto Caputo, quienes han sido responsables de fracasos anteriores. La gacetilla también denuncia que los incrementos en tarifas de servicios públicos y el congelamiento de jubilaciones contribuyen a la profundización de la crisis. Además, la reciente reglamentación de la reforma laboral facilitará los despidos, lo que a su vez aumentará la desocupación.
+                                                </p>
+                                                <br>
+                                                <p>A pesar de un poderoso sistema comunicacional que intenta ocultar esta realidad, la CTA advierte que el descontento popular es innegable. Ante esta situación, la organización llama a la unidad del movimiento popular y a las organizaciones sindicales y sociales para movilizarse y ponerle freno a lo que consideran un ataque feroz a las mayorías y a la soberanía nacional.
+                                                </p>
+                                                <br>
+                                                <p>La gacetilla lleva la firma de los secretarios generales de la CTA, Hugo Godoy (CTA Autónoma) y Hugo Yasky (CTA de las y los Trabajadores), quienes reiteran su compromiso con la lucha por los derechos de los trabajadores y la defensa de los sectores más vulnerables.
+                                                </p>
+                                                <br>
+                                            </div>
+                                        </div>
+                                </article>
+                            </li>
+                        </ul>
+                    </div>
+                    {{-- columna de la derecha chica --}}
+                    <aside>
+                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                            <div class=" col-span-6">
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/bener-leg2.png') }}"
+                                        alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/APSE.gif') }}" alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
+                                        alt="">
+                                </a>
+
+
+
+                                <div id="app">
+
+                                    <div v-for="item in info">
+
+                                        <div class="flex-col pb-3">
+                                            <div
+                                                class="flex-col max-w-sm  border  border-gray-700 rounded-lg shadow bg-gray-800">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg"
+                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
+                                                        alt="" />
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5 class="mb-2 text-2xl font-bold tracking-tight  text-white">
+                                                            @{{ item.title }}</h5>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div v-for="va in clima">
+
+                                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-white">
+                                            @{{ va }}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+
+                </div>
+            </section>
         @endif
     </div>
     {{-- aca arrancamos vue --}}
@@ -5363,7 +6125,7 @@
 
                     /*    axios.get( */
                     /*      "https://api.weatherbit.io/v2.0/current?lat=35.7796&lon=-78.6382&key=f2207d043ea74a359ff232a1d03d0c72&include=minutely"
-                     )*/
+                )*/
                     axios.get(
                             "https://api.openweathermap.org/2.5/wheater?q=BURNOS AIRESlat=35.7796&lon=-78.6382&key=f2207d043ea74a359ff232a1d03d0c72&include=minutely"
                         )

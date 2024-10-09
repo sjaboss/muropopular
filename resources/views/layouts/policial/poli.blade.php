@@ -1,9 +1,6 @@
 <x-app-layout>
     <div class="container ">
 
-
-
-        
         <section>
             <ul>
                 <li class=" bg-white rounded-lg shadow "> {{-- primera --}}

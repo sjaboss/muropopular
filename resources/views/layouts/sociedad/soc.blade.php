@@ -1,5 +1,213 @@
 <x-app-layout>
     <div class="container">
+
+{{-- AUMENTOS DE TARIFAS EN OCTUBRE: UN GOLPE AL BOLSILLO DE LAS FAMILIAS ARGENTINAS --}}
+<section>
+            <ul>
+                <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                    <article>
+                        <div class="py-4 px-4 justify-between items-center">
+                            <h2 class="text-xl font-serif  font-bold pb-6">
+                                <a href="">AUMENTOS DE TARIFAS EN OCTUBRE: UN GOLPE AL BOLSILLO DE LAS FAMILIAS ARGENTINAS</a>
+                                {{-- <p class="font-light  text-lef text-gray-500">Por Emanuel Corrado</p> --}}
+                            </h2>
+                            <p class="font-light  text-right text-gray-500">Publicado: 01/10/2024</p>
+                            <div class=" font-sans text-lg text-left col-span-6  ">
+                            <p><i>El gobierno de Javier Milei implementa subas de entre el 4% y el 16% en servicios esenciales, lo que agrava la situación económica y el poder adquisitivo de los hogares.</i>
+                            </p> 
+                            <br>
+                            <figure>
+                                <img class="w-full object-cover" src="../img/soc/soc_tarisubas.svg"
+                                    alt="">
+                            </figure>
+                            <br>
+                            <div
+                                class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                <div class=" font-sans text-lg text-left col-span-6  ">
+                                    <p>En octubre, el gobierno de Javier Milei ha decidido implementar aumentos de tarifas que oscilan entre el 4% y el 16% en servicios esenciales, como colegios, medicina prepaga, agua, transporte y alquileres. Este es el segundo mes consecutivo de incrementos, lo que agrava la situación económica de las familias argentinas, que ya se enfrentan a un contexto de alta inflación y reducción del poder adquisitivo.
+                                    </p>
+                                    <br>
+                                    <p>Entre los aumentos más significativos, destaca el del boleto del subte, que aumentará un 16,46%, mientras que las tarifas de agua ya han subido un 4,9%. Estos ajustes tarifarios no solo impactan el presupuesto familiar, sino que también reflejan una preocupante transferencia de ingresos desde los sectores medios hacia las empresas, que han recuperado rentabilidad a través de estas medidas.
+                                    </p>
+                                    <br>
+                                    <p>La presión sobre el poder adquisitivo es alarmante. Según el Instituto Interdisciplinario de Economía Política (IIPE), un tipo de familia necesita más de 140 mil pesos para cubrir los costos fijos mensuales. Esta cifra resalta la magnitud de los desafíos económicos que enfrentan muchos hogares, que luchan por adaptarse a un escenario cada vez más complicado.
+                                    </p>
+                                    <br>
+                                    <p>La incertidumbre sobre futuros aumentos y la falta de medidas concretas por parte del gobierno para frenar esta tendencia generan preocupación entre la población. Los hogares, a medida que intentan ajustar sus gastos a estos nuevos costos, se encuentran en una situación cada vez más precaria. Esto ha llevado a intensificar la discusión sobre la sostenibilidad de las políticas económicas actuales, lo que podría desencadenar un creciente descontento social si no se abordan las necesidades de las familias.
+                                    </p>
+                                    <br>
+                                    <p>Con un panorama tan adverso, la urgencia por un cambio en las políticas económicas se hace cada vez más evidente. Las decisiones del gobierno en los próximos meses serán cruciales para determinar si las familias argentinas podrán encontrar alivio ante la creciente presión económica o si, por el contrario, se verán obligadas a seguir lidiando con aumentos que parecen no tener fin.
+                                    </p>
+                                    <br>                                              
+                                    <div class="text-start object-center">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </li>
+            </ul>
+            <br>
+</section>
+{{-- LALI Y SU VIDEO CON REFERENCIAS A MILEI  --}}
+<section>
+            <ul>
+                <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                    <article>
+
+                        <div class="py-4 px-4 justify-between items-center">
+                            <h2 class="text-xl font-serif  font-bold pb-6">
+                                <a href="">LALI Y SU VIDEO CON REFERENCIAS A MILEI  </a>
+                                {{-- <p class="font-light  text-lef text-gray-500">Por Emanuel Corrado</p> --}}
+                            </h2>
+                            <p class="font-light  text-right text-gray-500">Publicado: 30/09/2024</p>
+                            <div class=" font-sans text-lg text-left col-span-6  ">
+                            <p><i>Lali Espósito habló sobre su nueva canción "Fanático", destacando las referencias al presidente Javier Milei en su video. La cantante se mostró satisfecha con la recepción del público y llamó a los artistas a expresar sus mensajes en este contexto sociopolítico.</i>
+                            </p> 
+                            <br>
+                            <figure>
+                                <img class="w-full object-cover" src="../img/soc/soc_lali.svg"
+                                    alt="">
+                            </figure>
+                            <br>
+                            <div
+                                class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                <div class=" font-sans text-lg text-left col-span-6  ">
+                                    <p>Lali Espósito ha lanzado "Fanático", su nuevo sencillo, que rápidamente se volvió viral por las referencias al presidente Javier Milei y su gestión. En una reciente entrevista con el canal de streaming Luzu TV, la artista compartió que muchas de las alusiones en el video fueron intencionales, mientras que otras surgieron de la "inventiva popular". "Algunas (referencias) yo me enteré en Twitter. Muchas de las referencias son verdad y estuvieron ahí para que sean agarradas", expresó Lali, subrayando la interacción que ha tenido con sus seguidores a través de las redes sociales.
+                                    </p>
+                                    <br>
+                                    <p>El video, que cuenta con más de dos millones de visualizaciones, fue dirigido por Lali y su primo Lautaro Espósito. En él, la artista realiza un casting entre varios "fanáticos", que representan diversas reacciones al fenómeno de la cultura pop. La producción incluye momentos de humor y crítica social, con guiños a la figura de Milei y a la situación actual del país.
+                                    </p>
+                                    <br>
+                                    <p>En el contexto de la promoción de su nuevo álbum, que se espera para 2025, Lali reflexionó sobre la importancia de que los artistas utilicen su plataforma para transmitir mensajes significativos. "Creo que es un buen momento para no amedrentarse. Los artistas que tengan ganas, salgan a decir eso que tienen para decir", enfatizó en la misma entrevista, haciendo eco de la necesidad de resistencia en tiempos difíciles.
+                                    </p>
+                                    <br>
+                                    <p>A lo largo de la letra de "Fanático", se pueden encontrar referencias directas a la actualidad política, como en el estribillo, que evoca una relación de poder y dependencia. Lali busca, de esta manera, que su música sea un canal para expresar las inquietudes de su generación y abordar temas que afectan a la sociedad.
+                                    </p>
+                                    <br>
+                                    <p>En un contexto donde ha sido hostigada por el presidente y sus seguidores tras criticar su gestión, Lali se muestra firme en su postura. “Son tiempos de tanta data que es confuso: qué querés hacer, quién sos, qué tenés para decir. Rebelarse un poquito”, concluyó, reafirmando su compromiso con la cultura y la expresión artística en medio de un clima de incertidumbre.
+                                    </p>
+                                    <br>                                              
+                                    <div class="text-start object-center">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </li>
+            </ul>
+            <br>
+</section>
+{{--MÉDICOS RESIDENTES EXIGEN MEJORAS SALARIALES  --}}
+<section>
+            <ul>
+                <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                    <article>
+
+                        <div class="py-4 px-4 justify-between items-center">
+                            <h2 class="text-xl font-serif  font-bold pb-6">
+                                <a href="">MÉDICOS RESIDENTES EXIGEN MEJORAS SALARIALES  </a>
+                                {{-- <p class="font-light  text-lef text-gray-500">Por Emanuel Corrado</p> --}}
+                            </h2>
+                            <p class="font-light  text-right text-gray-500">Publicado: 29/09/2024</p>
+                            <div class=" font-sans text-lg text-left col-span-6  ">
+                            <p><i>Los residentes de hospitales nacionales, incluido el Garrahan, exigen mejoras salariales y laborales. Agostina Fiandrino, residente del Garrahan, habla sobre la precarización del sistema de salud.</i>
+                            </p> 
+                            <br>
+                            <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/dukyUIWrwrE?si=clVWqNwEf5bO2klE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            {{-- <figure>
+                                <img class="w-full object-cover" src="../img/soc/soc_desastre.svg"
+                                    alt="">
+                            </figure> --}}
+                            <br>
+                            <div
+                                class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                <div class=" font-sans text-lg text-left col-span-6  ">
+                                    <p>Los residentes de los hospitales nacionales continúan su lucha por una recomposición salarial y mejoras laborales. Tras varios meses de reclamos y sin respuestas concretas del Ministerio de Salud, Agostina Fiandrino, residente de pediatría del Hospital Garrahan, explicó en una entrevista exclusiva con Radio La Turba para ADN Populares, las razones detrás del paro de 24 horas y las futuras medidas de protesta, incluyendo un paro de 48 horas la semana próxima.
+                                    </p>
+                                    <br>
+                                    <p>"Estamos hace meses exigiendo una recomposición salarial", comenta Fiandrino. "La situación es crítica, no solo para nosotros como residentes, sino para el sistema de salud en general. Nuestros sueldos están por debajo de la canasta básica familiar, y no ha habido una recomposición acorde a la inflación que enfrentamos".
+                                    </p>
+                                    <br>
+                                    <p>El paro afecta a todos los hospitales nacionales, entre ellos el Garrahan, el Posadas, y el Malbrán, todos centros de alta complejidad que dependen del Ministerio de Salud de la Nación. Según Fiandrino, los sueldos de los residentes nacionales han quedado muy por debajo en comparación con otras jurisdicciones como la Ciudad Autónoma de Buenos Aires y las provincias. "Históricamente, teníamos sueldos más altos debido a la carga laboral que tenemos en hospitales de alta complejidad, pero en los últimos meses hemos sufrido un deterioro severo", explicó.
+                                    </p>
+                                    <br>
+                                    <p>El reclamo no se centra únicamente en lo salarial. Fiandrino hizo hincapié en el desfinanciamiento general del sistema de salud. "No es solo nuestro salario, es el presupuesto de los hospitales que quedó congelado. No podemos tratar la salud pública como una variable de ajuste. Es el bienestar de todos los argentinos lo que está en juego"
+                                    </p>
+                                    <br>
+                                    <p>A pesar de haber iniciado conversaciones con el Ministerio de Salud en julio, los avances fueron mínimos. "Nos prometieron un aumento salarial a través de un bono no remunerativo del 28,4%, que iba a ser incorporado al sueldo en diciembre, pero la resolución nunca se firmó", relató Fiandrino. Lo más grave, según ella, fue la improvisación con la que el Ministerio gestionó el conflicto. "Hace unos días, firmaron la resolución, y a las pocas horas la dieron de baja por falta de presupuesto. Es vergonzoso que un ministro firme algo sin tener los fondos garantizados".
+                                    </p>
+                                    <br>
+                                    <p>Los residentes no solo enfrentan la precarización laboral, sino también la amenaza de despidos en otros hospitales nacionales, como el Posadas y el Bonaparte. Además, el gobierno propuso traspasar los hospitales nacionales a jurisdicciones provinciales, lo que según Fiandrino, significaría un desfinanciamiento aún mayor. "El Garrahan tiene un presupuesto equivalente al de una provincia. No podemos permitir que se reduzca su importancia y se diluya su función como hospital nacional de referencia", advirtió.
+                                    </p>
+                                    <br>
+                                    <p>Finalmente, Fiandrino adelantó las próximas medidas: "La semana que viene realizaremos un paro de 48 horas, miércoles y jueves, y marcharemos en conjunto con la columna universitaria. Seguimos en lucha por la salud pública y por nuestros derechos como trabajadores de la salud".
+                                    </p>
+                                    <br>
+                                    <p>Este conflicto expone la grave crisis de financiamiento que atraviesa el sistema de salud argentino, donde los trabajadores luchan por salarios dignos y recursos adecuados para garantizar la atención médica de millones de personas.
+                                    </p>
+                                    <br>
+                                    <div class="text-start object-center">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </li>
+            </ul>
+            <br>
+</section>
+{{-- MENTIRAS PRESIDENCIALES DESMENTIDAS POR LA JUSTICIA  --}}
+<section>
+                    <ul>
+                        <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                            <article>
+                                <div class="py-4 px-4 justify-between items-center">
+                                    <h2 class="text-xl font-serif  font-bold pb-6">
+                                        <a href="">MENTIRAS PRESIDENCIALES DESMENTIDAS POR LA JUSTICIA  </a>
+                                        {{-- <p class="font-light  text-lef text-gray-500">Por Emanuel Corrado</p> --}}
+                                    </h2>
+                                    <p class="font-light  text-right text-gray-500">Publicado: 28/09/2024</p>
+                                    <div class=" font-sans text-lg text-left col-span-6  ">
+                                    <p><i>La Justicia de Córdoba aclaró que no hay pruebas que vinculen a militantes de La Cámpora con los incendios en la provincia, contradiciendo las afirmaciones de Milei.</i>
+                                    </p> 
+                                    <br>
+                                    <figure>
+                                        <img class="w-full object-cover" src="../img/soc/soc_cordoba.svg"
+                                            alt="">
+                                    </figure>
+                                    <br>
+                                    <div
+                                        class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                        <div class=" font-sans text-lg text-left col-span-6  ">
+                                            <p>El reciente intento del presidente Javier Milei de vincular a militantes de La Cámpora con los incendios en Córdoba ha sido desmentido por la Justicia. Tras las declaraciones del mandatario en las que aseguraba la detención de 17 militantes kirchneristas responsables de los incendios que devastan varias localidades cordobesas, el Ministerio Público Fiscal (MPF) salió al cruce y aclaró que no hay ni 17 detenidos ni evidencia alguna que conecte a los acusados con agrupaciones políticas.
+                                            </p>
+                                            <br>
+                                            <p>El jefe de los fiscales de Córdoba, Juan Manuel Delgado, fue contundente en su desmentida: “No tenemos indicios de que estos acontecimientos hayan sido provocados por personas vinculadas a La Cámpora”, señaló en una entrevista, dejando en claro que las acusaciones que se viralizaron a través de la cuenta de Milei en redes sociales son infundadas.
+                                            </p>
+                                            <br>
+                                            <p>El propio presidente compartió una publicación en su perfil de X (anteriormente Twitter), replicando la acusación de un usuario que aseguraba la detención de 17 militantes kirchneristas como responsables de iniciar los incendios. Sin embargo, la realidad judicial es muy diferente: hasta el momento, solo hay 11 detenidos, de los cuales algunos ya han sido liberados por falta de pruebas, y en ningún caso se ha confirmado la afiliación política de los sospechosos.
+                                            </p>
+                                            <br>
+                                            <p>El ministro de Seguridad de Córdoba, Juan Pablo Quinteros, explicó que de los 11 detenidos, tres recibieron condenas por incendios intencionales, pero ningún caso está relacionado con cuestiones políticas. De hecho, los liberados fueron excarcelados por negligencia y no por delitos intencionales.
+                                            </p>
+                                            <br>
+                                            <p>“Cuando se detiene a una persona no se le pregunta su filiación política, eso corresponde a la investigación”, aclaró Quinteros, remarcando que las publicaciones del presidente no solo son incorrectas, sino peligrosamente desinformativas.
+                                            </p>
+                                            <br>
+                                            <p>Los incendios en Córdoba, que ya han destruido miles de hectáreas y afectado a cientos de familias, continúan avanzando y las autoridades trabajan contrarreloj para mitigar su impacto. Pero mientras las llamas se extienden, las declaraciones irresponsables desde el gobierno no hacen más que sumar confusión y desviar la atención de las verdaderas causas del desastre ambiental.
+                                            </p>
+                                            <br>
+                                            <div class="text-start object-center">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+                        </li>
+                    </ul>
+                    <br>
+</section>
 {{--  CRISTINA LLAMA A ENFRENTAR EL DESASTRE DEL GOBIERNO DE MILEI  --}}
 <section>
             <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">

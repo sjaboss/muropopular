@@ -3101,6 +3101,118 @@
                 </div>
 
             </section>
+        @elseif ($tituloSep == 'Agenda-Feminista-Completa-fem22')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">SOBERANÍA Y GÉNERO EN EL CANAL MAGDALENA</a>
+                                            <p class="font-light  text-right text-gray-500">Publicado: 19/09/2024</p>
+                                        </h2>
+                                        <p><i>Ministros y autoridades provinciales se reunieron para discutir la importancia del dragado del canal y la inclusión de género en el desarrollo portuario.</i>
+                                        </p>
+                                        <br>
+                                        <figure>
+                                            <img class="w-full object-cover" src="../img/fem/fem_canal.svg"
+                                                alt="">
+                                        </figure>
+                                        {{-- <article>
+                                            <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/KgLeMhUAufY?si=LCmXJy-t6RqfgsUb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                            
+                                        </article> --}}
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+                                                <p>En el marco del proyecto de dragado del Canal Magdalena, la ministra de Mujeres y Diversidad, Estela Díaz, participó de un conversatorio titulado “Soberanía, Producción y Trabajo desde un enfoque de Género”. Junto a ella, estuvieron el ministro de Gobierno, Carlos Bianco, la ministra de Hábitat y Desarrollo Urbano, Silvina Batakis, el intendente de Ensenada, Mario Secco, el intendente de Berisso, Fabián Cagliardi, y el presidente del Puerto La Plata, José María Lojo.
+                                                </p>
+                                                <br>
+                                                <p>“Con el compromiso de nuestro Gobernador y de todas las autoridades de la región, vamos a lograr un futuro con más inclusión y justicia social”, afirmó Díaz. Destacó que la igualdad de género en los puertos no es opcional, sino una necesidad, ya que las mujeres representan un porcentaje mínimo de la fuerza laboral en concesionarias portuarias.
+                                                </p>
+                                                <br>
+                                                <p>Bianco enfatizó la importancia del Canal Magdalena como una obra estratégica para la soberanía argentina y subrayó que su reclamo debe ser una política de Estado. “Desde el Gobierno de la Provincia seguiremos trabajando para avanzar en su desarrollo”, agregó.
+                                                <br>
+                                                <p>Batakis se refirió a la necesidad de integrar más actividad económica en la Provincia, señalando que la desigualdad priva a la sociedad del talento femenino. Lojo, por su parte, destacó el simbolismo del encuentro en el puerto y la importancia de abordar estos temas desde una perspectiva de género.
+                                                </p>
+                                                <br>
+                                                <p>La actividad tuvo lugar en la Estación Dock Central del Puerto de La Plata, buscando involucrar a mujeres y diversidades en la planificación y toma de decisiones sobre soberanía territorial y desarrollo productivo. Se busca construir un futuro más igualitario a través de la participación activa.
+                                                </p>
+                                                <br>
+                                                <p>El proyecto del Canal Magdalena propone un dragado que permitirá la navegación de grandes buques, mejorando las operaciones del comercio exterior. Actualmente, los barcos deben transitar rutas más largas a través de Uruguay. Esta obra generaría una gran cantidad de puestos de trabajo en diversos sectores, desde la producción de alimentos hasta servicios marítimos.
+                                                </p>
+                                                <br>
+                                                <p>Además, el Ministerio de Mujeres y Diversidad propuso incluir la perspectiva de género en el trabajo y la producción. En 2021, el trabajo en los muelles era realizado solo por hombres; sin embargo, en 2023, la participación femenina alcanzó el 40% gracias a políticas como el programa Puertos en Clave de Géneros.
+                                                </p>
+                                                <br>
+                                                
+                                            </div>
+                                        </div>
+                                </article>
+                            </li>
+                        </ul>
+                    </div>
+
+
+                    {{-- columna de la derecha chica --}}
+                    <aside>
+                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                            <div class=" col-span-6">
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/recurso 1.png') }}" alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/APSE.gif') }}" alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
+                                        alt="">
+                                </a>
+
+
+
+                                <div id="app">
+
+                                    <div v-for="item in info">
+
+                                        <div class="flex-col pb-3">
+                                            <div
+                                                class="flex-col max-w-sm  border  border-gray-700 rounded-lg shadow bg-gray-800">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg"
+                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
+                                                        alt="" />
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5 class="mb-2 text-2xl font-bold tracking-tight  text-white">
+                                                            @{{ item.title }}</h5>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div v-for="va in clima">
+
+                                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-white">
+                                            @{{ va }}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+
+                </div>
+
+            </section>
         @endif
     </div>
 

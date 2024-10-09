@@ -1134,13 +1134,12 @@
 
             </section>
         @elseif ($tituloSep == 'Deportes-Noticia-Completa-dep9')
-            <section>
+        <section>
                 <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
                     <div class=" col-span-4">
                         <ul>
                             <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
                                 <article>
-
                                     <div class="py-4 px-4 justify-between items-center">
                                         <h2 class="text-xl font-serif  font-bold pb-6">
                                             <a href="">ARGENTINA INICIA SU DEFENSA DEL TÍTULO EN LA COPA AMÉRICA CON UNA VICTORIA SÓLIDA
@@ -1152,13 +1151,11 @@
                                         <figure>
                                             <img class="w-full object-cover"
                                                 src="{{ asset('../img/dep/dep_argen.svg') }}" alt="">
-
                                         </figure>
                                         <br>
                                         <div
                                             class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
                                             <div class=" font-sans text-lg text-left col-span-6  ">
-
                                                 <p>El equipo dirigido por Lionel Scaloni, que venía de un empate en la edición anterior y una derrota en el Mundial de Qatar, mostró una mejora significativa en su juego y logró imponerse 2-0 en un partido que no estuvo exento de dificultades.
                                                 </p>
                                                 <br>
@@ -1181,27 +1178,17 @@
                                                             src="{{ asset('../img/noteros/gus.svg') }}"
                                                             alt="">
                                                         <p> <strong>Por Gustavo Cano<strong></p>
-
                                                         <p><strong><strong></p>
-
                                                     </figure> --}}
                                                 </div>
-
-
                                             </div>
-
-
-
                                         </div>
                                     </div>
                                 </article>
                             </li>
                         </ul>
                         <br>
-
                     </div>
-
-
                     {{-- columna de la derecha chica --}}
                     <aside>
                         <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
@@ -1210,11 +1197,8 @@
                                     <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
                                         alt="">
                                 </a>
-
                                 <div id="app">
-
                                     <div v-for="item in info">
-
                                         <div class="flex-col pb-3">
                                             <div
                                                 class="flex-col max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
@@ -1228,14 +1212,11 @@
                                                         <h5
                                                             class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                                                             @{{ item.title }}</h5>
-
                                                 </div>
                                             </div>
                                         </div>
-
                                     </div>
                                     <div v-for="va in clima">
-
                                         <h5
                                             class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                                             @{{ va }}</h5>
@@ -1244,10 +1225,8 @@
                             </div>
                         </div>
                     </aside>
-
                 </div>
-
-            </section>
+        </section>                  
         @elseif ($tituloSep == 'Deportes-Noticia-Completa-dep10')
             <section>
                 <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
@@ -1381,6 +1360,331 @@
                 </div>
 
             </section>
+        @elseif ($tituloSep == 'Deportes-Noticia-Completa-dep11')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">RACING Y PLATENSE DIVIDEN PUNTOS EN UN EMOCIONANTE EMPATE 
+                                            </a>
+                                            <p class="font-light  text-right text-gray-500">Publicado: 01/10/2024</p>
+                                        </h2>
+                                        <p><i>En el Cilindro de Avellaneda, la Academia y el Calamar empataron 1-1, un resultado que deja a Racing lejos del primer lugar de la Liga Profesional.
+                                        </i>
+                                    </p>
+                                        <br>
+                                        <figure>
+                                            <img class="w-full object-cover"
+                                                src="{{ asset('../img/dep/dep_racingplatense.svg') }}" alt="">
+                                        </figure>
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+                                                <p>Racing Club no logró consolidar su localía y empató 1-1 con Platense en un partido vibrante por la fecha 16 de la Liga Profesional. A pesar de la euforia por su reciente clasificación a las semifinales de la Copa Sudamericana, el equipo de Gustavo Costas continúa enfrentando dificultades en el torneo local, alejándose de la cima donde Vélez marca el paso con una ventaja de ocho puntos.
+                                                </p>
+                                                <br>
+                                                <p>El encuentro comenzó con un golpe sorpresivo para la Academia, que vio cómo, en el primer minuto y dieciocho segundos, Guido Mainero capitalizaba una jugada colectiva para abrir el marcador con un impresionante gol. Este inicio desafiante obligó a Racing a apelar a su garra y calidad para revertir la situación, lo cual hicieron a través de un juego más organizado y ofensivo.
+                                                </p>
+                                                <br>
+                                                <p>La respuesta llegó antes de que concluyera la primera parte. Santiago Sosa, con un hermoso remate desde fuera del área, igualó las acciones, desatando la euforia de los hinchas locales. El gol del mediocampista no solo trajo alivio, sino que revitalizó las esperanzas de Racing de conseguir una victoria en casa.
+                                                </p>
+                                                <br>
+                                                <p>En el segundo tiempo, Platense adoptó una estrategia defensiva, esperando aprovechar cualquier oportunidad al contraataque. A pesar de que Racing mantuvo la posesión y dominó el ritmo del juego, las ocasiones claras fueron escasas. El Calamar, bien plantado en defensa, frustró los intentos de la Academia de volver a tomar la delantera, y el marcador se mantuvo sin cambios.
+                                                </p>
+                                                <br>
+                                                <p>Con este empate, Racing se prepara para un desafío crucial el próximo sábado, cuando visitará a Vélez, mientras que Platense se medirá ante River Plate el domingo. A medida que la Liga Profesional avanza, ambos equipos saben que cada punto cuenta en su búsqueda de un lugar privilegiado en la tabla.
+                                                </p>
+                                                <br>
+                                                
+                                                <div class="text-start object-center">
+                                                    {{-- <figure>
+                                                        <img class="w-28 h-28  "
+                                                            src="{{ asset('../img/noteros/gus.svg') }}"
+                                                            alt="">
+                                                        <p> <strong>Por Gustavo Cano<strong></p>
+                                                        <p><strong><strong></p>
+                                                    </figure> --}}
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+                            </li>
+                        </ul>
+                        <br>
+                    </div>
+                    {{-- columna de la derecha chica --}}
+                    <aside>
+                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                            <div class=" col-span-6">
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
+                                        alt="">
+                                </a>
+
+                                <div id="app">
+
+                                    <div v-for="item in info">
+
+                                        <div class="flex-col pb-3">
+                                            <div
+                                                class="flex-col max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg"
+                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
+                                                        alt="" />
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5
+                                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                                            @{{ item.title }}</h5>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div v-for="va in clima">
+
+                                        <h5
+                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                            @{{ va }}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+
+                </div>
+
+            </section>
+        @elseif ($tituloSep == 'Deportes-Noticia-Completa-dep12')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">UN TRIUNFO HISTÓRICO DE LOS PUMAS A UN PASO DEL TÍTULO
+                                            </a>
+                                            <p class="font-light  text-right text-gray-500">Publicado: 23/09/2024</p>
+                                        </h2>
+                                        {{-- <p><i>En el Cilindro de Avellaneda, la Academia y el Calamar empataron 1-1, un resultado que deja a Racing lejos del primer lugar de la Liga Profesional. --}}
+                                        </i>
+                                    </p>
+                                        <br>
+                                        <figure>
+                                            <img class="w-full object-cover"
+                                                src="{{ asset('../img/dep/dep_pumas.svg') }}" alt="">
+                                        </figure>
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+                                                <p>El seleccionado nacional de rugby se llevó una victoria histórica contra Sudáfrica por 29-28, estableciendo dos registros inéditos en el Rugby Championship. Con esta hazaña, Los Pumas tienen la oportunidad de alzar su primer título en esta competición.
+                                                </p>
+                                                <br>
+                                                <p>El encuentro en el Estadio Madre de Ciudades comenzó desfavorable para los dirigidos por Felipe Contepomi, quienes se encontraron rápidamente en desventaja 17-0, gracias a los tries de Aphelele Fassi y Jesse Kriel, ambos convertidos por Handre Pollard. Sin embargo, Los Pumas reaccionaron y lograron ponerse en ventaja con tries de Mateo Carreras, Pablo Matera, Joel Sclavi y Tomás Albornoz, quien convirtió tres de las cuatro oportunidades. Al cierre del primer tiempo, los argentinos se fueron al descanso con una ventaja de 26-22, a pesar de que Cobus Reinach descontó para Sudáfrica.
+                                                </p>
+                                                <br>
+                                                <p>En el segundo tiempo, el ritmo del juego disminuyó, con solo tres penales anotados. Los Springboks tomaron la delantera nuevamente, pero Los Pumas, conscientes de la importancia del triunfo, buscaron la victoria. Albornoz volvió a poner a Argentina al frente a falta de 12 minutos. Sudáfrica tuvo la chance de ganar en el final con un penal, pero lo fallaron, y Los Pumas lograron sostener la mínima diferencia, manteniendo viva la esperanza de conquistar el título.
+                                                </p>
+                                                <br>
+                                                <p>En el segundo tiempo, Platense adoptó una estrategia defensiva, esperando aprovechar cualquier oportunidad al contraataque. A pesar de que Racing mantuvo la posesión y dominó el ritmo del juego, las ocasiones claras fueron escasas. El Calamar, bien plantado en defensa, frustró los intentos de la Academia de volver a tomar la delantera, y el marcador se mantuvo sin cambios.
+                                                </p>
+                                                <br>
+                                                <p>Con este triunfo, Los Pumas lograron vencer por primera vez a Nueva Zelanda, Australia y Sudáfrica en una misma edición del Rugby Championship, estableciendo un récord en cada victoria. En su debut, derrotaron a los All Blacks por 38-30, marcando la mayor cantidad de puntos como visitantes. En la cuarta fecha, aplastaron a Australia 67-27, la mayor goleada en su historia en este torneo.
+                                                </p>
+                                                <br>
+                                                <p>Este triunfo también asegura que Los Pumas terminen en el podio por tercera vez, habiendo sido terceros en 2015 y 2023. En la última jornada, Argentina es el único equipo que puede arrebatarle el título a Sudáfrica. Con 14 puntos, Los Pumas deben vencer a los Springboks nuevamente, obteniendo un bonus ofensivo y asegurándose de que Sudáfrica no sume puntos extra. De lograrse, empatarían en puntos, pero se llevarían el título al tener más victorias directas entre sí.
+                                                </p>
+                                                <br>
+                                                <p>La definición se llevará a cabo el próximo sábado 28 de septiembre a las 12:00 (hora de Argentina) en Nelspruit. La nación entera aguarda con expectativa este crucial encuentro, con la esperanza de que Los Pumas consigan la ansiada consagración.
+                                                </p>
+                                                <br>
+                                                
+                                                <div class="text-start object-center">
+                                                    {{-- <figure>
+                                                        <img class="w-28 h-28  "
+                                                            src="{{ asset('../img/noteros/gus.svg') }}"
+                                                            alt="">
+                                                        <p> <strong>Por Gustavo Cano<strong></p>
+                                                        <p><strong><strong></p>
+                                                    </figure> --}}
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+                            </li>
+                        </ul>
+                        <br>
+                    </div>
+                    {{-- columna de la derecha chica --}}
+                    <aside>
+                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                            <div class=" col-span-6">
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
+                                        alt="">
+                                </a>
+
+                                <div id="app">
+
+                                    <div v-for="item in info">
+
+                                        <div class="flex-col pb-3">
+                                            <div
+                                                class="flex-col max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg"
+                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
+                                                        alt="" />
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5
+                                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                                            @{{ item.title }}</h5>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div v-for="va in clima">
+
+                                        <h5
+                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                            @{{ va }}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+
+                </div>
+
+            </section>
+        @elseif ($tituloSep == 'Deportes-Noticia-Completa-dep13')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">PRIVATIZACIÓN EN EL AIRE, EL GOBIERNO NO CEDE EN LAS SAD
+                                            </a>
+                                            <p class="font-light  text-right text-gray-500">Publicado: 21/09/2024</p>
+                                        </h2>
+                                            <p><i>El intento de privatizar el fútbol argentino genera un fuerte rechazo entre las autoridades deportivas, mientras el Gobierno recurre a la Justicia. 
+                                        </i>
+                                    </p>
+                                        <br>
+                                        <figure>
+                                            <img class="w-full object-cover"
+                                                src="{{ asset('../img/dep/dep_nuncasad.svg') }}" alt="">
+                                        </figure>
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+                                                <p>El Gobierno argentino ha intensificado sus esfuerzos por implementar las Sociedades Anónimas Deportivas (SAD), a pesar del rechazo unánime de la Asociación del Fútbol Argentino (AFA). Tras un fallo del juez Elpidio Portocarrero Tezanos Pinto que suspendió la reglamentación de las SAD, las autoridades presentaron un recurso legal, desafiando así la decisión judicial que respalda a la AFA.
+                                                </p>
+                                                <br>
+                                                <p>El conflicto entre la AFA y el Gobierno no muestra signos de apaciguarse. El presidente de la AFA, Claudio Tapia, continúa firme en su oposición a la privatización del fútbol, mientras el Gobierno, liderado por Javier Milei, persiste en su intención de facilitar este modelo europeo que, argumentan, podría beneficiar a los clubes. Sin embargo, esta postura ha suscitado un amplio rechazo en el ámbito deportivo.
+                                                </p>
+                                                <br>
+                                                <p>En el segundo tiempo, el ritmo del juego disminuyó, con solo tres penales anotados. Los Springboks tomaron la delantera nuevamente, pero Los Pumas, conscientes de la importancia del triunfo, buscaron la victoria. Albornoz volvió a poner a Argentina al frente a falta de 12 minutos. Sudáfrica tuvo la chance de ganar en el final con un penal, pero lo fallaron, y Los Pumas lograron sostener la mínima diferencia, manteniendo viva la esperanza de conquistar el título.
+                                                </p>
+                                                <br>
+                                                <p>El fallo de Pinto, que prohíbe la reglamentación de las SAD, ha sido catalogado por el Gobierno como “mamarracho jurídico”, alegando que el juez se extralimitó en su función. El Ministerio de Justicia considera que la AFA debería ser regulada por el Estado, lo que podría abrir la puerta a una intervención aún más directa.
+                                                </p>
+                                                <br>
+                                                <p>Desde que Milei asumió la presidencia, el clima de tensión ha aumentado, con la AFA lanzando una acción judicial en defensa de su autonomía. La AFA sostiene que la inclusión de las SAD representaría una intromisión inaceptable en sus asuntos internos, violando principios fundamentales consagrados en la Constitución.
+                                                </p>
+                                                <br>
+                                                <p>Mientras el Gobierno intenta dar un golpe de efecto en este conflicto, la AFA sigue recibiendo apoyo internacional. La Conmebol y la FIFA han manifestado su respaldo a la asociación argentina, afirmando que cualquier intento del Estado por imponer un modelo de SAD es inconstitucional. Emiliano García Silvero, de la FIFA, enfatizó que la decisión sobre la naturaleza jurídica de los clubes debe ser tomada sin intervención estatal.
+                                                <br>
+                                                <p>La situación plantea un futuro incierto para el fútbol argentino. A medida que se intensifican los enfrentamientos entre el Gobierno y la AFA, la privatización del deporte rey sigue generando controversias que amenazan con fracturar la estructura del fútbol en el país. La lucha entre el deseo de privatización del Gobierno y la resistencia de la AFA marcará la agenda política y deportiva en los próximos meses.
+                                                <br>
+                                                
+                                                <div class="text-start object-center">
+                                                    {{-- <figure>
+                                                        <img class="w-28 h-28  "
+                                                            src="{{ asset('../img/noteros/gus.svg') }}"
+                                                            alt="">
+                                                        <p> <strong>Por Gustavo Cano<strong></p>
+                                                        <p><strong><strong></p>
+                                                    </figure> --}}
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+                            </li>
+                        </ul>
+                        <br>
+                    </div>
+                    {{-- columna de la derecha chica --}}
+                    <aside>
+                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                            <div class=" col-span-6">
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
+                                        alt="">
+                                </a>
+
+                                <div id="app">
+
+                                    <div v-for="item in info">
+
+                                        <div class="flex-col pb-3">
+                                            <div
+                                                class="flex-col max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg"
+                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
+                                                        alt="" />
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5
+                                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                                            @{{ item.title }}</h5>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div v-for="va in clima">
+
+                                        <h5
+                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                            @{{ va }}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+
+                </div>
+
+            </section>
         @endif
     </div>
 
@@ -1409,7 +1713,7 @@
 
                     /*    axios.get( */
                     /*      "https://api.weatherbit.io/v2.0/current?lat=35.7796&lon=-78.6382&key=f2207d043ea74a359ff232a1d03d0c72&include=minutely"
-                     )*/
+                    )*/
                     axios.get(
                             "https://api.openweathermap.org/2.5/wheater?q=BURNOS AIRESlat=35.7796&lon=-78.6382&key=f2207d043ea74a359ff232a1d03d0c72&include=minutely"
                         )

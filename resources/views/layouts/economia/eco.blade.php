@@ -1,5 +1,101 @@
 <x-app-layout>
     <div class="container ">
+
+
+{{--LA CAÍDA ACCIONARIA TRAS LAS PALABRAS DE MILEI EN NUEVA YORK  --}}
+<section>
+            <ul>
+                <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                    <article>
+                        <div class="py-4 px-4 justify-between items-center">
+                            <h2 class="text-xl font-serif  font-bold pb-6">
+                                <a href="">LA CAÍDA ACCIONARIA TRAS LAS PALABRAS DE MILEI EN NUEVA YORK </a>
+                                <p class="font-light  text-right text-gray-500">Publicado: 24/09/2024</p>
+                            </h2>
+                            <p><i>Las declaraciones del presidente sobre el cepo cambiario generan preocupación en el mercado y evidencian el rumbo perjudicial de su gestión económica.
+                            </i>
+                            </p>
+                            <br>
+                            <figure>
+                                <img class=" w-full object-cover" src="../img/eco/eco_nuevayork.svg"
+                                    alt="">
+                            </figure>
+                            <br>
+                            <div
+                                class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                <div class=" font-sans text-lg text-left col-span-6  ">
+                                    <p>La reciente definición hecha por el presidente Javier Milei en Nueva York, al afirmar que el cepo cambiario “se liberará cuando la tasa de inflación que tiene el programa macroeconómico sea cero”, desató una ola de ventas en el sector accionario, reflejando la creciente inquietud entre inversores y analistas. Este anuncio, que revela un enfoque extremo y perjudicial en la política económica, provocó un impacto inmediato en la bolsa porteña, donde el índice líder S&P Merval cayó un 1,8%, cerrando en 1.790.228,16 unidades. Las retracciones más significativas fueron las de Loma Negra, que descendió un 4,1%; Mirgor, con una caída del 3%; YPF, que retrocedió un 2,8%; y Banco Macro, con un descenso del 2,7%.
+                                    </p>
+                                    <br>
+                                    <p>En Wall Street, la situación fue similar. Los American Depositary Receipts (ADRs) que más cayeron fueron los de Loma Negra, con una caída del 3,6%; YPF, con un descenso del 3,2%; Pampa Energía, que retrocedió un 3%; y Banco Macro, que cayó un 2,9%. En contraste, las únicas acciones que mostraron un comportamiento positivo fueron las de Globant, con un incremento del 2%, y Cresud, que subió un 1%.
+                                    </p>
+                                    <br>
+                                    <p>La situación se vio agravada por el anuncio del Gobierno de llevar a cabo un nuevo canje de bonos, que, lejos de brindar estabilidad, genera más confusión y temor en los inversores. Este movimiento provocó una mayor oferta de títulos de deuda, resultando en bajas selectivas en el mercado. Los bonos en dólares reflejaron un saldo mayormente negativo, destacándose el Global 2029, que mostró un retroceso del 1,5%. Sin embargo, algunos inversionistas optaron por posicionarse en títulos de largo plazo, como los Global 2038 y 2046, ambos con un leve incremento del 0,5%.
+                                    </p>
+                                    <br>
+                                    <p>En este desolador panorama, el Riesgo País experimentó una leve baja del 0,8%, alcanzando los 1.308 puntos básicos, según la medición de JP Morgan. Este clima de incertidumbre económica, acentuado por un plan de gobierno que se aleja de las necesidades del pueblo y del futuro del país, deja a los argentinos en un estado de desasosiego y desconfianza hacia lo que está por venir.
+                                    </p>
+                                    <br>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </li>
+            </ul>
+            <br> 
+</section>
+
+{{-- CAÍDA DEL PBI EN EL PRIMER SEMESTRE --}}
+<section>
+            <ul>
+                <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                    <article>
+                        <div class="py-4 px-4 justify-between items-center">
+                            <h2 class="text-xl font-serif  font-bold pb-6">
+                                <a href="">CAÍDA DEL PBI EN EL PRIMER SEMESTRE </a>
+                                <p class="font-light  text-right text-gray-500">Publicado: 18/09/2024</p>
+                            </h2>
+                            <p><i>La actividad económica se retrajo un 3,4% en el primer semestre del año, con un PBI que continúa en descenso y una caída significativa en el consumo privado, según datos del Indec. </i>
+                            </p>
+                            <br>
+                            <figure>
+                                <img class=" w-full object-cover" src="../img/eco/eco_pbidesploma.svg"
+                                    alt="">
+                            </figure>
+                            <br>
+                            <div
+                                class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                <div class=" font-sans text-lg text-left col-span-6  ">
+                                    <p>La actividad económica acumuló un retroceso del 3,4% en el primer semestre del año, según informó el Instituto Nacional de Estadística y Censos (Indec). Durante el segundo trimestre de 2024, el Producto Bruto Interno (PBI) se redujo un 1,7% en comparación con el mismo período del año anterior, marcando así cinco caídas trimestrales consecutivas.
+                                    </p>
+                                    <br>
+                                    <p>El PBI de abril a junio también registró una disminución del 1,7% respecto al trimestre anterior, evidenciando una tendencia de desaceleración económica. Ante estos datos, el economista Gabriel Caamaño advirtió en la red social X que el segundo trimestre de 2024 podría ser el punto más bajo antes de una posible recuperación.
+                                    </p>
+                                    <br>
+                                    <p>El exministro de Economía, Alfonso Prat Gay, resaltó que en el primer semestre, “el consumo privado cayó casi cuatro veces más rápido que el consumo público”, cuestionando la situación económica actual y lanzando la interrogante: “¿La casta eras vos?”.
+                                    </p>
+                                    <br>
+                                    <p>Los datos del segundo trimestre muestran un descenso del 6,4% en la oferta global comparado con el mismo período del año anterior. Este declive se debe a una caída del 1,7% en el PIB y una reducción del 22,5% en las importaciones de bienes y servicios
+                                    </p>
+                                    <br>
+                                    <p>En cuanto a la demanda global, se observó una disminución del 29,4% en la formación bruta de capital fijo, un incremento del 31,4% en las exportaciones de bienes y servicios, y un descenso del 9,8% en el consumo privado. Además, el consumo público también experimentó una caída del 6,0%.
+                                    </p>
+                                    <br>
+                                    <p>En términos desestacionalizados, comparando con el primer trimestre de 2024, las importaciones disminuyeron un 5,5%, el consumo privado bajó un 4,1% y el consumo público un 1,1%. Por otro lado, las exportaciones crecieron un 3,9%, mientras que la formación bruta de capital fijo se contrajo un 9,1%.
+                                    </p>
+                                    <br>
+                                    <p>El gobierno, en el proyecto de Ley de Presupuesto enviado al Congreso, estima que el PBI caerá un 3,8% en el presente año, aunque prevé un “rebote” del 5% para 2025, seguido de otro aumento del 5% en 2026.
+                                    </p>
+                                    <br>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </li>
+            </ul>
+            <br>
+</section>
+
     {{--ALERTA SOBRE EL RIESGO DE "DOBLE D" EN EL PLAN DE CAPUTO --}}
 <section >
     <ul>

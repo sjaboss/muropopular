@@ -1,5 +1,128 @@
 <x-app-layout>
     <div class="container ">
+{{-- UN TRIUNFO HISTÓRICO DE LOS PUMAS A UN PASO DEL TÍTULO --}}
+<section>
+            <ul>
+                <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                    <article>
+
+                        <div class="py-4 px-4 justify-between items-center">
+                            <h2 class="text-xl font-serif  font-bold pb-6">
+                                <a href="">UN TRIUNFO HISTÓRICO DE LOS PUMAS A UN PASO DEL TÍTULO
+                                </a>
+                                <p class="font-light  text-right text-gray-500">Publicado: 23/09/2024</p>
+                            </h2>
+                            {{-- <p><i>En el Cilindro de Avellaneda, la Academia y el Calamar empataron 1-1, un resultado que deja a Racing lejos del primer lugar de la Liga Profesional. --}}
+                            </i>
+                        </p>
+                            <br>
+                            <figure>
+                                <img class="w-full object-cover"
+                                    src="{{ asset('../img/dep/dep_pumas.svg') }}" alt="">
+                            </figure>
+                            <br>
+                            <div
+                                class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                <div class=" font-sans text-lg text-left col-span-6  ">
+                                    <p>El seleccionado nacional de rugby se llevó una victoria histórica contra Sudáfrica por 29-28, estableciendo dos registros inéditos en el Rugby Championship. Con esta hazaña, Los Pumas tienen la oportunidad de alzar su primer título en esta competición.
+                                    </p>
+                                    <br>
+                                    <p>El encuentro en el Estadio Madre de Ciudades comenzó desfavorable para los dirigidos por Felipe Contepomi, quienes se encontraron rápidamente en desventaja 17-0, gracias a los tries de Aphelele Fassi y Jesse Kriel, ambos convertidos por Handre Pollard. Sin embargo, Los Pumas reaccionaron y lograron ponerse en ventaja con tries de Mateo Carreras, Pablo Matera, Joel Sclavi y Tomás Albornoz, quien convirtió tres de las cuatro oportunidades. Al cierre del primer tiempo, los argentinos se fueron al descanso con una ventaja de 26-22, a pesar de que Cobus Reinach descontó para Sudáfrica.
+                                    </p>
+                                    <br>
+                                    <p>En el segundo tiempo, el ritmo del juego disminuyó, con solo tres penales anotados. Los Springboks tomaron la delantera nuevamente, pero Los Pumas, conscientes de la importancia del triunfo, buscaron la victoria. Albornoz volvió a poner a Argentina al frente a falta de 12 minutos. Sudáfrica tuvo la chance de ganar en el final con un penal, pero lo fallaron, y Los Pumas lograron sostener la mínima diferencia, manteniendo viva la esperanza de conquistar el título.
+                                    </p>
+                                    <br>
+                                    <p>En el segundo tiempo, Platense adoptó una estrategia defensiva, esperando aprovechar cualquier oportunidad al contraataque. A pesar de que Racing mantuvo la posesión y dominó el ritmo del juego, las ocasiones claras fueron escasas. El Calamar, bien plantado en defensa, frustró los intentos de la Academia de volver a tomar la delantera, y el marcador se mantuvo sin cambios.
+                                    </p>
+                                    <br>
+                                    <p>Con este triunfo, Los Pumas lograron vencer por primera vez a Nueva Zelanda, Australia y Sudáfrica en una misma edición del Rugby Championship, estableciendo un récord en cada victoria. En su debut, derrotaron a los All Blacks por 38-30, marcando la mayor cantidad de puntos como visitantes. En la cuarta fecha, aplastaron a Australia 67-27, la mayor goleada en su historia en este torneo.
+                                    </p>
+                                    <br>
+                                    <p>Este triunfo también asegura que Los Pumas terminen en el podio por tercera vez, habiendo sido terceros en 2015 y 2023. En la última jornada, Argentina es el único equipo que puede arrebatarle el título a Sudáfrica. Con 14 puntos, Los Pumas deben vencer a los Springboks nuevamente, obteniendo un bonus ofensivo y asegurándose de que Sudáfrica no sume puntos extra. De lograrse, empatarían en puntos, pero se llevarían el título al tener más victorias directas entre sí.
+                                    </p>
+                                    <br>
+                                    <p>La definición se llevará a cabo el próximo sábado 28 de septiembre a las 12:00 (hora de Argentina) en Nelspruit. La nación entera aguarda con expectativa este crucial encuentro, con la esperanza de que Los Pumas consigan la ansiada consagración.
+                                    </p>
+                                    <br>
+                                    
+                                    <div class="text-start object-center">
+                                        {{-- <figure>
+                                            <img class="w-28 h-28  "
+                                                src="{{ asset('../img/noteros/gus.svg') }}"
+                                                alt="">
+                                            <p> <strong>Por Gustavo Cano<strong></p>
+                                            <p><strong><strong></p>
+                                        </figure> --}}
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </li>
+            </ul>
+            <br>
+        
+    </div>
+
+</section>
+{{-- RACING Y PLATENSE DIVIDEN PUNTOS EN UN EMOCIONANTE EMPATE  --}}
+<section>
+            <ul>
+                <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                    <article>
+
+                        <div class="py-4 px-4 justify-between items-center">
+                            <h2 class="text-xl font-serif  font-bold pb-6">
+                                <a href="">RACING Y PLATENSE DIVIDEN PUNTOS EN UN EMOCIONANTE EMPATE 
+                                </a>
+                                <p class="font-light  text-right text-gray-500">Publicado: 01/10/2024</p>
+                            </h2>
+                            <p><i>En el Cilindro de Avellaneda, la Academia y el Calamar empataron 1-1, un resultado que deja a Racing lejos del primer lugar de la Liga Profesional.
+                            </i>
+                        </p>
+                            <br>
+                            <figure>
+                                <img class="w-full object-cover"
+                                    src="{{ asset('../img/dep/dep_racingplatense.svg') }}" alt="">
+                            </figure>
+                            <br>
+                            <div
+                                class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                <div class=" font-sans text-lg text-left col-span-6  ">
+                                    <p>Racing Club no logró consolidar su localía y empató 1-1 con Platense en un partido vibrante por la fecha 16 de la Liga Profesional. A pesar de la euforia por su reciente clasificación a las semifinales de la Copa Sudamericana, el equipo de Gustavo Costas continúa enfrentando dificultades en el torneo local, alejándose de la cima donde Vélez marca el paso con una ventaja de ocho puntos.
+                                    </p>
+                                    <br>
+                                    <p>El encuentro comenzó con un golpe sorpresivo para la Academia, que vio cómo, en el primer minuto y dieciocho segundos, Guido Mainero capitalizaba una jugada colectiva para abrir el marcador con un impresionante gol. Este inicio desafiante obligó a Racing a apelar a su garra y calidad para revertir la situación, lo cual hicieron a través de un juego más organizado y ofensivo.
+                                    </p>
+                                    <br>
+                                    <p>La respuesta llegó antes de que concluyera la primera parte. Santiago Sosa, con un hermoso remate desde fuera del área, igualó las acciones, desatando la euforia de los hinchas locales. El gol del mediocampista no solo trajo alivio, sino que revitalizó las esperanzas de Racing de conseguir una victoria en casa.
+                                    </p>
+                                    <br>
+                                    <p>En el segundo tiempo, Platense adoptó una estrategia defensiva, esperando aprovechar cualquier oportunidad al contraataque. A pesar de que Racing mantuvo la posesión y dominó el ritmo del juego, las ocasiones claras fueron escasas. El Calamar, bien plantado en defensa, frustró los intentos de la Academia de volver a tomar la delantera, y el marcador se mantuvo sin cambios.
+                                    </p>
+                                    <br>
+                                    <p>Con este empate, Racing se prepara para un desafío crucial el próximo sábado, cuando visitará a Vélez, mientras que Platense se medirá ante River Plate el domingo. A medida que la Liga Profesional avanza, ambos equipos saben que cada punto cuenta en su búsqueda de un lugar privilegiado en la tabla.
+                                    </p>
+                                    <br>
+                                    
+                                    <div class="text-start object-center">
+                                        {{-- <figure>
+                                            <img class="w-28 h-28  "
+                                                src="{{ asset('../img/noteros/gus.svg') }}"
+                                                alt="">
+                                            <p> <strong>Por Gustavo Cano<strong></p>
+                                            <p><strong><strong></p>
+                                        </figure> --}}
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </li>
+            </ul>
+            <br>
+</section>
         {{-- CAMPEÓN EN TIERRA AJENA, LA COPA AMÉRICA ES NUESTRA  --}}
     <section>
         <ul>
@@ -284,7 +407,7 @@
             </li>
         </ul>
     </section>
-       {{-- BUENOS AIRES SERÁ LA SEDE DE LA FINAL DE LA COPA LIBERTADORES 2024  --}}
+    {{-- BUENOS AIRES SERÁ LA SEDE DE LA FINAL DE LA COPA LIBERTADORES 2024  --}}
     <section>
         <ul>
             <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
@@ -528,7 +651,7 @@
 </section>
 <br><br>  
 
-       {{-- RIVER CAMPEON DE LA LIGA PROFESIONAL ARGENTINA: ¿QUE ES LO QUE SE VIENE?  --}}
+{{-- RIVER CAMPEON DE LA LIGA PROFESIONAL ARGENTINA: ¿QUE ES LO QUE SE VIENE?  --}}
         <section>
                                         <ul>
                                             <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}

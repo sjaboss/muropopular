@@ -4157,6 +4157,214 @@
                 </div>
 
             </section>
+        @elseif ($tituloSep == 'Derechos-Humanos-Noticia-Completa-der31')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">DE LA CIÉNAGA A LA VERDAD
+                                            </a>
+                                            <p class="font-light text-gray-500">JUSTICIA TARDÍA Y OLVIDOS PERSISTENTES
+                                            </p> 
+                                        </h2>
+                                        <p class="font-light  text-right text-gray-500">Publicado: 16/09/2024</p>
+                                        <p><i>A 48 años de la Noche de los Lápices, la justicia argentina aún debe enfrentar el desafío de visibilizar las violencias de género en el terrorismo de Estado</i>
+                                    </p>
+                                        <br>
+                                        <figure>
+                                            <img class="w-full object-cover"
+                                                src="{{ asset('../img/der/der_lapices.svg') }}" alt="">
+                                        </figure>
+                                        {{-- <article>
+                                            <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/XSNYTBkbmx4?si=V9zwrQyh3h5dyKbu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                            
+                                        </article> --}}
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+                                                <p>En un momento en que el discurso de odio y la negación de la historia cobran protagonismo en la política argentina, resulta vital recordar y reivindicar la memoria de quienes sufrieron las atrocidades del terrorismo de Estado. Este año, 48 años después de la Noche de los Lápices, la justicia finalmente reconoció los crímenes de violencia sexual sufridos por las víctimas de aquel operativo. Sin embargo, este reconocimiento llega en un contexto de ajuste y represión, donde el gobierno actual parece más interesado en silenciar voces que en garantizar la verdad y la justicia
+                                                </p>
+                                                <br>
+                                                <p>La reciente condena a seis represores por los crímenes sexuales cometidos durante la Noche de los Lápices representa un hito importante en la búsqueda de justicia, pero también pone de relieve la larga lucha que han enfrentado las víctimas y sus familias. A lo largo de los años, muchos testimonios fueron ignorados o minimizados por un sistema judicial que, en ocasiones, ha mostrado resistencia a abordar las violencias de género en el contexto del terrorismo de Estado. Este año, la justicia ha comenzado a visibilizar estos crímenes, pero es fundamental que no se detenga aquí. La sociedad debe seguir exigiendo que se reconozcan y se juzguen todas las formas de violencia sufridas por las víctimas, garantizando así un tratamiento justo y equitativo de sus historias.
+                                                </p>
+                                                <br>
+                                                <p>La continuidad de políticas de memoria, verdad y justicia es crucial en este contexto de negacionismo. Si bien la condena a los responsables de estos delitos es un avance, el Estado debe asumir una postura activa en la defensa de los derechos humanos, garantizando que la historia no se repita. Solo así se podrá honrar la memoria de quienes fueron víctimas de la represión y se podrá construir un futuro en el que la justicia y la dignidad sean valores innegociables.
+                                                </p>
+                                                <br>
+                                                <div class="text-start object-center">
+                                                    <figure>
+                                                        <img class="w-28 h-28  "
+                                                            src="{{ asset('../img/der/Adri.svg') }}"
+                                                            alt="">
+                                                        <p> <strong>Por Adriana Zerdín<strong></p>
+                                                        <p><strong><strong></p>
+                                                    </figure>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+                            </li>
+                        </ul>
+                    </div>
+                    {{-- columna de la derecha chica --}}
+                    <aside>
+                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                            <div class=" col-span-6">
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/bener-leg2.png') }}"
+                                        alt="">
+                                </a>
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
+                                        alt="">
+                                </a>
+                                <div id="app">
+                                    <div v-for="item in info">
+                                        <div class="flex-col pb-3">
+                                            <div
+                                                class="flex-col max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg"
+                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
+                                                        alt="" />
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5
+                                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                                            @{{ item.title }}</h5>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div v-for="va in clima">
+
+                                        <h5
+                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                            @{{ va }}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+                </div>
+
+            </section>
+        @elseif ($tituloSep == 'Derechos-Humanos-Noticia-Completa-der32')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">JORGE JULIO LÓPEZ, UN RECUERDO VIVO EN LA LUCHA POR LA JUSTICIA
+                                            </a>
+                                            <p class="font-light text-gray-500">JUSTICIA TARDÍA Y OLVIDOS PERSISTENTES
+                                            </p> 
+                                        </h2>
+                                        <p class="font-light  text-right text-gray-500">Publicado: 20/09/2024</p>
+                                        <p><i>Se conmemoran 18 años de la desaparición del albañil y militante peronista, quien fue un testigo clave en el juicio al genocida Miguel Etchecolatz. Actividades en La Plata recordaron su legado y la lucha por justicia.
+                                        </i>
+                                    </p>
+                                        <br>
+                                        <figure>
+                                            <img class="w-full object-cover"
+                                                src="{{ asset('../img/der/der_juliolopez.svg') }}" alt="">
+                                        </figure>
+                                        {{-- <article>
+                                            <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/XSNYTBkbmx4?si=V9zwrQyh3h5dyKbu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                            
+                                        </article> --}}
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+                                                <p>El 18 de septiembre de 2006, el juicio que condenó a Miguel Etchecolatz a prisión perpetua se vio marcado por la inquietante ausencia de Jorge Julio López, un testigo crucial que había denunciado crímenes de lesa humanidad durante la dictadura cívico-militar. López, que había sido detenido entre 1976 y 1979, desapareció por segunda vez el mismo día en que se dictaba sentencia, lo que dejó a muchos cuestionando la protección que el Estado ofrecía a quienes se atrevían a romper el silencio.
+                                                </p>
+                                                <br>
+                                                <p>En el transcurso de la jornada, se llevaron a cabo actos conmemorativos en La Plata, donde la memoria de López fue reivindicada por familiares, amigos y activistas. La Comisión Provincial por la Memoria (CPM) destacó la importancia de su testimonio, que ayudó a inscribir el genocidio en el discurso judicial argentino.
+                                                </p>
+                                                <br>
+                                                <p>A pesar de los esfuerzos, la búsqueda de justicia ha sido un camino tortuoso. En 2014, la denuncia del colectivo “Justicia YA!” ante la Comisión Interamericana de Derechos Humanos (CIDH) puso de manifiesto la responsabilidad del Estado argentino en el impedimento de las investigaciones relacionadas con la desaparición de López. En 2023, el gobierno argentino finalmente reconoció su responsabilidad internacional en el caso, comprometiéndose a mejorar las medidas de protección para testigos de crímenes de lesa humanidad.
+                                                </p>
+                                                <p>Recientemente, la provincia de Buenos Aires anunció un aumento en la recompensa para quienes puedan ofrecer información sobre el paradero de Jorge Julio López, que ahora oscila entre 2.500.000 y 5.000.000 de pesos. La comunidad continúa demandando justicia y visibilidad para los casos de desapariciones forzadas, especialmente en un contexto político que amenaza la memoria y los derechos humanos.
+                                                </p>
+                                                <br>
+                                                <p>Mientras el silencio aún envuelve a los responsables de la desaparición de López, sus familiares y la sociedad civil mantienen viva su memoria, exigiendo justicia y recordando que la lucha por los derechos humanos es un compromiso inquebrantable. La reciente marcha en La Plata, que exigió "cárcel común, perpetua y efectiva a todos los genocidas", demuestra que la búsqueda de verdad y justicia sigue siendo un faro en la memoria colectiva.
+                                                </p>
+                                                <br>
+                                                <div class="text-start object-center">
+                                                    <figure>
+                                                        <img class="w-28 h-28  "
+                                                            src="{{ asset('../img/der/Adri.svg') }}"
+                                                            alt="">
+                                                        <p> <strong>Por Adriana Zerdín<strong></p>
+                                                        <p><strong><strong></p>
+                                                    </figure>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+                            </li>
+                        </ul>
+                    </div>
+                    {{-- columna de la derecha chica --}}
+                    <aside>
+                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                            <div class=" col-span-6">
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/bener-leg2.png') }}"
+                                        alt="">
+                                </a>
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
+                                        alt="">
+                                </a>
+                                <div id="app">
+                                    <div v-for="item in info">
+                                        <div class="flex-col pb-3">
+                                            <div
+                                                class="flex-col max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg"
+                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
+                                                        alt="" />
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5
+                                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                                            @{{ item.title }}</h5>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div v-for="va in clima">
+
+                                        <h5
+                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                            @{{ va }}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+                </div>
+
+            </section>
         @endif
     </div>
 

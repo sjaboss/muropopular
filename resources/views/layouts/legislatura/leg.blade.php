@@ -1,5 +1,306 @@
 <x-app-layout>
     <div class="container ">
+{{-- TANGO EN TRÍO Y HORACIO SPINETTO, DISTINGUIDOS POR LA LEGISLATURA --}}
+<section>
+                    <ul>
+                        <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                            <article>
+                                <div class="py-4 px-4 justify-between items-center">
+                                    <h2 class="text-xl font-serif  font-bold pb-6">
+                                        <a href="">TANGO EN TRÍO Y HORACIO SPINETTO, DISTINGUIDOS POR LA LEGISLATURA
+                                        </a>
+                                    </h2>
+                                    <p class="font-light  text-right text-gray-500">Publicado: 30/09/2024</p>
+                                    <p><i>La Legislatura de la Ciudad de Buenos Aires declaró de Interés a la agrupación Tango en Trío y reconoció a Horacio Spinetto como Personalidad Destacada, en un acto que resaltó la importancia de la cultura local y el legado de sus protagonistas.
+                                    </i></p>
+                                    <br>
+                                    <figure>
+                                        <a href="">
+                                            <img class="w-full object-cover object-center"
+                                                src="{{ asset('../img/leg/leg_tangotrio.svg') }}"
+                                                alt="">
+                                        </a>
+                                    </figure>
+                                    {{-- <article>
+                                        <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/cNeE0eEE5Tc?si=RMO51UzsraJUAVpK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                        
+                                    </article> --}}
+                                    <br>
+                                    <div
+                                        class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                        <div class=" font-sans text-lg text-left col-span-6  ">
+                                            <p>En el Salón Montevideo, los diputados celebraron el aporte de Tango en Trío al tango argentino, con la presencia de Matías Barroetaveña, legislador autor del proyecto, y los integrantes del trío: Jorge Donadío (bandoneón), Lorena Conca (voz) y Osvaldo Tubino (guitarra y arreglos). Barroetaveña destacó la relevancia del tango como parte de la identidad porteña, enfatizando que “defender la identidad no tiene que ver con el pasado, sino con la ciudad que queremos”.
+                                            </p>
+                                            <br>
+                                            <p>Tango en Trío ha llevado su música a distintos escenarios, interpretando tangos, valses y milongas, además de obras originales. Su participación en festivales y milongas, así como en espacios emblemáticos como el Café Tortoni y el Festival de Tango de Buenos Aires, demuestra su compromiso por mantener viva la tradición tanguera.
+                                            </p>
+                                            <br>
+                                            <p>El acto también homenajeó a Horacio Spinetto, arquitecto y gestor cultural, quien recibió el reconocimiento de la diputada María Fernanda Mollard. Ella subrayó la importancia de los bares en la cultura porteña, considerándolos como parte esencial del “ADN de Buenos Aires”. Spinetto, emocionado, afirmó su amor por la ciudad y su deseo de seguir contribuyendo a la cultura local.
+                                            </p>
+                                            <br>
+                                            <p>A lo largo de su carrera, Spinetto ha trabajado en diversas áreas relacionadas con la cultura y el patrimonio de Buenos Aires, participando en la gestión de programas que preservan la historia y la identidad de la ciudad. Su labor incluye la dirección del Periódico “Un Cortado” y la publicación de más de 15 libros que exploran la rica herencia cultural porteña.
+                                            </p>
+                                            <br>                                      
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+                        </li>
+                    </ul>
+                    <br>
+        </section>
+{{-- LA LEGISLATURA DECLARA DE INTERÉS EL LIBRO DE FORCINITI SOBRE EL VELO SOCIETARIO --}}
+<section>
+                    <ul>
+                        <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                            <article>
+                                <div class="py-4 px-4 justify-between items-center">
+                                    <h2 class="text-xl font-serif  font-bold pb-6">
+                                        <a href="">LA LEGISLATURA DECLARA DE INTERÉS EL LIBRO DE FORCINITI SOBRE EL VELO SOCIETARIO
+                                        </a>
+                                    </h2>
+                                    <p class="font-light  text-right text-gray-500">Publicado: 16/09/2024</p>
+                                    <p><i>Por medio de un proyecto presentado por la diputada, Patricia Glize, el Cuerpo Legislativo resaltó la obra que realiza un aporte al derecho de los consumidores.
+                                    </i></p>
+                                    <br>
+                                    <figure>
+                                        <a href="">
+                                            <img class="w-full object-cover object-center"
+                                                src="{{ asset('../img/leg/leg_interes.svg') }}"
+                                                alt="">
+                                        </a>
+                                    </figure>
+                                    {{-- <article>
+                                        <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/cNeE0eEE5Tc?si=RMO51UzsraJUAVpK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                        
+                                    </article> --}}
+                                    <br>
+                                    <div
+                                        class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                        <div class=" font-sans text-lg text-left col-span-6  ">
+                                            <p>La Legislatura de la Ciudad declaró de Interés para la Comunicación Social al libro “Corrimiento del Velo Societario: Apariencia y Realidad en el Derecho del Consumidor”, del jurista, Juan Sebastián Forciniti. El Salón Montevideo fue el escenario del acto encabezado por la diputada e impulsora, Patricia Glize; y quien estuvo acompañada por el autor de la publicación y por Esther Ferrer de Fernández, doctora en Derecho de la Universidad de Buenos Aires.
+                                            </p>
+                                            <br>
+                                            <p>“Es un honor homenajear al gran trabajo realizado por Sebastián, en un tema tan necesario para los consumidores”, destacó Glize al inicio de las alocuciones. Además, resaltó la experiencia del jurista y su compromiso en la temática. Y subrayó: “Es un orgullo ver tanta gente joven y dedicada que le pone su vida, su garra al derecho y a la sociedad y a poder transformar”.
+                                            <br>
+                                            <p>Finalmente, Forciniti agradeció a Glize por el proyecto y por la apertura de las puertas “a un mundo de debate” como es el legislativo. Y concluyó: “El libro, si bien es una herramienta para los consumidores, también pondera el derecho constitucional de asociarse con fines útiles. Las sociedades no son malas y esto hay que entenderlo, el derecho societario como una herramienta jurídica y económica es muy importante porque implica puestos de trabajo y el desarrollo de la economía”.
+                                            </p>
+                                            <br>
+                                            <p>El libro “Corrimiento del Velo Societario: Apariencia y Realidad en el Derecho del Consumidor” es un valioso aporte al derecho de los consumidores. Escrita bajo la técnica jurídica y al mismo tiempo con un lenguaje amigable para el consumidor, la obra es central para aquellos que se interesen en adquirir conocimientos esenciales en la materia, especialmente aquellos que se relacionan habitualmente con proveedores de bienes y servicios.
+                                            </p>
+                                            <br>
+                                            <p>El texto pone de manifiesto el factor multiplicador del consumo con foco en la contratación digital y nuevas tecnologías, mereciendo la máxima tutela por parte del consumidor que suele estar expuesto a una gran cantidad de publicidad, información y datos que culminan en operaciones de productos y servicios ofrecidos masivamente.
+                                            </p>
+                                            <br>
+                                            <p>El enfoque del autor reconoce igualmente la importancia de las sociedades comerciales como herramientas indispensables para el desarrollo económico y protección de la inversión privada. Su autor es un jurista formado en Derecho Comercial, especializado en Relaciones de Consumo entre las empresas y los usuarios de bienes y servicios.
+                                            </p>
+                                            <br>                                               
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+                        </li>
+                    </ul>
+                    <br>
+</section>
+{{-- LA LEGISLATURA DECLARÓ DE INTERÉS PARA LA CIUDAD LA ASOCIACIÓN CIVIL “AMIGOS EN EL CAMINO” --}}
+<section>
+                    <ul>
+                        <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                            <article>
+
+                                <div class="py-4 px-4 justify-between items-center">
+                                    <h2 class="text-xl font-serif  font-bold pb-6">
+                                        <a href="">LA LEGISLATURA DECLARÓ DE INTERÉS PARA LA CIUDAD LA ASOCIACIÓN CIVIL “AMIGOS EN EL CAMINO”
+                                        </a>
+                                    </h2>
+                                    <p class="font-light  text-right text-gray-500">Publicado: 24/09/2024</p>
+                                    <p><i>El Cuerpo Legislativo destacó a la asociación que lleva 12 años trabajando para las personas que se encuentran en situación de calle en la ciudad. 
+                                    </i></p>
+                                    <br>
+                                    <figure>
+                                        <a href="">
+                                            <img class="w-full object-cover object-center"
+                                                src="{{ asset('../img/leg/leg_40conadep.svg') }}"
+                                                alt="">
+                                        </a>
+                                    </figure>
+                                    {{-- <article>
+                                        <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/cNeE0eEE5Tc?si=RMO51UzsraJUAVpK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                        
+                                    </article> --}}
+                                    <br>
+                                    <div
+                                        class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                        <div class=" font-sans text-lg text-left col-span-6  ">
+                                            <p>La Legislatura de la Ciudad declaró de Interés Social a la Asociación Civil “Amigos en el Camino”. El acto se llevó a cabo en el Salón Dorado y fue encabezado por el diputado y autor del proyecto, Matías Barroetaveña, quien estuvo acompañado por Paola Vázquez, representante de Abrigar Derechos y Asamblea Popular por los Derechos de las Personas en Situación de Calle; María José Bonelli, representante de la Merienda de los Sueños; Patricia Sarquis, Presidenta de La Asociación Civil Amigos en el Camino; y Mónica De Russis, Directora Ejecutiva de Amigos en el Camino y Fundadora de la Merienda de los Sueños.
+
+                                            </p>
+                                            <br>
+                                            <p>Luego de dar la bienvenida al Palacio Legislativo, Barroetaveña destacó que la distinción es "la Ciudad de Buenos Aires cuenta con una sociedad civil y una comunidad organizada, que es un ejemplo cotidiano”.
+
+                                            <br>
+                                            <p>Por su parte, De Russis resaltó los “muchos años de trabajo y poner el corazón, de alegrías y tristezas”. Por último, Sarquís concluyó: “Este encuentro está atravesado por el afecto y estamos presentes personas que nos vinculamos a través del amor, la solidaridad y el gesto que nos humaniza, que tiene que ver ni más ni menos que con la generosidad”.
+
+                                            </p>
+                                            <br>
+                                            <p>La Asociación nació en el año 2011 a partir de un grupo de compañeros preocupados por el aumento de la cantidad de personas en situación de calle que veían en sus barrios y alrededores. Actualmente, todas las noches de domingo a viernes recorren las diversas comunas de la ciudad ofreciendo ayuda a las personas en esta situación. Les brindan comida casera, bebidas, infusiones, abrigo, frazadas, calzada y elementos de higiene personal, entre más.
+
+                                            </p>
+                                            <br>
+                                            <p>También cuenta con una amplia trayectoria y experiencia en el abordaje, acompañamiento, atención y asistencia hacia las personas en esta situación, promoviendo y protegiendo sus derechos y propiciando oportunidades que evitan un círculo vicioso que oscila entre la calle, los paradores y los hoteles.
+
+                                            </p>
+                                            <br>
+                                            <p>TAmigos en el Camino visita alrededor de 1000 personas en situación de calle por semana, no recibe subsidios y solo depende de los aportes personales y de las donaciones solidarias. A partir de la relación que crean con cada persona, sus promotores intentan ayudarlos a que dejen la calle, ya sea a través de asesoría legal, inserción laboral o promoviendo que inicien un tratamiento los que atraviesan problemas de consumo.
+
+
+                                            </p>
+                                            <br>                                               
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+                        </li>
+                    </ul>
+                    <br>         
+</section>
+{{-- A 40 AÑOS DEL INFORME DE CONADEP LA LEGISLATURA INAUGURÓ LA MUESTRA EVIDENCIAS --}}
+<section>
+                    <ul>
+                        <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                            <article>
+                                <div class="py-4 px-4 justify-between items-center">
+                                    <h2 class="text-xl font-serif  font-bold pb-6">
+                                        <a href="">A 40 AÑOS DEL INFORME DE CONADEP LA LEGISLATURA INAUGURÓ LA MUESTRA EVIDENCIAS</a>
+                                    </h2>
+                                    <p class="font-light  text-right text-gray-500">Publicado: 21/09/2024</p>
+                                    <p><i>La exposición fotográfica de Enrique Shorese conmemora la lucha por la memoria y los derechos humanos en Argentina. 
+                                    </i></p>
+                                    <br>
+                                    <figure>
+                                        <a href="">
+                                            <img class="w-full object-cover object-center"
+                                                src="{{ asset('../img/leg/leg_40conadep.svg') }}"
+                                                alt="">
+                                        </a>
+                                    </figure>
+                                    {{-- <article>
+                                        <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/cNeE0eEE5Tc?si=RMO51UzsraJUAVpK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                        
+                                    </article> --}}
+                                    <br>
+                                    <div
+                                        class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                        <div class=" font-sans text-lg text-left col-span-6  ">
+                                            <p>La Legislatura de la Ciudad de Buenos Aires abrió las puertas de la muestra “Evidencias”, en conmemoración del 40 aniversario del informe “Nunca Más”. Esta exposición, compuesta por 176 fotografías de Enrique Shorese, retrata los horrores de la dictadura militar, los centros clandestinos de detención y el testimonio de los sobrevivientes. La muestra estará disponible hasta el 4 de octubre en el Palacio Legislativo con entrada libre y gratuita.
+                                            </p>
+                                            <br>
+                                            <p>El evento fue encabezado por la diputada María Cecilia Ferrero, impulsora del proyecto, y el vicepresidente primero de la Legislatura, Matías López. Estuvieron presentes el propio Enrique Shorese, el secretario general de la AMIA, Gabriel Gorenstein, y Graciela Fernández Mejide, integrante de la CONADEP.
+                                            </p>
+                                            <br>
+                                            <p>Durante su discurso, López destacó la importancia de mantener viva la memoria: “Estas imágenes nos recuerdan un pasado oscuro que no debe volver a repetirse”. Por su parte, Shorese, emocionado, recordó cómo sus fotografías dieron visibilidad a los crímenes de lesa humanidad cometidos en los años más oscuros de la Argentina. La muestra, además, incluye imágenes de las primeras movilizaciones por los derechos humanos y el retorno de la democracia.
+                                            </p>
+                                            <br>
+                                            <p>Exposición "Mujeres que inspiran: deportistas argentinas en acción"
+                                            </p>
+                                            <br>
+                                            <p>La exposición fue declarada de Interés Cultural y busca generar conciencia en torno a la necesidad de preservar la memoria y la justicia en la sociedad.
+                                            </p>
+                                            <br>                                              
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+                        </li>
+                    </ul>
+                    <br>            
+</section>
+{{-- LA CAMPAÑA “DEPORTE PARA LA IGUALDAD” DECLARADA DE INTERÉS EN LA CIUDAD --}}
+<section>
+                    <ul>
+                        <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                            <article>
+                                <div class="py-4 px-4 justify-between items-center">
+                                    <h2 class="text-xl font-serif  font-bold pb-6">
+                                        <a href="">LA CAMPAÑA “DEPORTE PARA LA IGUALDAD” DECLARADA DE
+                                            INTERÉS EN LA CIUDAD</a>
+                                    </h2>
+                                    <p class="font-light  text-right text-gray-500">Publicado: 11/09/2024</p>
+                                    <p><i>La Legislatura de la Ciudad de Buenos Aires distinguió la iniciativa
+                                            impulsada por ONU Mujeres y el Comité Olímpico Internacional, destacando
+                                            su apoyo a la promoción de los derechos de las mujeres y
+                                            diversidades.</i></p>
+                                    <br>
+                                    <figure>
+                                        <a href="">
+                                            <img class="w-full object-cover object-center"
+                                                src="{{ asset('../img/leg/leg_deporte.svg') }}"
+                                                alt="">
+                                        </a>
+                                    </figure>
+                                    {{-- <article>
+                                        <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/cNeE0eEE5Tc?si=RMO51UzsraJUAVpK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                        
+                                    </article> --}}
+                                    <br>
+                                    <div
+                                        class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                        <div class=" font-sans text-lg text-left col-span-6  ">
+                                            <p>En un acto realizado esta tarde en el Salón Presidente Raúl Alfonsín,
+                                                la campaña “Deporte para la Igualdad”, organizada por ONU Mujeres
+                                                Argentina y el Comité Olímpico Internacional (COI), fue declarada de
+                                                Interés para la Promoción y Defensa de los Derechos de las Mujeres y
+                                                Diversidades por la Legislatura de la Ciudad. Esta iniciativa busca
+                                                promover la igualdad de género a través del deporte y fue recibida
+                                                con elogios por diversos actores políticos y sociales.
+
+                                            </p>
+                                            <br>
+                                            <p>El evento contó con la presencia del vicepresidente primero de la
+                                                Legislatura, Matías López, la diputada impulsora del proyecto,
+                                                Jessica Barreto, y la coordinadora de la campaña, Lisa Somirano,
+                                                quien recibió la distinción en nombre de ONU Mujeres. También
+                                                asistieron representantes del Comité Olímpico Argentino y de la
+                                                Comisión de Mujeres, Géneros y Diversidades de la Ciudad.
+
+                                            </p>
+                                            <br>
+                                            <p>Durante su intervención, Matías López subrayó el papel del deporte
+                                                como herramienta universal de formación humana, mientras que Barreto
+                                                destacó la importancia de seguir avanzando en la lucha por la
+                                                igualdad de género, señalando el rol clave de las organizaciones de
+                                                la sociedad civil en ese camino. . Somirano, por su parte, celebró
+                                                el reconocimiento y enfatizó que, aunque se han logrado avances, aún
+                                                queda mucho por hacer para que las mujeres accedan plenamente al
+                                                deporte sin estereotipos ni discriminación.
+
+                                            </p>
+                                            <br>
+                                            <p>Exposición "Mujeres que inspiran: deportistas argentinas en acción"
+
+                                            </p>
+                                            <br>
+                                            <p>En paralelo al acto, se inauguró en el Salón de Honor de la
+                                                Legislatura la muestra fotográfica "Mujeres que inspiran:
+                                                deportistas argentinas en acción", una colección del fotógrafo
+                                                Martín Waichman que retrata momentos clave en la trayectoria de
+                                                destacadas atletas argentinas. La exposición, promovida por la
+                                                legisladora Inés Parry, invita a reflexionar sobre la importancia
+                                                del apoyo profesional al deporte femenino.
+                                            </p>
+                                            <br>
+                                            <p>La muestra estará abierta al público hasta el 13 de septiembre en la
+                                                Legislatura porteña, con entrada libre y gratuita.
+                                            </p>
+                                            <br>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+                        </li>
+                    </ul>
+</section>   
     {{--EL CONGRESO MUNDIAL DE PERSONAS MAYORES LLEGA A LATINOAMÉRICA --}}
     <section >
         <ul>
