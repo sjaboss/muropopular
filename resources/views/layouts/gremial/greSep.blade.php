@@ -6101,45 +6101,61 @@
 
                 </div>
             </section>
+        @elseif ($tituloSep == 'Gremiales-Noticia-Completa-gre52')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">ATE EN PIE DE LUCHA CONTRA DESPIDOS MASIVOS
+                                            </a>
+                                        </h2>
+                                        <p class="font-light  text-right text-gray-500">Publicado: 02/10/2024</p>
+                                        <div class=" font-sans text-lg text-left col-span-6  ">
+                                        <p><i>El sindicato advierte sobre el desmantelamiento de derechos esenciales y exige al Gobierno la suspensión de estas cesantías, que profundizan la crisis en sectores vulnerables.
+                                        </i>
+                                        </p>
+                                        <br>
+                                        <figure>
+                                            <img class=" w-full object-cover" src="../img/grem/grem_masivo.svg"
+                                                alt="">
+                                        </figure>
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+                                                <p>El conflicto entre el Gobierno nacional y la Asociación Trabajadores del Estado (ATE) se ha intensificado debido a una nueva ola de despidos masivos en la Administración Pública. ATE ha denunciado que estas cesantías, que afectan a áreas cruciales del Estado, forman parte de un proceso de desmantelamiento de políticas públicas clave, lo que ha generado una creciente preocupación por el impacto social de estas medidas.
+
+                                                </p>
+                                                <br>
+                                                <p>El sindicato ha señalado que casi 65 mil contratos laborales están en riesgo de no ser renovados, lo que podría provocar un colapso en servicios fundamentales para los sectores más vulnerables de la población. Las áreas afectadas incluyen el Ministerio de Capital Humano, la Secretaría Nacional de Niñez, Adolescencia y Familia (Senaf), la Secretaría de Derechos Humanos y la Subsecretaría de Trabajo y Desarrollo Social. Los despidos en estos sectores ya suman centenares, y en algunos casos, como en Senaf, alcanzan las 600 bajas en los últimos nueve meses.
+
+                                                </p>
+                                                <br>
+                                                <p>El Secretario General de ATE, Rodolfo Aguiar, ha declarado que estos despidos responden a una política de ajuste que está destruyendo el empleo estatal y profundizando las desigualdades sociales. Según Aguiar, el impacto de esta situación es especialmente grave en la clase media y los sectores más vulnerables, que están perdiendo acceso a derechos esenciales.
+
+                                                </p>
+                                                <p>Además de las cesantías, ATE ha criticado la pérdida del poder adquisitivo de los trabajadores estatales, que ha superado el 30% en lo que va del año, agravado por el congelamiento salarial impuesto por el Gobierno. En respuesta, el gremio ha convocado a una serie de protestas y asambleas en todo el país para visibilizar el descontento social y presionar por un cambio en las políticas gubernamentales.
+
+                                                </p>
+                                                <br>
+                                                <p>Uno de los puntos de mayor tensión se ha producido en el ex Ministerio de Desarrollo Social, donde ATE Capital ha denunciado despidos masivos y arbitrarios. La protesta más reciente, que tuvo lugar frente a este organismo en la Av. 9 de Julio, ha sido parte de un plan de lucha que continuará hasta que el Gobierno revierta lo que ATE considera un proceso de desmantelamiento del Estado.
+
+                                                </p>
+                                                <br>
+                                                
+                                            </div>
+                                        </div>
+                                </article>
+                            </li>
+                        </ul>
+                    </div>
+                    @livewire('lateral')
+                </div>
+            </section>
         @endif
     </div>
-    {{-- aca arrancamos vue --}}
-
-    @push('js')
-        <script>
-            new Vue({
-                el: '#app',
-                data: {
-                    info: [],
-                    clima: [],
-
-                },
-
-                mounted() {
-
-
-                    axios.get("https://api.dailymotion.com/videos?channel=news&limit=2")
-                        .then(response => {
-                            this.info = response.data.list
-                        });
-
-                    /*    axios.get( */
-                    /*      "https://api.weatherbit.io/v2.0/current?lat=35.7796&lon=-78.6382&key=f2207d043ea74a359ff232a1d03d0c72&include=minutely"
-                )*/
-                    axios.get(
-                            "https://api.openweathermap.org/2.5/wheater?q=BURNOS AIRESlat=35.7796&lon=-78.6382&key=f2207d043ea74a359ff232a1d03d0c72&include=minutely"
-                        )
-                        .then(response => {
-                            this.clima = response
-                        });
-
-
-                },
-
-            });
-        </script>
-    @endpush
-
-
-
 </x-app-layout>

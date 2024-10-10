@@ -1,6 +1,57 @@
 <x-app-layout>
     <div class="container ">
-        {{-- ADIÓS AL MITO: ALAIN DELON HA MUERTO A LOS 88 AÑOS....--}}
+@livewire('superior')
+
+
+{{-- MCCARTNEY Y SU MAGIA EN EL MONUMENTALS --}}
+<section>
+            <ul>
+                <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                    <article>
+
+                        <div class="py-4 px-4 justify-between items-center">
+                            <h2 class="text-xl font-serif  font-bold pb-6">
+                                <a href="">MCCARTNEY Y SU MAGIA EN EL MONUMENTALS</a>
+                            </h2>
+                            <p class="font-light  text-right text-gray-500">Publicado: 06/10/2024</p>
+                            <div
+                                class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                <div class=" font-sans text-lg text-left col-span-6  ">
+
+                                    <p><i>A los 82 años, McCartney llenó el Monumental con un emotivo repaso de su legado, cautivando a una multitud que celebró la vida y la música.
+                                    </i></p>
+                                    <br>
+                                    <figure>
+                                        <a href="">
+                                            <img class="w-full object-cover object-center"
+                                                src="{{ asset('../img/cul/cul_mc.svg') }}"
+                                                alt="">
+                                        </a>
+                                    </figure>
+                                    <br>
+                                    <p>El pasado sábado, Paul McCartney ofreció un inolvidable concierto en el Estadio Monumental de Buenos Aires, donde a sus 82 años demostró que su legado sigue más vivo que nunca. Frente a una multitud eufórica, el ex Beatle interpretó una impecable selección de temas de su carrera, desde clásicos de The Beatles hasta canciones de su etapa solista, en un show cargado de emoción y energía.
+                                    </p>
+                                    <br>
+                                    <p>Desde los primeros acordes de “Can't Buy Me Love”, el público quedó rendido ante una leyenda que, a pesar de su edad, no ha perdido ni un ápice de su carisma ni de su capacidad de conmover. A lo largo de casi tres horas de espectáculo, McCartney ofreció un recorrido por décadas de historia musical, regalando momentos imborrables. La interpretación de “Hey Jude”, coreada por miles, fue uno de los picos de la noche, consolidando la conexión entre el artista y sus seguidores.
+                                    </p>
+                                    <br>
+                                    <p>La tecnología también hizo su aparición con un emocionante dúo virtual con John Lennon en “I've Got a Feeling”, generando una ovación estruendosa. El homenaje a George Harrison con el ukelele en “Something” añadió una nota íntima, provocando un silencio reverente en el estadio.
+                                    </p>
+                                    <br>
+                                    <p>Sin embargo, el concierto no fue solo un tributo al pasado. McCartney, acompañado por una banda impecable, también interpretó temas más recientes como “Come On to Me” y “Dance Tonight”, demostrando que su capacidad de innovar y sorprender sigue intacta. Un impactante “Live and Let Die”, acompañado de fuegos artificiales, reafirmó su estatus como uno de los grandes del rock mundial.
+                                    </p>
+                                    <br>
+                                    <p>El cierre, con el emblemático medley de “Golden Slumbers / Carry That Weight / The End”, dejó a los asistentes con el corazón lleno, sabiendo que habían presenciado no solo un concierto, sino una verdadera celebración de la música, la vida y el legado de Paul McCartney.
+                                    </p>
+                                    <br>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </li>
+            </ul>
+</section>
+{{-- ADIÓS AL MITO: ALAIN DELON HA MUERTO A LOS 88 AÑOS....--}}
 <section>
     <ul>
         <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}

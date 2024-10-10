@@ -1,6 +1,143 @@
 <x-app-layout>
     <div class="container ">
+        @livewire('superior')
 
+{{--PRO APOYARÁ EL VETO DE MILEI AL FINANCIAMIENTO UNIVERSITARIO  --}}
+<section>
+            <ul>
+                <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                    <article>
+                        <div class="py-4 px-4 justify-between items-center">
+                            <h2 class="text-xl font-serif  font-bold pb-6">
+                                <a href="">PRO APOYARÁ EL VETO DE MILEI AL FINANCIAMIENTO UNIVERSITARIO</a>
+                            </h2>
+                            <p class="font-light  text-right text-gray-500">Publicado: 08/10/2024</p>
+                            <div class=" font-sans text-lg text-left col-span-6  ">
+                            <p><i>El partido liderado por Mauricio Macri reafirma su posición en contra de la Ley de Financiamiento Universitario, consolidando su alianza con el gobierno ultraderechista.
+                            </i>
+                            </p>
+                            <br>
+                            <figure>
+                                <img class="w-full object-cover"
+                                src="{{ asset('../img/pol/pol_macreVeto.svg') }}" alt="">
+                            </figure>
+                            <br>
+                            <div
+                                class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                <div class=" font-sans text-lg text-left col-span-6  ">
+                                    <p>El PRO ha confirmado su respaldo al veto del presidente Javier Milei a la Ley de Financiamiento Universitario, tras una reunión por videoconferencia encabezada por el exmandatario Mauricio Macri. La decisión se discutió en un encuentro de la mesa directiva del partido, donde participaron gobernadores y referentes legislativos. La postura del PRO se llevará a la sesión especial de la Cámara de Diputados, convocada para el miércoles próximo, en la que también participarán bloques dialoguistas y el kirchnerismo.
+                                    </p>
+                                    <br>
+                                    <p>El PRO argumenta que su bloque ya había votado mayoritariamente en contra de la ley en semanas recientes. En un comunicado, el partido sostuvo que “somos coherentes con la necesidad de sostener el equilibrio fiscal como prioridad para que nuestro país salga adelante”, reafirmando su respeto por la ley de Administración Financiera. Además, critican la gestión del Gobierno nacional en relación a las universidades, apuntando a la falta de profesionalidad y gestión de la administración actual.
+                                    </p>
+                                    <br>
+                                    <p>El comunicado también plantea tres exigencias al gobierno de Milei: convocar a un diálogo urgente con los gremios universitarios, incluir las necesidades de las universidades en el proyecto de presupuesto 2025 y derogar la resolución del ex procurador Carlos Zanini que limita la auditoría de las universidades. A medida que se acerca la reunión de bloque del PRO, los diputados se preparan para expresar una postura alineada con la conducción partidaria en este crucial tema educativo.
+                                    </p>
+                                    <br>
+                                    <div class="text-start object-center">
+                                    </div>
+                                </div>
+                    </article>
+                </li>
+            </ul>
+</section>
+
+{{--MACRI REUNIÓN A SENADORES DEL PRO ANTE VETO DE MILEI  --}}
+        <section>
+                    <ul>
+                        <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                            <article>
+                                <div class="py-4 px-4 justify-between items-center">
+                                    <h2 class="text-xl font-serif  font-bold pb-6">
+                                        <a href="">MACRI REUNIÓN A SENADORES DEL PRO ANTE VETO DE MILEI</a>
+                                    </h2>
+                                    <p class="font-light  text-right text-gray-500">Publicado: 04/10/2024</p>
+                                    <div class=" font-sans text-lg text-left col-span-6  ">
+                                    <p><i>El ex presidente busca una negociación con el gobierno mientras la tensión por el veto a la educación pública aumenta.
+                                    </i>
+                                    </p>
+                                    <br>
+                                    <figure>
+                                        <img class="w-full object-cover"
+                                        src="{{ asset('../img/pol/pol_reunion.svg') }}" alt="">
+                                    </figure>
+                                    <br>
+                                    <div
+                                        class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                        <div class=" font-sans text-lg text-left col-span-6  ">
+                                            <p>Mauricio Macri organizó una reunión en su casa en Acassuso con seis senadores del bloque PRO para discutir el veto del presidente Javier Milei al aumento de fondos para las universidades, una decisión que ha causado preocupación en el oficialismo. En el encuentro, Macri adoptó una postura cautelosa, afirmando que espera una negociación con la Casa Rosada y que, por el momento, prefiere comunicarse con Milei a través de mensajes de texto para evitar malentendidos.
+                                            </p>
+                                            <br>
+                                            <p>Durante la reunión, que comenzó a las 8:45 y fue acompañada por un café servido por Juliana Awada, Macri expresó su descontento con la falta de avances en sus conversaciones anteriores con Milei, señalando que sus propuestas eran bloqueadas por Santiago Caputo y Karina Milei. "Hace rato que no hay milanesas", comentó, refiriéndose a la reducción de sus encuentros personales con el presidente.
+                                            </p>
+                                            <br>
+                                            <p>Asistieron al encuentro el líder de la bancada, Luis Juez, y otros senadores como Carmen Álvarez Rivero, Alfredo De Angeli, Andrea Cristina, Martin Goerling y María Victoria Huala. La ausencia más notable fue la de Guadalupe Tagliaferri, quien tenía un viaje previamente programado.
+                                            </p>
+                                            <br>
+                                            <p>La foto del grupo en el jardín de Macri generó reacciones en Balcarce 50 y en el bloque liderado por Cristian Ritondo en la Cámara Baja, donde los diputados del PRO, liderados por Alejandro Finocchiaro, intentan persuadir a sus colegas para respaldar el veto de Milei. Sin embargo, la historia reciente muestra que las decisiones de Macri han socavado acuerdos que se habían logrado con esfuerzo.
+                                            </p>
+                                            <br>
+                                            <p>El nerviosismo entre los libertarios ha crecido, al punto de que el vocero Manuel Adorni tuvo que aclarar en un programa de televisión que sería "razonable" que el PRO apoyara el veto, similar a su respaldo anterior a la ley de movilidad previsional. Algunos senadores presentes en la reunión reconocieron que existen diferencias de opinión con el gobierno, pero la intención sería "caminar juntos sin subirse a cococho", subrayando que la educación pública es un valor fundamental para el PRO.
+                                            </p>
+                                            <br>
+                                            <p>A la espera de la reunión del bloque de diputados del PRO programada para el próximo martes, los senadores decidieron posponer cualquier decisión formal. Ellos esperan ver cómo se desarrollan los acontecimientos antes de pronunciarse sobre el respaldo al veto, en medio de un clima de incertidumbre que ha caracterizado el actual contexto político.
+                                            </p>
+                                            <br>
+                                            <div class="text-start object-center">
+                                            </div>
+                                        </div>
+                            </article>
+                        </li>
+                    </ul>
+        </section>
+{{--BUKELE Y VILLARRUEL: UNA REUNIÓN QUE LEVANTA POLÉMICA  --}}
+<section>
+            <ul>
+                <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                    <article>
+                        <div class="py-4 px-4 justify-between items-center">
+                            <h2 class="text-xl font-serif  font-bold pb-6">
+                                <a href="">BUKELE Y VILLARRUEL: UNA REUNIÓN QUE LEVANTA POLÉMICA</a>
+                            </h2>
+                            <p class="font-light  text-right text-gray-500">Publicado: 02/10/2024</p>
+                            <div class=" font-sans text-lg text-left col-span-6  ">
+                            <p><i>La vicepresidenta de la Nación recibió al mandatario salvadoreño, cuya gestión enfrenta severas críticas por su enfoque autoritario en la seguridad.
+                            </i>
+                            </p>
+                            <br>
+                            <figure>
+                                <img class="w-full object-cover"
+                                src="{{ asset('../img/pol/pol_bukele.svg') }}" alt="">
+                            </figure>
+                            <br>
+                            <div
+                                class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                <div class=" font-sans text-lg text-left col-span-6  ">
+                                    <p>La vicepresidenta de la Nación y presidenta del Senado, Victoria Villarruel, se reunió este martes con el presidente de El Salvador, Nayib Bukele. El encuentro, marcado por un carácter reservado, incluyó la firma en el Libro de Honor y el intercambio de obsequios. Sin embargo, la conversación que más ha captado la atención pública fue aquella en la que ambos líderes discutieron sobre el uso de bitcoin, un tema que despierta tanto interés como controversia en sus respectivos países.
+                                    </p>
+                                    <br>
+                                    <p>Villarruel inició el diálogo al abordar la creciente preocupación en Argentina sobre el crimen organizado y la violencia, interpelando a Bukele sobre su estrategia para combatir las Maras, que han dejado una huella de terror en El Salvador. Bukele, conocido por su enfoque de mano dura, compartió su experiencia al reducir la tasa de homicidios en su país, pero sus métodos han sido objeto de críticas internacionales por las violaciones a los derechos humanos y la falta de debido proceso.
+                                    </p>
+                                    <br>
+                                    <p>En un momento donde el narcotráfico también es un tema candente en Argentina, la senadora Carolina Losada destacó el grave problema que enfrenta su provincia con el crimen organizado, sugiriendo que la situación es alarmante y requiere atención urgente. Sin embargo, Bukele desvió la conversación, argumentando que, aunque la inseguridad ha aumentado, Argentina sigue siendo más segura en comparación con su país, donde el control de las pandillas era absoluto.
+                                    </p>
+                                    <br>
+                                    <p>Los antecedentes de la administración Bukele son complejos: su gobierno ha sido denunciado por la represión de la oposición y el debilitamiento de las instituciones democráticas. La preocupación por la "normalización" de un enfoque autoritario en el combate al crimen se hace evidente en las palabras del presidente salvadoreño, quien a menudo enfatiza la "unión de todos los sectores" como clave para enfrentar la inseguridad.
+                                    </p>
+                                    <br>
+                                    <p>Villarruel concluyó la reunión enfatizando la importancia de forjar lazos entre Argentina y El Salvador, pero el encuentro con Bukele plantea interrogantes sobre la dirección de las políticas de seguridad en el país y si esta asociación no podría significar un alineamiento con un modelo que desatiende los derechos humanos en favor de medidas represivas.
+                                    </p>
+                                    <br>
+                                    <div class="text-start object-center">
+                                    </div>
+                                </div>
+                    </article>
+                </li>
+            </ul>
+        </div>
+        @livewire('lateral')
+</section>
+{{--TRUMP SE DIFERENCIA DE MILEI EN SU ENFOQUE ECONÓMICO  --}}
 <section>
                     <ul>
                         <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}

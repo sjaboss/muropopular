@@ -1,6 +1,62 @@
 <x-app-layout>
     <div class="container ">
+@livewire('superior')
 
+
+
+{{-- PAES REELECTO EN RÍO DE JANEIRO CON APOYO DE LULA --}}
+<section>
+            <ul>
+                <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                    <article>
+                        <div class="py-4 px-4 justify-between items-center">
+                            <h2 class="text-xl font-serif  font-bold pb-6">
+                                <a href="">PAES REELECTO EN RÍO DE JANEIRO CON APOYO DE LULA</a>
+                            </h2>
+                            <p class="font-light  text-right text-gray-500">Publicado: 07/10/2024</p>
+                            <p><i>Con el respaldo de Lula, Eduardo Paes ganó en primera vuelta con el 60,26% de los votos, derrotando al candidato de Bolsonaro en su propio bastión.
+                            </i>
+                            </p>
+                            <br>
+                            <figure>
+                                <img class=" w-full object-cover" src="../img/int/int_reelecto.svg"
+                                    alt="">
+                            </figure>
+                            <br>
+                            <div
+                                class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                <div class=" font-sans text-lg text-left col-span-6  ">
+                                    <p>Eduardo Paes, del Partido Social Democrático (PSD), fue reelegido como alcalde de Río de Janeiro, superando cómodamente al candidato bolsonarista Alexandre Ramagem, quien apenas alcanzó el 30,95% de los votos. Paes contó con el respaldo decisivo del presidente Luiz Inácio Lula da Silva, quien lo apoyó en la recta final de la campaña. Esta elección marcó una dura derrota para Jair Bolsonaro, quien considera a Río como su bastión político y volcó todos sus esfuerzos en favor de Ramagem, su exdirector de la Agencia Brasileña de Inteligencia.
+                                    </p>
+                                    <br>
+                                    <p>La reelección de Paes no solo representa una victoria local importante para el Partido Social Democrático, sino también un golpe simbólico al bolsonarismo, que había dominado en la región durante los últimos años. A pesar de esta derrota, el bolsonarismo avanzó en otras áreas del país, destacando un crecimiento significativo del Partido Liberal, el cual gobierna en seis capitales regionales y logró consolidarse como la fuerza más votada en 522 municipios.
+                                    </p>
+                                    <br>
+                                    <p>Avance de la derecha y desafíos para Lula
+                                    </p>
+                                    <br>
+                                    <p>Las elecciones municipales de 2024 son vistas como una antesala a las presidenciales de 2026, donde se proyecta un avance considerable de la derecha en Brasil. El Partido Liberal, liderado simbólicamente por Bolsonaro pese a sus problemas judiciales, se consolidó en varias capitales y municipios del país. Sin embargo, a nivel personal, el expresidente enfrenta una realidad difícil: fue declarado inelegible hasta 2030 por sus ataques al sistema electoral, aunque confía en revertir esa condena.
+                                    </p>
+                                    <br>
+                                    <p>A pesar de este avance conservador, los aliados de Lula lograron victorias clave, como la de Paes en Río y la alcaldía de Recife. En San Pablo, el socialista Guilherme Boulos, también apoyado por Lula, se enfrentará en segunda vuelta al actual alcalde Ricardo Nunes, vinculado al bolsonarismo, en una contienda que será crucial para medir el pulso político del país.
+                                    </p>
+                                    <br>
+                                    <p>El resultado electoral demuestra que, aunque Bolsonaro sigue siendo una figura influyente en Brasil, sus apoyos no son suficientes para garantizar victorias en todos los frentes. La irrupción de nuevas figuras de la derecha y la pérdida de influencia de los medios tradicionales también han limitado su capacidad de movilización, lo que deja abierta la pregunta de cómo evolucionará el escenario político brasileño en los próximos años.
+                                    </p>
+                                    <br>
+                                    <p>Un panorama dividido
+                                    </p>
+                                    <br>
+                                    <p>Con 15 capitales regionales que se definirán en una segunda vuelta a finales de mes, Brasil enfrenta un escenario político polarizado y fragmentado. A medida que la derecha continúa avanzando, Lula y sus aliados deberán enfrentar el desafío de mantener su base política unida y presentar una alternativa sólida para contrarrestar el crecimiento del bolsonarismo y de la ultraderecha.
+                                    </p>
+                                    <br>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </li>
+            </ul>
+</section>
 {{-- MILEI ATACA A LA ONU Y EVADE LA CRISIS ARGENTINA --}}
 <section>
                     <ul>
@@ -156,8 +212,7 @@
                     </ul>
                     <br>
 </section>
-
-    {{--ARCE PROPONE REFERÉNDUM CONTROVERTIDO CONTRA EVO MORALES ... --}}
+{{--ARCE PROPONE REFERÉNDUM CONTROVERTIDO CONTRA EVO MORALES ... --}}
     <section >
         <ul>
             <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}

@@ -1,5 +1,103 @@
 <x-app-layout>
     <div class="container ">
+@livewire('superior')
+
+
+{{-- LA LEGISLATURA CONMEMORÓ LOS 40 AÑOS DEL INFORME “NUNCA MÁS” --}}
+<section>
+            <ul>
+                <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                    <article>
+                        <div class="py-4 px-4 justify-between items-center">
+                            <h2 class="text-xl font-serif  font-bold pb-6">
+                                <a href="">LA LEGISLATURA CONMEMORÓ LOS 40 AÑOS DEL INFORME “NUNCA MÁS”
+                                </a>
+                            </h2>
+                            <p class="font-light  text-right text-gray-500">Publicado:08/10/2024</p>
+                            <p><i>Los diputados de la Ciudad recordaron el célebre informe, que creó con el objetivo de investigar la desaparición forzada de personas producidas durante la dictadura cívico militar ocurrida entre 1976 y 1983. 
+                            </i></p>
+                            <br>
+                            <figure>
+                                <a href="">
+                                    <img class="w-full object-cover object-center"
+                                        src="{{ asset('../img/leg/leg_conmemoro.svg') }}"
+                                        alt="">
+                                </a>
+                            </figure>
+                            <br>
+                            <div
+                                class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                <div class=" font-sans text-lg text-left col-span-6  ">
+                                    <p>El Cuerpo Legislativo conmemoró los 40 años del célebre informe “Nunca Más”, a 40 años de su publicación. El acto se llevó a cabo en el Salón Presidente Alfonsín y contó con la presencia de la diputada y presidenta de la Comisión de Derechos Humanos, Garantías y Antidiscriminación, Victoria Montenegro; la presidenta de la Liga Argentina por los Derechos Humanos, Iris Pereyra; el exembajador argentino en España, Ricardo Alfonsín; y el periodista y analista internacional, Martín Granovsky.
+                                    </p>
+                                    <br>
+                                    <p>“Esta es una fecha muy significativa para la memoria de nuestro pueblo”, destacó Montenegro en el inicio de las alocuciones. También resaltó la importancia de encontrarse y de pensar en forma conjunta “los desafíos que hoy tiene la memoria y ese Nunca Más”. Y concluyó: “Que nos vayamos con mucha fuerza para seguir luchando y efectivamente el Nunca Más sea Nunca Más”.
+                                    </p>
+                                    <br>
+                                    <p>Luego Alfonsín puntualizó en la necesidad de preservar la memoria “y que las generaciones futuras sepan qué es lo que ocurrió”; y pidió el compromiso de varios actores en la preservación de la memoria histórica. Y finalmente señaló el peso histórico del Juicio a las Juntas Militares.
+                                    </p>
+                                    <br>
+                                    <p>Luego Alfonsín puntualizó en la necesidad de preservar la memoria “y que las generaciones futuras sepan qué es lo que ocurrió”; y pidió el compromiso de varios actores en la preservación de la memoria histórica. Y finalmente señaló el peso histórico del Juicio a las Juntas Militares.
+                                    </p>
+                                    <br> 
+                                    <p>El 15 de diciembre de 1983, el entonces primer mandatario, Dr. Raúl Alfonsín, creó mediante el decreto 187/83 la Comisión Nacional por la Desaparición de Personas (Co Na De P), con el objetivo de investigar la desaparición forzada de personas producidas durante la dictadura cívico militar ocurrida entre 1976 y 1983.
+                                    </p>
+                                    <br> 
+                                    <p>El informe final producido por la Comisión se denominó “Nunca más”. En sus páginas, el informe afirma que los Derechos Humanos fueron violados de forma sistemática por el Estado. En sus conclusiones da por confirmado las desapariciones a las que determina que no fueron hechos aislados y advierte que la lista de desaparecidos que consigan es “inevitablemente una lista abierta”.
+                                    </p>
+                                    <br> 
+                                    <p>Un año después de su publicación, el “Nunca Más” fue utilizado como base probatoria por la Justicia para condenar a las cúpulas militares en la causa 13, inmortalizada como el Juicio a las Juntas. El cuadragésimo aniversario de la publicación encuentra a la sociedad argentina habiendo desarrollado un proceso de memoria, que es ejemplo en el mundo.
+                                    </p>
+                                    <br>                                       
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </li>
+            </ul>
+</section>
+
+{{-- FERNANDO TROCCA, PERSONALIDAD DESTACADA EN CULTURA --}}
+<section>
+            <ul>
+                <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                    <article>
+                        <div class="py-4 px-4 justify-between items-center">
+                            <h2 class="text-xl font-serif  font-bold pb-6">
+                                <a href="">FERNANDO TROCCA, PERSONALIDAD DESTACADA EN CULTURA
+                                </a>
+                            </h2>
+                            <p class="font-light  text-right text-gray-500">Publicado:05/10/2024</p>
+                            <p><i>El cocinero fue homenajeado en la Legislatura por su impacto en la gastronomía argentina y su contribución a la formación de nuevos talentos culinarios
+                            </i></p>
+                            <br>
+                            <figure>
+                                <a href="">
+                                    <img class="w-full object-cover object-center"
+                                        src="{{ asset('../img/leg/leg_trocca.svg') }}"
+                                        alt="">
+                                </a>
+                            </figure>
+                            <br>
+                            <div
+                                class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                <div class=" font-sans text-lg text-left col-span-6  ">
+                                    <p>El Cuerpo Legislativo declaró como Personalidad Destacada en el ámbito de la Cultura al cocinero, Fernando Trocca. El acto se llevó a cabo en el Salón San Martín y contó con la presencia de la diputada y autora del proyecto, Patricia Glize, además del homenajeado. Como también del director y productor de cine, Gastón Solnicki; la cocinera, Olivia Saal; Subsecretario de Políticas Productivas del Ministerio de Desarrollo Económico de la Ciudad de Buenos Aires, Juan Pablo Fernández Funes.
+                                    </p>
+                                    <br>
+                                    <p>En el inicio de las alocuciones, Glize destacó el acompañamiento al proyecto por parte de los distintos bloques “a un luchador y un emprendedor tremendo”. También puntualizó: “Es un impulsor de ideas, un generador de negocios y un motor en un montón de chicos, con un montón de ilusiones para salir adelante y amar la cocina”. Finalmente Trocca rememoró su carrera profesional, sus comienzos en el arte culinario y la influencia familiar en la cocina: “Ahí hubo algo que se metió adentro mío y se quedó para siempre”.
+                                    </p>
+                                    <br>
+                                    <p>Además de su trabajo en prestigiosos restaurantes, Trocca tuvo varios programas de televisión. Uno de los más inolvidables fue Château Brascó, con el periodista, artista y escritor, Miguel Brascó. Querido por sus pares, es reconocido por ser un cultor de los ingredientes nacionales y por reinterpretar clásicos de la cocina argentina con su sello propio. También publicó tres libros: “Cocinero”, que resume treinta años de su trabajo; “Mostrador Santa Teresita”; y en 2021 vio la luz su último libro “Trocca en casa”.
+                                    </p>
+                                    <br>                                      
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </li>
+            </ul>
+</section>
 {{-- TANGO EN TRÍO Y HORACIO SPINETTO, DISTINGUIDOS POR LA LEGISLATURA --}}
 <section>
                     <ul>

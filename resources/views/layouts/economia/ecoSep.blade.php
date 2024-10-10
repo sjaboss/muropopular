@@ -1115,11 +1115,9 @@
             <section>
                 <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
                     <div class=" col-span-4">
-
                         <ul>
                             <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
                                 <article>
-
                                     <div class="py-4 px-4 justify-between items-center">
                                         <h2 class="text-xl font-serif  font-bold pb-6">
                                             <a href="">ALERTA SOBRE EL RIESGO DE "DOBLE D" EN EL PLAN DE CAPUTO</a>
@@ -1150,15 +1148,6 @@
                                                 </p>
                                                 <br>
                                                 
-                                                
-                                                
-                                                {{-- <figure>
-                                                    {{-- <img class="w-28 h-28  "
-                                                        src="{{ asset('../img/noteros/ramiro.svg') }}" alt=""> --}}
-                                                   {{--  <p> <b><i>Nota de Adrián Rojze</i></b></p></a>
-                                                    <p><b><i>Economista y Politólogo</i></b></p>
-                                                </figure>  --}}
-                                                <br>
                                             </div>
                                         </div>
                                     </div>
@@ -1166,59 +1155,9 @@
                             </li>
                         </ul>
                         <br>
-
                     </div>
-
-
-                    {{-- columna de la derecha chica --}}
-                    <aside>
-                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
-                            <div class=" col-span-6">
-
-                                <a href="" class="object-cover object-center " width="350">
-                                    <img class="pb-3" src="{{ asset('img/publi/bener-leg2.png') }}" alt="">
-                                </a>
-
-                                <a href="" class="object-cover object-center " width="350">
-                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}" alt="">
-                                </a>
-
-                                <div id="app">
-
-                                    <div v-for="item in info">
-
-                                        <div class="flex-col pb-3">
-                                            <div
-                                                class="flex-col max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-                                                <a href="#">
-                                                    <img class="rounded-t-lg"
-                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
-                                                        alt="" />
-                                                </a>
-                                                <div class="p-5">
-                                                    <a href="#">
-                                                        <h5
-                                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                                                            @{{ item.title }}</h5>
-
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                    <div v-for="va in clima">
-
-                                        <h5
-                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                                            @{{ va }}</h5>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </aside>
-
+                    @livewire('lateral')
                 </div>
-
             </section>
         @elseif ($tituloSep == 'Economia-Noticia-Completa-eco10')
             <section>
@@ -1273,59 +1212,9 @@
                             </li>
                         </ul>
                         <br>
-
                     </div>
-
-
-                    {{-- columna de la derecha chica --}}
-                    <aside>
-                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
-                            <div class=" col-span-6">
-
-                                <a href="" class="object-cover object-center " width="350">
-                                    <img class="pb-3" src="{{ asset('img/publi/bener-leg2.png') }}" alt="">
-                                </a>
-
-                                <a href="" class="object-cover object-center " width="350">
-                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}" alt="">
-                                </a>
-
-                                <div id="app">
-
-                                    <div v-for="item in info">
-
-                                        <div class="flex-col pb-3">
-                                            <div
-                                                class="flex-col max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-                                                <a href="#">
-                                                    <img class="rounded-t-lg"
-                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
-                                                        alt="" />
-                                                </a>
-                                                <div class="p-5">
-                                                    <a href="#">
-                                                        <h5
-                                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                                                            @{{ item.title }}</h5>
-
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                    <div v-for="va in clima">
-
-                                        <h5
-                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                                            @{{ va }}</h5>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </aside>
-
+                    @livewire('lateral')
                 </div>
-
             </section>
         @elseif ($tituloSep == 'Economia-Noticia-Completa-eco11')
             <section>
@@ -1371,84 +1260,65 @@
                         </ul>
                         <br>
                     </div>
-                    {{-- columna de la derecha chica --}}
-                    <aside>
-                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
-                            <div class=" col-span-6">
-                                <a href="" class="object-cover object-center " width="350">
-                                    <img class="pb-3" src="{{ asset('img/publi/bener-leg2.png') }}" alt="">
-                                </a>
-                                <a href="" class="object-cover object-center " width="350">
-                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}" alt="">
-                                </a>
-                                <div id="app">
-                                    <div v-for="item in info">
-                                        <div class="flex-col pb-3">
-                                            <div
-                                                class="flex-col max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-                                                <a href="#">
-                                                    <img class="rounded-t-lg"
-                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
-                                                        alt="" />
-                                                </a>
-                                                <div class="p-5">
-                                                    <a href="#">
-                                                        <h5
-                                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                                                            @{{ item.title }}</h5>
-                                                </div>
+                    @livewire('lateral')
+                </div>
+            </section>
+        @elseif ($tituloSep == 'Economia-Noticia-Completa-eco12')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">CAPUTO NIEGA LA CRISIS Y MINIMIZA LA POBREZA</a>
+                                            <p class="font-light  text-right text-gray-500">Publicado: 07/10/2024</p>
+                                        </h2>
+                                        <p><i>Luis Caputo afirmó que "lo peor ya pasó", ignorando la crisis que atraviesa el país y desligando al Gobierno de la responsabilidad por la pobreza.
+                                        </i>
+                                        </p>
+                                        <br>
+                                        <figure>
+                                            <img class=" w-full object-cover" src="../img/eco/eco_caputoNiega.svg"
+                                                alt="">
+                                        </figure>
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+                                                <p>Luis "Toto" Caputo, ministro de Economía del gobierno de Javier Milei, volvió al centro de la escena mediática con declaraciones que parecen estar completamente desconectadas de la realidad económica y social que enfrenta Argentina. Durante una entrevista con La Nación +, el funcionario aseguró que la situación del país está mejorando y que "lo peor ya pasó", negando la responsabilidad del Gobierno en el aumento de la pobreza, a pesar de que los índices oficiales indican lo contrario.
+                                                </p>
+                                                <br>
+                                                <p>Entre sus afirmaciones más polémicas, Caputo sostuvo que la gestión de Milei no tiene nada que ver con las alarmantes cifras de pobreza que continúan creciendo bajo su mandato. “A este Gobierno le corresponde un 0% del aumento de la pobreza”, sentenció, ignorando las políticas de ajuste que han profundizado la desigualdad social. Además, Caputo expresó que "el país evitó una crisis mayor", defendiendo las medidas ultraliberales que, según él, evitaron que la pobreza alcanzara el 90%.
+                                                </p>
+                                                <br>
+                                                <p>Las universidades públicas, otro de los sectores más castigados por el ajuste, también fueron blanco de sus declaraciones. Caputo afirmó, sin sonrojarse, que “a las universidades les hemos dado todo”, mientras que el Gobierno veta el financiamiento universitario y recorta presupuesto educativo. En una de sus frases más delirantes, el ministro señaló que el gasto por egresado en la Universidad de las Madres de Plaza de Mayo fue de 100 millones de pesos, agregando que “salía más barato mandarlos a Harvard”, lo que generó indignación en sectores de la educación y derechos humanos.
+                                                </p>
+                                                <br>
+                                                <p>En medio de una realidad marcada por el aumento de la pobreza, la inflación descontrolada y el desmantelamiento de servicios públicos esenciales, las palabras de Caputo parecen una provocación hacia una sociedad que día a día sufre las consecuencias del ajuste brutal. Mientras el Gobierno sigue implementando políticas de desregulación, reducción de impuestos y recortes en áreas clave como salud y educación, Caputo insiste en que “la economía empezó a recuperar” y que la inflación “ya bajó”, declaraciones que no coinciden con los padecimientos diarios de la mayoría de los argentinos.
+                                                </p>
+                                                <br>
+                                                <p>La desconexión entre el discurso oficial y la realidad que vive el país genera cada vez más tensión social. Las declaraciones de Caputo no hacen más que agravar la sensación de desamparo en un contexto donde el Estado parece desentenderse de su responsabilidad, dejando a las mayorías populares a la deriva. ¿Hasta cuándo podrá sostenerse este relato que niega la crisis mientras las cifras de pobreza, desempleo y desigualdad siguen aumentando?
+                                                </p>
+                                                <br>
+                                                <p>En un país donde los sectores más vulnerables ya no encuentran refugio ni en la educación ni en el trabajo, las frases del ministro de Economía suenan a burla. Decir que "lo peor ya pasó" es desconocer el sufrimiento de millones de argentinos.
+                                                </p>
+                                                <br>
                                             </div>
                                         </div>
                                     </div>
-                                    <div v-for="va in clima">
-                                        <h5
-                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                                            @{{ va }}</h5>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </aside>
+                                </article>
+                            </li>
+                        </ul>
+                        <br>
+                    </div>
+                    @livewire('lateral')
                 </div>
             </section>
-        @endif
+
+
+
+            @endif
     </div>
-    {{-- aca arrancamos vue --}}
-
-    @push('js')
-        <script>
-            new Vue({
-                el: '#app',
-                data: {
-                    info: [],
-                    clima: [],
-
-                },
-
-                mounted() {
-
-
-                    axios.get("https://api.dailymotion.com/videos?channel=news&limit=3")
-                        .then(response => {
-                            this.info = response.data.list
-                        });
-
-                    /*    axios.get( */
-                    /*      "https://api.weatherbit.io/v2.0/current?lat=35.7796&lon=-78.6382&key=f2207d043ea74a359ff232a1d03d0c72&include=minutely")*/
-                    axios.get(
-                            "https://api.openweathermap.org/2.5/wheater?q=BURNOS AIRESlat=35.7796&lon=-78.6382&key=f2207d043ea74a359ff232a1d03d0c72&include=minutely"
-                        )
-                        .then(response => {
-                            this.clima = response
-                        });
-
-
-                },
-
-            });
-        </script>
-@endpush
-
-
-
 </x-app-layout>

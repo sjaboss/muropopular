@@ -1,7 +1,56 @@
 <x-app-layout>
     <div class="container ">
+@livewire('superior')
 
 
+
+{{-- CAPUTO NIEGA LA CRISIS Y MINIMIZA LA POBREZA --}}
+<section>
+            <ul>
+                <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                    <article>
+                        <div class="py-4 px-4 justify-between items-center">
+                            <h2 class="text-xl font-serif  font-bold pb-6">
+                                <a href="">CAPUTO NIEGA LA CRISIS Y MINIMIZA LA POBREZA</a>
+                                <p class="font-light  text-right text-gray-500">Publicado: 07/10/2024</p>
+                            </h2>
+                            <p><i>Luis Caputo afirmó que "lo peor ya pasó", ignorando la crisis que atraviesa el país y desligando al Gobierno de la responsabilidad por la pobreza.
+                            </i>
+                            </p>
+                            <br>
+                            <figure>
+                                <img class=" w-full object-cover" src="../img/eco/eco_caputoNiega.svg"
+                                    alt="">
+                            </figure>
+                            <br>
+                            <div
+                                class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                <div class=" font-sans text-lg text-left col-span-6  ">
+                                    <p>Luis "Toto" Caputo, ministro de Economía del gobierno de Javier Milei, volvió al centro de la escena mediática con declaraciones que parecen estar completamente desconectadas de la realidad económica y social que enfrenta Argentina. Durante una entrevista con La Nación +, el funcionario aseguró que la situación del país está mejorando y que "lo peor ya pasó", negando la responsabilidad del Gobierno en el aumento de la pobreza, a pesar de que los índices oficiales indican lo contrario.
+                                    </p>
+                                    <br>
+                                    <p>Entre sus afirmaciones más polémicas, Caputo sostuvo que la gestión de Milei no tiene nada que ver con las alarmantes cifras de pobreza que continúan creciendo bajo su mandato. “A este Gobierno le corresponde un 0% del aumento de la pobreza”, sentenció, ignorando las políticas de ajuste que han profundizado la desigualdad social. Además, Caputo expresó que "el país evitó una crisis mayor", defendiendo las medidas ultraliberales que, según él, evitaron que la pobreza alcanzara el 90%.
+                                    </p>
+                                    <br>
+                                    <p>Las universidades públicas, otro de los sectores más castigados por el ajuste, también fueron blanco de sus declaraciones. Caputo afirmó, sin sonrojarse, que “a las universidades les hemos dado todo”, mientras que el Gobierno veta el financiamiento universitario y recorta presupuesto educativo. En una de sus frases más delirantes, el ministro señaló que el gasto por egresado en la Universidad de las Madres de Plaza de Mayo fue de 100 millones de pesos, agregando que “salía más barato mandarlos a Harvard”, lo que generó indignación en sectores de la educación y derechos humanos.
+                                    </p>
+                                    <br>
+                                    <p>En medio de una realidad marcada por el aumento de la pobreza, la inflación descontrolada y el desmantelamiento de servicios públicos esenciales, las palabras de Caputo parecen una provocación hacia una sociedad que día a día sufre las consecuencias del ajuste brutal. Mientras el Gobierno sigue implementando políticas de desregulación, reducción de impuestos y recortes en áreas clave como salud y educación, Caputo insiste en que “la economía empezó a recuperar” y que la inflación “ya bajó”, declaraciones que no coinciden con los padecimientos diarios de la mayoría de los argentinos.
+                                    </p>
+                                    <br>
+                                    <p>La desconexión entre el discurso oficial y la realidad que vive el país genera cada vez más tensión social. Las declaraciones de Caputo no hacen más que agravar la sensación de desamparo en un contexto donde el Estado parece desentenderse de su responsabilidad, dejando a las mayorías populares a la deriva. ¿Hasta cuándo podrá sostenerse este relato que niega la crisis mientras las cifras de pobreza, desempleo y desigualdad siguen aumentando?
+                                    </p>
+                                    <br>
+                                    <p>En un país donde los sectores más vulnerables ya no encuentran refugio ni en la educación ni en el trabajo, las frases del ministro de Economía suenan a burla. Decir que "lo peor ya pasó" es desconocer el sufrimiento de millones de argentinos.
+                                    </p>
+                                    <br>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </li>
+            </ul>
+</section>
 {{--LA CAÍDA ACCIONARIA TRAS LAS PALABRAS DE MILEI EN NUEVA YORK  --}}
 <section>
             <ul>
@@ -44,7 +93,6 @@
             </ul>
             <br> 
 </section>
-
 {{-- CAÍDA DEL PBI EN EL PRIMER SEMESTRE --}}
 <section>
             <ul>

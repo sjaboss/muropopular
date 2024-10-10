@@ -1,9 +1,6 @@
 <x-app-layout>
     <div class="container ">
-
         <div class="mt-10"></div>
-
-
         @if ($tituloSep == 'Sociedad-Noticia-Completa-soc1')
             <section>
                 <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
@@ -11348,61 +11345,14 @@
                         </ul>
                         <br>
                     </div>
+                    @livewire('lateral')
 
-
-                    {{-- columna de la derecha chica --}}
-                    <aside>
-                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
-                            <div class=" col-span-6">
-
-                                <a href="" class="object-cover object-center " width="350">
-                                    <img class="pb-3" src="{{ asset('img/publi/bener-leg2.png') }}"
-                                        alt="">
-                                </a>
-
-                                <a href="" class="object-cover object-center " width="350">
-                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
-                                        alt="">
-                                </a>
-
-                                <div id="app">
-
-                                    <div v-for="item in info">
-
-                                        <div class="flex-col pb-3">
-                                            <div
-                                                class="flex-col max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-                                                <a href="#">
-                                                    <img class="rounded-t-lg"
-                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
-                                                        alt="" />
-                                                </a>
-                                                <div class="p-5">
-                                                    <a href="#">
-                                                        <h5
-                                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                                                            @{{ item.title }}</h5>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div v-for="va in clima">
-
-                                        <h5
-                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                                            @{{ va }}</h5>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </aside>
                 </div>
             </section>
         @elseif ($tituloSep == 'Sociedad-Noticia-Completa-soc91')
             <section>
                 <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
                     <div class=" col-span-4">
-
                         <ul>
                             <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
                                 <article>
@@ -11464,54 +11414,7 @@
                         </ul>
                         <br>
                     </div>
-
-
-                    {{-- columna de la derecha chica --}}
-                    <aside>
-                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
-                            <div class=" col-span-6">
-
-                                <a href="" class="object-cover object-center " width="350">
-                                    <img class="pb-3" src="{{ asset('img/publi/bener-leg2.png') }}"
-                                        alt="">
-                                </a>
-
-                                <a href="" class="object-cover object-center " width="350">
-                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
-                                        alt="">
-                                </a>
-
-                                <div id="app">
-
-                                    <div v-for="item in info">
-
-                                        <div class="flex-col pb-3">
-                                            <div
-                                                class="flex-col max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-                                                <a href="#">
-                                                    <img class="rounded-t-lg"
-                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
-                                                        alt="" />
-                                                </a>
-                                                <div class="p-5">
-                                                    <a href="#">
-                                                        <h5
-                                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                                                            @{{ item.title }}</h5>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div v-for="va in clima">
-
-                                        <h5
-                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                                            @{{ va }}</h5>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </aside>
+                    @livewire('lateral')
                 </div>
             </section>
         @elseif ($tituloSep == 'Sociedad-Noticia-Completa-soc92')
@@ -11577,54 +11480,7 @@
                         </ul>
                         <br>
                     </div>
-
-
-                    {{-- columna de la derecha chica --}}
-                    <aside>
-                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
-                            <div class=" col-span-6">
-
-                                <a href="" class="object-cover object-center " width="350">
-                                    <img class="pb-3" src="{{ asset('img/publi/bener-leg2.png') }}"
-                                        alt="">
-                                </a>
-
-                                <a href="" class="object-cover object-center " width="350">
-                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
-                                        alt="">
-                                </a>
-
-                                <div id="app">
-
-                                    <div v-for="item in info">
-
-                                        <div class="flex-col pb-3">
-                                            <div
-                                                class="flex-col max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-                                                <a href="#">
-                                                    <img class="rounded-t-lg"
-                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
-                                                        alt="" />
-                                                </a>
-                                                <div class="p-5">
-                                                    <a href="#">
-                                                        <h5
-                                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                                                            @{{ item.title }}</h5>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div v-for="va in clima">
-
-                                        <h5
-                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                                            @{{ va }}</h5>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </aside>
+                    @livewire('lateral')
                 </div>
             </section>
         @elseif ($tituloSep == 'Sociedad-Noticia-Completa-soc93')
@@ -11692,61 +11548,13 @@
                         </ul>
                         <br>
                     </div>
-
-
-                    {{-- columna de la derecha chica --}}
-                    <aside>
-                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
-                            <div class=" col-span-6">
-
-                                <a href="" class="object-cover object-center " width="350">
-                                    <img class="pb-3" src="{{ asset('img/publi/bener-leg2.png') }}"
-                                        alt="">
-                                </a>
-
-                                <a href="" class="object-cover object-center " width="350">
-                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
-                                        alt="">
-                                </a>
-
-                                <div id="app">
-
-                                    <div v-for="item in info">
-
-                                        <div class="flex-col pb-3">
-                                            <div
-                                                class="flex-col max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-                                                <a href="#">
-                                                    <img class="rounded-t-lg"
-                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
-                                                        alt="" />
-                                                </a>
-                                                <div class="p-5">
-                                                    <a href="#">
-                                                        <h5
-                                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                                                            @{{ item.title }}</h5>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div v-for="va in clima">
-
-                                        <h5
-                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                                            @{{ va }}</h5>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </aside>
+                    @livewire('lateral')
                 </div>
             </section>
         @elseif ($tituloSep == 'Sociedad-Noticia-Completa-soc94')
             <section>
                 <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
                     <div class=" col-span-4">
-
                         <ul>
                             <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
                                 <article>
@@ -11806,54 +11614,7 @@
                         </ul>
                         <br>
                     </div>
-
-
-                    {{-- columna de la derecha chica --}}
-                    <aside>
-                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
-                            <div class=" col-span-6">
-
-                                <a href="" class="object-cover object-center " width="350">
-                                    <img class="pb-3" src="{{ asset('img/publi/bener-leg2.png') }}"
-                                        alt="">
-                                </a>
-
-                                <a href="" class="object-cover object-center " width="350">
-                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
-                                        alt="">
-                                </a>
-
-                                <div id="app">
-
-                                    <div v-for="item in info">
-
-                                        <div class="flex-col pb-3">
-                                            <div
-                                                class="flex-col max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-                                                <a href="#">
-                                                    <img class="rounded-t-lg"
-                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
-                                                        alt="" />
-                                                </a>
-                                                <div class="p-5">
-                                                    <a href="#">
-                                                        <h5
-                                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                                                            @{{ item.title }}</h5>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div v-for="va in clima">
-
-                                        <h5
-                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                                            @{{ va }}</h5>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </aside>
+                    @livewire('lateral')
                 </div>
             </section>
         @elseif ($tituloSep == 'Sociedad-Noticia-Completa-soc95')
@@ -11920,61 +11681,13 @@
                         </ul>
                         <br>
                     </div>
-
-
-                    {{-- columna de la derecha chica --}}
-                    <aside>
-                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
-                            <div class=" col-span-6">
-
-                                <a href="" class="object-cover object-center " width="350">
-                                    <img class="pb-3" src="{{ asset('img/publi/bener-leg2.png') }}"
-                                        alt="">
-                                </a>
-
-                                <a href="" class="object-cover object-center " width="350">
-                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
-                                        alt="">
-                                </a>
-
-                                <div id="app">
-
-                                    <div v-for="item in info">
-
-                                        <div class="flex-col pb-3">
-                                            <div
-                                                class="flex-col max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-                                                <a href="#">
-                                                    <img class="rounded-t-lg"
-                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
-                                                        alt="" />
-                                                </a>
-                                                <div class="p-5">
-                                                    <a href="#">
-                                                        <h5
-                                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                                                            @{{ item.title }}</h5>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div v-for="va in clima">
-
-                                        <h5
-                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                                            @{{ va }}</h5>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </aside>
-                </div>
+                    @livewire('lateral')
+                </div>  
             </section>
         @elseif ($tituloSep == 'Sociedad-Noticia-Completa-soc96')
             <section>
                 <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
                     <div class=" col-span-4">
-
                         <ul>
                             <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
                                 <article>
@@ -12042,54 +11755,7 @@
                         </ul>
                         <br>
                     </div>
-
-
-                    {{-- columna de la derecha chica --}}
-                    <aside>
-                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
-                            <div class=" col-span-6">
-
-                                <a href="" class="object-cover object-center " width="350">
-                                    <img class="pb-3" src="{{ asset('img/publi/bener-leg2.png') }}"
-                                        alt="">
-                                </a>
-
-                                <a href="" class="object-cover object-center " width="350">
-                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
-                                        alt="">
-                                </a>
-
-                                <div id="app">
-
-                                    <div v-for="item in info">
-
-                                        <div class="flex-col pb-3">
-                                            <div
-                                                class="flex-col max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-                                                <a href="#">
-                                                    <img class="rounded-t-lg"
-                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
-                                                        alt="" />
-                                                </a>
-                                                <div class="p-5">
-                                                    <a href="#">
-                                                        <h5
-                                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                                                            @{{ item.title }}</h5>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div v-for="va in clima">
-
-                                        <h5
-                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                                            @{{ va }}</h5>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </aside>
+                    @livewire('lateral')
                 </div>
             </section>
         @elseif ($tituloSep == 'Sociedad-Noticia-Completa-soc97')
@@ -12155,61 +11821,13 @@
                         </ul>
                         <br>
                     </div>
-
-
-                    {{-- columna de la derecha chica --}}
-                    <aside>
-                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
-                            <div class=" col-span-6">
-
-                                <a href="" class="object-cover object-center " width="350">
-                                    <img class="pb-3" src="{{ asset('img/publi/bener-leg2.png') }}"
-                                        alt="">
-                                </a>
-
-                                <a href="" class="object-cover object-center " width="350">
-                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
-                                        alt="">
-                                </a>
-
-                                <div id="app">
-
-                                    <div v-for="item in info">
-
-                                        <div class="flex-col pb-3">
-                                            <div
-                                                class="flex-col max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-                                                <a href="#">
-                                                    <img class="rounded-t-lg"
-                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
-                                                        alt="" />
-                                                </a>
-                                                <div class="p-5">
-                                                    <a href="#">
-                                                        <h5
-                                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                                                            @{{ item.title }}</h5>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div v-for="va in clima">
-
-                                        <h5
-                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                                            @{{ va }}</h5>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </aside>
+                    @livewire('lateral')
                 </div>
             </section>
         @elseif ($tituloSep == 'Sociedad-Noticia-Completa-soc98')
             <section>
                 <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
                     <div class=" col-span-4">
-
                         <ul>
                             <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
                                 <article>
@@ -12270,65 +11888,16 @@
                         </ul>
                         <br>
                     </div>
-
-
-                    {{-- columna de la derecha chica --}}
-                    <aside>
-                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
-                            <div class=" col-span-6">
-
-                                <a href="" class="object-cover object-center " width="350">
-                                    <img class="pb-3" src="{{ asset('img/publi/bener-leg2.png') }}"
-                                        alt="">
-                                </a>
-
-                                <a href="" class="object-cover object-center " width="350">
-                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
-                                        alt="">
-                                </a>
-
-                                <div id="app">
-
-                                    <div v-for="item in info">
-
-                                        <div class="flex-col pb-3">
-                                            <div
-                                                class="flex-col max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-                                                <a href="#">
-                                                    <img class="rounded-t-lg"
-                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
-                                                        alt="" />
-                                                </a>
-                                                <div class="p-5">
-                                                    <a href="#">
-                                                        <h5
-                                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                                                            @{{ item.title }}</h5>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div v-for="va in clima">
-
-                                        <h5
-                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                                            @{{ va }}</h5>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </aside>
+                    @livewire('lateral')
                 </div>
             </section>
         @elseif ($tituloSep == 'Sociedad-Noticia-Completa-soc99')
             <section>
                 <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
                     <div class=" col-span-4">
-
                         <ul>
                             <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
                                 <article>
-
                                     <div class="py-4 px-4 justify-between items-center">
                                         <h2 class="text-xl font-serif  font-bold pb-6">
                                             <a href="">NUEVOS CASOS DE VIRUELA DEL MONO EN EL CONURBANO</a>
@@ -12352,7 +11921,6 @@
                                         <div
                                             class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
                                             <div class=" font-sans text-lg text-left col-span-6  ">
-
                                                 <p>Este martes, el Ministerio de Salud de la Nación informó sobre la activación de un protocolo de emergencia en un buque proveniente de Brasil. Un tripulante del barco “Ina-Lotte” presentó lesiones cutáneas sospechosas, pero finalmente se descartó la presencia de viruela del mono al confirmarse que se trataba de varicela.</p>
                                                 <br>
                                                 <p><b>El conurbano en alerta</b></p>
@@ -12376,7 +11944,6 @@
                                                             alt="">
                                                         
                                                         <p> <strong>Nota de Adriana Zerdín</strong></p>
-
                                                     </figure>  --}}
                                                 </div>
                                             </div>
@@ -12387,61 +11954,13 @@
                         </ul>
                         <br>
                     </div>
-
-
-                    {{-- columna de la derecha chica --}}
-                    <aside>
-                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
-                            <div class=" col-span-6">
-
-                                <a href="" class="object-cover object-center " width="350">
-                                    <img class="pb-3" src="{{ asset('img/publi/bener-leg2.png') }}"
-                                        alt="">
-                                </a>
-
-                                <a href="" class="object-cover object-center " width="350">
-                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
-                                        alt="">
-                                </a>
-
-                                <div id="app">
-
-                                    <div v-for="item in info">
-
-                                        <div class="flex-col pb-3">
-                                            <div
-                                                class="flex-col max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-                                                <a href="#">
-                                                    <img class="rounded-t-lg"
-                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
-                                                        alt="" />
-                                                </a>
-                                                <div class="p-5">
-                                                    <a href="#">
-                                                        <h5
-                                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                                                            @{{ item.title }}</h5>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div v-for="va in clima">
-
-                                        <h5
-                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                                            @{{ va }}</h5>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </aside>
+                    @livewire('lateral')
                 </div>
             </section>
         @elseif ($tituloSep == 'Sociedad-Noticia-Completa-soc100')
             <section>
                 <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
                     <div class=" col-span-4">
-
                         <ul>
                             <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
                                 <article>
@@ -12501,54 +12020,7 @@
                         </ul>
                         <br>
                     </div>
-
-
-                    {{-- columna de la derecha chica --}}
-                    <aside>
-                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
-                            <div class=" col-span-6">
-
-                                <a href="" class="object-cover object-center " width="350">
-                                    <img class="pb-3" src="{{ asset('img/publi/bener-leg2.png') }}"
-                                        alt="">
-                                </a>
-
-                                <a href="" class="object-cover object-center " width="350">
-                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
-                                        alt="">
-                                </a>
-
-                                <div id="app">
-
-                                    <div v-for="item in info">
-
-                                        <div class="flex-col pb-3">
-                                            <div
-                                                class="flex-col max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-                                                <a href="#">
-                                                    <img class="rounded-t-lg"
-                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
-                                                        alt="" />
-                                                </a>
-                                                <div class="p-5">
-                                                    <a href="#">
-                                                        <h5
-                                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                                                            @{{ item.title }}</h5>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div v-for="va in clima">
-
-                                        <h5
-                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                                            @{{ va }}</h5>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </aside>
+                    @livewire('lateral')
                 </div>
             </section>
         @elseif ($tituloSep == 'Sociedad-Noticia-Completa-soc101')
@@ -12615,65 +12087,16 @@
                         </ul>
                         <br>
                     </div>
-
-
-                    {{-- columna de la derecha chica --}}
-                    <aside>
-                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
-                            <div class=" col-span-6">
-
-                                <a href="" class="object-cover object-center " width="350">
-                                    <img class="pb-3" src="{{ asset('img/publi/bener-leg2.png') }}"
-                                        alt="">
-                                </a>
-
-                                <a href="" class="object-cover object-center " width="350">
-                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
-                                        alt="">
-                                </a>
-
-                                <div id="app">
-
-                                    <div v-for="item in info">
-
-                                        <div class="flex-col pb-3">
-                                            <div
-                                                class="flex-col max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-                                                <a href="#">
-                                                    <img class="rounded-t-lg"
-                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
-                                                        alt="" />
-                                                </a>
-                                                <div class="p-5">
-                                                    <a href="#">
-                                                        <h5
-                                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                                                            @{{ item.title }}</h5>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div v-for="va in clima">
-
-                                        <h5
-                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                                            @{{ va }}</h5>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </aside>
+                    @livewire('lateral')
                 </div>
             </section>
         @elseif ($tituloSep == 'Sociedad-Noticia-Completa-soc102')
             <section>
                 <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
                     <div class=" col-span-4">
-
                         <ul>
                             <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
                                 <article>
-
                                     <div class="py-4 px-4 justify-between items-center">
                                         <h2 class="text-xl font-serif  font-bold pb-6">
                                             <a href="">20 AÑOS DE LA COALICIÓN POR UNA COMUNICACIÓN DEMOCRÁTICA</a>
@@ -12697,7 +12120,6 @@
                                         <div
                                             class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
                                             <div class=" font-sans text-lg text-left col-span-6  ">
-
                                                 <p>La Coalición por una Comunicación Democrática (CCD) ha sido, a lo largo de estos 20 años, un faro indispensable en la defensa de un derecho esencial: el derecho a la comunicación. Desde su creación en 2004, esta red de organizaciones y medios ha sido un pilar fundamental en la construcción de un sistema de medios plural y democrático. Desde ADN Populares, aunque aún no formamos parte de la red, adherimos plenamente a sus principios, valores y objetivos, y compartimos su compromiso por un espacio mediático en el que todas las voces puedan ser escuchadas.</p>
                                                 <br>
                                                 <p>Gracias a la CCD, se impulsaron debates esenciales sobre la necesidad de desconcentrar el poder mediático en Argentina, promoviendo políticas públicas que garantizaran el acceso a la información para todos, como la Ley de Servicios de Comunicación Audiovisual (LSCA) de 2009. Esta ley marcó un antes y un después en la historia de la comunicación en el país, limitando la acumulación de licencias y reservando espacio para medios comunitarios, alternativos y sin fines de lucro. Fue una victoria para la democracia, la pluralidad y la inclusión de sectores históricamente silenciados.</p>
@@ -12720,7 +12142,6 @@
                                                             alt="">
                                                         
                                                         <p> <strong>Nota de Adriana Zerdín</strong></p>
-
                                                     </figure>  --}}
                                                 </div>
                                             </div>
@@ -12731,54 +12152,7 @@
                         </ul>
                         <br>
                     </div>
-
-
-                    {{-- columna de la derecha chica --}}
-                    <aside>
-                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
-                            <div class=" col-span-6">
-
-                                <a href="" class="object-cover object-center " width="350">
-                                    <img class="pb-3" src="{{ asset('img/publi/bener-leg2.png') }}"
-                                        alt="">
-                                </a>
-
-                                <a href="" class="object-cover object-center " width="350">
-                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
-                                        alt="">
-                                </a>
-
-                                <div id="app">
-
-                                    <div v-for="item in info">
-
-                                        <div class="flex-col pb-3">
-                                            <div
-                                                class="flex-col max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-                                                <a href="#">
-                                                    <img class="rounded-t-lg"
-                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
-                                                        alt="" />
-                                                </a>
-                                                <div class="p-5">
-                                                    <a href="#">
-                                                        <h5
-                                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                                                            @{{ item.title }}</h5>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div v-for="va in clima">
-
-                                        <h5
-                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                                            @{{ va }}</h5>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </aside>
+                    @livewire('lateral')
                 </div>
             </section>
         @elseif ($tituloSep == 'Sociedad-Noticia-Completa-soc103')
@@ -12789,7 +12163,6 @@
                         <ul>
                             <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
                                 <article>
-
                                     <div class="py-4 px-4 justify-between items-center">
                                         <h2 class="text-xl font-serif  font-bold pb-6">
                                             <a href="">UN MINISTRO ANTI-DIVERSIDAD EN EL SIGLO XXI</a>
@@ -12813,7 +12186,6 @@
                                         <div
                                             class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
                                             <div class=" font-sans text-lg text-left col-span-6  ">
-
                                                 <p>Las recientes declaraciones del ministro de Justicia, Mariano Cúneo Libarona, han generado una ola de rechazo y preocupación. En su intervención en la Comisión de Mujeres y Diversidad de la Cámara de Diputados, Cúneo Libarona se manifestó en contra de la diversidad sexual, afirmando que las identidades no alineadas con la biología son "inventos subjetivos". Esta postura retrógrada ha sido ampliamente criticada, pero también respaldada por algunos sectores del Gobierno.</p>
                                                 <br>
                                                 <p>El ministro reafirmó sus palabras en redes sociales, donde calificó las políticas de género como "caprichos ideológicos" que, según él, han servido para ocultar la pobreza en el país. Esta visión no solo ha causado indignación entre activistas y sectores políticos, sino que también ha sido respaldada por otros funcionarios del Gobierno, como el vocero presidencial, Manuel Adorni, quien argumentó que estas políticas han escondido negocios perjudiciales.</p>
@@ -12833,7 +12205,6 @@
                                                             alt="">
                                                         
                                                         <p> <strong>Nota de Adriana Zerdín</strong></p>
-
                                                     </figure>  --}}
                                                 </div>
                                             </div>
@@ -12844,65 +12215,16 @@
                         </ul>
                         <br>
                     </div>
-
-
-                    {{-- columna de la derecha chica --}}
-                    <aside>
-                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
-                            <div class=" col-span-6">
-
-                                <a href="" class="object-cover object-center " width="350">
-                                    <img class="pb-3" src="{{ asset('img/publi/bener-leg2.png') }}"
-                                        alt="">
-                                </a>
-
-                                <a href="" class="object-cover object-center " width="350">
-                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
-                                        alt="">
-                                </a>
-
-                                <div id="app">
-
-                                    <div v-for="item in info">
-
-                                        <div class="flex-col pb-3">
-                                            <div
-                                                class="flex-col max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-                                                <a href="#">
-                                                    <img class="rounded-t-lg"
-                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
-                                                        alt="" />
-                                                </a>
-                                                <div class="p-5">
-                                                    <a href="#">
-                                                        <h5
-                                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                                                            @{{ item.title }}</h5>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div v-for="va in clima">
-
-                                        <h5
-                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                                            @{{ va }}</h5>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </aside>
+                    @livewire('lateral')
                 </div>
             </section>
         @elseif ($tituloSep == 'Sociedad-Noticia-Completa-soc104')
             <section>
                 <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
                     <div class=" col-span-4">
-
                         <ul>
                             <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
-                                <article>
-
+                              <article>
                                     <div class="py-4 px-4 justify-between items-center">
                                         <h2 class="text-xl font-serif  font-bold pb-6">
                                             <a href="">RICARDO ALFONSÍN RENUNCIÓ A LA UCR Y CONVOCÓ A LA CONSTRUCCIÓN DE UN FRENTE PROGRESISTA</a>
@@ -12926,7 +12248,6 @@
                                         <div
                                             class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
                                             <div class=" font-sans text-lg text-left col-span-6  ">
-
                                                 <p>En un acto que reunió a los principales referentes de los tres espacios políticos, Ricardo Alfonsín, Gustavo López y Silvia Saravia llamaron a unir y fortalecer al progresismo bonaerense contra las políticas de ajuste y deshumanizantes de Javier Milei.</p>
                                                 <br>
                                                 <p>“Creemos firmemente en la importancia de alcanzar la justicia social como base para garantizar el bienestar y la igualdad de oportunidades para todos”, sostuvieron a lo largo del acto.</p>
@@ -12951,7 +12272,6 @@
                                                             alt="">
                                                         
                                                         <p> <strong>Nota de Adriana Zerdín</strong></p>
-
                                                     </figure>  --}}
                                                 </div>
                                             </div>
@@ -12962,61 +12282,13 @@
                         </ul>
                         <br>
                     </div>
-
-
-                    {{-- columna de la derecha chica --}}
-                    <aside>
-                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
-                            <div class=" col-span-6">
-
-                                <a href="" class="object-cover object-center " width="350">
-                                    <img class="pb-3" src="{{ asset('img/publi/bener-leg2.png') }}"
-                                        alt="">
-                                </a>
-
-                                <a href="" class="object-cover object-center " width="350">
-                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
-                                        alt="">
-                                </a>
-
-                                <div id="app">
-
-                                    <div v-for="item in info">
-
-                                        <div class="flex-col pb-3">
-                                            <div
-                                                class="flex-col max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-                                                <a href="#">
-                                                    <img class="rounded-t-lg"
-                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
-                                                        alt="" />
-                                                </a>
-                                                <div class="p-5">
-                                                    <a href="#">
-                                                        <h5
-                                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                                                            @{{ item.title }}</h5>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div v-for="va in clima">
-
-                                        <h5
-                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                                            @{{ va }}</h5>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </aside>
+                    @livewire('lateral')
                 </div>
             </section>
         @elseif ($tituloSep == 'Sociedad-Noticia-Completa-soc105')
             <section>
                 <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
                     <div class=" col-span-4">
-
                         <ul>
                             <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
                                 <article>
@@ -13077,54 +12349,7 @@
                         </ul>
                         <br>
                     </div>
-
-
-                    {{-- columna de la derecha chica --}}
-                    <aside>
-                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
-                            <div class=" col-span-6">
-
-                                <a href="" class="object-cover object-center " width="350">
-                                    <img class="pb-3" src="{{ asset('img/publi/bener-leg2.png') }}"
-                                        alt="">
-                                </a>
-
-                                <a href="" class="object-cover object-center " width="350">
-                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
-                                        alt="">
-                                </a>
-
-                                <div id="app">
-
-                                    <div v-for="item in info">
-
-                                        <div class="flex-col pb-3">
-                                            <div
-                                                class="flex-col max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-                                                <a href="#">
-                                                    <img class="rounded-t-lg"
-                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
-                                                        alt="" />
-                                                </a>
-                                                <div class="p-5">
-                                                    <a href="#">
-                                                        <h5
-                                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                                                            @{{ item.title }}</h5>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div v-for="va in clima">
-
-                                        <h5
-                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                                            @{{ va }}</h5>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </aside>
+                    @livewire('lateral')
                 </div>
             </section>
         @elseif ($tituloSep == 'Sociedad-Noticia-Completa-soc106')
@@ -13191,61 +12416,13 @@
                         </ul>
                         <br>
                     </div>
-
-
-                    {{-- columna de la derecha chica --}}
-                    <aside>
-                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
-                            <div class=" col-span-6">
-
-                                <a href="" class="object-cover object-center " width="350">
-                                    <img class="pb-3" src="{{ asset('img/publi/bener-leg2.png') }}"
-                                        alt="">
-                                </a>
-
-                                <a href="" class="object-cover object-center " width="350">
-                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
-                                        alt="">
-                                </a>
-
-                                <div id="app">
-
-                                    <div v-for="item in info">
-
-                                        <div class="flex-col pb-3">
-                                            <div
-                                                class="flex-col max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-                                                <a href="#">
-                                                    <img class="rounded-t-lg"
-                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
-                                                        alt="" />
-                                                </a>
-                                                <div class="p-5">
-                                                    <a href="#">
-                                                        <h5
-                                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                                                            @{{ item.title }}</h5>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div v-for="va in clima">
-
-                                        <h5
-                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                                            @{{ va }}</h5>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </aside>
+                    @livewire('lateral')
                 </div>
             </section>
         @elseif ($tituloSep == 'Sociedad-Noticia-Completa-soc107')
             <section>
                 <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
                     <div class=" col-span-4">
-
                         <ul>
                             <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
                                 <article>
@@ -13305,61 +12482,13 @@
                         </ul>
                         <br>
                     </div>
-
-
-                    {{-- columna de la derecha chica --}}
-                    <aside>
-                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
-                            <div class=" col-span-6">
-
-                                <a href="" class="object-cover object-center " width="350">
-                                    <img class="pb-3" src="{{ asset('img/publi/bener-leg2.png') }}"
-                                        alt="">
-                                </a>
-
-                                <a href="" class="object-cover object-center " width="350">
-                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
-                                        alt="">
-                                </a>
-
-                                <div id="app">
-
-                                    <div v-for="item in info">
-
-                                        <div class="flex-col pb-3">
-                                            <div
-                                                class="flex-col max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-                                                <a href="#">
-                                                    <img class="rounded-t-lg"
-                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
-                                                        alt="" />
-                                                </a>
-                                                <div class="p-5">
-                                                    <a href="#">
-                                                        <h5
-                                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                                                            @{{ item.title }}</h5>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div v-for="va in clima">
-
-                                        <h5
-                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                                            @{{ va }}</h5>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </aside>
+                    @livewire('lateral')
                 </div>
             </section>
         @elseif ($tituloSep == 'Sociedad-Noticia-Completa-soc108')
             <section>
                 <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
                     <div class=" col-span-4">
-
                         <ul>
                             <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
                                 <article>
@@ -13417,54 +12546,7 @@
                         </ul>
                         <br>
                     </div>
-
-
-                    {{-- columna de la derecha chica --}}
-                    <aside>
-                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
-                            <div class=" col-span-6">
-
-                                <a href="" class="object-cover object-center " width="350">
-                                    <img class="pb-3" src="{{ asset('img/publi/bener-leg2.png') }}"
-                                        alt="">
-                                </a>
-
-                                <a href="" class="object-cover object-center " width="350">
-                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
-                                        alt="">
-                                </a>
-
-                                <div id="app">
-
-                                    <div v-for="item in info">
-
-                                        <div class="flex-col pb-3">
-                                            <div
-                                                class="flex-col max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-                                                <a href="#">
-                                                    <img class="rounded-t-lg"
-                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
-                                                        alt="" />
-                                                </a>
-                                                <div class="p-5">
-                                                    <a href="#">
-                                                        <h5
-                                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                                                            @{{ item.title }}</h5>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div v-for="va in clima">
-
-                                        <h5
-                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                                            @{{ va }}</h5>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </aside>
+                    @livewire('lateral')
                 </div>
             </section>
         @elseif ($tituloSep == 'Sociedad-Noticia-Completa-soc109')
@@ -13530,65 +12612,16 @@
                         </ul>
                         <br>
                     </div>
-
-
-                    {{-- columna de la derecha chica --}}
-                    <aside>
-                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
-                            <div class=" col-span-6">
-
-                                <a href="" class="object-cover object-center " width="350">
-                                    <img class="pb-3" src="{{ asset('img/publi/bener-leg2.png') }}"
-                                        alt="">
-                                </a>
-
-                                <a href="" class="object-cover object-center " width="350">
-                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
-                                        alt="">
-                                </a>
-
-                                <div id="app">
-
-                                    <div v-for="item in info">
-
-                                        <div class="flex-col pb-3">
-                                            <div
-                                                class="flex-col max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-                                                <a href="#">
-                                                    <img class="rounded-t-lg"
-                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
-                                                        alt="" />
-                                                </a>
-                                                <div class="p-5">
-                                                    <a href="#">
-                                                        <h5
-                                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                                                            @{{ item.title }}</h5>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div v-for="va in clima">
-
-                                        <h5
-                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                                            @{{ va }}</h5>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </aside>
+                    @livewire('lateral')
                 </div>
             </section>
         @elseif ($tituloSep == 'Sociedad-Noticia-Completa-soc110')
             <section>
                 <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
                     <div class=" col-span-4">
-
                         <ul>
                             <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
                                 <article>
-
                                     <div class="py-4 px-4 justify-between items-center">
                                         <h2 class="text-xl font-serif  font-bold pb-6">
                                             <a href="">EL VIEJO GASÓMETRO</a>
@@ -13612,7 +12645,6 @@
                                         <div
                                             class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
                                             <div class=" font-sans text-lg text-left col-span-6  ">
-
                                                 <p>Construido por una empresa alemana en 1948, el Gasómetro fue terminado en 1951, pero su función real duró poco más de tres años, ya que dejó de operar en 1954. Aunque comúnmente se lo asocia con San Lorenzo, el gasómetro no tiene relación directa con el club, ni es simplemente un depósito de gas. En lugar de ello, fue una pieza clave en la infraestructura de distribución de gas.</p>
                                                 <br>
                                                 <p>Antes de la década de 1950, el gas natural aún no estaba disponible y el gas se fabricaba a partir de carbón de coque en la Usina de Corrales, en el barrio de Parque Patricios. Este gas, que incluso iluminaba la ciudad con lámparas de gas, se almacenaba en los gasómetros a través de tuberías. La magia del gasómetro residía en su émbolo interno, que permitía regular la presión del gas al subir y bajar, facilitando su distribución.</p>
@@ -13631,7 +12663,6 @@
                                                             alt="">
                                                         
                                                         <p> <strong>Nota de Adriana Zerdín</strong></p>
-
                                                     </figure>  --}}
                                                 </div>
                                             </div>
@@ -13642,54 +12673,7 @@
                         </ul>
                         <br>
                     </div>
-
-
-                    {{-- columna de la derecha chica --}}
-                    <aside>
-                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
-                            <div class=" col-span-6">
-
-                                <a href="" class="object-cover object-center " width="350">
-                                    <img class="pb-3" src="{{ asset('img/publi/bener-leg2.png') }}"
-                                        alt="">
-                                </a>
-
-                                <a href="" class="object-cover object-center " width="350">
-                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
-                                        alt="">
-                                </a>
-
-                                <div id="app">
-
-                                    <div v-for="item in info">
-
-                                        <div class="flex-col pb-3">
-                                            <div
-                                                class="flex-col max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-                                                <a href="#">
-                                                    <img class="rounded-t-lg"
-                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
-                                                        alt="" />
-                                                </a>
-                                                <div class="p-5">
-                                                    <a href="#">
-                                                        <h5
-                                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                                                            @{{ item.title }}</h5>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div v-for="va in clima">
-
-                                        <h5
-                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                                            @{{ va }}</h5>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </aside>
+                    @livewire('lateral')
                 </div>
             </section>
         @elseif ($tituloSep == 'Sociedad-Noticia-Completa-soc111')
@@ -13756,54 +12740,7 @@
                         </ul>
                         <br>
                     </div>
-
-
-                    {{-- columna de la derecha chica --}}
-                    <aside>
-                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
-                            <div class=" col-span-6">
-
-                                <a href="" class="object-cover object-center " width="350">
-                                    <img class="pb-3" src="{{ asset('img/publi/bener-leg2.png') }}"
-                                        alt="">
-                                </a>
-
-                                <a href="" class="object-cover object-center " width="350">
-                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
-                                        alt="">
-                                </a>
-
-                                <div id="app">
-
-                                    <div v-for="item in info">
-
-                                        <div class="flex-col pb-3">
-                                            <div
-                                                class="flex-col max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-                                                <a href="#">
-                                                    <img class="rounded-t-lg"
-                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
-                                                        alt="" />
-                                                </a>
-                                                <div class="p-5">
-                                                    <a href="#">
-                                                        <h5
-                                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                                                            @{{ item.title }}</h5>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div v-for="va in clima">
-
-                                        <h5
-                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                                            @{{ va }}</h5>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </aside>
+                    @livewire('lateral')
                 </div>
             </section>
         @elseif ($tituloSep == 'Sociedad-Noticia-Completa-soc112')
@@ -13876,61 +12813,13 @@
                         </ul>
                         <br>
                     </div>
-
-
-                    {{-- columna de la derecha chica --}}
-                    <aside>
-                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
-                            <div class=" col-span-6">
-
-                                <a href="" class="object-cover object-center " width="350">
-                                    <img class="pb-3" src="{{ asset('img/publi/bener-leg2.png') }}"
-                                        alt="">
-                                </a>
-
-                                <a href="" class="object-cover object-center " width="350">
-                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
-                                        alt="">
-                                </a>
-
-                                <div id="app">
-
-                                    <div v-for="item in info">
-
-                                        <div class="flex-col pb-3">
-                                            <div
-                                                class="flex-col max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-                                                <a href="#">
-                                                    <img class="rounded-t-lg"
-                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
-                                                        alt="" />
-                                                </a>
-                                                <div class="p-5">
-                                                    <a href="#">
-                                                        <h5
-                                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                                                            @{{ item.title }}</h5>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div v-for="va in clima">
-
-                                        <h5
-                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                                            @{{ va }}</h5>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </aside>
+                    @livewire('lateral')
                 </div>
             </section>
         @elseif ($tituloSep == 'Sociedad-Noticia-Completa-soc113')
             <section>
                 <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
                     <div class=" col-span-4">
-
                         <ul>
                             <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
                                 <article>
@@ -13995,54 +12884,7 @@
                         </ul>
                         <br>
                     </div>
-
-
-                    {{-- columna de la derecha chica --}}
-                    <aside>
-                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
-                            <div class=" col-span-6">
-
-                                <a href="" class="object-cover object-center " width="350">
-                                    <img class="pb-3" src="{{ asset('img/publi/bener-leg2.png') }}"
-                                        alt="">
-                                </a>
-
-                                <a href="" class="object-cover object-center " width="350">
-                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
-                                        alt="">
-                                </a>
-
-                                <div id="app">
-
-                                    <div v-for="item in info">
-
-                                        <div class="flex-col pb-3">
-                                            <div
-                                                class="flex-col max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-                                                <a href="#">
-                                                    <img class="rounded-t-lg"
-                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
-                                                        alt="" />
-                                                </a>
-                                                <div class="p-5">
-                                                    <a href="#">
-                                                        <h5
-                                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                                                            @{{ item.title }}</h5>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div v-for="va in clima">
-
-                                        <h5
-                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                                            @{{ va }}</h5>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </aside>
+                    @livewire('lateral')
                 </div>
             </section>
         @elseif ($tituloSep == 'Sociedad-Noticia-Completa-soc114')
@@ -14053,7 +12895,6 @@
                         <ul>
                             <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
                                 <article>
-
                                     <div class="py-4 px-4 justify-between items-center">
                                         <h2 class="text-xl font-serif  font-bold pb-6">
                                             <a href="">EXPO IGUALDAD REUNIÓ A 25 MIL PERSONAS</a>
@@ -14111,54 +12952,7 @@
                         </ul>
                         <br>
                     </div>
-
-
-                    {{-- columna de la derecha chica --}}
-                    <aside>
-                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
-                            <div class=" col-span-6">
-
-                                <a href="" class="object-cover object-center " width="350">
-                                    <img class="pb-3" src="{{ asset('img/publi/bener-leg2.png') }}"
-                                        alt="">
-                                </a>
-
-                                <a href="" class="object-cover object-center " width="350">
-                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
-                                        alt="">
-                                </a>
-
-                                <div id="app">
-
-                                    <div v-for="item in info">
-
-                                        <div class="flex-col pb-3">
-                                            <div
-                                                class="flex-col max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-                                                <a href="#">
-                                                    <img class="rounded-t-lg"
-                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
-                                                        alt="" />
-                                                </a>
-                                                <div class="p-5">
-                                                    <a href="#">
-                                                        <h5
-                                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                                                            @{{ item.title }}</h5>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div v-for="va in clima">
-
-                                        <h5
-                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                                            @{{ va }}</h5>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </aside>
+                    @livewire('lateral')
                 </div>
             </section>
         @elseif ($tituloSep == 'Sociedad-Noticia-Completa-soc115')
@@ -14221,54 +13015,7 @@
                         </ul>
                         <br>
                     </div>
-
-
-                    {{-- columna de la derecha chica --}}
-                    <aside>
-                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
-                            <div class=" col-span-6">
-
-                                <a href="" class="object-cover object-center " width="350">
-                                    <img class="pb-3" src="{{ asset('img/publi/bener-leg2.png') }}"
-                                        alt="">
-                                </a>
-
-                                <a href="" class="object-cover object-center " width="350">
-                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
-                                        alt="">
-                                </a>
-
-                                <div id="app">
-
-                                    <div v-for="item in info">
-
-                                        <div class="flex-col pb-3">
-                                            <div
-                                                class="flex-col max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-                                                <a href="#">
-                                                    <img class="rounded-t-lg"
-                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
-                                                        alt="" />
-                                                </a>
-                                                <div class="p-5">
-                                                    <a href="#">
-                                                        <h5
-                                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                                                            @{{ item.title }}</h5>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div v-for="va in clima">
-
-                                        <h5
-                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                                            @{{ va }}</h5>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </aside>
+                    @livewire('lateral')
                 </div>
             </section>
         @elseif ($tituloSep == 'Sociedad-Noticia-Completa-soc116')
@@ -14330,54 +13077,7 @@
                         </ul>
                         <br>
                     </div>
-
-
-                    {{-- columna de la derecha chica --}}
-                    <aside>
-                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
-                            <div class=" col-span-6">
-
-                                <a href="" class="object-cover object-center " width="350">
-                                    <img class="pb-3" src="{{ asset('img/publi/bener-leg2.png') }}"
-                                        alt="">
-                                </a>
-
-                                <a href="" class="object-cover object-center " width="350">
-                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
-                                        alt="">
-                                </a>
-
-                                <div id="app">
-
-                                    <div v-for="item in info">
-
-                                        <div class="flex-col pb-3">
-                                            <div
-                                                class="flex-col max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-                                                <a href="#">
-                                                    <img class="rounded-t-lg"
-                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
-                                                        alt="" />
-                                                </a>
-                                                <div class="p-5">
-                                                    <a href="#">
-                                                        <h5
-                                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                                                            @{{ item.title }}</h5>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div v-for="va in clima">
-
-                                        <h5
-                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                                            @{{ va }}</h5>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </aside>
+                    @livewire('lateral')
                 </div>
             </section>
         @elseif ($tituloSep == 'Sociedad-Noticia-Completa-soc117')
@@ -14436,65 +13136,16 @@
                         </ul>
                         <br>
                     </div>
-
-
-                    {{-- columna de la derecha chica --}}
-                    <aside>
-                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
-                            <div class=" col-span-6">
-
-                                <a href="" class="object-cover object-center " width="350">
-                                    <img class="pb-3" src="{{ asset('img/publi/bener-leg2.png') }}"
-                                        alt="">
-                                </a>
-
-                                <a href="" class="object-cover object-center " width="350">
-                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
-                                        alt="">
-                                </a>
-
-                                <div id="app">
-
-                                    <div v-for="item in info">
-
-                                        <div class="flex-col pb-3">
-                                            <div
-                                                class="flex-col max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-                                                <a href="#">
-                                                    <img class="rounded-t-lg"
-                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
-                                                        alt="" />
-                                                </a>
-                                                <div class="p-5">
-                                                    <a href="#">
-                                                        <h5
-                                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                                                            @{{ item.title }}</h5>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div v-for="va in clima">
-
-                                        <h5
-                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                                            @{{ va }}</h5>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </aside>
+                    @livewire('lateral')
                 </div>
             </section>
         @elseif ($tituloSep == 'Sociedad-Noticia-Completa-soc118')
             <section>
                 <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
                     <div class=" col-span-4">
-
                         <ul>
                             <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
                                 <article>
-
                                     <div class="py-4 px-4 justify-between items-center">
                                         <h2 class="text-xl font-serif  font-bold pb-6">
                                             <a href="">CRISTINA LLAMA A ENFRENTAR EL DESASTRE DEL GOBIERNO DE MILEI   </a>
@@ -14543,55 +13194,8 @@
                             </li>
                         </ul>
                         <br>
-                    </div>
-
-
-                    {{-- columna de la derecha chica --}}
-                    <aside>
-                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
-                            <div class=" col-span-6">
-
-                                <a href="" class="object-cover object-center " width="350">
-                                    <img class="pb-3" src="{{ asset('img/publi/bener-leg2.png') }}"
-                                        alt="">
-                                </a>
-
-                                <a href="" class="object-cover object-center " width="350">
-                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
-                                        alt="">
-                                </a>
-
-                                <div id="app">
-
-                                    <div v-for="item in info">
-
-                                        <div class="flex-col pb-3">
-                                            <div
-                                                class="flex-col max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-                                                <a href="#">
-                                                    <img class="rounded-t-lg"
-                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
-                                                        alt="" />
-                                                </a>
-                                                <div class="p-5">
-                                                    <a href="#">
-                                                        <h5
-                                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                                                            @{{ item.title }}</h5>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div v-for="va in clima">
-
-                                        <h5
-                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                                            @{{ va }}</h5>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </aside>
+                    </div>          
+                    @livewire('lateral')
                 </div>
             </section>
         @elseif ($tituloSep == 'Sociedad-Noticia-Completa-soc119')
@@ -14649,54 +13253,7 @@
                         </ul>
                         <br>
                     </div>
-
-
-                    {{-- columna de la derecha chica --}}
-                    <aside>
-                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
-                            <div class=" col-span-6">
-
-                                <a href="" class="object-cover object-center " width="350">
-                                    <img class="pb-3" src="{{ asset('img/publi/bener-leg2.png') }}"
-                                        alt="">
-                                </a>
-
-                                <a href="" class="object-cover object-center " width="350">
-                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
-                                        alt="">
-                                </a>
-
-                                <div id="app">
-
-                                    <div v-for="item in info">
-
-                                        <div class="flex-col pb-3">
-                                            <div
-                                                class="flex-col max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-                                                <a href="#">
-                                                    <img class="rounded-t-lg"
-                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
-                                                        alt="" />
-                                                </a>
-                                                <div class="p-5">
-                                                    <a href="#">
-                                                        <h5
-                                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                                                            @{{ item.title }}</h5>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div v-for="va in clima">
-
-                                        <h5
-                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                                            @{{ va }}</h5>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </aside>
+                @livewire('lateral')
                 </div>
             </section>
         @elseif ($tituloSep == 'Sociedad-Noticia-Completa-soc120')
@@ -14761,54 +13318,7 @@
                         </ul>
                         <br>
                     </div>
-
-
-                    {{-- columna de la derecha chica --}}
-                    <aside>
-                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
-                            <div class=" col-span-6">
-
-                                <a href="" class="object-cover object-center " width="350">
-                                    <img class="pb-3" src="{{ asset('img/publi/bener-leg2.png') }}"
-                                        alt="">
-                                </a>
-
-                                <a href="" class="object-cover object-center " width="350">
-                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
-                                        alt="">
-                                </a>
-
-                                <div id="app">
-
-                                    <div v-for="item in info">
-
-                                        <div class="flex-col pb-3">
-                                            <div
-                                                class="flex-col max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-                                                <a href="#">
-                                                    <img class="rounded-t-lg"
-                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
-                                                        alt="" />
-                                                </a>
-                                                <div class="p-5">
-                                                    <a href="#">
-                                                        <h5
-                                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                                                            @{{ item.title }}</h5>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div v-for="va in clima">
-
-                                        <h5
-                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                                            @{{ va }}</h5>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </aside>
+                    @livewire('lateral')
                 </div>
             </section>
         @elseif ($tituloSep == 'Sociedad-Noticia-Completa-soc121')
@@ -14863,54 +13373,7 @@
                         </ul>
                         <br>
                     </div>
-
-
-                    {{-- columna de la derecha chica --}}
-                    <aside>
-                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
-                            <div class=" col-span-6">
-
-                                <a href="" class="object-cover object-center " width="350">
-                                    <img class="pb-3" src="{{ asset('img/publi/bener-leg2.png') }}"
-                                        alt="">
-                                </a>
-
-                                <a href="" class="object-cover object-center " width="350">
-                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
-                                        alt="">
-                                </a>
-
-                                <div id="app">
-
-                                    <div v-for="item in info">
-
-                                        <div class="flex-col pb-3">
-                                            <div
-                                                class="flex-col max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-                                                <a href="#">
-                                                    <img class="rounded-t-lg"
-                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
-                                                        alt="" />
-                                                </a>
-                                                <div class="p-5">
-                                                    <a href="#">
-                                                        <h5
-                                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                                                            @{{ item.title }}</h5>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div v-for="va in clima">
-
-                                        <h5
-                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                                            @{{ va }}</h5>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </aside>
+                    @livewire('lateral')
                 </div>
             </section>
         @elseif ($tituloSep == 'Sociedad-Noticia-Completa-soc122')
@@ -14965,101 +13428,290 @@
                         </ul>
                         <br>
                     </div>
+                        @livewire('lateral')
+                </div>
+            </section>
+        @elseif ($tituloSep == 'Sociedad-Noticia-Completa-soc123')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
 
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
 
-                    {{-- columna de la derecha chica --}}
-                    <aside>
-                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
-                            <div class=" col-span-6">
-
-                                <a href="" class="object-cover object-center " width="350">
-                                    <img class="pb-3" src="{{ asset('img/publi/bener-leg2.png') }}"
-                                        alt="">
-                                </a>
-
-                                <a href="" class="object-cover object-center " width="350">
-                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
-                                        alt="">
-                                </a>
-
-                                <div id="app">
-
-                                    <div v-for="item in info">
-
-                                        <div class="flex-col pb-3">
-                                            <div
-                                                class="flex-col max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-                                                <a href="#">
-                                                    <img class="rounded-t-lg"
-                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
-                                                        alt="" />
-                                                </a>
-                                                <div class="p-5">
-                                                    <a href="#">
-                                                        <h5
-                                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                                                            @{{ item.title }}</h5>
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">MASIVA MARCHA FEDERAL UNIVERSITARIA CONTRA EL VETO DE MILEI</a>
+                                            {{-- <p class="font-light  text-lef text-gray-500">Por Emanuel Corrado</p> --}}
+                                        </h2>
+                                        <p class="font-light  text-right text-gray-500">Publicado: 03/10/2024</p>
+                                        <div class=" font-sans text-lg text-left col-span-6  ">
+                                        <p><i>Más de un millón de personas se movilizaron en rechazo a la decisión del Presidente Javier Milei de vetar la Ley de Financiamiento Universitario, consolidando una fuerte oposición en defensa de la educación pública.
+                                        </i>
+                                        </p> 
+                                        <br>
+                                        <figure>
+                                            <img class="w-full object-cover" src="../img/soc/soc_vetoley.svg"
+                                                alt="">
+                                        </figure>
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+                                                <p>La Segunda Marcha Federal Universitaria congregó a una multitud en las principales ciudades del país, con una asistencia que los organizadores estimaron en 1,5 millones de personas. En Buenos Aires, el epicentro de la protesta fue frente al Congreso, donde se dieron cita estudiantes, docentes, sindicatos, organizaciones sociales y referentes de derechos humanos, todos unificados en la defensa del presupuesto universitario. “No queremos que nos arrebaten nuestros sueños. Nuestro futuro no les pertenece”, afirmó Piera Fernández de Piccoli, presidenta de la Federación Universitaria Argentina (FUA), desde el escenario.
+                                                </p>
+                                                <br>
+                                                <p>Los convocados alzaron sus voces en un contexto de creciente preocupación por el ajuste que el gobierno de Milei aplica a la educación pública. La marcha, considerada más masiva que la anterior realizada en abril, incluyó expresiones de apoyo en ciudades como Córdoba, Mendoza, Rosario, Tucumán y Ushuaia. “Ojalá el Gobierno tome nota y podamos planificar una solución”, dijo Victor Moriñigo, presidente del Consejo Interuniversitario Nacional.
+                                                </p>
+                                                <br>
+                                                <p>El Presidente respondió a la marcha desde sus redes sociales, sosteniendo que “la universidad pública no está en peligro” y cuestionando la legitimidad de los manifestantes. A pesar de las tácticas del gobierno para limitar la movilización, como la detención de micros y el cierre de calles, la manifestación fue contundente y su mensaje claro.
+                                                </p>
+                                                <br>
+                                                <p>La comunidad educativa denunció la crítica situación actual: “La pérdida de quienes trabajamos en las universidades públicas es de una gravedad inusitada; muchos docentes y no docentes perciben salarios por debajo de la línea de pobreza”, expusieron en un documento leído en el acto.
+                                                </p>
+                                                <br>
+                                                <p>Entre los oradores, la expresidenta Cristina Fernández de Kirchner destacó la importancia de la educación pública para la movilidad social. También se hicieron presentes líderes opositores, desde Horacio Rodríguez Larreta hasta Sergio Massa, quienes coincidieron en la necesidad de mantener y fortalecer el financiamiento de las universidades.
+                                                </p>
+                                                <br>
+                                                <p>La movilización no solo reunió a sectores políticos, sino que también atrajo a movimientos sociales, sindicatos y organismos de derechos humanos, evidenciando un amplio respaldo a la causa. “La universidad es de todos, y nuestros hijos ocupan las aulas de esas universidades públicas, tenemos que defenderlas”, declaró Norma Morales de la UTEP.
+                                                <br> 
+                                                <p>El acto concluyó con una ovación y la interpretación de "Fanático" de Lali Espósito, cerrando una jornada que reafirmó el compromiso de la sociedad con la educación pública y la justicia social.
+                                                </p>
+                                                <br>                                               
+                                                <div class="text-start object-center">
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                    <div v-for="va in clima">
-
-                                        <h5
-                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                                            @{{ va }}</h5>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </aside>
+                                </article>
+                            </li>
+                        </ul>
+                        <br>
+                    </div>
+                        @livewire('lateral')
                 </div>
             </section>
-        
-    @endif
+        @elseif ($tituloSep == 'Sociedad-Noticia-Completa-soc124')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
 
-    </div>
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
 
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">MILEI FIRMA EL VETO Y DESAFÍA A LA EDUCACIÓN PÚBLICA</a>
+                                            {{-- <p class="font-light  text-lef text-gray-500">Por Emanuel Corrado</p> --}}
+                                        </h2>
+                                        <p class="font-light  text-right text-gray-500">Publicado: 03/10/2024</p>
+                                        <div class=" font-sans text-lg text-left col-span-6  ">
+                                        <p><i>La decisión del presidente se tomó horas después de la masiva marcha en defensa del financiamiento universitario, desatando la indignación de la comunidad educativa y la oposición política.
+                                        </i>
+                                        </p> 
+                                        <br>
+                                        <figure>
+                                            <img class="w-full object-cover" src="../img/soc/soc_desafio.svg"
+                                                alt="">
+                                        </figure>
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+                                                <p>En una muestra clara de su desdén por la educación pública, el presidente Javier Milei firmó el veto a la Ley de Financiamiento Universitario horas después de la Segunda Marcha Federal Universitaria, que reunió a más de un millón de personas en todo el país. Desde Olivos, Milei se dedicó a descalificar a la oposición en redes sociales, acusándola de ser "populistas demagógicos" y de intentar desestabilizar su gobierno. La movilización, que concentró no solo a estudiantes y docentes, sino también a sindicatos y organizaciones sociales, fue calificada por el Gobierno como un mero acto político, tratando de restarle legitimidad a un reclamo que, según los organizadores, es vital para el futuro de la educación en Argentina.
+                                                </p>
+                                                <br>
+                                                <p>En un comunicado emitido desde Casa Rosada, el Gobierno intentó dividir el apoyo de los distintos sectores políticos a la movilización, argumentando que la presencia de figuras como Cristina Kirchner, Sergio Massa y Horacio Rodríguez Larreta en la protesta formaba parte de un “nuevo frente de izquierda populista” que busca obstaculizar el plan económico del presidente. "El problema no es con las universidades, sino con los legisladores que hacen populismo demagógico", afirmaron, tratando de desviar la atención del verdadero asunto: la crítica situación de las instituciones educativas ante el recorte presupuestario.
+                                                </p>
+                                                <br>
+                                                <p>Pese a los esfuerzos del Gobierno por deslegitimar la marcha, la realidad es que La Libertad Avanza carece de los votos necesarios en el Congreso para respaldar el veto que Milei firmó. Las universidades habían solicitado un presupuesto de 7,2 billones de pesos, mientras que el Gobierno solo asigna 3,8 billones, lo que revela una clara intención de desfinanciar la educación pública. Esto plantea serias dudas sobre la viabilidad del sistema universitario en el país, donde muchos docentes viven por debajo de la línea de pobreza.
+                                                <br>
+                                                <p>La comunidad educativa denunció la crítica situación actual: “La pérdida de quienes trabajamos en las universidades públicas es de una gravedad inusitada; muchos docentes y no docentes perciben salarios por debajo de la línea de pobreza”, expusieron en un documento leído en el acto.
+                                                </p>
+                                                <br>
+                                                <p>La ministra de Seguridad, Patricia Bullrich, intensificó la narrativa de conspiración al insinuar que la movilización era un pretexto para preparar un “golpe” contra el Gobierno, desestimando la importancia de las demandas educativas. En respuesta a la creciente presión social, Milei utilizó su cuenta de Twitter para reafirmar su postura: "Si para enfrentar a uno solo tenés que juntarte con un montón de impresentables prostituyendo una causa noble, eso es una mayúscula muestra de debilidad y cobardía".
+                                                </p>
+                                                <br>
+                                                <p>La decisión de Milei de firmar el veto a la ley de financiamiento universitario refleja una clara estrategia de confrontación con la comunidad educativa y los sectores políticos que apoyan la educación pública. Mientras la tensión en el Congreso crece y se intensifican las negociaciones por los votos, la lucha por una educación pública y de calidad se convierte en un tema central en el debate político argentino.
+                                                <br>                                                                                         
+                                                <div class="text-start object-center">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+                            </li>
+                        </ul>
+                        <br>
+                    </div>  
+                        @livewire('lateral')
+                </div>
+            </section>
+        @elseif ($tituloSep == 'Sociedad-Noticia-Completa-soc125')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
 
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
 
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">CARRERA AMO MIS MAMAS EN LA PLATA</a>
+                                            {{-- <p class="font-light  text-lef text-gray-500">Por Emanuel Corrado</p> --}}
+                                        </h2>
+                                        <p class="font-light  text-right text-gray-500">Publicado: 04/10/2024</p>
+                                        <div class=" font-sans text-lg text-left col-span-6  ">
+                                        <p><i>La carrera "Amo Mis Mamas" se llevará a cabo en La Plata para concientizar sobre la prevención del cáncer de mama, coincidiendo con su día internacional.
+                                        </i>
+                                        </p> 
+                                        <br>
+                                        <figure>
+                                            <img class="w-full object-cover" src="../img/soc/soc_materia.svg"
+                                                alt="">
+                                        </figure>
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+                                                <p>El próximo sábado 19 de octubre, el Estadio Único Diego Armando Maradona de La Plata será el escenario de la segunda edición de la carrera "Amo Mis Mamas", organizada por el Ministerio de Mujeres y Diversidad de la provincia de Buenos Aires. El evento, que comenzará a las 14 hs., tiene como objetivo visibilizar la importancia de la prevención y detección temprana del cáncer de mama, coincidiendo con el Día Internacional de la Lucha contra esta enfermedad.
+                                                </p>
+                                                <br>
+                                                <p>La carrera se llevará a cabo bajo la consigna “Cada Paso Cuenta” y contará con la participación de diversas organizaciones locales que apoyan la causa, entre ellas la Secretaría de Mujeres y Diversidad del municipio de La Plata, la Dirección de Mujer, Género y Diversidad de Berisso y el Ministerio de Salud. Las actividades incluirán acreditaciones, entrega de kits, una charla técnica, y una feria de artesanas y artesanos, así como stands institucionales relacionados con la salud.
+                                                </p>
+                                                <br>
+                                                <p>Los participantes podrán inscribirse en dos modalidades: un recorrido de 2 km participativos y otro de 8 km competitivos, ambos gratuitos y abiertos a la comunidad. La carrera dará inicio a las 19 hs., con la ruta de 2 km llegando hasta el Parque Alberti y la de 8 km hasta Plaza Moreno. Los corredores del trayecto más largo contarán con un chip para rastrear su ubicación.
+                                                </p>
+                                                <br>
+                                                <p>Esta iniciativa es parte de las acciones del Ministerio de Mujeres y Diversidad, que desde 2024 promueve la campaña “Si cuidas, cuidate. Prevenir es una tarea compartida”. La propuesta busca generar conciencia sobre la salud integral de mujeres y diversidades, destacando la importancia de la detección temprana del cáncer.
+                                                </p>
+                                                <br>                                                                                         
+                                                <div class="text-start object-center">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+                            </li>
+                        </ul>
+                        <br>
+                    </div>  
+                        @livewire('lateral')
+                </div>
+            </section>
+        @elseif ($tituloSep == 'Sociedad-Noticia-Completa-soc126')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
 
-    {{-- aca arrancamos vue --}}
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
 
-    @push('js')
-        <script>
-            new Vue({
-                el: '#app',
-                data: {
-                    info: [],
-                    clima: [],
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">LA INTERNA DEL PJ Y LA CANDIDATURA DE CRISTINA</a>
+                                            {{-- <p class="font-light  text-lef text-gray-500">Por Emanuel Corrado</p> --}}
+                                        </h2>
+                                        <p class="font-light  text-right text-gray-500">Publicado: 05/10/2024</p>
+                                        <div class=" font-sans text-lg text-left col-span-6  ">
+                                        <p><i>El PJ enfrenta un momento crucial en su historia interna, donde se define la posible candidatura de Cristina Fernández de Kirchner a la presidencia del partido.
+                                        </i>
+                                        </p> 
+                                        <br>
+                                        <figure>
+                                            <img class="w-full object-cover" src="../img/soc/soc_interna.svg"
+                                                alt="">
+                                        </figure>
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+                                                <p>El operativo clamor por "Cristina presidenta" resuena nuevamente, esta vez en la búsqueda de la conducción del PJ. Ante un peronismo dividido por la disputa entre Máximo Kirchner y Axel Kicillof, la expresidenta se muestra dispuesta a asumir un rol que nunca había considerado, a la espera de que se reordenen las piezas del tablero político. Ricardo Quintela, gobernador de La Rioja y hasta hace poco único candidato a presidir el partido, desafió las expectativas al reafirmar su intención de competir: “El peronismo tiene que debatir, y si tiene que competir, tiene que competir”.
+                                                </p>
+                                                <br>
+                                                <p>Mientras Quintela recorre el país buscando apoyos, CFK ha estado proponiendo alternativas desde el Instituto Patria, aunque ninguna ha tenido éxito hasta ahora. La figura de Quintela no era bien vista por algunos sectores, que argumentaban que el presidente del PJ debía ser alguien que no fuera un gobernador, debido a la necesidad de ejercer una oposición activa.
+                                                </p>
+                                                <br>
+                                                <p>La presión para que Cristina acepte liderar el partido ha aumentado, especialmente tras la crisis social provocada por las políticas del actual gobierno. Gildo Insfrán, gobernador de Formosa y aliado clave, ha insistido en que la expresidenta debería ser la candidata. Recientemente, CFK mantuvo una reunión con Insfrán y otros senadores en la que se discutió su posible candidatura y se destacó su disposición para liderar.
+                                                </p>
+                                                <br>
+                                                <p>La fragmentación del peronismo actual hace que la unidad sea esencial, y muchos consideran que la única figura que puede aglutinar al partido es CFK. Sin embargo, Ricardo Quintela, quien continúa recibiendo respaldo, ha dejado claro que no se retirará. “El que gana conduce, el que pierde acompaña”, afirmó desde Neuquén, donde se encontraba en campaña.
+                                                </p>
+                                                <br>
+                                                <p>En un contexto donde el trasvasamiento generacional parece estancado, la pregunta que queda es si Cristina tomará el mando o si el partido encontrará una manera de unirse en torno a un candidato que represente a todos los sectores. La decisión debe tomarse pronto, ya que las elecciones internas están programadas para el 17 de noviembre.
+                                                </p>
+                                                <br>                                                                                          
+                                                <div class="text-start object-center">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+                            </li>
+                        </ul>
+                        <br>
+                    </div>  
+                        @livewire('lateral')
+                </div>
+            </section>
+        @elseif ($tituloSep == 'Sociedad-Noticia-Completa-soc127')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
 
-                },
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
 
-                mounted() {
-
-
-                    axios.get("https://api.dailymotion.com/videos?channel=news&limit=2")
-                        .then(response => {
-                            this.info = response.data.list
-                        });
-
-                    /*    axios.get( */
-                    /*      "https://api.weatherbit.io/v2.0/current?lat=35.7796&lon=-78.6382&key=f2207d043ea74a359ff232a1d03d0c72&include=minutely"
-                    )*/
-                    axios.get(
-                            "https://api.openweathermap.org/2.5/wheater?q=BURNOS AIRESlat=35.7796&lon=-78.6382&key=f2207d043ea74a359ff232a1d03d0c72&include=minutely"
-                        )
-                        .then(response => {
-                            this.clima = response
-                        });
-
-
-                },
-
-            });
-        </script>
-    @endpush
-
-
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">DENUNCIAS POR EL CIERRE DEL HOSPITAL LAURA BONAPARTE</a>
+                                            {{-- <p class="font-light  text-lef text-gray-500">Por Emanuel Corrado</p> --}}
+                                        </h2>
+                                        <p class="font-light  text-right text-gray-500">Publicado: 06/10/2024</p>
+                                        <div class=" font-sans text-lg text-left col-span-6  ">
+                                        <p><i>El cierre del Hospital Nacional de Salud Mental Laura Bonaparte genera alarma entre los trabajadores y organizaciones de derechos humanos. El Gobierno nacional anunció la reestructuración del centro, que atiende a miles de personas con problemas de salud mental.
+                                        </i>
+                                        </p> 
+                                        <br>
+                                        <figure>
+                                            <img class="w-full object-cover" src="../img/soc/soc_bona.svg"
+                                                alt="">
+                                        </figure>
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+                                                <p>Los trabajadores del Hospital Nacional de Salud Mental Laura Bonaparte se encuentran en estado de alerta tras el anuncio del gobierno nacional de cerrar los servicios de internación y guardia. Esta decisión afectará a más de 25,000 pacientes atendidos anualmente y pone en riesgo la continuidad de un equipo de 600 trabajadores que luchan por brindar atención en un contexto de ajuste y precariedad laboral.
+                                                </p>
+                                                <br>
+                                                <p>La noticia fue comunicada de manera confusa y repentina. Según Leonardo Fernández Camacho, delegado general de ATE, “no sabíamos nada hasta hoy, aunque nos han dicho que el Gobierno ya estaría firmando el decreto”. La respuesta oficial del Ministerio de Salud argumenta que se busca “priorizar la asignación de recursos en los pacientes que lo necesitan”, sin embargo, los trabajadores destacan que esta medida representa un abandono sistemático de la salud mental en el país.
+                                                </p>
+                                                <br>
+                                                <p>An Millet, trabajador social del hospital, enfatizó la importancia de este centro como un lugar de cuidado integral. “No se trata solo del cierre del Bonaparte, sino de una política que atenta contra el bienestar de la población”, advirtió. La atención a personas en situación de vulnerabilidad y los programas de capacitación a nivel nacional corren el riesgo de desaparecer.
+                                                <br>
+                                                <p>Organizaciones de derechos humanos también expresaron su repudio ante esta decisión. En un comunicado, denuncian que el cierre del hospital es un ataque directo a los derechos humanos y a la salud pública. “En tiempos en que la atención de la salud mental es prioritaria, esta medida es un atropello inaceptable”, afirmaron.
+                                                <br>
+                                                <p>La comunidad y los trabajadores se movilizan para exigir la continuidad del hospital, que, desde su fundación, ha sido un pilar fundamental en la atención de la salud mental en el país. En un momento donde el sufrimiento psíquico se ha incrementado, es imperativo que el Estado garantice la atención y los recursos necesarios para la salud mental de su población.
+                                                </p>
+                                                <br>                                                                                          
+                                                <div class="text-start object-center">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+                            </li>
+                        </ul>
+                        <br>
+                    </div>  
+                        @livewire('lateral')
+                </div>
+            </section>
+        @endif
 
 </x-app-layout>
