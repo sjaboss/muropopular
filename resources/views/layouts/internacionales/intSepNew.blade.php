@@ -3744,6 +3744,66 @@
                 @livewire('lateral')
                 </div>
             </section>
+        @elseif ($tituloSep == 'Internacionales-Noticia-Completa-int32')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">NI DESCUBRIMIENTO NI ENCUENTRO, RESISTENCIA Y LUCHA CONTRA LA COLONIZACIÓN</a>
+                                            <p class="font-light  text-lef text-gray-500">Por Gustavo Cano</p>
+                                        </h2>
+                                        <p class="font-light  text-right text-gray-500">Publicado: 12/10/2024</p>
+                                        <p><i>El 12 de octubre, lejos de ser motivo de celebración, debe recordarse como el inicio de un genocidio que aún marca a América Latina.
+                                        </i>
+                                        </p>
+                                        <br>
+                                        <figure>
+                                            <img class=" w-full object-cover" src="../img/int/int_12oct2.svg"
+                                                alt="">
+                                        </figure>
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+                                                <p>En América Latina, el 12 de octubre no es una fecha para festejar. Lo que algunos insisten en llamar "Descubrimiento de América" o "Encuentro de dos mundos" fue, en realidad, el comienzo de un proceso de exterminio, saqueo y dominación que fracturó de manera brutal a las civilizaciones originarias. Esta fecha simboliza la colonización europea, que impuso a los pueblos indígenas un régimen de violencia que perdura hasta hoy.
+                                                </p>
+                                                <br>
+                                                <p>Desde 2002, Venezuela ha transformado este día en el Día de la Resistencia Indígena, una jornada que conmemora la lucha incansable de los pueblos originarios frente a la invasión y el expolio colonial. Este año, miles de personas marcharon en Caracas, en una movilización que reivindica la historia de los vencidos, aquellos a quienes el sistema colonial intentó borrar, pero que hoy se levantan para reclamar su lugar.
+                                                </p>
+                                                <br>
+                                                <p>El 12 de octubre es, para los movimientos sociales y pueblos originarios, un día de resistencia, un acto de memoria frente a un sistema que celebra su propio pasado opresor. Mientras que en países como España este día sigue conmemorándose con pompa militar, América Latina enfrenta las consecuencias de un genocidio cultural, que no se limita a los crímenes del pasado, sino que se refleja en la marginación, explotación y violencia que hoy viven las comunidades indígenas.
+                                                </p>
+                                                <br>
+                                                <p>En Argentina, esta jornada también ha sido resignificada. Desde 2010, el "Día de la Raza" fue reemplazado por el <b>Día del Respeto a la Diversidad Cultural</b>, en un esfuerzo por reconocer la riqueza y la identidad de los pueblos originarios que fueron históricamente invisibilizados. Este cambio no es menor: se trata de una revalorización de la diversidad que existe en nuestro país y un acto de justicia hacia aquellos que fueron despojados de sus tierras, sus lenguas y sus formas de vida durante la conquista española y que, hasta hoy, continúan en una lucha constante por el reconocimiento de sus derechos.
+                                                </p>
+                                                <br>
+                                                <p>México ha transformado este día en el Día de la Nación Pluricultural, reconociendo la diversidad de culturas y la riqueza de sus pueblos originarios. Sin embargo, la batalla simbólica por esta fecha continúa. Hace apenas un día, la presidenta mexicana Claudia Sheinbaum renovó el pedido de una disculpa pública a España por los abusos cometidos durante la conquista. Un reconocimiento que, hasta hoy, ha sido ignorado por el Estado español.
+                                                </p>
+                                                <br>
+                                                <p>Cinco siglos después del inicio de la colonización, la resistencia indígena sigue viva. Las comunidades originarias de América Latina continúan enfrentando nuevas formas de saqueo y violencia. Los megaproyectos extractivistas, la deforestación ilegal y la amenaza del agronegocio se suman al impacto devastador del cambio climático, agravando la situación de los pueblos que luchan por preservar sus territorios y sus formas de vida.
+                                                </p>
+                                                <br>
+                                                <p>La resistencia indígena, por tanto, no es solo un tema histórico. Es una lucha actual, una defensa de los derechos fundamentales y de la vida en comunidad. No se trata de un reclamo nostálgico, sino de un llamado urgente a la justicia y a la reparación.
+                                                </p>
+                                                <br>
+                                                <p>El 12 de octubre no es motivo de orgullo, ni un día para celebrar. Es un día para recordar el genocidio que los pueblos originarios han sufrido y siguen sufriendo. Es un día de resistencia frente a un sistema que aún busca someter y explotar.
+                                                </p>
+                                                <br>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+                            </li>
+                        </ul>
+                        <br>
+                    </div>
+                @livewire('lateral')
+                </div>
+            </section>
 
 
         @endif

@@ -1685,6 +1685,108 @@
                 </div>
 
             </section>
+        @elseif ($tituloSep == 'Deportes-Noticia-Completa-dep14')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">ARGENTINA Y VENEZUELA EMPATAN EN UN MAR DE AGUA
+                                            </a>
+                                            <p class="font-light  text-right text-gray-500">Publicado: 11/10/2024</p>
+                                        </h2>
+                                        <p><i>El encuentro por las Eliminatorias Sudamericanas terminó 1-1 debido al mal estado del campo de juego en Maturín.
+                                        </i></p>
+                                        <br>
+                                        <figure>
+                                            <img class="w-full object-cover"
+                                                src="{{ asset('../img/dep/dep_empate.svg') }}" alt="">
+                                        </figure>
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+                                                <p>En un Estadio Monumental de Maturín anegado por la lluvia, Argentina y Venezuela igualaron 1-1, en un duelo en el que el clima y las condiciones del césped fueron los protagonistas. El partido, que comenzó con media hora de retraso, estuvo marcado por la dificultad de ambos equipos para mantener el control del balón.
+                                                </p>
+                                                <br>
+                                                <p>A pesar de las adversidades, Argentina logró adelantarse en el marcador a los 12 minutos gracias a un gol de Nicolás Otamendi. El defensor aprovechó un error del arquero venezolano Romo, quien no pudo despejar correctamente un tiro libre. Venezuela, sin embargo, encontró el empate en el segundo tiempo. Un cabezazo letal de Salomón Rondón selló el resultado a los 64 minutos, en una de las pocas oportunidades claras del equipo local.
+                                                </p>
+                                                <br>
+                                                <p>Con este empate, la selección argentina, dirigida por Lionel Scaloni, se mantiene en la cima de la tabla con 16 puntos, tres por encima de Colombia. Venezuela, por su parte, sigue luchando por un lugar en los puestos de clasificación, ubicándose en la sexta posición con 11 puntos.
+                                                </p>
+                                                <br>
+                                                <p>El próximo martes 15 de octubre, Argentina recibirá a Bolivia en el Monumental de Núñez, mientras que Venezuela viajará a Asunción para enfrentar a Paraguay en la décima fecha de las Eliminatorias.
+                                                </p>
+                                                <br>
+                                                
+                                                
+                                                <div class="text-start object-center">
+                                                    {{-- <figure>
+                                                        <img class="w-28 h-28  "
+                                                            src="{{ asset('../img/noteros/gus.svg') }}"
+                                                            alt="">
+                                                        <p> <strong>Por Gustavo Cano<strong></p>
+                                                        <p><strong><strong></p>
+                                                    </figure> --}}
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+                            </li>
+                        </ul>
+                        <br>
+                    </div>
+                    {{-- columna de la derecha chica --}}
+                    <aside>
+                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                            <div class=" col-span-6">
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
+                                        alt="">
+                                </a>
+
+                                <div id="app">
+
+                                    <div v-for="item in info">
+
+                                        <div class="flex-col pb-3">
+                                            <div
+                                                class="flex-col max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg"
+                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
+                                                        alt="" />
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5
+                                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                                            @{{ item.title }}</h5>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div v-for="va in clima">
+
+                                        <h5
+                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                            @{{ va }}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+
+                </div>
+
+            </section>
         @endif
     </div>
 

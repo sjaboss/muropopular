@@ -3213,6 +3213,118 @@
                 </div>
 
             </section>
+        @elseif ($tituloSep == 'Agenda-Feminista-Completa-fem23')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">LOS FEMINISMOS TOMAN JUJUY, EL 37° ENCUENTRO DESAFÍA AL GOBIERNO</a>
+                                            <p class="font-light  text-right text-gray-500">Publicado: 12/10/2024</p>
+                                        </h2>
+                                        <p><i>Enfrentando la adversidad y con Milei en el poder, el 37° Encuentro Nacional feminista llenó las calles de lucha y resistencia.</i>
+                                        </p>
+                                        <br>
+                                        <figure>
+                                            <img class="w-full object-cover" src="../img/fem/fem_37encuentro.svg"
+                                                alt="">
+                                        </figure>
+                                        {{-- <article>
+                                            <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/KgLeMhUAufY?si=LCmXJy-t6RqfgsUb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                            
+                                        </article> --}}
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+                                                <p>El 37º Encuentro de Mujeres, Lesbianas, Travestis, Trans, Bisexuales y No Binaries en Jujuy se convierte en una reafirmación de la lucha feminista en el país. En este contexto, unas 60.000 personas arribaron a la capital jujeña para alzar la voz contra un gobierno que ataca frontalmente las agendas de género. Bajo un sol abrasador y en el mismo escenario donde un año atrás se libró el "jujeñazo" contra la Reforma Constitucional de Gerardo Morales, la resistencia volvió a tomar forma, esta vez, con un claro mensaje al gobierno de Javier Milei: no nos van a detener.
+                                                </p>
+                                                <br>
+                                                <p>El acto de inauguración del Encuentro fue un grito colectivo. "Nos subestimaron, pero acá estamos", dijeron desde el escenario, donde la organización independiente y autogestiva logró superar obstáculos impuestos por funcionarios locales que intentaron desarticular el evento, asignando espacios ya prometidos a otras actividades. Pero la comisión organizadora, compuesta por casi 200 personas, resolvió todo, montando un escenario más pequeño del planeado y revalidando la potencia del Encuentro: "A pesar de todo, les hacemos el Encuentro".
+                                                </p>
+                                                <br>
+                                                <p>En este evento, los feminismos no solo ponen en evidencia las problemáticas de género, sino que atraviesan la lucha política y social en su totalidad. Las consignas que resuenan en Jujuy hablan de los abusos del poder judicial, la represión en la provincia y la necesidad urgente de libertad para Milagro Sala. Las voces presentes claman por justicia social en el contexto de un país que enfrenta una crisis económica feroz, mientras el avance de la derecha libertaria exacerba la violencia contra las disidencias y profundiza las desigualdades.
+                                                <br>
+                                                <p>En este marco, es imposible ignorar la situación de las trabajadoras comunitarias que, en los barrios más vulnerables, sostienen los comedores y ollas populares, frente al abandono estatal. Mujeres como Lorena, de Barracas, relatan cómo el trabajo comunitario no solo alimenta a quienes más lo necesitan, sino que también salva vidas al dar soporte emocional en tiempos de profunda crisis social.
+                                                </p>
+                                                <br>
+                                                <p>El Encuentro en Jujuy es más que una reunión anual de feministas; es un espacio de construcción de vida, de resistencia y de lucha por los derechos que hoy están en peligro bajo el gobierno de Javier Milei. Desde la libertad de las comunidades originarias hasta el derecho al aborto legal, seguro y gratuito, las demandas son muchas y urgentes. Aquí, la resistencia no es solo una consigna, es una forma de vida que se planta firme frente a los intentos de retroceso en derechos conquistados.
+                                                </p>
+                                                <br>
+                                                <p>La masiva convocatoria, con 70 escuelas ocupadas y la capacidad hotelera colapsada, confirma lo que los feminismos saben desde siempre: no importa cuántas trabas se les pongan, la resistencia no se detiene. Jujuy, con su historia reciente de represión y lucha, es hoy el epicentro de una batalla que abarca a todo el país, y que enfrenta con fuerza un modelo que no ofrece nada más que odio y violencia hacia quienes se atreven a luchar por una sociedad más justa e inclusiva.
+                                                </p>
+                                                <br>
+                                                <p>En este Encuentro, el cuerpo es protagonista, así como la voluntad inquebrantable de miles de personas que desafían las adversidades económicas y políticas para hacerse presentes, para gritar que el feminismo está vivo, activo, y que sigue siendo una fuerza imparable en Argentina y más allá.
+                                                </p>
+                                                <br>
+                                                
+                                            </div>
+                                        </div>
+                                </article>
+                            </li>
+                        </ul>
+                    </div>
+
+
+                    {{-- columna de la derecha chica --}}
+                    <aside>
+                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                            <div class=" col-span-6">
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/recurso 1.png') }}" alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/APSE.gif') }}" alt="">
+                                </a>
+
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
+                                        alt="">
+                                </a>
+
+
+
+                                <div id="app">
+
+                                    <div v-for="item in info">
+
+                                        <div class="flex-col pb-3">
+                                            <div
+                                                class="flex-col max-w-sm  border  border-gray-700 rounded-lg shadow bg-gray-800">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg"
+                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
+                                                        alt="" />
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5 class="mb-2 text-2xl font-bold tracking-tight  text-white">
+                                                            @{{ item.title }}</h5>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div v-for="va in clima">
+
+                                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-white">
+                                            @{{ va }}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+
+                </div>
+
+            </section>
         @endif
     </div>
 

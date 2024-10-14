@@ -4365,6 +4365,113 @@
                 </div>
 
             </section>
+        @elseif ($tituloSep == 'Derechos-Humanos-Noticia-Completa-der33')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">BULLRICH EN PROBLEMAS POR EL CASO MALDONADO
+                                            </a>
+                                            {{-- <p class="font-light text-gray-500">JUSTICIA TARDÍA Y OLVIDOS PERSISTENTES
+                                            </p>  --}}
+                                        </h2>
+                                        <p class="font-light  text-right text-gray-500">Publicado: 11/10/2024</p>
+                                        <p><i>Un estudio palinológico confirma que el cuerpo de Santiago Maldonado no pudo haber permanecido en el Río Chubut más de 30 días, contradiciendo el relato oficial.
+                                        </i>
+                                    </p>
+                                        <br>
+                                        <figure>
+                                            <img class="w-full object-cover"
+                                                src="{{ asset('../img/der/der_maldonado2.svg') }}" alt="">
+                                        </figure>
+                                        {{-- <article>
+                                            <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/XSNYTBkbmx4?si=V9zwrQyh3h5dyKbu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                            
+                                        </article> --}}
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+                                                <p>La reciente pericia palinológica revela que el cuerpo de Santiago Maldonado, desaparecido en 2017 tras una represión de Gendarmería, no estuvo más de 30 días en el Río Chubut, donde fue hallado. Esta conclusión cuestiona el relato sostenido por el macrismo y el juez Gustavo Lleral, quien fue apartado del caso por la Cámara Federal de Comodoro Rivadavia después de siete años de impunidad. El nuevo juez, Federico Calvete, deberá actuar con premura para esclarecer las circunstancias de la muerte de Maldonado.
+                                                </p>
+                                                <br>
+                                                <p>Desde el inicio de la investigación, la familia Maldonado y su abogada, Verónica Heredia, denunciaron irregularidades en la autopsia realizada por el Cuerpo Médico Forense. En un nuevo análisis, la doctora Leticia Povilauskas, de la Universidad Nacional de La Plata, estudió el polen encontrado en la ropa del joven y determinó que su cuerpo no pudo haber estado en el río más de 30 días, pues la corriente habría arrastrado el polen presente en sus prendas. Además, el polen de Ciprés de la Cordillera, hallado en su ropa, solo aparece en el aire a partir de mediados de septiembre, lo que refuerza la hipótesis de que Maldonado no estuvo en el río desde su desaparición el 1° de agosto.
+                                                </p>
+                                                <br>
+                                                <p>Verónica Heredia destaca que este informe confirma su postura desde el principio: "El cuerpo de Santiago no quedó en el río el 1° de agosto. Las conclusiones arbitrarias de Lleral se fueron con él". La abogada se opone al relato promovido por Patricia Bullrich y sus aliados, quienes intentaron desestimar las evidencias que apuntan a la responsabilidad de Gendarmería en la desaparición de Maldonado.
+                                                </p>
+                                                <p>El juez Calvete ya ha solicitado a Povilauskas que amplíe su informe y ha enviado el documento al Cuerpo Médico Forense para su análisis. La familia Maldonado ha propuesto la intervención de especialistas del Centro Forense Integral Equitas de Colombia para garantizar una evaluación objetiva del caso.
+                                                </p>
+                                                <br>
+                                                <p>La reafirmación de las conclusiones palinológicas otorga mayor relevancia a los testimonios que indican que Gendarmería se llevó a Santiago en el momento de la represión. La investigación se encuentra en un punto crucial, donde la búsqueda de verdad y justicia es más urgente que nunca. Calvete tiene la oportunidad de revertir la tendencia de impunidad y responder a la familia Maldonado y a la sociedad sobre el trágico destino de Santiago.
+                                                </p>
+                                                <br>
+                                                <div class="text-start object-center">
+                                                    {{-- <figure>
+                                                        <img class="w-28 h-28  "
+                                                            src="{{ asset('../img/der/Adri.svg') }}"
+                                                            alt="">
+                                                        <p> <strong>Por Adriana Zerdín<strong></p>
+                                                        <p><strong><strong></p>
+                                                    </figure> --}}
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+                            </li>
+                        </ul>
+                    </div>
+                    {{-- columna de la derecha chica --}}
+                    <aside>
+                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                            <div class=" col-span-6">
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/publi/bener-leg2.png') }}"
+                                        alt="">
+                                </a>
+                                <a href="" class="object-cover object-center " width="350">
+                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
+                                        alt="">
+                                </a>
+                                <div id="app">
+                                    <div v-for="item in info">
+                                        <div class="flex-col pb-3">
+                                            <div
+                                                class="flex-col max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                                                <a href="#">
+                                                    <img class="rounded-t-lg"
+                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
+                                                        alt="" />
+                                                </a>
+                                                <div class="p-5">
+                                                    <a href="#">
+                                                        <h5
+                                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                                            @{{ item.title }}</h5>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div v-for="va in clima">
+
+                                        <h5
+                                            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                            @{{ va }}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+                </div>
+
+            </section>
         @endif
     </div>
 

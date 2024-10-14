@@ -6856,7 +6856,52 @@
                     @livewire('lateral')
                 </div>
             </section>
-        
+        @elseif ($tituloSep == 'Politica-Noticia-Completa-pol82')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">CRISTINA FORTALECE ALIANZAS EN EL INSTITUTO PATRIA</a>
+                                        </h2>
+                                        <p class="font-light  text-right text-gray-500">Publicado: 10/10/2024</p>
+                                        <div class=" font-sans text-lg text-left col-span-6  ">
+                                        <p><i>Diversos actores del peronismo, ajenos a La Cámpora y sin cargos municipales, estarían buscando tender puentes para consolidar una alianza que fortalezca la unidad partidaria.
+                                        </i>
+                                        </p>
+                                        <br>
+                                        <figure>
+                                            <img class="w-full object-cover"
+                                            src="{{ asset('../img/pol/pol_alianza.svg') }}" alt="">
+                                        </figure>
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+                                                <p>La ex presidenta Cristina Fernández de Kirchner se reunió en el Instituto Patria con Andrés Watson, Julio Pereyra y Carlos Kunkel para analizar la situación política del país y el futuro del peronismo, a pocos días de la definición de las internas del PJ. Durante el encuentro, se mencionó que el gobernador Ricardo Quintela no habría atendido un llamado de Cristina, y se espera que en los próximos días Axel Kicillof haga público su apoyo a la candidatura de Fernández de Kirchner, lo que sería clave para movilizar un amplio sector del peronismo.
+                                                </p>
+                                                <br>
+                                                <p>Entre los puntos discutidos, se destacó la reciente llamada que Cristina realizó al gobernador de La Rioja, Ricardo Quintela, quien no habría respondido. Este hecho pone de manifiesto las tensiones existentes dentro del peronismo y la urgencia de unificar posiciones en un momento crucial para el futuro del movimiento.
+                                                </p>
+                                                <br>
+                                                <p>Por otro lado, se sugiere que Axel Kicillof, actual gobernador de la provincia de Buenos Aires, podría brindar su apoyo a la candidatura de Cristina, lo cual resultaría fundamental, dado que Kicillof cuenta con una base sólida que podría movilizar a un amplio sector del peronismo. Se estima que hay figuras que, aunque no pertenecen a La Cámpora ni son intendentes, estarían trabajando para acercar posiciones y crear un frente unido.
+                                                </p>
+                                                <br>
+                                                <p>A medida que se acercan las internas, se vislumbran dos posibles listas que podrían presentarse en la contienda. La reunión en el Instituto Patria pone de relieve la necesidad de diálogo y cohesión entre los líderes peronistas. Cristina Fernández de Kirchner continúa buscando establecer vínculos y fortalecer alianzas en un panorama político que se vuelve cada vez más desafiante.</p>
+                                                <br>
+                                                <div class="text-start object-center">
+                                                </div>
+                                            </div>
+                                </article>
+                            </li>
+                        </ul>
+                    </div>
+                    @livewire('lateral')
+                </div>
+            </section>
         
         @endif
 

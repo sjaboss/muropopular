@@ -13712,6 +13712,165 @@
                         @livewire('lateral')
                 </div>
             </section>
+        @elseif ($tituloSep == 'Sociedad-Noticia-Completa-soc128')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">CÁMARA DE DIPUTADOS APRUEBA VETO A LEY DE FINANCIAMIENTO UNIVERSITARIO
+                                            </a>
+                                            {{-- <p class="font-light  text-lef text-gray-500">Por Emanuel Corrado</p> --}}
+                                        </h2>
+                                        <p class="font-light  text-right text-gray-500">Publicado: 09/10/2024</p>
+                                        <div class=" font-sans text-lg text-left col-span-6  ">
+                                        <p><i>La Cámara de Diputados respaldó el veto presidencial a la Ley de Financiamiento Universitario, desoyendo la movilización social en defensa de la educación pública.
+
+                                        </i>
+                                        </p> 
+                                        <br>
+                                        <figure>
+                                            <img class="w-full object-cover" src="../img/soc/soc_tablero.svg"
+                                                alt="">
+                                        </figure>
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+                                                <p>El veto a la Ley de Financiamiento Universitario fue convalidado en la Cámara de Diputados con 160 votos afirmativos, 84 negativos y 5 abstenciones. Este texto, que había sido aprobado por ambas Cámaras del Congreso y luego vetado por el Presidente, buscaba ampliar el financiamiento de las universidades nacionales para garantizar su funcionamiento y mejorar los salarios de docentes y no docentes. La decisión del gobierno de Javier Milei pone de relieve una política de ajuste que prioriza el recorte de recursos esenciales, en lugar de fortalecer la educación pública.
+                                                </p>
+                                                <br>
+                                                <p>En paralelo al debate, organizaciones estudiantiles y sindicatos se concentraron frente al Congreso para expresar su rechazo al veto. En el recinto, los votos a favor de la sanción de la ley se enfrentaron a la decisión del Ejecutivo, cuya intención de judicializar la ley en caso de ser rechazada evidencia su postura contra el fortalecimiento de la educación pública. La Ley de Financiamiento Universitario proponía destinar el 85% de los recursos del presupuesto a gastos salariales y el 15% a gastos generales y de funcionamiento. Con este veto, el futuro de las instituciones educativas se encuentra en un panorama incierto, generando un clima de descontento en la comunidad académica que exige recursos suficientes para garantizar la calidad educativa.</p>
+                                                <br>
+                                                <p>La decisión de la Cámara de Diputados, alineada con la agenda neoliberal del gobierno, resalta la necesidad de una respuesta contundente por parte de los movimientos sociales y políticos que defienden la educación como pilar de una sociedad justa. La lucha por la Ley de Financiamiento Universitario no solo representa un desafío al ajuste de Javier Milei, sino también una defensa del futuro educativo de las próximas generaciones.
+                                                </p>
+                                                <br>                                                                                          
+                                                <div class="text-start object-center">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+                            </li>
+                        </ul>
+                        <br>
+                    </div>  
+                        @livewire('lateral')
+                </div>
+            </section>
+        @elseif ($tituloSep == 'Sociedad-Noticia-Completa-soc129')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">GRABOIS DENUNCIA VIOLENCIA INSTITUCIONAL EN ALLANAMIENTO A DIRIGENTA SOCIAL
+                                            </a>
+                                            {{-- <p class="font-light  text-lef text-gray-500">Por Emanuel Corrado</p> --}}
+                                        </h2>
+                                        <p class="font-light  text-right text-gray-500">Publicado: 09/10/2024</p>
+                                        <div class=" font-sans text-lg text-left col-span-6  ">
+                                        <p><i>Juan Grabois apuntó contra el gobierno de Javier Milei por el violento allanamiento a la casa de Fernanda Miño, ex titular del FISU, denunciando un avance de la represión estatal.
+                                        </i>
+                                        </p> 
+                                        <br>
+                                        {{-- <figure>
+                                            <img class="w-full object-cover" src="../img/soc/soc_denunciagrabo.svg"
+                                                alt="">
+                                        </figure> --}}
+                                        <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/enpgkjq3cF0?si=D0Ez_XHrRdLLde5E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+                                                <p>Juan Grabois condenó el allanamiento realizado en la casa de Fernanda Miño, ex titular del Fondo de Integración Socio Urbana (FISU), acusando al gobierno de Javier Milei de cruzar una “línea roja” en su ataque a las organizaciones sociales. Miño fue víctima de un operativo policial en Villa La Cava, San Isidro, por un presunto robo de moto, que el dirigente del Movimiento de Trabajadores Excluidos (MTE) tildó de irregular y desproporcionado. Grabois, que se trasladó al lugar inmediatamente después del operativo, criticó la falta de atención a la grave problemática del narcotráfico en el barrio, que se ha convertido en un foco de violencia y muertes entre los jóvenes.
+                                                </p>
+                                                <br>
+                                                <p>El ex candidato presidencial inicialmente responsabilizó a la Policía Federal, aunque luego aclaró que el operativo fue llevado a cabo por la Policía Bonaerense. “La responsabilidad por la golpiza a Fernanda y su hija es de la Bonaerense”, afirmó Grabois, mientras denunciaba cómo las fuerzas de seguridad habían aterrorizado a la familia durante el allanamiento. En un video compartido en redes sociales, el dirigente enfatizó que “nunca encontraron nada” en las acciones anteriores contra Miño y criticó el hecho de que un allanamiento nocturno por un supuesto robo de moto tuviera lugar mientras la dirigente regresaba de una actividad política.</p>
+                                                <br>
+                                                <p>Las denuncias de Grabois reflejan un creciente descontento entre los sectores sociales organizados, que ven en estas acciones un intento de silenciar las voces críticas al gobierno de Milei. "Son cobardes siempre con los de arriba y muy fuertes con los de abajo", sentenció, advirtiendo que este tipo de acciones no quedarán impunes. La situación ha encendido alarmas sobre la violencia institucional, llevando a muchos a cuestionar la efectividad de las políticas de seguridad que, según críticos, priorizan la represión sobre la protección de los derechos humanos.
+                                                </p>
+                                                <br>
+                                                <p>Con un claro mensaje de resistencia, Grabois finalizó afirmando que "esto no queda así" y prometió seguir luchando contra las injusticias que afectan a los sectores más vulnerables, destacando la necesidad de una respuesta firme ante la creciente ola de represión.</p>
+                                                <br>                                                                                        
+                                                <div class="text-start object-center">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+                            </li>
+                        </ul>
+                        <br>
+                    </div>  
+                        @livewire('lateral')
+                </div>
+            </section>
+        @elseif ($tituloSep == 'Sociedad-Noticia-Completa-soc130')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">EL IPC DE SEPTIEMBRE ALCANZÓ EL 3,5%
+                                            </a>
+                                            {{-- <p class="font-light  text-lef text-gray-500">Por Emanuel Corrado</p> --}}
+                                        </h2>
+                                        <p class="font-light  text-right text-gray-500">Publicado: 10/10/2024</p>
+                                        <div class=" font-sans text-lg text-left col-span-6  ">
+                                        <p><i>La inflación de septiembre mostró un aumento del 3,5% y acumuló un preocupante 101,6% en lo que va del año, en un contexto económico cada vez más adverso para las familias trabajadoras.
+                                        </i>
+                                        </p> 
+                                        <br>
+                                        <figure>
+                                            <img class="w-full object-cover" src="../img/soc/soc_ipcsep.svg"
+                                                alt="">
+                                        </figure>
+                                        {{-- <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/enpgkjq3cF0?si=D0Ez_XHrRdLLde5E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> --}}
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+                                                <p>El Índice de Precios al Consumidor (IPC) de septiembre de 2024 registró un incremento interanual del 209%. El rubro que más aumentó fue Vivienda, agua, electricidad, gas y otros combustibles, con una suba del 7,3%. Esta alza estuvo impulsada por las actualizaciones en tarifas de servicios públicos y los costos de alquileres, que continúan afectando fuertemente a los sectores populares. La inflación golpea especialmente en las regiones de GBA, Noroeste y Cuyo, donde los servicios básicos impactaron de manera más profunda.
+                                                </p>
+                                                <br>
+                                                <p>En contraste, en regiones como Pampeana, Noreste y Patagonia, el mayor aumento se dio en Alimentos y bebidas no alcohólicas (2,3%), con subas importantes en carnes, pan, cereales y productos lácteos. Esto profundiza aún más las dificultades para quienes enfrentan dificultades para llenar la canasta básica en un contexto de ajuste brutal promovido por el gobierno de Javier Milei, que insiste en políticas que empobrecen a los sectores más vulnerables.</p>
+                                                <br>
+                                                <p>La segunda mayor suba del mes se registró en Prendas de vestir y calzado (6,0%), atribuido al cambio de temporada. Mientras tanto, las menores variaciones se vieron en Bebidas alcohólicas y tabaco (2,2%) y Recreación y cultura (2,1%).
+                                                </p>
+                                                <br>
+                                                <p>A nivel de categorías, los precios regulados subieron un 4,5%, principalmente por los aumentos en tarifas de servicios públicos, reflejando una vez más el peso de las políticas de ajuste en los sectores medios y bajos. El núcleo del IPC mostró una suba del 3,3%, mientras que los productos estacionales subieron un 2,9%.</p>
+                                                <br>
+                                                <p>La situación es cada vez más crítica para la mayoría de la población, que debe enfrentar un aumento constante del costo de vida mientras los salarios permanecen estancados. Las cifras del INDEC reflejan no solo el fracaso de las políticas neoliberales impulsadas por el gobierno, sino también la urgencia de generar un cambio de rumbo que priorice la protección social y el bienestar de las mayorías.</p>
+                                                <br>                                                                                   
+                                                <div class="text-start object-center">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+                            </li>
+                        </ul>
+                        <br>
+                    </div>  
+                        @livewire('lateral')
+                </div>
+            </section>
         @endif
 
 </x-app-layout>
