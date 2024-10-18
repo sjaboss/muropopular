@@ -1,6 +1,106 @@
 <x-app-layout>
 <div class="container">
 @livewire('superior')
+
+{{--LA UNIDAD EMANCIPADORA ANTE EL FASCISMO EN ARGENTINA  --}}
+<section>
+            <ul>
+                <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                    <article>
+                        <div class="py-4 px-4 justify-between items-center">
+                            <h2 class="text-xl font-serif  font-bold pb-6">
+                                <a href="">LA UNIDAD EMANCIPADORA ANTE EL FASCISMO EN ARGENTINA
+                                </a>
+                                {{-- <p class="font-light  text-lef text-gray-500">Por Emanuel Corrado</p> --}}
+                            </h2>
+                            <p class="font-light  text-right text-gray-500">Publicado: 15/10/2024</p>
+                            <div class=" font-sans text-lg text-left col-span-6  ">
+                            <p><i>Rocco Carbone analiza el auge del fascismo en Argentina y llama a la unidad de las fuerzas progresistas para construir un futuro emancipador.
+                            </i>
+                            </p> 
+                            <br>
+                            <figure>
+                                <img class="w-full object-cover" src="../img/soc/soc_la_inidad_eman.svg"
+                                    alt="">
+                            </figure>
+                            {{-- <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/enpgkjq3cF0?si=D0Ez_XHrRdLLde5E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> --}}
+                            <br>
+                            <div
+                                class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                <div class=" font-sans text-lg text-left col-span-6  ">
+                                    <p>En un momento de creciente polarización política en Argentina, el filósofo y analista político Rocco Carbone expone su preocupación sobre el ascenso del fascismo en el país. En una reciente entrevista, Carbone sostiene que el gobierno de Javier Milei representa una amenaza real para las conquistas democráticas y los derechos humanos, alineando su ideología con la de movimientos de extrema derecha que han proliferado en el continente.
+                                    </p>
+                                    <br>
+                                    <p>Carbone destaca la importancia de no caer en la trampa del sectarismo y la fragmentación entre las fuerzas progresistas. "Debemos evitar los fraccionalismos en los partidos y movimientos sociales. Es esencial construir un gran campo de resistencia y afirmación que reúna a las tradiciones emancipadoras del peronismo y de la izquierda en Argentina", señala. Para él, esta unidad no solo es estratégica, sino necesaria para enfrentar la opresión que representa el actual gobierno.
+                                    </p>
+                                    <br>
+                                    <p>El académico también hace referencia a Clara Zetkin, quien en la década de 1920 propuso la confluencia de fuerzas emancipadoras ante el auge del fascismo en Europa. Carbone sugiere que, al igual que Zetkin, hoy debemos articular las luchas de distintas tradiciones políticas para formar un bloque sólido que enfrente los desafíos actuales. "Debemos buscar una síntesis entre el peronismo y las diversas corrientes de izquierda que existen en el país", afirma.
+                                    </p>
+                                    <br>
+                                    <p>A lo largo de la entrevista, Carbone enfatiza que la historia no ha terminado y que la resistencia es una parte integral de la lucha por la emancipación. “Los tiempos difíciles son oportunidades para reafirmar nuestras convicciones y avanzar hacia un futuro más justo”, concluye.
+                                    </p>
+                                    <br>
+                                    <p>La visión de Rocco Carbone no solo es un llamado a la acción, sino también una invitación a la reflexión sobre el papel de cada militante y ciudadano en la construcción de una sociedad más equitativa, donde los derechos de todos sean respetados y promovidos.
+                                    </p>
+                                    <br>
+                                    <div class="text-start object-center">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </li>
+            </ul>
+    
+</section>
+{{--MILEI Y UN NUEVO ATAQUE A LAS UNIVERSIDADES  --}}
+<section>
+            <ul>
+                <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                    <article>
+                        <div class="py-4 px-4 justify-between items-center">
+                            <h2 class="text-xl font-serif  font-bold pb-6">
+                                <a href="">MILEI Y UN NUEVO ATAQUE A LAS UNIVERSIDADES
+                                </a>
+                                {{-- <p class="font-light  text-lef text-gray-500">Por Emanuel Corrado</p> --}}
+                            </h2>
+                            <p class="font-light  text-right text-gray-500">Publicado: 13/10/2024</p>
+                            <div class=" font-sans text-lg text-left col-span-6  ">
+                            <p><i>En el acto para rebautizar el CCK, el presidente lanza duras críticas a la educación pública.
+                            </i>
+                            </p> 
+                            <br>
+                            <figure>
+                                <img class="w-full object-cover" src="../img/soc/soc_ataque_uni_2.svg"
+                                    alt="">
+                            </figure>
+                            {{-- <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/enpgkjq3cF0?si=D0Ez_XHrRdLLde5E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> --}}
+                            <br>
+                            <div
+                                class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                <div class=" font-sans text-lg text-left col-span-6  ">
+                                    <p>En un controvertido discurso durante el acto de rebautizo del Centro Cultural Kirchner como Palacio de la Libertad Domingo Faustino Sarmiento, el presidente Javier Milei aprovechó la ocasión para criticar nuevamente a las universidades públicas. Refiriéndose a la figura de Sarmiento, conocido como el "padre del aula" en Argentina, el mandatario sostuvo que “la universidad pública nacional hoy no le sirve a nadie más que a los hijos de la clase alta y los ricos y la clase media alta”, reiterando su intención de auditar las casas de altos estudios.
+                                    </p>
+                                    <br>
+                                    <p>A pesar de que la tarea de auditar a las universidades no corresponde al Poder Ejecutivo, Milei insistió en que el sistema actual es un "subsidio de los pobres hacia los ricos", exacerbando la ya tensa relación con el ámbito académico. En su crítica, señaló que “en un país donde la mayoría de los niños son pobres y no saben leer, escribir ni realizar una operación matemática básica, el mito de la universidad gratuita se convierte en una farsa”.
+                                    </p>
+                                    <br>
+                                    <p>El presidente también intentó vincular su discurso con la figura de Sarmiento, afirmando que, si los defensores de las universidades públicas verdaderamente apoyaran la movilidad social, "tomarían el ejemplo de Sarmiento y defenderían una educación inicial de calidad para todos". Según Milei, el sistema universitario ha dejado de ser una herramienta de ascenso social y se ha transformado en un "obstáculo" para el mismo.
+                                    </p>
+                                    <br>
+                                    <p>Milei volvió a poner en escena la propuesta de auditorías, sosteniendo que las universidades están llenas de "filtraciones de dinero" que no llegan ni a los alumnos ni a los profesores. Rechazó las críticas que señalan que su gobierno pretende desmantelar la universidad pública, alegando que su único objetivo es "terminar con la corrupción".
+                                    </p>
+                                    <br>
+                                    <div class="text-start object-center">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </li>
+            </ul>
+</section>
+
 {{-- EL IPC DE SEPTIEMBRE ALCANZÓ EL 3,5% --}}
 <section>
     <ul>

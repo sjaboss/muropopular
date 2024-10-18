@@ -2,7 +2,54 @@
     <div class="container ">
         @livewire('superior')
 
-        {{--CRISTINA FORTALECE ALIANZAS EN EL INSTITUTO PATRIA  --}}
+{{--CRISTINA KIRCHNER VA POR LA PRESIDENCIA DEL PJ  --}}
+<section>
+            <ul>
+                <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                    <article>
+                        <div class="py-4 px-4 justify-between items-center">
+                            <h2 class="text-xl font-serif  font-bold pb-6">
+                                <a href="">CRISTINA KIRCHNER VA POR LA PRESIDENCIA DEL PJ</a>
+                            </h2>
+                            <p class="font-light  text-right text-gray-500">Publicado: 14/10/2024</p>
+                            <div class=" font-sans text-lg text-left col-span-6  ">
+                            <p><i>La expresidenta inscribió su lista para las internas del Partido Justicialista. Con el respaldo de múltiples provincias, Cristina busca liderar el PJ y fortalecer el espacio opositor al gobierno de Javier Milei.
+                            </i>
+                            </p>
+                            <br>
+                            <figure>
+                                <img class="w-full object-cover"
+                                src="{{ asset('../img/pol/pol_presi_pj.svg') }}" alt="">
+                            </figure>
+                            <br>
+                            <div
+                                class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                <div class=" font-sans text-lg text-left col-span-6  ">
+                                    <p>Cristina Fernández de Kirchner formalizó este lunes su candidatura a la presidencia del Partido Justicialista (PJ) con la lista "Primero La Patria", avalada por dirigentes y militantes de provincias clave como Buenos Aires, Tierra del Fuego, Santa Cruz y Río Negro, entre otras. La inscripción se realizó con los apoderados Anabel Fernández Sagasti, Teresa García y Gustavo Arrieta, quienes también solicitaron la reserva de los colores celeste y blanco para la lista.
+                                    </p>
+                                    <br>
+                                    <p>La exmandataria apuntó a un liderazgo claro del PJ, tras la renuncia de Alberto Fernández en agosto, en un contexto donde el peronismo busca reorganizarse frente al avance de la ultraderecha representada por el gobierno de Javier Milei. Desde principios de octubre, un "operativo clamor" pedía que CFK asumiera la conducción del partido para enfrentar los nuevos desafíos políticos.
+                                    </p>
+                                    <br>
+                                    <p>"Primero La Patria" refleja el deseo de consolidar un liderazgo fuerte y unificado dentro del PJ, capaz de articular una oposición robusta y popular. "La unidad necesita dirección y proyecto para construir el mejor peronismo posible en una Argentina que se ha vuelto imposible para la mayoría", expresó Fernández en una carta reciente, confirmando su voluntad de asumir el reto.
+                                    </p>
+                                    <br>
+                                    <p>Por su parte, el gobernador de La Rioja, Ricardo Quintela, presentó su lista "Federalismo y Justicia", convirtiéndose en el principal rival de Cristina en las internas del 17 de noviembre. Quintela, quien cuenta con el apoyo de sectores del interior, destacó la importancia de que los afiliados "determinen quién quiere que los represente" y no descartó un encuentro con la expresidenta para dialogar antes de la elección.
+                                    </p>
+                                    <br>
+                                    <p>Estas internas definirán quién conducirá el PJ en un momento crítico para el peronismo, en medio de la crisis económica y social que atraviesa el país bajo la gestión de Milei. La contienda entre Cristina y Quintela promete marcar el futuro del movimiento justicialista, con la vista puesta en una renovación que pueda enfrentar los desafíos que se avecinan.
+                                    </p>
+                                    <br>
+                                    <div class="text-start object-center">
+                                    </div>
+                                </div>
+                    </article>
+                </li>
+            </ul>
+</section>
+
+
+{{--CRISTINA FORTALECE ALIANZAS EN EL INSTITUTO PATRIA  --}}
 <section>
     <ul>
         <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}

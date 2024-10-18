@@ -2,7 +2,51 @@
     <div class="container ">
 @livewire('superior')
 
-
+{{-- CHINA RODEA TAIWÁN CON UNA DEMOSTRACIÓN MILITAR MASIVA --}}
+<section>
+            <ul>
+                <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                    <article>
+                        <div class="py-4 px-4 justify-between items-center">
+                            <h2 class="text-xl font-serif  font-bold pb-6">
+                                <a href="">CHINA RODEA TAIWÁN CON UNA DEMOSTRACIÓN MILITAR MASIVA</a>
+                        {{--  <p class="font-light  text-lef text-gray-500">Por Gustavo Cano</p> --}}
+                            </h2>
+                            <p class="font-light  text-right text-gray-500">Publicado: 15/10/2024</p>
+                            <p><i>Las recientes maniobras militares de China alrededor de Taiwán, que involucraron más de 120 aviones y 30 embarcaciones, son una clara advertencia a los movimientos separatistas de la isla, intensificando las tensiones en la región.
+                            </i>
+                            </p>
+                            <br>
+                            <figure>
+                                <img class=" w-full object-cover" src="../img/int/int_china_rodea.svg"
+                                    alt="">
+                            </figure>
+                            <br>
+                            <div
+                                class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                <div class=" font-sans text-lg text-left col-span-6  ">
+                                    <p>El Ministerio de Defensa chino anunció la finalización de los ejercicios militares denominados "Espada Conjunta 2024B", los cuales simularon un bloqueo naval y ataques a instalaciones clave en Taiwán. En la operación participaron tropas de tierra, mar y aire, incluyendo el portaaviones Liaoning, en un despliegue que subraya la creciente capacidad militar de China en la región. El portavoz del comando oriental del Ejército Popular de Liberación (EPL), capitán Li Xi, aseguró que las maniobras fueron un éxito y reafirmaron las capacidades operativas conjuntas de las fuerzas chinas.
+                                    </p>
+                                    <br>
+                                    <p>La acción militar se produce en respuesta a las declaraciones del presidente taiwanés, Lai Ching-te, quien, en un discurso reciente, afirmó que "China no tiene derecho a representar a Taiwán". En este contexto, el vocero del Ministerio de Defensa chino, Wu Qian, afirmó que, si bien China busca una reunificación pacífica, "nunca renunciaremos al uso de la fuerza" contra aquellos que defienden la independencia de la isla. Wu advirtió que el país está listo para actuar en defensa de su soberanía territorial, afirmando que no hay lugar para el separatismo.
+                                    </p>
+                                    <br>
+                                    <p>El gobierno de Taiwán condenó las maniobras, calificándolas de "provocadoras e irracionales". El presidente Lai reafirmó su compromiso de proteger la democracia y la seguridad nacional, subrayando que Taiwán no cederá ante las amenazas chinas. El Ministerio de Defensa de Taiwán destacó que, durante las maniobras chinas, se registró un récord de 125 aviones militares operando alrededor de la isla, lo que pone de manifiesto la intensificación de la presión militar sobre su territorio.
+                                    </p>
+                                    <br>
+                                    <p>La situación se complica aún más por el papel de Estados Unidos, principal proveedor de armas a Taiwán, que ha expresado su preocupación por las acciones chinas. Washington considera estas maniobras "injustificadas" y advierte que la provocación militar de China podría escalar la tensión en la región. En respuesta, Beijing ha instado a Washington a respetar el principio de "una sola China" y dejar de armar a Taiwán, reafirmando que la cuestión taiwanesa es un asunto interno del país.
+                                    </p>
+                                    <br>
+                                    <p>El aumento de la actividad militar china en las cercanías de Taiwán subraya la frágil situación en el estrecho de Taiwán, un punto crítico en la geopolítica global. A medida que se acercan las elecciones presidenciales en Taiwán, programadas para enero de 2024, la tensión entre ambas partes podría intensificarse aún más, generando preocupación en la comunidad internacional sobre el futuro de la región.
+                                    </p>
+                                    <br>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </li>
+            </ul>
+</section>
 {{-- NI DESCUBRIMIENTO NI ENCUENTRO, RESISTENCIA Y LUCHA CONTRA LA COLONIZACIÓN --}}
 <section>
     <ul>

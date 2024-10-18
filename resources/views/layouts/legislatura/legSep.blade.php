@@ -8375,6 +8375,58 @@
                     @livewire('lateral')
                 </div>
             </section>
+        @elseif ($tituloSep == 'Legislatura-Noticia-Completa-leg60')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">REUNIÓN DE LAS COMISIONES DE PRESUPUESTO, CULTURA Y DESCENTRALIZACIÓN 
+                                            </a>
+                                        </h2>
+                                        <p class="font-light  text-right text-gray-500">Publicado:14/10/2024</p>
+                                        <p><i>Los diputados avanzaron en el tratamiento del Presupuesto 2025 y discutieron proyectos de interés cultural, además de abordar informes sobre descentralización y participación ciudadana.
+                                        </i></p>
+                                        <br>
+                                        <figure>
+                                            <a href="">
+                                                <img class="w-full object-cover object-center"
+                                                    src="{{ asset('../img/leg/leg_reu_com_presu.svg') }}"
+                                                    alt="">
+                                            </a>
+                                        </figure>
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+                                                <p>Esta mañana, las comisiones de Presupuesto, Cultura y Descentralización de la Legislatura de la Ciudad Autónoma de Buenos Aires celebraron distintas reuniones para avanzar en el tratamiento del Presupuesto 2025 y otros temas relevantes de cara a la próxima sesión parlamentaria.
+                                                </p>
+                                                <br>
+                                                <p>El encuentro de la Comisión de Presupuesto y Hacienda se realizó en el Salón Montevideo, con la participación de su presidenta, Paola Michielotto, y varios diputados de la Ciudad. Durante la reunión, se abordó el Proyecto de Ley relacionado con el Presupuesto General de Gastos y Cálculo de Recursos para 2025, con la presencia de representantes de la Vicejefatura de Gobierno porteño.
+                                                </p>
+                                                <br>
+                                                <p>Por otra parte, la Comisión de Cultura, presidida por la diputada María Cecilia Ferrero, trató varios proyectos de declaración de interés cultural, entre los cuales destacaron los homenajes al artista WOS, la soprano Mónica Ferracani y el dibujante Florencio Molina Campos. Asimismo, se celebró el aniversario del Bar London City y del Palacio de Aguas Corrientes, además de otros eventos culturales.
+                                                </p>
+                                                <br>
+                                                <p>Finalmente, la Comisión de Descentralización y Participación Ciudadana se reunió en el Salón Presidente Alfonsín para tratar informes relacionados con el presupuesto de las comunas y la implementación de la Ley Orgánica de Comunas, permitiendo la participación activa de los vecinos presentes.
+                                                </p>
+                                                <br> 
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+                            </li>
+                        </ul>
+                        <br>
+                    </div>
+                    @livewire('lateral')
+                </div>
+            </section>
+
+
         @endif
     </div>
   
