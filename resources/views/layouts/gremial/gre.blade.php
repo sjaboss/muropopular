@@ -2,6 +2,75 @@
     <div class="container ">
         @livewire('superior')
 
+{{-- MANRIQUE RENUNCIA A LA CGT Y DENUNCIA DIVISIÓN INTERNA --}}
+<section>
+            <ul>
+                <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                    <article>
+                        <div class="py-4 px-4 justify-between items-center">
+                            <h2 class="text-xl font-serif  font-bold pb-6">
+                                <a href="">MANRIQUE RENUNCIA A LA CGT Y DENUNCIA DIVISIÓN INTERNA
+                                </a>
+                            </h2>
+                            <p class="font-light  text-right text-gray-500">Publicado: 17/10/2024</p>
+                            <div class=" font-sans text-lg text-left col-span-6  ">
+                            <p><i>El ex secretario gremial de la CGT, cuestionó la conducción actual y alertó
+                                sobre la falta de espacios de debate en la central gremial.
+                            </i>
+                            </p>
+                            <br>
+                            <figure>
+                                <img class=" w-full object-cover" src="../img/grem/grem_manrrique.svg"
+                                    alt="">
+                            </figure>
+                            <br>
+                            <div
+                                class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                <div class=" font-sans text-lg text-left col-span-6  ">
+                                    <p>Mario “Paco” Manrique oficializó su renuncia como secretario gremial de la
+                                        CGT, emitiendo duras críticas hacia la conducción encabezada por Héctor Daer
+                                        y Carlos Acuña. En su carta de renuncia, Manrique argumentó que su decisión
+                                        se debía al “cúmulo” de tareas que debía asumir como dirigente de su gremio y
+                                        como legislador, aunque su salida también refleja el creciente malestar dentro
+                                        de la central. Sus críticas se producen en un contexto de disputas políticas
+                                        dentro del Partido Justicialista y en medio de la presión del gobierno nacional.
+                                    </p>
+                                    <br>
+                                    <p>El dirigente, cercano a Cristina Fernández y Máximo Kirchner, denunció que “la
+                                    CGT está partida de hecho” y criticó la falta de espacios de debate, señalando
+                                    que las decisiones se toman entre un reducido grupo de líderes. Al respecto,
+                                    mencionó específicamente a Daer, Acuña, Gerardo Martínez y Andrés
+                                    Rodríguez, a quienes acusó de monopolizar la voz de la CGT.
+                                    </p>
+                                    <br>
+                                    <p>Manrique también se refirió a la falta de transparencia en las negociaciones con
+                                        el gobierno de Javier Milei, afirmando que “nadie sabe qué se está
+                                        negociando”. En el contexto de la interna del PJ, el exsecretario gremial
+                                        expresó su desacuerdo con la crítica a los personalismos y defendió la figura
+                                        de Cristina como presidenta del partido.
+                                    </p>
+                                    <br>
+                                    <p>A pesar de la gravedad de sus acusaciones, la CGT logró evitar una crisis
+                                        interna que complicara su funcionamiento ante la inminente reunión de la mesa
+                                        tripartita convocada por el gobierno y empresarios. La renuncia de Manrique es
+                                        el tercer cambio en la cúpula de la CGT en un corto período, pero no parece
+                                        amenazar la estructura de la organización por el momento.
+                                    </p>
+                                    <br>
+                                    <p>Con la renuncia, la central se enfrenta a un panorama incierto mientras los
+                                        “gordos” e “independientes” buscan afianzar su poder en medio de la presión
+                                        gubernamental. La ahora atención se centra en cómo se desarrollará la
+                                        próxima reunión de la mesa tripartita y en el impacto de la salida de Manrique
+                                        en la cohesión interna del movimiento sindical.
+                                    </p>
+                                    <br>
+                                    
+                                </div>
+                            </div>
+                    </article>
+                </li>
+            </ul>
+</section>
 
 {{-- ATE EN PIE DE LUCHA CONTRA DESPIDOS MASIVOS --}}
 <section>

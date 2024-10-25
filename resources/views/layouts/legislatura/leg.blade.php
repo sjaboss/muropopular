@@ -2,6 +2,94 @@
     <div class="container ">
 @livewire('superior')
 
+{{--LA LEGISLATURA ENTREGÓ UN BENEPLÁCITO A LA
+                                    AFA  --}}
+            <ul>
+                <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                    <article>
+                        <div class="py-4 px-4 justify-between items-center">
+                            <h2 class="text-xl font-serif  font-bold pb-6">
+                                <a href="">LA LEGISLATURA ENTREGÓ UN BENEPLÁCITO A LA
+                                    AFA
+                                </a>
+                            </h2>
+                            <p class="font-light  text-right text-gray-500">Publicado:19/10/2024</p>
+                            <p><i>Los diputados de la Ciudad resaltaron el bicampeonato de la Copa América y
+                                declararon de interés al canal de Youtube “Huellas de sangre”, dedicado a
+                                videos documentales.
+                            </i></p>
+                            <br>
+                            <figure>
+                                <a href="">
+                                    <img class="w-full object-cover object-center"
+                                        src="{{ asset('../img/leg/leg_afa.svg') }}"
+                                        alt="">
+                                </a>
+                            </figure>
+                            <br>
+                            <div
+                                class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                <div class=" font-sans text-lg text-left col-span-6  ">
+                                    <p>El Cuerpo Legislativo entregó un beneplácito por la consagración de la
+                                    Selección Argentina de fútbol profesional masculino, al coronarse Campeón de
+                                    América por 16 vez y bicampeón en forma consecutiva. El acto se llevó a cabo
+                                    en el Salón Dorado y contó con la presencia de la diputada y autora del
+                                    proyecto, Maia Daer; y el Presidente de la Asociación del Fútbol Argentino
+                                    (AFA), Claudio Tapia.
+                                    </p>
+                                    <br>
+                                    <p>En el inicio de las alocuciones, Daer enfatizó: “Quiero agradecer a todos los
+                                        diputados de todos los bloques que vinieron, es importante la representatividad
+                                        que tiene el fútbol en la política, que es transveral que no es de uno o de otros
+                                        y entendiendo que los partiditos los jugamos todos”. También destacó la
+                                        importancia de los clubes de barrio en la formación de los deportivas y los
+                                        valores en la sociedad. Y puntualizó en el crecimiento de la mujer en los roles
+                                        dirigenciales.
+                                    </p>
+                                    <br>
+                                    <p>Por su parte, Tapia rememoró distintos puntos de su gestión al frente de la
+                                        institución madre del  fútbol local. Y concluyó: “Gracias por este reconocimiento
+                                        y de tener la oportunidad en representación de nuestras selecciones, del mejor
+                                        jugador del mundo y del cuerpo técnico más ganador en este último tiempo”.
+                                    </p>
+                                    <br>
+                                    <p>La Selección Argentina se consagró bicampeona de la Copa América el pasado
+                                        domingo 14 de julio de 2024, en una final electrizante, que terminó en cero el
+                                        tiempo reglamentario y se definió con un gol de Lautaro Martínez cuando se
+                                        jugaba el segundo tiempo del suplementario, los campeones del mundo se                                                 
+                                        impusieron por 1-0 a Colombia y repitieron el título conseguido hace tres años
+                                        en el Maracaná, Brasil, siendo la más ganadora de la competencia con 16
+                                        títulos, superando a la selección del país hermano Uruguay.
+                                    </p>
+                                    <br> 
+                                    <p>
+                                        De esta manera, el seleccionado nacional alcanzó los 23 títulos oficiales, que
+                                        se dividen en tres Mundiales, 16 Copas Américas, una Copa Conferaciones, la
+                                        Copa Finalissima, la Copa Artemio Franchi y el Campeonato Panamericano de
+                                        1960.
+                                    </p>
+                                    <br>
+
+                                    <p>
+                                        Finalmente en el Salón San Martín se desarrolló el acto que declaró al canal de
+                                        Youtube “Huellas de Sangre” de Interés Cultural de la Ciudad. La jornada fue
+                                        encabezada por la legisladora y autora del proyecto, Claudia Neira; junto a
+                                        Iñake Aguerre, voz y cabeza del canal; Joaquín Ibarra, encargado de la
+                                        animación y el montaje de los videos; Delfina Imosi, correctora de estilo en
+                                        guiones; Bautista Filgueira, músico y productor; Hugo Chumbita, historiador y
+                                        abogado; Fabio Wasserman, Doctor en Historia; y Cristian Poczynok, profesor y
+                                        Licenciado en Historia.
+                                    </p>
+                                    <br>
+                            
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </li>
+            </ul>
+</section>
+
 {{--REUNIÓN DE LAS COMISIONES DE PRESUPUESTO, CULTURA Y DESCENTRALIZACIÓN   --}}
 <section>
             <ul>
@@ -46,8 +134,6 @@
                 </li>
             </ul>
 </section>
-
-
 {{-- LA LEGISLATURA CONMEMORÓ LOS 40 AÑOS DEL INFORME “NUNCA MÁS” --}}
 <section>
             <ul>

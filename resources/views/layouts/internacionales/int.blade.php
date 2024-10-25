@@ -2,6 +2,71 @@
     <div class="container ">
 @livewire('superior')
 
+{{--ORSI, A UN PASO DE LA VICTORIA EN PRIMERA VUELTA  --}}
+<section>
+            <ul>
+                <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                    <article>
+                        <div class="py-4 px-4 justify-between items-center">
+                            <h2 class="text-xl font-serif  font-bold pb-6">
+                                <a href="">ORSI, A UN PASO DE LA VICTORIA EN PRIMERA
+                                    VUELTA</a>
+                        {{--  <p class="font-light  text-lef text-gray-500">Por Gustavo Cano</p> --}}
+                            </h2>
+                            <p class="font-light  text-right text-gray-500">Publicado: 18/10/2024</p>
+                            <p><i>Las encuestas consolidan al Frente Amplio a días de la elección, mientras el
+                                oficialismo confía en una &quot;mayoría silenciosa&quot; para evitar la derrota.
+                            </i>
+                            </p>
+                            <br>
+                            <figure>
+                                <img class=" w-full object-cover" src="../img/int/int_orsi.svg"
+                                    alt="">
+                            </figure>
+                            <br>
+                            <div
+                                class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                <div class=" font-sans text-lg text-left col-span-6  ">
+                                    <p>Yamandú Orsi, candidato del Frente Amplio, está a punto de ganar en primera
+                                        vuelta en las elecciones presidenciales de Uruguay del 27 de octubre. Dos
+                                        encuestas clave, Nómade y Proyección, lo colocan cerca del 50% de los votos
+                                        necesarios, lo que le permitiría evitar el balotaje y derrotar al oficialista Álvaro
+                                        Delgado, quien apenas alcanza el 20%. Con el gobierno de Luis Lacalle Pou
+                                        desgastado y en crisis interna, el oficialismo confía en captar a un 11% de
+                                        indecisos para forzar una segunda vuelta.
+                                    </p>
+                                    <br>
+                                    <p>Los sondeos muestran a Orsi con entre 46% y 47,1% de intención de voto, y
+                                        con la proyección de indecisos podría llegar al 48,1%, acercándolo
+                                        peligrosamente a una victoria en primera vuelta. En contraste, la coalición
+                                        multicolor de Delgado no logra superar el 40%, un reflejo del desgaste tras
+                                        cinco años de gobierno marcado por escándalos y políticas impopulares.
+                                    </p>
+                                    <br>
+                                    <p>El oficialismo, pese a las divisiones internas, apuesta a que los indecisos, una
+                                        “mayoría silenciosa”, inclinen la balanza a su favor, como sucedió en 2019. Sin
+                                        embargo, el contexto actual es diferente. Lacalle Pou enfrenta un profundo
+                                        malestar social que ha debilitado la coalición que alguna vez lo sostuvo.
+                                    </p>
+                                    <br>
+                                    <p>En el Frente Amplio, Orsi ha sabido consolidar su liderazgo. Tras vencer en las
+                                        internas, integró a Carolina Cosse a su fórmula, lo que fortaleció la unidad
+                                        interna. Su discurso firme, pero inclusivo, ha resonado entre quienes
+                                        demandan políticas sociales y el fin del ajuste neoliberal.
+                                    </p>
+                                    <br>
+                                    <p>A días de la elección, Orsi se encamina a una posible victoria en primera
+                                        vuelta, mientras el oficialismo se aferra a una campaña cada vez más cuesta
+                                        arriba.
+                                    </p>
+                                    <br>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </li>
+            </ul>
+</section>
 {{-- CHINA RODEA TAIWÁN CON UNA DEMOSTRACIÓN MILITAR MASIVA --}}
 <section>
             <ul>

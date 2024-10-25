@@ -2,6 +2,246 @@
 <div class="container">
 @livewire('superior')
 
+{{--ILEI, UNA CRISIS QUE AFECTA AL 73,3% DE LOSARGENTINOS  --}}
+<section>
+            <ul>
+                <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                    <article>
+                        <div class="py-4 px-4 justify-between items-center">
+                            <h2 class="text-xl font-serif  font-bold pb-6">
+                                <a href="">MILEI, UNA CRISIS QUE AFECTA AL 73,3% DE LOS
+                                    ARGENTINOS
+                                </a>
+                                {{-- <p class="font-light  text-lef text-gray-500">Por Emanuel Corrado</p> --}}
+                            </h2>
+                            <p class="font-light  text-right text-gray-500">Publicado: 20/10/2024</p>
+                            <div class=" font-sans text-lg text-left col-span-6  ">
+                            <p><i>Las decisiones del Gobierno de Javier Milei han agravado la situación de
+                                pobreza en el país, alcanzando al 73,3% de la población.
+                            </i>
+                            </p> 
+                            <br>
+                            <figure>
+                                <img class="w-full object-cover" src="../img/soc/soc_mileiCrisis.svg"
+                                    alt="">
+                            </figure> 
+                        {{--  <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/Elj4W5gq3AM?si=Px86mJ-v6RAaS8Yh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> --}}
+                            <br>
+                            <div
+                                class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                <div class=" font-sans text-lg text-left col-span-6  ">
+                                    <p>Las decisiones del Gobierno de Javier Milei han llevado a la pobreza a un
+                                        alarmante 73,3% de la población argentina. Desde su asunción el 10 de
+                                        diciembre de 2023, el presidente ha implementado una serie de medidas que
+                                        han intensificado el descontento social. Entre estas, se encuentra el cierre de
+                                        13 ministerios y el despido de 30.000 empleados públicos, lo que representa
+                                        casi el 10% de la plantilla nacional. Estas acciones han provocado una
+                                        paralización de la obra pública y recortes significativos en áreas clave como
+                                        educación, salud, ciencia y jubilaciones.
+                                    </p>
+                                    <br>
+                                    <p>Los recortes presupuestarios han generado un clima de incertidumbre,
+                                        afectando a los sectores más vulnerables de la sociedad. Las universidades,
+                                        por su parte, han respondido con paros nacionales, evidenciando el impacto de
+                                        estas políticas en la formación y el desarrollo del país.
+                                    </p> 
+                                    <br>
+                                    <p>En el periodo entre 2002 y 2012, Argentina experimentó un crecimiento
+                                        económico que permitió una disminución notable de la pobreza y una mejora
+                                        en la distribución de la riqueza. Sin embargo, a partir de 2012, el país enfrentó
+                                        serias dificultades económicas que se han profundizado con la actual gestión.
+                                        Las políticas de ajuste implementadas por el Gobierno han afectado no solo la
+                                        economía, sino también la capacidad de la nación para innovar y desarrollarse.
+                                    </p>
+                                    <br>
+                                    <p>La resistencia social está en aumento, evidenciada por las movilizaciones de
+                                        estudiantes universitarios que han tomado más de cien facultades en todo el
+                                        país en protesta por los recortes. La situación actual refleja la creciente
+                                        preocupación de la población por el impacto de las decisiones
+                                        gubernamentales en sus vidas y en su futuro.
+                                    </p>
+                                    <br>
+                                    <p>La pobreza en Argentina, que afecta a más de dos tercios de la población, es
+                                        un claro indicativo de la crisis económica que atraviesa el país y resalta la
+                                        urgencia de buscar soluciones inclusivas y justas que devuelvan la esperanza a
+                                        los argentinos.
+                                    </p>
+                                    <br>
+                                    <div class="text-start object-center">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </li>
+            </ul>
+</section>
+{{--EL OJO QUE ESPIA: EL ESPIONAJE EN LA HISTORIA ARGENTINA  --}}
+<section>
+            <ul>
+                <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                    <article>
+
+                        <div class="py-4 px-4 justify-between items-center">
+                            <h2 class="text-xl font-serif  font-bold pb-6">
+                                <a href="">EL OJO QUE ESPIA: EL ESPIONAJE EN LA HISTORIA
+                                    ARGENTINA
+                                </a>
+                                {{-- <p class="font-light  text-lef text-gray-500">Por Emanuel Corrado</p> --}}
+                            </h2>
+                            <p class="font-light  text-right text-gray-500">Publicado: 19/10/2024</p>
+                            <div class=" font-sans text-lg text-left col-span-6  ">
+                            <p><i>Juan Ignacio Provéndola explora la Dirección de Inteligencia de la Policía de la
+                                Provincia de Buenos Aires en su libro y revela las verdades ocultas sobre el
+                                espionaje en el país.
+                            </i>
+                            </p> 
+                            <br>
+                            {{-- <figure>
+                                <img class="w-full object-cover" src="../img/soc/soc_liam1.svg"
+                                    alt="">
+                            </figure> --}}
+                            <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/Elj4W5gq3AM?si=Px86mJ-v6RAaS8Yh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            <br>
+                            <div
+                                class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                <div class=" font-sans text-lg text-left col-span-6  ">
+                                    <p>Juan Ignacio Provéndola, escritor y periodista de investigación, ofrece una
+                                        mirada profunda sobre la Dirección de Inteligencia de la Policía de la Provincia
+                                        de Buenos Aires (DIBA) en su obra &quot;El Ojo que Espía&quot;. Este organismo, clave
+                                        en la persecución del peronismo durante la Revolución Fusiladora, operó hasta
+                                        1998 y fue el segundo más grande del país después de la AFI. Provéndola
+                                        destaca que la DIBA acumuló aproximadamente tres millones de documentos,
+                                        fotografías, cassettes y videos, revelando un vasto archivo de espionaje.
+                                    </p>
+                                    <br>
+                                    <p>Su interés por la DIBA surgió durante su colaboración con la Comisión
+                                        Provincial por la Memoria, que trabajaba para organizar estos archivos. En este
+                                        contexto, Provéndola exploró temas que captaban la curiosidad del público,
+                                        como el espionaje en el rock, un ámbito que conocía bien por su labor en el
+                                        suplemento de cultura joven de Página/12. Al investigar, descubrió que las
+                                        representaciones populares del espionaje a menudo no reflejan la realidad. La
+                                        complejidad de estos organismos contrasta con la imagen del espía que
+                                        Hollywood ha popularizado.
+                                    <br>
+                                    <p>Provéndola también se adentra en el tema de los cuerpos de desaparecidos
+                                        que aparecieron en la costa atlántica argentina, un interés que ha cultivado
+                                        desde su libro sobre Villa Gesell. En su investigación, reflexiona sobre cómo la
+                                        mudanza a Buenos Aires en 2001 le permitió comprender la historia de
+                                        militantes desaparecidos, como Santiago Villanueva, y cómo en las
+                                        comunidades pequeñas la represión puede ser menos evidente, pero persiste
+                                        en la cotidianidad.
+                                    </p>
+                                    <br>
+                                    <p>Un aspecto crucial de su trabajo es el análisis de los &quot;vuelos de la muerte&quot;
+                                        durante la dictadura, donde los cuerpos de las víctimas fueron ocultados para
+                                        evitar que los turistas se enteraran. Este proceso fue facilitado por la falta de
+                                        recursos en las comunidades locales, y Provéndola ha logrado profundizar en
+                                        estos aspectos oscuros, aportando información valiosa que sigue emergiendo.
+                                    </p>
+                                    <br>
+                                    <p>A pesar del consenso que promueve dejar atrás el pasado, Provéndola afirma
+                                        que quedan muchas historias por contar sobre la dictadura. La violencia
+                                        policial, como en el caso de Miguel Bru, y la represión que continuó después de
+                                        la dictadura, son temas que aún requieren investigación. La policía, en
+                                        ocasiones, instigaba violencia en eventos culturales y deportivos para justificar
+                                        su presencia, perpetuando un ciclo de control y desinformación.
+                                    </p>
+                                    <br>
+                                    <p>Provéndola concluye que, a pesar de los avances democráticos, las prácticas
+                                        de espionaje e infiltración en movimientos sociales persisten, lo que enfatiza la
+                                        necesidad de seguir investigando y desenterrando las verdades ocultas de la
+                                        historia argentina.
+                                    </p>
+                                    <br>
+                                    <p>A pesar del consenso que promueve dejar atrás el pasado, Provéndola afirma
+                                        Para conocer más sobre esta fascinante conversación, te invitamos a ver el
+                                        video completo de la entrevista en nuestro canal de YouTube, ADN Populares
+                                        TV.
+                                    </p>
+                                    <br>
+                                    <div class="text-start object-center">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </li>
+            </ul>
+
+</section>
+{{--MURIÓ LIAM PAYNE EN UN HOTEL DE PALERMO  --}}
+<section>
+            <ul>
+                <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                    <article>
+
+                        <div class="py-4 px-4 justify-between items-center">
+                            <h2 class="text-xl font-serif  font-bold pb-6">
+                                <a href="">MURIÓ LIAM PAYNE EN UN HOTEL DE PALERMO
+                                </a>
+                                {{-- <p class="font-light  text-lef text-gray-500">Por Emanuel Corrado</p> --}}
+                            </h2>
+                            <p class="font-light  text-right text-gray-500">Publicado: 18/10/2024</p>
+                            <div class=" font-sans text-lg text-left col-span-6  ">
+                            <p><i>El exintegrante de One Direction falleció tras caer del tercer piso. La autopsia
+                                confirmó las causas de su muerte.
+                            </i>
+                            </p> 
+                            <br>
+                            <figure>
+                                <img class="w-full object-cover" src="../img/soc/soc_liam1.svg"
+                                    alt="">
+                            </figure>
+                            {{-- <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/enpgkjq3cF0?si=D0Ez_XHrRdLLde5E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> --}}
+                            <br>
+                            <div
+                                class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                <div class=" font-sans text-lg text-left col-span-6  ">
+                                    <p>Liam Payne, cantante británico y exintegrante de One Direction, falleció el
+                                        miércoles tras caer desde el tercer piso de un hotel en el barrio porteño de
+                                        Palermo. Tenía 31 años. Según el informe forense, la causa de muerte fueron
+                                        “politraumatismos y una hemorragia interna y externa” provocadas por el
+                                        impacto de la caída. La Fiscalía Nacional en lo Criminal y Correccional N°14
+                                        investiga el caso como “muerte dudosa”.
+                                    </p>
+                                    <br>
+                                    <p>El hecho ocurrió a las 17:07, cuando el encargado del hotel alertó al 911 sobre
+                                        un huésped que se encontraba bajo los efectos de drogas y alcohol. Al llegar
+                                        los equipos de emergencia y la Policía de la Ciudad, Payne ya había caído
+                                        desde el balcón de su habitación y fue declarado muerto en el lugar.
+                                    <br>
+                                    <p>La autopsia, realizada entre las 21:45 y las 23:05 del mismo día, confirmó las
+                                        causas del deceso. Aunque no se descarta ninguna hipótesis, los primeros
+                                        estudios indican que Payne estaba solo al momento de la caída y que no hubo
+                                        intervención de terceros. En la habitación se encontraron sustancias que
+                                        podrían ser estupefacientes, además de bebidas alcohólicas.
+                                    </p>
+                                    <br>
+                                    <p>El cantante había llegado a Buenos Aires para asistir al recital de su
+                                        excompañero de banda, Niall Horan. Los fanáticos de Payne, conmocionados
+                                        por la noticia, se congregaron en las afueras del hotel, donde armaron un altar
+                                        en su honor. Además, está prevista una vigilia en el Obelisco para este jueves
+                                        a las 17 horas.
+                                    </p>
+                                    <br>
+                                    <p>Payne había hablado abiertamente sobre sus problemas con las adicciones y la
+                                        salud mental en varias entrevistas. Era padre de un niño de siete años junto a
+                                        la cantante Cheryl Cole. La tragedia sacudió a sus seguidores, quienes
+                                        
+                                        recordaron su paso por Argentina en 2014 junto a One Direction, cuando se
+                                        presentaron en el Estadio Vélez.
+                                    </p>
+                                    <br>
+                                    <div class="text-start object-center">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </li>
+            </ul>
+</section>
 {{--LA UNIDAD EMANCIPADORA ANTE EL FASCISMO EN ARGENTINA  --}}
 <section>
             <ul>
@@ -100,7 +340,6 @@
                 </li>
             </ul>
 </section>
-
 {{-- EL IPC DE SEPTIEMBRE ALCANZÓ EL 3,5% --}}
 <section>
     <ul>
@@ -237,7 +476,6 @@
                 </li>
             </ul>
 </section>
-
 {{--DENUNCIAS POR EL CIERRE DEL HOSPITAL LAURA BONAPARTE  --}}
 <section>
             <ul>
@@ -285,7 +523,6 @@
                 </li>
             </ul>
 </section>
-
 {{--LA INTERNA DEL PJ Y LA CANDIDATURA DE CRISTINA  --}}
 <section>
             <ul>
@@ -335,7 +572,6 @@
                 </li>
             </ul>
 </section>
-
 {{--CARRERA AMO MIS MAMAS EN LA PLATA  --}}
 <section>
             <ul>
@@ -382,7 +618,6 @@
                 </li>
             </ul>
 </section>
-
 {{--MILEI FIRMA EL VETO Y DESAFÍA A LA EDUCACIÓN PÚBLICA  --}}
 <section>
                 <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}

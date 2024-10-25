@@ -1500,6 +1500,176 @@
                     @livewire('lateral')
                 </div>
             </section>
+        @elseif ($tituloSep == 'Politica-Noticia-Completa-pol84')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">CGT SE MANIFESTÓ POR UNA NUEVA CONDUCCIÓN
+                                                EN EL PJ</a>
+                                        </h2>
+                                        <p class="font-light  text-right text-gray-500">Publicado: 16/10/2024</p>
+                                        <div class=" font-sans text-lg text-left col-span-6  ">
+                                        <p><i>La CGT critica indirectamente a Cristina Kirchner y exige renovación en el PJ,
+                                            abogando por unidad y un programa común ante el avance del gobierno de
+                                            Javier Milei.
+                                        </i>
+                                        </p>
+                                        <br>
+                                        <figure>
+                                            <img class="w-full object-cover"
+                                            src="{{ asset('../img/pol/pol_cgtManifiesto.svg') }}" alt="">
+                                        </figure>
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+                                                <p>El sector mayoritario de la Confederación General del Trabajo (CGT) se ha
+                                                    adentrado en la interna del Partido Justicialista (PJ) con un documento que,
+                                                    aunque evita mencionar directamente a Cristina Kirchner, desliza críticas hacia
+                                                    su liderazgo. La nota, redactada por los triunviros Héctor Daer y Carlos Acuña,
+                                                    reclama una profunda renovación en la conducción del peronismo.
+                                                </p>
+                                                <br>
+                                                <p>En el texto, los dirigentes gremiales subrayan la necesidad de convocar a todos
+                                                    los sectores afines, destacando que &quot;no es con personalismos que vamos a
+                                                    encaminar la recuperación de la confianza ciudadana&quot;. Este llamado a la
+                                                    unidad se produce en un contexto en el que los vínculos entre ciertos sectores
+                                                    del sindicalismo y el gobierno de Javier Milei están en tensión.
+                                                </p>
+                                                <br>
+                                                <p>La CGT enfatiza que &quot;es preciso iniciar un proceso de renovación genuina&quot;,
+                                                    sugiriendo que solo con nombres propios no se alcanzará el objetivo deseado.
+                                                    Los sectores de &quot;Los Gordos&quot; y &quot;los independientes&quot; abogan por avanzar hacia
+                                                    un programa común que respete los principios fundamentales del peronismo:
+                                                    justicia social, independencia económica y soberanía política.
+                                                </p>
+                                                <br>
+                                                <p>El pronunciamiento llega en un momento delicado, con el triunviro Pablo
+                                                    Moyano en el extranjero, y en medio de la renuncia de Mario Manrique, del
+                                                    Smata, quien se distanció de la conducción &quot;dialoguista&quot; por el acercamiento a
+                                                    la gestión de Milei. El documento critica abiertamente el modelo de gobierno
+                                                    actual, denunciando que &quot;ajusta gravemente los ingresos de los que menos                                                    
+                                                    tienen&quot; y favorece a sectores concentrados de la economía, al tiempo que
+                                                    posterga la atención a jubilados y desfinancia la salud y la educación pública.
+                                                </p>
+                                                <br>
+                                                <p>Asimismo, entre los dirigentes de los sectores &quot;Gordos&quot; e &quot;independientes&quot;,
+                                                    crece el apoyo hacia el gobernador Axel Kicillof, considerado el candidato más
+                                                    viable para liderar al PJ en las elecciones de 2027. Existe un deseo de que
+                                                    Kicillof mantenga su autonomía frente A Kirchner, lo que podría redefinir las
+                                                    alianzas dentro del peronismo.
+                                                </p>
+                                                <br>
+                                                <p>Este pronunciamiento de la CGT es la primera manifestación pública sobre la
+                                                    interna del PJ, justo a horas del cierre de listas. La próxima reunión entre el
+                                                    gobernador riojano Ricardo Quintela y Cristina Kirchner será clave para definir
+                                                    el rumbo del partido. Si se presenta una elección interna entre dos listas, es
+                                                    probable que este sector de la CGT se posicione más cerca de Quintela que de
+                                                    CFK, un escenario que se desarrollará cuando finalice el plazo de inscripción
+                                                    de listas.
+                                                </p>
+                                                <br>
+                                                <div class="text-start object-center">
+                                                </div>
+                                            </div>
+                                </article>
+                            </li>
+                        </ul>
+                    </div>
+                    @livewire('lateral')
+                </div>
+            </section>
+        @elseif ($tituloSep == 'Politica-Noticia-Completa-pol85')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">REAFIRMANDO LA LEALTAD: LA NECESIDAD DE UNIR
+                                                AL PERONISMO</a>
+                                        </h2>
+                                        <p class="font-light  text-right text-gray-500">Publicado: 17/10/2024</p>
+                                        <div class=" font-sans text-lg text-left col-span-6  ">
+                                        <p><i>El 17 de octubre es una fecha emblemática en la historia de Argentina y en la
+                                            memoria del movimiento peronista. Este Día de la Lealtad conmemora la
+                                            movilización de 1945, cuando millones de trabajadores y militantes salieron a
+                                            las calles para exigir la libertad de Juan Domingo Perón. Más que un simple
+                                            acontecimiento histórico, esta conmemoración representa el espíritu de lucha
+                                            por la justicia social, la dignidad y el bienestar de la clase trabajadora.
+                                        </i>
+                                        </p>
+                                        <br>
+                                        <figure>
+                                            <img class="w-full object-cover"
+                                            src="{{ asset('../img/pol/pol_lealtad.svg') }}" alt="">
+                                        </figure>
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+                                                <p>En un contexto marcado por la polarización y el avance de un modelo de
+                                                    gobierno que, bajo la gestión de Javier Milei, amenaza con precarizar aún más
+                                                    las condiciones de vida de los sectores más vulnerables, el Día de la Lealtad
+                                                    adquirió un renovado significado. El peronismo, en todos sus vertientes, debía
+                                                    unirse y llenar la Plaza de Mayo, junto con los sindicatos, la CGT, las dos CTA,
+                                                    los movimientos sociales, los jubilados, los universitarios, los jóvenes y las
+                                                    compañeras feministas. La convocatoria debía incluir a líderes como Cristina
+                                                    Kirchner, Ricardo Quintela, Máximo Kirchner, Axel Kicillof, los intendentes del
+                                                    conurbano y los cinco gobernadores que representan al peronismo.
+                                                </p>
+                                                <br>
+                                                <p>Si había un momento para pararse y afirmar &quot;aquí está el peronismo&quot;, era el 17
+                                                    de octubre. Sin embargo, no se hizo un acto en la Plaza de Mayo. La ausencia
+                                                    de este evento ha dejado una pregunta resonando en el aire: ¿por qué no se
+                                                    llenó la Plaza este 17 de octubre? ¿Por qué no se hicieron los esfuerzos
+                                                    necesarios para que los trabajadores y las trabajadoras expresaran su
+                                                    descontento y defendieran los intereses de la patria?
+                                                </p>
+                                                <br>
+                                                <p>Es fundamental reflexionar sobre este vacío y reconocer que, como
+                                                    comunicadores del campo nacional y popular, debemos replantearnos por qué
+                                                    no estuvimos allí. Meses antes de esta fecha, cuando ya intuíamos que no
+                                                    habría una convocatoria, debimos exigir desde nuestros medios la unidad del                                                  
+                                                    peronismo, por el bien del campo nacional y popular, de la República y de los
+                                                    derechos de todos los argentinos y argentinas.
+                                                </p>
+                                                <br>
+                                                <p>El Día de la Lealtad no debe ser solo un recuerdo, sino un llamado a la acción
+                                                    ya la movilización en defensa de los principios que nos unen. Este 17 de
+                                                    octubre, la lealtad no se limitó a la figura de un líder, sino que se reafirmó como
+                                                    un compromiso colectivo con la justicia social, la independencia económica y la
+                                                    soberanía política. Aunque no estuvimos a la altura en esta ocasión, la lucha
+                                                    por un país más justo, solidario e inclusivo continúa, y debemos ser
+                                                    protagonistas en su construcción.
+                                                </p>
+                                                <br>
+                                                <p>Desde estas líneas, hacemos un llamado a la reflexión ya redoblar los
+                                                    esfuerzos necesarios para construir la unidad del peronismo y del campo
+                                                    popular, en defensa de la patria y de los sectores más humildes. Este
+                                                    compromiso es fundamental para enfrentar los desafíos que nos presenta el
+                                                    contexto actual y garantizar un futuro más justo y solidario para todos los
+                                                    argentinos.
+                                                </p>
+                                                <br>
+                                                <br>
+                                                <div class="text-start object-center">
+                                                </div>
+                                            </div>
+                                </article>
+                            </li>
+                        </ul>
+                    </div>
+                    @livewire('lateral')
+                </div>
+            </section>
         @endif
 
     </div>

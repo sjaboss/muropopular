@@ -4472,49 +4472,85 @@
                 </div>
 
             </section>
+        @elseif ($tituloSep == 'Derechos-Humanos-Noticia-Completa-der34')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">CONFIRMAN CONDENA PARA EL TIGRE ACOSTA
+                                            </a>
+                                            {{-- <p class="font-light text-gray-500">JUSTICIA TARDÍA Y OLVIDOS PERSISTENTES
+                                            </p>  --}}
+                                        </h2>
+                                        <p class="font-light  text-right text-gray-500">Publicado: 16/10/2024</p>
+                                        <p><i>La Cámara de Casación ratificó 24 años de prisión para Jorge Eduardo Acosta
+                                            por crímenes sexuales cometidos en la ESMA durante la dictadura.
+                                        </i>
+                                    </p>
+                                        <br>
+                                        <figure>
+                                            <img class="w-full object-cover"
+                                                src="{{ asset('../img/der/der_condena.svg') }}" alt="">
+                                        </figure>
+                                        {{-- <article>
+                                            <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/XSNYTBkbmx4?si=V9zwrQyh3h5dyKbu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                            
+                                        </article> --}}
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+                                                <p>La Cámara Federal de Casación Penal confirmó la condena de 24 años de
+                                                    prisión para Jorge Eduardo &quot;Tigre&quot; Acosta, uno de los principales responsables
+                                                    de la represión en la ESMA durante la última dictadura cívico-militar. Acosta,
+                                                    quien lideraba el Grupo de Tareas 3.3.2, fue encontrado culpable de violación
+                                                    agravada, abuso deshonesto, privación ilegal de la libertad y tortura, delitos
+                                                    cometidos contra tres prisioneras. Los jueces Guillermo Yacobucci, Ángela
+                                                    Ledesma y Alejandro Slokar señalaron que estos crímenes formaban parte de
+                                                    un plan sistemático de represión y no eran hechos aislados.
+                                                </p>
+                                                <br>
+                                                <p>El fallo subrayó la utilización de la violencia sexual como una herramienta de
+                                                    tortura y dominación, enmarcada en el Terrorismo de Estado. Según los
+                                                    magistrados, estos actos aberrantes respondían a una estrategia deliberada de
+                                                    deshumanización de los detenidos, donde las condiciones de vulnerabilidad
+                                                    eran meticulosamente orquestadas. Además, se hizo hincapié en la
+                                                    importancia de preservar y digitalizar las pruebas del juicio para garantizar el
+                                                    acceso a la información y mantener viva la memoria colectiva.
+                                                </p>
+                                                <br>
+                                                <p>Este veredicto llega en un contexto político en el que sectores negacionistas
+                                                    buscan minimizar los crímenes de la dictadura. La confirmación de la condena
+                                                    a Acosta representa un paso fundamental en la lucha contra la impunidad y
+                                                    refuerza el compromiso de la justicia argentina con la verdad y la reparación
+                                                    para las víctimas del Terrorismo de Estado, en un momento crítico en que la
+                                                    memoria enfrenta nuevos desafíos.
+                                                </p>
+                                                <br>
+                                                <div class="text-start object-center">
+                                                    {{-- <figure>
+                                                        <img class="w-28 h-28  "
+                                                            src="{{ asset('../img/der/Adri.svg') }}"
+                                                            alt="">
+                                                        <p> <strong>Por Adriana Zerdín<strong></p>
+                                                        <p><strong><strong></p>
+                                                    </figure> --}}
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+                            </li>
+                        </ul>
+                        <br>
+                    </div>  
+                        @livewire('lateral')
+                </div>
+            </section>
         @endif
-    </div>
-
-
-
-
-    {{-- aca arrancamos vue --}}
-
-    @push('js')
-        <script>
-            new Vue({
-                el: '#app',
-                data: {
-                    info: [],
-                    clima: [],
-
-                },
-
-                mounted() {
-
-
-                    axios.get("https://api.dailymotion.com/videos?channel=news&limit=4")
-                        .then(response => {
-                            this.info = response.data.list
-                        });
-
-                    /*    axios.get( */
-                    /*      "https://api.weatherbit.io/v2.0/current?lat=35.7796&lon=-78.6382&key=f2207d043ea74a359ff232a1d03d0c72&include=minutely"
-                     )*/
-                    axios.get(
-                            "https://api.openweathermap.org/2.5/wheater?q=BURNOS AIRESlat=35.7796&lon=-78.6382&key=f2207d043ea74a359ff232a1d03d0c72&include=minutely"
-                        )
-                        .then(response => {
-                            this.clima = response
-                        });
-
-
-                },
-
-            });
-        </script>
-    @endpush
-
-
 
 </x-app-layout>
