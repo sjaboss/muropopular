@@ -1,7 +1,234 @@
 <x-app-layout>
     <div class="container ">
         @livewire('superior')
-
+{{-- EL GOBIERNO DE MILEI LLAMA ‘FALKLANDS’ A LAS MALVINAS, UN ERROR QUE ESCONDE UNA TRAICION --}}
+<section>
+            <ul>
+                <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                    <article>
+                        <div class="py-4 px-4 justify-between items-center">
+                            <h2 class="text-xl font-serif  font-bold pb-6">
+                                <a href="">EL GOBIERNO DE MILEI LLAMA ‘FALKLANDS’ A LAS
+                                    MALVINAS, UN ERROR QUE ESCONDE UNA TRAICION</a>
+                            </h2>
+                            <p class="font-light  text-right text-gray-500">Publicado: 27/10/2024</p>
+                            <div class=" font-sans text-lg text-left col-span-6  ">
+                            <p><i>Las encuestas anticipan un escenario reñido para el 5 de noviembre en una
+                                contienda marcada por acusaciones y tensiones en torno a la economía,
+                                migración y seguridad nacional.
+                            </i>
+                            </p>
+                            <br>
+                            <figure>
+                                <img class="w-full object-cover"
+                                src="{{ asset('../img/pol/pol_malvinas.svg') }}" alt="">
+                            </figure>
+                            <br>
+                            <div
+                                class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                <div class=" font-sans text-lg text-left col-span-6  ">
+                                    <p>La decisión del gobierno de Javier Milei de referirse a las Islas Malvinas como
+                                        ‘Falklands’ en un comunicado oficial ha generado indignación y preocupación
+                                        en la arena política y social. Este acto, lejos de ser un simple error protocolar,
+                                        revela una postura permisiva ante los intereses británicos que, para muchos,
+                                        raya en la traición a la soberanía argentina.
+                                    </p>
+                                    <br>
+                                    <p>Desde Cancillería, la situación es calificada como un “desorden total”, en el que
+                                        prevalecen directrices contradictorias y una desconexión entre el presidente y
+                                        la diplomacia argentina. La canciller Diana Mondino, superada por las internas
+                                        y por el círculo cercano al mandatario, parece incapaz de frenar una serie de
+                                        decisiones que alejan al país de su tradicional defensa soberana. Este desliz,
+                                        inédito en la historia diplomática argentina, suma un golpe de desprestigio en
+                                        un momento en el que Argentina enfrenta un aislamiento creciente en la región
+                                        y el mundo.
+                                    </p>
+                                    <br>
+                                    <p>Las repercusiones no se hicieron esperar. Países aliados de Argentina, como
+                                        Brasil y México, han expresado preocupación por la dirección errática de la
+                                        diplomacia argentina. La Cancillería hoy se encuentra en un clima de extrema
+                                        tensión, con un cuerpo diplomático que, lejos de alinearse con las políticas de
+                                        Milei, advierte sobre las consecuencias de una política internacional que parece
+                                        priorizar una agenda ultraliberal en detrimento de los intereses nacionales.
+                                    </p>
+                                    <br>
+                                    <p>SEl uso de ‘Falklands’ no es un desliz menor: jamás un gobierno argentino utilizó
+                                        este término en una declaración oficial. En contraste, el Reino Unido jamás ha                                                  
+                                        hecho referencia a las ‘Malvinas’ en un texto formal. Las consecuencias de este
+                                        giro impactarán en las aspiraciones de Argentina en foros internacionales como
+                                        el Comité de Descolonización de la ONU, donde la postura histórica del país ha
+                                        sido clara y firme.
+                                    </p>
+                                    <br>
+                                    <p>La posible entrega de la causa Malvinas a la influencia británica deja una
+                                        marca indeleble en la administración de Milei, quien, en vez de fortalecer la
+                                        defensa de la soberanía argentina, parece optar por una actitud de
+                                        complacencia que muchos califican de traición.
+                                    </p>
+                                    <br>
+                                    <br>
+                                    <div class="text-start object-center">
+                                    </div>
+                                </div>
+                    </article>
+                </li>
+            </ul>
+</section>
+{{-- ALFONSÍN Y SARAVIA RECLAMAN UNIDAD PROGRESISTA CONTRA LA CRISIS --}}
+<section>
+            <ul>
+                <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                    <article>
+                        <div class="py-4 px-4 justify-between items-center">
+                            <h2 class="text-xl font-serif  font-bold pb-6">
+                                <a href="">ALFONSÍN Y SARAVIA RECLAMAN UNIDAD
+                                    PROGRESISTA CONTRA LA CRISIS</a>
+                            </h2>
+                            <p class="font-light  text-right text-gray-500">Publicado: 21/10/2024</p>
+                            <div class=" font-sans text-lg text-left col-span-6  ">
+                            <p><i>Durante una intensa recorrida en Tigre y La Matanza, Alfonsín y Saravia
+                                denunciaron la política económica del gobierno y abogaron por una alternativa
+                                que priorice la justicia social.
+                            </i>
+                            </p>
+                            <br>
+                            <figure>
+                                <img class="w-full object-cover"
+                                src="{{ asset('../img/pol/pol_AlfonsinUnidad.svg') }}" alt="">
+                            </figure>
+                            <br>
+                            <div
+                                class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                <div class=" font-sans text-lg text-left col-span-6  ">
+                                    <p>Ricardo Alfonsín, junto a Silvia Saravia, referente de Libres del Sur, recorrió los
+                                        municipios de Tigre y La Matanza para impulsar una construcción unitaria de
+                                        los sectores progresistas frente a la crisis económica. La jornada en Tigre
+                                        incluyó diálogos con vecinos y comerciantes en el Mercado de Frutos y la
+                                        Terminal del Tren Mitre, donde ambos dirigentes reconocieron testimonios
+                                        sobre el deterioro del consumo, las dificultades de las pymes y el impacto de la
+                                        inflación en los hogares.
+                                    </p>
+                                    <br>
+                                    <p>Al finalizar la recorrida, Alfonsín y Saravia se reunieron con el intendente de
+                                        Tigre, Julio Zamora, para reforzar su compromiso con alianzas que prioricen el
+                                        bienestar social y económico. &quot;Hoy necesitamos unidad para combatir una
+                                        política económica que aumenta la pobreza y el desempleo mientras los
+                                        salarios y jubilaciones se derrumban&quot;, manifestó Alfonsín.
+                                    </p>
+                                    <br>
+                                    <p>La visita continuó en La Matanza, con una serie de encuentros en Ramos Mejía
+                                        y Villa Luzuriaga, donde fueron recibidos por dirigentes socialistas y
+                                        comunitarios. En la Casa de Auxilio de Ramos Mejía, Alfonsín y Saravia
+                                        dialogaron con el presidente de la entidad, Arturo Ter Akopian, y el diputado
+                                        socialista Esteban Paulón sobre la gravedad de la crisis en el conurbano y la
+                                        necesidad de una alternativa progresista. Posteriormente, en un centro
+                                        comunitario de Villa Luzuriaga, participó en una jornada de salud y nutrición
+                                        infantil, poniendo en foco la urgencia de políticas sociales activas.
+                                    </p>
+                                    <br>
+                                    <p>Silvia Saravia destacó el apoyo recibido de vecinos y comerciantes y subrayó la
+                                        desconexión entre el discurso oficial y la realidad: “El deterioro del poder
+                                        adquisitivo es evidente; mientras el titular de ANSES lo llama una &#39;sensación&#39;,
+                                        los pequeños comerciantes nos cuentan cómo las ventas se desploman”.
+                                        Alfonsín, por su parte, apuntó contra la política económica del gobierno: “La
+                                        política sin ética abandona a la población en el hambre y la recesión, y esta fue
+                                        la vía que eligieron, aunque lo nieguen”.
+                                    </p>
+                                    <br>
+                                    <p>Ambos dirigentes coincidieron en la urgencia de consolidar una alternativa
+                                    progresista que proponga soluciones reales para enfrentar la crisis y que,
+                                    además de denunciar las políticas actuales, construya un proyecto de país
+                                    inclusivo y solidario.
+                                    </p>
+                                    <br>
+                                    <br>
+                                    <div class="text-start object-center">
+                                    </div>
+                                </div>
+                    </article>
+                </li>
+            </ul>
+</section>
+{{-->MILEI AMENAZA A LA DEMOCRACIA CON SU DISCURSO DE ODIO  --}} 
+<section>
+            <ul>
+                <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                    <article>
+                        <div class="py-4 px-4 justify-between items-center">
+                            <h2 class="text-xl font-serif  font-bold pb-6">
+                                <a href="">MILEI AMENAZA A LA DEMOCRACIA CON SU
+                                    DISCURSO DE ODIO</a>
+                            </h2>
+                            <p class="font-light  text-right text-gray-500">Publicado: 21/10/2024</p>
+                            <div class=" font-sans text-lg text-left col-span-6  ">
+                            <p><i>Con la complicidad de colegas y medios que prefieren hacerse los distraídos
+                                Milei sigue abonando la división del pueblo a través de su discurso de odio.
+                            </i>
+                            </p>
+                            <br>
+                            <figure>
+                                <img class="w-full object-cover"
+                                src="{{ asset('../img/pol/pol_DiscursoOdio.svg') }}" alt="">
+                            </figure>
+                            <br>
+                            <div
+                                class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                <div class=" font-sans text-lg text-left col-span-6  ">
+                                    <p>Desde ADN Populares, manifestamos nuestro más enérgico repudio a las
+                                        recientes declaraciones del presidente Javier Milei, quien expresó su “morbo”
+                                        por “meterle el último clavo al cajón del kirchnerismo con Cristina adentro”.
+                                        Estas palabras no son solo un exabrupto; son un ataque deliberado que revela
+                                        una peligrosa política de odio y descalificación, contraria a los principios
+                                        democráticos que deben gobernar nuestro país.
+                                    </p>
+                                    <br>
+                                    <p>Las afirmaciones de Milei, dirigidas a una figura que simboliza no solo a una
+                                        corriente política, sino a millones de argentinos, muestran un intento de eliminar
+                                        simbólicamente a toda una historia política. No se trata solo de una disputa
+                                        interna; es un ataque frontal contra la misma democracia. “¿Cuántas veces
+                                        habrá que repudiar el odio y la violencia de las palabras de Milei?”, se
+                                        preguntan muchos en el ámbito político. La respuesta es clara: mientras
+                                        permanezca en el poder, el repudio debe ser constante.
+                                    </p>
+                                    <br>
+                                    <p>Milei no solo intenta borrar a Cristina Fernández de Kirchner, sino también
+                                        desviar la atención de su propio fracaso económico. Sus declaraciones
+                                        encubren la realidad de un modelo que ha llevado al país a niveles de alarma
+                                        de pobreza y exclusión social. En lugar de gobernar para el bienestar de todos
+                                        los argentinos, busca confrontar y dividir, propagando un clima de odio que
+                                        desestabiliza la convivencia pacífica. “Lo que Milei quiere enterrar es la
+                                        dignidad del pueblo argentino”, y lo personifica en CFK porque fue con ella que
+                                        la Argentina logró avances significativos.
+                                    </p>
+                                    <br>
+                                    <p>Es inaceptable que el presidente de la Nación, en lugar de fomentar un
+                                        ambiente de respeto y diálogo, utilice su posición para amenazar a una figura
+                                        política que ha sido víctima de un atentado contra su vida. Las palabras de
+                                        Milei no solo atacan a Cristina Fernández de Kirchner como dirigente, sino que
+                                        también despojan a la política de su esencia más humana. “No podemos
+                                        permitir que su retórica de odio defina nuestra realidad; sus fantasías deben ser
+                                        tratadas en un ámbito privado, no desde el ejercicio del poder”, debe resonar
+                                        como un clamor en nuestra sociedad, que anhela una convivencia democrática
+                                        sin hostilidad.
+                                    </p>
+                                    <br>
+                                    <p>Por último, es esencial recordar que no solo Cristina Kirchner está en la mira de
+                                        Milei. Aquellos que creen que su violencia verbal se limita a ella están
+                                        equivocados. La política de odio que él representa pone en riesgo la misma
+                                        democracia, y es urgente que todas las fuerzas políticas se unan para ponerle
+                                        un freno. Desde ADN Populares, hacemos un llamado a la unidad y al respeto,
+                                        porque solo así podremos construir un futuro digno para todos los argentinos,
+                                        lejos de la barbarie y la división.
+                                    </p>
+                                    <br>
+                                    <br>
+                                    <div class="text-start object-center">
+                                    </div>
+                                </div>
+                    </article>
+                </li>
+            </ul>
+</section>
 {{-- REAFIRMANDO LA LEALTAD: LA NECESIDAD DE UNIR AL PERONISMO --}}
 <section>
             <ul>

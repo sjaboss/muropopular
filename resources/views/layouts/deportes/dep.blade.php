@@ -1,6 +1,98 @@
 <x-app-layout>
     <div class="container ">
-        {{-- ARGENTINA Y VENEZUELA EMPATAN EN UN MAR DE AGUA --}}
+        @livewire('superior')
+
+{{--  --}}
+<section>
+            <ul>
+                <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                    <article>
+                        <div class="py-4 px-4 justify-between items-center">
+                            <h2 class="text-xl font-serif  font-bold pb-6">
+                                <a href="">DIBU MARTÍNEZ GANA EL PREMIO YASHIN Y SE
+                                    AFIRMA COMO MEJOR ARQUERO DEL MUNDO
+                                </a>
+                            </h2>
+                            <p class="font-light  text-right text-gray-500">Publicado:28/10/2024</p>
+                            <p><i>CPor segundo año consecutivo, Emiliano Martínez se alzó con el galardón al
+                                    mejor arquero del mundo en la ceremonia del Balón de Oro 2024. El
+                                    argentino
+                                    destacó sus raíces y dedicó el premio a sus compañeros de la Scaloneta.
+                                </i></p>
+                            <br>
+                            <figure>
+                                <a href="">
+                                    <img class="w-full object-cover object-center"
+                                        src="{{ asset('../img/dep/dep_dibu.svg') }}" alt="">
+                                </a>
+                            </figure>
+                            <br>
+                            <div
+                                class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                <div class=" font-sans text-lg text-left col-span-6  ">
+                                    <p>Emiliano &#39;Dibu&#39; Martínez reafirmó su lugar entre los mejores
+                                        arqueros del
+                                        mundo al recibir el premio Lev Yashin 2024 en la ceremonia del Balón
+                                        de Oro,
+                                        entregado por la revista France Football . Con esta distinción, que
+                                        recibe por
+                                        segundo año consecutivo, el arquero argentino se impuso sobre
+                                        figuras de
+                                        primer nivel como Unai Simón, Diogo Costa y Gianluigi Donnarumma,
+                                        entre
+                                        otros.
+                                    </p>
+                                    <br>
+                                    <p>“Vengo de un lugar chico, siempre lo recuerdo y eso me obsesiona en
+                                        crecer y
+                                        conseguir cosas grupales porque lo individual viene después”,
+                                        expresó
+                                        Martínez al recibir el galardón de manos de Lautaro Martínez, quien
+                                        le entregó
+                                        el premio como símbolo del éxito compartido por toda la Selección
+                                        Argentina.
+                                    </p>
+                                    <br>
+                                    <p>En la última temporada, Dibu Martínez obtuvo una destacada actuación
+                                        con
+                                        Aston Villa en la Premier League, obteniendo un histórico cuarto
+                                        puesto y
+                                        clasificación a la Champions League. Además, brilló en la Copa
+                                        América 2024,
+                                        donde fue una pieza fundamental en la defensa del título de
+                                        Argentina,
+                                        logrando mantener su arco en cero en cinco de los seis encuentros y
+                                        siendo
+                                        decisivo en la tanda de penales. Estas estadísticas, sumadas a sus
+                                        47
+                                        apariciones con Aston Villa, 10 con la Selección Argentina y 22
+                                        vallas invictas,
+                                        consolidaron su candidatura en el ámbito mundial.
+                                    </p><br>
+                                    <p> Martínez, que ya había sido premiado con el Guante de Oro en la Copa
+                                        América y el Mundial, dedicó el premio a su familia y amigos: “Lo
+                                        más lindo es
+                                        que mis hijos ven lo que su padre logró. Cuando alguien visita mi
+                                        casa y ve
+                                        este trofeo, es algo que mis hijos recordarán”, comentó emocionado.
+                                    </p><br>
+
+                                    <p>Con una carrera en ascenso y una serie de logros sin precedentes,
+                                        Emiliano
+                                        Martínez se ha convertido en el arquero más destacado de la era
+                                        contemporánea, impulsado por su pasión y compromiso, no solo en lo
+                                        deportivo, sino en lo emocional.
+                                    </p><br>
+
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </li>
+            </ul>
+</section>
+
+{{-- ARGENTINA Y VENEZUELA EMPATAN EN UN MAR DE AGUA --}}
 <section>
     <ul>
         <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
@@ -53,9 +145,6 @@
         </li>
     </ul>
     <br>
-
-</div>
-
 </section>
 {{-- UN TRIUNFO HISTÓRICO DE LOS PUMAS A UN PASO DEL TÍTULO --}}
 <section>

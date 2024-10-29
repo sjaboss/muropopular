@@ -2,6 +2,173 @@
 <div class="container">
 @livewire('superior')
 
+
+{{--GRANDES CORPORACIONES DUPLICAN RENTABILIDAD MIENTRAS SE DERRUMBAN INGRESOS POPULARES  --}}
+<section>
+            <ul>
+                <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                    <article>
+
+                        <div class="py-4 px-4 justify-between items-center">
+                            <h2 class="text-xl font-serif  font-bold pb-6">
+                                <a href="">GRANDES CORPORACIONES DUPLICAN
+                                    RENTABILIDAD MIENTRAS SE DERRUMBAN
+                                    INGRESOS POPULARES
+                                </a>
+                                {{-- <p class="font-light  text-lef text-gray-500">Por Emanuel Corrado</p> --}}
+                            </h2>
+                            <p class="font-light  text-right text-gray-500">Publicado: 26/10/2024</p>
+                            <div class=" font-sans text-lg text-left col-span-6  ">
+                            <p><i>Un estudio del Instituto Pensamiento y Políticas Públicas destaca a las grandes
+                                empresas que maximizaron ganancias en medio de la crisis, mientras los
+                                salarios reales y el poder adquisitivo de la mayoría se hunden.
+                            </i>
+                            </p> 
+                            <br>
+                            <figure>
+                                <img class="w-full object-cover" src="../img/soc/soc_grandes.svg"
+                                    alt="">
+                            </figure> 
+                        {{--  <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/Elj4W5gq3AM?si=Px86mJ-v6RAaS8Yh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> --}}
+                            <br>
+                            <div
+                                class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                <div class=" font-sans text-lg text-left col-span-6  ">
+                                    <p>El Instituto Pensamiento y Políticas Públicas (IPyPP) reveló en su informe
+                                        “Ganadores y Perdedores en el Primer Semestre del Gobierno de Milei” un
+                                        contraste alarmante: mientras que las principales empresas del país han
+                                        logrado multiplicar sus rentabilidades gracias a las políticas de ajuste y la
+                                        devaluación impulsadas desde diciembre de 2023, el grueso de la población
+                                        enfrenta una significativa caída en sus ingresos reales.
+                                    </p>
+                                    <br>
+                                    <p>Ganadores al calor de la crisis
+                                    </p> 
+                                    <p>Para elaborar el informe, el IPyPP analizó los balances de grandes empresas
+                                        que cotizan en la Bolsa de Comercio de Buenos Aires. El resultado es
+                                        revelador: sectores como hidrocarburos, alimentos, energía,
+                                        telecomunicaciones y finanzas han experimentado rentabilidades
+                                        extraordinarias. Entre las firmas beneficiadas se destacan YPF, con un
+                                        aumento del 1069,9% en sus resultados operativos, y Tecpetrol, con un
+                                        incremento del 1860,4% en resultados netos. En el sector de alimentos,
+                                        Mastellone Hermanos registró un alza del 2050% en sus resultados netos, a
+                                        pesar de la caída del consumo. En finanzas, Banco Macro y Santander Río
+                                        también reportaron aumentos superiores al 400%.
+                                    </p>
+                                    <br>
+                                    <p>Empresas como Molinos Agro y Metrogas reflejan de manera drástica esta
+                                        tendencia, con incrementos en sus ganancias operativas del 7.543% y 2.581%,
+                                        respectivamente. Según el IPyPP, esta expansión de ganancias encuentra su                                                  
+                                        origen en una “mega devaluación” sin controles, que profundizó las ganancias
+                                        empresariales en detrimento de la regulación de precios y el poder adquisitivo.
+                                    </p>
+                                    <br>
+                                    <p>Perdedores: trabajadores y sectores vulnerables
+                                        A contracara de estas rentabilidades crecientes, el informe subraya la caída
+                                        generalizada en el ingreso real de los trabajadores y sectores vulnerables.
+                                        Entre noviembre de 2023 y julio de 2024, los trabajadores públicos sufrieron
+                                        una reducción del 16,8% en sus salarios reales, mientras que el salario mínimo
+                                        experimentó una caída aún más pronunciada, del 26,5%. Asimismo, jubilados y
+                                        beneficiarios de planes sociales, golpeados por el ajuste, perdieron poder
+                                        adquisitivo, lo cual ha contribuido a aumentar la desigualdad.
+                                    </p>
+                                    <br>
+                                    <p>Un modelo que exacerba la desigualdad
+                                        El informe concluye que las políticas implementadas por el gobierno de Milei
+                                        han generado “una transferencia masiva de recursos desde los sectores
+                                        populares hacia el capital concentrado”, impulsando la rentabilidad de las
+                                        grandes corporaciones a expensas de la economía popular.
+                                    </p>
+                                    <br>
+                                    <div class="text-start object-center">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </li>
+            </ul>
+</section>
+{{--EL GOBIERNO PRIVATIZA FRECUENCIAS Y PONE EN RIESGO EL FUTURO DE ARSAT  --}}
+<section>
+            <ul>
+                <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                    <article>
+                        <div class="py-4 px-4 justify-between items-center">
+                            <h2 class="text-xl font-serif  font-bold pb-6">
+                                <a href="">EL GOBIERNO PRIVATIZA FRECUENCIAS Y PONE EN
+                                    RIESGO EL FUTURO DE ARSAT
+                                </a>
+                                {{-- <p class="font-light  text-lef text-gray-500">Por Emanuel Corrado</p> --}}
+                            </h2>
+                            <p class="font-light  text-right text-gray-500">Publicado: 23/10/2024</p>
+                            <div class=" font-sans text-lg text-left col-span-6  ">
+                            <p><i>La decisión de Javier Milei de privatizar 150 megahercios de espectro y la
+                                eliminación del IVA a medios de comunicación provocan críticas y denuncias
+                                sobre la desmantelación del Estado.
+                            </i>
+                            </p> 
+                            <br>
+                            <figure>
+                                <img class="w-full object-cover" src="../img/soc/soc_arsat.svg"
+                                    alt="">
+                            </figure> 
+                        {{--  <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/Elj4W5gq3AM?si=Px86mJ-v6RAaS8Yh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> --}}
+                            <br>
+                            <div
+                                class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                <div class=" font-sans text-lg text-left col-span-6  ">
+                                    <p>El gobierno de Javier Milei avanza en su agenda privatizadora con la reciente
+                                        decisión de privatizar 150 megahertz de espectro que estaban reservados para
+                                        ARSAT y Enacom, lo que despierta preocupaciones sobre el futuro de las
+                                        telecomunicaciones en el país. Durante una conferencia de prensa, el vocero
+                                        presidencial, Manuel Adorni, anunció que los 100 megahertz de espectros
+                                        asignados a ARSAT y los 50 MHz en manos del Enacom se pondrán a
+                                        disposición del mercado. Esta medida se produce en medio de un conflicto
+                                        laboral en ARSAT, donde las negociaciones paritarias están congeladas y más
+                                        de 600 trabajadores enfrentan dificultades económicas.
+                                    </p>
+                                    <br>
+                                    <p>El ex vicepresidente del Enacom y actual presidente de Forja, Gustavo López,
+                                        señaló que la venta de estas frecuencias es un error estratégico que podría
+                                        obligar al Estado a pagar a empresas privadas por un servicio que antes
+                                        ofrecía internamente. López explicó que estas frecuencias eran vitales para
+                                        mantener la soberanía en telecomunicaciones y criticó la falta de justificación
+                                        por parte del gobierno al afirmar que no se estaban utilizando. Además,
+                                        denunció que la privatización es parte de un plan más amplio para desmantelar
+                                        empresas públicas que son consideradas estratégicas y rentables.
+                                    </p> 
+                                    <br>
+                                    <p>ARSAT, que atraviesa una crisis interna con paritarias congeladas y una fuga
+                                        de profesionales, se enfrenta a un futuro incierto. López alertó que el objetivo
+                                        del gobierno es destruir el Estado y sus empresas, a pesar de que estas
+                                        generan ganancias. En caso de concretarse la privatización, el nuevo
+                                        propietario adquiriría la red de fibra óptica más grande del país y otros activos                                                 
+                                        valiosos, lo que López calificó como una &quot;estafa&quot; que beneficiaría a
+                                        empresarios cercanos al oficialismo.
+                                    </p>
+                                    <br>
+                                    <p>Además, el gobierno eliminó las exenciones del IVA para los medios de
+                                        comunicación, lo que aumentará los costos para los consumidores y limitará el
+                                        acceso a la información. Esta decisión ha sido calificada como un ataque a la
+                                        libertad de expresión ya los derechos constitucionales de los ciudadanos.
+                                    </p>
+                                    <br>
+                                    <p>En este contexto, López advirtió sobre las graves consecuencias que estas
+                                        políticas podrían afectar, no solo para ARSAT y sus trabajadores, sino también
+                                        para el acceso de la población a servicios de telecomunicaciones y a la
+                                        información en un momento crítico para la democracia argentina.
+                                    </p>
+                                    <br>
+                                    <div class="text-start object-center">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </li>
+            </ul>
+</section>
 {{--ILEI, UNA CRISIS QUE AFECTA AL 73,3% DE LOSARGENTINOS  --}}
 <section>
             <ul>

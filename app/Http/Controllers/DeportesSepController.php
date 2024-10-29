@@ -9,5 +9,6 @@ class DeportesSepController extends Controller
     public function show($tituloSep)
     {
         return view('layouts.deportes.depSep',compact('tituloSep'));
+        
     }
 }

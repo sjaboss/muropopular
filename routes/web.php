@@ -71,7 +71,7 @@ Route::get('feminista/{fem}',[FeministaController::class,'show'])->name('feminis
 Route::get('feministasep/{tituloSep}',[FeministaSepController::class,'show'])->name('feministaSep.show');
 
 Route::get('deportes/{dep}',[DeportesController::class,'show'])->name('deportes.show');
-Route::get('tituloSep/{tituloSep}',[DeportesSepController::class,'show'])->name('deportesSep.show');
+Route::get('deportessep/{tituloSep}',[DeportesSepController::class,'show'])->name('deportesSep.show');
 
 Route::get('legislatuta/{leg}',[LegislaturaController::class,'show'])->name('legislatura.show');
 Route::get('legislatutasep/{tituloSep}',[legislaturaSepController::class,'show'])->name('legislaturaSep.show');

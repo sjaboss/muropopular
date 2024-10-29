@@ -3267,107 +3267,87 @@
                                 </article>
                             </li>
                         </ul>
+                        <br>
                     </div>
+                    @livewire('lateral')
+                </div>
+            </section>
+        @elseif ($tituloSep == 'Agenda-Feminista-Completa-fem24')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
 
-
-                    {{-- columna de la derecha chica --}}
-                    <aside>
-                        <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
-                            <div class=" col-span-6">
-
-                                <a href="" class="object-cover object-center " width="350">
-                                    <img class="pb-3" src="{{ asset('img/publi/recurso 1.png') }}" alt="">
-                                </a>
-
-                                <a href="" class="object-cover object-center " width="350">
-                                    <img class="pb-3" src="{{ asset('img/publi/APSE.gif') }}" alt="">
-                                </a>
-
-                                <a href="" class="object-cover object-center " width="350">
-                                    <img class="pb-3" src="{{ asset('img/AND POPULAR FLYER.gif') }}"
-                                        alt="">
-                                </a>
-
-
-
-                                <div id="app">
-
-                                    <div v-for="item in info">
-
-                                        <div class="flex-col pb-3">
-                                            <div
-                                                class="flex-col max-w-sm  border  border-gray-700 rounded-lg shadow bg-gray-800">
-                                                <a href="#">
-                                                    <img class="rounded-t-lg"
-                                                        :src="'https://www.dailymotion.com/thumbnail/video/' + item.id"
-                                                        alt="" />
-                                                </a>
-                                                <div class="p-5">
-                                                    <a href="#">
-                                                        <h5 class="mb-2 text-2xl font-bold tracking-tight  text-white">
-                                                            @{{ item.title }}</h5>
-
-                                                </div>
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">LAS PROVINCIAS EXIGEN ACCIONES CONCRETAS AL
+                                                GOBIERNO NACIONAL</a>
+                                            <p class="font-light  text-right text-gray-500">Publicado: 25/10/2024</p>
+                                        </h2>
+                                        <p><i>Las 23 provincias y CABA presentaron un petitorio al Gobierno Nacional
+                                            demandando políticas públicas efectivas y datos concretos sobre violencia de
+                                            género y femicidios.</i>
+                                        </p>
+                                        <br>
+                                        <figure>
+                                            <img class="w-full object-cover" src="../img/fem/fem_acciones.svg"
+                                                alt="">
+                                        </figure>
+                                        {{-- <article>
+                                            <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/KgLeMhUAufY?si=LCmXJy-t6RqfgsUb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                            
+                                        </article> --}}
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+                                                <p>El 24 de octubre, durante la primera reunión anual del Consejo Federal de las
+                                                    Mujeres y la 39º Reunión Plenaria del Consejo Federal de Derechos Humanos,
+                                                    se hizo evidente la urgencia de abordar la problemática de la violencia de
+                                                    género en Argentina. Las Consejeras federales expresaron su preocupación
+                                                    por la falta de información y acciones concretas del Gobierno Nacional en un
+                                                    contexto donde los feminidios son una triste realidad. En su declaración,
+                                                    enfatizaron que estos actos de violencia son innegables, y rechazaron
+                                                    enérgicamente los discursos de odio que fomentan la desigualdad.
+                                                </p>
+                                                <br>
+                                                <p>La ministra de Mujeres y Diversidad de la provincia de Buenos Aires, Estela
+                                                    Díaz, subrayó la importancia de respetar el marco legal argentino y de
+                                                    garantizar políticas públicas efectivas, instalando al Gobierno Nacional a
+                                                    cumplir con sus responsabilidades. Las Consejeras, unidas
+                                                    independientemente de sus orígenes políticos, denunciaron la negación de la
+                                                    violencia de género por parte del presidente y del ministro de Justicia.
+                                                </p>
+                                                <br>
+                                                <p>Frente a la falta de respuestas, elevaron un petitorio que abarca siete puntos
+                                                    fundamentales: desde la necesidad de comunicación clara sobre las
+                                                    autoridades responsables hasta la exigencia de información sobre el
+                                                    presupuesto destinado a políticas de género. También se demandaron detalles
+                                                    sobre la continuidad del Plan Nacional contra las violencias, la recolección de
+                                                    datos relevantes y la articulación con otras áreas de gobierno que impactan en
+                                                    los derechos de las mujeres y las diversidades.
+                                                    <p>
+                                                <br>
+                                                <p>El compromiso del Estado, tanto nacional como provincial, es vital para abordar
+                                                    la problemática estructural y cultural de la violencia de género, asegurando que
+                                                    todas las personas puedan ejercer plenamente sus derechos.
+                                                </p>
+                                                <br>
                                             </div>
                                         </div>
-
-                                    </div>
-                                    <div v-for="va in clima">
-
-                                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-white">
-                                            @{{ va }}</h5>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </aside>
-
+                                </article>
+                            </li>
+                        </ul>
+                        <br>
+                    </div>
+                    @livewire('lateral')
                 </div>
-
             </section>
+
+
         @endif
     </div>
-
-
-
-
-    {{-- aca arrancamos vue --}}
-
-    @push('js')
-        <script>
-            new Vue({
-                el: '#app',
-                data: {
-                    info: [],
-                    clima: [],
-
-                },
-
-                mounted() {
-
-
-                    axios.get("https://api.dailymotion.com/videos?channel=news&limit=2")
-                        .then(response => {
-                            this.info = response.data.list
-                        });
-
-                    /*    axios.get( */
-                    /*      "https://api.weatherbit.io/v2.0/current?lat=35.7796&lon=-78.6382&key=f2207d043ea74a359ff232a1d03d0c72&include=minutely"
-                     )*/
-                    axios.get(
-                            "https://api.openweathermap.org/2.5/wheater?q=BURNOS AIRESlat=35.7796&lon=-78.6382&key=f2207d043ea74a359ff232a1d03d0c72&include=minutely"
-                        )
-                        .then(response => {
-                            this.clima = response
-                        });
-
-
-                },
-
-            });
-        </script>
-    @endpush
-
-
 
 </x-app-layout>

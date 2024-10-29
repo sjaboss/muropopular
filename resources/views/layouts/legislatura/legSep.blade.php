@@ -8518,9 +8518,197 @@
                     @livewire('lateral')
                 </div>
             </section>
+        @elseif ($tituloSep == 'Legislatura-Noticia-Completa-leg62')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">LEGISLATURA IMPULSA LA LUCHA CONTRA EL
+                                                CÁNCER DE MAMA
+                                            </a>
+                                        </h2>
+                                        <p class="font-light  text-right text-gray-500">Publicado:22/10/2024</p>
+                                        <p><i>En el marco del Día Mundial de la Lucha contra el Cáncer de Mamá, el
+                                            organismo homenajeó a especialistas y subrayó la importancia de la detección
+                                            temprana, en un evento que reunió a actores claves del ámbito de la salud y la
+                                            sociedad civil.
+                                        </i></p>
+                                        <br>
+                                        <figure>
+                                            <a href="">
+                                                <img class="w-full object-cover object-center"
+                                                    src="{{ asset('../img/leg/leg_LuchaCancer.svg') }}"
+                                                    alt="">
+                                            </a>
+                                        </figure>
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+                                                <p>La Legislatura de la Ciudad se sumó a la conmemoración del “Mes Nacional de
+                                                    Concientización sobre el Cáncer de Mamá” con un conversatorio y la adhesión
+                                                    a la Ley Nacional 26.606, que declara en octubre como el mes dedicado a esta
+                                                    causa. A través de una iniciativa presentada por la diputada Patricia Glize, se
+                                                    realizó un evento en el Salón Dorado donde participaron legisladores, expertos
+                                                    del sector médico y referentes sociales, con el objetivo de visibilizar la
+                                                    importancia de la prevención y la detección temprana del cáncer de mama. .
+                                                </p>
+                                                <br>
+                                                <p>La diputada Glize, quien abrió el primer módulo del conversatorio con su
+                                                    testimonio como paciente recuperada de esta enfermedad, destacó que la
+                                                    adhesión representa un compromiso con la prevención y el acceso a la
+                                                    información: “Es vital que la población aprenda a realizar sus exámenes y que
+                                                    el Estado brinda equipamiento para ecografías y mamografías”, señaló. Glize
+                                                    estuvo acompañada por las legisladoras María Sol Méndez y Carolina
+                                                    Estebarena, además de la subsecretaria de Planificación Administrativa, Laura
+                                                    Sotillo.
+                                                </p>
+                                                <br>
+                                                <p>Durante el evento, la Legislatura declaró Personalidades Destacadas en el
+                                                    ámbito de las Ciencias Médicas a los doctores Ernesto Korbenfeld y Juan Luis
+                                                    Uriburu. Korbenfeld, miembro de importantes sociedades médicas nacionales e
+                                                    internacionales y parte del Comité Científico del Hospital Británico de Buenos
+                                                    Aires, ha desarrollado una larga trayectoria en oncología y docencia. Uriburu,
+                                                    por su parte, es jefe del Servicio de Mastología del Hospital Británico y médico                                                 
+                                                    del Centro Mamario del Hospital Universitario Austral, además de su rol en la
+                                                    docencia y la investigación en cáncer de mama.
+                                                </p>
+                                                <br>
+                                                <p>Al conversatorio asistieron también Nicolás Deantoni, de AstraZeneca Cono
+                                                    Sur; Gisela Krasñansky, de Novartis Argentina; María José García, de Roche;
+                                                    la Dra. Ivana Carluccio, del Instituto Nacional del Cáncer; y la Dra. Victoria
+                                                    Costanzo, del Instituto Fleming, entre otros. La jornada se enfocó en el rol
+                                                    fundamental que cumple el diagnóstico precoz y en la necesidad de políticas
+                                                    públicas que promuevan el acceso a controles médicos.
+                                                </p>
+                                                <br> 
+                                                <p>
+                                                    El cáncer de mama es el tipo de cáncer más frecuente en mujeres, y su
+                                                    incidencia aumenta a partir de los 50 años. Según el Instituto Nacional del
+                                                    Cáncer, en Argentina se producen más de 5.800 muertes al año por esta
+                                                    enfermedad, siendo la primera causa de muerte oncológica en mujeres. La
+                                                    OPS advierte que, de continuar las tendencias actuales, la tasa de mortalidad
+                                                    podría aumentar un 34% en las Américas para 2030.
+                                                </p>
+                                                <br>
 
+                                                <p>
+                                                    La Legislatura de la Ciudad reafirma así su compromiso en la difusión y el
+                                                    impulso de políticas de prevención, acompañando el trabajo de organizaciones
+                                                    de salud para reducir el impacto de esta enfermedad en la sociedad.
+                                                </p>
+                                                <br>
+                                        
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+                            </li>
+                        </ul>
+                        <br>
+                    </div>
+                    @livewire('lateral')
+                </div>
+            </section>    
+        @elseif ($tituloSep == 'Legislatura-Noticia-Completa-leg63')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">LOS DESAFÍOS DE LA DEMOCRACIA EN LA ERA
+                                                DIGITAL: JORNADA EN LA LEGISLATURA PORTEÑA
+                                            </a>
+                                        </h2>
+                                        <p class="font-light  text-right text-gray-500">Publicado:26/10/2024</p>
+                                        <p><i>Con la participación de legisladores, expertos en comunicación y tecnología, la
+                                            Legislatura de la Ciudad de Buenos Aires será el 12 de noviembre el epicentro
+                                            de un debate sobre el impacto de la era digital en la democracia.
+                                        </i></p>
+                                        <br>
+                                        <figure>
+                                            <a href="">
+                                                <img class="w-full object-cover object-center"
+                                                    src="{{ asset('../img/leg/leg_digital.svg') }}"
+                                                    alt="">
+                                            </a>
+                                        </figure>
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+                                                <p>El próximo 12 de noviembre, a las 10 de la mañana, el Salón Dorado de la
+                                                    Legislatura porteña abrirá sus puertas a la Primera Jornada de Comunicación
+                                                    Digital: &quot;Los desafíos de la democracia en la era digital&quot;. El evento reunirá a
+                                                    referentes de la comunicación, la tecnología y la política en un espacio para
+                                                    analizar el alcance de la transformación digital y sus efectos en la participación
+                                                    ciudadana, el debate público y la institucionalidad democrática.
+                                                </p>
+                                                <br>
+                                                <p>La jornada, de entrada gratuita y con inscripción previa, contará con la
+                                                    presencia de legisladores de distintos espacios y expertos de reconocimiento
+                                                    internacional. Entre los panelistas confirmados se destacan las presencias de
+                                                    Carolina Amoroso, periodista de TN; Matías López, Vicepresidente Primero de
+                                                    la Legislatura; Matías Lammens, Vicepresidente Segundo; y el consultor y
+                                                    presidente de la Cumbre Mundial de Comunicación Política, Daniel Ivoskus.
+                                                </p>
+                                                <br>
+                                                <p>Temas centrales de la jornada
+                                                    A través de cinco paneles, el evento abordará la relación entre la tecnología y
+                                                    la democracia desde distintas perspectivas:
+                                                    </p><br>
+                                                    <p> Democracia y era digital: Un primer panel revisará el impacto de la
+                                                    tecnología en la vida democrática y los desafíos que plantea para la
+                                                    política moderna. Participarán, entre otros, los legisladores Claudia Neira
+                                                    y Sergio Siciliano, además del especialista en tecnología pública Juan
+                                                    Belbis.</p><br>
+                                                    
+                                                    <p>Inteligencia artificial y conversación pública: Este segundo panel
+                                                    explorará el papel de la inteligencia artificial en la comunicación y el
+                                                    riesgo que implica la difusión de noticias falsas. Contará con la
+                                                    participación de expertos como Leandro Zanoni y Juan Gowland.
+                                                    </p><br>
+                                                    <p>Big data en política: El tercer panel analizará el uso de los datos en la
+                                                    construcción de estrategias políticas y en la toma de decisiones, con la
+                                                    intervención de representantes de Google, Taquion y Digimind, entre
+                                                    otros.</p><br>
+                                                    <p> Diálogo y desinformación: Ante el avance de la desinformación, el
+                                                    cuarto panel discutirá estrategias para enfrentar las fake news y
+                                                    promover un diálogo constructivo. Carolina Amoroso y la académica
+                                                    Soledad Arreguez estarán entre los ponentes.
+                                                    </p><br>
+                                                    <p>Redes de participación ciudadana: El último panel se centrará en el
+                                                    potencial de las redes sociales y otras herramientas digitales para
+                                                    fomentar la participación ciudadana. Entre los panelistas estarán
+                                                    Graciana Peñafort y Emmanuel Ferrario.
+                                                    </p><br>
+                                                </p>
+                                                <br>
+                                                <p>La jornada concluirá con una conferencia de cierre a cargo de las autoridades
+                                                    de la Legislatura y destacados consultores en comunicación política.
+                                                </p>
+                                                <br> 
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+                            </li>
+                        </ul>
+                        <br>
+                    </div>
+                    @livewire('lateral')
+                </div>
+            </section>
 
-        @endif
+       
+            @endif
     </div>
   
 

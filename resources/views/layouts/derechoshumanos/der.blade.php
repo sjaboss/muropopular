@@ -2,6 +2,257 @@
     <div class="container ">
     @livewire('superior')
 
+{{-- VIOLENCIA VERBAL DEL PRESIDENTE: REPUDIO DE ORGANISMOS DE DDHH --}}
+<section>
+            <ul>
+                <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                    <article>
+                        <div class="py-4 px-4 justify-between items-center">
+                            <h2 class="text-xl font-serif  font-bold pb-6">
+                                <a href="">VIOLENCIA VERBAL DEL PRESIDENTE: REPUDIO DE
+                                    ORGANISMOS DE DDHH
+                                </a>
+                                {{-- <p class="font-light text-gray-500">JUSTICIA TARDÍA Y OLVIDOS PERSISTENTES
+                                </p>  --}}
+                            </h2>
+                            <p class="font-light  text-right text-gray-500">Publicado: 25/10/2024</p>
+                            <p><i>Las declaraciones de Javier Milei sobre el kirchnerismo son calificadas como
+                                &quot;una brutal acción de violencia&quot; que alimenta el odio y la intolerancia en la
+                                sociedad.
+                            </i>
+                        </p>
+                            <br>
+                            <figure>
+                                <img class="w-full object-cover"
+                                    src="{{ asset('../img/der/der_violencia.svg') }}" alt="">
+                            </figure>
+                            {{-- <article>
+                                <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/XSNYTBkbmx4?si=V9zwrQyh3h5dyKbu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                
+                            </article> --}}
+                            <br>
+                            <div
+                                class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                <div class=" font-sans text-lg text-left col-span-6  ">
+                                    <p>Organismos de Derechos Humanos manifestaron su enérgico repudio a las
+                                        recientes declaraciones de Javier Milei, quien expresó que le provoca &quot;morbo&quot;
+                                        la idea de &quot;poner el último clavo en el cajón del kirchnerismo con Cristina
+                                        adentro&quot;. Este tipo de expresiones, según los organismos, representan &quot;una
+                                        brutal acción de violencia verbal, psicológica y política, inaceptable en nuestro
+                                        sistema democrático&quot;.
+                                    </p>
+                                    <br>
+                                    <p>A través de un comunicado, agrupaciones como Madres de Plaza de Mayo
+                                        Línea Fundadora y la Comisión Memoria, Verdad y Justicia Zona Norte, entre
+                                        otras, reiteraron su solidaridad con Cristina Fernández de Kirchner, enfatizando
+                                        que la ex Presidenta ha sido blanco de agresiones sistemáticas por parte de
+                                        sectores del poder hegemónico. Además, recordaron el intento de magnicidio
+                                        del 1 de septiembre de 2022, que aún no ha sido debidamente investigado.
+                                    </p>
+                                    <br>
+                                    <p>Los organismos señalaron que las palabras de Milei, proviniendo de quien
+                                        ocupa la presidencia, no son meras casualidades. &quot;Cargadas de odio y
+                                        misoginia, sus declaraciones incitan a la violencia y degradan las instituciones
+                                        políticas&quot;, alertaron. Además, advirtieron sobre el resurgimiento de actitudes
+                                        que recuerdan las etapas más oscuras del siglo XX, como el nazismo y el
+                                        fascismo, que buscaron eliminar todo aquello que consideraban diferente.
+                                    </p>
+                                    <br>
+                                    <p>Finalmente, exigieron una retractación pública de Milei, argumentando que el
+                                        lenguaje figurado utilizado para encubrir sus palabras no es suficiente. &quot;No                                                   
+                                        podemos naturalizar la violencia&quot;, concluyeron, reafirmando la necesidad de
+                                        proteger los valores democráticos y el respeto hacia todas las personas.
+                                    </p>
+                                    <br>
+                                    <div class="text-start object-center">
+                                        {{-- <figure>
+                                            <img class="w-28 h-28  "
+                                                src="{{ asset('../img/der/Adri.svg') }}"
+                                                alt="">
+                                            <p> <strong>Por Adriana Zerdín<strong></p>
+                                            <p><strong><strong></p>
+                                        </figure> --}}
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </li>
+            </ul>
+</section>
+{{-- 40 AÑOS DEL ÍNDICE DE ABUELIDAD: LA LUCHA POR LOS NIETOS QUE FALTAN --}}
+<section>
+            <ul>
+                <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                    <article>
+                        <div class="py-4 px-4 justify-between items-center">
+                            <h2 class="text-xl font-serif  font-bold pb-6">
+                                <a href="">40 AÑOS DEL ÍNDICE DE ABUELIDAD: LA LUCHA POR
+                                    LOS NIETOS QUE FALTAN
+                                </a>
+                                {{-- <p class="font-light text-gray-500">JUSTICIA TARDÍA Y OLVIDOS PERSISTENTES
+                                </p>  --}}
+                            </h2>
+                            <p class="font-light  text-right text-gray-500">Publicado: 23/10/2024</p>
+                            <p><i>Legisladores y referentes de derechos humanos conmemoraron el Día
+                                Nacional por el Derecho a la Identidad, destacando el impacto del Índice de
+                                Abuelidad en la restitución de nietos y reafirmando el compromiso de continuar
+                                la búsqueda.
+                            </i>
+                        </p>
+                            <br>
+                            <figure>
+                                <img class="w-full object-cover"
+                                    src="{{ asset('../img/der/der_40anios.svg') }}" alt="">
+                            </figure>
+                            {{-- <article>
+                                <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/XSNYTBkbmx4?si=V9zwrQyh3h5dyKbu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                
+                            </article> --}}
+                            <br>
+                            <div
+                                class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                <div class=" font-sans text-lg text-left col-span-6  ">
+                                    <p>En el marco del Día Nacional por el Derecho a la Identidad, la Legislatura de la
+                                        Ciudad de Buenos Aires conmemoró los 40 años de la creación del Índice de
+                                        Abuelidad, un hito fundamental en la búsqueda de los nietos apropiados
+                                        durante la última dictadura. La diputada Victoria Montenegro, presidenta de la
+                                        Comisión de Derechos Humanos, organizó un acto en el Salón Dorado que
+                                        reunió a legisladores, referentes de organismos de derechos humanos y
+                                        dirigentes sociales.
+                                    </p>
+                                    <br>
+                                    <p>Durante el evento, Paula Logares Grinspon, la primera nieta restituida por
+                                        Abuelas de Plaza de Mayo, compartió el escenario con su abuela, Elsa Pavón.
+                                        &quot;En Paula y Elsa tenemos la fuerza para seguir adelante y buscar a los nietos
+                                        que nos faltan&quot;, afirmó Montenegro, resaltando la importancia de la lucha por la
+                                        identidad en tiempos difíciles.
+                                    </p>
+                                    <br>
+                                    <p>El acto también contó con la presencia de figuras destacadas como el
+                                        secretario general de La Bancaria, Sergio Palazzo, y el genetista Víctor
+                                        Penchaszadeh, quien, junto a Mariana Herrera Piñero, recibió un diploma en
+                                        reconocimiento a su contribución científica en la búsqueda de los nietos.
+                                        apropiados. Montenegro destacó el valor del encuentro en un contexto social
+                                        complejo, recordando el legado de las Madres y Abuelas que enfrentaron el
+                                        horror con amor y humanidad.
+                                    </p>
+                                    <br>
+                                    <p>El Índice de Abuelidad, desarrollado en 1982, surgió de la necesidad de
+                                        identificar a los nietos apropiados por el terrorismo de Estado. La iniciativa fue
+                                        posible gracias a la colaboración entre Abuelas y expertos en genética, como
+                                        Penchaszadeh, quien desarrolló vínculos con la genetista estadounidense
+                                        Mary-Claire King. Esta colaboración permitió el desarrollo de un procedimiento
+                                        científico que facilita la identificación de parentescos a través del análisis de
+                                        material genético.
+                                    </p>
+                                    <br>
+                                    <p>Montenegro subrayó la relevancia de este avance, recordando que &quot;hoy en las
+                                        escuelas, la respuesta sobre cómo aparece un nieto es por la genética, pero
+                                        cuando nosotras desaparecimos, eso no existía&quot;. La diputada reafirmó el
+                                        compromiso de continuar la búsqueda de los nietos que aún faltan,
+                                        consolidando así la lucha por el derecho a la identidad como un legado
+                                        inquebrantable.
+                                    </p>
+                                    <br>
+                                    <div class="text-start object-center">
+                                        {{-- <figure>
+                                            <img class="w-28 h-28  "
+                                                src="{{ asset('../img/der/Adri.svg') }}"
+                                                alt="">
+                                            <p> <strong>Por Adriana Zerdín<strong></p>
+                                            <p><strong><strong></p>
+                                        </figure> --}}
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </li>
+            </ul>
+</section>
+{{--UN ABRAZO PARA ABUELAS: CONVOCAN A VISIBILIZAR LA BÚSQUEDA DE LOS NIETOS DESAPARECIDOS  --}} 
+<section>
+            <ul>
+                <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                    <article>
+                        <div class="py-4 px-4 justify-between items-center">
+                            <h2 class="text-xl font-serif  font-bold pb-6">
+                                <a href="">UN ABRAZO PARA ABUELAS: CONVOCAN A
+                                    VISIBILIZAR LA BÚSQUEDA DE LOS NIETOS
+                                    DESAPARECIDOS
+                                </a>
+                                {{-- <p class="font-light text-gray-500">JUSTICIA TARDÍA Y OLVIDOS PERSISTENTES
+                                </p>  --}}
+                            </h2>
+                            <p class="font-light  text-right text-gray-500">Publicado: 22/10/2024</p>
+                            <p><i>En el Día Nacional del Derecho a la Identidad, Abuelas de Plaza de Mayo lanza
+                                una campaña para recordar a los 300 nietos y nietas que aún faltan encontrar,
+                                en un contexto donde la memoria es atacada y la historia, negada.
+                            </i>
+                        </p>
+                            <br>
+                            <figure>
+                                <img class="w-full object-cover"
+                                    src="{{ asset('../img/der/der_AbuelasSeguir.svg') }}" alt="">
+                            </figure>
+                            {{-- <article>
+                                <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/XSNYTBkbmx4?si=V9zwrQyh3h5dyKbu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                
+                            </article> --}}
+                            <br>
+                            <div
+                                class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                <div class=" font-sans text-lg text-left col-span-6  ">
+                                    <p>Este martes 22 de octubre, en el marco del 47° aniversario de Abuelas de
+                                        Plaza de Mayo, la emblemática organización de derechos humanos lanzó la
+                                        campaña &quot;Un Abrazo para Abuelas&quot; . En el Día Nacional del Derecho a la
+                                        Identidad, convocaron a toda la sociedad a unirse en una muestra de apoyo y
+                                        de compromiso con la búsqueda de los nietos y nietas desaparecidos durante
+                                        la última dictadura militar en Argentina. Esta iniciativa es un llamado a defender
+                                        el derecho humano a la identidad ya resistir los intentos de banalización del
+                                        terrorismo de Estado y la minimización de los crímenes cometidos.
+                                    </p>
+                                    <br>
+                                    <p>La campaña invita a quienes deseen sumarse a compartir, a través de redes
+                                        sociales, fotos, frases, reflexiones o cualquier expresión que deseen dedicar a
+                                        las Abuelas. Bajo las etiquetas #UnAbrazoParaAbuelas, #AbuelasEsIdentidad y
+                                        #abuelas47años, cada mensaje no solo se convierte en un símbolo de apoyo,
+                                        sino también en un acto de resistencia y memoria activa, en tiempos en los que
+                                        sectores de la sociedad buscan tergiversar la historia y estigmatizar. los
+                                        esfuerzos de los organismos de derechos humanos.
+                                    </p>
+                                    <br>
+                                    <p>Con el respaldo de organizaciones, colectivos y ciudadanos comprometidos,
+                                        &quot;Un Abrazo para Abuelas&quot; se levanta como un recordatorio de que la lucha por
+                                        la verdad y la justicia continúa. La campaña no solo pretende dar visibilidad a
+                                        los casi 300 nietos y nietas cuya identidad aún falta restituir, sino también
+                                        subrayar que el pasado no puede ser borrado ni relativizado. Las Abuelas,                                                  
+                                        como símbolo de amor, valentía y resistencia, siguen marcando el camino de
+                                        una sociedad que apuesta a la memoria ya la construcción colectiva.
+                                    </p>
+                                    <br>
+                                    <p>Hoy, más que nunca, esta convocatoria es una forma de levantar la voz por
+                                        aquellos que aún no han sido encontrados y de defender el derecho inalienable
+                                        a la identidad.
+                                    </p>
+                                    <br>
+                                    <div class="text-start object-center">
+                                        {{-- <figure>
+                                            <img class="w-28 h-28  "
+                                                src="{{ asset('../img/der/Adri.svg') }}"
+                                                alt="">
+                                            <p> <strong>Por Adriana Zerdín<strong></p>
+                                            <p><strong><strong></p>
+                                        </figure> --}}
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </li>
+            </ul>
+</section>
 {{-- CONFIRMAN CONDENA PARA EL TIGRE ACOSTA --}}
 <section>
             <ul>
@@ -75,7 +326,6 @@
                 </li>
             </ul>
 </section>
-
 {{--BULLRICH EN PROBLEMAS POR EL CASO MALDONADO  --}}
 <section>
     <ul>
@@ -190,7 +440,6 @@
             </ul>
 
 </section>
-
         {{--  DE LA CIÉNAGA A LA VERDAD.... --}}
 <section>
     <ul>

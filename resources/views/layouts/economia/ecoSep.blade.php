@@ -1316,6 +1316,166 @@
                     @livewire('lateral')
                 </div>
             </section>
+        @elseif ($tituloSep == 'Economia-Noticia-Completa-eco13')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">FMI APOSTÓ POR UNA INFLACIÓN DEL 45% EN 2025</a>
+                                            <p class="font-light  text-right text-gray-500">Publicado: 24/10/2024</p>
+                                        </h2>
+                                        <p><i>Mientras el Gobierno proyecta una inflación del 18% para el mismo año, el
+                                            Fondo Monetario Internacional advierte sobre una caída de la actividad
+                                            económica en 2024.
+                                        </i>
+                                        </p>
+                                        <br>
+                                        <figure>
+                                            <img class=" w-full object-cover" src="../img/eco/eco_fmiAposto.svg"
+                                                alt="">
+                                        </figure>
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+                                                <p>El Fondo Monetario Internacional (FMI) ha mantenido sus proyecciones sobre
+                                                    la economía argentina, anticipando un panorama desalentador para el año
+                                                    2024. En su último informe del World Economic Outlook, el organismo
+                                                    internacional estima que el Producto Bruto Interno (PBI) caerá un 3, 5% en el
+                                                    presente año, con un leve repunte del 5% proyectado para 2025, seguido de un
+                                                    crecimiento moderado del 2,6% en 2026.
+                                                </p>
+                                                <br>
+                                                <p>La proyección de inflación del FMI es alarmante: se prevé que la inflación
+                                                    alcanzará el 139% en 2024, antes de descender a un 45% en 2025. Este
+                                                    pronóstico contrasta excesivamente con las estimaciones oficiales, que
+                                                    proyectan una inflación del 18% en el presupuesto para 2025, y las privadas,
+                                                    que oscilan entre un 40% y un 125% para este año. La disparidad en las cifras
+                                                    sugiere una notable desconexión entre la realidad económica y las expectativas
+                                                    gubernamentales.
+                                                </p>
+                                                <br>
+                                                <p>Argentina se posicionará en 2024 como el cuarto país con la inflación más alta
+                                                    del mundo, solo superado por Zimbabue, Sudán y Sudán del Sur. En 2025, se
+                                                    espera que el país ocupe el tercer lugar, detrás de Venezuela y Sudán. En
+                                                    contraposición, el FMI señala que en muchas naciones, incluso en aquellas con
+                                                    menos desarrollo, la inflación ha dejado de ser un problema significativo.
+                                                </p>
+                                                <br>
+                                                <p>En este contexto de desafíos económicos, el ministro de Economía, Luis
+                                                    Caputo, ha sostenido una serie de reuniones durante la Reunión Anual del FMI,
+                                                    destacándose su encuentro con el Council on Foreign Relations (CFR), una
+                                                    influyente organización dedicada a promover oportunidades de negocio. . No                                                    
+                                                    obstante, aún no se ha confirmado una reunión entre Caputo y la directora del
+                                                    FMI, Kristalina Georgieva, o su asistente, Gita Gopinath.
+                                                </p>
+                                                <br>
+                                                <p>Las proyecciones del FMI añaden presión sobre el gobierno de Javier Milei,
+                                                que ha enfrentado críticas por su enfoque económico y por el desacuerdo entre
+                                                sus estimaciones y las realidades que advierte el organismo internacional.
+                                                </p>
+                                                <br>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+                            </li>
+                        </ul>
+                        <br>
+                    </div>
+                    @livewire('lateral')
+                </div>
+            </section>
+        @elseif ($tituloSep == 'Economia-Noticia-Completa-eco14')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">LA RECESIÓN DE MILEI: UN HURACÁN QUE NO SE
+                                                DISIPA</a>
+                                            <p class="font-light  text-right text-gray-500">Publicado: 24/10/2024</p>
+                                        </h2>
+                                        <p><i>La caída del 3,8% interanual en agosto refleja la profundización de la recesión
+                                            bajo el gobierno de Milei, que continúa afectando a sectores clave de la
+                                            economía.
+                                        </i>
+                                        </p>
+                                        <br>
+                                        <figure>
+                                            <img class=" w-full object-cover" src="../img/eco/eco_resesion.svg"
+                                                alt="">
+                                        </figure>
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+                                                <p>La recesión que atraviesa Argentina no da señales de amainar. Según el
+                                                    Instituto Nacional de Estadística y Censos (Indec), la actividad económica cayó
+                                                    un 3,8% interanual en agosto, evidenciando un panorama sombrío que se
+                                                    refleja en sectores claves como la construcción, el comercio y la industria.
+                                                    Mientras el Estimador Mensual de la Actividad Económica (EMAE) apenas se
+                                                    incrementó un 0,2% respecto al mes anterior, las cifras alarmantes de algunos
+                                                    rubros se suman a un contexto de creciente descontento social.
+                                                </p>
+                                                <br>
+                                                <p>Las cifras del Indec muestran que, en contraste con el leve respiro de julio, los
+                                                    sectores más importantes se hundieron en la recesión. La construcción sufrió
+                                                    una caída del 18%, el comercio mayorista y minorista un 7,9%, y la industria
+                                                    manufacturera un 6,7%. Estos datos reflejan no solo una crisis económica, sino
+                                                    también un impacto profundo en el empleo, con millas de trabajadores formales
+                                                    e informales perdiendo sus puestos debido a la ineficacia del modelo
+                                                    económico del gobierno de Javier Milei.
+                                                </p>
+                                                <br>
+                                                <p>Aunque algunas actividades primarias, como la pesca y la agricultura,
+                                                    presentaron ligeros aumentos, el predominio de un modelo primarizador que se
+                                                    aleja de la diversificación productiva plantea serias dudas sobre la viabilidad de
+                                                    la recuperación. Este enfoque, lejos de generar empleo y desarrollo sostenible,
+                                                    agrava la crisis en sectores que son fundamentales para el país.
+                                                </p>
+                                                <br>
+                                                <p>La Unión Industrial Argentina (UIA) había anticipado el desplome de agosto,
+                                                    confirmando que la recesión se hace cada vez más evidente. A medida que los
+                                                    sectores de servicios como hoteles, restaurantes y transporte también reportan
+                                                    caídas, el horizonte económico se torna más desalentador. Las proyecciones
+                                                    del gobierno, que esperan una contracción del PBI del 3,5% para este año y un
+                                                    rebote del 5% en 2025, son vistas con escepticismo por los analistas, quienes
+                                                    advierten que el optimismo del Ejecutivo no se condice con la cruda realidad.
+                                                </p>
+                                                <br>
+                                                <p>La utilización de la capacidad instalada también muestra signos preocupantes,
+                                                    cayendo al 61,3% en agosto, lo que indica que las industrias están lejos de
+                                                    operar a su máximo potencial. Este es un síntoma claro de un sistema que,
+                                                    bajo el mando de Milei, se encuentra en una crítica encrucijada. La falta de
+                                                    políticas efectivas para impulsar el crecimiento y la creación de empleo deja a
+                                                    la población en un estado de incertidumbre y vulnerabilidad.
+                                                </p>
+                                                <br>
+                                                <p>Con un contexto así, es evidente que la recesión no solo se traduce en cifras
+                                                    negativas, sino en un deterioro constante de las condiciones de vida de los
+                                                    argentinos, que esperan respuestas concretas y efectivas que, hasta el
+                                                    momento, brillan por su ausencia.
+                                                </p>
+                                                <br>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+                            </li>
+                        </ul>
+                        <br>
+                    </div>
+                    @livewire('lateral')
+                </div>
+            </section>
 
 
 

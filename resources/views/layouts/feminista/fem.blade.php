@@ -1,6 +1,74 @@
 <x-app-layout>
     <div class="container ">
-        {{-- LOS FEMINISMOS TOMAN JUJUY, EL 37° ENCUENTRO DESAFÍA AL GOBIERNO --}}
+    @livewire('superior')
+
+{{--LAS PROVINCIAS EXIGEN ACCIONES CONCRETAS AL GOBIERNO NACIONAL  --}}
+<section>
+            <ul>
+                <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                    <article>
+                        <div class="py-4 px-4 justify-between items-center">
+                            <h2 class="text-xl font-serif  font-bold pb-6">
+                                <a href="">LAS PROVINCIAS EXIGEN ACCIONES CONCRETAS AL
+                                    GOBIERNO NACIONAL</a>
+                                <p class="font-light  text-right text-gray-500">Publicado: 25/10/2024</p>
+                            </h2>
+                            <p><i>Las 23 provincias y CABA presentaron un petitorio al Gobierno Nacional
+                                demandando políticas públicas efectivas y datos concretos sobre violencia de
+                                género y femicidios.</i>
+                            </p>
+                            <br>
+                            <figure>
+                                <img class="w-full object-cover" src="../img/fem/fem_acciones.svg"
+                                    alt="">
+                            </figure>
+                            {{-- <article>
+                                <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/KgLeMhUAufY?si=LCmXJy-t6RqfgsUb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                
+                            </article> --}}
+                            <br>
+                            <div
+                                class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                <div class=" font-sans text-lg text-left col-span-6  ">
+                                    <p>El 24 de octubre, durante la primera reunión anual del Consejo Federal de las
+                                        Mujeres y la 39º Reunión Plenaria del Consejo Federal de Derechos Humanos,
+                                        se hizo evidente la urgencia de abordar la problemática de la violencia de
+                                        género en Argentina. Las Consejeras federales expresaron su preocupación
+                                        por la falta de información y acciones concretas del Gobierno Nacional en un
+                                        contexto donde los feminidios son una triste realidad. En su declaración,
+                                        enfatizaron que estos actos de violencia son innegables, y rechazaron
+                                        enérgicamente los discursos de odio que fomentan la desigualdad.
+                                    </p>
+                                    <br>
+                                    <p>La ministra de Mujeres y Diversidad de la provincia de Buenos Aires, Estela
+                                        Díaz, subrayó la importancia de respetar el marco legal argentino y de
+                                        garantizar políticas públicas efectivas, instalando al Gobierno Nacional a
+                                        cumplir con sus responsabilidades. Las Consejeras, unidas
+                                        independientemente de sus orígenes políticos, denunciaron la negación de la
+                                        violencia de género por parte del presidente y del ministro de Justicia.
+                                    </p>
+                                    <br>
+                                    <p>Frente a la falta de respuestas, elevaron un petitorio que abarca siete puntos
+                                        fundamentales: desde la necesidad de comunicación clara sobre las
+                                        autoridades responsables hasta la exigencia de información sobre el
+                                        presupuesto destinado a políticas de género. También se demandaron detalles
+                                        sobre la continuidad del Plan Nacional contra las violencias, la recolección de
+                                        datos relevantes y la articulación con otras áreas de gobierno que impactan en
+                                        los derechos de las mujeres y las diversidades.
+                                        <p>
+                                    <br>
+                                    <p>El compromiso del Estado, tanto nacional como provincial, es vital para abordar
+                                        la problemática estructural y cultural de la violencia de género, asegurando que
+                                        todas las personas puedan ejercer plenamente sus derechos.
+                                    </p>
+                                    <br>
+                                </div>
+                            </div>
+                    </article>
+                </li>
+            </ul>
+</section>
+{{-- LOS FEMINISMOS TOMAN JUJUY, EL 37° ENCUENTRO DESAFÍA AL GOBIERNO --}}
 <section>
     <ul>
         <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}

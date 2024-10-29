@@ -2,6 +2,165 @@
     <div class="container ">
 @livewire('superior')
 
+{{--EVO MORALES SUFRE ATAQUE ARMADO: &quot;QUIEREN MI DESAPARICIÓN FÍSICA&quot;  --}}
+<section>
+    <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+        <div class=" col-span-4">
+            <ul>
+                <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                    <article>
+                        <div class="py-4 px-4 justify-between items-center">
+                            <h2 class="text-xl font-serif  font-bold pb-6">
+                                <a href="">EVO MORALES SUFRE ATAQUE ARMADO: &quot;QUIEREN
+                                    MI DESAPARICIÓN FÍSICA&quot;</a>
+                        {{--  <p class="font-light  text-lef text-gray-500">Por Gustavo Cano</p> --}}
+                            </h2>
+                            <p class="font-light  text-right text-gray-500">Publicado: 28/10/2024</p>
+                            <p><i>El exmandatario boliviano denunció un brutal atentado contra su vida en medio
+                                de una feroz persecución impulsada por el gobierno de Luis Arce. Morales
+                                señaló que se intenta silenciar su liderazgo con métodos violentos.
+                            </i>
+                            </p>
+                            <br>
+                            <figure>
+                                <img class=" w-full object-cover" src="../img/int/int_evo.svg"
+                                    alt="">
+                            </figure>
+                            <br>
+                            <div
+                                class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                <div class=" font-sans text-lg text-left col-span-6  ">
+                                    <p>Evo Morales, exmandatario de Bolivia y referente de los sectores populares e
+                                        indígenas, fue víctima de un atentado armado cuando su vehículo recibió
+                                        catorce disparos. El líder boliviano, que se dirigía a su programa radial, resultó
+                                        ileso, pero su chofer fue herido en la cabeza. Morales denunció que se trata de
+                                        un operativo orquestado por “agentes del Estado”, atribuyendo este intento de
+                                        eliminación física a una campaña represiva impulsada por el gobierno de Luis
+                                        Arce.
+                                    </p>
+                                    <br>
+                                    <p>En un tenso testimonio en la radio Kawsachun Coca, Morales describió el
+                                        ataque como una emboscada, en la que dos camionetas Tundra bloquearon su
+                                        paso mientras disparaban a su vehículo. “Nos damos cuenta de que era un
+                                        operativo”, relató, asegurando que, tras años de persecución, esta es la
+                                        evidencia más cruda de que su vida está en peligro. “Como no pueden
+                                        inhabilitarme políticamente, intentan matarme”, acusó Morales.
+                                    </p>
+                                    <br>
+                                    <p>Morales ha sido crítico constante de Arce, señalando que su gobierno ha
+                                        desplegado un aparato represivo en alianza con grupos paramilitares, una
+                                        situación que para el exmandatario responde a la incapacidad del actual
+                                        gobierno para debilitar su liderazgo y respaldo popular. “Este gobierno ha
+                                        reactivado el fascismo en Bolivia, como en 2019, usando grupos de choque
+                                        contra el pueblo y las organizaciones campesinas”, enfatizó Morales, mientras
+                                        el silencio del gobierno de Arce ante el ataque genera una indignación
+                                        creciente en sectores populares bolivianos ya nivel. internacional.
+                                    </p>
+                                    <br>
+                                    <p>Desde su salida del poder, Morales se ha enfrentado a múltiples acusaciones
+                                        de persecución por parte de Arce, a quien acusa de querer acallar cualquier
+                                        voz que se oponga a sus manejos de gobierno. “Desde 2022 me tienen en la
+                                        mira. El general Zúñiga dijo &#39;hay que bajar a Evo&#39; —&#39;bajar&#39;, en términos
+                                        militares, significa matar—”, advirtió el expresidente.
+                                    </p>
+                                    <br>
+                                    <p>Este atentado no hace más que intensificar la lucha entre Morales y Arce,
+                                        exponiendo la ruptura de un oficialismo cada vez más dividido entre quienes
+                                        defienden el legado de Morales y el sector alineado con Arce. Morales, símbolo
+                                        indiscutible de la resistencia indígena, reafirma su compromiso con el pueblo
+                                        boliviano, alertando sobre los intentos de acallarlo de manera definitiva.
+                                        “Quieren mi desaparición física, pero mi compromiso con el pueblo sigue
+                                        intacto”, señaló.
+                                    </p>
+                                    <br>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </li>
+            </ul>
+</section>
+{{-- ELECCIÓN PRESIDENCIAL CON FINAL ABIERTO ENTRE TRUMP Y HARRIS --}}
+<section>
+            <ul>
+                <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                    <article>
+                        <div class="py-4 px-4 justify-between items-center">
+                            <h2 class="text-xl font-serif  font-bold pb-6">
+                                <a href="">ELECCIÓN PRESIDENCIAL CON FINAL ABIERTO
+                                    ENTRE TRUMP Y HARRIS</a>
+                        {{--  <p class="font-light  text-lef text-gray-500">Por Gustavo Cano</p> --}}
+                            </h2>
+                            <p class="font-light  text-right text-gray-500">Publicado: 27/10/2024</p>
+                            <p><i>Las encuestas anticipan un escenario reñido para el 5 de noviembre en una
+                                contienda marcada por acusaciones y tensiones en torno a la economía,
+                                migración y seguridad nacional.
+                            </i>
+                            </p>
+                            <br>
+                            <figure>
+                                <img class=" w-full object-cover" src="../img/int/int_eeuu.svg"
+                                    alt="">
+                            </figure>
+                            <br>
+                            <div
+                                class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                <div class=" font-sans text-lg text-left col-span-6  ">
+                                    <p>Estados Unidos se encuentra a las puertas de unas elecciones presidenciales
+                                        que no solo definirán el futuro político de ese país, sino que podrían marcar un
+                                        giro en su rol a nivel global. Kamala Harris, candidata demócrata, y el
+                                        exmandatario republicano Donald Trump se disputan el voto en un final incierto,
+                                        mientras las encuestas reflejan un empate técnico y los temas económicos,
+                                        migratorios y de seguridad nacional ocupan el centro de la escena.
+                                    </p>
+                                    <br>
+                                    <p>Ambos candidatos intensificaron sus recorridos en estados clave, lanzando
+                                        críticas hacia su oponente. Trump, en un acto en Houston, acusó sin pruebas a
+                                        Harris de “importar pandilleros”, mientras que la candidata demócrata advirtió
+                                        sobre el “peligro para la democracia” que significaría un regreso del magnate,
+                                        luego de que dos de sus exasesores señalaran sus tendencias autoritarias.
+                                    </p>
+                                    <br>
+                                    <p>El apoyo de celebridades, como Beyoncé y Eminem, busca sumar votos entre
+                                        los jóvenes para Harris, aunque la experiencia electoral de Hillary Clinton en
+                                        2016 demuestra que este factor no siempre es decisivo. En 2020, sin embargo,
+                                        los respaldos populares contribuyeron a la victoria de Joe Biden, y se espera
+                                        que en esta elección puedan inclinar algunos votos indecisos.
+                                    </p>
+                                    <br>
+                                    <p>Las encuestas de CNN y The New York Times reflejan un empate: un 47% de
+                                        apoyo para cada candidato, según CNN, y una mínima ventaja para Harris en
+                                        el sondeo de Siena College, que la ubica con un 49% frente al 48% de Trump.
+                                        De mantenerse esta tendencia, Harris podría alcanzar los 276 votos electorales                                                   
+                                        necesarios, aunque el margen es estrecho y la posibilidad de un vuelco es
+                                        significativa en los estados “pendulares” como Georgia y Pensilvania.
+                                    </p>
+                                    <br>
+                                    <p>Trump promete un “reordenamiento económico” mientras culpa a la
+                                        administración demócrata por la inflación. Harris, por su parte, se muestra
+                                        como un cambio hacia un futuro más inclusivo, diferenciándose de la
+                                        continuidad de Biden y haciendo énfasis en la mejora de los derechos civiles.
+                                    </p>
+                                    <br>
+                                    <p>Otro factor relevante es el voto latino, que este año supera los 35 millones de
+                                        inscriptos. Si bien en Argentina se percibe que esta comunidad tiende a apoyar
+                                        al Partido Demócrata, Trump busca dar pelea en este segmento, especialmente
+                                        entre los cubanos de Florida, más afines al Partido Republicano.
+                                    </p>
+                                    <br>
+                                    <p>Otro factor relevante es el voto latino, que este año supera los 35 millones de
+                                        inscriptos. Si bien en Argentina se percibe que esta comunidad tiende a apoyar
+                                        al Partido Demócrata, Trump busca dar pelea en este segmento, especialmente
+                                        entre los cubanos de Florida, más afines al Partido Republicano.
+                                    </p>
+                                    <br>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </li>
+            </ul>
+</section>
 {{--ORSI, A UN PASO DE LA VICTORIA EN PRIMERA VUELTA  --}}
 <section>
             <ul>
