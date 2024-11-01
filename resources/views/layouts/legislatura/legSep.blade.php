@@ -8706,7 +8706,91 @@
                     @livewire('lateral')
                 </div>
             </section>
-
+        @elseif ($tituloSep == 'Legislatura-Noticia-Completa-leg64')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">LA LEGISLATURA DESTACA A LA CULTURA Y
+                                                GASTRONOMÍA LOCAL
+                                            </a>
+                                        </h2>
+                                        <p class="font-light  text-right text-gray-500">Publicado:29/10/2024</p>
+                                        <p><i>La Legislatura porteña celebró en siete restaurantes que obtuvieron el premio
+                                            Bib Gourmand y distinguió la película “Imprenteros” de Lorena Vega,
+                                            subrayando el aporte de ambos sectores a la identidad y economía de Buenos
+                                            Aires.
+                                        </i></p>
+                                        <br>
+                                        <figure>
+                                            <a href="">
+                                                <img class="w-full object-cover object-center"
+                                                    src="{{ asset('../img/leg/leg_cultura.svg') }}"
+                                                    alt="">
+                                            </a>
+                                        </figure>
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+                                                <p>La Legislatura de la Ciudad de Buenos Aires llevó a cabo un doble
+                                                    reconocimiento que abarcó tanto la excelencia en la gastronomía como en la
+                                                    cultura porteña. En el Salón Presidente Alfonsín, los legisladores expresaron su
+                                                    beneplácito por el galardón Bib Gourmand otorgado a los restaurantes Bis
+                                                    Bistró, Reliquia, Anafe, Mengano, República del Fuego, Caseros, y La Alacena
+                                                    Trattoria, premiados por la Guía Michelin por su destacada relación calidad. -
+                                                    precio. La ceremonia contó con la participación de la diputada Graciela Ocaña,
+                                                    autora del proyecto, y de la Directora General de Desarrollo Turístico de la
+                                                    Ciudad, Eugenia Wehbe.
+                                                </p>
+                                                <br>
+                                                <p>“Es un honor entregar este reconocimiento, que refleja el talento y la dedicación
+                                                    de los emprendedores de nuestra ciudad”, destacó Ocaña, quien subrayó el
+                                                    orgullo que significa para Buenos Aires la inclusión de estos restaurantes en un
+                                                    galardón internacional. El premio Bib Gourmand es un reconocimiento a
+                                                    establecimientos que logran excelencia en cocina a precios accesibles, lo cual
+                                                    incentiva la democratización de la gastronomía de alta calidad. Esta distinción
+                                                    también eleva el perfil turístico de la ciudad, potenciando la economía local y
+                                                    fomentando la creación de empleos.
+                                                </p>
+                                                <br>
+                                                <p>Horas más tarde, el Salón Dorado fue el escenario de la distinción a la película
+                                                    documental Imprenteros , codirigida por Lorena Vega y Gonzalo Zapico. La
+                                                    obra, que obtuvo una mención especial en el BAFICI 2023 y cuenta con el
+                                                    apoyo del INCAA y del programa Mecenazgo, ha sido aclamada tanto por su
+                                                    contribución a la cultura porteña como por su innovador enfoque de la historia
+                                                    familiar de los hermanos Vega. La pieza teatral homónima, que narra las
+                                                    tensiones familiares en torno al taller de imprenta de su padre, es ya un clásico
+                                                    de la cartelera porteña.
+                                                    </p><br>
+                                                    <p> El legislador Matías Barroetaveña, autor de la iniciativa, encabezó el acto junto
+                                                        a los creadores de Imprenteros . “Este reconocimiento es para ustedes de parte
+                                                        del pueblo de Buenos Aires”, enfatizó, y resaltó el impacto de la obra en la
+                                                        revalorización del trabajo gráfico y la memoria cultural de la ciudad.
+                                                        Imprenteros muestra el proceso de producción de una obra de teatro y su
+                                                        transición a formatos como el documental y el libro, publicado con el apoyo del
+                                                        Ministerio de Cultura de la Nación.
+                                                    </p><br>
+                                                    <p>Ambos reconocimientos reflejan el compromiso de la Legislatura con la difusión
+                                                        de la identidad porteña y su rica herencia cultural, destacando las conexiones
+                                                        entre gastronomía, turismo y cultura como motores de desarrollo social y
+                                                        económico.
+                                                    </p><br>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+                            </li>
+                        </ul>
+                        <br>
+                    </div>
+                    @livewire('lateral')
+                </div>
+            </section>
        
             @endif
     </div>

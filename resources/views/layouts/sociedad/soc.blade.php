@@ -2,7 +2,170 @@
 <div class="container">
 @livewire('superior')
 
+{{--¡BATALLA POR LA PROPIEDAD INTELECTUAL! 13.500 ARTISTAS ENFRENTAN A LA IA
+--}}
+<section>
+            <ul>
+                <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                    <article>
 
+                        <div class="py-4 px-4 justify-between items-center">
+                            <h2 class="text-xl font-serif  font-bold pb-6">
+                                <a href="">¡BATALLA POR LA PROPIEDAD INTELECTUAL! 13.500
+                                    ARTISTAS ENFRENTAN A LA IA
+                                </a>
+                                {{-- <p class="font-light  text-lef text-gray-500">Por Emanuel Corrado</p> --}}
+                            </h2>
+                            <p class="font-light  text-right text-gray-500">Publicado: 30/10/2024</p>
+                            <div class=" font-sans text-lg text-left col-span-6  ">
+                            <p><i>Creativos de renombre global exigen que sus trabajos dejen de permiso sin
+                                utilizar en el entrenamiento de inteligencia artificial, en una medida que refuerza
+                                la cláusula de Penguin Random House para la protección de la propiedad
+                                intelectual.
+                            </i>
+                            </p> 
+                            <br>
+                            <figure>
+                                <img class="w-full object-cover" src="../img/soc/soc_ia.svg"
+                                    alt="">
+                            </figure> 
+                        {{--  <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/Elj4W5gq3AM?si=Px86mJ-v6RAaS8Yh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> --}}
+                            <br>
+                            <div
+                                class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                <div class=" font-sans text-lg text-left col-span-6  ">
+                                    <p>Una petición firmada por más de 13.500 figuras del mundo artístico y literario
+                                        ha encendido las alarmas sobre el uso no autorizado de obras creativas para
+                                        entrenar modelos de inteligencia artificial (IA). Entre los firmantes figuran
+                                        reconocidos artistas como Julianne Moore, el Nobel Kazuo Ishiguro y el líder de
+                                        Radiohead, Thom Yorke, quienes denuncian que las empresas tecnológicas
+                                        están explotando sus trabajos sin permiso ni compensación, bajo el pretexto de
+                                        &quot;entrenamiento&quot; de IA.
+                                    </p>
+                                    <br>
+                                    <p>&quot;Es inaceptable que las obras de artistas, escritores y músicos se utilicen sin
+                                        licencia, lo que representa una grave amenaza para sus medios de vida&quot;,
+                                        subraya el comunicado impulsado por Ed Newton-Rex, compositor británico y
+                                        ex ejecutivo de inteligencia artificial. Newton-Rex, quien renunció a Stability AI
+                                        al considerar inmoral su política de &quot;uso justo&quot; para entrenar modelos con
+                                        material protegido, sostuvo que las grandes corporaciones tecnológicas
+                                        invierten millones en ingenieros y tecnología, pero se resisten a pagar por los
+                                        datos, que representan el trabajo de millas de personas.
+                                    </p>
+                                    <br>
+                                    <p>Este llamado se suma a la decisión de la editorial Penguin Random House
+                                        (PRH), que ha introducido una nueva cláusula en sus derechos de autor para
+                                        evitar el uso de sus obras en el entrenamiento de sistemas de IA. Con esta
+                                        medida, PRH prohíbe explícitamente la reproducción de sus textos con fines de
+                                        “minería de texto y datos”, alineándose con las regulaciones de la Unión
+                                        Europea. Sin embargo, los especialistas advierten que esta cláusula, aunque
+                                        simbólica, no tiene un peso legal directo, ya que la ley de derechos de autor
+                                        sigue en debate frente al avance de la IA.
+                                    </p>
+                                    <br>
+                                    <p>A pesar de esto, la inclusión de esta disposición destaca la urgencia por
+                                        delimitar el alcance de los derechos de autor en la era digital, donde muchas
+                                        editoriales y artistas ven sus trabajos incorporados sin consentimiento a
+                                        sistemas de IA que luego los replican y monetizan sin ninguna. retribución a
+                                        sus creadores originales. La Asociación de Editores Estadounidenses también
+                                        se ha sumado a esta postura, exigiendo respeto por los derechos de autor y
+                                        señalando que los creadores trabajan &quot;al servicio de un público, no para el
+                                        beneficio no autorizado de las grandes corporaciones tecnológicas&quot;.
+                                    </p>
+                                    <br>
+                                    <p>El debate sobre los derechos de autor en la era de la inteligencia artificial se
+                                        intensifica, con una industria cultural que exige protección frente a las prácticas
+                                        de extracción masiva de contenido, y señala el abuso corporativo en un sector
+                                        cada vez más vulnerable.
+                                    </p>
+                                    <br>
+                                    <div class="text-start object-center">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </li>
+            </ul>
+</section>
+{{--PARO NACIONAL DE TRANSPORTES: UNA ADVERTENCIA AL GOBIERNO DE MILEI  --}}
+<section>
+            <ul>
+                <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                    <article>
+                        <div class="py-4 px-4 justify-between items-center">
+                            <h2 class="text-xl font-serif  font-bold pb-6">
+                                <a href="">PARO NACIONAL DE TRANSPORTES: UNA
+                                    ADVERTENCIA AL GOBIERNO DE MILEI
+                                </a>
+                                {{-- <p class="font-light  text-lef text-gray-500">Por Emanuel Corrado</p> --}}
+                            </h2>
+                            <p class="font-light  text-right text-gray-500">Publicado: 29/10/2024</p>
+                            <div class=" font-sans text-lg text-left col-span-6  ">
+                            <p><i>Este 30 de octubre, gremios de transporte pararán en rechazo al ajuste, la suba
+                                de tarifas y el impacto en la pobreza; la medida abarca trenes, camiones,
+                                subtes, aviones y barcos.
+                            </i>
+                            </p> 
+                            <br>
+                            <figure>
+                                <img class="w-full object-cover" src="../img/soc/soc_paroNac.svg"
+                                    alt="">
+                            </figure> 
+                        {{--  <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/Elj4W5gq3AM?si=Px86mJ-v6RAaS8Yh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> --}}
+                            <br>
+                            <div
+                                class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                <div class=" font-sans text-lg text-left col-span-6  ">
+                                    <p>La Confederación Argentina de Trabajadores del Transporte (CATT) llevará
+                                        adelante un paro nacional que afectará el funcionamiento de trenes, subtes,
+                                        camiones, aviones y barcos. La medida de fuerza es una respuesta directa a
+                                        las políticas de ajuste impulsadas por el gobierno de Javier Milei,
+                                        particularmente en lo que respecta a la suba de tarifas y el recorte de
+                                        subsidios, medidas que los gremios consideran que están empujando a miles
+                                        de argentinos hacia la pobreza.
+                                    </p>
+                                    <br>
+                                    <p>Roberto Fernández, líder de la Unión Tranviarios Automotor (UTA), aclaró que
+                                        los choferes de colectivos, en su mayoría afiliados a esta organización, no se
+                                        sumarán a la huelga, ya que se encuentran en medio de negociaciones
+                                        paritarias y en conciliación obligatoria hasta el 28 de octubre. Fernández
+                                        explicó que, si bien la UTA no se pliega al paro por el momento, no se descarta
+                                        la adhesión si las negociaciones no prosperan.
+                                    </p>
+                                    <br>
+                                    <p>La medida, ratificada el 22 de octubre en una reunión liderada por Hugo y
+                                        Pablo Moyano en el sindicato de camioneros, responde a la decisión del
+                                        gobierno de privatizar Aerolíneas Argentinas y de recortar subsidios que han
+                                        encarecido el acceso al transporte público y afectado a los sectores más
+                                        vulnerables. El comunicado difundido tras el encuentro sindical denuncia que
+                                        las políticas actuales están incrementando la carga sobre los trabajadores y
+                                        jubilados, reduciendo el poder adquisitivo y generando más exclusión.
+                                    </p>
+                                    <br>
+                                    <p>A este paro se sumarán también otros gremios estatales, como la Asociación
+                                        de Trabajadores del Estado (ATE), ampliando así el alcance de la protesta más
+                                        allá del sector transporte. La jornada de paro se extenderá durante todo el día
+                                        y, aunque el servicio de colectivos se mantendrá en gran medida operativo, se
+                                        prevén complicaciones significativas en el transporte público y de carga.
+                                    </p>
+                                    <br>
+                                    <p>La medida genera expectativas en torno a posibles nuevas acciones sindicales
+                                        si el gobierno no muestra un giro en sus políticas. Los líderes sindicales,
+                                        quienes encabezaron esta decisión, enfatizan que la jornada de protesta es
+                                        una advertencia hacia un modelo económico que, según ellos, &quot;condena a la
+                                        exclusión y empuja a la marginalidad&quot; a amplios sectores del país.v
+                                    </p>
+                                    <br>
+                                    <div class="text-start object-center">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </li>
+            </ul>
+</section>    
 {{--GRANDES CORPORACIONES DUPLICAN RENTABILIDAD MIENTRAS SE DERRUMBAN INGRESOS POPULARES  --}}
 <section>
             <ul>
