@@ -83,7 +83,7 @@
                         </h1>
                     </div>
                     <div class="pt-4 text-white font-light text-right">
-                        <p>Publicado: 2/10/2024</p>
+                        <p>Publicado: 28/10/2024</p>
                     </div>
                 </div>
             </div>
@@ -136,7 +136,7 @@
                                         </div>
                                     </div>
                                     <div class="font-light  text-right text-white bg-gray-800">
-                                        <p class="p-4">Publicado: 25/10/2024</p>
+                                        <p class="p-4">Publicado: 27/10/2024</p>
                                     </div>
                                 </li>
                                 <!-- Nota B-2 -->
