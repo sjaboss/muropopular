@@ -67,7 +67,7 @@
                 </div>
                 <!-- Nota 2 -->
             <div class="rounded-lg border shadow border-emerald-600 p-2">
-                
+
                     @php
                         $tituloSep = 'Internacionales-Noticia-Completa-int36';
                     @endphp
@@ -86,7 +86,7 @@
                             </a>
                         </h1>
             </div>
-        </div> 
+        </div>
     </div>
     </div>
     <!-- Fecha -->
@@ -189,9 +189,9 @@
                                                     src="../img/dep/dep_dibu.svg" alt="Imagen Nota 1">
                                             </a>
                                             <h1 class="text-lg font-serif animate-fade-right text-white pt-2">
-                                                <a href="{{ route('deportesSep.show', $tituloSep) }}">ORSI, A UN
-                                                    PASO DE LA VICTORIA EN PRIMERA
-                                                    VUELTA</a>
+                                                <a href="{{ route('deportesSep.show', $tituloSep) }}">
+                                                    DIBU MARTÍNEZ GANA EL PREMIO YASHIN Y SE
+                                                AFIRMA COMO MEJOR ARQUERO DEL MUNDO</a>
                                             </h1>
                                             <a href="{{ route('deportesSep.show', $tituloSep) }}">Ir a la
                                                 Noticía</a>
@@ -222,7 +222,7 @@
 
                                             </h1>
 
-                                            <a href="{{ route('gremialSep.show', $tituloSep) }}">Ir a la
+                                            <a href="{{ route('interSepNew.show', $tituloSep) }}">Ir a la
                                                 Noticía</a>
                                         </h2>
                                     </div>
