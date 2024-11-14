@@ -2,6 +2,158 @@
     <div class="container ">
 @livewire('superior')
 
+{{--JULIO RICARDO PERSONALIDAD DESTACADA DEL PERIODISMO DEPORTIVO ARGENTINO  --}}
+<section>
+            <ul>
+                <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                    <article>
+                        <div class="py-4 px-4 justify-between items-center">
+                            <h2 class="text-xl font-serif  font-bold pb-6">
+                                <a href="">JULIO RICARDO PERSONALIDAD DESTACADA DEL
+                                    PERIODISMO DEPORTIVO ARGENTINO
+                                </a>
+                            </h2>
+                            <p class="font-light  text-right text-gray-500">Publicado:06/11/2024</p>
+                            <p><i>Julio Ricardo López Batista, conocido popularmente como Julio Ricardo, fue
+                                distinguido por su destacada trayectoria por el Cuerpo Legislativo.
+                            </i></p>
+                            <br>
+                            <figure>
+                                <a href="">
+                                    <img class="w-full object-cover object-center"
+                                        src="{{ asset('../img/leg/leg_ricardo.svg') }}"
+                                        alt="">
+                                </a>
+                            </figure>
+                            <br>
+                            <div
+                                class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                <div class=" font-sans text-lg text-left col-span-6  ">
+                                    <p>Esta tarde, la Legislatura de la Ciudad declaró al periodista deportivo, Julio
+                                        Ricardo, como Personalidad Destacada en el ámbito del Periodismo Deportivo
+                                        de la Ciudad. El acto se llevó a cabo en el Salón Dorado y contó con la
+                                        presencia del diputado y autor del proyecto, Claudio Ferreño; el periodista
+                                        deportivo, Ernesto Cherquis Bialo; y el homenajeado.
+                                    </p>
+                                    <br>
+                                    <p>“Hoy celebramos la destacada trayectoria de uno de los grandes del
+                                    periodismo. Su nombre evoca compromiso, profesionalismo y una pasión
+                                    contagiosa por el deporte que todos nosotros compartimos. Él ha sido y sigue
+                                    siendo una fuente de inspiración”, destacó Ferreño en el incio de las
+                                    alocuciones.
+                                    </p>
+                                    <br>
+                                    <p>Ricardo agradeció a los diputados de la Ciudad por el acompañamiento a la
+                                        declaración. También recordó a la Selección Argentina, que logró el
+                                        campeonato mundial de fútbol en Qatar 2022, y los posteriores festejos en la
+                                        Ciudad: “Es el deporte, que le está mostrando al mundo que es posible vivir en
+                                        paz, de no vivir en guerra ni en grietas de manera permanente. Fue
+                                        excepcional lo de ese día”.
+                                        </p><br>
+                                        <p>Ricardo agradeció a los diputados de la Ciudad por el acompañamiento a la
+                                            declaración. También recordó a la Selección Argentina, que logró el
+                                            campeonato mundial de fútbol en Qatar 2022, y los posteriores festejos en la
+                                            Ciudad: “Es el deporte, que le está mostrando al mundo que es posible vivir en
+                                            paz, de no vivir en guerra ni en grietas de manera permanente. Fue
+                                            excepcional lo de ese día”.
+                                            </p><br>
+                                            <p>Julio Ricardo López Batista, nacido el 18 de agosto de 1933 en Buenos Aires,
+                                                es una figura emblemática del periodismo deportivo en Argentina, cuya carrera
+                                                comenzó en 1957 cubriendo partidos de fútbol para la revista Noticias Gráficas.
+                                                Desde entonces, su trayectoria ha sido una constante contribución al
+                                                periodismo deportivo en el país. Se desempeñó como comentarista, cronista y
+                                                analista en numerosos programas de radio y televisión.
+                                                </p><br>
+                                                <p>A lo largo de su carrera, Julio Ricardo ha trabajado junto a otros grandes
+                                                    exponentes del periodismo deportivo argentino, tales como Luis Elías Sojit,
+                                                    José María Muñoz y Víctor Hugo Morales. Su estilo directo y su vasta
+                                                    experiencia le permitieron construir una voz única y reconocible para los
+                                                    amantes del deporte.
+                                                    </p><br>
+                                                    <p>Durante décadas, Julio Ricardo ha sido una presencia destacada en
+                                                        importantes canales de televisión como el 9, 11, 13 y ATC, además de su
+                                                        trabajo en emisoras de radio como Radio Colonia y Radio Nacional. Su rol en
+                                                        estos medios no solo ha marcado un estilo propio, sino que también ha sido
+                                                        fundamental para la profesionalización y el desarrollo del periodismo deportivo
+                                                        en Argentina.
+                                                        </p><br>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </li>
+            </ul>
+</section>
+{{-- JAVIER CASTRILLI Y MARTÍN CABRALES SON NUEVAS PERSONALIDADES DESTACADAS DE LA CIUDAD --}}
+<section>
+            <ul>
+                <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                    <article>
+                        <div class="py-4 px-4 justify-between items-center">
+                            <h2 class="text-xl font-serif  font-bold pb-6">
+                                <a href="">JAVIER CASTRILLI Y MARTÍN CABRALES SON
+                                    NUEVAS PERSONALIDADES DESTACADAS DE LA
+                                    CIUDAD
+                                </a>
+                            </h2>
+                            <p class="font-light  text-right text-gray-500">Publicado:05/11/2024</p>
+                            <p><i>El Cuerpo Legislativo destacó la trayectoria del ex árbitro de fútbol y del dueño
+                                de Cabrales S.A. Además se entregó una declaración de interés al Programa
+                                de Capacitación y Fortalecimiento para Organizaciones Sociales y
+                                Comunitarias de la Facultad de Ciencias Sociales UBA.
+                            </i></p>
+                            <br>
+                            <figure>
+                                <a href="">
+                                    <img class="w-full object-cover object-center"
+                                        src="{{ asset('../img/leg/leg_castrilli.svg') }}"
+                                        alt="">
+                                </a>
+                            </figure>
+                            <br>
+                            <div
+                                class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                <div class=" font-sans text-lg text-left col-span-6  ">
+                                    <p>En un acto que reflejó el alcance de distintas esferas de la sociedad, la
+                                        Legislatura de la Ciudad de Buenos Aires declaró como Personalidad
+                                        Destacada en el ámbito del Deporte al ex árbitro Javier Castrilli. El homenaje se
+                                        llevó a cabo en el Salón Presidente Alfonsín y fue encabezado por el diputado
+                                        Facundo Del Gaiso. Castrilli, conocido como el “Sheriff” por su riguroso
+                                        cumplimiento del reglamento en los partidos, tuvo una destacada carrera tanto
+                                        nacional como internacional. Desde su debut en 1991 en la Primera División
+                                        hasta su participación en eventos mundiales como el Mundial de Francia 1998,
+                                        su figura dejó una huella en el fútbol argentino y mundial.
+                                    </p>
+                                    <br>
+                                    <p>En paralelo, en el Salón Dorado, la Legislatura otorgó una distinción a Martín
+                                        Cabrales, presidente de Cabrales S.A., una de las empresas más importantes
+                                        en la importación y distribución de café en Argentina. En este acto, Sergio
+                                        Siciliano, legislador y promotor de la iniciativa, destacó la contribución de
+                                        Cabrales a la economía nacional y su participación activa en múltiples
+                                        organismos empresariales. Cabrales, además, ha recibido numerosos premios
+                                        y reconocimientos, como el Konex de Platino en 2018 y la Orden Nacional al
+                                        Mérito de Colombia en 2022, por su impacto en la comunidad empresarial.
+                                    </p>
+                                    <br>
+                                    <p>Por otro lado, en el Salón San Martín, se entregó la Declaración de Interés
+                                        Social al Programa de Capacitación y Fortalecimiento para Organizaciones
+                                        Sociales y Comunitarias de la Facultad de Ciencias Sociales de la UBA. Este
+
+                                        programa, iniciado en 2002 en un contexto de crisis económica y social, se ha
+                                        destacado por su compromiso con las organizaciones de la sociedad civil,
+                                        brindando apoyo y capacitación para fortalecer su rol en la comunidad. Desde
+                                        su creación, el PCOC ha trabajado con más de 2000 organizaciones,
+                                        involucrando a más de 250 docentes y 500 estudiantes y graduados en el
+                                        desarrollo de proyectos sociales.
+                                        </p><br>
+
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </li>
+            </ul>
+</section>
 {{--LA LEGISLATURA DESTACA A LA CULTURA Y GASTRONOMÍA LOCAL  --}}
 <section>
             <ul>
@@ -134,7 +286,7 @@
                                         política moderna. Participarán, entre otros, los legisladores Claudia Neira
                                         y Sergio Siciliano, además del especialista en tecnología pública Juan
                                         Belbis.</p><br>
-                                        
+
                                         <p>Inteligencia artificial y conversación pública: Este segundo panel
                                         explorará el papel de la inteligencia artificial en la comunicación y el
                                         riesgo que implica la difusión de noticias falsas. Contará con la
@@ -159,7 +311,7 @@
                                     <p>La jornada concluirá con una conferencia de cierre a cargo de las autoridades
                                         de la Legislatura y destacados consultores en comunicación política.
                                     </p>
-                                    <br> 
+                                    <br>
                                 </div>
                             </div>
                         </div>
@@ -221,7 +373,7 @@
                                         Uriburu. Korbenfeld, miembro de importantes sociedades médicas nacionales e
                                         internacionales y parte del Comité Científico del Hospital Británico de Buenos
                                         Aires, ha desarrollado una larga trayectoria en oncología y docencia. Uriburu,
-                                        por su parte, es jefe del Servicio de Mastología del Hospital Británico y médico                                                 
+                                        por su parte, es jefe del Servicio de Mastología del Hospital Británico y médico
                                         del Centro Mamario del Hospital Universitario Austral, además de su rol en la
                                         docencia y la investigación en cáncer de mama.
                                     </p>
@@ -233,7 +385,7 @@
                                         fundamental que cumple el diagnóstico precoz y en la necesidad de políticas
                                         públicas que promuevan el acceso a controles médicos.
                                     </p>
-                                    <br> 
+                                    <br>
                                     <p>
                                         El cáncer de mama es el tipo de cáncer más frecuente en mujeres, y su
                                         incidencia aumenta a partir de los 50 años. Según el Instituto Nacional del
@@ -250,7 +402,7 @@
                                         de salud para reducir el impacto de esta enfermedad en la sociedad.
                                     </p>
                                     <br>
-                            
+
                                 </div>
                             </div>
                         </div>
@@ -312,12 +464,12 @@
                                     <p>La Selección Argentina se consagró bicampeona de la Copa América el pasado
                                         domingo 14 de julio de 2024, en una final electrizante, que terminó en cero el
                                         tiempo reglamentario y se definió con un gol de Lautaro Martínez cuando se
-                                        jugaba el segundo tiempo del suplementario, los campeones del mundo se                                                 
+                                        jugaba el segundo tiempo del suplementario, los campeones del mundo se
                                         impusieron por 1-0 a Colombia y repitieron el título conseguido hace tres años
                                         en el Maracaná, Brasil, siendo la más ganadora de la competencia con 16
                                         títulos, superando a la selección del país hermano Uruguay.
                                     </p>
-                                    <br> 
+                                    <br>
                                     <p>
                                         De esta manera, el seleccionado nacional alcanzó los 23 títulos oficiales, que
                                         se dividen en tres Mundiales, 16 Copas Américas, una Copa Conferaciones, la
@@ -337,7 +489,7 @@
                                         Licenciado en Historia.
                                     </p>
                                     <br>
-                            
+
                                 </div>
                             </div>
                         </div>
@@ -352,7 +504,7 @@
                     <article>
                         <div class="py-4 px-4 justify-between items-center">
                             <h2 class="text-xl font-serif  font-bold pb-6">
-                                <a href="">REUNIÓN DE LAS COMISIONES DE PRESUPUESTO, CULTURA Y DESCENTRALIZACIÓN 
+                                <a href="">REUNIÓN DE LAS COMISIONES DE PRESUPUESTO, CULTURA Y DESCENTRALIZACIÓN
                                 </a>
                             </h2>
                             <p class="font-light  text-right text-gray-500">Publicado:14/10/2024</p>
@@ -381,7 +533,7 @@
                                     <br>
                                     <p>Finalmente, la Comisión de Descentralización y Participación Ciudadana se reunió en el Salón Presidente Alfonsín para tratar informes relacionados con el presupuesto de las comunas y la implementación de la Ley Orgánica de Comunas, permitiendo la participación activa de los vecinos presentes.
                                     </p>
-                                    <br> 
+                                    <br>
                                 </div>
                             </div>
                         </div>
@@ -400,7 +552,7 @@
                                 </a>
                             </h2>
                             <p class="font-light  text-right text-gray-500">Publicado:08/10/2024</p>
-                            <p><i>Los diputados de la Ciudad recordaron el célebre informe, que creó con el objetivo de investigar la desaparición forzada de personas producidas durante la dictadura cívico militar ocurrida entre 1976 y 1983. 
+                            <p><i>Los diputados de la Ciudad recordaron el célebre informe, que creó con el objetivo de investigar la desaparición forzada de personas producidas durante la dictadura cívico militar ocurrida entre 1976 y 1983.
                             </i></p>
                             <br>
                             <figure>
@@ -425,16 +577,16 @@
                                     <br>
                                     <p>Luego Alfonsín puntualizó en la necesidad de preservar la memoria “y que las generaciones futuras sepan qué es lo que ocurrió”; y pidió el compromiso de varios actores en la preservación de la memoria histórica. Y finalmente señaló el peso histórico del Juicio a las Juntas Militares.
                                     </p>
-                                    <br> 
+                                    <br>
                                     <p>El 15 de diciembre de 1983, el entonces primer mandatario, Dr. Raúl Alfonsín, creó mediante el decreto 187/83 la Comisión Nacional por la Desaparición de Personas (Co Na De P), con el objetivo de investigar la desaparición forzada de personas producidas durante la dictadura cívico militar ocurrida entre 1976 y 1983.
                                     </p>
-                                    <br> 
+                                    <br>
                                     <p>El informe final producido por la Comisión se denominó “Nunca más”. En sus páginas, el informe afirma que los Derechos Humanos fueron violados de forma sistemática por el Estado. En sus conclusiones da por confirmado las desapariciones a las que determina que no fueron hechos aislados y advierte que la lista de desaparecidos que consigan es “inevitablemente una lista abierta”.
                                     </p>
-                                    <br> 
+                                    <br>
                                     <p>Un año después de su publicación, el “Nunca Más” fue utilizado como base probatoria por la Justicia para condenar a las cúpulas militares en la causa 13, inmortalizada como el Juicio a las Juntas. El cuadragésimo aniversario de la publicación encuentra a la sociedad argentina habiendo desarrollado un proceso de memoria, que es ejemplo en el mundo.
                                     </p>
-                                    <br>                                       
+                                    <br>
                                 </div>
                             </div>
                         </div>
@@ -475,7 +627,7 @@
                                     <br>
                                     <p>Además de su trabajo en prestigiosos restaurantes, Trocca tuvo varios programas de televisión. Uno de los más inolvidables fue Château Brascó, con el periodista, artista y escritor, Miguel Brascó. Querido por sus pares, es reconocido por ser un cultor de los ingredientes nacionales y por reinterpretar clásicos de la cocina argentina con su sello propio. También publicó tres libros: “Cocinero”, que resume treinta años de su trabajo; “Mostrador Santa Teresita”; y en 2021 vio la luz su último libro “Trocca en casa”.
                                     </p>
-                                    <br>                                      
+                                    <br>
                                 </div>
                             </div>
                         </div>
@@ -506,7 +658,7 @@
                                     </figure>
                                     {{-- <article>
                                         <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/cNeE0eEE5Tc?si=RMO51UzsraJUAVpK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                                        
+
                                     </article> --}}
                                     <br>
                                     <div
@@ -523,7 +675,7 @@
                                             <br>
                                             <p>A lo largo de su carrera, Spinetto ha trabajado en diversas áreas relacionadas con la cultura y el patrimonio de Buenos Aires, participando en la gestión de programas que preservan la historia y la identidad de la ciudad. Su labor incluye la dirección del Periódico “Un Cortado” y la publicación de más de 15 libros que exploran la rica herencia cultural porteña.
                                             </p>
-                                            <br>                                      
+                                            <br>
                                         </div>
                                     </div>
                                 </div>
@@ -555,7 +707,7 @@
                                     </figure>
                                     {{-- <article>
                                         <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/cNeE0eEE5Tc?si=RMO51UzsraJUAVpK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                                        
+
                                     </article> --}}
                                     <br>
                                     <div
@@ -577,7 +729,7 @@
                                             <br>
                                             <p>El enfoque del autor reconoce igualmente la importancia de las sociedades comerciales como herramientas indispensables para el desarrollo económico y protección de la inversión privada. Su autor es un jurista formado en Derecho Comercial, especializado en Relaciones de Consumo entre las empresas y los usuarios de bienes y servicios.
                                             </p>
-                                            <br>                                               
+                                            <br>
                                         </div>
                                     </div>
                                 </div>
@@ -598,7 +750,7 @@
                                         </a>
                                     </h2>
                                     <p class="font-light  text-right text-gray-500">Publicado: 24/09/2024</p>
-                                    <p><i>El Cuerpo Legislativo destacó a la asociación que lleva 12 años trabajando para las personas que se encuentran en situación de calle en la ciudad. 
+                                    <p><i>El Cuerpo Legislativo destacó a la asociación que lleva 12 años trabajando para las personas que se encuentran en situación de calle en la ciudad.
                                     </i></p>
                                     <br>
                                     <figure>
@@ -610,7 +762,7 @@
                                     </figure>
                                     {{-- <article>
                                         <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/cNeE0eEE5Tc?si=RMO51UzsraJUAVpK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                                        
+
                                     </article> --}}
                                     <br>
                                     <div
@@ -639,14 +791,14 @@
 
 
                                             </p>
-                                            <br>                                               
+                                            <br>
                                         </div>
                                     </div>
                                 </div>
                             </article>
                         </li>
                     </ul>
-                    <br>         
+                    <br>
 </section>
 {{-- A 40 AÑOS DEL INFORME DE CONADEP LA LEGISLATURA INAUGURÓ LA MUESTRA EVIDENCIAS --}}
 <section>
@@ -658,7 +810,7 @@
                                         <a href="">A 40 AÑOS DEL INFORME DE CONADEP LA LEGISLATURA INAUGURÓ LA MUESTRA EVIDENCIAS</a>
                                     </h2>
                                     <p class="font-light  text-right text-gray-500">Publicado: 21/09/2024</p>
-                                    <p><i>La exposición fotográfica de Enrique Shorese conmemora la lucha por la memoria y los derechos humanos en Argentina. 
+                                    <p><i>La exposición fotográfica de Enrique Shorese conmemora la lucha por la memoria y los derechos humanos en Argentina.
                                     </i></p>
                                     <br>
                                     <figure>
@@ -670,7 +822,7 @@
                                     </figure>
                                     {{-- <article>
                                         <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/cNeE0eEE5Tc?si=RMO51UzsraJUAVpK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                                        
+
                                     </article> --}}
                                     <br>
                                     <div
@@ -690,14 +842,14 @@
                                             <br>
                                             <p>La exposición fue declarada de Interés Cultural y busca generar conciencia en torno a la necesidad de preservar la memoria y la justicia en la sociedad.
                                             </p>
-                                            <br>                                              
+                                            <br>
                                         </div>
                                     </div>
                                 </div>
                             </article>
                         </li>
                     </ul>
-                    <br>            
+                    <br>
 </section>
 {{-- LA CAMPAÑA “DEPORTE PARA LA IGUALDAD” DECLARADA DE INTERÉS EN LA CIUDAD --}}
 <section>
@@ -724,7 +876,7 @@
                                     </figure>
                                     {{-- <article>
                                         <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/cNeE0eEE5Tc?si=RMO51UzsraJUAVpK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                                        
+
                                     </article> --}}
                                     <br>
                                     <div
@@ -783,7 +935,7 @@
                             </article>
                         </li>
                     </ul>
-</section>   
+</section>
     {{--EL CONGRESO MUNDIAL DE PERSONAS MAYORES LLEGA A LATINOAMÉRICA --}}
     <section >
         <ul>
@@ -805,7 +957,7 @@
                         </figure>
                         {{-- <article>
                             <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/cNeE0eEE5Tc?si=RMO51UzsraJUAVpK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                            
+
                         </article> --}}
                         <br>
                         <div
@@ -824,10 +976,10 @@
                                 <br>
                                 <p>Este congreso será una plataforma clave para discutir y promover el bienestar de las personas mayores, marcando un hito en la región.</p>
                                 <br>
-                                
-                                
-                                
-                                
+
+
+
+
                             </div>
 
 
@@ -859,7 +1011,7 @@
                         </figure> --}}
                         <article>
                             <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/cNeE0eEE5Tc?si=RMO51UzsraJUAVpK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                            
+
                         </article>
                         <br>
                         <div
@@ -880,9 +1032,9 @@
                                 <br>
                                 <p>Al concluir el acto, se entregó el diploma de distinción como Huésped de Honor de la Ciudad de Buenos Aires, celebrando así la destacada trayectoria y el compromiso de Ramírez Lezcano con la integración regional y la cooperación internacional.</p>
                                 <br>
-                                
-                                
-                                
+
+
+
                             </div>
 
 
@@ -931,9 +1083,9 @@
                                 <br>
                                 <p>Entre sus logros se destacan la promoción de la Ley Nacional de Vialidad, la creación de la Escuela de Conductores, el Instituto Superior de Enseñanza, la biblioteca y el Museo de Automóviles Históricos, así como la publicación de la Revista Autoclub desde 1961.</p>
                                 <br>
-                                
-                                
-                                
+
+
+
                             </div>
 
 
@@ -984,8 +1136,8 @@
                                 <br>
                                 <p>La jornada concluyó con un llamado a la acción para una mayor regulación y educación sobre la ludopatía digital, y a un compromiso colectivo para abordar este creciente desafío en la sociedad.</p>
                                 <br>
-                                
-                                
+
+
                             </div>
 
 
@@ -1030,8 +1182,8 @@
                                 <p>Por último, la obra infantil "Soy Muni, una aventura musical" fue declarada de Interés para la Promoción y Defensa de los Derechos de las Personas con Discapacidad. En el Salón Montevideo, la legisladora María Luisa González Estevarena y la actriz Mariana 'Muni' Seligmann presentaron la función adaptada para niños neurodivergentes, con ajustes en sonido, iluminación y ambiente. Estas adaptaciones representan un avance en la inclusión cultural, permitiendo que más personas disfruten del arte en condiciones adecuadas.
                                 </p>
                                 <br>
-                                
-                                
+
+
                             </div>
 
 
@@ -1076,8 +1228,8 @@
                                     <p>Estos reconocimientos reflejan el compromiso de la Legislatura porteña con la promoción de la cultura y el apoyo a quienes, desde diferentes ámbitos, contribuyen al enriquecimiento cultural y social de la ciudad y del país.
                                     </p>
                                     <br>
-                                    
-                                    
+
+
                                 </div>
 
 
@@ -1122,8 +1274,8 @@
                                     <p>‘Bar de viejes’ es un proyecto cultural que nació hace más de 5 años con el objetivo de poner en valor una práctica cultural porteña, que es ir al bar. A través de diferentes iniciativas comunicacionales, artículos, mapas interactivos, encuentros y actividades artísticas, propone una nueva topografía de la Ciudad de Buenos Aires; en cuyo centro se encuentran aquellos bares que conforman parte de la identidad de la ciudad, según su creadora, los “cafés de toda la vida”. El proyecto representa un aporte en la preservación y difusión del patrimonio gastronómico local. Además, brinda nuevas maneras de habitar los espacios de café a través del arte y se ha convertido en salvaguarda de parte de la historia de nuestra Ciudad.
                                     </p>
                                     <br>
-                                    
-                                    
+
+
                                 </div>
 
 
@@ -1176,10 +1328,10 @@
                                     <br>
                                     <p>Participaron los embajadores de Congo, Hungría, Bélgica, Emiratos Árabes Unidos, Armenia y la Liga de los Emiratos Árabes, así como encargados de negocios de Palestina y El Salvador, el secretario delegado de Santa Fe y de Santiago del Estero, y representantes de Cancillería.</p>
                                     <br>
-                                    
-                                    
-                                    
-                                    
+
+
+
+
                                 </div>
 
 
@@ -1224,10 +1376,10 @@
                                     <p>Además, durante la sesión se acordó darle preferencia para las próximas sesiones a los 19 proyectos de Ludopatía que presentaron los distintos espacios y se unificaron los giros de los proyectos referidos a esta temática entre diez comisiones para abordar las diferentes temáticas que toca: -Desarrollo Económico, Mercosur y Políticas de Empleo, Salud, Niñez, Infancia, Adolescencia y Juventud, Justicia y Presupuesto, Hacienda, Administración Financiera y Política Tributaria.
                                     </p>
                                     <br>
-                                    
-                                    
-                                    
-                                    
+
+
+
+
                                 </div>
 
 
@@ -1275,10 +1427,10 @@
                                     <br>
                                     <p>Además, tuvo el privilegio de ser el biógrafo de Ringo Bonavena, Carlos Monzón y Diego Armando Maradona. Fue profesor de la Universidad Católica Argentina en el curso de extensión de la carrera de periodismo durante 15 años como profesor titular de la materia “Fuentes de información y otras nuevas tecnologías”. En la actualidad trabaja como columnista en Infobae, en C5N y en Radio 10.</p>
                                     <br>
-                                    
-                                    
-                                    
-                                    
+
+
+
+
                                 </div>
 
 
@@ -1326,10 +1478,10 @@
                                                 <br>
                                                 <p>Alejandro Medina contribuyó significativamente al enriquecimiento musical argentino. Sus aportes tanto en la composición como sus realizaciones instrumentales fueron y son fundamentales para la evolución del rock y el blues en español.</p>
                                                 <br>
-                                                
-                                                
-                                                
-                                                
+
+
+
+
                                             </div>
 
 
@@ -1381,9 +1533,9 @@
                                     <br>
                                     <p>Adicionalmente, la obra va en línea con la misión de Esteban, que es seguir concientizando a la población sobre la ELA, una enfermedad poco frecuente, que aún no despierta el suficiente interés y, por este mismo motivo, no consigue el financiamiento necesario para encontrar su cura. En palabras del protagonista: “La ELA tiene cura, solo falta investigarla”.</p>
                                     <br>
-                                    
-                                    
-                                    
+
+
+
                                 </div>
 
 
@@ -1463,8 +1615,8 @@
                                                 <br>
                                                 <p>También introduce nuevas facultades para la Autoridad de Aplicación, como la aprobación de proyectos, la administración de recursos, el control del cumplimiento de los beneficios y la creación de un comité evaluador.  Los integrantes del Consejo de Participación Cultural y del comité evaluador quedan inhabilitados para presentar o participar en proyectos culturales durante su ejercicio y un año después.</p>
                                                 <br>
-                                                
-                                                
+
+
                                             </div>
 
 
@@ -1508,8 +1660,8 @@
                                     <br>
                                     <p>Además de Michielotto, estuvieron presentes Matías López, vicepresidente de la Legislatura porteña, juan Pablo Arenaza, Facundo Del Gaiso,  Darío Nieto,  Sergio Siciliano (Vamos por Más), Lucio Lapeña, Fernando Mollard (UCR Evolución), María Luisa Gonzalez Estevarena, Sebastián Nagata (Confianza Pública) y Pilar Ramírez (La Libertad Avanza).</p>
                                     <br>
-                                    
-                                    
+
+
                                 </div>
 
 
@@ -1555,7 +1707,7 @@
                                     <br>
                                     <p>Por su parte, Albarracín agradeció la distinción. Y afirmó: “Queríamos generar accesibilidad y hacer que más pacientes y personas puedan acceder a productos de calidad, que la industria y el monopolio del cannabis no sea un impedimento para los productores”. Finalmente Morresi celebró “las diferentes ideas e ideologías” que hay en la Ciudad de Buenos Aires.</p>
                                     <br>
-                                    
+
                                 </div>
 
 
@@ -1709,7 +1861,7 @@
                                     <br>
                                     <p>Para finalizar, impactó el testimonio de Yanina Maidana, quien sufrió  quemaduras  en el 40% de su cuerpo a sus 23 años, tras ser víctima de violencia por parte de su pareja en 2010. Luego de 28 días en coma, con asistencia respiratoria, 37 cirugías, un ACV e insuficiencia renal, pudo conocer a Diego Staropoli y su equipo en Mandinga.  “Lo conocí por otra chica que también estaba internada junto conmigo” explicó Yanina y afirmó que “antes no me miraba, andaba con remera manga larga en mi propia casa y cuando Diego me hizo este tatuaje me cambió la vida de verdad. Hasta la seguridad de poder estar hablando” y resumió que luego del trabajo de Mandinga Tattoo “querés de vuelta tu cuerpo”.</p>
                                     <br>
-                                    
+
                                 </div>
 
 
@@ -1757,7 +1909,7 @@
                                     <br>
                                     <p>"Mi viejo" es probablemente la canción que ha alcanzado mayor reconocimiento, siendo traducida a diferentes idiomas y considerada la mejor canción en la historia que representa al padre en el mundo hispanohablante. Además de Piero, otros artistas como Nicola Di Bari, Demis Roussos, Mauro Calderón, Manolo Otero, Leo Dan, Leo Mattioli, Leo García y Antony Santos han interpretado esta emblemática canción.</p>
                                     <br>
-                                    
+
                                 </div>
 
 
@@ -1803,8 +1955,8 @@
                                     <br>
                                     <p>Durante la sesión, que duró casi 5 horas, también se abordaron otros temas como los homenajes por el 50 aniversario de la muerte del padre Mugica y la autorización para establecer una tarifa diferencial en el precio de la entrada al Jardín Japonés para no residentes.</p>
                                     <br>
-                                    
-                                    
+
+
                                 </div>
 
 
@@ -1850,8 +2002,8 @@
                                     <br>
                                     <p>En resumen, esta jornada legislativa refleja el compromiso de los diputados porteños con temas fundamentales para la sociedad, como la cultura, los derechos de las mujeres y el acceso a la salud. Estos debates y acciones legislativas son un paso importante hacia una ciudad más inclusiva y equitativa para todos sus habitantes.</p>
                                     <br>
-                                    
-                                    
+
+
                                 </div>
 
 
@@ -1899,7 +2051,7 @@
                                     <br>
                                     <p>A medida que avanza el proceso de designación, se espera que los nuevos Defensores Adjuntos contribuyan significativamente a fortalecer la Defensoría del Pueblo, asegurando una representación efectiva y una gestión transparente que responda a las necesidades y derechos de los porteños. La próxima etapa consistirá en la evaluación de las presentaciones por parte de la Junta de Ética y las comisiones correspondientes, quienes definirán la terna final para la designación.</p>
                                     <br>
-                                    
+
                                 </div>
 
 
@@ -1947,7 +2099,7 @@
                                     <br>
                                     <p>Además, estuvieron presentes en el evento los legisladores Matías Barroetaveña, Cecilia Ferrero, Pablo Donatti, Patricia Glize, Jesica Barreto; la Embajadora de Ecuador, Lotti Andrade; el Subsecretario de Cultura de la Ciudad, Roy Cortina; y Nahuel Muñoz, Director de Cooperación Multilateral del Gobierno de la Ciudad.</p>
                                     <br>
-                                    
+
                                 </div>
 
 
@@ -2007,8 +2159,8 @@
                                     <br>
                                     <p>En 2017, su disco Cuerdas, primero volumen de la Antología de sus obras, fue nominado al premio Gardel. El 18 de agosto de 2022 recibe el Premio Radio Nacional Clásica como Compositor Consagrado. Como gestor cultural, fue Director de Música de la Ciudad de Buenos Aires y luego Director General y Artístico del Teatro Colón, promediando sus cuarenta años, y en plena crisis económico-institucional de comienzos de este siglo.</p>
                                     <br>
-                                    
-                                    
+
+
                                 </div>
 
 
@@ -2054,8 +2206,8 @@
                                     <br>
                                     <p>La narrativa histórica cumple un papel fundamental al proporcionar a los lectores una conexión profunda con la rica y compleja historia del país. A través de este tipo de obras, tenemos la oportunidad de explorar eventos clave, momentos trascendentales y figuras históricas que han dado forma a nuestra identidad nacional.</p>
                                     <br>
-                                    
-                                    
+
+
                                 </div>
 
 
@@ -2103,8 +2255,8 @@
                                     <br>
                                     <p>Allí se plasman historias narradas en primera persona por los combatientes y relatadas desde el lugar exacto donde se llevó a cabo el conflicto bélico de 1982, y se transmiten como pocas veces el significado atroz de la guerra e intentan reflejar la hidalguía y el valor de aquellos jóvenes que, a tan temprana edad dieron su vida por la patria.</p>
                                     <br>
-                                    
-                                    
+
+
                                 </div>
 
 
@@ -2156,7 +2308,7 @@
                                     <br>
                                     <p>La violencia policial y las detenciones arbitrarias son hechos inaceptables en una sociedad democrática. Es necesario que las autoridades investiguen a fondo lo sucedido y que se tomen medidas para evitar que se repitan este tipo de abusos en el futuro. Los vecinos de Ciudad Oculta y Barrio Mugica exigen justicia y seguridad, y esperan que las autoridades respondan a sus reclamos de manera efectiva.</p>
                                     <br>
-                                    
+
                                 </div>
 
 
@@ -2204,7 +2356,7 @@
                                     <br>
                                     <p>“Hay mucho por hacer. Los desafíos para la inclusión realmente son importantes. Estamos una época donde nos tenemos que unir. Las cosas se logran cuando nos unimos y los que se benefician son ellos y las familias. La diversidad transforma, nos hace respetuosos, nos hace considerar al otro, nos hace empáticos”, comunicó Rosa Scioti, miembro de ASDRA. Con una frase que enmarca a la organización que representa, cerró: “Hagamos de la inclusión algo de todos los días”.</p>
                                     <br>
-                                    
+
                                 </div>
 
 
@@ -2252,7 +2404,7 @@
                                     <br>
                                     <p>Actualmente es Director Técnico del equipo de ex jugadores de Boca, denominados Seniors, donde juegan los ex deportistas Jorge Bermúdez, Marcelo Delgado, Sergio ‘Chicho’ Serna, Raúl Cascini, Marcelo ‘Chelo’ Delgado, Pablo Ledesma, Antonio ‘Chipi’ Barijho, Sergio Martínez, Ariel ‘Burrito’ Ortega, Daniel Díaz y Luis Villalba entre otros.</p>
                                     <br>
-                                    
+
                                 </div>
 
 
@@ -2826,7 +2978,7 @@
     </ul>
 </section>
     <br><br>
-        
+
    {{-- LA MUESTRA “ARGENTINO UNIVERSAL”... --}}
    <section >
     <ul>
@@ -3100,7 +3252,7 @@
         </ul>
     </section>
         <br><br>
- 
+
     {{-- El documental “Ojos --}}
     <section >
         <ul>
@@ -3245,7 +3397,7 @@
                                     cuando lo vio por primera vez, en un show en la Asociación de Vendedores de
                                     Diarios y Revistas. “Ariel es un embajador del tango en el mundo, él es el
                                     Carlos Gardel del siglo XXI”, enfatizó el periodista. Y determinó: “Es difícil
-                                    
+
                                     establecer vínculos de amistad cuando se es grande. Pero además de cantar,
                                     me di cuenta que este muchacho es buena gente y un padre increíble”.
                                 </p>
@@ -3258,7 +3410,7 @@
                                     que corre por la sangre de todos los argentinos y argentinas, es un ícono de la
                                     ciudad, testigo y protagonista de hechos que nos marcaron como sociedad.</p>
                                 <br>
-                                
+
 
                             </div>
 
@@ -3330,7 +3482,7 @@
 
                             </p>
                             <br>
-                            
+
 
                         </div>
 
@@ -3695,7 +3847,7 @@
 
                             <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
                                 <div class=" font-sans text-lg text-left col-span-6  ">
-                                 
+
                                     <p>El Cuerpo Legislativo de la Ciudad declaró de Interés Cultural a la
                                         festividad de San Juan Bautista “Fogatas de San Juan” y a la obra
                                         teatral “Dejame tu CV que te llamamos” y ambos actos se llevaron a
@@ -3863,7 +4015,7 @@
 
                             <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
                                 <div class=" font-sans text-lg text-left col-span-6  ">
-                                 
+
                                     <p>Esta tarde, los legisladores de la Ciudad declararon de Interés para
                                         la Comunicación Social y los Derechos Humanos al libro “Dibujos
                                         Urgentes. Testimoniar en juicios de lesa humanidad”, de las artisas
@@ -3994,7 +4146,7 @@
         </section>
         <br><br>
 
-    
+
         <section >
             <ul>
                 <li class=" bg-white rounded-lg shadow "> {{-- primera --}}
@@ -4010,7 +4162,7 @@
                             </h2>
                             <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
                                 <div class=" font-sans text-lg text-left col-span-6  ">
-                                   
+
                                     <p>Gracias a un proyecto presentado por el legislador Diego Weck, la
                                         Legislatura destacó la labor y la trayectoria del abogado, historiador e
                                         histórico dirigente de la Unión Cívica Radical.</p>
@@ -4060,7 +4212,7 @@
                                         vicepresidente del Comité de la Comuna 4 y dos veces delegado a la
                                         Honorable Convención Nacional por la Ciudad de Buenos Aires. En 2005
                                         fue candidato a diputado nacional por la Ciudad de Buenos Aires.</p>
-                                 
+
                                     <br><br>
                                 </div>
 

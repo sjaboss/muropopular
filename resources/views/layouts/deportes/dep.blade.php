@@ -2,6 +2,86 @@
     <div class="container ">
         @livewire('superior')
 
+{{--ARGENTINA CERRARÁ EL AÑO CON DOS CLAVES FRENTE A PARAGUAY Y PERÚ  --}}
+ <section>
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">ARGENTINA CERRARÁ EL AÑO CON DOS CLAVES
+                                                FRENTE A PARAGUAY Y PERÚ
+                                            </a>
+                                        </h2>
+                                        <p class="font-light  text-right text-gray-500">Publicado:08/11/2024</p>
+                                        <p><i>Scaloni presentó su lista de convocados para la última fecha doble de
+                                            Eliminatorias con varias sorpresas, bajas y un cambio de sede.
+                                            </i></p>
+                                        <br>
+                                        <figure>
+                                            <a href="">
+                                                <img class="w-full object-cover object-center"
+                                                    src="{{ asset('../img/dep/dep_celbla.svg') }}" alt="">
+                                            </a>
+                                        </figure>
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+                                                <p>La Selección Argentina tiene todo listo para afrontar la última fecha doble de
+                                                    Eliminatorias Sudamericanas de 2024, en la que se medirá ante Paraguay y
+                                                    Perú. Con 28 jugadores convocados por Lionel Scaloni, la nómina cuenta con
+                                                    algunos regresos esperados, como Emiliano Martínez, quien vuelve tras
+                                                    cumplir con la sanción de la Conmebol. Además, Nehuén Pérez y Valentín
+                                                    Castellanos también fueron convocados, sumándose a una lista en la que
+                                                    también destaca la primera citación de Enzo Barrenechea, mediocampista de
+                                                    23 años del Valencia.
+                                                </p>
+                                                <br>
+                                                <p>En la convocatoria también se incluye a Cristian Romero y Giovani Lo Celso,
+                                                    quienes arrastraban complicaciones físicas pero fueron llamados por el técnico.
+                                                    Romero, luego de ser evaluado, no sufrió lesiones óseas, mientras que Lo
+                                                    Celso se recuperó de un esguince muscular. Con estas incorporaciones,
+                                                    Scaloni buscará mantener el alto nivel que caracterizó a la Albiceleste durante
+                                                    este ciclo.
+                                                </p>
+                                                <br>
+                                                <p>Nuevas ausencias y un cambio de sede
+                                                </p><br>
+                                                <p> A pesar de los regresos, la lista también incluye varias ausencias importantes.
+                                                    Paulo Dybala y Marcos Acuña se quedaron afuera debido a cuestiones físicas,
+                                                    mientras que Nicolás González no fue convocado debido a una lesión. Los tres
+                                                    jugadores, habituales convocados, fueron marginados por diferentes razones:
+                                                    Dybala, por una cuestión futbolística relacionada con su posición en el
+                                                    esquema táctico de Scaloni, y Acuña y González, por lesiones recientes.
+                                                </p><br>
+
+                                                <p>Un cambio relevante en la logística es la elección de la Bombonera como sede
+                                                    para el partido ante Perú, luego de que el Monumental no pudiera ser utilizado
+                                                    debido a los preparativos para la final de la Copa Libertadores. Este será el
+                                                    regreso de la selección al estadio de Boca Juniors tras un año de ausencia,
+                                                    luego de una derrota ante Uruguay en la última visita.
+                                                </p><br>
+
+                                                <p>Mirada a futuro
+                                                </p><br>
+
+                                                <p>El desafío para Scaloni sigue siendo mantener el equilibrio entre la experiencia
+                                                y el recambio generacional. En este sentido, la inclusión de jóvenes como
+                                                Barrenechea y la presencia de jugadores como Balerdi y Pezzella reflejan su
+                                                intención de dar continuidad a un proyecto que mira tanto al presente como al
+                                                futuro. A pesar de las ausencias, la Argentina sigue siendo favorita en ambos
+                                                encuentros, con la vista puesta en terminar el año con dos victorias que
+                                                consoliden su liderazgo en las Eliminatorias.
+                                                </p><br>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+                            </li>
+                        </ul>
+            </section>
 {{--  --}}
 <section>
             <ul>
@@ -91,7 +171,6 @@
                 </li>
             </ul>
 </section>
-
 {{-- ARGENTINA Y VENEZUELA EMPATAN EN UN MAR DE AGUA --}}
 <section>
     <ul>

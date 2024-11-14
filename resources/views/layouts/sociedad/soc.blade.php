@@ -2,8 +2,455 @@
 <div class="container">
 @livewire('superior')
 
-{{--¡BATALLA POR LA PROPIEDAD INTELECTUAL! 13.500 ARTISTAS ENFRENTAN A LA IA
---}}
+{{--A OMS ALERTA: EL CAMBIO CLIMÁTICO PUEDE SALVAR MILLONES DE VIDAS  --}}
+<section>
+            <ul>
+                <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                    <article>
+                        <div class="py-4 px-4 justify-between items-center">
+                            <h2 class="text-xl font-serif  pb-6">
+                                <a href="">LA OMS ALERTA: EL CAMBIO CLIMÁTICO PUEDE
+                                    SALVAR MILLONES DE VIDAS
+                                </a>
+                            <p class="font-light  text-right text-gray-500">Publicado: 08/11/2024</p>
+                            <div class=" font-sans text-lg text-left col-span-6  ">
+                                <p><i>La Organización Mundial de la Salud asegura que combatir el cambio climático
+                                    podría evitar dos millones de muertes anuales, impulsando beneficios
+                                    sanitarios y económicos.
+                                    </i>
+                                </p>
+                                <br>
+                                <figure>
+                                    <img class="w-full object-cover" src="../img/soc/soc_clima.svg"
+                                        alt="">
+                                </figure>
+                                {{--  <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/Elj4W5gq3AM?si=Px86mJ-v6RAaS8Yh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> --}}
+                                <br>
+                                <div
+                                    class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                    <div class=" font-sans text-lg text-left col-span-6  ">
+                                        <p>A días de la Cumbre del Clima en Bakú, la Organización Mundial de la Salud
+                                            (OMS) publicó dos informes en los que alerta que el calentamiento global no
+                                            solo es una crisis ambiental, sino también una amenaza sanitaria. Con como
+                                            energías limpias, alertas de olas de calor y políticas de transporte sostenibles,
+                                            se podrían evitar hasta siete millones de muertes causadas por contaminación
+                                            y otros factores asociados al cambio climático.
+                                        </p>
+                                        <br>
+                                        <p>María Neira, directora del Departamento de Medio Ambiente, Cambio Climático
+                                            y Salud de la OMS, afirmó que “combatir el calentamiento global puede generar
+                                            enormes beneficios sanitarios”, destacando que las políticas preventivas en
+                                            salud pública podrían cuadruplicar el valor de la inversión inicial. En un mundo
+                                            donde el subsidio a los combustibles fósiles alcanza los 7 billones de dólares
+                                            anuales, la OMS sugiere redirigir estos recursos hacia energías limpias y
+                                            accesibles.
+                                        </p>
+                                        <br>
+                                        <p>Entre las recomendaciones de la OMS figura el desarrollo de sistemas de alerta
+                                        temprana para proteger a las poblaciones más vulnerables ante olas de calor,
+                                        así como la inversión en transporte y sistemas alimentarios sostenibles, áreas
+                                        que podrían reducir las muertes por accidentes y desnutrición. Vanessa Kerry,
+                                        enviada especial de la OMS, advirtió que las sequías, inundaciones y olas de
+                                        calor son cada vez más graves y exigen “acciones urgentes y diferentes a las
+                                        actuales”.
+                                        </p>
+                                        <br>
+                                        <p>La Cumbre del Clima COP29 en Bakú se presenta como una oportunidad clave
+                                            para que los líderes globales no solo tomen medidas contra el cambio
+                                            climático, sino que también comprenden su impacto directo en la salud pública.
+                                            </p>
+                                            <br>
+                                        <div class="text-start object-center">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                    </article>
+                </li>
+            </ul>
+</section>
+{{--DILLOM ENFRENTÓ A UN TROLL DE MILEI EN PLENO VUELO  --}}
+<section>
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  pb-6">
+                                            <a href="">DILLOM ENFRENTÓ A UN TROLL DE MILEI EN PLENO
+                                                VUELO
+                                            </a>
+                                        <p class="font-light  text-right text-gray-500">Publicado: 07/11/2024</p>
+                                        <div class=" font-sans text-lg text-left col-span-6  ">
+                                            <p><i>El músico argentino encaró al tuitero &quot;La Pistarini&quot; luego de que este lo
+                                                insultara en redes. En persona, el usuario evitó responderle y generó un
+                                                revuelo que se volvió viral.
+                                                </i>
+                                            </p>
+                                            <br>
+                                            <figure>
+                                                <img class="w-full object-cover" src="../img/soc/soc_verdad.svg"
+                                                    alt="">
+                                            </figure>
+                                            {{--  <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/Elj4W5gq3AM?si=Px86mJ-v6RAaS8Yh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> --}}
+                                            <br>
+                                            <div
+                                                class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                                <div class=" font-sans text-lg text-left col-span-6  ">
+                                                    <p>El cantante Dillom fue protagonista de un tenso cruce con un tuitero
+                                                        ultraderechista identificado como &quot;La Pistarini&quot; durante un vuelo comercial. El
+                                                        episodio se originó cuando el usuario de X, conocido por sus publicaciones
+                                                        agresivas y su apoyo al libertarismo, subió a sus redes una foto de Dillom,
+                                                        acompañada de insultos hacia el artista. Sin embargo, el ataque en línea no
+                                                        pasó desapercibido: Dillom, decidido a no dejar pasar la provocación, encaró al
+                                                        usuario frente a frente y el momento quedó registrado en video, rápidamente
+                                                        viralizado.
+                                                    </p>
+                                                    <br>
+                                                    <p>En redes, &quot;La Pistarini&quot; había escrito: “Lo último que me faltaba, coincidir en el
+                                                        vuelo con el pelotudo de Dillom”, en tono despectivo hacia el músico de 23
+                                                        años. Enterado del mensaje y tras verificar la identidad del tuitero, Dillom lo
+                                                        confrontó en persona: “¿Vos sos Pistarini? ¿El que sub fotos mías a Twitter?
+                                                        ¿Tenés algún problema?”, le preguntó al usuario, quien solo atinó a responder:
+                                                        &quot;Ninguno, capo, andá tranquilo&quot;, mientras intentaba tapar la cámara de quienes
+                                                        grababan el enfrentamiento. Visiblemente incómodo, el tuitero se mostró
+                                                        incapaz de sostener su postura provocandora fuera de la virtualidad.
+                                                    </p>
+                                                    <br>
+                                                    <p>Después del cruce, Dillom optó por quitarle dramatismo al asunto y concluyó en
+                                                        tono irónico: &quot;Uno paga wifi en el avión para darse cuenta que un salame le
+                                                        sacó una foto&quot;. Las redes sociales reaccionaron mayormente en apoyo al
+                                                        músico, destacando el contraste entre la valentía en redes y la actitud evasiva
+                                                        del usuario en la vida real.
+                                                    </p>
+                                                    <br>
+                                                    <div class="text-start object-center">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                </article>
+                            </li>
+                        </ul>
+            </section>
+{{--MILEI, EL SHOW MEDIÁTICO Y LA DESVIACIÓN DE LOS PROBLEMAS REALES  --}}
+<section>
+            <ul>
+                <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                    <article>
+                        <div class="py-4 px-4 justify-between items-center">
+                            <h2 class="text-xl font-serif  pb-6">
+                                <a href="">MILEI, EL SHOW MEDIÁTICO Y LA DESVIACIÓN DE
+                                    LOS PROBLEMAS REALES
+                                </a>
+                            <p class="font-light  text-right text-gray-500">Publicado: 04/11/2024</p>
+                            <div class=" font-sans text-lg text-left col-span-6  ">
+                                <p><i>En su entrevista con Yuyito González, el presidente mostró una faceta personal
+                                    y política cargada de contradicciones, donde la autocomplacencia y los ataques
+                                        a la oposición fueron protagonistas.
+                                    </i>
+                                </p>
+                                <br>
+                                <figure>
+                                    <img class="w-full object-cover" src="../img/soc/soc_bochorno.svg"
+                                        alt="">
+                                </figure>
+                                {{--  <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/Elj4W5gq3AM?si=Px86mJ-v6RAaS8Yh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> --}}
+                                <br>
+                                <div
+                                    class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                    <div class=" font-sans text-lg text-left col-span-6  ">
+                                        <p>Javier Milei protagonizó un bizarro espectáculo mediático al conceder una
+                                        entrevista a su novia, Yuyito González, en su programa Empezar el día de
+                                        Canal Ciudad Magazine. En un intento por humanizar su imagen, el presidente
+                                        se dedicó a elogiarse a sí mismo, destacando logros ficticios como el &quot;ajuste
+                                        más grande de la historia&quot; y el superávit fiscal, mientras el país enfrenta una
+                                        inflación descontrolada y una pobreza creciente.
+                                        </p>
+                                        <br>
+                                        <p>Lo más alarmante no fue la constante exaltación de su gestión, sino la defensa
+                                            de figuras como Patricia Bullrich y Luis Caputo, a quienes agradeció por su
+                                            “gran corazón” y por ayudarle a llegar a la presidencia. Mientras tanto, no dejó
+                                            de culpar a la oposición, a la burocracia internacional ya quienes se oponen a
+                                            sus políticas neoliberales.
+                                        </p>
+                                        <br>
+                                        <p>El espectáculo mediático también incluyó ataques contra la UCR y las
+                                            universidades públicas, mientras omitía mencionar las consecuencias sociales
+                                            de sus recortes: más pobres, más desempleo y una economía en ruinas. En un
+                                            arranque de autoritarismo, Milei aprovechó para prometer la purga en
+                                            Cancillería por no respaldar su línea en la ONU, calificando a la diplomacia
+                                            como &quot;burocracia parasitaria&quot; y &quot;traidores a la patria&quot; a quienes no se alinean
+                                            con él.
+                                        </p>
+                                        <br>
+                                        <p>Mientras el país se desangra en una crisis económica y social, el presidente
+                                            optó por mostrar su vida privada, hablando de sus perros y sus reuniones de
+                                            ópera en Olivos. En una de las entrevistas más vacías, no solo se mostró ajeno
+                                            a las necesidades del pueblo, sino que evadió hasta un beso de su novia,
+                                            dejando en claro que, para Milei, la política es un show personal.
+                                        </p>
+                                        <br>
+                                        <p>Este tipo de entrevistas, lejos de ser un acercamiento genuino al pueblo, son
+                                            una cortina de humo que desvía la atención de los problemas reales. El
+                                            presidente prefiere perpetuar su imagen de líder fuerte mientras el país sigue
+                                            pagando el precio de su irresponsabilidad.
+                                        </p>
+                                        <br>
+                                        <div class="text-start object-center">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                    </article>
+                </li>
+            </ul>
+</section>
+{{--KICILLOF DENUNCIA LA SUSPENSIÓN DE OBRAS Y EXIGE RECURSOS A MILEI  --}}
+<section>
+    <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+        <div class=" col-span-4">
+            <ul>
+                <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                    <article>
+                        <div class="py-4 px-4 justify-between items-center">
+                            <h2 class="text-xl font-serif  pb-6">
+                                <a href="">KICILLOF DENUNCIA LA SUSPENSIÓN DE OBRAS Y
+                                    EXIGE RECURSOS A MILEI
+                                </a>
+                            <p class="font-light  text-right text-gray-500">Publicado: 04/11/2024</p>
+                            <div class=" font-sans text-lg text-left col-span-6  ">
+                                <p><i>El gobernador de Buenos Aires, Axel Kicillof, acusó al gobierno nacional de
+                                    suspender más de mil obras en la provincia, lo que, según él, representa un
+                                    &quot;crimen social&quot;.
+                                    </i>
+                                </p>
+                                <br>
+                                <figure>
+                                    <img class="w-full object-cover" src="../img/soc/soc_gobernador.svg"
+                                        alt="">
+                                </figure>
+                                {{--  <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/Elj4W5gq3AM?si=Px86mJ-v6RAaS8Yh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> --}}
+                                <br>
+                                <div
+                                    class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                    <div class=" font-sans text-lg text-left col-span-6  ">
+                                        <p>El gobernador de la Provincia de Buenos Aires, Axel Kicillof, publicó un video
+                                            denunciando la suspensión de más de mil obras públicas en diferentes
+                                            municipios de la provincia, como Berazategui, Avellaneda, Florencio Varela y
+                                            General Lavalle, entre otros. Acompañado de imágenes de proyectos
+                                            detenidos, desde edificios educativos hasta viviendas sociales, Kicillof sostuvo
+                                            que la decisión del gobierno de Javier Milei de interrumpir estos trabajos
+                                            representa &quot;una deserción del Estado nacional de sus obligaciones&quot;.
+                                        </p>
+                                        <br>
+                                        <p>El mandatario bonaerense convocó a los intendentes de diversas fuerzas
+                                            políticas a firmar un reclamo conjunto dirigido a la Casa Rosada. &quot;Suspender la
+                                            obra pública es un crimen social&quot;, afirmó con dureza Kicillof, quien recordó que
+                                            este recorte de inversión pública se enmarca en un ajuste fiscal que se está
+                                            llevando a cabo a costa de las clases populares. “El equilibrio fiscal de Milei se
+                                            construye sobre más desigualdad, más dolor y más exclusión”, criticó,
+                                            señalando los recortes en áreas clave como jubilaciones, salud, educación y
+                                            transporte.
+                                        </p>
+                                        <br>
+                                        <p>En el video, Kicillof y el ministro de Infraestructura, Gabriel Katopodis, visitan
+                                            algunas de las obras suspendidas. “No es una medida administrativa, es un
+                                            ataque directo a las provincias”, subrayó el gobernador. A pesar de los
+                                            esfuerzos provinciales por continuar con algunas de estas iniciativas, el ahogo
+                                            impuesto financiero por el gobierno nacional está dificultando aún más la
+                                            situación. “Lo que están haciendo es un capricho ideológico”, dijo, refiriéndose
+                                            a la suspensión de proyectos en un país con enormes déficits en infraestructura
+                                            y servicios básicos.
+                                        </p>
+                                        <br>
+                                        <p>Kicillof también calificó la postura de Milei como una “venganza” hacia la
+                                            provincia de Buenos Aires, que históricamente ha sido un bastión de
+                                            resistencia frente al modelo económico del actual gobierno. &quot;No somos una
+                                            isla, necesitamos que el gobierno nacional cumpla con sus compromisos&quot;,
+                                            remarcó, mientras anticipaba la acción conjunta que llevará a cabo con los
+                                            intendentes en los próximos días.
+                                        </p>
+                                        <br>
+                                        <p>Además, el gobernador criticó la actitud del presidente Milei hacia Buenos
+                                            Aires, sugiriendo que la administración actual pretende castigar a la provincia
+                                            por haber sido uno de los principales focos de oposición a su candidatura,
+                                            destacando que este tipo de medidas no logrará cambiar el respaldo popular.
+                                            en la región. “El pueblo de Buenos Aires no se someterá a su venganza”,
+                                            concluyó.
+                                        </p>
+                                        <br>
+                                        <div class="text-start object-center">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                    </article>
+                </li>
+            </ul>
+            <br>
+        </div>
+        @livewire('lateral')
+    </div>
+</section>
+{{-- >ALFONSÍN: &#39;LA DEMOCRACIA ES UNA ABERRACIÓN PARA EL PRESIDENTE&#39; --}}
+<section>
+            <ul>
+                <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                    <article>
+                        <div class="py-4 px-4 justify-between items-center">
+                            <h2 class="text-xl font-serif  font-bold pb-6">
+                                <a href="">ALFONSÍN: &#39;LA DEMOCRACIA ES UNA ABERRACIÓN
+                                    PARA EL PRESIDENTE&#39;
+                                </a>
+                            <p class="font-light  text-right text-gray-500">Publicado: 02/11/2024</p>
+                            <div class=" font-sans text-lg text-left col-span-6  ">
+                                <p><i>El dirigente se refirió a las agresiones de Javier Milei hacia su padre y denunció
+                                    un gobierno plutocrático. Aseguró que los valores democráticos y republicanos
+                                    de Raúl Alfonsín son cuestionados por el actual mandatario.
+                                    </i>
+                                </p>
+                                <br>
+                                <figure>
+                                    <img class="w-full object-cover" src="../img/soc/soc_alfon.svg"
+                                        alt="">
+                                </figure>
+                                {{--  <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/Elj4W5gq3AM?si=Px86mJ-v6RAaS8Yh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> --}}
+                                <br>
+                                <div
+                                    class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                    <div class=" font-sans text-lg text-left col-span-6  ">
+                                        <p>Ricardo Alfonsín rindió homenaje a su padre, Raúl Alfonsín, en el cementerio
+                                            de La Recoleta, con una ofrenda floral en el marco del 41° aniversario de las
+                                            primeras elecciones democráticas tras la dictadura. Durante su visita, estuvo
+                                            acompañado por los dirigentes Silvia Saravia (Libres del Sur) y Gustavo López
+                                            (FORJA).
+                                        </p>
+                                        <br>
+                                        <p>En ese contexto, el hijo del exmandatario se refirió a las recientes
+                                            declaraciones de Javier Milei, quien había tildado a Raúl Alfonsín de &quot;partidario
+                                            de un golpe&quot; y aseguró que lo llamaban &quot;padre de la democracia&quot;. &quot;Es
+                                            canallesco decir esto. El presidente dijo una barbaridad&quot;, expresó Ricardo
+                                            Alfonsín, quien agregó que lo que realmente le importa a Milei no es la verdad,
+                                            sino la confrontación.
+                                        </p>
+                                        <br>
+                                        <p>Además, el dirigente cuestionó las convicciones democráticas del actual
+                                            presidente, afirmando que aunque algunos dudaran de las del exmandatario,
+                                            hoy en día la democracia y el compromiso republicano de Javier Milei están en
+                                            duda.
+                                        </p>
+                                        <br>
+                                        <p>Ricardo Alfonsín también comparó la agresividad del presidente hacia sus
+                                            adversarios con la falta de respeto hacia los valores democráticos. “Nunca
+                                            había oído a un dirigente político referirse a sus adversarios de la forma en que
+                                            lo hace el presidente, que se refiere a medios, periodistas y hasta empresarios
+                                            en términos descalificatorios”, señaló.
+                                        </p>
+                                        <br>
+                                        <p>El dirigente comentó que el legado de Raúl Alfonsín abogaba por una
+                                            democracia justa e igualitaria, un modelo que, según él, el presidente actual
+                                            parece rechazar. “Para Milei, la democracia, la justicia social y la igualdad son
+                                            aberraciones”, afirmó.
+                                        </p>
+                                        <br>
+                                        <p>Por otro lado, Alfonsín destacó que la victoria de LLA representa un riesgo para
+                                            los valores fundamentales de la república, citando la creciente desigualdad bajo
+                                            el gobierno actual, que, según él, favorece a los más ricos. “Es un gobierno
+                                            plutocrático, que no es elegido por los ricos, pero gobierna para ellos”, sostuvo.
+                                        </p>
+                                        <br>
+                                        <p>Ricardo Alfonsín concluyó pidiendo seriedad al presidente y urgió a un cambio
+                                            de actitud. “Es fundamental que el diálogo sea una herramienta para construir
+                                            consensos que nos permitan resolver los graves problemas del país”, concluyó.
+                                        </p>
+                                        <br>
+                                        <div class="text-start object-center">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                    </article>
+                </li>
+            </ul>
+</section>
+{{-- ROBAN DOCUMENTOS EN NUEVO ATAQUE A LA UNIVERSIDAD DE LAS MADRES --}}
+<section>
+            <ul>
+                <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                    <article>
+                        <div class="py-4 px-4 justify-between items-center">
+                            <h2 class="text-xl font-serif  font-bold pb-6">
+                                <a href="">ROBAN DOCUMENTOS EN NUEVO ATAQUE A LA
+                                    UNIVERSIDAD DE LAS MADRES
+                                </a>
+                            </h2>
+                            <p class="font-light  text-right text-gray-500">Publicado: 02/11/2024</p>
+                            <div class=" font-sans text-lg text-left col-span-6  ">
+                            <p><i>La universidad denunció un atentado en el que fueron sustraídos documentos
+                                importantes y causaron daños materiales a la infraestructura.
+                            </i>
+                            </p>
+                            <br>
+                            <figure>
+                                <img class="w-full object-cover" src="../img/soc/soc_uni.svg"
+                                    alt="">
+                            </figure>
+                        {{--  <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/Elj4W5gq3AM?si=Px86mJ-v6RAaS8Yh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> --}}
+                            <br>
+                            <div
+                                class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                <div class=" font-sans text-lg text-left col-span-6  ">
+                                    <p>La Universidad Nacional Madres de Plaza de Mayo (UNMa) denunció este
+                                        jueves un nuevo ataque a su sede en Defensa 119, ubicada a escasos metros
+                                        de la Casa Rosada. Un grupo de personas no identificadas ingresó al edificio,
+                                        sustrajo documentación tanto digital como en papel y provocó daños materiales
+                                        en computadoras y muebles. El hecho ocurre en un contexto de fuerte tensión
+                                        entre la universidad y el gobierno nacional.
+                                    </p>
+                                    <br>
+                                    <p>Según un comunicado de la institución, los atacantes, que al parecer
+                                    conocerán las instalaciones, robaron documentos importantes, incluido material
+                                    administrativo relacionado con alumnos y docentes. Además, destruirán
+                                    equipos informáticos y otros objetos de valor. La UNMa ha iniciado acciones
+                                    legales y exige una investigación a fondo para identificar a los responsables.
+                                    </p>
+                                    <br>
+                                    <p>Este ataque se suma a una serie de incidentes contra la universidad, que ha
+                                    sido objeto de recortes presupuestarios y amenazas de intervención por parte
+                                    del gobierno de Javier Milei. En su denuncia, la universidad también destacó la
+                                    cercanía de su sede con numerosas cámaras de seguridad y el control policial
+                                    constante, lo que genera dudas sobre la efectividad de las medidas de
+                                    seguridad.
+                                    </p>
+                                    <br>
+                                    <p>Demetrio Iramain, docente de Historia de las Madres de Plaza de Mayo, explicó
+                                        que el ataque fue descubierto por trabajadores administrativos tras un paro
+                                        universitario. Señaló que, debido a la ausencia de personas en el edificio, los
+                                        atacantes pudieron actuar con tiempo. &quot;Rompieron computadoras, se llevaron
+                                        papeles y destruyeron mobiliario&quot;, detalló. Iramain también subrayó que el
+                                        ataque está vinculado al conflicto con el gobierno sobre la autonomía
+                                        universitaria.
+                                    </p>
+                                    <br>
+                                    <p>Este ataque se enmarca en una serie de embates que ha sufrido la UNMa
+                                        desde que consolidó el nuevo gobierno. Además de los recortes
+                                        presupuestarios, la universidad ha sido objeto de intentos de intervención,
+                                        como el nombramiento de un interventor en octubre, lo que fue detenido por un
+                                        fallo judicial favorable a la institución. La UNMa continúa luchando por su
+                                        autonomía y por el respeto a sus derechos como universidad pública.
+                                    </p>
+                                    <br>
+                                    <div class="text-start object-center">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </li>
+            </ul>
+    </div>
+</section>
+{{--¡BATALLA POR LA PROPIEDAD INTELECTUAL! 13.500 ARTISTAS ENFRENTAN A LA IA--}}
 <section>
             <ul>
                 <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
@@ -23,12 +470,12 @@
                                 la cláusula de Penguin Random House para la protección de la propiedad
                                 intelectual.
                             </i>
-                            </p> 
+                            </p>
                             <br>
                             <figure>
                                 <img class="w-full object-cover" src="../img/soc/soc_ia.svg"
                                     alt="">
-                            </figure> 
+                            </figure>
                         {{--  <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/Elj4W5gq3AM?si=Px86mJ-v6RAaS8Yh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> --}}
                             <br>
                             <div
@@ -106,12 +553,12 @@
                                 de tarifas y el impacto en la pobreza; la medida abarca trenes, camiones,
                                 subtes, aviones y barcos.
                             </i>
-                            </p> 
+                            </p>
                             <br>
                             <figure>
                                 <img class="w-full object-cover" src="../img/soc/soc_paroNac.svg"
                                     alt="">
-                            </figure> 
+                            </figure>
                         {{--  <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/Elj4W5gq3AM?si=Px86mJ-v6RAaS8Yh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> --}}
                             <br>
                             <div
@@ -165,7 +612,7 @@
                     </article>
                 </li>
             </ul>
-</section>    
+</section>
 {{--GRANDES CORPORACIONES DUPLICAN RENTABILIDAD MIENTRAS SE DERRUMBAN INGRESOS POPULARES  --}}
 <section>
             <ul>
@@ -186,12 +633,12 @@
                                 empresas que maximizaron ganancias en medio de la crisis, mientras los
                                 salarios reales y el poder adquisitivo de la mayoría se hunden.
                             </i>
-                            </p> 
+                            </p>
                             <br>
                             <figure>
                                 <img class="w-full object-cover" src="../img/soc/soc_grandes.svg"
                                     alt="">
-                            </figure> 
+                            </figure>
                         {{--  <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/Elj4W5gq3AM?si=Px86mJ-v6RAaS8Yh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> --}}
                             <br>
                             <div
@@ -206,7 +653,7 @@
                                     </p>
                                     <br>
                                     <p>Ganadores al calor de la crisis
-                                    </p> 
+                                    </p>
                                     <p>Para elaborar el informe, el IPyPP analizó los balances de grandes empresas
                                         que cotizan en la Bolsa de Comercio de Buenos Aires. El resultado es
                                         revelador: sectores como hidrocarburos, alimentos, energía,
@@ -221,7 +668,7 @@
                                     <br>
                                     <p>Empresas como Molinos Agro y Metrogas reflejan de manera drástica esta
                                         tendencia, con incrementos en sus ganancias operativas del 7.543% y 2.581%,
-                                        respectivamente. Según el IPyPP, esta expansión de ganancias encuentra su                                                  
+                                        respectivamente. Según el IPyPP, esta expansión de ganancias encuentra su
                                         origen en una “mega devaluación” sin controles, que profundizó las ganancias
                                         empresariales en detrimento de la regulación de precios y el poder adquisitivo.
                                     </p>
@@ -270,12 +717,12 @@
                                 eliminación del IVA a medios de comunicación provocan críticas y denuncias
                                 sobre la desmantelación del Estado.
                             </i>
-                            </p> 
+                            </p>
                             <br>
                             <figure>
                                 <img class="w-full object-cover" src="../img/soc/soc_arsat.svg"
                                     alt="">
-                            </figure> 
+                            </figure>
                         {{--  <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/Elj4W5gq3AM?si=Px86mJ-v6RAaS8Yh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> --}}
                             <br>
                             <div
@@ -300,13 +747,13 @@
                                         por parte del gobierno al afirmar que no se estaban utilizando. Además,
                                         denunció que la privatización es parte de un plan más amplio para desmantelar
                                         empresas públicas que son consideradas estratégicas y rentables.
-                                    </p> 
+                                    </p>
                                     <br>
                                     <p>ARSAT, que atraviesa una crisis interna con paritarias congeladas y una fuga
                                         de profesionales, se enfrenta a un futuro incierto. López alertó que el objetivo
                                         del gobierno es destruir el Estado y sus empresas, a pesar de que estas
                                         generan ganancias. En caso de concretarse la privatización, el nuevo
-                                        propietario adquiriría la red de fibra óptica más grande del país y otros activos                                                 
+                                        propietario adquiriría la red de fibra óptica más grande del país y otros activos
                                         valiosos, lo que López calificó como una &quot;estafa&quot; que beneficiaría a
                                         empresarios cercanos al oficialismo.
                                     </p>
@@ -349,12 +796,12 @@
                             <p><i>Las decisiones del Gobierno de Javier Milei han agravado la situación de
                                 pobreza en el país, alcanzando al 73,3% de la población.
                             </i>
-                            </p> 
+                            </p>
                             <br>
                             <figure>
                                 <img class="w-full object-cover" src="../img/soc/soc_mileiCrisis.svg"
                                     alt="">
-                            </figure> 
+                            </figure>
                         {{--  <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/Elj4W5gq3AM?si=Px86mJ-v6RAaS8Yh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> --}}
                             <br>
                             <div
@@ -374,7 +821,7 @@
                                         afectando a los sectores más vulnerables de la sociedad. Las universidades,
                                         por su parte, han respondido con paros nacionales, evidenciando el impacto de
                                         estas políticas en la formación y el desarrollo del país.
-                                    </p> 
+                                    </p>
                                     <br>
                                     <p>En el periodo entre 2002 y 2012, Argentina experimentó un crecimiento
                                         económico que permitió una disminución notable de la pobreza y una mejora
@@ -425,7 +872,7 @@
                                 Provincia de Buenos Aires en su libro y revela las verdades ocultas sobre el
                                 espionaje en el país.
                             </i>
-                            </p> 
+                            </p>
                             <br>
                             {{-- <figure>
                                 <img class="w-full object-cover" src="../img/soc/soc_liam1.svg"
@@ -517,7 +964,7 @@
                             <p><i>El exintegrante de One Direction falleció tras caer del tercer piso. La autopsia
                                 confirmó las causas de su muerte.
                             </i>
-                            </p> 
+                            </p>
                             <br>
                             <figure>
                                 <img class="w-full object-cover" src="../img/soc/soc_liam1.svg"
@@ -558,7 +1005,7 @@
                                     <p>Payne había hablado abiertamente sobre sus problemas con las adicciones y la
                                         salud mental en varias entrevistas. Era padre de un niño de siete años junto a
                                         la cantante Cheryl Cole. La tragedia sacudió a sus seguidores, quienes
-                                        
+
                                         recordaron su paso por Argentina en 2014 junto a One Direction, cuando se
                                         presentaron en el Estadio Vélez.
                                     </p>
@@ -587,7 +1034,7 @@
                             <div class=" font-sans text-lg text-left col-span-6  ">
                             <p><i>Rocco Carbone analiza el auge del fascismo en Argentina y llama a la unidad de las fuerzas progresistas para construir un futuro emancipador.
                             </i>
-                            </p> 
+                            </p>
                             <br>
                             <figure>
                                 <img class="w-full object-cover" src="../img/soc/soc_la_inidad_eman.svg"
@@ -621,7 +1068,7 @@
                     </article>
                 </li>
             </ul>
-    
+
 </section>
 {{--MILEI Y UN NUEVO ATAQUE A LAS UNIVERSIDADES  --}}
 <section>
@@ -638,7 +1085,7 @@
                             <div class=" font-sans text-lg text-left col-span-6  ">
                             <p><i>En el acto para rebautizar el CCK, el presidente lanza duras críticas a la educación pública.
                             </i>
-                            </p> 
+                            </p>
                             <br>
                             <figure>
                                 <img class="w-full object-cover" src="../img/soc/soc_ataque_uni_2.svg"
@@ -686,7 +1133,7 @@
                     <div class=" font-sans text-lg text-left col-span-6  ">
                     <p><i>La inflación de septiembre mostró un aumento del 3,5% y acumuló un preocupante 101,6% en lo que va del año, en un contexto económico cada vez más adverso para las familias trabajadoras.
                     </i>
-                    </p> 
+                    </p>
                     <br>
                     <figure>
                         <img class="w-full object-cover" src="../img/soc/soc_ipcsep.svg"
@@ -708,7 +1155,7 @@
                             <p>A nivel de categorías, los precios regulados subieron un 4,5%, principalmente por los aumentos en tarifas de servicios públicos, reflejando una vez más el peso de las políticas de ajuste en los sectores medios y bajos. El núcleo del IPC mostró una suba del 3,3%, mientras que los productos estacionales subieron un 2,9%.</p>
                             <br>
                             <p>La situación es cada vez más crítica para la mayoría de la población, que debe enfrentar un aumento constante del costo de vida mientras los salarios permanecen estancados. Las cifras del INDEC reflejan no solo el fracaso de las políticas neoliberales impulsadas por el gobierno, sino también la urgencia de generar un cambio de rumbo que priorice la protección social y el bienestar de las mayorías.</p>
-                            <br>                                                                                   
+                            <br>
                             <div class="text-start object-center">
                             </div>
                         </div>
@@ -734,7 +1181,7 @@
                     <div class=" font-sans text-lg text-left col-span-6  ">
                     <p><i>Juan Grabois apuntó contra el gobierno de Javier Milei por el violento allanamiento a la casa de Fernanda Miño, ex titular del FISU, denunciando un avance de la represión estatal.
                     </i>
-                    </p> 
+                    </p>
                     <br>
                     {{-- <figure>
                         <img class="w-full object-cover" src="../img/soc/soc_denunciagrabo.svg"
@@ -754,7 +1201,7 @@
                             </p>
                             <br>
                             <p>Con un claro mensaje de resistencia, Grabois finalizó afirmando que "esto no queda así" y prometió seguir luchando contra las injusticias que afectan a los sectores más vulnerables, destacando la necesidad de una respuesta firme ante la creciente ola de represión.</p>
-                            <br>                                                                                        
+                            <br>
                             <div class="text-start object-center">
                             </div>
                         </div>
@@ -779,7 +1226,7 @@
                             <div class=" font-sans text-lg text-left col-span-6  ">
                             <p><i>La Cámara de Diputados respaldó el veto presidencial a la Ley de Financiamiento Universitario, desoyendo la movilización social en defensa de la educación pública.
                             </i>
-                            </p> 
+                            </p>
                             <br>
                             <figure>
                                 <img class="w-full object-cover" src="../img/soc/soc_tablero.svg"
@@ -796,7 +1243,7 @@
                                     <br>
                                     <p>La decisión de la Cámara de Diputados, alineada con la agenda neoliberal del gobierno, resalta la necesidad de una respuesta contundente por parte de los movimientos sociales y políticos que defienden la educación como pilar de una sociedad justa. La lucha por la Ley de Financiamiento Universitario no solo representa un desafío al ajuste de Javier Milei, sino también una defensa del futuro educativo de las próximas generaciones.
                                     </p>
-                                    <br>                                                                                          
+                                    <br>
                                     <div class="text-start object-center">
                                     </div>
                                 </div>
@@ -821,7 +1268,7 @@
                             <div class=" font-sans text-lg text-left col-span-6  ">
                             <p><i>El cierre del Hospital Nacional de Salud Mental Laura Bonaparte genera alarma entre los trabajadores y organizaciones de derechos humanos. El Gobierno nacional anunció la reestructuración del centro, que atiende a miles de personas con problemas de salud mental.
                             </i>
-                            </p> 
+                            </p>
                             <br>
                             <figure>
                                 <img class="w-full object-cover" src="../img/soc/soc_bona.svg"
@@ -843,7 +1290,7 @@
                                     <br>
                                     <p>La comunidad y los trabajadores se movilizan para exigir la continuidad del hospital, que, desde su fundación, ha sido un pilar fundamental en la atención de la salud mental en el país. En un momento donde el sufrimiento psíquico se ha incrementado, es imperativo que el Estado garantice la atención y los recursos necesarios para la salud mental de su población.
                                     </p>
-                                    <br>                                                                                          
+                                    <br>
                                     <div class="text-start object-center">
                                     </div>
                                 </div>
@@ -868,7 +1315,7 @@
                             <div class=" font-sans text-lg text-left col-span-6  ">
                             <p><i>El PJ enfrenta un momento crucial en su historia interna, donde se define la posible candidatura de Cristina Fernández de Kirchner a la presidencia del partido.
                             </i>
-                            </p> 
+                            </p>
                             <br>
                             <figure>
                                 <img class="w-full object-cover" src="../img/soc/soc_interna.svg"
@@ -892,7 +1339,7 @@
                                     <br>
                                     <p>En un contexto donde el trasvasamiento generacional parece estancado, la pregunta que queda es si Cristina tomará el mando o si el partido encontrará una manera de unirse en torno a un candidato que represente a todos los sectores. La decisión debe tomarse pronto, ya que las elecciones internas están programadas para el 17 de noviembre.
                                     </p>
-                                    <br>                                                                                          
+                                    <br>
                                     <div class="text-start object-center">
                                     </div>
                                 </div>
@@ -917,7 +1364,7 @@
                             <div class=" font-sans text-lg text-left col-span-6  ">
                             <p><i>La carrera "Amo Mis Mamas" se llevará a cabo en La Plata para concientizar sobre la prevención del cáncer de mama, coincidiendo con su día internacional.
                             </i>
-                            </p> 
+                            </p>
                             <br>
                             <figure>
                                 <img class="w-full object-cover" src="../img/soc/soc_materia.svg"
@@ -938,7 +1385,7 @@
                                     <br>
                                     <p>Esta iniciativa es parte de las acciones del Ministerio de Mujeres y Diversidad, que desde 2024 promueve la campaña “Si cuidas, cuidate. Prevenir es una tarea compartida”. La propuesta busca generar conciencia sobre la salud integral de mujeres y diversidades, destacando la importancia de la detección temprana del cáncer.
                                     </p>
-                                    <br>                                                                                         
+                                    <br>
                                     <div class="text-start object-center">
                                     </div>
                                 </div>
@@ -961,7 +1408,7 @@
                             <div class=" font-sans text-lg text-left col-span-6  ">
                             <p><i>La decisión del presidente se tomó horas después de la masiva marcha en defensa del financiamiento universitario, desatando la indignación de la comunidad educativa y la oposición política.
                             </i>
-                            </p> 
+                            </p>
                             <br>
                             <figure>
                                 <img class="w-full object-cover" src="../img/soc/soc_desafio.svg"
@@ -986,7 +1433,7 @@
                                     </p>
                                     <br>
                                     <p>La decisión de Milei de firmar el veto a la ley de financiamiento universitario refleja una clara estrategia de confrontación con la comunidad educativa y los sectores políticos que apoyan la educación pública. Mientras la tensión en el Congreso crece y se intensifican las negociaciones por los votos, la lucha por una educación pública y de calidad se convierte en un tema central en el debate político argentino.
-                                    <br>                                                                                         
+                                    <br>
                                     <div class="text-start object-center">
                                     </div>
                                 </div>
@@ -1010,7 +1457,7 @@
                             <div class=" font-sans text-lg text-left col-span-6  ">
                             <p><i>Más de un millón de personas se movilizaron en rechazo a la decisión del Presidente Javier Milei de vetar la Ley de Financiamiento Universitario, consolidando una fuerte oposición en defensa de la educación pública.
                             </i>
-                            </p> 
+                            </p>
                             <br>
                             <figure>
                                 <img class="w-full object-cover" src="../img/soc/soc_vetoley.svg"
@@ -1036,10 +1483,10 @@
                                     </p>
                                     <br>
                                     <p>La movilización no solo reunió a sectores políticos, sino que también atrajo a movimientos sociales, sindicatos y organismos de derechos humanos, evidenciando un amplio respaldo a la causa. “La universidad es de todos, y nuestros hijos ocupan las aulas de esas universidades públicas, tenemos que defenderlas”, declaró Norma Morales de la UTEP.
-                                    <br> 
+                                    <br>
                                     <p>El acto concluyó con una ovación y la interpretación de "Fanático" de Lali Espósito, cerrando una jornada que reafirmó el compromiso de la sociedad con la educación pública y la justicia social.
                                     </p>
-                                    <br>                                               
+                                    <br>
                                     <div class="text-start object-center">
                                     </div>
                                 </div>
@@ -1062,7 +1509,7 @@
                             <p class="font-light  text-right text-gray-500">Publicado: 01/10/2024</p>
                             <div class=" font-sans text-lg text-left col-span-6  ">
                             <p><i>El gobierno de Javier Milei implementa subas de entre el 4% y el 16% en servicios esenciales, lo que agrava la situación económica y el poder adquisitivo de los hogares.</i>
-                            </p> 
+                            </p>
                             <br>
                             <figure>
                                 <img class="w-full object-cover" src="../img/soc/soc_tarisubas.svg"
@@ -1086,7 +1533,7 @@
                                     <br>
                                     <p>Con un panorama tan adverso, la urgencia por un cambio en las políticas económicas se hace cada vez más evidente. Las decisiones del gobierno en los próximos meses serán cruciales para determinar si las familias argentinas podrán encontrar alivio ante la creciente presión económica o si, por el contrario, se verán obligadas a seguir lidiando con aumentos que parecen no tener fin.
                                     </p>
-                                    <br>                                              
+                                    <br>
                                     <div class="text-start object-center">
                                     </div>
                                 </div>
@@ -1111,7 +1558,7 @@
                             <p class="font-light  text-right text-gray-500">Publicado: 30/09/2024</p>
                             <div class=" font-sans text-lg text-left col-span-6  ">
                             <p><i>Lali Espósito habló sobre su nueva canción "Fanático", destacando las referencias al presidente Javier Milei en su video. La cantante se mostró satisfecha con la recepción del público y llamó a los artistas a expresar sus mensajes en este contexto sociopolítico.</i>
-                            </p> 
+                            </p>
                             <br>
                             <figure>
                                 <img class="w-full object-cover" src="../img/soc/soc_lali.svg"
@@ -1135,7 +1582,7 @@
                                     <br>
                                     <p>En un contexto donde ha sido hostigada por el presidente y sus seguidores tras criticar su gestión, Lali se muestra firme en su postura. “Son tiempos de tanta data que es confuso: qué querés hacer, quién sos, qué tenés para decir. Rebelarse un poquito”, concluyó, reafirmando su compromiso con la cultura y la expresión artística en medio de un clima de incertidumbre.
                                     </p>
-                                    <br>                                              
+                                    <br>
                                     <div class="text-start object-center">
                                     </div>
                                 </div>
@@ -1160,7 +1607,7 @@
                             <p class="font-light  text-right text-gray-500">Publicado: 29/09/2024</p>
                             <div class=" font-sans text-lg text-left col-span-6  ">
                             <p><i>Los residentes de hospitales nacionales, incluido el Garrahan, exigen mejoras salariales y laborales. Agostina Fiandrino, residente del Garrahan, habla sobre la precarización del sistema de salud.</i>
-                            </p> 
+                            </p>
                             <br>
                             <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/dukyUIWrwrE?si=clVWqNwEf5bO2klE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                             {{-- <figure>
@@ -1218,7 +1665,7 @@
                                     <p class="font-light  text-right text-gray-500">Publicado: 28/09/2024</p>
                                     <div class=" font-sans text-lg text-left col-span-6  ">
                                     <p><i>La Justicia de Córdoba aclaró que no hay pruebas que vinculen a militantes de La Cámpora con los incendios en la provincia, contradiciendo las afirmaciones de Milei.</i>
-                                    </p> 
+                                    </p>
                                     <br>
                                     <figure>
                                         <img class="w-full object-cover" src="../img/soc/soc_cordoba.svg"
@@ -1342,20 +1789,20 @@
                                     <br>
                                     <p>La gestión de Javier Milei está desmoronándose bajo el peso de sus propias políticas. El ajuste salvaje, que prioriza a los sectores más ricos y al FMI, ha generado un fuerte rechazo en la sociedad. La popularidad del presidente se desploma, perdiendo más de 20 puntos en las encuestas, mientras su imagen negativa ya supera el 54%. Las promesas de "cambio" que alguna vez convencieron a sectores precarizados y jóvenes han quedado en evidencia como lo que realmente son: un engaño.
                                     </p>
-                                    <br>    
+                                    <br>
                                     <p>Raúl Timerman, del Grupo de Opinión, asegura que el ajuste en las jubilaciones y el recorte presupuestario en las universidades son las principales razones de este desplome. Mientras Milei festeja con los ricos, el pueblo sufre. Las políticas que buscan beneficiar a los poderosos han dejado a los más humildes a la deriva. El veto presidencial y los recortes no hacen más que profundizar la desigualdad en el país.
                                     </p>
-                                    <br>    
+                                    <br>
                                     <p>Por su parte, Roberto Bacman, del Centro de Estudios de Opinión Pública, señala que los jóvenes que alguna vez apoyaron a Milei ahora lo abandonan. Los sectores populares, golpeados por la precarización laboral y la falta de apoyo estatal, ven cómo sus vidas empeoran bajo el mandato del libertario. El discurso del "cambio" se desmorona ante la cruda realidad de un ajuste que solo favorece a los de arriba.
                                     </p>
-                                    <br>    
+                                    <br>
                                     <p>Federico Aurelio, de ARESCO, prevé que la caída en las encuestas continuará si la situación económica no mejora. Pero no hay esperanzas de mejora cuando el gobierno sigue apostando por las mismas políticas neoliberales que ya fracasaron en el pasado. El ajuste no es la solución, es el problema. Y Milei está haciendo pagar ese precio al pueblo.
                                     </p>
-                                    <br>    
+                                    <br>
                                     <p>La gestión de Milei es el reflejo de un gobierno que gobierna para unos pocos, mientras el pueblo trabajador paga las consecuencias. No es una sorpresa que su imagen caiga en picada. Este es el precio de traicionar a quienes confiaron en sus promesas vacías.
                                     </p>
-                                    <br>    
-                                    
+                                    <br>
+
                                     <div class="text-start object-center">
                                     </div>
                                 </div>
@@ -1390,7 +1837,7 @@
                             <div
                                 class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
                                 <div class=" font-sans text-lg text-left col-span-6  ">
-                                    <p>El Papa apuntó contra el gobierno de Javier Milei por las políticas de ajuste y la represión de las protestas sociales. Respaldó a los movimientos populares y denunció la corrupción en el gobierno. 
+                                    <p>El Papa apuntó contra el gobierno de Javier Milei por las políticas de ajuste y la represión de las protestas sociales. Respaldó a los movimientos populares y denunció la corrupción en el gobierno.
                                     </p>
                                     <br>
                                     <p>El Papa Francisco, en un reciente simposio en el Vaticano, se pronunció enérgicamente sobre la realidad argentina, enfocándose en la represión de las protestas sociales y el ajuste implementado por el gobierno de Javier Milei. Durante su intervención, respaldó la lucha de los movimientos sociales, denunciando un episodio en el que un ministro del gabinete libertario solicitó sobornos a un inversor extranjero. "El diablo entra por el bolsillo, no lo olviden", afirmó, aludiendo a la corrupción en el actual gobierno.
@@ -1411,7 +1858,7 @@
                                     <p>Al finalizar, el Papa reiteró que la inequidad es la raíz de los problemas sociales. “No se resolverán los problemas del mundo sin una distribución equitativa de la riqueza”, advirtió, sugiriendo que la solución radica en un compromiso colectivo y la acción conjunta.
                                     </p>
                                     <br>
-                                    
+
                                     <div class="text-start object-center">
                                     </div>
                                 </div>
@@ -1462,7 +1909,7 @@
                                     <br>
                                     <p>El Congreso será el epicentro de la jornada de lucha. A partir de las 10 de la mañana, la Cámara de Diputados debatirá el veto, mientras millas de personas se concentrarán afuera para presionar a los legisladores. "No podemos dejar solos a los jubilados. Todos los sindicatos tienen jubilados, y todos nosotros seremos jubilados algún día. No se puede tolerar que tengan que elegir entre comprar medicamentos o comer", advirtió Vanesa Siley, diputada de Unión por la Patria y dirigente gremial</p>
                                     <br>
-                                    <p>La decisión de adelantar la sesión parlamentaria al miércoles fue una respuesta directa al pedido de la oposición para tratar de anular el veto presidencial. Con una fuerte expectativa por la magnitud de la movilización, los gremios combativos piden un paro general que refuerce la lucha en las calles 
+                                    <p>La decisión de adelantar la sesión parlamentaria al miércoles fue una respuesta directa al pedido de la oposición para tratar de anular el veto presidencial. Con una fuerte expectativa por la magnitud de la movilización, los gremios combativos piden un paro general que refuerce la lucha en las calles
                                     </p>
                                     <br>
                                     <p>La movilización promete ser una demostración contundente de que el ajuste sobre los jubilados encontrará una resistencia implacable, tanto en las calles como en el recinto parlamentario.
@@ -1480,7 +1927,7 @@
             <br>
 </section>
 {{--EXPO IGUALDAD REUNIÓ A 25 MIL PERSONAS.--}}
-<section> 
+<section>
     <ul>
         <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
 
@@ -1499,10 +1946,10 @@
                                             <img class="w-full object-cover" src="../img/soc/soc_expoigualdad.svg"
                                                 alt="">
                                         </figure>
-                                        
+
                                         {{-- <article>
                                             <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/GeOVAG1Bfz8?si=r2ihOrxI6uEWI0IU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                                            
+
                                         </article> --}}
                                         <br>
                                         <div
@@ -1530,7 +1977,7 @@
                                                         <img class="w-28 h-28  "
                                                             src="{{ asset('../img/der/Adri.svg') }}"
                                                             alt="">
-                                                        
+
                                                         <p> <strong>Nota de Adriana Zerdín</strong></p>
                                                     </figure>  --}}
                                                 </div>
@@ -1540,10 +1987,10 @@
                                 </article>
         </li>
     </ul>
-    
+
 </section>
     {{--SE VIENE LA EXPO IGUALDAD BONAERENSE EN LA PLATA..--}}
-<section> 
+<section>
     <ul>
         <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
             <article>
@@ -1562,10 +2009,10 @@
                         <img class="w-full object-cover" src="../img/soc/soc_expo2.svg"
                             alt="">
                     </figure>
-                    
+
                     {{-- <article>
                         <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/GeOVAG1Bfz8?si=r2ihOrxI6uEWI0IU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        
+
                     </article> --}}
                     <br>
                     <div
@@ -1588,14 +2035,14 @@
                             <br>
                             <p>Durante todas las jornadas habrá actividades culturales y funcionará una variada oferta gastronómica.<p>
                             <br>
-                            
-                            
+
+
                             <div class="text-start object-center">
                                 {{-- <figure>
                                     <img class="w-28 h-28  "
                                         src="{{ asset('../img/der/Adri.svg') }}"
                                         alt="">
-                                    
+
                                     <p> <strong>Nota de Adriana Zerdín</strong></p>
 
                                 </figure>  --}}
@@ -1608,7 +2055,7 @@
     </ul>
 </section>
 {{--INFANCIAS Y VEJECES OLVIDADAS, EL RETROCESO DE UNA NACIÓN...--}}
-<section> 
+<section>
     <ul>
         <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
             <article>
@@ -1627,10 +2074,10 @@
                         <img class="w-full object-cover" src="../img/soc/soc_vejez2.svg"
                             alt="">
                     </figure>
-                    
+
                     {{-- <article>
                         <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/GeOVAG1Bfz8?si=r2ihOrxI6uEWI0IU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        
+
                     </article> --}}
                     <br>
                     <div
@@ -1655,13 +2102,13 @@
                             <br>
                             <p>Si desde un Estado angurriento de bienes y dineros para unos muy pocos, que sólo se conmueve con las opulencias exuberantes para las minorías, el final está más próximo.</p>
                             <br>
-                            
+
                             <div class="text-start object-center">
                                 {{-- <figure>
                                     <img class="w-28 h-28  "
                                         src="{{ asset('../img/der/Adri.svg') }}"
                                         alt="">
-                                    
+
                                     <p> <strong>Nota de Adriana Zerdín</strong></p>
 
                                 </figure>  --}}
@@ -1674,7 +2121,7 @@
     </ul>
 </section>
 {{--EL PERONISMO PRESENTA LISTA OPOSITORA EN LA CARRERA DE...--}}
-<section> 
+<section>
     <ul>
         <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
             <article>
@@ -1693,10 +2140,10 @@
                         <img class="w-full object-cover" src="../img/soc/soc_dadoro.svg"
                             alt="">
                     </figure>
-                    
+
                     {{-- <article>
                         <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/GeOVAG1Bfz8?si=r2ihOrxI6uEWI0IU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        
+
                     </article> --}}
                     <br>
                     <div
@@ -1715,13 +2162,13 @@
                             <br>
                             <p>Christian Dodaro, es Dr en Ciencias Sociales, Magister en comunicación y cultura y Licenciado en Comunicación. Todo por la UBA. Es docente de comunicación desde 2003 y ha dado clases de grado y postgrado en distintas universidades del país. Es militante peronista, territorial y sindical. Es periodista y participa de programas en Radio Caput y Radio Madres de Plaza de Mayo. Desarrolla el seminario de comunicación sindical y ha dirigido muchisimas tesis y TIF.  Sus producciones sobre cultura y comunicación pueden leerse en Página 12, Pacu Urondo, Diario Ku entre otros portales.</p>
                             <br>
-                            
+
                             <div class="text-start object-center">
                                 {{-- <figure>
                                     <img class="w-28 h-28  "
                                         src="{{ asset('../img/der/Adri.svg') }}"
                                         alt="">
-                                    
+
                                     <p> <strong>Nota de Adriana Zerdín</strong></p>
 
                                 </figure>  --}}
@@ -1734,7 +2181,7 @@
     </ul>
 </section>
 {{--EL VIEJO GASÓMETRO--}}
-<section> 
+<section>
     <ul>
         <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
             <article>
@@ -1753,10 +2200,10 @@
                         <img class="w-full object-cover" src="../img/soc/soc_gaso2.svg"
                             alt="">
                     </figure>
-                    
+
                     {{-- <article>
                         <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/GeOVAG1Bfz8?si=r2ihOrxI6uEWI0IU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        
+
                     </article> --}}
                     <br>
                     <div
@@ -1771,15 +2218,15 @@
                             <br>
                             <p>Hoy en día, el Gasómetro de Constituyentes no solo es un símbolo de la historia industrial, sino también un ícono cultural que promete mantenerse en la memoria colectiva de Buenos Aires.</p>
                             <br>
-                            
-                            
-                            
+
+
+
                             <div class="text-start object-center">
                                 {{-- <figure>
                                     <img class="w-28 h-28  "
                                         src="{{ asset('../img/der/Adri.svg') }}"
                                         alt="">
-                                    
+
                                     <p> <strong>Nota de Adriana Zerdín</strong></p>
 
                                 </figure>  --}}
@@ -1792,7 +2239,7 @@
     </ul>
 </section>
 {{--UNA CONDUCCIÓN ESTRATÉGICA--}}
-<section> 
+<section>
     <ul>
         <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
             <article>
@@ -1811,10 +2258,10 @@
                         <img class="w-full object-cover" src="../img/soc/soc_conduccion.svg"
                             alt="">
                     </figure>
-                    
+
                     {{-- <article>
                         <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/GeOVAG1Bfz8?si=r2ihOrxI6uEWI0IU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        
+
                     </article> --}}
                     <br>
                     <div
@@ -1831,14 +2278,14 @@
                             <br>
                             <p>Es entonces reflexionar sobre los caminos a recorrer, escuchando y aprendiendo de las jóvenes generaciones que serán responsables de construir el futuro, apuntalar la Patria Matria Grande, comprendiendo sus mecanismos de interpretación de la realidad, sin demonizarlos ni denigrarlos, como se suele hacer desde posiciones soberbias y rencorosas. El camino es recuperar valores y virtudes arrojadas a la vera del camino por el posibilismo individualista dominante. Sin utopías y esperanzas no se puede construir un destino, por esa razón levantar los sueños de una Patria justa y soberana se puede realizar colocando los límites en lo estratégico, sin demandas electorales que licuan los mismos, pero consolidando objetivos que más temprano que tarde serán recogidos por nuestros compatriotas cuando se sientan comprendidos en esos sueños. </p>
                             <br>
-                            
-                            
+
+
                             <div class="text-start object-center">
                                 {{-- <figure>
                                     <img class="w-28 h-28  "
                                         src="{{ asset('../img/der/Adri.svg') }}"
                                         alt="">
-                                    
+
                                     <p> <strong>Nota de Adriana Zerdín</strong></p>
 
                                 </figure>  --}}
@@ -1851,7 +2298,7 @@
     </ul>
 </section>
     {{--EL GOBIERNO OFICIALIZÓ AUMENTOS EN TARIFAS DE GAS Y ELECTRICIDAD--}}
-<section> 
+<section>
     <ul>
         <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
             <article>
@@ -1870,10 +2317,10 @@
                         <img class="w-full object-cover" src="../img/soc/soc_tarigas.svg"
                             alt="">
                     </figure>
-                    
+
                     {{-- <article>
                         <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/GeOVAG1Bfz8?si=r2ihOrxI6uEWI0IU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        
+
                     </article> --}}
                     <br>
                     <div
@@ -1888,15 +2335,15 @@
                             <br>
                             <p>En cuanto a la electricidad, el precio de referencia subirá de $58.596 a $61.526 por MWh, aunque el costo real sin subsidios es de $68.016. Esta medida busca alinear los precios con el costo real de producción y distribución, aunque implica una mayor carga económica para los ciudadanos.</p>
                             <br>
-                            
-                            
-                            
+
+
+
                             <div class="text-start object-center">
                                 {{-- <figure>
                                     <img class="w-28 h-28  "
                                         src="{{ asset('../img/der/Adri.svg') }}"
                                         alt="">
-                                    
+
                                     <p> <strong>Nota de Adriana Zerdín</strong></p>
 
                                 </figure>  --}}
@@ -1909,7 +2356,7 @@
     </ul>
 </section>
 {{--MILEI VETA LA LEY DE JUBILACIONES Y RECHAZA EL AUMENTO A LOS JUBILADOS--}}
-<section> 
+<section>
     <ul>
         <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
             <article>
@@ -1928,10 +2375,10 @@
                         <img class="w-full object-cover" src="../img/soc/soc_veto1.svg"
                             alt="">
                     </figure>
-                    
+
                     {{-- <article>
                         <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/GeOVAG1Bfz8?si=r2ihOrxI6uEWI0IU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        
+
                     </article> --}}
                     <br>
                     <div
@@ -1948,15 +2395,15 @@
                             <br>
                             <p>El veto a la ley de jubilaciones subraya la postura del Gobierno en su estrategia de ajuste fiscal y control del gasto público, en línea con el objetivo de déficit cero defendido por Milei. La decisión refuerza la postura del Ejecutivo frente a la presión de la oposición para implementar aumentos que, según el Gobierno, no son viables en el contexto económico actual.</p>
                             <br>
-                            
-                            
-                            
+
+
+
                             <div class="text-start object-center">
                                 {{-- <figure>
                                     <img class="w-28 h-28  "
                                         src="{{ asset('../img/der/Adri.svg') }}"
                                         alt="">
-                                    
+
                                     <p> <strong>Nota de Adriana Zerdín</strong></p>
 
                                 </figure>  --}}
@@ -1969,7 +2416,7 @@
     </ul>
 </section>
     {{--NAFTA ROMPE LA BARRERA DE $1.000--}}
-<section> 
+<section>
     <ul>
         <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
             <article>
@@ -1988,10 +2435,10 @@
                         <img class="w-full object-cover" src="../img/soc/soc_nafta.svg"
                             alt="">
                     </figure>
-                    
+
                     {{-- <article>
                         <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/GeOVAG1Bfz8?si=r2ihOrxI6uEWI0IU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        
+
                     </article> --}}
                     <br>
                     <div
@@ -2008,15 +2455,15 @@
                             <br>
                             <p>En lugar de implementar soluciones efectivas para controlar los precios y proteger a la ciudadanía, la administración actual continúa priorizando los intereses de las grandes corporaciones. La falta de acciones concretas para abordar las verdaderas causas de la inflación demuestra que el gobierno sigue desentendiéndose de las necesidades de la gente y enfocándose en satisfacer a los poderosos.</p>
                             <br>
-                            
-                            
-                            
+
+
+
                             <div class="text-start object-center">
                                 {{-- <figure>
                                     <img class="w-28 h-28  "
                                         src="{{ asset('../img/der/Adri.svg') }}"
                                         alt="">
-                                    
+
                                     <p> <strong>Nota de Adriana Zerdín</strong></p>
 
                                 </figure>  --}}
@@ -2029,7 +2476,7 @@
     </ul>
 </section>
 {{--LA JUSTICIA ALLANÓ EL MINISTERIO DE CAPITAL HUMANO--}}
-<section> 
+<section>
     <ul>
         <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
             <article>
@@ -2048,10 +2495,10 @@
                         <img class="w-full object-cover" src="../img/soc/soc_alimento2.svg"
                             alt="">
                     </figure>
-                    
+
                     {{-- <article>
                         <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/GeOVAG1Bfz8?si=r2ihOrxI6uEWI0IU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        
+
                     </article> --}}
                     <br>
                     <div
@@ -2070,14 +2517,14 @@
                             <br>
                             <p>El conflicto se intensificó cuando, a fines de julio, el juez federal Martín Cormick rechazó una apelación del ministerio y exigió la distribución inmediata de los alimentos retenidos. Pettovello había apelado la decisión que requería un informe detallado sobre la distribución, pero el juez mantuvo su orden, estableciendo un plazo de 48 horas para restituir el servicio a los comedores y merenderos.</p>
                             <br>
-                            
-                            
+
+
                             <div class="text-start object-center">
                                 {{-- <figure>
                                     <img class="w-28 h-28  "
                                         src="{{ asset('../img/der/Adri.svg') }}"
                                         alt="">
-                                    
+
                                     <p> <strong>Nota de Adriana Zerdín</strong></p>
 
                                 </figure>  --}}
@@ -2090,7 +2537,7 @@
     </ul>
 </section>
 {{--RICARDO ALFONSÍN RENUNCIÓ A LA UCR Y CONVOCÓ A LA CONSTRUCCIÓN--}}
-<section> 
+<section>
     <ul>
         <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
             <article>
@@ -2109,10 +2556,10 @@
                         <img class="w-full object-cover" src="../img/soc/soc_forja.svg"
                             alt="">
                     </figure>
-                    
+
                     {{-- <article>
                         <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/GeOVAG1Bfz8?si=r2ihOrxI6uEWI0IU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        
+
                     </article> --}}
                     <br>
                     <div
@@ -2135,13 +2582,13 @@
                             <br>
                             <p>El parlamento es el terreno donde podemos darle pelea. Hoy, entre LLA y la oposición amigable, la derecha tiene mayoría. Hay que modificar la actual correlación de fuerzas en el Parlamento. Ese es el desafío”.</p>
                             <br>
-                            
+
                             <div class="text-start object-center">
                                 {{-- <figure>
                                     <img class="w-28 h-28  "
                                         src="{{ asset('../img/der/Adri.svg') }}"
                                         alt="">
-                                    
+
                                     <p> <strong>Nota de Adriana Zerdín</strong></p>
 
                                 </figure>  --}}
@@ -2154,7 +2601,7 @@
     </ul>
 </section>
 {{--UN MINISTRO ANTI-DIVERSIDAD EN EL SIGLO XXI--}}
-<section> 
+<section>
     <ul>
         <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
             <article>
@@ -2173,10 +2620,10 @@
                         <img class="w-full object-cover" src="../img/soc/soc_cuneo2.svg"
                             alt="">
                     </figure>
-                    
+
                     {{-- <article>
                         <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/GeOVAG1Bfz8?si=r2ihOrxI6uEWI0IU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        
+
                     </article> --}}
                     <br>
                     <div
@@ -2193,14 +2640,14 @@
                             <br>
                             <p>En respuesta a las declaraciones de Cúneo Libarona, la Confederación de Trabajadores de la Educación (CTERA) y diversos grupos han expresado un fuerte rechazo hacia las políticas del Gobierno en materia de género y diversidad. La postura del ministro ha profundizado la polarización en torno a derechos fundamentales, evidenciando una creciente disconformidad entre sectores de la sociedad que defienden la igualdad y la inclusión frente a las políticas regresivas impulsadas por el oficialismo.</p>
                             <br>
-                            
-                            
+
+
                             <div class="text-start object-center">
                                 {{-- <figure>
                                     <img class="w-28 h-28  "
                                         src="{{ asset('../img/der/Adri.svg') }}"
                                         alt="">
-                                    
+
                                     <p> <strong>Nota de Adriana Zerdín</strong></p>
 
                                 </figure>  --}}
@@ -2213,7 +2660,7 @@
     </ul>
 </section>
     {{--20 AÑOS DE LA COALICIÓN POR UNA COMUNICACIÓN DEMOCRÁTICA--}}
-<section> 
+<section>
     <ul>
         <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
             <article>
@@ -2232,10 +2679,10 @@
                         <img class="w-full object-cover" src="../img/soc/soc_comudemo.svg"
                             alt="">
                     </figure>
-                    
+
                     {{-- <article>
                         <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/GeOVAG1Bfz8?si=r2ihOrxI6uEWI0IU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        
+
                     </article> --}}
                     <br>
                     <div
@@ -2256,13 +2703,13 @@
                             <br>
                             <p>Desde <p>ADN Populares</p>, celebramos estas dos décadas de lucha y nos comprometemos a seguir construyendo, junto a la CCD, una comunicación libre, popular y verdaderamente democrática. La libertad de expresión no es negociable; la pluralidad no puede ser silenciada.</p>
                             <br>
-                            
+
                             <div class="text-start object-center">
                                 {{-- <figure>
                                     <img class="w-28 h-28  "
                                         src="{{ asset('../img/der/Adri.svg') }}"
                                         alt="">
-                                    
+
                                     <p> <strong>Nota de Adriana Zerdín</strong></p>
 
                                 </figure>  --}}
@@ -2275,7 +2722,7 @@
     </ul>
 </section>
 {{--MILEI CONVIERTE LA PEDOFILIA EN OBJETO DE BURLA POLÍTICA--}}
-<section> 
+<section>
     <ul>
         <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
             <article>
@@ -2294,10 +2741,10 @@
                         <img class="w-full object-cover" src="../img/soc/soc_pedofilia.svg"
                             alt="">
                     </figure>
-                    
+
                     {{-- <article>
                         <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/GeOVAG1Bfz8?si=r2ihOrxI6uEWI0IU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        
+
                     </article> --}}
                     <br>
                     <div
@@ -2314,15 +2761,15 @@
                             <br>
                             <p>El Presidente no solo banaliza un tema crucial, sino que también utiliza su plataforma para atacar a quienes no están de acuerdo con él. La burla de Milei es un insulto a las víctimas y a la dignidad humana, y es un recordatorio de cómo la política puede ser usada para fines deshonestos y crueles. Este episodio exige una reflexión profunda sobre la ética en el liderazgo y el respeto por los temas serios. La falta de sensibilidad de Milei ante un asunto tan grave es inaceptable y debe ser condenada enérgicamente.</p>
                             <br>
-                            
-                            
-                            
+
+
+
                             <div class="text-start object-center">
                                 {{-- <figure>
                                     <img class="w-28 h-28  "
                                         src="{{ asset('../img/der/Adri.svg') }}"
                                         alt="">
-                                    
+
                                     <p> <strong>Nota de Adriana Zerdín</strong></p>
 
                                 </figure>  --}}
@@ -2335,7 +2782,7 @@
     </ul>
 </section>
     {{--500 KILOS DE ALIMENTOS PARA LOS QUE MÁS LO NECESITAN.--}}
-    <section> 
+    <section>
         <ul>
             <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
                 <article>
@@ -2354,10 +2801,10 @@
                             <img class="w-full object-cover" src="../img/soc/soc_500.svg"
                                 alt="">
                         </figure>
-                        
+
                         {{-- <article>
                             <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/GeOVAG1Bfz8?si=r2ihOrxI6uEWI0IU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                            
+
                         </article> --}}
                         <br>
                         <div
@@ -2374,15 +2821,15 @@
                                 <br>
                                 <p>El padre Olveira también hizo hincapié en la importancia de la organización comunitaria como forma de resistencia frente a la deshumanización que, según sus palabras, caracteriza a la gestión nacional actual. La jornada fue, en definitiva, un testimonio del poder de la solidaridad y de la necesidad de seguir construyendo redes de apoyo en tiempos difíciles.</p>
                                 <br>
-                                
-                                
-                                
+
+
+
                                 <div class="text-start object-center">
                                     {{-- <figure>
                                         <img class="w-28 h-28  "
                                             src="{{ asset('../img/der/Adri.svg') }}"
                                             alt="">
-                                        
+
                                         <p> <strong>Nota de Adriana Zerdín</strong></p>
 
                                     </figure>  --}}
@@ -2395,7 +2842,7 @@
         </ul>
     </section>
         {{--NUEVOS CASOS DE VIRUELA DEL MONO EN EL CONURBANO..--}}
-    <section> 
+    <section>
         <ul>
             <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
                 <article>
@@ -2414,10 +2861,10 @@
                             <img class="w-full object-cover" src="../img/soc/soc_viruela.svg"
                                 alt="">
                         </figure>
-                        
+
                         {{-- <article>
                             <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/GeOVAG1Bfz8?si=r2ihOrxI6uEWI0IU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                            
+
                         </article> --}}
                         <br>
                         <div
@@ -2438,14 +2885,14 @@
                                 <br>
                                 <p>Las autoridades recomiendan que cualquier persona con síntomas o antecedentes de viaje consulte inmediatamente a un hospital, mientras refuerzan las medidas preventivas de higiene y distanciamiento para evitar nuevos contagios.</p>
                                 <br>
-                                
-                                
+
+
                                 <div class="text-start object-center">
                                     {{-- <figure>
                                         <img class="w-28 h-28  "
                                             src="{{ asset('../img/der/Adri.svg') }}"
                                             alt="">
-                                        
+
                                         <p> <strong>Nota de Adriana Zerdín</strong></p>
 
                                     </figure>  --}}
@@ -2458,7 +2905,7 @@
         </ul>
     </section>
         {{--EL GOBIERNO ENTREGA EL PATRIMONIO NACIONAL AL PRIVADO..--}}
-    <section> 
+    <section>
     <ul>
         <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
             <article>
@@ -2477,10 +2924,10 @@
                         <img class="w-full object-cover" src="../img/soc/soc_patri.svg"
                             alt="">
                     </figure>
-                    
+
                     {{-- <article>
                         <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/GeOVAG1Bfz8?si=r2ihOrxI6uEWI0IU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        
+
                     </article> --}}
                     <br>
                     <div
@@ -2500,13 +2947,13 @@
                             <br>
                             <p>La excusa de la "eficiencia" no es más que una cortina de humo. Lo que realmente se busca es que el Estado argentino ceda su rol a favor de corporaciones extranjeras que verán sus arcas crecer mientras los argentinos pagamos las consecuencias. Cada vez más, el gobierno actual parece decidido a despojar al país de su propio futuro.</p>
                             <br>
-                            
+
                             <div class="text-start object-center">
                                 {{-- <figure>
                                     <img class="w-28 h-28  "
                                         src="{{ asset('../img/der/Adri.svg') }}"
                                         alt="">
-                                    
+
                                     <p> <strong>Nota de Adriana Zerdín</strong></p>
 
                                 </figure>  --}}
@@ -2519,7 +2966,7 @@
     </ul>
     </section>
         {{--TAXISTAS ACUSAN A ENTIDADES EMPRESARIALES Y SINDICALES..--}}
-    <section> 
+    <section>
         <ul>
             <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
                 <article>
@@ -2538,10 +2985,10 @@
                             <img class="w-full object-cover" src="../img/soc/soc_taxistas.svg"
                                 alt="">
                         </figure>
-                        
+
                         {{-- <article>
                             <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/GeOVAG1Bfz8?si=r2ihOrxI6uEWI0IU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                            
+
                         </article> --}}
                         <br>
                         <div
@@ -2557,15 +3004,15 @@
                                 <br>
                                 <p>Por ello, convocan a una asamblea el próximo 31 de agosto a las 14:00 horas en Amancio Alcorta y Ramón Carrillo, donde discutirán el futuro de la actividad y las acciones a seguir. Agradecen la difusión de esta convocatoria.</p>
                                 <br>
-                                
-                                
-                                
+
+
+
                                 <div class="text-start object-center">
                                     {{-- <figure>
                                         <img class="w-28 h-28  "
                                             src="{{ asset('../img/der/Adri.svg') }}"
                                             alt="">
-                                        
+
                                         <p> <strong>Nota de Adriana Zerdín</strong></p>
 
                                     </figure>  --}}
@@ -2578,7 +3025,7 @@
         </ul>
     </section>
         {{--ROMERO EL MÁS ‘CASTA’ DEL SENADO ASEGURÓ SU FORTUNA IMPULSANDO UN AUMENTO DE 8 MILLONES..--}}
-    <section> 
+    <section>
         <ul>
             <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
                 <article>
@@ -2597,10 +3044,10 @@
                             <img class="w-full object-cover" src="../img/soc/soc_casta.svg"
                                 alt="">
                         </figure>
-                        
+
                         {{-- <article>
                             <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/GeOVAG1Bfz8?si=r2ihOrxI6uEWI0IU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                            
+
                         </article> --}}
                         <br>
                         <div
@@ -2626,14 +3073,14 @@
                                 <br>
                                 <p>Así, mientras Juan Carlos Romero sigue manejando los hilos en Salta y sumando ceros a su cuenta bancaria, el pueblo salteño muere de hambre.</p>
                                 <br>
-                                
-                                
+
+
                                 <div class="text-start object-center">
                                     {{-- <figure>
                                         <img class="w-28 h-28  "
                                             src="{{ asset('../img/der/Adri.svg') }}"
                                             alt="">
-                                        
+
                                         <p> <strong>Nota de Adriana Zerdín</strong></p>
 
                                     </figure>  --}}
@@ -2646,7 +3093,7 @@
         </ul>
     </section>
         {{--INAUGURACIÓN DE LA CASA BONAERENSE DE LA PATRIA ES EL OTRO--}}
-    <section> 
+    <section>
         <ul>
             <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
                 <article>
@@ -2665,17 +3112,17 @@
                             <img class="w-full object-cover" src="../img/soc/soc_lapatria.svg"
                                 alt="">
                         </figure>
-                        
+
                         {{-- <article>
                             <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/GeOVAG1Bfz8?si=r2ihOrxI6uEWI0IU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                            
+
                         </article> --}}
                         <br>
                         <div
                             class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
                             <div class=" font-sans text-lg text-left col-span-6  ">
 
-                                <p>La casa bonaerense de la organización La Patria es el Otro, ubicada en el centro de La Plata, fue inaugurada con un evento que combinó apoyo a la gestión de Axel Kicillof, homenajes y críticas al actual contexto político. Andrés Larroque, anfitrión y ministro de Desarrollo de la Comunidad, subrayó la importancia de la autocrítica y la necesidad de pedir perdón al pueblo argentino por los desafíos que enfrenta el peronismo. 
+                                <p>La casa bonaerense de la organización La Patria es el Otro, ubicada en el centro de La Plata, fue inaugurada con un evento que combinó apoyo a la gestión de Axel Kicillof, homenajes y críticas al actual contexto político. Andrés Larroque, anfitrión y ministro de Desarrollo de la Comunidad, subrayó la importancia de la autocrítica y la necesidad de pedir perdón al pueblo argentino por los desafíos que enfrenta el peronismo.
                                 </p>
                                 <br>
                                 <p>El acto, realizado en la calle 40 de La Plata, contó con la presencia de figuras destacadas como el intendente de La Plata, Julio Alak, el de Ensenada, Mario Secco, y los ministros Carlos Bianco y Walter Correa, así como la jefa de asesores del gobierno, Cristina Álvarez Rodríguez. La casa, abarrotada de militantes y representantes de más de 40 organizaciones, reflejó la vitalidad y el compromiso de La Patria es el Otro en un contexto político complicado para el peronismo.</p>
@@ -2686,14 +3133,14 @@
                                 <br>
                                 <p>La inauguración también rindió homenaje a Ana Herrán de Castagneto, una militante peronista fallecida recientemente. La ceremonia incluyó un minuto de aplausos en su honor, resaltando su contribución al movimiento y su legado.</p>
                                 <br>
-                                
-                                
+
+
                                 <div class="text-start object-center">
                                     {{-- <figure>
                                         <img class="w-28 h-28  "
                                             src="{{ asset('../img/der/Adri.svg') }}"
                                             alt="">
-                                        
+
                                         <p> <strong>Nota de Adriana Zerdín</strong></p>
 
                                     </figure>  --}}
@@ -2706,7 +3153,7 @@
         </ul>
     </section>
     {{--EL CAMINO DE PISTARINI..--}}
-    <section> 
+    <section>
         <ul>
             <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
                 <article>
@@ -2725,17 +3172,17 @@
                             <img class="w-full object-cover" src="../img/soc/soc_pistarini2.svg"
                                 alt="">
                         </figure>
-                        
+
                         {{-- <article>
                             <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/GeOVAG1Bfz8?si=r2ihOrxI6uEWI0IU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                            
+
                         </article> --}}
                         <br>
                         <div
                             class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
                             <div class=" font-sans text-lg text-left col-span-6  ">
 
-                                <p>Construida en 1948, la Autopista Riccheri es la primera autovía del país, comunicando la Av. General Paz con el Aeropuerto Internacional de Ezeiza, inaugurado el 12 de marzo de 1949. En su momento, se consideró uno de los más grandes del mundo, y su infraestructura es tan sólida que no fue necesario modificar las pistas para acomodar a las aeronaves modernas más grandes y pesadas. 
+                                <p>Construida en 1948, la Autopista Riccheri es la primera autovía del país, comunicando la Av. General Paz con el Aeropuerto Internacional de Ezeiza, inaugurado el 12 de marzo de 1949. En su momento, se consideró uno de los más grandes del mundo, y su infraestructura es tan sólida que no fue necesario modificar las pistas para acomodar a las aeronaves modernas más grandes y pesadas.
                                 </p>
                                 <br>
                                 <p>A tan solo 3 kilómetros del aeropuerto, se encuentra el Barrio Uno, creado en 1944 como un barrio residencial. Este lugar albergó al viejo hospital de Ezeiza, inaugurado en 1949 y posteriormente reubicado en la localidad de Unión Ferroviaria del Partido de Ezeiza.</p>
@@ -2746,14 +3193,14 @@
                                 <br>
                                 <p>Juan Pistarini, ministro de Obras Públicas del gobierno de Juan Domingo Perón, ya había ocupado el mismo puesto durante la presidencia de Agustín P. Justo, cuando presentó por primera vez la idea de construir el Aeropuerto Internacional de Ezeiza. Un dato curioso es que Pistarini realizó miles de kilómetros de rutas e infraestructura para el cambio del sentido de circulación; hasta el 6 de junio de 1945, se circulaba por la mano izquierda, siguiendo el sistema inglés.</p>
                                 <br>
-                                
-                                
+
+
                                 <div class="text-start object-center">
                                     {{-- <figure>
                                         <img class="w-28 h-28  "
                                             src="{{ asset('../img/der/Adri.svg') }}"
                                             alt="">
-                                        
+
                                         <p> <strong>Nota de Adriana Zerdín</strong></p>
 
                                     </figure>  --}}
@@ -2766,7 +3213,7 @@
         </ul>
     </section>
         {{--ALLANAN SEDE DE UTEP Y BLOQUEAN COMEDOR COMUNITARIO..--}}
-    <section> 
+    <section>
         <ul>
             <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
                 <article>
@@ -2785,17 +3232,17 @@
                             <img class="w-full object-cover" src="../img/soc/soc_utep2.svg"
                                 alt="">
                         </figure>
-                        
+
                         {{-- <article>
                             <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/GeOVAG1Bfz8?si=r2ihOrxI6uEWI0IU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                            
+
                         </article> --}}
                         <br>
                         <div
                             class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
                             <div class=" font-sans text-lg text-left col-span-6  ">
 
-                                <p>En un comunicado, UTEP criticó el operativo ordenado por el juez Julián Ercolini, que, según indican, irrumpió de manera violenta en el lugar. “Preguntaron por una cooperativa que ni siquiera tiene domicilio en este espacio”, detalla el comunicado. En paralelo, al menos 15 cooperativas fueron allanadas en la Ciudad de Buenos Aires y el conurbano. 
+                                <p>En un comunicado, UTEP criticó el operativo ordenado por el juez Julián Ercolini, que, según indican, irrumpió de manera violenta en el lugar. “Preguntaron por una cooperativa que ni siquiera tiene domicilio en este espacio”, detalla el comunicado. En paralelo, al menos 15 cooperativas fueron allanadas en la Ciudad de Buenos Aires y el conurbano.
                                 </p>
                                 <br>
                                 <p><b>Operativo cuestionado</b></p>
@@ -2808,13 +3255,13 @@
                                 <br>
                                 <p>A la espera de la conclusión del operativo, UTEP cuestiona la temporalidad del allanamiento, vinculándolo con eventos recientes del 7 de agosto. “No nos dejaremos intimidar por esta persecución y hostigamiento hacia las organizaciones populares”, concluye el comunicado.</p>
                                 <br>
-                                
+
                                 <div class="text-start object-center">
                                     {{-- <figure>
                                         <img class="w-28 h-28  "
                                             src="{{ asset('../img/der/Adri.svg') }}"
                                             alt="">
-                                        
+
                                         <p> <strong>Nota de Adriana Zerdín</strong></p>
 
                                     </figure>  --}}
@@ -2827,7 +3274,7 @@
         </ul>
     </section>
         {{--PLATAFORMA DIGITAL DE UTPBA: UNA APUESTA POR LA COMUNICACIÓN PROPIA..--}}
-    <section> 
+    <section>
         <ul>
             <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
                 <article>
@@ -2846,17 +3293,17 @@
                             <img class="w-full object-cover" src="../img/soc/soc_utpba2.svg"
                                 alt="">
                         </figure>
-                        
+
                         {{-- <article>
                             <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/GeOVAG1Bfz8?si=r2ihOrxI6uEWI0IU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                            
+
                         </article> --}}
                         <br>
                         <div
                             class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
                             <div class=" font-sans text-lg text-left col-span-6  ">
 
-                                <p>En un evento realizado en su sede de Avenida de Mayo, la UTPBA presentó DATA.U, una plataforma que integra contenidos en múltiples formatos, incluyendo archivos digitales y en papel, radio streaming, y estudios para filmación y televisión. Los asistentes tuvieron la oportunidad de explorar las nuevas herramientas de comunicación, como cámaras de realidad virtual, y reflexionar sobre la evolución del periodismo. 
+                                <p>En un evento realizado en su sede de Avenida de Mayo, la UTPBA presentó DATA.U, una plataforma que integra contenidos en múltiples formatos, incluyendo archivos digitales y en papel, radio streaming, y estudios para filmación y televisión. Los asistentes tuvieron la oportunidad de explorar las nuevas herramientas de comunicación, como cámaras de realidad virtual, y reflexionar sobre la evolución del periodismo.
                                 </p>
                                 <br>
                                 <p>Leandro Torres, secretario general de la UTPBA, destacó la importancia de mantener una comunicación propia frente a las corporaciones mediáticas. Enfatizó la necesidad de generar contenidos independientes, citando la histórica afirmación de la UTPBA: “No hay democracia informativa sin democracia económica”. Torres subrayó que la plataforma DATA.U permitirá distribuir contenidos audiovisuales, gráficos y radiales de manera directa a los afiliados y a la Federación Latinoamericana de Prensa (FELAP), promoviendo una visión inclusiva y no elitista del periodismo.</p>
@@ -2865,15 +3312,15 @@
                                 <br>
                                 <p>Torres criticó la concentración mediática y defendió la idea de que “todos somos comunicadores”. Señaló que la UTPBA enfrenta resistencia de sectores empresariales y mediáticos tradicionales, pero reafirmó su compromiso con una comunicación equitativa y diversa, libre de agendas impuestas por el poder económico.</p>
                                 <br>
-                                
-                                
-                                
+
+
+
                                 <div class="text-start object-center">
                                     {{-- <figure>
                                         <img class="w-28 h-28  "
                                             src="{{ asset('../img/der/Adri.svg') }}"
                                             alt="">
-                                        
+
                                         <p> <strong>Nota de Adriana Zerdín</strong></p>
 
                                     </figure>  --}}
@@ -2886,7 +3333,7 @@
         </ul>
     </section>
         {{--CRISTINA FERNÁNDEZ: "FALTA INVESTIGAR A LOS LOS AUTORES INTELECTUALES”..--}}
-    <section> 
+    <section>
         <ul>
             <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
                 <article>
@@ -2905,17 +3352,17 @@
                             <img class="w-full object-cover" src="../img/soc/soc_cristinak.svg"
                                 alt="">
                         </figure>
-                        
+
                         {{-- <article>
                             <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/GeOVAG1Bfz8?si=r2ihOrxI6uEWI0IU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                            
+
                         </article> --}}
                         <br>
                         <div
                             class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
                             <div class=" font-sans text-lg text-left col-span-6  ">
 
-                                <p>Este miércoles, en el marco del proceso judicial por el atentado en su contra, Cristina Fernández de Kirchner declaró como testigo ante el Tribunal Oral Federal 6. La ex vicepresidenta afirmó que enfrentó a los autores materiales del ataque, pero no a los intelectuales que lo habrían planificado. 
+                                <p>Este miércoles, en el marco del proceso judicial por el atentado en su contra, Cristina Fernández de Kirchner declaró como testigo ante el Tribunal Oral Federal 6. La ex vicepresidenta afirmó que enfrentó a los autores materiales del ataque, pero no a los intelectuales que lo habrían planificado.
                                 </p>
                                 <br>
                                 <p>La audiencia comenzó a las 9:34 con la presencia de los principales acusados: Fernando Sabag Montiel, Brenda Uliarte y Nicolás Carrizo, miembros de “La banda de Los Copitos”. Sabag Montiel, autor material del intento de homicidio, confesó: “Yo quería matar a Cristina y Brenda Uliarte quería que muriera”. Uliarte, en chats revelados tras el atentado, había expresado su deseo de atacar a Fernández y su autodenominación como la “libertadora de Argentina”.</p>
@@ -2928,14 +3375,14 @@
                                 <br>
                                 <p>La defensa de Kirchner argumentó que la organización vinculada a los acusados recibió fondos de Caputo Hermanos S.A., de los hermanos del ministro de Economía Luis Caputo, pero la jueza decidió no incluir esta información en el juicio.</p>
                                 <br>
-                                
-                                
+
+
                                 <div class="text-start object-center">
                                     {{-- <figure>
                                         <img class="w-28 h-28  "
                                             src="{{ asset('../img/der/Adri.svg') }}"
                                             alt="">
-                                        
+
                                         <p> <strong>Nota de Adriana Zerdín</strong></p>
 
                                     </figure>  --}}
@@ -2948,7 +3395,7 @@
         </ul>
     </section>
         {{--KICILLOF IMPULSA LA CREACIÓN DE UNA UNIDAD PARA BUSCAR A LOS NIETOS APROPIADOS..--}}
-    <section> 
+    <section>
         <ul>
             <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
                 <article>
@@ -2967,17 +3414,17 @@
                             <img class="w-full object-cover" src="../img/soc/soc_kicinietes2.svg"
                                 alt="">
                         </figure>
-                        
+
                         {{-- <article>
                             <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/GeOVAG1Bfz8?si=r2ihOrxI6uEWI0IU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                            
+
                         </article> --}}
                         <br>
                         <div
                             class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
                             <div class=" font-sans text-lg text-left col-span-6  ">
 
-                                <p>El gobernador Axel Kicillof ha anunciado la creación de la Unidad Provincial Especializada para la búsqueda de personas apropiadas, en respuesta al desmantelamiento de la Comisión Nacional por el Derecho a la Identidad (CONADI) y al reciente decreto 727/2024, que desactivó la Unidad Especial de Investigación de la Desaparición de Niños. Esta nueva unidad, dependiente del Ministerio de Justicia bonaerense, se enfocará en la búsqueda de bebés apropiados durante la última dictadura cívico-militar, estimando que la mitad de estos casos podrían corresponder a personas nacidas en la provincia de Buenos Aires. 
+                                <p>El gobernador Axel Kicillof ha anunciado la creación de la Unidad Provincial Especializada para la búsqueda de personas apropiadas, en respuesta al desmantelamiento de la Comisión Nacional por el Derecho a la Identidad (CONADI) y al reciente decreto 727/2024, que desactivó la Unidad Especial de Investigación de la Desaparición de Niños. Esta nueva unidad, dependiente del Ministerio de Justicia bonaerense, se enfocará en la búsqueda de bebés apropiados durante la última dictadura cívico-militar, estimando que la mitad de estos casos podrían corresponder a personas nacidas en la provincia de Buenos Aires.
                                 </p>
                                 <br>
                                 <p>Matías Moreno, subsecretario de Derechos Humanos de la provincia, detalló que la unidad recibirá denuncias, solicitará documentación y coordinará con organismos nacionales para realizar pericias genéticas en el Banco Nacional de Datos Genéticos. La creación de esta unidad responde al compromiso provincial con la memoria, verdad, justicia y reparación, en contraste con el desmantelamiento de la CONADI por parte del gobierno nacional.</p>
@@ -2988,14 +3435,14 @@
                                 <br>
                                 <p>Roberto Cipriano, miembro de la Comisión Provincial por la Memoria, celebró la creación de la unidad, considerándola indispensable para continuar la búsqueda de identidades aún no recuperadas. Cipriano criticó al Gobierno nacional por no abordar adecuadamente el tema y por promover una narrativa que minimiza los efectos de la dictadura, resaltando la importancia de mantener el compromiso con la memoria y la justicia.</p>
                                 <br>
-                                
-                                
+
+
                                 <div class="text-start object-center">
                                     {{-- <figure>
                                         <img class="w-28 h-28  "
                                             src="{{ asset('../img/der/Adri.svg') }}"
                                             alt="">
-                                        
+
                                         <p> <strong>Nota de Adriana Zerdín</strong></p>
 
                                     </figure>  --}}
@@ -3008,7 +3455,7 @@
         </ul>
     </section>
         {{--LA INFLACIÓN DE JULIO SIGUE CASTIGANDO LOS BOLSILLOS..--}}
-    <section> 
+    <section>
         <ul>
             <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
                 <article>
@@ -3027,17 +3474,17 @@
                             <img class="w-full object-cover" src="../img/soc/soc_inflacion.svg"
                                 alt="">
                         </figure>
-                        
+
                         {{-- <article>
                             <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/GeOVAG1Bfz8?si=r2ihOrxI6uEWI0IU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                            
+
                         </article> --}}
                         <br>
                         <div
                             class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
                             <div class=" font-sans text-lg text-left col-span-6  ">
 
-                                <p>El Instituto Nacional de Estadística y Censos (INDEC) publicó este miércoles el dato de inflación de julio, que fue de 4%, apenas una leve desaceleración respecto a junio. Este índice muestra un alza interanual del 263,4%, un golpe contundente a los bolsillos que pone en evidencia la incapacidad del gobierno de Javier Milei para controlar la suba de precios. 
+                                <p>El Instituto Nacional de Estadística y Censos (INDEC) publicó este miércoles el dato de inflación de julio, que fue de 4%, apenas una leve desaceleración respecto a junio. Este índice muestra un alza interanual del 263,4%, un golpe contundente a los bolsillos que pone en evidencia la incapacidad del gobierno de Javier Milei para controlar la suba de precios.
                                 </p>
                                 <br>
                                 <p>A pesar de las promesas del ministro de Economía, Luis Caputo, de que la inflación comenzaría con un "tres adelante", la barrera del 4% aún no ha sido quebrada. Desde que Milei asumió, la inflación acumulada ya llega al 91,9%, reflejando una falta de medidas eficaces para detener la espiral inflacionaria. Además, el consumo sigue en picada: las ventas en supermercados cayeron un 10,6% en términos interanuales y un 0,2% respecto a junio, lo que refleja el impacto directo de la inflación en la capacidad de compra de los argentinos.</p>
@@ -3050,13 +3497,13 @@
                                 <br>
                                 <p>A medida que la inflación sigue siendo un problema persistente, el gobierno de Javier Milei enfrenta un desafío cada vez mayor para cumplir con sus promesas de campaña. Las expectativas de una inflación a la baja parecen cada vez más lejanas, mientras que los argentinos continúan soportando el peso de una economía que no logra estabilizarse. La pregunta que surge es cuánto más podrán resistir los sectores más golpeados antes de que las consecuencias sociales se vuelvan insostenibles.</p>
                                 <br>
-                                
+
                                 <div class="text-start object-center">
                                     {{-- <figure>
                                         <img class="w-28 h-28  "
                                             src="{{ asset('../img/der/Adri.svg') }}"
                                             alt="">
-                                        
+
                                         <p> <strong>Nota de Adriana Zerdín</strong></p>
 
                                     </figure>  --}}
@@ -3069,7 +3516,7 @@
         </ul>
     </section>
         {{--MILEI PODRÍA VETAR EL AUMENTO DE JUBILACIONES SI SE APRUEBA EN EL SENADO..--}}
-    <section> 
+    <section>
         <ul>
             <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
                 <article>
@@ -3088,17 +3535,17 @@
                             <img class="w-full object-cover" src="../img/soc/soc_veto.svg"
                                 alt="">
                         </figure>
-                        
+
                         {{-- <article>
                             <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/GeOVAG1Bfz8?si=r2ihOrxI6uEWI0IU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                            
+
                         </article> --}}
                         <br>
                         <div
                             class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
                             <div class=" font-sans text-lg text-left col-span-6  ">
 
-                                <p>El bloque de Unión por la Patria y parte de la UCR se unieron en el Senado para avanzar en un proyecto que incrementa las jubilaciones un 8,1% y modifica la fórmula de movilidad. Esta iniciativa, que ya obtuvo media sanción en la Cámara de Diputados en junio, está a punto de llegar al recinto del Senado esta semana. 
+                                <p>El bloque de Unión por la Patria y parte de la UCR se unieron en el Senado para avanzar en un proyecto que incrementa las jubilaciones un 8,1% y modifica la fórmula de movilidad. Esta iniciativa, que ya obtuvo media sanción en la Cámara de Diputados en junio, está a punto de llegar al recinto del Senado esta semana.
                                 </p>
                                 <br>
                                 <p>El presidente Javier Milei ha reaccionado de manera contundente ante la posibilidad de que el Senado apruebe el proyecto, advirtiendo que vetará la medida si se convierte en ley. Milei ha calificado a los legisladores que apoyan el proyecto como "degenerados fiscales" y ha señalado que su gobierno no comprometerá el "déficit cero". En un posteo en redes sociales, Milei argumentó que la aprobación de la ley implicaría un aumento en el riesgo país y una subida en la tasa de interés, lo que exacerbaría la inflación y la decadencia económica que, según él, ha afectado al país durante un siglo.</p>
@@ -3107,14 +3554,14 @@
                                 <br>
                                 <p>Si el Senado aprueba el proyecto, Milei tiene la opción de vetarlo, pero según el artículo 83 de la Constitución nacional, el proyecto regresaría a la Cámara de Diputados. Si Diputados decide insistir en el proyecto y consigue los dos tercios necesarios, el Senado tendría que volver a considerar la ley, y Milei no podría aplicar el veto una vez más.</p>
                                 <br>
-                                
-                                
+
+
                                 <div class="text-start object-center">
                                     {{-- <figure>
                                         <img class="w-28 h-28  "
                                             src="{{ asset('../img/der/Adri.svg') }}"
                                             alt="">
-                                        
+
                                         <p> <strong>Nota de Adriana Zerdín</strong></p>
 
                                     </figure>  --}}
@@ -3127,7 +3574,7 @@
         </ul>
     </section>
     {{--HOMENAJE A ENVAR EL KADRI EN PLAZA FLORES....--}}
-    <section> 
+    <section>
         <ul>
             <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
                 <article>
@@ -3146,17 +3593,17 @@
                             <img class="w-full object-cover" src="../img/soc/soc_enva2.svg"
                                 alt="">
                         </figure>
-                        
+
                         {{-- <article>
                             <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/GeOVAG1Bfz8?si=r2ihOrxI6uEWI0IU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                            
+
                         </article> --}}
                         <br>
                         <div
                             class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
                             <div class=" font-sans text-lg text-left col-span-6  ">
 
-                                <p>El pasado viernes 9 de agosto, se llevó a cabo en Plaza Flores un emotivo acto para restituir una placa en homenaje a Envar El Kadri, destacado militante de la Resistencia Peronista. La ceremonia, aprobada por la Legislatura de CABA, fue organizada por la familia de El Kadri, con la participación de su hermana Susana Eva El Kadri, la agrupación Peronismo de Base Envar El Kadri y diversos referentes políticos y de Derechos Humanos. 
+                                <p>El pasado viernes 9 de agosto, se llevó a cabo en Plaza Flores un emotivo acto para restituir una placa en homenaje a Envar El Kadri, destacado militante de la Resistencia Peronista. La ceremonia, aprobada por la Legislatura de CABA, fue organizada por la familia de El Kadri, con la participación de su hermana Susana Eva El Kadri, la agrupación Peronismo de Base Envar El Kadri y diversos referentes políticos y de Derechos Humanos.
                                 </p>
                                 <br>
                                 <p>Envar "Cacho" El Kadri, nacido en Río Cuarto en 1941 y fallecido en Tilcara en 1998, fue un valiente líder del movimiento peronista. Desde temprana edad, El Kadri resistió la dictadura que derrocó a Juan Domingo Perón, trabajando incansablemente por su retorno. En 1960, fue encarcelado por tenencia de explosivos y recuperó su libertad con la amnistía de 1963 decretada por Arturo Illia. Fundador de las Fuerzas Armadas Peronistas, El Kadri se exilió en París durante la dictadura cívico-militar de 1976. A su regreso al país, se destacó como productor de cine junto a Pino Solanas y productor musical de Miguel Ángel Estrella.</p>
@@ -3165,14 +3612,14 @@
                                 <br>
                                 <p>En un contexto de violencia política y económica impulsada por las oligarquías y las dictaduras militares, Envar El Kadri se destacó por su firme compromiso con la resistencia popular y la lucha por el retorno del peronismo.</p>
                                 <br>
-                                
-                                
+
+
                                 <div class="text-start object-center">
                                     {{-- <figure>
                                         <img class="w-28 h-28  "
                                             src="{{ asset('../img/der/Adri.svg') }}"
                                             alt="">
-                                        
+
                                         <p> <strong>Nota de Adriana Zerdín</strong></p>
 
                                     </figure>  --}}
@@ -3185,7 +3632,7 @@
         </ul>
     </section>
         {{--EL GOBIERNO PUSO EN VENTA CUATRO CENTRALES....--}}
-    <section> 
+    <section>
         <ul>
             <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
                 <article>
@@ -3204,17 +3651,17 @@
                             <img class="w-full object-cover" src="../img/soc/soc_hidro2.svg"
                                 alt="">
                         </figure>
-                        
+
                         {{-- <article>
                             <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/GeOVAG1Bfz8?si=r2ihOrxI6uEWI0IU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                            
+
                         </article> --}}
                         <br>
                         <div
                             class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
                             <div class=" font-sans text-lg text-left col-span-6  ">
 
-                                <p>El gobierno de Javier Milei ha anunciado la venta de cuatro centrales hidroeléctricas esenciales para la generación y distribución de energía en Argentina. Mediante un decreto reciente, se estableció un plazo de 180 días para la privatización de las plantas Alicurá, el Chocón, Cerros Colorados y Piedra del Águila, ubicadas en la región del Comahue, entre Neuquén y Río Negro. El decreto 718/2024, firmado por Milei, el ministro Luis Caputo y el jefe de Gabinete Guillermo Francos, ordena la renovación de concesiones vencidas y la convocatoria a un concurso público nacional e internacional para la venta del paquete accionario mayoritario o controlante de estas centrales. 
+                                <p>El gobierno de Javier Milei ha anunciado la venta de cuatro centrales hidroeléctricas esenciales para la generación y distribución de energía en Argentina. Mediante un decreto reciente, se estableció un plazo de 180 días para la privatización de las plantas Alicurá, el Chocón, Cerros Colorados y Piedra del Águila, ubicadas en la región del Comahue, entre Neuquén y Río Negro. El decreto 718/2024, firmado por Milei, el ministro Luis Caputo y el jefe de Gabinete Guillermo Francos, ordena la renovación de concesiones vencidas y la convocatoria a un concurso público nacional e internacional para la venta del paquete accionario mayoritario o controlante de estas centrales.
                                 </p>
                                 <br>
                                 <p>Actualmente, las plantas están operadas por Orazul Energy (Cerros Colorados), ENEL Generación (El Chocón-Arroyito), AES SA (Alicurá) y Central Puerto SA (Piedra del Águila). El decreto aclara que, aunque las concesiones de estas plantas fueron transferidas al sector privado anteriormente, están ahora en un período de transición.</p>
@@ -3223,14 +3670,14 @@
                                 <br>
                                 <p>Este movimiento marca un cambio significativo en la gestión de los recursos energéticos del país y podría tener implicaciones importantes para la soberanía energética y el control estatal de sectores estratégicos.</p>
                                 <br>
-                                
-                                
+
+
                                 <div class="text-start object-center">
                                     {{-- <figure>
                                         <img class="w-28 h-28  "
                                             src="{{ asset('../img/der/Adri.svg') }}"
                                             alt="">
-                                        
+
                                         <p> <strong>Nota de Adriana Zerdín</strong></p>
 
                                     </figure>  --}}
@@ -3243,7 +3690,7 @@
         </ul>
     </section>
         {{--RIESGO DE PÉRDIDA DE SOBERANÍA POR PRIVATIZACIÓN....--}}
-    <section> 
+    <section>
         <ul>
             <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
                 <article>
@@ -3262,17 +3709,17 @@
                             <img class="w-full object-cover" src="../img/soc/soc_fabrica.svg"
                                 alt="">
                         </figure>
-                        
+
                         {{-- <article>
                             <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/GeOVAG1Bfz8?si=r2ihOrxI6uEWI0IU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                            
+
                         </article> --}}
                         <br>
                         <div
                             class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
                             <div class=" font-sans text-lg text-left col-span-6  ">
 
-                                <p>El Gobierno Nacional enfrenta crecientes críticas por su intención de transformar Fabricaciones Militares en una Sociedad Anónima (S.A.), lo que permitiría la participación de capitales privados, incluidos inversores extranjeros. Este cambio podría tener serias repercusiones para la soberanía del país y la seguridad nacional, al comprometer el control estatal sobre una industria clave para la defensa. 
+                                <p>El Gobierno Nacional enfrenta crecientes críticas por su intención de transformar Fabricaciones Militares en una Sociedad Anónima (S.A.), lo que permitiría la participación de capitales privados, incluidos inversores extranjeros. Este cambio podría tener serias repercusiones para la soberanía del país y la seguridad nacional, al comprometer el control estatal sobre una industria clave para la defensa.
                                 </p>
                                 <br>
                                 <p>Fabricaciones Militares ha sido una pieza clave en la infraestructura de defensa del país, produciendo armamento y equipamiento estratégico. La privatización significaría no solo un cambio en la estructura legal, sino también una posible pérdida de control sobre estas capacidades estratégicas. La entrada de capitales privados podría trasladar el poder de decisión a actores externos, debilitando la capacidad del país para gestionar sus recursos y asegurar su independencia en áreas críticas.</p>
@@ -3281,14 +3728,14 @@
                                 <br>
                                 <p>La privatización de sectores estratégicos como Fabricaciones Militares refleja una tendencia preocupante de ajuste y desmantelamiento de recursos estatales vitales. La entrega de estas empresas a manos extranjeras no solo debilita la soberanía económica y política del país, sino que también representa un desafío significativo para la seguridad nacional. La comunidad y las autoridades deben considerar con urgencia las implicancias de estas políticas y actuar para proteger la autonomía y los intereses estratégicos del país.</p>
                                 <br>
-                                
-                                
+
+
                                 <div class="text-start object-center">
                                     {{-- <figure>
                                         <img class="w-28 h-28  "
                                             src="{{ asset('../img/der/Adri.svg') }}"
                                             alt="">
-                                        
+
                                         <p> <strong>Nota de Adriana Zerdín</strong></p>
 
                                     </figure>  --}}
@@ -3301,7 +3748,7 @@
         </ul>
     </section>
         {{--FIRMAN CONVENIO PARA COMBATIR LA TRATA DE PERSONAS EN BUENOS AIRES....--}}
-    <section> 
+    <section>
         <ul>
             <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
                 <article>
@@ -3320,17 +3767,17 @@
                             <img class="w-full object-cover" src="../img/soc/soc_convenio.svg"
                                 alt="">
                         </figure>
-                        
+
                         {{-- <article>
                             <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/GeOVAG1Bfz8?si=r2ihOrxI6uEWI0IU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                            
+
                         </article> --}}
                         <br>
                         <div
                             class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
                             <div class=" font-sans text-lg text-left col-span-6  ">
 
-                                <p>En un importante paso para fortalecer la lucha contra la trata de personas y la explotación sexual infantil, los ministros Walter Correa y Juan Martín Mena firmaron un convenio de colaboración. El acuerdo permitirá coordinar esfuerzos entre el Ministerio de Trabajo y el de Justicia de la Provincia de Buenos Aires para mejorar la prevención, detección y persecución de estos delitos. Además, se enfocará en proporcionar asistencia integral a las víctimas. 
+                                <p>En un importante paso para fortalecer la lucha contra la trata de personas y la explotación sexual infantil, los ministros Walter Correa y Juan Martín Mena firmaron un convenio de colaboración. El acuerdo permitirá coordinar esfuerzos entre el Ministerio de Trabajo y el de Justicia de la Provincia de Buenos Aires para mejorar la prevención, detección y persecución de estos delitos. Además, se enfocará en proporcionar asistencia integral a las víctimas.
                                 </p>
                                 <br>
                                 <p>Durante la firma del convenio, realizada en el Auditorio "Hebe de Bonafini" de la Secretaría de Derechos Humanos, Correa destacó el notable aumento en las inspecciones realizadas en la Provincia, que han crecido un 150% en el último año y medio. "El compromiso y trabajo de los empleados del Estado bonaerense han sido fundamentales para este incremento. Estamos abordando la trata y explotación de forma integral, colaborando directamente en los territorios y con organizaciones sindicales", afirmó Correa.</p>
@@ -3339,14 +3786,14 @@
                                 <br>
                                 <p>El evento también incluyó la Plenaria 2024 de la Oficina para la Lucha contra la Trata de Personas, que reunió a representantes de diversos organismos y organizaciones civiles. Esta colaboración interinstitucional busca garantizar una respuesta efectiva y coordinada frente a estos graves delitos en la Provincia de Buenos Aires.</p>
                                 <br>
-                                
-                                
+
+
                                 <div class="text-start object-center">
                                     {{-- <figure>
                                         <img class="w-28 h-28  "
                                             src="{{ asset('../img/der/Adri.svg') }}"
                                             alt="">
-                                        
+
                                         <p> <strong>Nota de Adriana Zerdín</strong></p>
 
                                     </figure>  --}}
@@ -3359,7 +3806,7 @@
         </ul>
     </section>
         {{--MASIVA MARCHA CONTRA LA CRISIS DE MILEI....--}}
-    <section> 
+    <section>
         <ul>
             <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
                 <article>
@@ -3378,17 +3825,17 @@
                             <img class="w-full object-cover" src="../img/soc/soc_cayetano2.svg"
                                 alt="">
                         </figure>
-                        
+
                         {{-- <article>
                             <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/GeOVAG1Bfz8?si=r2ihOrxI6uEWI0IU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                            
+
                         </article> --}}
                         <br>
                         <div
                             class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
                             <div class=" font-sans text-lg text-left col-span-6  ">
 
-                                <p>En una jornada marcada por la protesta social, movimientos sociales, la CGT, las CTA y diversos partidos políticos protagonizaron una masiva marcha desde el Santuario de San Cayetano en Liniers hasta la Plaza de Mayo, denunciando la crisis social y laboral bajo el gobierno de Javier Milei. 
+                                <p>En una jornada marcada por la protesta social, movimientos sociales, la CGT, las CTA y diversos partidos políticos protagonizaron una masiva marcha desde el Santuario de San Cayetano en Liniers hasta la Plaza de Mayo, denunciando la crisis social y laboral bajo el gobierno de Javier Milei.
                                 </p>
                                 <br>
                                 <p>Desde temprano, la Ciudad de Buenos Aires fue escenario de la resistencia, comenzando con una ceremonia religiosa encabezada por el arzobispo porteño Jorge García Cuerva y el vicario general Gustavo Carrara. La peregrinación avanzó por la Avenida Rivadavia, culminando en Plaza de Mayo con un acto central donde se leyó un documento crítico hacia la gestión actual. Las organizaciones denunciaron una “emergencia alimentaria, social y laboral” que afecta a millones de argentinos.</p>
@@ -3399,13 +3846,13 @@
                                 <br>
                                 <p>La marcha de San Cayetano reflejó la creciente resistencia y la demanda de cambio frente a la crisis que vive Argentina bajo el gobierno de Milei, mostrando una vez más la capacidad de movilización y unidad de los sectores sociales y sindicales en defensa de los derechos fundamentales de la población.</p>
                                 <br>
-                                
+
                                 <div class="text-start object-center">
                                     {{-- <figure>
                                         <img class="w-28 h-28  "
                                             src="{{ asset('../img/der/Adri.svg') }}"
                                             alt="">
-                                        
+
                                         <p> <strong>Nota de Adriana Zerdín</strong></p>
 
                                     </figure>  --}}
@@ -3418,7 +3865,7 @@
         </ul>
     </section>
         {{--VIGILANCIA TOTALITARIA: LA NUEVA....--}}
-    <section> 
+    <section>
         <ul>
             <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
                 <article>
@@ -3437,17 +3884,17 @@
                             <img class="w-full object-cover" src="../img/soc/soc_uiaas.svg"
                                 alt="">
                         </figure>
-                        
+
                         {{-- <article>
                             <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/GeOVAG1Bfz8?si=r2ihOrxI6uEWI0IU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                            
+
                         </article> --}}
                         <br>
                         <div
                             class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
                             <div class=" font-sans text-lg text-left col-span-6  ">
 
-                                <p>El Ministerio de Seguridad de la Nación ha anunciado la creación de la Unidad de Inteligencia Artificial Aplicada a la Seguridad (UIAAS), un organismo que promete intensificar el control digital en la lucha contra los delitos cibernéticos. Este nuevo aparato de vigilancia, coordinado por el Director de Ciberdelito y Asuntos Cibernéticos, incorporará tecnologías avanzadas como el reconocimiento facial y la vigilancia mediante drones, con la participación de las principales fuerzas federales del país. 
+                                <p>El Ministerio de Seguridad de la Nación ha anunciado la creación de la Unidad de Inteligencia Artificial Aplicada a la Seguridad (UIAAS), un organismo que promete intensificar el control digital en la lucha contra los delitos cibernéticos. Este nuevo aparato de vigilancia, coordinado por el Director de Ciberdelito y Asuntos Cibernéticos, incorporará tecnologías avanzadas como el reconocimiento facial y la vigilancia mediante drones, con la participación de las principales fuerzas federales del país.
                                 </p>
                                 <br>
                                 <p>Sin embargo, la implementación de esta unidad ha generado un fuerte rechazo entre defensores de los derechos humanos y expertos en privacidad. El informe de la ONU, dirigido por la relatora especial Fionnuala Ní Aoláin, advierte sobre el uso peligroso de tecnologías intrusivas que, bajo la retórica de la lucha antiterrorista, pueden comprometer gravemente derechos fundamentales como la privacidad, la libertad de expresión y el derecho a la reunión pacífica.</p>
@@ -3465,7 +3912,7 @@
                                         <img class="w-28 h-28  "
                                             src="{{ asset('../img/der/Adri.svg') }}"
                                             alt="">
-                                        
+
                                         <p> <strong>Nota de Adriana Zerdín</strong></p>
 
                                     </figure>  --}}
@@ -3478,7 +3925,7 @@
         </ul>
     </section>
         {{--PRESENTAN PROYECTO PARA ASEGURAR Y AMPLIAR--}}
-    <section> 
+    <section>
         <ul>
             <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
                 <article>
@@ -3497,17 +3944,17 @@
                             <img class="w-full object-cover" src="../img/soc/soc_jovenes.svg"
                                 alt="">
                         </figure>
-                        
+
                         {{-- <article>
                             <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/GeOVAG1Bfz8?si=r2ihOrxI6uEWI0IU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                            
+
                         </article> --}}
                         <br>
                         <div
                             class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
                             <div class=" font-sans text-lg text-left col-span-6  ">
 
-                                <p>En el marco del compromiso con los derechos de los adolescentes y jóvenes sin cuidados parentales, y en contraposición a la arbitraria decisión de la ministra de Capital Humano Sandra Pettovello, la diputada nacional impulsa modificar el Artículo 21 de la Ley 27.634, para garantizar una asignación económica mensual para este universo de jóvenes para que puedan cubrir sus necesidades esenciales de alimentación, vivienda, vestimenta, salud y educación, reduciendo desigualdades y ofreciendo una oportunidad justa de desarrollo en su transición a la vida adulta. 
+                                <p>En el marco del compromiso con los derechos de los adolescentes y jóvenes sin cuidados parentales, y en contraposición a la arbitraria decisión de la ministra de Capital Humano Sandra Pettovello, la diputada nacional impulsa modificar el Artículo 21 de la Ley 27.634, para garantizar una asignación económica mensual para este universo de jóvenes para que puedan cubrir sus necesidades esenciales de alimentación, vivienda, vestimenta, salud y educación, reduciendo desigualdades y ofreciendo una oportunidad justa de desarrollo en su transición a la vida adulta.
                                 </p>
                                 <br>
                                 <p>Según el proyecto la asignación económica, que hoy corresponde al 80 % del Salario Mínimo Vital y Móvil ($187.452,09), se ajustará para ser equivalente a la de una Canasta Básica Total (CBT) para un Adulto calculada por el INDEC, completando un total de $282.579 a día de hoy.</p>
@@ -3525,7 +3972,7 @@
                                         <img class="w-28 h-28  "
                                             src="{{ asset('../img/der/Adri.svg') }}"
                                             alt="">
-                                        
+
                                         <p> <strong>Nota de Adriana Zerdín</strong></p>
 
                                     </figure>  --}}
@@ -3538,7 +3985,7 @@
         </ul>
     </section>
         {{--BUENOS AIRES Y SUS MUSEOS: UN RECORRIDO IMPERDIBLE--}}
-    <section> 
+    <section>
         <ul>
             <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
                 <article>
@@ -3557,17 +4004,17 @@
                             <img class="w-full object-cover" src="../img/soc/soc_museos2.svg"
                                 alt="">
                         </figure>
-                        
+
                         {{-- <article>
                             <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/GeOVAG1Bfz8?si=r2ihOrxI6uEWI0IU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                            
+
                         </article> --}}
                         <br>
                         <div
                             class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
                             <div class=" font-sans text-lg text-left col-span-6  ">
 
-                                <p>Buenos Aires es una ciudad que vibra con historia y cultura, y sus museos son testigos silenciosos de esa rica herencia. Desde el arte hasta la ciencia, cada museo ofrece una experiencia única, invitando a los visitantes a explorar y descubrir. 
+                                <p>Buenos Aires es una ciudad que vibra con historia y cultura, y sus museos son testigos silenciosos de esa rica herencia. Desde el arte hasta la ciencia, cada museo ofrece una experiencia única, invitando a los visitantes a explorar y descubrir.
                                 </p>
                                 <br>
                                 <p>ARCHIVO Y MUSEO HISTÓRICOS DEL BANCO DE LA PROVINCIA DE BUENOS AIRES “DR. ARTURO JAURETCHE”</p>
@@ -3666,7 +4113,7 @@
                                         <img class="w-28 h-28  "
                                             src="{{ asset('../img/der/Adri.svg') }}"
                                             alt="">
-                                        
+
                                         <p> <strong>Nota de Adriana Zerdín</strong></p>
 
                                     </figure>  --}}
@@ -3679,7 +4126,7 @@
         </ul>
     </section>
         {{--MENTIRAS QUE GOBIERNAN: HÉCTOR SOSA--}}
-    <section> 
+    <section>
         <ul>
             <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
                 <article>
@@ -3698,17 +4145,17 @@
                             <img class="w-full object-cover" src="../img/soc/soc_sosa.svg"
                                 alt="">
                         </figure> --}}
-                        
+
                         <article>
                             <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/GeOVAG1Bfz8?si=r2ihOrxI6uEWI0IU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                            
+
                         </article>
                         <br>
                         <div
                             class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
                             <div class=" font-sans text-lg text-left col-span-6  ">
 
-                                <p>La entrevista con Héctor Sosa ofrece una perspectiva incisiva sobre cómo se construyen y perpetúan las mentiras en la arena política y económica. Con una trayectoria en la comunicación y el periodismo económico, Sosa examina cómo los datos se manipulan y las narrativas se crean para influir en la opinión pública. 
+                                <p>La entrevista con Héctor Sosa ofrece una perspectiva incisiva sobre cómo se construyen y perpetúan las mentiras en la arena política y económica. Con una trayectoria en la comunicación y el periodismo económico, Sosa examina cómo los datos se manipulan y las narrativas se crean para influir en la opinión pública.
                                 </p>
                                 <br>
                                 <p>"Hoy el 60% de la información que circula en las redes es mentira. No solo en Argentina, sino en la región y a nivel global. La mentira se construye con elementos técnicos y científicos, no solo con trolls que hacen chistes", explica Sosa. Según él, la desinformación no es un fenómeno aislado, sino una estrategia meticulosamente elaborada que incluye tanto la distorsión de datos como el ocultamiento sistemático de información relevante.</p>
@@ -3724,15 +4171,15 @@
                                 <br>
                                 <p>Sosa destaca que, a pesar de la manipulación generalizada, la verdad eventualmente sale a la luz. "Lo que se oculta por un dique terminará encontrando su camino a través de las fisuras", concluye.</p>
                                 <br>
-                               
-                                
+
+
 
                                 <div class="text-start object-center">
                                     {{-- <figure>
                                         <img class="w-28 h-28  "
                                             src="{{ asset('../img/der/Adri.svg') }}"
                                             alt="">
-                                        
+
                                         <p> <strong>Nota de Adriana Zerdín</strong></p>
 
                                     </figure>  --}}
@@ -3745,7 +4192,7 @@
         </ul>
     </section>
         {{--EL ARBOLITO DE LA PLAZA MITRE--}}
-    <section> 
+    <section>
         <ul>
             <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
                 <article>
@@ -3764,17 +4211,17 @@
                             <img class="w-full object-cover" src="../img/soc/soc_arbolito.svg"
                                 alt="">
                         </figure>
-                        
+
                         {{-- <article>
                             <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/Z8erUjiM40o?si=cY0HKLmYrrwJbmcA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                            
+
                         </article> --}}
                         <br>
                         <div
                             class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
                             <div class=" font-sans text-lg text-left col-span-6  ">
 
-                                <p>El motivo de este escrito es contar una historia que aconteció en el Combate de las Vizcacheras, donde se enfrentaron los indios ranqueles, que apoyaban a los federales, y las fuerzas unitarias comandadas por el coronel Federico Rauch. 
+                                <p>El motivo de este escrito es contar una historia que aconteció en el Combate de las Vizcacheras, donde se enfrentaron los indios ranqueles, que apoyaban a los federales, y las fuerzas unitarias comandadas por el coronel Federico Rauch.
                                 </p>
                                 <br>
                                 <p>Rauch era un prusiano nacido en Weinheim que vino a esta tierra en 1819 bajo el ala de Juan Martín de Pueyrredón y, con apenas 33 años, alcanzó el grado de coronel. En 1826, el entonces presidente Bernardino Rivadavia le encomienda la expansión del territorio en lo que posteriormente se llamó "Campañas previas a la Conquista del Desierto". Sí, nos guste o no, la creación del estado argentino se basó en la usurpación de territorio a pueblos indígenas.</p>
@@ -3788,15 +4235,15 @@
                                 <br>
                                 <p>Este relato no solo pone en relieve la valentía de los ranqueles, sino también la complejidad y brutalidad de la historia argentina en su camino hacia la conformación de un estado nacional. El Castillo de Rauch, testigo mudo de estos eventos, sigue siendo un símbolo de las luchas y resistencias que marcaron nuestro pasado.</p>
                                 <br>
-                               
-                                
+
+
 
                                 <div class="text-start object-center">
                                     {{-- <figure>
                                         <img class="w-28 h-28  "
                                             src="{{ asset('../img/der/Adri.svg') }}"
                                             alt="">
-                                        
+
                                         <p> <strong>Nota de Adriana Zerdín</strong></p>
 
                                     </figure>  --}}
@@ -3809,7 +4256,7 @@
         </ul>
     </section>
         {{--EL GOBIERNO INTERVIENE LA UNIVERSIDAD DE LAS MADRES--}}
-    <section> 
+    <section>
         <ul>
             <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
                 <article>
@@ -3828,17 +4275,17 @@
                             <img class="w-full object-cover" src="../img/soc/soc_unma.svg"
                                 alt="">
                         </figure>
-                        
+
                         {{-- <article>
                             <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/Z8erUjiM40o?si=cY0HKLmYrrwJbmcA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                            
+
                         </article> --}}
                         <br>
                         <div
                             class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
                             <div class=" font-sans text-lg text-left col-span-6  ">
 
-                                <p>El jueves 25 de julio, horas antes de que las Madres de Plaza de Mayo iniciaran su marcha semanal número 2415, el gobierno de Javier Milei dio a conocer una resolución de su ministra Sandra Pettovello, que establece la intervención de la Universidad Nacional Madres de Plaza de Mayo. Una provocación. 
+                                <p>El jueves 25 de julio, horas antes de que las Madres de Plaza de Mayo iniciaran su marcha semanal número 2415, el gobierno de Javier Milei dio a conocer una resolución de su ministra Sandra Pettovello, que establece la intervención de la Universidad Nacional Madres de Plaza de Mayo. Una provocación.
                                 </p>
                                 <br>
                                 <p>Como cuando un juez de Comodoro Py quiso detener a Hebe de Bonafini, en agosto de 2016, la medida fue dictada un jueves, día de la histórica movilización de las Madres alrededor de la Pirámide de Mayo. El goce perfecto del gobierno maldito.</p>
@@ -3864,14 +4311,14 @@
                                 <br>
                                 <p>Fue el primer movimiento de otro siguiente: la intervención. Ni siquiera así el gobierno podrá detener el proyecto de las Madres de Plaza de Mayo. Desde el jueves 25, cuando se conoció el decreto, se sucedieron múltiples muestras de solidaridad que auguran un futuro de dura resistencia para su Universidad, pero con grandes posibilidades de triunfo. Este gobierno va a pasar, y la Universidad de las Madres, producto de sus 47 años de lucha, seguirá. Qué duda cabe.</p>
                                 <br>
-                                
+
 
                                 <div class="text-start object-center">
                                     {{-- <figure>
                                         <img class="w-28 h-28  "
                                             src="{{ asset('../img/der/Adri.svg') }}"
                                             alt="">
-                                        
+
                                         <p> <strong>Nota de Adriana Zerdín</strong></p>
 
                                     </figure>  --}}
@@ -3884,7 +4331,7 @@
         </ul>
     </section>
         {{--EVITA Y EL MONCADA LA PATRIA LIBERADA--}}
-    <section> 
+    <section>
         <ul>
             <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
                 <article>
@@ -3903,17 +4350,17 @@
                             <img class="w-full object-cover" src="../img/soc/soc_evamoncada2.svg"
                                 alt="">
                         </figure>
-                        
+
                         {{-- <article>
                             <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/Z8erUjiM40o?si=cY0HKLmYrrwJbmcA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                            
+
                         </article> --}}
                         <br>
                         <div
                             class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
                             <div class=" font-sans text-lg text-left col-span-6  ">
 
-                                <p>El 26 de julio es una fecha de gran significado en la historia de América Latina, uniendo dos eventos cruciales en la lucha por la justicia y la liberación: la muerte de Eva Perón en 1952 y el asalto al Cuartel Moncada en 1953. Aunque separados por un año y diferentes contextos nacionales, ambos acontecimientos simbolizan la resistencia contra la opresión y la búsqueda de un futuro más equitativo para sus respectivos pueblos. 
+                                <p>El 26 de julio es una fecha de gran significado en la historia de América Latina, uniendo dos eventos cruciales en la lucha por la justicia y la liberación: la muerte de Eva Perón en 1952 y el asalto al Cuartel Moncada en 1953. Aunque separados por un año y diferentes contextos nacionales, ambos acontecimientos simbolizan la resistencia contra la opresión y la búsqueda de un futuro más equitativo para sus respectivos pueblos.
                                 </p>
                                 <br>
                                 <p>Eva Perón, conocida cariñosamente como Evita, falleció el 26 de julio de 1952, dejando un legado imborrable en Argentina. Como Primera Dama y figura clave en el gobierno de Juan Domingo Perón, Evita se convirtió en un símbolo de lucha por los derechos de los trabajadores y las mujeres. A través de la Fundación Eva Perón, promovió una amplia gama de iniciativas sociales, desde la construcción de hospitales y escuelas hasta la entrega de viviendas a los sectores más vulnerables. Su carisma y dedicación consolidaron el apoyo popular al peronismo, transformando la política argentina.</p>
@@ -3927,17 +4374,17 @@
                                 <br>
                                 <p>Hoy, en Argentina y Cuba, se recuerda y celebra a estos héroes que, cada uno a su manera, contribuyeron a la liberación de sus patrias. Sus legados perduran como testimonio de que la justicia social y la libertad son ideales por los que vale la pena luchar, uniendo a los pueblos en una causa común de dignidad y soberanía.</p>
                                 <br>
-                                
-                                
-                                
-                                
+
+
+
+
 
                                 <div class="text-start object-center">
                                     {{-- <figure>
                                         <img class="w-28 h-28  "
                                             src="{{ asset('../img/der/Adri.svg') }}"
                                             alt="">
-                                        
+
                                         <p> <strong>Nota de Adriana Zerdín</strong></p>
 
                                     </figure>  --}}
@@ -3950,7 +4397,7 @@
         </ul>
     </section>
         {{--UTOPÍAS: IMAGINANDO UNA SOCIEDAD SIN INJUSTICIAS--}}
-    <section> 
+    <section>
         <ul>
             <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
                 <article>
@@ -3969,17 +4416,17 @@
                             <img class="w-full object-cover" src="../img/soc/soc_utopias.svg"
                                 alt="">
                         </figure>
-                        
+
                         {{-- <article>
                             <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/Z8erUjiM40o?si=cY0HKLmYrrwJbmcA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                            
+
                         </article> --}}
                         <br>
                         <div
                             class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
                             <div class=" font-sans text-lg text-left col-span-6  ">
 
-                                <p>El término "utopía" apareció en el siglo XVI, gracias a Tomás Moro, quien en 1516 publicó su obra Utopía. En esta novela, Moro describe una isla ficticia con 54 ciudades donde se elimina la propiedad privada y el lucro financiero. En este modelo, la jornada laboral se reduce a seis horas diarias y se organiza de forma rotativa entre el campo y la ciudad. La igualdad y la equidad son los pilares de esta sociedad, donde todos poseen vestimentas iguales y los recursos se distribuyen equitativamente. Moro, sorprendentemente abogado, prescinde de los abogados en su utopía, ya que considera que la simplificación legal elimina las causas de los conflictos. 
+                                <p>El término "utopía" apareció en el siglo XVI, gracias a Tomás Moro, quien en 1516 publicó su obra Utopía. En esta novela, Moro describe una isla ficticia con 54 ciudades donde se elimina la propiedad privada y el lucro financiero. En este modelo, la jornada laboral se reduce a seis horas diarias y se organiza de forma rotativa entre el campo y la ciudad. La igualdad y la equidad son los pilares de esta sociedad, donde todos poseen vestimentas iguales y los recursos se distribuyen equitativamente. Moro, sorprendentemente abogado, prescinde de los abogados en su utopía, ya que considera que la simplificación legal elimina las causas de los conflictos.
                                 </p>
                                 <br>
                                 <p>Al igual que La República de Platón, Utopía se presenta en un "no lugar" imaginario. La utopía, que literalmente significa "lugar que no existe", busca ofrecer una crítica constructiva a las sociedades contemporáneas, imaginando un futuro más justo y equitativo.</p>
@@ -3995,16 +4442,16 @@
                                 <br>
                                 <p>Las utopías, en última instancia, reflejan los deseos y críticas de sus tiempos. Desde la ficción literaria hasta los intentos de implementación real, estos sueños nos invitan a reflexionar sobre las posibilidades de construir una sociedad más justa. ¿Cómo habría sido el mundo si estas utopías se hubieran materializado? El debate sigue abierto, invitando a la reflexión sobre cómo avanzar hacia una sociedad que garantice justicia y equidad para todos.</p>
                                 <br>
-                                
-                                
-                                
+
+
+
 
                                 <div class="text-start object-center">
                                     {{-- <figure>
                                         <img class="w-28 h-28  "
                                             src="{{ asset('../img/der/Adri.svg') }}"
                                             alt="">
-                                        
+
                                         <p> <strong>Nota de Adriana Zerdín</strong></p>
 
                                     </figure>  --}}
@@ -4017,7 +4464,7 @@
         </ul>
     </section>
         {{--JUICIO POR EL ATENTADO A CRISTINA:--}}
-    <section> 
+    <section>
         <ul>
             <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
                 <article>
@@ -4036,17 +4483,17 @@
                             <img class="w-full object-cover" src="../img/soc/soc_crisaten.svg"
                                 alt="">
                         </figure>
-                        
+
                         {{-- <article>
                             <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/Z8erUjiM40o?si=cY0HKLmYrrwJbmcA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                            
+
                         </article> --}}
                         <br>
                         <div
                             class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
                             <div class=" font-sans text-lg text-left col-span-6  ">
 
-                                <p>El juicio oral por el intento de asesinato de Cristina Fernández de Kirchner comenzó este miércoles en los tribunales de Comodoro Py. Este proceso judicial no solo busca juzgar a los responsables materiales del atentado, sino también desentrañar las posibles tramas detrás de este acto de violencia política. En un país donde la polarización y el discurso de odio se han intensificado, este juicio representa un momento crucial para la justicia y la democracia argentinas. 
+                                <p>El juicio oral por el intento de asesinato de Cristina Fernández de Kirchner comenzó este miércoles en los tribunales de Comodoro Py. Este proceso judicial no solo busca juzgar a los responsables materiales del atentado, sino también desentrañar las posibles tramas detrás de este acto de violencia política. En un país donde la polarización y el discurso de odio se han intensificado, este juicio representa un momento crucial para la justicia y la democracia argentinas.
                                 </p>
                                 <br>
                                 <p>En las primeras audiencias, los principales acusados, Fernando Sabag Montiel, Brenda Uliarte y Nicolás Carrizo, comparecerán ante los jueces Sabrina Namer, Adrián Grünberg e Ignacio Fornari. Sabag Montiel, quien intentó disparar contra la vicepresidenta el 1 de septiembre de 2022, enfrenta cargos de "homicidio doblemente calificado por alevosía y concurso premeditado de dos o más personas, agravado por el uso de arma de fuego". Uliarte está imputada como coautora y Carrizo como partícipe secundario.</p>
@@ -4064,15 +4511,15 @@
                                 <br>
                                 <p>La sociedad argentina y observadores internacionales seguirán de cerca cada etapa del juicio, esperando que se haga justicia y se sienten precedentes claros contra la violencia política. En estos tiempos de amenaza a la democracia, el juicio por el intento de asesinato de Cristina Fernández es un recordatorio de la importancia de la justicia y la verdad para la construcción de un país más justo y seguro para todos.</p>
                                 <br>
-                                
-                                
+
+
 
                                 <div class="text-start object-center">
                                     {{-- <figure>
                                         <img class="w-28 h-28  "
                                             src="{{ asset('../img/der/Adri.svg') }}"
                                             alt="">
-                                        
+
                                         <p> <strong>Nota de Adriana Zerdín</strong></p>
 
                                     </figure>  --}}
@@ -4085,7 +4532,7 @@
         </ul>
     </section>
         {{--LA ERA UNITARIA--}}
-    <section> 
+    <section>
         <ul>
             <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
                 <article>
@@ -4104,17 +4551,17 @@
                             <img class="w-full object-cover" src="../img/soc/soc_era2.svg"
                                 alt="">
                         </figure>
-                        
+
                         {{-- <article>
                             <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/Z8erUjiM40o?si=cY0HKLmYrrwJbmcA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                            
+
                         </article> --}}
                         <br>
                         <div
                             class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
                             <div class=" font-sans text-lg text-left col-span-6  ">
 
-                                <p>Télam, TV Pública, Radio Nacional, Encuentro, Pakapaka, DeporTV, Contar, Aunar, Animar, TEC, Cinear y TDA. Estos nombres tuvieron algo o mucho que ver en nuestras vidas. Son los medios públicos que se encuentran bajo la órbita del Estado nacional, pero que hoy están apagados, desfinanciados o a la deriva. No es casual, es un plan: imponer un mensaje único y porteño, que deje “afuera” lo que pasa en cada rincón del país. 
+                                <p>Télam, TV Pública, Radio Nacional, Encuentro, Pakapaka, DeporTV, Contar, Aunar, Animar, TEC, Cinear y TDA. Estos nombres tuvieron algo o mucho que ver en nuestras vidas. Son los medios públicos que se encuentran bajo la órbita del Estado nacional, pero que hoy están apagados, desfinanciados o a la deriva. No es casual, es un plan: imponer un mensaje único y porteño, que deje “afuera” lo que pasa en cada rincón del país.
                                 </p>
                                 <br>
                                 <p>El plan se inició con la intervención de los medios públicos y la implementación de un proceso de recorte y paralización en cada uno de ellos.</p>
@@ -4147,14 +4594,14 @@
                                 <p><b>Ex coordinador general de la Televisión Digital Abierta (TDA)</b>
                                 </p>
                                 <br>
-                                
+
 
                                 <div class="text-start object-center">
                                     {{-- <figure>
                                         <img class="w-28 h-28  "
                                             src="{{ asset('../img/der/Adri.svg') }}"
                                             alt="">
-                                        
+
                                         <p> <strong>Nota de Adriana Zerdín</strong></p>
 
                                     </figure>  --}}
@@ -4167,7 +4614,7 @@
         </ul>
     </section>
         {{--UN ENCUENTRO MULTIDISCIPLINARIO PARA RECORDAR AL '10'--}}
-    <section> 
+    <section>
         <ul>
             <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
                 <article>
@@ -4186,17 +4633,17 @@
                             <img class="w-full object-cover" src="../img/soc/soc_eldiez.svg"
                                 alt="">
                         </figure>
-                        
+
                         {{-- <article>
                             <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/Z8erUjiM40o?si=cY0HKLmYrrwJbmcA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                            
+
                         </article> --}}
                         <br>
                         <div
                             class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
                             <div class=" font-sans text-lg text-left col-span-6  ">
 
-                                <p>Organizado por la Federación de Organizaciones Deportivas de la Argentina (FODA) y la Revista Meta, el homenaje se llevó a cabo en el emblemático Palacio El Victorial, en San Telmo. Cerca de mil personas transitaron libremente por el espacio, disfrutando de una variedad de actividades diseñadas para celebrar la vida y legado del '10'. 
+                                <p>Organizado por la Federación de Organizaciones Deportivas de la Argentina (FODA) y la Revista Meta, el homenaje se llevó a cabo en el emblemático Palacio El Victorial, en San Telmo. Cerca de mil personas transitaron libremente por el espacio, disfrutando de una variedad de actividades diseñadas para celebrar la vida y legado del '10'.
                                 </p>
                                 <br>
                                 <p>Entre los asistentes se destacó la presencia de Taty Almeida, reconocida defensora de los derechos humanos, quien participó activamente en el evento. Además, se presentó una muestra fotográfica sobre Maradona, diseñada y montada por Somos Télam, que capturó la esencia del eterno capitán del seleccionado argentino.</p>
@@ -4208,15 +4655,15 @@
                                 <br>
                                 <p>La 'Peña Maradoniana' no solo celebró la vida de Diego, sino que también reafirmó su impacto perdurable en la sociedad argentina, demostrando que su figura sigue viva en la memoria colectiva de quienes lo admiraron y acompañaron a lo largo de su extraordinaria carrera.</p>
                                 <br>
-                               
-                                
+
+
 
                                 <div class="text-start object-center">
                                     {{-- <figure>
                                         <img class="w-28 h-28  "
                                             src="{{ asset('../img/der/Adri.svg') }}"
                                             alt="">
-                                        
+
                                         <p> <strong>Nota de Adriana Zerdín</strong></p>
 
                                     </figure>  --}}
@@ -4229,7 +4676,7 @@
         </ul>
     </section>
         {{--LIBERAN A DETENIDOS DE LA PROTESTA CONTRA LA LEY DE BASES--}}
-    <section> 
+    <section>
         <ul>
             <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
                 <article>
@@ -4248,17 +4695,17 @@
                             <img class="w-full object-cover" src="../img/soc/soc_presxs.svg"
                                 alt="">
                         </figure>
-                        
+
                         {{-- <article>
                             <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/Z8erUjiM40o?si=cY0HKLmYrrwJbmcA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                            
+
                         </article> --}}
                         <br>
                         <div
                             class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
                             <div class=" font-sans text-lg text-left col-span-6  ">
 
-                                <p>Luego de una masiva marcha en Plaza de Mayo, familiares y organizaciones sociales lograron la liberación de 11 detenides que habían sido arrestados durante una manifestación contra la Ley de Bases. La jueza federal María Servini dictaminó que no había fundamentos suficientes para mantener la detención de estas personas, quedando solo cinco aún privadas de su libertad. 
+                                <p>Luego de una masiva marcha en Plaza de Mayo, familiares y organizaciones sociales lograron la liberación de 11 detenides que habían sido arrestados durante una manifestación contra la Ley de Bases. La jueza federal María Servini dictaminó que no había fundamentos suficientes para mantener la detención de estas personas, quedando solo cinco aún privadas de su libertad.
                                 </p>
                                 <br>
                                 <p>La liberación se produjo tras una intensa movilización el pasado martes 18 de junio, donde miles de personas exigieron el cese de la criminalización de la protesta social. Bajo la consigna “presxs politicxs nunca más”, la marcha reunió a familiares de les detenides, dirigentes políticos y organizaciones sociales, quienes llevaron su reclamo al gobierno de Javier Milei.</p>
@@ -4274,14 +4721,14 @@
                                 <br>
                                 <p>La liberación de estos 11 manifestantes representa un paso significativo en la lucha contra la criminalización de la protesta, y refuerza el compromiso de la sociedad argentina en la defensa de sus derechos fundamentales.</p>
                                 <br>
-                                
+
 
                                 <div class="text-start object-center">
                                     {{-- <figure>
                                         <img class="w-28 h-28  "
                                             src="{{ asset('../img/der/Adri.svg') }}"
                                             alt="">
-                                        
+
                                         <p> <strong>Nota de Adriana Zerdín</strong></p>
 
                                     </figure>  --}}
@@ -4294,7 +4741,7 @@
         </ul>
     </section>
         {{--FALLO HISTÓRICO: ALPEROVICH CONDENADO A 16 AÑOS POR ABUSO SEXUAL--}}
-    <section> 
+    <section>
         <ul>
             <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
                 <article>
@@ -4313,17 +4760,17 @@
                             <img class="w-full object-cover" src="../img/soc/soc_alperovich.svg"
                                 alt="">
                         </figure>
-                        
+
                         {{-- <article>
                             <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/Z8erUjiM40o?si=cY0HKLmYrrwJbmcA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                            
+
                         </article> --}}
                         <br>
                         <div
                             class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
                             <div class=" font-sans text-lg text-left col-span-6  ">
 
-                                <p>José Alperovich, ex gobernador de Tucumán y ex senador, recibió una condena ejemplar de 16 años de prisión por abuso sexual. La sentencia, dictada por el juez Juan Ramos Padilla, es histórica y marca un precedente en la lucha contra la violencia de género en Argentina. 
+                                <p>José Alperovich, ex gobernador de Tucumán y ex senador, recibió una condena ejemplar de 16 años de prisión por abuso sexual. La sentencia, dictada por el juez Juan Ramos Padilla, es histórica y marca un precedente en la lucha contra la violencia de género en Argentina.
                                 </p>
                                 <br>
                                 <p>La sentencia fue leída en la pequeña sala del Tribunal Oral en lo Criminal (TOC) 29, ubicada en la calle Paraguay 1536, de la Ciudad de Buenos Aires. Alperovich se negó a declarar antes del veredicto final, que tuvo lugar a las 20 horas de ayer. El juez Ramos Padilla ordenó su detención inmediata y la investigación de tres personas por falso testimonio.</p>
@@ -4349,7 +4796,7 @@
                                         <img class="w-28 h-28  "
                                             src="{{ asset('../img/der/Adri.svg') }}"
                                             alt="">
-                                        
+
                                         <p> <strong>Nota de Adriana Zerdín</strong></p>
 
                                     </figure>  --}}
@@ -4362,7 +4809,7 @@
         </ul>
     </section>
         {{--203 AÑOS DEL PASO A LA INMORTALIDAD DE MARTÍN MIGUEL DE GÜEMES--}}
-    <section> 
+    <section>
         <ul>
             <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
                 <article>
@@ -4381,17 +4828,17 @@
                             <img class="w-full object-cover" src="../img/soc/soc_guemes.svg"
                                 alt="">
                         </figure>
-                        
+
                         {{-- <article>
                             <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/Z8erUjiM40o?si=cY0HKLmYrrwJbmcA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                            
+
                         </article> --}}
                         <br>
                         <div
                             class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
                             <div class=" font-sans text-lg text-left col-span-6  ">
 
-                                <p>Cada 17 de junio, desde 1999, se celebra en Argentina el Día Nacional de la Libertad Latinoamericana en homenaje a Martín Miguel de Güemes. Este prócer, nacido el 8 de febrero de 1785 en Salta, se destacó como uno de los principales defensores de la independencia argentina, liderando la resistencia contra nueve invasiones españolas entre 1814 y 1821. 
+                                <p>Cada 17 de junio, desde 1999, se celebra en Argentina el Día Nacional de la Libertad Latinoamericana en homenaje a Martín Miguel de Güemes. Este prócer, nacido el 8 de febrero de 1785 en Salta, se destacó como uno de los principales defensores de la independencia argentina, liderando la resistencia contra nueve invasiones españolas entre 1814 y 1821.
                                 </p>
                                 <br>
                                 <p>Güemes comenzó su carrera militar a los 14 años, ingresando como cadete en la Compañía del 3er Batallón del Rey, Fijo de Buenos Aires. Participó activamente en la defensa de Buenos Aires durante las invasiones inglesas de 1806 y 1808. Más tarde, se unió al ejército patriota en el Alto Perú, y jugó un papel crucial en la victoria de la Batalla de Suipacha en 1810.</p>
@@ -4405,14 +4852,14 @@
                                 <br>
                                 <p>Actualmente, los restos de Martín Miguel de Güemes descansan en el Panteón de las Glorias del Norte, en la Catedral Basílica de Salta. Su legado perdura como símbolo de la lucha por la libertad y la independencia de Argentina, y su figura es recordada cada año en este día especial.</p>
                                 <br>
-                                
+
 
                                 <div class="text-start object-center">
                                     {{-- <figure>
                                         <img class="w-28 h-28  "
                                             src="{{ asset('../img/der/Adri.svg') }}"
                                             alt="">
-                                        
+
                                         <p> <strong>Nota de Adriana Zerdín</strong></p>
 
                                     </figure>  --}}
@@ -4425,7 +4872,7 @@
         </ul>
     </section>
         {{--LA VIGENCIA DE PACO URONDO--}}
-    <section> 
+    <section>
         <ul>
             <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
                 <article>
@@ -4444,17 +4891,17 @@
                             <img class="w-full object-cover" src="../img/soc/soc_vigente.svg"
                                 alt="">
                         </figure>
-                        
+
                         {{-- <article>
                             <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/Z8erUjiM40o?si=cY0HKLmYrrwJbmcA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                            
+
                         </article> --}}
                         <br>
                         <div
                             class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
                             <div class=" font-sans text-lg text-left col-span-6  ">
 
-                                <p>El poeta, periodista y militante Paco Urondo dejó una huella imborrable en la literatura argentina. Su obra, cargada de pasión y lucha, resuena hoy más que nunca en un contexto de desafíos políticos y sociales. El poema "En caso de zafarrancho no siga las reglas" es una muestra palpable de su vigencia, invitándonos a resistir con dignidad y a encontrar fuerza en la solidaridad y la poesía. 
+                                <p>El poeta, periodista y militante Paco Urondo dejó una huella imborrable en la literatura argentina. Su obra, cargada de pasión y lucha, resuena hoy más que nunca en un contexto de desafíos políticos y sociales. El poema "En caso de zafarrancho no siga las reglas" es una muestra palpable de su vigencia, invitándonos a resistir con dignidad y a encontrar fuerza en la solidaridad y la poesía.
                                 </p>
                                 <br>
                                 <p><b>«En caso de zafarrancho no siga las reglas…» – Paco Urondo</b></p>
@@ -4479,15 +4926,15 @@
                                 <p>Y eso sí, ser perseverantes y tenaces, escribir religiosamente todos los días, todas las tardes, todas las noches. Aún sostenidos en terquedades si la fe se desmorona. En eso, no habrá tregua para nadie. La poesía les duele a estos hijos de puta.</p>
                                 <p><b>Paco Urondo.</b></p>
                                 <br>
-                                
-                                
+
+
 
                                 <div class="text-start object-center">
                                     {{-- <figure>
                                         <img class="w-28 h-28  "
                                             src="{{ asset('../img/der/Adri.svg') }}"
                                             alt="">
-                                        
+
                                         <p> <strong>Nota de Adriana Zerdín</strong></p>
 
                                     </figure>  --}}
@@ -4500,7 +4947,7 @@
         </ul>
     </section>
         {{--FRANCISCO "PACO" URONDO: LEGADO DE UN ESCRITOR Y MILITANTE ARGENTINO--}}
-    <section> 
+    <section>
         <ul>
             <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
                 <article>
@@ -4519,10 +4966,10 @@
                             <img class="w-full object-cover" src="../img/soc/soc_paco.svg"
                                 alt="">
                         </figure>
-                        
+
                         {{-- <article>
                             <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/Z8erUjiM40o?si=cY0HKLmYrrwJbmcA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                            
+
                         </article> --}}
                         <br>
                         <div
@@ -4542,17 +4989,17 @@
                                 <br>
                                 <p>Urondo estaba casado con la actriz Zulema Katz, y su vida y muerte siguen siendo un testimonio del compromiso y la tragedia que marcaron a una generación de militantes y artistas en Argentina. Su legado como escritor y guerrillero continúa siendo una inspiración y un recordatorio de la lucha por la justicia social y la libertad.</p>
                                 <br>
-                                
 
-                                
-                                
+
+
+
 
                                 <div class="text-start object-center">
                                     {{-- <figure>
                                         <img class="w-28 h-28  "
                                             src="{{ asset('../img/der/Adri.svg') }}"
                                             alt="">
-                                        
+
                                         <p> <strong>Nota de Adriana Zerdín</strong></p>
 
                                     </figure>  --}}
@@ -4565,7 +5012,7 @@
         </ul>
     </section>
         {{--BOMBARDEO EN PLAZA DE MAYO – Comienzo de una tragedia--}}
-    <section> 
+    <section>
         <ul>
             <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
                 <article>
@@ -4584,10 +5031,10 @@
                             <img class="w-full object-cover" src="../img/soc/soc_bomba1.svg"
                                 alt="">
                         </figure>
-                        
+
                         {{-- <article>
                             <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/Z8erUjiM40o?si=cY0HKLmYrrwJbmcA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                            
+
                         </article> --}}
                         <br>
                         <div
@@ -4632,15 +5079,15 @@
                                 <p>Que la memoria no abandone al pueblo.</p>
                                 <br>
 
-                                
-                                
+
+
 
                                 <div class="text-start object-center">
                                     {{-- <figure>
                                         <img class="w-28 h-28  "
                                             src="{{ asset('../img/der/Adri.svg') }}"
                                             alt="">
-                                        
+
                                         <p> <strong>Nota de Adriana Zerdín</strong></p>
 
                                     </figure>  --}}
@@ -4653,7 +5100,7 @@
         </ul>
     </section>
         {{--INFLACIÓN EN MAYO: DESACELERACIÓN, PERO LA CRISIS PERSISTE--}}
-    <section> 
+    <section>
         <ul>
             <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
                 <article>
@@ -4672,10 +5119,10 @@
                             <img class="w-full object-cover" src="../img/soc/soc_infla.svg"
                                 alt="">
                         </figure>
-                        
+
                         {{-- <article>
                             <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/Z8erUjiM40o?si=cY0HKLmYrrwJbmcA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                            
+
                         </article> --}}
                         <br>
                         <div
@@ -4701,15 +5148,15 @@
                                 <br>
                                 <p>En cuanto a los trabajadores, el Instituto de Estadística de los Trabajadores (IET) informó que la inflación fue del 4,7% en mayo, una desaceleración de 4,5 puntos respecto a abril. En lo que va del año, la inflación acumulada para este sector es del 79,2%.</p>
                                 <br>
-                                
-                                
+
+
 
                                 <div class="text-start object-center">
                                     {{-- <figure>
                                         <img class="w-28 h-28  "
                                             src="{{ asset('../img/der/Adri.svg') }}"
                                             alt="">
-                                        
+
                                         <p> <strong>Nota de Adriana Zerdín</strong></p>
 
                                     </figure>  --}}
@@ -4722,7 +5169,7 @@
         </ul>
     </section>
         {{--AMBIENTALISTAS PIDEN AL SENADO QUE NO APRUEBE PRIVILEGIOS.--}}
-    <section> 
+    <section>
         <ul>
             <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
                 <article>
@@ -4741,10 +5188,10 @@
                             <img class="w-full object-cover" src="../img/soc/soc_ambiental.svg"
                                 alt="">
                         </figure>
-                        
+
                         {{-- <article>
                             <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/Z8erUjiM40o?si=cY0HKLmYrrwJbmcA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                            
+
                         </article> --}}
                         <br>
                         <div
@@ -4764,15 +5211,15 @@
                                 <br>
                                 <p>El debate sobre el RIGI promete ser intenso en el Senado, donde las posturas a favor y en contra del proyecto se enfrentarán en un contexto marcado por la preocupación por el medio ambiente y los derechos humanos.</p>
                                 <br>
-                                
-                                
+
+
 
                                 <div class="text-start object-center">
                                     {{-- <figure>
                                         <img class="w-28 h-28  "
                                             src="{{ asset('../img/der/Adri.svg') }}"
                                             alt="">
-                                        
+
                                         <p> <strong>Nota de Adriana Zerdín</strong></p>
 
                                     </figure>  --}}
@@ -4785,7 +5232,7 @@
         </ul>
     </section>
         {{--SOCIALISMO NACIONAL: EL PERONISMO PENDIENTE....--}}
-    <section> 
+    <section>
         <ul>
             <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
                 <article>
@@ -4804,10 +5251,10 @@
                             <img class="w-full object-cover" src="../img/soc/soc_social.svg"
                                 alt="">
                         </figure>
-                        
+
                         {{-- <article>
                             <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/Z8erUjiM40o?si=cY0HKLmYrrwJbmcA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                            
+
                         </article> --}}
                         <br>
                         <div
@@ -4822,7 +5269,7 @@
                                 <p>El mismo Líder que nos anunciaba a sesenta días de morir un modelo argentino para el proyecto nacional, un camino donde alertaba sobre los planes del imperialismo sobre nuestros recursos naturales, los alimentos y el agua dulce y que “vendrían por ellos con nosotros o sin nosotros”, por lo cual los Estados Nación seríamos débiles ante el avance del enemigo, por lo que planteaba la necesidad de construir el Continentalismo, como masa crítica de una batalla asimétrica con el gigante norteamericano, fortalecido agresivamente desde la pos guerra.
                                 </p>
                                 <br>
-                                <p>Nada mejor que reproducir a Perón en sus propias palabras: 
+                                <p>Nada mejor que reproducir a Perón en sus propias palabras:
                                 </p>
                                 <br>
                                 <p>"JUSTICIALISMO SOCIALISMO NACIONAL"</p>
@@ -4847,14 +5294,14 @@
                                 <br>
                                 <p>Recuperar la banderas del Socialismo Nacional es un llamado a la reconstrucción del Movimiento Nacional con sentimiento patriótico, luchando por la Soberanía Nacional, la Independencia Económica y la Justicia Social, en un Mundo que está esperando que nuestro país recupere la historia de lucha y de construcción de conocimiento científico tecnológico, que permita ir hacia un Modelos Social y Productivo solidario, que ha sido ejemplo en los Pueblos Latinoamericanos.</p>
                                 <br>
-                                
+
 
                                 <div class="text-start object-center">
                                     {{-- <figure>
                                         <img class="w-28 h-28  "
                                             src="{{ asset('../img/der/Adri.svg') }}"
                                             alt="">
-                                        
+
                                         <p> <strong>Nota de Adriana Zerdín</strong></p>
 
                                     </figure>  --}}
@@ -4867,7 +5314,7 @@
         </ul>
     </section>
     {{--KICILLOF Y DÍAZ LANZAN LA ESCUELA DE GÉNERO....--}}
-    <section> 
+    <section>
         <ul>
                             <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
                                 <article>
@@ -4885,10 +5332,10 @@
                                             <img class="w-full object-cover" src="../img/soc/soc_escuela.svg"
                                                 alt="">
                                         </figure>
-                                        
+
                                         {{-- <article>
                                             <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/Z8erUjiM40o?si=cY0HKLmYrrwJbmcA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                                            
+
                                         </article> --}}
                                         <br>
                                         <div
@@ -4920,7 +5367,7 @@
                                                         <img class="w-28 h-28  "
                                                             src="{{ asset('../img/der/Adri.svg') }}"
                                                             alt="">
-                                                        
+
                                                         <p> <strong>Nota de Adriana Zerdín</strong></p>
 
                                                     </figure>  --}}
@@ -4934,7 +5381,7 @@
         <br>
     </section>
         {{--LA VOZ INQUEBRANTABLE DEL PERIODISMO COMPROMETIDO--}}
-    <section> 
+    <section>
         <ul>
             <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
                 <article>
@@ -4952,17 +5399,17 @@
                             <img class="w-full object-cover" src="../img/soc/soc_voz2.svg"
                                 alt="">
                         </figure>
-                        
+
                         {{-- <article>
                             <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/Z8erUjiM40o?si=cY0HKLmYrrwJbmcA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                            
+
                         </article> --}}
                         <br>
                         <div
                             class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
                             <div class=" font-sans text-lg text-left col-span-6  ">
 
-                                <p>"Sin esperanza de ser escuchado, con la certeza de ser perseguido, pero fiel al compromiso que asumí hace mucho tiempo de dar testimonio en momentos difíciles." — Rodolfo Walsh 
+                                <p>"Sin esperanza de ser escuchado, con la certeza de ser perseguido, pero fiel al compromiso que asumí hace mucho tiempo de dar testimonio en momentos difíciles." — Rodolfo Walsh
                                 </p>
                                 <br>
                                 <p>El periodismo comprometido es una vocación que trasciende los límites del simple oficio, convirtiéndose en un baluarte de la verdad y la justicia. En una era donde la información puede ser manipulada y la voz del pueblo silenciada, la labor de los periodistas que abrazan esta causa es más esencial que nunca.</p>
@@ -4977,14 +5424,14 @@
                                 <br>
                                 <p>Siguiendo el espíritu de las palabras de Rodolfo Walsh, recordamos la importancia de mantener viva la llama del periodismo ético y comprometido, siempre en defensa del pueblo y de la Patria. Que cada artículo, cada reportaje y cada declaración sea un testimonio de la verdad, una denuncia contra la injusticia y un acto de resistencia en favor de una sociedad mejor.</p>
                                 <br>
-                                
+
 
                                 <div class="text-start object-center">
                                     {{-- <figure>
                                         <img class="w-28 h-28  "
                                             src="{{ asset('../img/der/Adri.svg') }}"
                                             alt="">
-                                        
+
                                         <p> <strong>Nota de Adriana Zerdín</strong></p>
 
                                     </figure>  --}}
@@ -4998,7 +5445,7 @@
         <br>
     </section>
         {{--LA POBREZA EN ARGENTINA ALCANZÓ EL 55,5% EN 2024, SEGÚN LA UCA...--}}
-    <section> 
+    <section>
         <ul>
             <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
                 <article>
@@ -5016,17 +5463,17 @@
                             <img class="w-full object-cover" src="../img/soc/soc_pobreza2.svg"
                                 alt="">
                         </figure>
-                        
+
                         {{-- <article>
                             <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/Z8erUjiM40o?si=cY0HKLmYrrwJbmcA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                            
+
                         </article> --}}
                         <br>
                         <div
                             class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
                             <div class=" font-sans text-lg text-left col-span-6  ">
 
-                                <p>Un estudio del Observatorio de la Deuda Social de la Universidad Católica Argentina (UCA) estimó que la pobreza en Argentina ascendió al 55,5% y la indigencia al 17,5% en el primer trimestre de 2024. La inflación y el aumento de los precios de alimentos son las principales causas de este deterioro social, afectando a casi 25 millones de personas en áreas urbanas. 
+                                <p>Un estudio del Observatorio de la Deuda Social de la Universidad Católica Argentina (UCA) estimó que la pobreza en Argentina ascendió al 55,5% y la indigencia al 17,5% en el primer trimestre de 2024. La inflación y el aumento de los precios de alimentos son las principales causas de este deterioro social, afectando a casi 25 millones de personas en áreas urbanas.
                                 </p>
                                 <br>
                                 <p>En un reciente informe, el Observatorio de la Deuda Social Argentina (ODSA) de la Universidad Católica Argentina (UCA) presentó cifras alarmantes sobre la situación social del país. Durante el primer trimestre de 2024, la pobreza alcanzó al 55,5% de la población, mientras que la indigencia se elevó del 9,6% al 17,5%.</p>
@@ -5051,7 +5498,7 @@
                                         <img class="w-28 h-28  "
                                             src="{{ asset('../img/der/Adri.svg') }}"
                                             alt="">
-                                        
+
                                         <p> <strong>Nota de Adriana Zerdín</strong></p>
 
                                     </figure>  --}}
@@ -5065,7 +5512,7 @@
         <br>
     </section>
         {{--III FORO DE COMUNICACIÓN, DERECHOS HUMANOS Y DEMOCRACIA...--}}
-    <section> 
+    <section>
         <ul>
             <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
                 <article>
@@ -5089,14 +5536,14 @@
                         </figure>
                         {{-- <article>
                             <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/Z8erUjiM40o?si=cY0HKLmYrrwJbmcA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                            
+
                         </article> --}}
                         <br>
                         <div
                             class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
                             <div class=" font-sans text-lg text-left col-span-6  ">
 
-                                <p>El III Foro de Comunicación, Derechos Humanos y Democracia tendrá lugar este viernes 7 de junio a las 18 hs en "El Pulqui Bar", ubicado en Entre Ríos 484, Ciudad Autónoma de Buenos Aires. Este encuentro se celebra en el Día de las y los Periodistas y pretende reflexionar sobre el rol de los medios en la denominada "Era de la crueldad". 
+                                <p>El III Foro de Comunicación, Derechos Humanos y Democracia tendrá lugar este viernes 7 de junio a las 18 hs en "El Pulqui Bar", ubicado en Entre Ríos 484, Ciudad Autónoma de Buenos Aires. Este encuentro se celebra en el Día de las y los Periodistas y pretende reflexionar sobre el rol de los medios en la denominada "Era de la crueldad".
                                 </p>
                                 <br>
                                 <p>El panel del foro estará compuesto por distinguidos profesionales del ámbito de la comunicación y la academia. Entre los participantes se encuentran Diego de Charras, profesor de Derecho a la Información y vicedecano de la Facultad de Ciencias Sociales de la Universidad de Buenos Aires (UBA); Josefina Bolis, doctora en Comunicación y pro-secretaria de Medios y Publicaciones de la Universidad Nacional de La Plata (UNLP); Daniel Rosso, director de AM 530 y de la Maestría en Periodismo y Medios de Comunicación de la UNLP; y Sol Despeinada, médica, sexóloga clínica, especialista en abordaje medicinal de la planta de cannabis y comunicadora en ESI, género y salud sexual y reproductiva.</p>
@@ -5109,14 +5556,14 @@
                                 <br>
                                 <p>El III Foro de Comunicación, Derechos Humanos y Democracia promete ser un espacio de reflexión y debate crucial sobre el papel de los medios en tiempos de adversidad. La participación de destacados expertos y el cierre musical garantizan una tarde enriquecedora tanto para los profesionales de la comunicación como para el público en general.</p>
                                 <br>
-                                
+
 
                                 <div class="text-start object-center">
                                     {{-- <figure>
                                         <img class="w-28 h-28  "
                                             src="{{ asset('../img/der/Adri.svg') }}"
                                             alt="">
-                                        
+
                                         <p> <strong>Nota de Adriana Zerdín</strong></p>
 
                                     </figure>  --}}
@@ -5130,7 +5577,7 @@
         <br>
     </section>
         {{--HOMENAJE A LA GARGANTA PODEROSA: VOZ Y MEMORIA.--}}
-    <section> 
+    <section>
         <ul>
             <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
                 <article>
@@ -5148,17 +5595,17 @@
                             <img class="w-full object-cover" src="../img/soc/soc_levy.svg"
                                 alt="">
                         </figure>
-                        
+
                         {{-- <article>
                             <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/Z8erUjiM40o?si=cY0HKLmYrrwJbmcA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                            
+
                         </article> --}}
                         <br>
                         <div
                             class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
                             <div class=" font-sans text-lg text-left col-span-6  ">
 
-                                <p>La Garganta Poderosa, emblema de la lucha popular, fue homenajeada en la Legislatura porteña en un acto lleno de emoción y memoria. Nacho Levy, destacado referente del movimiento, resaltó la importancia de reconocer la historia y el legado de quienes precedieron a La Poderosa, subrayando la necesidad de unidad y reconocimiento de los sectores postergados. 
+                                <p>La Garganta Poderosa, emblema de la lucha popular, fue homenajeada en la Legislatura porteña en un acto lleno de emoción y memoria. Nacho Levy, destacado referente del movimiento, resaltó la importancia de reconocer la historia y el legado de quienes precedieron a La Poderosa, subrayando la necesidad de unidad y reconocimiento de los sectores postergados.
                                 </p>
                                 <br>
                                 <p>El acto en la Legislatura porteña fue un reconocimiento a La Garganta Poderosa, destacada organización que representa a los sectores populares y lucha por sus derechos. Levy, en su discurso, recordó que la historia de La Poderosa no comenzó con su fundación, sino con los sueños de miles de desaparecidos y vecinos de barrios populares que resistieron y se organizaron.</p>
@@ -5171,14 +5618,14 @@
                                 <br>
                                 <p>En un llamado a la unidad y a la valoración del capital humano de los sectores postergados, Levy destacó la importancia de visibilizar y priorizar sus necesidades. La Garganta Poderosa, a través de su lucha y resistencia, sigue siendo un faro de esperanza y un ejemplo de organización y dignidad en medio de la adversidad.</p>
                                 <br>
-                                
+
 
                                 <div class="text-start object-center">
                                     {{-- <figure>
                                         <img class="w-28 h-28  "
                                             src="{{ asset('../img/der/Adri.svg') }}"
                                             alt="">
-                                        
+
                                         <p> <strong>Nota de Adriana Zerdín</strong></p>
 
                                     </figure>  --}}
@@ -5192,7 +5639,7 @@
         <br>
     </section>
         {{--LA DEFENSA DE LOS MEDIOS PÚBLICOS EN ARGENTINA..--}}
-    <section> 
+    <section>
         <ul>
             <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
                 <article>
@@ -5210,17 +5657,17 @@
                             <img class="w-full object-cover" src="../img/soc/soc_federa.svg"
                                 alt="">
                         </figure> --}}
-                        
+
                         <article>
                             <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/Z8erUjiM40o?si=cY0HKLmYrrwJbmcA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                            
+
                         </article>
                         <br>
                         <div
                             class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
                             <div class=" font-sans text-lg text-left col-span-6  ">
 
-                                <p>En un contexto de incertidumbre y preocupación, Fernando Pedernera, destacado miembro de la comisión directiva de SIPREBA y delegado de la intersindical en Radio Nacional, ha levantado la voz para advertir sobre los riesgos que enfrentan los medios públicos en Argentina. En declaraciones recientes, Pedernera ha señalado que el gobierno actual está considerando la venta de Radio Nacional y el cierre de Télam, la agencia de noticias nacional, lo que representa un grave peligro para la diversidad informativa y la democracia en el país. 
+                                <p>En un contexto de incertidumbre y preocupación, Fernando Pedernera, destacado miembro de la comisión directiva de SIPREBA y delegado de la intersindical en Radio Nacional, ha levantado la voz para advertir sobre los riesgos que enfrentan los medios públicos en Argentina. En declaraciones recientes, Pedernera ha señalado que el gobierno actual está considerando la venta de Radio Nacional y el cierre de Télam, la agencia de noticias nacional, lo que representa un grave peligro para la diversidad informativa y la democracia en el país.
                                 </p>
                                 <br>
                                 <p>Para Pedernera, la defensa de los medios públicos va más allá de una cuestión laboral o sectorial: es un tema de soberanía informativa y de derecho de la ciudadanía a acceder a una información plural y diversa. En un momento en el que la concentración de medios privados es cada vez mayor, los medios públicos juegan un papel fundamental en garantizar que la información llegue de forma equitativa a toda la población.</p>
@@ -5231,15 +5678,15 @@
                                 <p>En un gesto de solidaridad y compromiso, el equipo de ADN Populares se ha unido a la defensa de los medios públicos, reconociendo su importancia en la construcción de una sociedad informada y democrática. Pedernera y su equipo están decididos a resistir cualquier intento de desmantelamiento de los medios públicos, reafirmando su compromiso con la libertad de expresión y la soberanía informativa en Argentina.
                                 </p>
                                 <br>
-                                
-                                
+
+
 
                                 <div class="text-start object-center">
                                     {{-- <figure>
                                         <img class="w-28 h-28  "
                                             src="{{ asset('../img/der/Adri.svg') }}"
                                             alt="">
-                                        
+
                                         <p> <strong>Nota de Adriana Zerdín</strong></p>
 
                                     </figure>  --}}
@@ -5253,7 +5700,7 @@
         <br>
     </section>
         {{--RODOLFO YANZÓN: "LA LUCHA POR LOS DERECHOS HUMANOS Y LA CLASE TRABAJADORA..--}}
-    <section> 
+    <section>
         <ul>
             <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
                 <article>
@@ -5271,17 +5718,17 @@
                             <img class="w-full object-cover" src="../img/soc/soc_federa.svg"
                                 alt="">
                         </figure> --}}
-                        
+
                         <article>
                             <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/c5VP9iT8Pvg?si=giH97dL_Y_icbxF7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                            
+
                         </article>
                         <br>
                         <div
                             class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
                             <div class=" font-sans text-lg text-left col-span-6  ">
 
-                                <p>En el marco de la entrega de los premios Jorge Morresi 2024, Rodolfo Yanzón, reconocido abogado especializado en derechos humanos y miembro destacado de la Liga Argentina por los Derechos del Hombre, fue homenajeado por su incansable lucha por la memoria, la verdad y la justicia. Yanzón, quien también fue querellante en el juicio de la ESMA, recibió este galardón en un acto emotivo donde se destacó su compromiso y trayectoria en la defensa de los derechos humanos en Argentina. 
+                                <p>En el marco de la entrega de los premios Jorge Morresi 2024, Rodolfo Yanzón, reconocido abogado especializado en derechos humanos y miembro destacado de la Liga Argentina por los Derechos del Hombre, fue homenajeado por su incansable lucha por la memoria, la verdad y la justicia. Yanzón, quien también fue querellante en el juicio de la ESMA, recibió este galardón en un acto emotivo donde se destacó su compromiso y trayectoria en la defensa de los derechos humanos en Argentina.
                                 </p>
                                 <br>
                                 <p>Durante la entrega del premio, Yanzón destacó la importancia de la universidad pública y gratuita en su formación como abogado y su vínculo con la clase trabajadora. "Yo vengo de la clase trabajadora y pude ser abogado gracias a la universidad pública gratuita. Nunca me olvidé de ser de esa clase y me voy a morir siendo de la clase trabajadora", afirmó Yanzón, resaltando la importancia de la educación pública en la formación de profesionales comprometidos con la justicia social.</p>
@@ -5295,15 +5742,15 @@
                                 <p>En este sentido, Yanzón resaltó la importancia de la lucha colectiva y la unidad en la defensa de los derechos humanos y la memoria histórica. "Este pueblo no se va a doblegar, hemos dejado claro que no vamos a permitir que se siga reivindicando el pacto de silencio que hemos querido romper en todos estos años", concluyó Yanzón, reafirmando su compromiso y el de toda la sociedad en la búsqueda de justicia y verdad.
                                 </p>
                                 <br>
-                                
-                                
+
+
 
                                 <div class="text-start object-center">
                                     {{-- <figure>
                                         <img class="w-28 h-28  "
                                             src="{{ asset('../img/der/Adri.svg') }}"
                                             alt="">
-                                        
+
                                         <p> <strong>Nota de Adriana Zerdín</strong></p>
 
                                     </figure>  --}}
@@ -5317,7 +5764,7 @@
         <br>
     </section>
         {{--FEDERACIÓN DE MEDIOS DIGITALES..--}}
-    <section> 
+    <section>
         <ul>
             <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
                 <article>
@@ -5335,17 +5782,17 @@
                             <img class="w-full object-cover" src="../img/soc/soc_federa.svg"
                                 alt="">
                         </figure>
-                        
+
                         {{-- <article>
                             <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/UqID0Ip36fk?si=YLUh3qCeGsHV25ll" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                            
+
                         </article> --}}
                         <br>
                         <div
                             class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
                             <div class=" font-sans text-lg text-left col-span-6  ">
 
-                                <p>La presentación tendrá lugar a las 16 horas en la Sala Polivalente del Pasaje Dardo Rocha, en la calle 50 entre 6 y 7. En el evento participarán alrededor de 30 autoridades de cooperativas de medios digitales, radiales, impresos y productoras de contenidos multimediales, quienes abordarán el estado de situación de los medios cooperativos. 
+                                <p>La presentación tendrá lugar a las 16 horas en la Sala Polivalente del Pasaje Dardo Rocha, en la calle 50 entre 6 y 7. En el evento participarán alrededor de 30 autoridades de cooperativas de medios digitales, radiales, impresos y productoras de contenidos multimediales, quienes abordarán el estado de situación de los medios cooperativos.
                                 </p>
                                 <br>
                                 <p>La jornada continuará con una mesa cultural en Esquina América, calle 18 y 71, a partir de las 19 horas, que se transmitirá por streaming en el canal de Youtube de @argmediosok. En este espacio se espera la presencia de funcionarios del Gobierno municipal y provincial, académicos y estudiantes de la carrera de Periodismo y Comunicación Social de la Universidad Nacional de La Plata (UNLP).</p>
@@ -5361,14 +5808,14 @@
                                 <br>
                                 <p>La presentación en La Plata es un paso más en el camino de resistencia y crecimiento de la Federación de Medios Digitales, que busca mantener firmes sus objetivos a pesar de la coyuntura política y económica.</p>
                                 <br>
-                                
+
 
                                 <div class="text-start object-center">
                                     {{-- <figure>
                                         <img class="w-28 h-28  "
                                             src="{{ asset('../img/der/Adri.svg') }}"
                                             alt="">
-                                        
+
                                         <p> <strong>Nota de Adriana Zerdín</strong></p>
 
                                     </figure>  --}}
@@ -5382,7 +5829,7 @@
         <br>
     </section>
         {{--MINIBUSES ELÉCTRICOS RECORRERÁN EL MICROCENTRO PORTEÑO..--}}
-    <section> 
+    <section>
         <ul>
             <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
                 <article>
@@ -5400,17 +5847,17 @@
                             <img class="w-full object-cover" src="../img/soc/soc_mini1.svg"
                                 alt="">
                         </figure>
-                        
+
                         {{-- <article>
                             <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/UqID0Ip36fk?si=YLUh3qCeGsHV25ll" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                            
+
                         </article> --}}
                         <br>
                         <div
                             class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
                             <div class=" font-sans text-lg text-left col-span-6  ">
 
-                                <p>Con el objetivo de avanzar en la descarbonización del transporte público, el Gobierno de la Ciudad de Buenos Aires ha lanzado una licitación pública para la adquisición de 12 minibuses eléctricos. Estos vehículos están destinados a recorrer el Casco Histórico, una zona que abarca desde Retiro hasta Parque Lezama, con un trayecto total de 12.3 kilómetros y 36 paradas. 
+                                <p>Con el objetivo de avanzar en la descarbonización del transporte público, el Gobierno de la Ciudad de Buenos Aires ha lanzado una licitación pública para la adquisición de 12 minibuses eléctricos. Estos vehículos están destinados a recorrer el Casco Histórico, una zona que abarca desde Retiro hasta Parque Lezama, con un trayecto total de 12.3 kilómetros y 36 paradas.
                                 </p>
                                 <br>
                                 <p>El proyecto busca mejorar la conectividad en áreas que fueron afectadas por las obras de puesta en valor realizadas en 2022, las cuales trasladaron las líneas de colectivos que circulaban por calles históricas como Perú, Chacabuco, Bolívar y Defensa hacia los Metrobuses de 9 de Julio y del Bajo. Ahora, los minibuses eléctricos ofrecerán una solución sostenible y eficiente para los residentes y visitantes del microcentro porteño.</p>
@@ -5438,7 +5885,7 @@
                                         <img class="w-28 h-28  "
                                             src="{{ asset('../img/der/Adri.svg') }}"
                                             alt="">
-                                        
+
                                         <p> <strong>Nota de Adriana Zerdín</strong></p>
 
                                     </figure>  --}}
@@ -5452,7 +5899,7 @@
         <br>
     </section>
         {{--LA CIUDAD PLANTARÁ 18.000 ÁRBOLES....--}}
-    <section> 
+    <section>
         <ul>
             <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
                 <article>
@@ -5470,17 +5917,17 @@
                             <img class="w-full object-cover" src="../img/soc/soc_planta.svg"
                                 alt="">
                         </figure>
-                        
+
                         {{-- <article>
                             <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/UqID0Ip36fk?si=YLUh3qCeGsHV25ll" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                            
+
                         </article> --}}
                         <br>
                         <div
                             class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
                             <div class=" font-sans text-lg text-left col-span-6  ">
 
-                                <p>El Gobierno de la Ciudad de Buenos Aires plantará 18.074 árboles en 2024, sumando 3.074 adicionales para reemplazar los árboles caídos durante el temporal de diciembre. Este esfuerzo representa un incremento significativo en el arbolado urbano. 
+                                <p>El Gobierno de la Ciudad de Buenos Aires plantará 18.074 árboles en 2024, sumando 3.074 adicionales para reemplazar los árboles caídos durante el temporal de diciembre. Este esfuerzo representa un incremento significativo en el arbolado urbano.
                                 </p>
                                 <br>
                                 <p>El Ministerio de Espacio Público e Higiene Urbana del Gobierno de la Ciudad de Buenos Aires ha lanzado un ambicioso plan de arbolado que contempla la plantación de 18.074 árboles este año. De estos, 15.000 forman parte del plan maestro de arbolado porteño, mientras que los restantes 3.074 se añadirán para mitigar el impacto del fuerte temporal del 17 de diciembre, que derribó casi 1.000 árboles. Según el ministerio, esto representa un aumento de más del 20% en comparación con los árboles plantados en años anteriores y un incremento del 50% respecto a 2023.</p>
@@ -5498,13 +5945,13 @@
                                 <br>
                                 <p>La reforestación y plantación de árboles es una parte esencial del plan de la Ciudad de Buenos Aires para crear un entorno urbano más sostenible y saludable para sus residentes.</p>
                                 <br>
-                                
+
                                 <div class="text-start object-center">
                                     {{-- <figure>
                                         <img class="w-28 h-28  "
                                             src="{{ asset('../img/der/Adri.svg') }}"
                                             alt="">
-                                        
+
                                         <p> <strong>Nota de Adriana Zerdín</strong></p>
 
                                     </figure>  --}}
@@ -5518,7 +5965,7 @@
         <br>
     </section>
         {{--JORNADA POR LA COMUNICACIÓN Y LA CULTURA--}}
-    <section> 
+    <section>
         <ul>
             <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
                 <article>
@@ -5542,14 +5989,14 @@
                         </figure>
                         {{-- <article>
                             <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/UqID0Ip36fk?si=YLUh3qCeGsHV25ll" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                            
+
                         </article> --}}
                         <br>
                         <div
                             class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
                             <div class=" font-sans text-lg text-left col-span-6  ">
 
-                                <p>La Secretaría de Prensa y Comunicación de la CGT y la Defensoría del Público de Servicios de Comunicación Audiovisual invitan a participar de una jornada en defensa de la comunicación y la cultura como derechos humanos y constitutivos de nuestra identidad nacional. 
+                                <p>La Secretaría de Prensa y Comunicación de la CGT y la Defensoría del Público de Servicios de Comunicación Audiovisual invitan a participar de una jornada en defensa de la comunicación y la cultura como derechos humanos y constitutivos de nuestra identidad nacional.
                                 </p>
                                 <br>
                                 <p>La actividad se realizará el jueves 6 de junio en el Salón Felipe Vallese de la central obrera (Azopardo 802, CABA) a las 15 hs y contará con la participación de Jorge Sola, Secretario de Prensa y Comunicación de la CGT; Luis Cáceres, Secretario General de la Unión Obrera Ladrillera (UOLRA), Mirian Lewin, titular de la Defensoría del Público, Carla Gaudensi, Secretaria General de la Federación Argentina de Trabajadores de Prensa (FATPREN) y trabajadora de Télam y representantes de RADAR (Intersindical de Cultura) La presentación y moderación del panel estará a cargo de la Secretaria de Prensa y Comunicación de la UOLRA, María Van Loy.</p>
@@ -5563,14 +6010,14 @@
                                 <p>Son convocados a esta jornada las y los trabajadores del sector de la cultura y de Télam, Radio Nacional, la TV pública y  contenidos (Paka Paka, Depor tv y Canal Encuentro), la Intersindical de Cultura RADAR, referentes populares, formadores culturales comunitarios,  sindicales, federaciones, representantes de la Organización Internacional del Trabajo (OIT), bibliotecas, iglesias, abogados y abogadas laboralistas y organismos de DDHH.
                                 </p>
                                 <br>
-                                
-                                
+
+
                                 <div class="text-start object-center">
                                     {{-- <figure>
                                         <img class="w-28 h-28  "
                                             src="{{ asset('../img/der/Adri.svg') }}"
                                             alt="">
-                                        
+
                                         <p> <strong>Nota de Adriana Zerdín</strong></p>
 
                                     </figure>  --}}
@@ -5584,7 +6031,7 @@
         <br>
     </section>
         {{--PETTOVELLO Y LOS PLATOS VACÍOS: ACUSACIONES Y CONTRADICCIONES GUBERNAMENTALES--}}
-    <section> 
+    <section>
         <ul>
             <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
                 <article>
@@ -5604,7 +6051,7 @@
                         </figure>
                         {{-- <article>
                             <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/UqID0Ip36fk?si=YLUh3qCeGsHV25ll" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                            
+
                         </article> --}}
                         <br>
                         <div
@@ -5633,13 +6080,13 @@
                                 <br>
                                 <p>El panorama es desalentador. Mientras las necesidades básicas de miles de familias no están siendo satisfechas, toneladas de alimentos permanecen inmovilizadas. “Le declararon la guerra a los pobres”, concluyó Grabois, resumiendo el sentimiento de frustración y urgencia que embarga a quienes están en la primera línea de asistencia en los barrios más afectados por la crisis.</p>
                                 <br>
-                                
+
                                 <div class="text-start object-center">
                                     {{-- <figure>
                                         <img class="w-28 h-28  "
                                             src="{{ asset('../img/der/Adri.svg') }}"
                                             alt="">
-                                        
+
                                         <p> <strong>Nota de Adriana Zerdín</strong></p>
 
                                     </figure>  --}}
@@ -5653,7 +6100,7 @@
         <br>
     </section>
         {{--FLORES CUMPLE 218 Y HABRÁ FESTIVAL EN LOS CENTROS CULTURALES DEL BARRIO--}}
-    <section> 
+    <section>
         <ul>
             <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
                 <article>
@@ -5678,7 +6125,7 @@
                         </figure>
                         {{-- <article>
                             <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/UqID0Ip36fk?si=YLUh3qCeGsHV25ll" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                            
+
                         </article> --}}
                         <br>
                         <div
@@ -5699,13 +6146,13 @@
                                 <p>La programación completa de la Semana de Flores puede encontrarse en @redculturalcomuna7. ¡Ven a celebrar con nosotros el aniversario de Flores, "Donde la cultura florece"!
                                 </p>
                                 <br>
-                                
+
                                 <div class="text-start object-center">
                                     {{-- <figure>
                                         <img class="w-28 h-28  "
                                             src="{{ asset('../img/der/Adri.svg') }}"
                                             alt="">
-                                        
+
                                         <p> <strong>Nota de Adriana Zerdín</strong></p>
 
                                     </figure>  --}}
@@ -5719,7 +6166,7 @@
         <br>
     </section>
         {{--ONU TURISMO PRESENTA LA HERRAMIENTA DIGITAL--}}
-    <section> 
+    <section>
         <ul>
             <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
                 <article>
@@ -5740,7 +6187,7 @@
                         </figure>
                         {{-- <article>
                             <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/UqID0Ip36fk?si=YLUh3qCeGsHV25ll" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                            
+
                         </article> --}}
                         <br>
                         <div
@@ -5769,13 +6216,13 @@
                                 <br>
                                 <p>STAR está disponible para todos los destinos rurales de los Estados Miembros de ONU Turismo, y se ofrece a las autoridades locales interesadas en cuantificar el desarrollo de su turismo y obtener recomendaciones adaptadas a sus necesidades. Esta herramienta forma parte del trabajo de Turismo para el Desarrollo Rural de ONU Turismo, un programa que concibe el turismo como motor del desarrollo y el bienestar rural, valorando y salvaguardando los pueblos rurales, los paisajes, los sistemas de conocimientos y la diversidad cultural, en consonancia con los Objetivos de Desarrollo Sostenible (ODS).</p>
                                 <br>
-    
+
                                 <div class="text-start object-center">
                                     {{-- <figure>
                                         <img class="w-28 h-28  "
                                             src="{{ asset('../img/der/Adri.svg') }}"
                                             alt="">
-                                        
+
                                         <p> <strong>Nota de Adriana Zerdín</strong></p>
 
                                     </figure>  --}}
@@ -5789,7 +6236,7 @@
         <br>
     </section>
         {{--CAME EN RONDA DE NEGOCIOS DEL TURISMO--}}
-    <section> 
+    <section>
         <ul>
             <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
                 <article>
@@ -5810,7 +6257,7 @@
                         </figure>
                         {{-- <article>
                             <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/UqID0Ip36fk?si=YLUh3qCeGsHV25ll" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                            
+
                         </article> --}}
                         <br>
                         <div
@@ -5831,14 +6278,14 @@
                                 <p>Participaron también de la inauguración, que se llevó a cabo en el hotel Marriott de la Ciudad de Buenos Aires, el secretario de Turismo de CAME, Gregorio Werchow; el presidente de FEDECATUR, Héctor Viñuales; el titular del Ente de Turismo de la Ciudad de Buenos Aires, Valentín Díaz Gilligan; el presidente de la Cámara Argentina de Turismo, Gustavo Hani; y el prosecretario de la Cámara Argentina de Comercio (CAC), Ángel Machado.
                                 </p>
                                 <br>
-                                
-    
+
+
                                 <div class="text-start object-center">
                                     {{-- <figure>
                                         <img class="w-28 h-28  "
                                             src="{{ asset('../img/der/Adri.svg') }}"
                                             alt="">
-                                        
+
                                         <p> <strong>Nota de Adriana Zerdín</strong></p>
 
                                     </figure>  --}}
@@ -5852,7 +6299,7 @@
         <br>
     </section>
         {{--BUSCAN ACUERDO PARA NUEVA FÓRMULA DE JUBILACIONES EN ARGENTINA--}}
-    <section> 
+    <section>
         <ul>
             <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
                 <article>
@@ -5873,7 +6320,7 @@
                         </figure>
                         {{-- <article>
                             <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/UqID0Ip36fk?si=YLUh3qCeGsHV25ll" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                            
+
                         </article> --}}
                         <br>
                         <div
@@ -5896,13 +6343,13 @@
                                 <br>
                                 <p>Durante la entrevista, Tolosa Paz también abordó el paro general convocado por la CGT que se está llevando a cabo hoy: "El paro es contundente, no solo lo están respaldando aquellos que se oponen a las políticas económicas de Javier Milei, sino también los pequeños comerciantes, lo que demuestra claramente la situación. Hay una caída significativa en los salarios y la actividad económica que afecta a todos los sectores".</p>
                                 <br>
-    
+
                                 <div class="text-start object-center">
                                     {{-- <figure>
                                         <img class="w-28 h-28  "
                                             src="{{ asset('../img/der/Adri.svg') }}"
                                             alt="">
-                                        
+
                                         <p> <strong>Nota de Adriana Zerdín</strong></p>
 
                                     </figure>  --}}
@@ -5916,7 +6363,7 @@
         <br>
     </section>
     {{--HISTÓRICO CAMBIO DE GUARDIA EN PLAZA DE MAYO CON TRES REGIMIENTOS SIMULTÁNEOS--}}
-    <section> 
+    <section>
         <ul>
             <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
                 <article>
@@ -5937,7 +6384,7 @@
                         </figure>
                         {{-- <article>
                             <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/UqID0Ip36fk?si=YLUh3qCeGsHV25ll" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                            
+
                         </article> --}}
                         <br>
                         <div
@@ -5960,13 +6407,13 @@
                                 <br>
                                 <p>A partir de esta ceremonia, que además contó con una destacada participación de la banda militar Tambor de Tacuarí del Regimiento Infantería 1 Patricios, el acto de cambio de guardia en la Plaza de Mayo se repetirá los primeros sábados de cada mes, generando así un extraordinario y emotivo evento abierto al público. Este evento cultural, al igual que en países con gran tradición en este tipo de ceremonias, se convierte en un atractivo turístico.</p>
                                 <br>
-    
+
                                 <div class="text-start object-center">
                                     {{-- <figure>
                                         <img class="w-28 h-28  "
                                             src="{{ asset('../img/der/Adri.svg') }}"
                                             alt="">
-                                        
+
                                         <p> <strong>Nota de Adriana Zerdín</strong></p>
 
                                     </figure>  --}}
@@ -5980,7 +6427,7 @@
         <br>
     </section>
     {{--DÍA INTERNACIONAL CONTRA EL ACOSO ESCOLAR--}}
-    <section> 
+    <section>
         <ul>
             <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
                 <article>
@@ -6001,7 +6448,7 @@
                         </figure>
                         {{-- <article>
                             <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/UqID0Ip36fk?si=YLUh3qCeGsHV25ll" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                            
+
                         </article> --}}
                         <br>
                         <div
@@ -6024,13 +6471,13 @@
                                 <br>
                                 <p>El Día Internacional contra el Acoso Escolar nos recuerda la importancia de trabajar juntos para prevenir y erradicar el bullying, garantizando así un ambiente seguro y saludable para todos los niños y jóvenes en el entorno escolar.</p>
                                 <br>
-    
+
                                 <div class="text-start object-center">
                                     {{-- <figure>
                                         <img class="w-28 h-28  "
                                             src="{{ asset('../img/der/Adri.svg') }}"
                                             alt="">
-                                        
+
                                         <p> <strong>Nota de Adriana Zerdín</strong></p>
 
                                     </figure>  --}}
@@ -6044,7 +6491,7 @@
         <br>
     </section>
         {{--UNIVERSIDADES NACIONALES EN LUCHA--}}
-    <section> 
+    <section>
         <ul>
             <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
                 <article>
@@ -6065,7 +6512,7 @@
                         </figure>
                         {{-- <article>
                             <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/UqID0Ip36fk?si=YLUh3qCeGsHV25ll" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                            
+
                         </article> --}}
                         <br>
                         <div
@@ -6088,16 +6535,16 @@
                                 <br>
                                 <p>Qué junio no sea la partida de defunción para las Universidades Nacionales.</p>
                                 <br>
-    
+
                                 <div class="text-start object-center">
                                     <figure>
                                         <img class="w-28 h-28  "
                                             src="{{ asset('../img/der/Adri.svg') }}"
                                             alt="">
-                                        
+
                                         <p> <strong>Nota de Adriana Zerdín</strong></p>
 
-                                    </figure> 
+                                    </figure>
                                 </div>
                             </div>
                         </div>
@@ -6108,7 +6555,7 @@
         <br>
     </section>
         {{--3,2 MILLONES DE NUEVOS POBRES POR POLÍTICAS DE MILEI--}}
-    <section> 
+    <section>
         <ul>
             <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
                 <article>
@@ -6129,7 +6576,7 @@
                         </figure>
                         {{-- <article>
                             <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/UqID0Ip36fk?si=YLUh3qCeGsHV25ll" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                            
+
                         </article> --}}
                         <br>
                         <div
@@ -6150,17 +6597,17 @@
                                 <p>Este alarmante panorama económico plantea serias preocupaciones sobre el bienestar de los argentinos y la viabilidad de las políticas implementadas por el gobierno de Milei. Con millones de personas luchando para llegar a fin de mes, se hace evidente la necesidad de medidas urgentes para abordar esta crisis y garantizar un futuro más estable y próspero para todos los argentinos.
                                 </p>
                                 <br>
-                                
-                                
-                                
-                                
-                                
+
+
+
+
+
                                 <div class="text-start object-center">
                                     {{-- <figure>
                                         <img class="w-28 h-28  "
                                             src="{{ asset('../img/noteros/Ramiro.svg') }}"
                                             alt="">
-                                        
+
                                         <p> <strong>Nota de Ramiro Caggiano Blanco</strong></p>
 
                                     </figure> --}}
@@ -6174,7 +6621,7 @@
         <br>
     </section>
         {{--ESTELA DÍAZ INAUGURA CONSEJO DE POLÍTICAS DE GÉNERO 2024 EN LA PLATA--}}
-    <section> 
+    <section>
         <ul>
             <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
                 <article>
@@ -6195,7 +6642,7 @@
                         </figure>
                         {{-- <article>
                             <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/UqID0Ip36fk?si=YLUh3qCeGsHV25ll" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                            
+
                         </article> --}}
                         <br>
                         <div
@@ -6219,21 +6666,21 @@
                                 <p>Durante el cierre de la jornada, las referentas y referentes locales expusieron las conclusiones del debate en las comisiones y los ejes de trabajo prioritarios en los que es necesario avanzar para profundizar las políticas públicas con perspectiva de género en los territorios.
                                 </p>
                                 <br>
-                                <p>Por su parte, la ministra concluyó: “Ante un gobierno nacional que está planificando la pobreza, la exclusión y la desigualdad. nosotras trabajamos en un sentido absolutamente contrario. El gobierno de la provincia de Buenos Aires, y estas grandes conductoras de su gestión en cada distrito, trabajan construyendo igualdad. Sigamos trabajando por la igualdad.” 
+                                <p>Por su parte, la ministra concluyó: “Ante un gobierno nacional que está planificando la pobreza, la exclusión y la desigualdad. nosotras trabajamos en un sentido absolutamente contrario. El gobierno de la provincia de Buenos Aires, y estas grandes conductoras de su gestión en cada distrito, trabajan construyendo igualdad. Sigamos trabajando por la igualdad.”
                                 </p>
                                 <br>
                                 <p>El encuentro contó con la participación de las autoridades de las áreas de género de Adolfo Alsina, Arrecifes, Ayacucho, Azul, Balcarce, Baradero, Benito Juárez, Berazategui, Berisso, Bragado, Campana, Cañuelas, Carlos Casares, Carlos Tejedor, Carmen de Areco, Carmen de Patagones, Chacabuco, Colón, Coronel Rosales, Dolores, Escobar, Esteban Echeverría, Ezeiza, Florencio Varela, Florentino Ameghino, General Arenales, General La Madrid, General Lavalle, General Rodríguez, Gonzalez Chaves, Guaminí, Guido, Hurlingham, Ituzaingó, La Matanza, La Plata, Lanús, Las Flores, Lezama, Lobos, Lomas de Zamora, Luján, Magdalena, Mar Chiquita, Monte Hermoso, Moreno, Navarro, Necochea, Olavarría, Pehuajó, Pila, Pinamar, Presidente Perón, Punta Indio, Quilmes, Ramallo, Rauch, Rivadavia,  Saavedra, Salliqueló, San Martín, San Vicente, Suipacha, Tornquist y Tres Lomas. </p>
                                 <br>
-                                
-                                
-                                
-                                
+
+
+
+
                                 <div class="text-start object-center">
                                     {{-- <figure>
                                         <img class="w-28 h-28  "
                                             src="{{ asset('../img/noteros/Ramiro.svg') }}"
                                             alt="">
-                                        
+
                                         <p> <strong>Nota de Ramiro Caggiano Blanco</strong></p>
 
                                     </figure> --}}
@@ -6247,7 +6694,7 @@
         <br>
     </section>
         {{--¡IMPULSO NACIONAL!--}}
-    <section> 
+    <section>
         <ul>
             <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
                 <article>
@@ -6268,7 +6715,7 @@
                         </figure>
                         {{-- <article>
                             <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/UqID0Ip36fk?si=YLUh3qCeGsHV25ll" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                            
+
                         </article> --}}
                         <br>
                         <div
@@ -6295,16 +6742,16 @@
                                 <p>La compuerta entregada para el Dique 2 del Arsenal Naval de Puerto Belgrano representa una importante mejora en la capacidad operativa de este dique, permitiendo la puesta en seco de buques de mayor porte a los que podían ingresar anteriormente. Esta obra de metalmecánica es la más importante realizada en Argentina en los últimos tiempos y reafirma la capacidad del país para construir el equipamiento necesario para nuestras fuerzas de Defensa y Seguridad.
                                 </p>
                                 <br>
-                                
-                                
-                                
-                                
+
+
+
+
                                 <div class="text-start object-center">
                                     {{-- <figure>
                                         <img class="w-28 h-28  "
                                             src="{{ asset('../img/noteros/Ramiro.svg') }}"
                                             alt="">
-                                        
+
                                         <p> <strong>Nota de Ramiro Caggiano Blanco</strong></p>
 
                                     </figure> --}}
@@ -6318,7 +6765,7 @@
         <br>
     </section>
         {{--PRESENTARON FORMALMENTE EL PEDIDO DE JUICIO POLÍTICO CONTRA MILEI--}}
-    <section> 
+    <section>
         <ul>
             <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
                 <article>
@@ -6339,7 +6786,7 @@
                         </figure>
                         {{-- <article>
                             <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/UqID0Ip36fk?si=YLUh3qCeGsHV25ll" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                            
+
                         </article> --}}
                         <br>
                         <div
@@ -6357,16 +6804,16 @@
                                 <p>En paralelo a la presentación de juicio político al presidente Javier Milei por las vías institucionales, el proyecto será puesto a disposición de toda la ciudadanía para la recolección de firmas con la convicción de que el pueblo argentino no se someterá a estas políticas de sufrimiento y desprecio por la Constitución Nacional.
                                 </p>
                                 <br>
-                                
-                                
-                                
-                                
+
+
+
+
                                 <div class="text-start object-center">
                                     {{-- <figure>
                                         <img class="w-28 h-28  "
                                             src="{{ asset('../img/noteros/Ramiro.svg') }}"
                                             alt="">
-                                        
+
                                         <p> <strong>Nota de Ramiro Caggiano Blanco</strong></p>
 
                                     </figure> --}}
@@ -6380,7 +6827,7 @@
         <br>
     </section>
         {{--NO PODEMOS QUEDARNOS CALLADOS MIENTRAS INTENTAN DESTRUIR LA EDUCACIÓN PÚBLICA--}}
-    <section> 
+    <section>
         <ul>
             <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
                 <article>
@@ -6401,7 +6848,7 @@
                         </figure>
                         {{-- <article>
                             <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/UqID0Ip36fk?si=YLUh3qCeGsHV25ll" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                            
+
                         </article> --}}
                         <br>
                         <div
@@ -6422,15 +6869,15 @@
                                 <p>El proyecto de Tavela es acompañado por sus pares radicales y por diputados de otros bloques. La iniciativa impulsa un esquema que contempla un 85% para gastos de salarios y un 15% para gastos generales y de funcionamiento. Además, prevé una actualización bimestral atada al índice de precios al consumidor y a la variación promedio de las tarifas de los servicios públicos
                                 </p>
                                 <br>
-                                
-                                
-                                
+
+
+
                                 <div class="text-start object-center">
                                     {{-- <figure>
                                         <img class="w-28 h-28  "
                                             src="{{ asset('../img/noteros/Ramiro.svg') }}"
                                             alt="">
-                                        
+
                                         <p> <strong>Nota de Ramiro Caggiano Blanco</strong></p>
 
                                     </figure> --}}
@@ -6444,7 +6891,7 @@
         <br>
     </section>
         {{--KICILLOF RECIBIÓ A INTENDENTES E INTENDENTAS DE LA PROVINCIA--}}
-    <section> 
+    <section>
         <ul>
             <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
                 <article>
@@ -6465,7 +6912,7 @@
                         </figure>
                         {{-- <article>
                             <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/UqID0Ip36fk?si=YLUh3qCeGsHV25ll" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                            
+
                         </article> --}}
                         <br>
                         <div
@@ -6483,15 +6930,15 @@
                                 <p>Estuvieron presentes las y los intendentes de Monte, José Castro; de General Alvear, Ramón Capra; de Lobería, Pablo Barrena; de Lezama, Arnaldo Harispe; de General Belgrano, Osvaldo Dinapoli; de Balcarce, Esteban Reino; de Rojas, Román Bouvier; de Gonzales Chaves, Miriam Gómez; de General Viamonte, Franco Flexas; de Trenque Lauquen, Francisco Recoulat; de Saladillo, José Luis Salomón; de Maipú, Matías Rapallini; de Ayacucho, Emilio Cordonnier; de Tandil, Miguel Ángel Lunghi; de Adolfo Alsina, Javier Andrés; de Florentino Ameghino, Nahuel Mittelbach; de Pellegrini, Sofía Gambier; de Tres Lomas, Luciano Spinolo Sayago; de General Lavalle, Nahuel Guardia; de General La Madrid, Martín Randazzo; de San Cayetano, Miguel Gargaglione; de Rauch, Maximiliano Suescun; de General Madariaga, Carlos Santoro; de Magdalena, Lisandro Hourcade; y de General Arenales, Érica Revilla.
                                 </p>
                                 <br>
-                                
-                                
-                                
+
+
+
                                 <div class="text-start object-center">
                                     {{-- <figure>
                                         <img class="w-28 h-28  "
                                             src="{{ asset('../img/noteros/Ramiro.svg') }}"
                                             alt="">
-                                        
+
                                         <p> <strong>Nota de Ramiro Caggiano Blanco</strong></p>
 
                                     </figure> --}}
@@ -6505,7 +6952,7 @@
         <br>
     </section>
         {{--DESCONTROL EN LAS CUOTAS DE MEDICINA PREPAGA--}}
-    <section> 
+    <section>
         <ul>
             <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
                 <article>
@@ -6527,7 +6974,7 @@
                         </figure>
                         {{-- <article>
                             <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/UqID0Ip36fk?si=YLUh3qCeGsHV25ll" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                            
+
                         </article> --}}
                         <br>
                         <div
@@ -6551,14 +6998,14 @@
                                 <br>
                                 <p>Desde Izquierda Socialista en el FIT Unidad nos sumamos al repudio a los aumentazos de las prepagas y llamamos a luchar para que se retrotraigan. Como la salud no debe ser un negocio privado capitalista, postulamos un sistema nacional único de salud, estatal, igualitario y de excelencia para todas y todos, con atención y remedios gratuitos, financiado con fondos que se van a la deuda externa y al FMI, controlado por trabajadores y profesionales del sistema, organizaciones de usuarios y vecinales.</p>
                                 <br>
-                                
-                                
+
+
                                 <div class="text-start object-center">
                                     {{-- <figure>
                                         <img class="w-28 h-28  "
                                             src="{{ asset('../img/noteros/Ramiro.svg') }}"
                                             alt="">
-                                        
+
                                         <p> <strong>Nota de Ramiro Caggiano Blanco</strong></p>
 
                                     </figure> --}}
@@ -6572,7 +7019,7 @@
         <br>
     </section>
         {{--COMUNICADO DEL FRENTE DE SINDICATOS DE LAS UNIVERSIDADES NACIONALES--}}
-    <section> 
+    <section>
         <ul>
             <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
                 <article>
@@ -6596,7 +7043,7 @@
                         </figure>
                         {{-- <article>
                             <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/UqID0Ip36fk?si=YLUh3qCeGsHV25ll" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                            
+
                         </article> --}}
                         <br>
                         <div
@@ -6614,14 +7061,14 @@
                                 <p>Este conflicto salarial ocurre en un contexto de recorte del presupuesto universitario que pone en riesgo el normal funcionamiento de las universidades nacionales. Defendemos la universidad pública y gratuita al servicio de las grandes mayorías, salarios dignos para trabajadoras y trabajadores y jubilaciones dignas.
                                 </p>
                                 <br>
-                                
-                                
+
+
                                 <div class="text-start object-center">
                                     {{-- <figure>
                                         <img class="w-28 h-28  "
                                             src="{{ asset('../img/noteros/Ramiro.svg') }}"
                                             alt="">
-                                        
+
                                         <p> <strong>Nota de Ramiro Caggiano Blanco</strong></p>
 
                                     </figure> --}}
@@ -6635,7 +7082,7 @@
         <br>
     </section>
         {{--FUROR POR MI SALUD DIGITAL:...--}}
-    <section> 
+    <section>
         <ul>
             <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
                 <article>
@@ -6655,7 +7102,7 @@
                         </figure>
                         {{-- <article>
                             <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/UqID0Ip36fk?si=YLUh3qCeGsHV25ll" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                            
+
                         </article> --}}
                         <br>
                         <div
@@ -6673,14 +7120,14 @@
                                 <p>"Mi Salud Digital Bonaerense" representa un avance significativo en la modernización y accesibilidad del sistema de salud en la Provincia de Buenos Aires. Esta plataforma no solo simplifica la gestión de turnos y trámites de salud, sino que también brinda a los ciudadanos una herramienta integral para el cuidado de su salud y el acceso a información relevante.
                                 </p>
                                 <br>
-                                
-                                
+
+
                                 <div class="text-start object-center">
                                     {{-- <figure>
                                         <img class="w-28 h-28  "
                                             src="{{ asset('../img/noteros/Ramiro.svg') }}"
                                             alt="">
-                                        
+
                                         <p> <strong>Nota de Ramiro Caggiano Blanco</strong></p>
 
                                     </figure> --}}
@@ -6694,7 +7141,7 @@
         <br>
     </section>
         {{--COMIENZA LA CAMPAÑA ANTIGRIPAL EN TODA LA PROVINCIA...--}}
-    <section> 
+    <section>
         <ul>
             <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
                 <article>
@@ -6714,7 +7161,7 @@
                         </figure>
                         {{-- <article>
                             <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/UqID0Ip36fk?si=YLUh3qCeGsHV25ll" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                            
+
                         </article> --}}
                         <br>
                         <div
@@ -6758,16 +7205,16 @@
                                 <br>
                                 <p>Dadas las complicaciones que puede presentar la enfermedad en estos grupos, es de suma importancia su acceso a la vacunación antigripal lo antes posible, con la perspectiva de su protección previa al momento de mayor circulación de virus influenza.</p>
                                 <br>
-                                
 
-                                
-                                
+
+
+
                                 <div class="text-start object-center">
                                     {{-- <figure>
                                         <img class="w-28 h-28  "
                                             src="{{ asset('../img/noteros/Ramiro.svg') }}"
                                             alt="">
-                                        
+
                                         <p> <strong>Nota de Ramiro Caggiano Blanco</strong></p>
 
                                     </figure> --}}
@@ -6781,7 +7228,7 @@
         <br>
     </section>
         {{--UNO DE LOS ASTILLEROS MÁS IMPORTANTES...--}}
-    <section> 
+    <section>
         <ul>
             <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
                 <article>
@@ -6801,7 +7248,7 @@
                         </figure>
                         {{-- <article>
                             <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/UqID0Ip36fk?si=YLUh3qCeGsHV25ll" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                            
+
                         </article> --}}
                         <br>
                         <div
@@ -6823,14 +7270,14 @@
                                 <br>
                                 <p>La "Americo Vespucio” es una legendaria embarcación que fue construida en 1930 y cuenta con tres mástiles de 54, 50 y 43 metros de altura, veintiséis velas, una superficie de más de 2000 metros cuadrados. La eslora (longitud) del velero es de 100,5 metros, la manga (ancho) es de 15,56 y el calado (profundidad) es de 7,3 metros.</p>
                                 <br>
-                                
-                                
+
+
                                 <div class="text-start object-center">
                                     {{-- <figure>
                                         <img class="w-28 h-28  "
                                             src="{{ asset('../img/noteros/Ramiro.svg') }}"
                                             alt="">
-                                        
+
                                         <p> <strong>Nota de Ramiro Caggiano Blanco</strong></p>
 
                                     </figure> --}}
@@ -6844,7 +7291,7 @@
         <br>
     </section>
         {{--ADN POPULARES LLEGA AL STREAMING: ¡UNA NUEVA ERA DE COMUNICACIÓN!--}}
-    <section> 
+    <section>
         <ul>
             <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
                 <article>
@@ -6864,7 +7311,7 @@
                         </figure>
                         {{-- <article>
                             <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/UqID0Ip36fk?si=YLUh3qCeGsHV25ll" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                            
+
                         </article> --}}
                         <br>
                         <div
@@ -6884,13 +7331,13 @@
                                 <br>
                                 <p>¡Prepárate para sumergirte en un universo de noticias, deportes, política, cultura, derechos humanos y mucha buena música con "ADN Populares" en su nueva etapa en el streaming! No te pierdas el inicio de esta emocionante nueva era el próximo lunes. ¡Sintoniza y descubre todo lo que "ADN Populares" tiene para ofrecerte!</p>
                                 <br>
-                                
+
                                 <div class="text-start object-center">
                                     {{-- <figure>
                                         <img class="w-28 h-28  "
                                             src="{{ asset('../img/noteros/Ramiro.svg') }}"
                                             alt="">
-                                        
+
                                         <p> <strong>Nota de Ramiro Caggiano Blanco</strong></p>
 
                                     </figure> --}}
@@ -6904,7 +7351,7 @@
         <br>
     </section>
         {{--TARIFAZO EN EL SUBTE: GOLPE AL BOLSILLO DE LOS TRABAJADORES--}}
-    <section> 
+    <section>
         <ul>
             <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
                 <article>
@@ -6924,7 +7371,7 @@
                         </figure>
                         {{-- <article>
                             <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/UqID0Ip36fk?si=YLUh3qCeGsHV25ll" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                            
+
                         </article> --}}
                         <br>
                         <div
@@ -6942,14 +7389,14 @@
                                 <p>En medio de este escenario, la AGTSYP Metrodelegadxs ha anunciado su participación en la audiencia pública por el aumento, programada para el próximo 15 de marzo. Será una oportunidad para manifestar su rechazo a esta medida y exigir que se priorice la calidad del servicio y el acceso equitativo al transporte público en la ciudad.
                                 </p>
                                 <br>
-                                
-                                
+
+
                                 <div class="text-start object-center">
                                     {{-- <figure>
                                         <img class="w-28 h-28  "
                                             src="{{ asset('../img/noteros/Ramiro.svg') }}"
                                             alt="">
-                                        
+
                                         <p> <strong>Nota de Ramiro Caggiano Blanco</strong></p>
 
                                     </figure> --}}
@@ -6963,7 +7410,7 @@
         <br>
     </section>
         {{--JAVIER MILEI, ¿UN NUEVO SAVONAROLA?--}}
-    <section> 
+    <section>
         <ul>
             <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
                 <article>
@@ -6983,7 +7430,7 @@
                         </figure>
                         {{-- <article>
                             <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/UqID0Ip36fk?si=YLUh3qCeGsHV25ll" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                            
+
                         </article> --}}
                         <br>
                         <div
@@ -7013,13 +7460,13 @@
                                 <br>
                                 <p>Sin embargo, lo que más los asemeja es que ni Savonarola ni Milei pretendían o pretenden gobernar administrando justicia y terciando en los conflictos de intereses, existentes en toda sociedad, como un gobernante normal haría. En última instancia, ambos desprecian al pueblo que los llevó al poder porque están imbuidos de un mesianismo sin par, una fe ciega en sus dogmas, teocráticos uno y mercadológicos el otro, y quieren pasar a la historia como los que sacrificaron sus vidas en esa empresa. Savonarola, a su manera, ya lo consiguió y hoy tiene una modesta estatua en su Ferrara natal. Ojalá el argentino no tenga tanta suerte.</p>
                                 <br>
-                               
+
                                 <div class="text-start object-center">
                                     <figure>
                                         <img class="w-28 h-28  "
                                             src="{{ asset('../img/noteros/Ramiro.svg') }}"
                                             alt="">
-                                        
+
                                         <p> <strong>Nota de Ramiro Caggiano Blanco</strong></p>
 
                                     </figure>
@@ -7033,7 +7480,7 @@
         <br>
     </section>
         {{--ARGENTINA: DOS MODELOS EN PUGNA--}}
-    <section> 
+    <section>
         <ul>
             <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
                 <article>
@@ -7052,7 +7499,7 @@
                         </figure> --}}
                         <article>
                             <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/UqID0Ip36fk?si=YLUh3qCeGsHV25ll" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                            
+
                         </article>
                         <br>
                         <div
@@ -7073,13 +7520,13 @@
                                 <p>En resumen, Jorge Rachid plantea una clara dicotomía entre dos modelos políticos en Argentina, destacando la importancia de la movilización popular y la necesidad de rectificar errores para colocar a Argentina en un lugar destacado en el mundo multipolar.
                                 </p>
                                 <br>
-                                
+
                                 <div class="text-start object-center">
                                     {{-- <figure>
                                         <img class="w-28 h-28  "
                                             src="{{ asset('../img/noteros/Gus.svg') }}"
                                             alt="">
-                                        
+
                                         <p> <strong>Nota de Gustavo Cano</strong></p>
 
                                     </figure> --}}
@@ -7093,7 +7540,7 @@
         <br>
     </section>
         {{--EL SILENCIAMIENTO DE TÉLAM: UN GOLPE A LA LIBERTAD DE PRENSA--}}
-    <section> 
+    <section>
         <ul>
             <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
                 <article>
@@ -7136,7 +7583,7 @@
                                         <img class="w-28 h-28  "
                                             src="{{ asset('../img/noteros/Gus.svg') }}"
                                             alt="">
-                                        
+
                                         <p> <strong>Nota de Gustavo Cano</strong></p>
 
                                     </figure>
@@ -7150,7 +7597,7 @@
         <br>
     </section>
 {{--ARTA ABIERTA DE GABO RUGIERO--}}
-    <section> 
+    <section>
         <ul>
             <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
                 <article>
@@ -7182,10 +7629,10 @@
                                 <br>
                                 <p>Gabo Rugiero
                                 </p>
-                                
+
                                 <p>Artista. Docente. Homosexual
                                 </p>
-                                
+
                                 <p>Buenos Aires, 22 de febrero 2024</p>
                                 <br>
                                 <div class="text-start object-center">
@@ -7193,7 +7640,7 @@
                                         <img class="w-28 h-28  "
                                             src="{{ asset('../img/noteros/Gus.svg') }}"
                                             alt="">
-                                        
+
                                         <p> <strong>Nota de Gustavo Cano</strong></p>
 
                                     </figure> --}}
@@ -7207,7 +7654,7 @@
         <br>
     </section>
         {{--¡VUELOS SECRETOS PONEN EN JAQUE LA SOBERANÍA!--}}
-    <section> 
+    <section>
         <ul>
             <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
                 <article>
@@ -7251,7 +7698,7 @@
                                         <img class="w-28 h-28  "
                                             src="{{ asset('../img/noteros/Gus.svg') }}"
                                             alt="">
-                                        
+
                                         <p> <strong>Nota de Gustavo Cano</strong></p>
 
                                     </figure> --}}
@@ -7265,7 +7712,7 @@
         <br>
     </section>
     {{--DOLARIZACIÓN: EL ENGAÑO QUE BENEFICIA  --}}
-    <section> 
+    <section>
         <ul>
             <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
                 <article>
@@ -7320,7 +7767,7 @@
         <br>
     </section>
         {{--TURISMO SOCIAL EN RIESGO:  --}}
-    <section> 
+    <section>
         <ul>
             <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
                 <article>
@@ -7352,7 +7799,7 @@
                                 <p>Por otro lado, la subsecretaria de Turismo del Ministerio del Interior, Yanina Martínez, ha mencionado que se trabaja en un programa para lograr la autosuficiencia de estas unidades. Si bien se busca mantener el turismo social, la falta de detalles sobre este programa genera incertidumbre sobre su efectividad y continuidad en el tiempo.
                                 </p>
                                 <br>
-                                <p>La privatización de los hoteles estatales en Chapadmalal y Embalse representaría un retroceso significativo en términos de inclusión social y acceso igualitario al turismo. Estos establecimientos han sido durante décadas una herramienta fundamental para garantizar que personas de bajos recursos puedan disfrutar de vacaciones dignas y accesibles. Privatizarlos significaría poner en manos de empresas privadas un servicio que debería ser un derecho garantizado por el Estado, lo que podría resultar en un aumento de los costos y en una exclusión de aquellos que no puedan pagar tarifas más altas. 
+                                <p>La privatización de los hoteles estatales en Chapadmalal y Embalse representaría un retroceso significativo en términos de inclusión social y acceso igualitario al turismo. Estos establecimientos han sido durante décadas una herramienta fundamental para garantizar que personas de bajos recursos puedan disfrutar de vacaciones dignas y accesibles. Privatizarlos significaría poner en manos de empresas privadas un servicio que debería ser un derecho garantizado por el Estado, lo que podría resultar en un aumento de los costos y en una exclusión de aquellos que no puedan pagar tarifas más altas.
                                 </p>
                                 <br>
                                 <p>Además, la privatización podría llevar a una pérdida de identidad y de valor cultural, al poner en riesgo la preservación de estos espacios históricos que forman parte del patrimonio nacional. Es fundamental que se busquen alternativas que permitan mantener estos hoteles bajo control estatal, garantizando así su función social y su importancia como patrimonio histórico y cultural de Argentina.</p>
@@ -7376,7 +7823,7 @@
         <br>
     </section>
     {{--ABANDONO DEL CANAL MAGDALENA  --}}
-    <section> 
+    <section>
         <ul>
             <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
                 <article>
@@ -7436,7 +7883,7 @@
     </section>
 
     {{--NECESITA UN MEDICAMENTO  --}}
-    <section> 
+    <section>
         <ul>
             <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
                 <article>
@@ -7482,11 +7929,11 @@
                                 <p>La familia comparte su CBU y alias, esperando que esta llamada desesperada no caiga en oídos sordos, confiando en la conciencia pública y la empatía para prevalecer.</p>
                                 <br>
                                 <p><b>Aquí compartimos el CBU: 0170087940000037064435</b></p>
-                                
+
                                 <p><b>Alias: sanydany</b></p>
-                                
+
                                 <p><b>Sandra Cabero</b></p>
-                                
+
                                 <p><b>Banco Francés</b></p>
                                 <br>
                                 <br>
@@ -7511,7 +7958,7 @@
         <br>
     </section>
         {{--GOBIERNO SUSPENDE PROGRAMA VITAL PARA PERSONAS VULNERABLES  --}}
-    <section> 
+    <section>
         <ul>
             <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
                 <article>
@@ -7548,7 +7995,7 @@
                                 <br>
                                 <p>Es hora de que el gobierno de Milei priorice el bienestar de su propio pueblo sobre las demandas de los organismos financieros internacionales. La suspensión de Dadse es una afrenta a la justicia social y un recordatorio de la necesidad de un cambio de dirección en las políticas gubernamentales. Los argentinos merecen un gobierno que esté verdaderamente comprometido con su bienestar y que tome medidas concretas para proteger a los más vulnerables de nuestra sociedad.
                                 </p>
-                                <br>                                               
+                                <br>
                                 <div class="text-start object-center">
                                    {{--  <figure>
                                         <img class="w-28 h-28  "
@@ -7570,7 +8017,7 @@
 
     {{--Mario Bonino: 30 años de impunidad..  --}}
     <section>
-    
+
         <ul>
             <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
                 <article>
@@ -7609,7 +8056,7 @@
                                 <p>A diferencia de otros casos que generaron movilizaciones populares, como el asesinato de José Luis Cabezas, el caso Bonino no recibió la misma atención de los medios de comunicación y la sociedad en general. Mas allá de los esfuerzos de la UTPBA, ​​la Federación Latinoamericana de Periodistas y la Organización Internacional de Periodistas, la causa de Bonino sigue sin resolverse. </p>
                                 <br>
                                 <p>Ante la falta de atención mediática, la Unión de Trabajadores de Prensa de Buenos Aires (UTPBA) ha mantenido viva la memoria de Mario Bonino y su lucha por la justicia. Cada año, se entrega el Premio Mario Bonino a periodistas que destacan por su compromiso en defensa de la verdad y contra la injusticia, lo que representa un acto de reconocimiento y homenaje a un mártir de la democracia.</p>
-                              
+
 
                                 <div class="text-start object-center">
                                     <figure>
@@ -7898,7 +8345,7 @@
                                         ubicar material pesado y voluminoso, como vigas, columnas y otros
                                         elementos de construcción.
                                     </p>
-                                    
+
                                     <br>
 
 
@@ -8103,7 +8550,7 @@
                                     <p>El valor del curso es de $20.000, pero se ofrece un descuento
                                         especial para cooperativas que inscriban a más de 3 personas. Si
                                         deseas obtener más información o solicitar el descuento para tu
-                                        cooperativa, puedes escribir a<u> capacitacionescoopcade@gmail.com</u> 
+                                        cooperativa, puedes escribir a<u> capacitacionescoopcade@gmail.com</u>
                                     </p>
                                     <br>
                                     <p>Si estás interesado en formarte y contribuir al fortalecimiento de
@@ -8481,7 +8928,7 @@
         </li>
     </ul>
     <br>
-</section> 
+</section>
          {{--AUDIENCIA PERIÓDICA INFORMATIVA DEL CONSEJO....  --}}
  <section>
     <ul>
@@ -8539,7 +8986,7 @@
                                 sanción de la ley, conlleva un aumento en el número de jueces,
                                 fiscales y defensores en la provincia.</p>
                             <br>
-                            
+
 
 
                         </div>
@@ -8549,7 +8996,7 @@
         </li>
     </ul>
     <br>
-</section> 
+</section>
 
  {{--HABRÁ ASISTENCIA ECONÓMICA INMEDIATA PARA PRODUCTORES....  --}}
  <section>
@@ -8640,7 +9087,7 @@
         </li>
     </ul>
     <br>
-</section> 
+</section>
 
     {{--MAYRA: “CUENTEN CONMIGO PARA SEGUIR TRABAJANDO POR QUILMES”  --}}
         <section>
@@ -8724,7 +9171,7 @@
                                         que es el partido de Quilmes en general, no solo en Solano”.
                                     </p>
                                     <br>
-                                    
+
                                 </div>
                             </div>
                         </div>
@@ -8732,7 +9179,7 @@
                 </li>
             </ul>
             <br>
-        </section> 
+        </section>
 
     {{--FEDERICO DELGADO 1968 - 2023.....  --}}
  <section>
@@ -8772,7 +9219,7 @@
                             <br>
                             <p><strong> Valiente y audaz Federico.</strong>
                             </p>
-                          
+
                             <br>
                             <p>La memoria, esa memoria que nos recuerda tus acciones en las
                                 investigaciones de los sobornos al estado -la banelco-, el megacanje
@@ -8818,7 +9265,7 @@
         </li>
     </ul>
     <br>
-</section> 
+</section>
 
     {{--ENCUENTRO “CRECER CON LIBROS: PERSPECTIVA DE DERECHOS.....  --}}
  <section>
@@ -8904,7 +9351,7 @@
                                 Santillana; El Ateneo; Calibroscopio; Gerbera; La Brujita de Papel;
                                 Catapulta y Pequeño Editor</strong>.</p>
                             <br>
-                            
+
 
                         </div>
                     </div>
@@ -8913,7 +9360,7 @@
         </li>
     </ul>
     <br>
-</section>     
+</section>
 
  {{--SE ENCUENTRA ABIERTA LA INSCRIPCIÓN PARA LA DIPLOMATURA.....  --}}
  <section>
@@ -8954,9 +9401,9 @@
                             <a class="text-emerald-700 font-semibold hover:text-emerald-400 hover:underline"
                                 href="https://forms.gle/r2GwiwxE2DTYxo9Q8">Completá el
                                 formulario</a>
-                            
+
                             <br>
-                           
+
 
 
                         </div>
@@ -9147,7 +9594,7 @@
                                         2024</strong> con toda la expectativa de seguir creciendo y abasteciendo a un
                                         mercado cada vez más competitivo y de calidad.</P>
                                     <br>
-                                    
+
 
                                 </div>
                             </div>
@@ -9223,7 +9670,7 @@
                 </li>
             </ul>
         </section>
-        
+
         <br><br>
 
         <section>
@@ -9398,7 +9845,7 @@
 
         <br><br>
 
-       
+
 
     </div>
 

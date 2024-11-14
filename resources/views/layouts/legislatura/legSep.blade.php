@@ -7842,7 +7842,7 @@
                                         </figure>
                                         {{-- <article>
                                             <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/cNeE0eEE5Tc?si=RMO51UzsraJUAVpK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                                            
+
                                         </article> --}}
                                         <br>
                                         <div
@@ -7993,7 +7993,7 @@
                                         </figure>
                                         {{-- <article>
                                             <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/cNeE0eEE5Tc?si=RMO51UzsraJUAVpK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                                            
+
                                         </article> --}}
                                         <br>
                                         <div
@@ -8110,7 +8110,7 @@
                                             <a href="">A 40 AÑOS DEL INFORME DE CONADEP LA LEGISLATURA INAUGURÓ LA MUESTRA EVIDENCIAS</a>
                                         </h2>
                                         <p class="font-light  text-right text-gray-500">Publicado: 21/09/2024</p>
-                                        <p><i>La exposición fotográfica de Enrique Shorese conmemora la lucha por la memoria y los derechos humanos en Argentina. 
+                                        <p><i>La exposición fotográfica de Enrique Shorese conmemora la lucha por la memoria y los derechos humanos en Argentina.
                                         </i></p>
                                         <br>
                                         <figure>
@@ -8122,7 +8122,7 @@
                                         </figure>
                                         {{-- <article>
                                             <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/cNeE0eEE5Tc?si=RMO51UzsraJUAVpK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                                            
+
                                         </article> --}}
                                         <br>
                                         <div
@@ -8142,7 +8142,7 @@
                                                 <br>
                                                 <p>La exposición fue declarada de Interés Cultural y busca generar conciencia en torno a la necesidad de preservar la memoria y la justicia en la sociedad.
                                                 </p>
-                                                <br>                                              
+                                                <br>
                                             </div>
                                         </div>
                                     </div>
@@ -8181,7 +8181,7 @@
                                         </figure>
                                         {{-- <article>
                                             <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/cNeE0eEE5Tc?si=RMO51UzsraJUAVpK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                                            
+
                                         </article> --}}
                                         <br>
                                         <div
@@ -8203,7 +8203,7 @@
                                                 <br>
                                                 <p>El enfoque del autor reconoce igualmente la importancia de las sociedades comerciales como herramientas indispensables para el desarrollo económico y protección de la inversión privada. Su autor es un jurista formado en Derecho Comercial, especializado en Relaciones de Consumo entre las empresas y los usuarios de bienes y servicios.
                                                 </p>
-                                                <br>                                               
+                                                <br>
                                             </div>
                                         </div>
                                     </div>
@@ -8240,7 +8240,7 @@
                                         </figure>
                                         {{-- <article>
                                             <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/cNeE0eEE5Tc?si=RMO51UzsraJUAVpK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                                            
+
                                         </article> --}}
                                         <br>
                                         <div
@@ -8257,7 +8257,7 @@
                                                 <br>
                                                 <p>A lo largo de su carrera, Spinetto ha trabajado en diversas áreas relacionadas con la cultura y el patrimonio de Buenos Aires, participando en la gestión de programas que preservan la historia y la identidad de la ciudad. Su labor incluye la dirección del Periódico “Un Cortado” y la publicación de más de 15 libros que exploran la rica herencia cultural porteña.
                                                 </p>
-                                                <br>                                      
+                                                <br>
                                             </div>
                                         </div>
                                     </div>
@@ -8304,7 +8304,7 @@
                                                 <br>
                                                 <p>Además de su trabajo en prestigiosos restaurantes, Trocca tuvo varios programas de televisión. Uno de los más inolvidables fue Château Brascó, con el periodista, artista y escritor, Miguel Brascó. Querido por sus pares, es reconocido por ser un cultor de los ingredientes nacionales y por reinterpretar clásicos de la cocina argentina con su sello propio. También publicó tres libros: “Cocinero”, que resume treinta años de su trabajo; “Mostrador Santa Teresita”; y en 2021 vio la luz su último libro “Trocca en casa”.
                                                 </p>
-                                                <br>                                      
+                                                <br>
                                             </div>
                                         </div>
                                     </div>
@@ -8329,7 +8329,7 @@
                                             </a>
                                         </h2>
                                         <p class="font-light  text-right text-gray-500">Publicado:08/10/2024</p>
-                                        <p><i>Los diputados de la Ciudad recordaron el célebre informe, que creó con el objetivo de investigar la desaparición forzada de personas producidas durante la dictadura cívico militar ocurrida entre 1976 y 1983. 
+                                        <p><i>Los diputados de la Ciudad recordaron el célebre informe, que creó con el objetivo de investigar la desaparición forzada de personas producidas durante la dictadura cívico militar ocurrida entre 1976 y 1983.
                                         </i></p>
                                         <br>
                                         <figure>
@@ -8354,16 +8354,16 @@
                                                 <br>
                                                 <p>Luego Alfonsín puntualizó en la necesidad de preservar la memoria “y que las generaciones futuras sepan qué es lo que ocurrió”; y pidió el compromiso de varios actores en la preservación de la memoria histórica. Y finalmente señaló el peso histórico del Juicio a las Juntas Militares.
                                                 </p>
-                                                <br> 
+                                                <br>
                                                 <p>El 15 de diciembre de 1983, el entonces primer mandatario, Dr. Raúl Alfonsín, creó mediante el decreto 187/83 la Comisión Nacional por la Desaparición de Personas (Co Na De P), con el objetivo de investigar la desaparición forzada de personas producidas durante la dictadura cívico militar ocurrida entre 1976 y 1983.
                                                 </p>
-                                                <br> 
+                                                <br>
                                                 <p>El informe final producido por la Comisión se denominó “Nunca más”. En sus páginas, el informe afirma que los Derechos Humanos fueron violados de forma sistemática por el Estado. En sus conclusiones da por confirmado las desapariciones a las que determina que no fueron hechos aislados y advierte que la lista de desaparecidos que consigan es “inevitablemente una lista abierta”.
                                                 </p>
-                                                <br> 
+                                                <br>
                                                 <p>Un año después de su publicación, el “Nunca Más” fue utilizado como base probatoria por la Justicia para condenar a las cúpulas militares en la causa 13, inmortalizada como el Juicio a las Juntas. El cuadragésimo aniversario de la publicación encuentra a la sociedad argentina habiendo desarrollado un proceso de memoria, que es ejemplo en el mundo.
                                                 </p>
-                                                <br>                                       
+                                                <br>
                                             </div>
                                         </div>
                                     </div>
@@ -8384,7 +8384,7 @@
                                 <article>
                                     <div class="py-4 px-4 justify-between items-center">
                                         <h2 class="text-xl font-serif  font-bold pb-6">
-                                            <a href="">REUNIÓN DE LAS COMISIONES DE PRESUPUESTO, CULTURA Y DESCENTRALIZACIÓN 
+                                            <a href="">REUNIÓN DE LAS COMISIONES DE PRESUPUESTO, CULTURA Y DESCENTRALIZACIÓN
                                             </a>
                                         </h2>
                                         <p class="font-light  text-right text-gray-500">Publicado:14/10/2024</p>
@@ -8413,7 +8413,7 @@
                                                 <br>
                                                 <p>Finalmente, la Comisión de Descentralización y Participación Ciudadana se reunió en el Salón Presidente Alfonsín para tratar informes relacionados con el presupuesto de las comunas y la implementación de la Ley Orgánica de Comunas, permitiendo la participación activa de los vecinos presentes.
                                                 </p>
-                                                <br> 
+                                                <br>
                                             </div>
                                         </div>
                                     </div>
@@ -8481,12 +8481,12 @@
                                                 <p>La Selección Argentina se consagró bicampeona de la Copa América el pasado
                                                     domingo 14 de julio de 2024, en una final electrizante, que terminó en cero el
                                                     tiempo reglamentario y se definió con un gol de Lautaro Martínez cuando se
-                                                    jugaba el segundo tiempo del suplementario, los campeones del mundo se                                                 
+                                                    jugaba el segundo tiempo del suplementario, los campeones del mundo se
                                                     impusieron por 1-0 a Colombia y repitieron el título conseguido hace tres años
                                                     en el Maracaná, Brasil, siendo la más ganadora de la competencia con 16
                                                     títulos, superando a la selección del país hermano Uruguay.
                                                 </p>
-                                                <br> 
+                                                <br>
                                                 <p>
                                                     De esta manera, el seleccionado nacional alcanzó los 23 títulos oficiales, que
                                                     se dividen en tres Mundiales, 16 Copas Américas, una Copa Conferaciones, la
@@ -8506,7 +8506,7 @@
                                                     Licenciado en Historia.
                                                 </p>
                                                 <br>
-                                        
+
                                             </div>
                                         </div>
                                     </div>
@@ -8573,7 +8573,7 @@
                                                     Uriburu. Korbenfeld, miembro de importantes sociedades médicas nacionales e
                                                     internacionales y parte del Comité Científico del Hospital Británico de Buenos
                                                     Aires, ha desarrollado una larga trayectoria en oncología y docencia. Uriburu,
-                                                    por su parte, es jefe del Servicio de Mastología del Hospital Británico y médico                                                 
+                                                    por su parte, es jefe del Servicio de Mastología del Hospital Británico y médico
                                                     del Centro Mamario del Hospital Universitario Austral, además de su rol en la
                                                     docencia y la investigación en cáncer de mama.
                                                 </p>
@@ -8585,7 +8585,7 @@
                                                     fundamental que cumple el diagnóstico precoz y en la necesidad de políticas
                                                     públicas que promuevan el acceso a controles médicos.
                                                 </p>
-                                                <br> 
+                                                <br>
                                                 <p>
                                                     El cáncer de mama es el tipo de cáncer más frecuente en mujeres, y su
                                                     incidencia aumenta a partir de los 50 años. Según el Instituto Nacional del
@@ -8602,7 +8602,7 @@
                                                     de salud para reducir el impacto de esta enfermedad en la sociedad.
                                                 </p>
                                                 <br>
-                                        
+
                                             </div>
                                         </div>
                                     </div>
@@ -8613,7 +8613,7 @@
                     </div>
                     @livewire('lateral')
                 </div>
-            </section>    
+            </section>
         @elseif ($tituloSep == 'Legislatura-Noticia-Completa-leg63')
             <section>
                 <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
@@ -8669,7 +8669,7 @@
                                                     política moderna. Participarán, entre otros, los legisladores Claudia Neira
                                                     y Sergio Siciliano, además del especialista en tecnología pública Juan
                                                     Belbis.</p><br>
-                                                    
+
                                                     <p>Inteligencia artificial y conversación pública: Este segundo panel
                                                     explorará el papel de la inteligencia artificial en la comunicación y el
                                                     riesgo que implica la difusión de noticias falsas. Contará con la
@@ -8694,7 +8694,7 @@
                                                 <p>La jornada concluirá con una conferencia de cierre a cargo de las autoridades
                                                     de la Legislatura y destacados consultores en comunicación política.
                                                 </p>
-                                                <br> 
+                                                <br>
                                             </div>
                                         </div>
                                     </div>
@@ -8791,10 +8791,175 @@
                     @livewire('lateral')
                 </div>
             </section>
-       
+        @elseif ($tituloSep == 'Legislatura-Noticia-Completa-leg65')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">JAVIER CASTRILLI Y MARTÍN CABRALES SON
+                                                NUEVAS PERSONALIDADES DESTACADAS DE LA
+                                                CIUDAD
+                                            </a>
+                                        </h2>
+                                        <p class="font-light  text-right text-gray-500">Publicado:05/11/2024</p>
+                                        <p><i>El Cuerpo Legislativo destacó la trayectoria del ex árbitro de fútbol y del dueño
+                                            de Cabrales S.A. Además se entregó una declaración de interés al Programa
+                                            de Capacitación y Fortalecimiento para Organizaciones Sociales y
+                                            Comunitarias de la Facultad de Ciencias Sociales UBA.
+                                        </i></p>
+                                        <br>
+                                        <figure>
+                                            <a href="">
+                                                <img class="w-full object-cover object-center"
+                                                    src="{{ asset('../img/leg/leg_castrilli.svg') }}"
+                                                    alt="">
+                                            </a>
+                                        </figure>
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+                                                <p>En un acto que reflejó el alcance de distintas esferas de la sociedad, la
+                                                    Legislatura de la Ciudad de Buenos Aires declaró como Personalidad
+                                                    Destacada en el ámbito del Deporte al ex árbitro Javier Castrilli. El homenaje se
+                                                    llevó a cabo en el Salón Presidente Alfonsín y fue encabezado por el diputado
+                                                    Facundo Del Gaiso. Castrilli, conocido como el “Sheriff” por su riguroso
+                                                    cumplimiento del reglamento en los partidos, tuvo una destacada carrera tanto
+                                                    nacional como internacional. Desde su debut en 1991 en la Primera División
+                                                    hasta su participación en eventos mundiales como el Mundial de Francia 1998,
+                                                    su figura dejó una huella en el fútbol argentino y mundial.
+                                                </p>
+                                                <br>
+                                                <p>En paralelo, en el Salón Dorado, la Legislatura otorgó una distinción a Martín
+                                                    Cabrales, presidente de Cabrales S.A., una de las empresas más importantes
+                                                    en la importación y distribución de café en Argentina. En este acto, Sergio
+                                                    Siciliano, legislador y promotor de la iniciativa, destacó la contribución de
+                                                    Cabrales a la economía nacional y su participación activa en múltiples
+                                                    organismos empresariales. Cabrales, además, ha recibido numerosos premios
+                                                    y reconocimientos, como el Konex de Platino en 2018 y la Orden Nacional al
+                                                    Mérito de Colombia en 2022, por su impacto en la comunidad empresarial.
+                                                </p>
+                                                <br>
+                                                <p>Por otro lado, en el Salón San Martín, se entregó la Declaración de Interés
+                                                    Social al Programa de Capacitación y Fortalecimiento para Organizaciones
+                                                    Sociales y Comunitarias de la Facultad de Ciencias Sociales de la UBA. Este
+
+                                                    programa, iniciado en 2002 en un contexto de crisis económica y social, se ha
+                                                    destacado por su compromiso con las organizaciones de la sociedad civil,
+                                                    brindando apoyo y capacitación para fortalecer su rol en la comunidad. Desde
+                                                    su creación, el PCOC ha trabajado con más de 2000 organizaciones,
+                                                    involucrando a más de 250 docentes y 500 estudiantes y graduados en el
+                                                    desarrollo de proyectos sociales.
+                                                    </p><br>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+                            </li>
+                        </ul>
+                        <br>
+                    </div>
+                    @livewire('lateral')
+                </div>
+            </section>
+        @elseif ($tituloSep == 'Legislatura-Noticia-Completa-leg66')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">JULIO RICARDO PERSONALIDAD DESTACADA DEL
+                                                PERIODISMO DEPORTIVO ARGENTINO
+                                            </a>
+                                        </h2>
+                                        <p class="font-light  text-right text-gray-500">Publicado:06/11/2024</p>
+                                        <p><i>Julio Ricardo López Batista, conocido popularmente como Julio Ricardo, fue
+                                            distinguido por su destacada trayectoria por el Cuerpo Legislativo.
+                                        </i></p>
+                                        <br>
+                                        <figure>
+                                            <a href="">
+                                                <img class="w-full object-cover object-center"
+                                                    src="{{ asset('../img/leg/leg_ricardo.svg') }}"
+                                                    alt="">
+                                            </a>
+                                        </figure>
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+                                                <p>Esta tarde, la Legislatura de la Ciudad declaró al periodista deportivo, Julio
+                                                    Ricardo, como Personalidad Destacada en el ámbito del Periodismo Deportivo
+                                                    de la Ciudad. El acto se llevó a cabo en el Salón Dorado y contó con la
+                                                    presencia del diputado y autor del proyecto, Claudio Ferreño; el periodista
+                                                    deportivo, Ernesto Cherquis Bialo; y el homenajeado.
+                                                </p>
+                                                <br>
+                                                <p>“Hoy celebramos la destacada trayectoria de uno de los grandes del
+                                                periodismo. Su nombre evoca compromiso, profesionalismo y una pasión
+                                                contagiosa por el deporte que todos nosotros compartimos. Él ha sido y sigue
+                                                siendo una fuente de inspiración”, destacó Ferreño en el incio de las
+                                                alocuciones.
+                                                </p>
+                                                <br>
+                                                <p>Ricardo agradeció a los diputados de la Ciudad por el acompañamiento a la
+                                                    declaración. También recordó a la Selección Argentina, que logró el
+                                                    campeonato mundial de fútbol en Qatar 2022, y los posteriores festejos en la
+                                                    Ciudad: “Es el deporte, que le está mostrando al mundo que es posible vivir en
+                                                    paz, de no vivir en guerra ni en grietas de manera permanente. Fue
+                                                    excepcional lo de ese día”.
+                                                    </p><br>
+                                                    <p>Ricardo agradeció a los diputados de la Ciudad por el acompañamiento a la
+                                                        declaración. También recordó a la Selección Argentina, que logró el
+                                                        campeonato mundial de fútbol en Qatar 2022, y los posteriores festejos en la
+                                                        Ciudad: “Es el deporte, que le está mostrando al mundo que es posible vivir en
+                                                        paz, de no vivir en guerra ni en grietas de manera permanente. Fue
+                                                        excepcional lo de ese día”.
+                                                        </p><br>
+                                                        <p>Julio Ricardo López Batista, nacido el 18 de agosto de 1933 en Buenos Aires,
+                                                            es una figura emblemática del periodismo deportivo en Argentina, cuya carrera
+                                                            comenzó en 1957 cubriendo partidos de fútbol para la revista Noticias Gráficas.
+                                                            Desde entonces, su trayectoria ha sido una constante contribución al
+                                                            periodismo deportivo en el país. Se desempeñó como comentarista, cronista y
+                                                            analista en numerosos programas de radio y televisión.
+                                                            </p><br>
+                                                            <p>A lo largo de su carrera, Julio Ricardo ha trabajado junto a otros grandes
+                                                                exponentes del periodismo deportivo argentino, tales como Luis Elías Sojit,
+                                                                José María Muñoz y Víctor Hugo Morales. Su estilo directo y su vasta
+                                                                experiencia le permitieron construir una voz única y reconocible para los
+                                                                amantes del deporte.
+                                                                </p><br>
+                                                                <p>Durante décadas, Julio Ricardo ha sido una presencia destacada en
+                                                                    importantes canales de televisión como el 9, 11, 13 y ATC, además de su
+                                                                    trabajo en emisoras de radio como Radio Colonia y Radio Nacional. Su rol en
+                                                                    estos medios no solo ha marcado un estilo propio, sino que también ha sido
+                                                                    fundamental para la profesionalización y el desarrollo del periodismo deportivo
+                                                                    en Argentina.
+                                                                    </p><br>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+                            </li>
+                        </ul>
+                        <br>
+                    </div>
+                    @livewire('lateral')
+                </div>
+            </section>
+
+
             @endif
     </div>
-  
+
 
 
 </x-app-layout>

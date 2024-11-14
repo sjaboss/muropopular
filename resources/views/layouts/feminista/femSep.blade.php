@@ -2456,7 +2456,7 @@
                                         <h2 class="text-xl font-serif  font-bold pb-6">
                                             <a href="">LAS MUJERES BONAERENSES MARCHARON CONTRA EL AJUSTE DE MILEI</a>
                                         </h2>
-                                    
+
                                         <p><i>Con las consignas <b>“Por nuestros derechos, contra el ajuste de Milei y abajo el DNU”</b>, miles de mujeres y diversidades se movilizaron desde numerosos puntos de la provincia para pronunciarse contra las políticas económicas de ajuste y el retroceso de derechos que lleva adelante el Gobierno nacional.</i>
                                         </p>
                                         <br>
@@ -2572,7 +2572,7 @@
                                         </figure> --}}
                                         <article>
                                             <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/KgLeMhUAufY?si=LCmXJy-t6RqfgsUb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                                            
+
                                         </article>
                                         <br>
                                         <div
@@ -2682,7 +2682,7 @@
                                         </figure>
                                         {{-- <article>
                                             <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/KgLeMhUAufY?si=LCmXJy-t6RqfgsUb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                                            
+
                                         </article> --}}
                                         <br>
                                         <div
@@ -2792,7 +2792,7 @@
                                         </figure>
                                         {{-- <article>
                                             <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/KgLeMhUAufY?si=LCmXJy-t6RqfgsUb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                                            
+
                                         </article> --}}
                                         <br>
                                         <div
@@ -2909,7 +2909,7 @@
                                         </figure>
                                         {{-- <article>
                                             <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/KgLeMhUAufY?si=LCmXJy-t6RqfgsUb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                                            
+
                                         </article> --}}
                                         <br>
                                         <div
@@ -2930,7 +2930,7 @@
                                                 <p>Los medios que realmente aspiran a ser parte del cambio deben replantear su enfoque, entendiendo que cada imagen, cada palabra, tiene un impacto directo en la vida de las víctimas y en la percepción social de la violencia de género. Es imperativo que, en lugar de reproducir la violencia, se esfuercen en erradicarla, siendo fieles a los principios de ética y humanidad.
                                                 </p>
                                                 <br>
-                                                
+
                                             </div>
                                         </div>
                                 </article>
@@ -3016,7 +3016,7 @@
                                         </figure>
                                         {{-- <article>
                                             <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/KgLeMhUAufY?si=LCmXJy-t6RqfgsUb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                                            
+
                                         </article> --}}
                                         <br>
                                         <div
@@ -3037,7 +3037,7 @@
                                                 <p>Con este fallo, el sistema judicial argentino da un paso importante en la garantía de justicia y en la protección de los derechos de las personas más vulnerables, reafirmando su compromiso en la lucha contra los crímenes de odio y la violencia de género.
                                                 </p>
                                                 <br>
-                                                
+
                                             </div>
                                         </div>
                                 </article>
@@ -3123,7 +3123,7 @@
                                         </figure>
                                         {{-- <article>
                                             <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/KgLeMhUAufY?si=LCmXJy-t6RqfgsUb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                                            
+
                                         </article> --}}
                                         <br>
                                         <div
@@ -3149,7 +3149,7 @@
                                                 <p>Además, el Ministerio de Mujeres y Diversidad propuso incluir la perspectiva de género en el trabajo y la producción. En 2021, el trabajo en los muelles era realizado solo por hombres; sin embargo, en 2023, la participación femenina alcanzó el 40% gracias a políticas como el programa Puertos en Clave de Géneros.
                                                 </p>
                                                 <br>
-                                                
+
                                             </div>
                                         </div>
                                 </article>
@@ -3235,7 +3235,7 @@
                                         </figure>
                                         {{-- <article>
                                             <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/KgLeMhUAufY?si=LCmXJy-t6RqfgsUb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                                            
+
                                         </article> --}}
                                         <br>
                                         <div
@@ -3261,7 +3261,7 @@
                                                 <p>En este Encuentro, el cuerpo es protagonista, así como la voluntad inquebrantable de miles de personas que desafían las adversidades económicas y políticas para hacerse presentes, para gritar que el feminismo está vivo, activo, y que sigue siendo una fuerza imparable en Argentina y más allá.
                                                 </p>
                                                 <br>
-                                                
+
                                             </div>
                                         </div>
                                 </article>
@@ -3297,7 +3297,7 @@
                                         </figure>
                                         {{-- <article>
                                             <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/KgLeMhUAufY?si=LCmXJy-t6RqfgsUb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                                            
+
                                         </article> --}}
                                         <br>
                                         <div
@@ -3347,7 +3347,198 @@
             </section>
 
 
-        @endif
+
+        @elseif ($tituloSep == 'Agenda-Feminista-Completa-fem25')
+        <section>
+            <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                <div class=" col-span-4">
+                    <ul>
+                        <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                            <article>
+
+                                <div class="py-4 px-4 justify-between items-center">
+                                    <h2 class="text-xl font-serif  font-bold pb-6">
+                                        <a href="">LA MARCHA DEL ORGULLO SE ALZA CONTRA EL
+                                            GOBIERNO DE ULTRADERECHA</a>
+                                        <p class="font-light  text-right text-gray-500">Publicado: 03/11/2024</p>
+                                    </h2>
+                                    <p><i>Más de un millón de personas se movilizaron en la Marcha del Orgullo para
+                                        defender sus derechos frente al gobierno de ultraderecha, denunciando el
+                                        ajuste, los discursos de odio y el retroceso en las políticas públicas para la
+                                        diversidad.</i>
+                                    </p>
+                                    <br>
+                                    <figure>
+                                        <img class="w-full object-cover" src="../img/fem/fem_orgullo_24.svg"
+                                            alt="">
+                                    </figure>
+                                    {{-- <article>
+                                        <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/KgLeMhUAufY?si=LCmXJy-t6RqfgsUb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+                                    </article> --}}
+                                    <br>
+                                    <div
+                                        class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                        <div class=" font-sans text-lg text-left col-span-6  ">
+                                            <p>La trigésima tercera edición de la marcha fue un grito colectivo por la defensa
+                                                de derechos adquiridos frente a un gobierno que, mediante el
+                                                desmantelamiento de organismos como el Ministerio de las Mujeres y el INADI,
+                                                ha atacado a la comunidad LGBTIQ+. La movilización, que convocó a miles de
+                                                personas, incluyó un pañuelazo contra el negacionismo en el que participaron
+                                                organismos de derechos humanos, como Madres, Abuelas e HIJOS.
+                                            </p>
+                                            <br>
+                                            <p>En el documento leído durante la marcha, 60 agrupaciones denunciaron el
+                                                ajuste en programas esenciales para la comunidad LGBTIQ+ y la
+                                                profundización de los discursos de odio. “No hay libertad con ajuste y
+                                                represión”, se leyó en la Plaza, donde se exigió al Congreso la aprobación de la
+                                                Ley Integral Trans, la Ley Antidiscriminatoria y una implementación efectiva de
+                                                la Educación Sexual Integral no binaria.
+                                            </p>
+                                            <br>
+                                            <p>Además de las críticas a la falta de políticas públicas inclusivas, se alzó la voz
+                                                contra los discursos de odio promovidos desde el Gobierno de La Libertad
+                                                Avanza, especialmente luego del triple lesbicidio de Barracas, que conmocionó
+                                                al país. Las y los activistas señalan que estos discursos fomentan la violencia,
+                                                como quedaron reflejados en el trágico asesinato de Pamela Cobbas,
+                                                Mercedes Roxana Figueroa y Andrea Amarante.
+                                                <p>
+                                            <br>
+                                            <p>Entre los testimonios destacados de la marcha, Jennifer Gabriela Aranda, una
+                                                travesti de 61 años y ex combatiente de Malvinas, recordó cómo, después de
+                                                sobrevivir a la dictadura, los maltratos y la represión, sigue luchando por los
+                                                derechos de su comunidad, alertando sobre el retroceso que representa un
+                                                gobierno negacionista.
+                                            </p>
+                                            <br>
+                                            <p>A lo largo del recorrido, las carrozas musicales y las banderas multicolores
+                                                invadieron la Avenida de Mayo, mientras se exigía justicia y se resistía a la
+                                                criminalización de la diversidad. También se denunció la falta de medicamentos
+                                                y reactivos para el tratamiento del VIH, un problema exacerbado por los
+                                                recortes presupuestarios anunciados para 2025.
+                                            </p>
+                                            <br>
+                                            <p>Un llamado a la unidad y la lucha, Taty Almeida, de Madres de Plaza de
+                                            Mayo – Línea Fundadora, fue ovacionada durante el pañuelazo contra el
+                                            negacionismo, donde reafirmó la importancia de mantener la movilización para
+                                            no perder los derechos conquistados. El activismo por la diversidad no se
+                                            detiene, y, como dijo Almeida: “La única lucha que se pierde es la que se
+                                            abandona”.
+                                            </p>
+                                            <br>
+                                            <p>En las calles de Buenos Aires, la Marcha del Orgullo 2024 dejó claro que,
+                                                frente a un gobierno que reduce la libertad a un discurso neoliberal, la
+                                                comunidad LGBTIQ+ no solo reclama derechos, sino que se apropia de su
+                                                libertad.
+                                            </p>
+                                            <br>
+                                        </div>
+                                    </div>
+                            </article>
+                        </li>
+                    </ul>
+                    <br>
+                </div>
+                @livewire('lateral')
+            </div>
+        </section>
+        @elseif ($tituloSep == 'Agenda-Feminista-Completa-fem26')
+        <section>
+            <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                <div class=" col-span-4">
+                    <ul>
+                        <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                            <article>
+
+                                <div class="py-4 px-4 justify-between items-center">
+                                    <h2 class="text-xl font-serif  font-bold pb-6">
+                                        <a href="">PRESENTARON FEMINISMOS EN RED</a>
+                                        <p class="font-light  text-right text-gray-500">Publicado: 05/11/2024</p>
+                                    </h2>
+                                    <p><i>Impulsado por el gobierno bonaerense y CLACSO, busca fortalecer la agenda
+                                        de género y diversidad en Argentina y la región, promoviendo el diálogo y la
+                                        inclusión.</i>
+                                    </p>
+                                    <br>
+                                    <figure>
+                                        <img class="w-full object-cover" src="../img/fem/fem_red.svg"
+                                            alt="">
+                                    </figure>
+                                    {{-- <article>
+                                        <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/KgLeMhUAufY?si=LCmXJy-t6RqfgsUb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+                                    </article> --}}
+                                    <br>
+                                    <div
+                                        class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                        <div class=" font-sans text-lg text-left col-span-6  ">
+                                            <p>El gobernador de la provincia de Buenos Aires, Axel Kicillof, junto a la ministra
+                                                de Mujeres y Diversidad, Estela Díaz, presentó este martes el proyecto
+                                                “Feminismos en Red. La provincia de Buenos Aires dialoga con el país y la
+                                                Patria Grande”, con el objetivo de impulsar la agenda de género y diversidad
+                                                tanto a nivel nacional como regional. El evento, que tuvo lugar en el Salón
+                                                Dorado de la Casa de Gobierno bonaerense, contó con la presencia de figuras
+                                                clave como la vicegobernadora Verónica Magario y la directora ejecutiva de
+                                                CLACSO, Karina Batthyány.
+                                            </p>
+                                            <br>
+                                            <p>Durante la presentación, Kicillof enfatizó la falsedad de los discursos que
+                                                intentan deslegitimar los avances en materia de género y diversidad en el país.
+                                                “No sólo no hemos retrocedido, sino que hemos fortalecido las políticas,
+                                                representando el mandato popular de seguir ampliando derechos”, afirmó el
+                                                gobernador, subrayando el compromiso de la provincia con la igualdad y la
+                                                justicia social.
+                                            </p>
+                                            <br>
+                                            <p>Estela Díaz, por su parte, destacó la importancia de la red como un espacio de
+                                                encuentro y diálogo intergeneracional y multisectorial. “Las diversidades y las
+                                                mujeres de la provincia de Buenos Aires seguiremos trabajando por la
+                                                construcción de justicia social con igualdad de género”, aseguró.
+                                                <p>
+                                            <br>
+                                            <p>El proyecto se materializó a través de un convenio firmado entre la provincia y
+                                                el Consejo Latinoamericano de Ciencias Sociales (CLACSO), con el objetivo de
+                                                crear una Red Federal que trace una agenda conjunta de género y diversidad
+                                                para toda la región. Este esfuerzo se enmarca en el trabajo conjunto de la
+                                                Escuela de Género, Gobierno y Comunidad del Ministerio de Mujeres y
+                                                Diversidad de la provincia, CLACSO y el financiamiento del Consejo Federal de
+                                                Inversiones (CFI).
+                                            </p>
+                                            <br>
+                                            <p>Batthyány, por su parte, resaltó la relevancia de mantener la lucha por la
+                                                igualdad de género, especialmente en tiempos de adversidad. “En tiempos
+                                                complejos, estas banderas hay que mantenerlas más altas que nunca”,
+                                                expresó, haciendo hincapié en la necesidad de construir un campo de
+                                                resistencia para los feminismos latinoamericanos.
+                                            </p>
+                                            <br>
+                                            <p>La Red Federal, integrada por autoridades públicas, académicas,
+                                                investigadoras y representantes de organizaciones sociales de todo el país,
+                                                tiene como objetivo generar una discusión profunda sobre las políticas de
+                                                género y diversidad, con encuentros tanto cerrados como abiertos, que
+                                                permitirán recoger las experiencias y saberes de las participantes.
+                                            </p>
+                                            <br>
+                                            <p>El proyecto también prevé la elaboración de un documento con diagnósticos y
+                                                recomendaciones para la reconstrucción de la agenda de género y diversidad
+                                                en Argentina, que será debatido en encuentros periódicos con la Red
+                                                Iberoamericana, ampliando así los horizontes del diálogo y la acción feminista a
+                                                nivel global.
+                                            </p>
+                                            <br>
+                                        </div>
+                                    </div>
+                            </article>
+                        </li>
+                    </ul>
+                    <br>
+                </div>
+                @livewire('lateral')
+            </div>
+        </section>
+
+
+    @endif
     </div>
 
 </x-app-layout>

@@ -2,6 +2,72 @@
     <div class="container ">
 @livewire('superior')
 
+{{--RUSIA Y VENEZUELA REFUERZAN SU ALIANZA CONTRA LAS SANCIONES OCCIDENTALES  --}}
+<section>
+            <ul>
+                <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                    <article>
+                        <div class="py-4 px-4 justify-between items-center">
+                            <h2 class="text-xl font-serif  font-bold pb-6">
+                                <a href="">RUSIA Y VENEZUELA REFUERZAN SU ALIANZA
+                                    CONTRA LAS SANCIONES OCCIDENTALES</a>
+                        {{--  <p class="font-light  text-lef text-gray-500">Por Gustavo Cano</p> --}}
+                            </h2>
+                            <p class="font-light  text-right text-gray-500">Publicado: 07/11/2024</p>
+                            <p><i>Los gobiernos de Rusia y Venezuela avanzan en proyectos conjuntos de
+                                desarrollo y fortalecen su cooperación estratégica en medio de crecientes
+                                sanciones internacionales.
+                            </i>
+                            </p>
+                            <br>
+                            <figure>
+                                <img class=" w-full object-cover" src="../img/int/int_puttin.svg"
+                                    alt="">
+                            </figure>
+                            <br>
+                            <div
+                                class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                <div class=" font-sans text-lg text-left col-span-6  ">
+                                    <p>El vicepresidente ruso Dmitry Chernyshenko, junto a representantes
+                                        empresariales rusos y venezolanos, se encuentra en Caracas para la XVIII
+                                        Reunión de la Comisión Intergubernamental de Alto Nivel (CIAN) entre ambas
+                                        naciones. El encuentro, respaldado por el presidente Nicolás Maduro, plantea
+                                        reforzar proyectos bilaterales en áreas como tecnología, educación, turismo y
+                                        deporte, consolidando una alianza que busca sortear las barreras impuestas
+                                        por sanciones y bloqueos internacionales.
+                                    </p>
+                                    <br>
+                                    <p>La vicepresidenta de Venezuela, Delcy Rodríguez, destacó en el Consejo
+                                        Empresarial binacional que la cooperación con Rusia ha permitido a ambos
+                                        países desarrollar una economía autosuficiente y resiliente, fortalecida por el
+                                        compromiso mutuo de soberanía. “Ni los chantajes ni las Medidas Coercitivas
+                                        Unilaterales torcerán el camino propio que Rusia y Venezuela han consolidado
+                                        para desarrollarse en conjunto, con soberanía y autodeterminación”, subrayó
+                                        Rodríguez, en un llamado a la independencia frente a las presiones externas.
+                                    </p>
+                                    <br>
+                                    <p>En paralelo, el embajador ruso en Venezuela, Sergey Mélik-Bagdasárov,
+                                        reafirmó la alianza antifascista entre ambos países durante el Foro
+                                        Parlamentario Internacional Antifascista en Caracas. Recordó la resistencia
+                                        histórica de Rusia al fascismo y su actual respaldo a Venezuela en su intento
+                                        de unirse a los BRICS, un objetivo estratégico para Caracas en su búsqueda
+                                        de integración en un bloque que defiende la autonomía de los países del sur
+                                        global.
+                                    </p>
+                                    <br>
+                                    <p>Esta cooperación simboliza una alianza a favor de la autodeterminación y en
+                                        defensa de la independencia económica y política, mientras ambos países se
+                                        posicionan como socios clave en la construcción de una alternativa multipolar
+                                        en el escenario global.
+                                    </p>
+                                    <br>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </li>
+            </ul>
+</section>
 {{--EVO MORALES SUFRE ATAQUE ARMADO: &quot;QUIEREN MI DESAPARICIÓN FÍSICA&quot;  --}}
 <section>
     <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">

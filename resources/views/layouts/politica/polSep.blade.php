@@ -320,7 +320,7 @@
                                             <br>
                                             {{-- <article>
                                             <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/YElDMxWtpio?si=B21D4BO6vjuKVj0Z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                                            
+
                                         </article> --}}
                                             <figure>
                                                 <img class="w-full object-cover"
@@ -468,7 +468,7 @@
                                             <br>
                                             {{-- <article>
                                             <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/YElDMxWtpio?si=B21D4BO6vjuKVj0Z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                                            
+
                                         </article> --}}
                                             <figure>
                                                 <img class="w-full object-cover"
@@ -683,7 +683,7 @@
                                             <br>
                                             {{-- <article>
                                             <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/YElDMxWtpio?si=B21D4BO6vjuKVj0Z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                                            
+
                                         </article> --}}
                                             <figure>
                                                 <img class="w-full object-cover"
@@ -783,7 +783,7 @@
                                             <br>
                                             {{-- <article>
                                             <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/YElDMxWtpio?si=B21D4BO6vjuKVj0Z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                                            
+
                                         </article> --}}
                                             <figure>
                                                 <img class="w-full object-cover"
@@ -905,7 +905,7 @@
                                             <br>
                                             {{-- <article>
                                             <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/YElDMxWtpio?si=B21D4BO6vjuKVj0Z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                                            
+
                                         </article> --}}
                                             <figure>
                                                 <img class="w-full object-cover"
@@ -1002,7 +1002,7 @@
                                             <br>
                                             {{-- <article>
                                             <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/YElDMxWtpio?si=B21D4BO6vjuKVj0Z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                                            
+
                                         </article> --}}
                                             <figure>
                                                 <img class="w-full object-cover"
@@ -1109,7 +1109,7 @@
                                             <br>
                                             {{-- <article>
                                             <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/YElDMxWtpio?si=B21D4BO6vjuKVj0Z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                                            
+
                                         </article> --}}
                                             <figure>
                                                 <img class="w-full object-cover"
@@ -1326,7 +1326,7 @@
                                             <br>
                                             {{-- <article>
                                             <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/YElDMxWtpio?si=B21D4BO6vjuKVj0Z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                                            
+
                                         </article> --}}
                                             <figure>
                                                 <img class="w-full object-cover"
@@ -1538,7 +1538,7 @@
                                             <br>
                                             {{-- <article>
                                             <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/YElDMxWtpio?si=B21D4BO6vjuKVj0Z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                                            
+
                                         </article> --}}
                                             <figure>
                                                 <img class="w-full object-cover"
@@ -1712,7 +1712,7 @@
                                             <br>
                                             {{-- <article>
                                             <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/YElDMxWtpio?si=B21D4BO6vjuKVj0Z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                                            
+
                                         </article> --}}
                                             <figure>
                                                 <img class="w-full object-cover"
@@ -1795,7 +1795,7 @@
                                             <br>
                                             {{-- <article>
                                             <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/YElDMxWtpio?si=B21D4BO6vjuKVj0Z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                                            
+
                                         </article> --}}
                                             <figure>
                                                 <img class="w-full object-cover"
@@ -2759,84 +2759,569 @@
 
             </section>
         @elseif ($tituloSep == 'Politica-Noticia-Completa-pol88')
-        <section>
-            <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
-                <div class=" col-span-4">
-                    <ul>
-                        <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
-                            <article>
-                                <div class="py-4 px-4 justify-between items-center">
-                                    <h2 class="text-xl font-serif  font-bold pb-6">
-                                        <a href="">EL GOBIERNO DE MILEI LLAMA ‘FALKLANDS’ A LAS
-                                            MALVINAS, UN ERROR QUE ESCONDE UNA TRAICION</a>
-                                    </h2>
-                                    <p class="font-light  text-right text-gray-500">Publicado: 27/10/2024</p>
-                                    <div class=" font-sans text-lg text-left col-span-6  ">
-                                    <p><i>Las encuestas anticipan un escenario reñido para el 5 de noviembre en una
-                                        contienda marcada por acusaciones y tensiones en torno a la economía,
-                                        migración y seguridad nacional.
-                                    </i>
-                                    </p>
-                                    <br>
-                                    <figure>
-                                        <img class="w-full object-cover"
-                                        src="{{ asset('../img/pol/pol_malvinas.svg') }}" alt="">
-                                    </figure>
-                                    <br>
-                                    <div
-                                        class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">EL GOBIERNO DE MILEI LLAMA ‘FALKLANDS’ A LAS
+                                                MALVINAS, UN ERROR QUE ESCONDE UNA TRAICION</a>
+                                        </h2>
+                                        <p class="font-light  text-right text-gray-500">Publicado: 27/10/2024</p>
                                         <div class=" font-sans text-lg text-left col-span-6  ">
-                                            <p>La decisión del gobierno de Javier Milei de referirse a las Islas Malvinas como
-                                                ‘Falklands’ en un comunicado oficial ha generado indignación y preocupación
-                                                en la arena política y social. Este acto, lejos de ser un simple error protocolar,
-                                                revela una postura permisiva ante los intereses británicos que, para muchos,
-                                                raya en la traición a la soberanía argentina.
+                                            <p><i>Las encuestas anticipan un escenario reñido para el 5 de noviembre en
+                                                    una
+                                                    contienda marcada por acusaciones y tensiones en torno a la
+                                                    economía,
+                                                    migración y seguridad nacional.
+                                                </i>
                                             </p>
                                             <br>
-                                            <p>Desde Cancillería, la situación es calificada como un “desorden total”, en el que
-                                                prevalecen directrices contradictorias y una desconexión entre el presidente y
-                                                la diplomacia argentina. La canciller Diana Mondino, superada por las internas
-                                                y por el círculo cercano al mandatario, parece incapaz de frenar una serie de
-                                                decisiones que alejan al país de su tradicional defensa soberana. Este desliz,
-                                                inédito en la historia diplomática argentina, suma un golpe de desprestigio en
-                                                un momento en el que Argentina enfrenta un aislamiento creciente en la región
-                                                y el mundo.
-                                            </p>
+                                            <figure>
+                                                <img class="w-full object-cover"
+                                                    src="{{ asset('../img/pol/pol_malvinas.svg') }}" alt="">
+                                            </figure>
                                             <br>
-                                            <p>Las repercusiones no se hicieron esperar. Países aliados de Argentina, como
-                                                Brasil y México, han expresado preocupación por la dirección errática de la
-                                                diplomacia argentina. La Cancillería hoy se encuentra en un clima de extrema
-                                                tensión, con un cuerpo diplomático que, lejos de alinearse con las políticas de
-                                                Milei, advierte sobre las consecuencias de una política internacional que parece
-                                                priorizar una agenda ultraliberal en detrimento de los intereses nacionales.
-                                            </p>
-                                            <br>
-                                            <p>SEl uso de ‘Falklands’ no es un desliz menor: jamás un gobierno argentino utilizó
-                                                este término en una declaración oficial. En contraste, el Reino Unido jamás ha                                                  
-                                                hecho referencia a las ‘Malvinas’ en un texto formal. Las consecuencias de este
-                                                giro impactarán en las aspiraciones de Argentina en foros internacionales como
-                                                el Comité de Descolonización de la ONU, donde la postura histórica del país ha
-                                                sido clara y firme.
-                                            </p>
-                                            <br>
-                                            <p>La posible entrega de la causa Malvinas a la influencia británica deja una
-                                                marca indeleble en la administración de Milei, quien, en vez de fortalecer la
-                                                defensa de la soberanía argentina, parece optar por una actitud de
-                                                complacencia que muchos califican de traición.
-                                            </p>
-                                            <br>
-                                            <br>
-                                            <div class="text-start object-center">
-                                            </div>
-                                        </div>
-                            </article>
-                        </li>
-                    </ul>
+                                            <div
+                                                class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                                <div class=" font-sans text-lg text-left col-span-6  ">
+                                                    <p>La decisión del gobierno de Javier Milei de referirse a las Islas
+                                                        Malvinas como
+                                                        ‘Falklands’ en un comunicado oficial ha generado indignación y
+                                                        preocupación
+                                                        en la arena política y social. Este acto, lejos de ser un simple
+                                                        error protocolar,
+                                                        revela una postura permisiva ante los intereses británicos que,
+                                                        para muchos,
+                                                        raya en la traición a la soberanía argentina.
+                                                    </p>
+                                                    <br>
+                                                    <p>Desde Cancillería, la situación es calificada como un “desorden
+                                                        total”, en el que
+                                                        prevalecen directrices contradictorias y una desconexión entre
+                                                        el presidente y
+                                                        la diplomacia argentina. La canciller Diana Mondino, superada
+                                                        por las internas
+                                                        y por el círculo cercano al mandatario, parece incapaz de frenar
+                                                        una serie de
+                                                        decisiones que alejan al país de su tradicional defensa
+                                                        soberana. Este desliz,
+                                                        inédito en la historia diplomática argentina, suma un golpe de
+                                                        desprestigio en
+                                                        un momento en el que Argentina enfrenta un aislamiento creciente
+                                                        en la región
+                                                        y el mundo.
+                                                    </p>
+                                                    <br>
+                                                    <p>Las repercusiones no se hicieron esperar. Países aliados de
+                                                        Argentina, como
+                                                        Brasil y México, han expresado preocupación por la dirección
+                                                        errática de la
+                                                        diplomacia argentina. La Cancillería hoy se encuentra en un
+                                                        clima de extrema
+                                                        tensión, con un cuerpo diplomático que, lejos de alinearse con
+                                                        las políticas de
+                                                        Milei, advierte sobre las consecuencias de una política
+                                                        internacional que parece
+                                                        priorizar una agenda ultraliberal en detrimento de los intereses
+                                                        nacionales.
+                                                    </p>
+                                                    <br>
+                                                    <p>SEl uso de ‘Falklands’ no es un desliz menor: jamás un gobierno
+                                                        argentino utilizó
+                                                        este término en una declaración oficial. En contraste, el Reino
+                                                        Unido jamás ha
+                                                        hecho referencia a las ‘Malvinas’ en un texto formal. Las
+                                                        consecuencias de este
+                                                        giro impactarán en las aspiraciones de Argentina en foros
+                                                        internacionales como
+                                                        el Comité de Descolonización de la ONU, donde la postura
+                                                        histórica del país ha
+                                                        sido clara y firme.
+                                                    </p>
+                                                    <br>
+                                                    <p>La posible entrega de la causa Malvinas a la influencia británica
+                                                        deja una
+                                                        marca indeleble en la administración de Milei, quien, en vez de
+                                                        fortalecer la
+                                                        defensa de la soberanía argentina, parece optar por una actitud
+                                                        de
+                                                        complacencia que muchos califican de traición.
+                                                    </p>
+                                                    <br>
+                                                    <br>
+                                                    <div class="text-start object-center">
+                                                    </div>
+                                                </div>
+                                </article>
+                            </li>
+                        </ul>
+                    </div>
+                    @livewire('lateral')
                 </div>
-                @livewire('lateral')
-            </div>
-        </section>
-   
+            </section>
+        @elseif ($tituloSep == 'Politica-Noticia-Completa-pol89')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">UN NUEVO ESPACIO PARA FRENAR A MILEI Y EL
+                                                MACRISMO EN CABA</a>
+                                        </h2>
+                                        <p class="font-light  text-right text-gray-500">Publicado: 30/10/2024</p>
+                                        <div class=" font-sans text-lg text-left col-span-6  ">
+                                            <p><i>En un esfuerzo por frenar el avance de la ultraderecha y devolver el
+                                                    control de
+                                                    la Ciudad a los sectores populares, dirigentes y movimientos
+                                                    políticos lanzan
+                                                    Confluencia.
+                                                </i>
+                                            </p>
+                                            <br>
+                                            <figure>
+                                                <img class="w-full object-cover"
+                                                    src="{{ asset('../img/pol/pol_frenar.svg') }}" alt="">
+                                            </figure>
+                                            <br>
+                                            <div
+                                                class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                                <div class=" font-sans text-lg text-left col-span-6  ">
+                                                    <p>En un encuentro que reunió a referentes de múltiples agrupaciones
+                                                        políticas y
+                                                        sociales en el centro porteño, se presentó oficialmente
+                                                        “Confluencia”, un
+                                                        espacio que busca constituir un frente amplio en la Ciudad de
+                                                        Buenos Aires.
+                                                        Este nuevo movimiento está impulsado por organizaciones como
+                                                        Unidad
+                                                        Popular, Forja, Libres del Sur, Soberanxs, y otros colectivos,
+                                                        quienes
+                                                        compartieron un manifiesto para denunciar las políticas del
+                                                        actual gobierno de
+                                                        Javier Milei y el modelo macrista, que, afirman, ha consolidado
+                                                        la desigualdad.
+                                                        y multiplicando la pobreza.
+                                                    </p>
+                                                    <br>
+                                                    <p>Propuestas para una Buenos Aires más justa
+                                                    </p>
+                                                    <br>
+                                                    <p>“Confluencia” se diferencia de otros movimientos en su rechazo a
+                                                        ser solo una
+                                                        herramienta electoral, enfocándose en una propuesta de cambio
+                                                        estructural. Su
+                                                        manifiesto señala como objetivo fundamental &quot;recuperar la
+                                                        ciudad para quienes
+                                                        la habitan&quot;, y propone destinar parte del fondo anticrisis
+                                                        porteño a políticas de
+                                                        impacto social inmediato. Entre las iniciativas destacan la
+                                                        construcción de
+                                                        viviendas para alquiler social, el desarrollo de espacios verdes
+                                                        y la creación de
+                                                        polideportivos gratuitos, medidas que buscan aliviar el contexto
+                                                        crítico de una
+                                                        ciudad donde la pobreza y la falta de acceso a servicios básicos
+                                                        afectan a más
+                                                        de la mitad de la población.
+                                                    </p>
+                                                    <br>
+                                                    <p>Críticas a Milei y al macrismo
+                                                    </p>
+                                                    <br>
+                                                    <p>Durante el acto, los referentes señalan el desmantelamiento del
+                                                        Estado y la
+                                                        represión de Milei como el “proyecto autoritario” que reinstala
+                                                        paradigmas de la
+                                                        última dictadura, mientras el modelo macrista es acusado de
+                                                        enriquecer a
+                                                        pocos a la costa de la mayoría. Claudio Lozano, de Unidad
+                                                        Popular, sostuvo:
+                                                        “Este frente requiere democracia participativa y apertura a la
+                                                        comunidad; no es
+                                                        un mero acuerdo electoral ni una suma de fracasos”.
+                                                    </p>
+                                                    <p>Con este lanzamiento, &quot;Confluencia&quot; se presenta como un
+                                                        movimiento inclusivo
+                                                        y popular, invitando a los porteños a unirse para construir una
+                                                        Buenos Aires
+                                                        más democrática e igualitaria, capaz de poner fin a las
+                                                        políticas de Milei ya dos
+                                                        décadas de gestión neoliberal en la capital.
+                                                    </p>
+                                                    <br>
+                                                    <div class="text-start object-center">
+                                                    </div>
+                                                </div>
+                                </article>
+                            </li>
+                        </ul>
+                    </div>
+                    @livewire('lateral')
+                </div>
+            </section>
+        @elseif ($tituloSep == 'Politica-Noticia-Completa-pol90')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">MILEI ECHA A MONDINO Y SE RADICALIZA</a>
+                                        </h2>
+                                        <p class="font-light  text-right text-gray-500">Publicado: 31/10/2024</p>
+                                        <div class=" font-sans text-lg text-left col-span-6  ">
+                                            <p><i>El despido de la excanciller marca un nuevo giro radical en la
+                                                    política exterior
+                                                    de Milei, que amenaza el vínculo con América Latina y hunde al país
+                                                    en un
+                                                    aislamiento global sin precedentes.
+                                                </i>
+                                            </p>
+                                            <br>
+                                            <figure>
+                                                <img class="w-full object-cover"
+                                                    src="{{ asset('../img/pol/pol_descarga.svg') }}" alt="">
+                                            </figure>
+                                            <br>
+                                            <div
+                                                class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                                <div class=" font-sans text-lg text-left col-span-6  ">
+                                                    <p>En La destitución de Diana Mondino, tras la reciente votación en la
+                                                        ONU contra el
+                                                        bloqueo a Cuba, era un desenlace esperado: las tensiones entre
+                                                        Mondino y el
+                                                        entorno de Javier Milei crecía desde hace meses, especialmente
+                                                        en torno a su
+                                                        postura sobre la diplomacia latinoamericana y los BRICS. El voto
+                                                        de Argentina
+                                                        en la ONU, que acompañó a 187 países en el repudio al bloqueo,
+                                                        se mantuvo
+                                                        en la línea histórica de apoyo al multilateralismo y la
+                                                        cooperación regional. Sin
+                                                        embargo, esta decisión fue suficiente para que el gobierno de
+                                                        Milei empujara a
+                                                        Mondino fuera del gabinete y avanzara en un proceso de
+                                                        depuración interna en
+                                                        la Cancillería.
+                                                    </p>
+                                                    <br>
+                                                    <p>Una &quot;limpieza ideológica&quot; en la Cancillería
+                                                    </p>
+                                                    <br>
+                                                    <p>En el comunicado oficial de su destitución, el gobierno de Milei
+                                                        calificó de
+                                                        &quot;enemigos de la libertad&quot; a quienes, dentro de la
+                                                        diplomacia argentina,
+                                                        defienden posturas alineadas con derechos humanos, el combate al
+                                                        cambio
+                                                        climático y la cooperación latinoamericana. Este giro
+                                                        ultraderechista implica
+                                                        una purga interna al estilo macartista, donde las posiciones que
+                                                        disientan de la
+                                                        visión ultraliberal de Milei son desechadas o investigadas.
+                                                        Mondino, quien
+                                                        hasta hace poco era una de las figuras visibles en la
+                                                        Cancillería, quedó en el
+                                                        centro de esta limpieza ideológica por no someterse a la línea
+                                                        dura del
+                                                        “Triángulo de Hierro” conformado por los hermanos Milei y
+                                                        Santiago Caputo.
+                                                    </p>
+                                                    <br>
+                                                    <p>Argentina más sola y lejos de América Latina
+                                                    </p>
+                                                    <br>
+                                                    <p>El impacto de esta decisión va más allá de la política doméstica
+                                                        y tiene
+                                                        profundas implicancias para el rol de Argentina en la región y
+                                                        el mundo. Al
+                                                        atacar la cooperación histórica en el tema Malvinas y alinearse
+                                                        con un discurso
+                                                        de confrontación, el gobierno argentino se aleja de países
+                                                        estratégicos para la
+                                                        estabilidad regional y se aísla en temas como derechos humanos,
+                                                        género y
+                                                        cambio climático. Mientras los BRICS se consolidan como una
+                                                        plataforma de
+                                                        cooperación multilateral, Argentina se desvincula de este
+                                                        bloque, debilitando
+                                                        sus lazos con naciones clave en términos geopolíticos, como
+                                                        Brasil y China, y
+                                                        acercándose a la posición aislacionista y confrontativa de
+                                                        gobiernos como el de
+                                                        Estados Unidos e Israel.
+                                                    </p>
+                                                    <p>Así, con la salida de Mondino, el país sigue profundizando su
+                                                        aislamiento
+                                                        global, sin espacios de diálogo regional y con la diplomacia
+                                                        enfocada en
+                                                        objetivos que desarticulan alianzas y empujan a Argentina cada
+                                                        vez más a la
+                                                        marginalidad en la arena internacional.
+                                                    </p>
+                                                    <br>
+                                                    <div class="text-start object-center">
+                                                    </div>
+                                                </div>
+                                </article>
+                            </li>
+                        </ul>
+                    </div>
+                    @livewire('lateral')
+                </div>
+            </section>
+        @elseif ($tituloSep == 'Politica-Noticia-Completa-pol91')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">EL 50% DE LOS ARGENTINOS RECHAZA LA GESTIÓN
+                                                DE MILEI</a>
+                                        </h2>
+                                        <p class="font-light  text-right text-gray-500">Publicado: 01/11/2024</p>
+                                        <div class=" font-sans text-lg text-left col-span-6  ">
+                                            <p><i>Según una encuesta de la consultora brasileña Atlas y la agencia Bloomberg, la
+                                                mitad de los argentinos desaprueba la gestión del presidente, mientras que la
+                                                mayoría considera que la situación económica empeorará en los próximos
+                                                meses.
+                                                </i>
+                                            </p>
+                                            <br>
+                                            <figure>
+                                                <img class="w-full object-cover"
+                                                    src="{{ asset('../img/pol/pol_gestion.svg') }}" alt="">
+                                            </figure>
+                                            <br>
+                                            <div
+                                                class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                                <div class=" font-sans text-lg text-left col-span-6  ">
+                                                    <p>Un estudio realizado por la consultora Atlas y la agencia Bloomberg midió el
+                                                        apoyo a los líderes políticos de Brasil, Colombia, México, Chile y Argentina. Los
+                                                        resultados muestran que el 50,7% de los argentinos desaprueba la gestión del
+                                                        presidente, mientras que el 42,8% la aprueba. Además, el 48,1% califica al
+                                                        gobierno como malo o muy malo, y solo el 34% lo considera excelente.
+                                                    </p>
+                                                    <br>
+                                                    <p>En cuanto a la situación económica, los números son aún más preocupantes.
+                                                        El 64% de los encuestados considera que la situación de su familia es mala,
+                                                        mientras que un 78% piensa lo mismo sobre la economía argentina y el 76%
+                                                        sobre el mercado laboral. La mayoría de los consultados prevé un
+                                                        empeoramiento de la economía, la situación familiar y el mercado laboral en los
+                                                        próximos seis meses. Además, el 57,4% dice haber reducido su nivel de
+                                                        compra de bienes duraderos debido a la crisis inflacionaria.
+                                                    </p>
+                                                    <br>
+                                                    <p>La encuesta también revela que los altos precios son la principal preocupación
+                                                        de los argentinos (50%), seguida por el desempleo (45,7%) y la corrupción
+                                                        (36,6%). Solo el 22,8% se muestra preocupado por el debilitamiento de la
+                                                        democracia y sus instituciones.
+                                                    </p>
+                                                    <br>
+                                                    <p>En cuanto a la política exterior, el 60% de los consultados cree que Argentina
+                                                        debería tener una relación más estrecha con Brasil, y un 59% opina lo mismo
+                                                        respecto a Rusia y China. Por otro lado, el 48% considera que el país tiene
+                                                        más vínculos con Estados Unidos de los que debería.
+
+                                                        El estudio también menciona el creciente conocimiento del bloque BRICS, que
+                                                        un 39,3% de los argentinos reconoce. Sin embargo, un 34% aún no tiene
+                                                        conocimiento del grupo, y solo un 34,8% cree que el bloque tiene mucha
+                                                        influencia.
+                                                    </p>
+                                                    <br>
+                                                    <p>Finalmente, la encuesta refleja un fuerte rechazo hacia las políticas migratorias,
+                                                        con un 65% de los consultados apoyando medidas restrictivas contra los
+                                                        inmigrantes.
+                                                    </p>
+                                                    <p>A nivel regional, Milei se encuentra por debajo de Lula (51%) y Claudia
+                                                        Sheinbaum (67%) en cuanto a aprobación, superando solo a Gabriel Boric
+                                                        (39%) y Gustavo Petro (40%).
+                                                    </p>
+                                                    <br>
+                                                    <div class="text-start object-center">
+                                                    </div>
+                                                </div>
+                                </article>
+                            </li>
+                        </ul>
+                    </div>
+                    @livewire('lateral')
+                </div>
+            </section>
+        @elseif ($tituloSep == 'Politica-Noticia-Completa-pol92')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">SUBE EL PRECIO DE LOS COMBUSTIBLES</a>
+                                        </h2>
+                                        <p class="font-light  text-right text-gray-500">Publicado: 01/11/2024</p>
+                                        <div class=" font-sans text-lg text-left col-span-6  ">
+                                            <p><i>La medida rige desde la medianoche y se espera que el resto de las
+                                                compañías la sigan en las próximas horas. Afectará principalmente a los
+                                                usuarios de la Ciudad de Buenos Aires, con un incremento promedio del 2,7%.
+                                                </i>
+                                            </p>
+                                            <br>
+                                            <figure>
+                                                <img class="w-full object-cover"
+                                                    src="{{ asset('../img/pol/pol_nafta.svg') }}" alt="">
+                                            </figure>
+                                            <br>
+                                            <div
+                                                class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                                <div class=" font-sans text-lg text-left col-span-6  ">
+                                                    <p>YPF aumentó los precios de sus combustibles un 2,7% en promedio en la
+                                                        Ciudad de Buenos Aires desde la medianoche, y se prevé que otras petroleras
+                                                        sigan el mismo camino en las próximas horas. La suba de 2,75% aplicada por
+                                                        YPF buscaría mitigar los efectos de la devaluación de octubre y la actualización
+                                                        de impuestos.
+                                                    </p>
+                                                    <br>
+                                                    <p>Este incremento se da tras la primera baja en casi seis años, cuando en
+                                                        octubre los combustibles habían reducido sus precios en un 1% para el TLCAN
+                                                        y un 2% en el gasoil, aunque en los márgenes de las petroleras fueron de 4% y
+                                                        5. %, respectivamente.
+                                                    </p>
+                                                    <br>
+                                                    <p>El ajuste tiene un impacto directo en el bolsillo de los consumidores, quienes ya
+                                                        venían padeciendo las constantes subas. En la Ciudad de Buenos Aires, los
+                                                        nuevos precios de YPF son:
+                                                        Nafta Súper: $1077,
+                                                        Nafta Premium: $1332,
+                                                        Gasoil 500: $1092,
+                                                        Gasoil G3: $1343.
+                                                        Desde diciembre de 2023, el TLCAN Súper ha acumulado un incremento de
+                                                        166,5%, lo que refleja el contexto inflacionario y el impacto de las políticas del
+                                                        gobierno. A pesar de los aumentos, las ventas de combustibles al público han
+                                                        caído un 6% en lo que va del año, una señal clara de la presión económica
+                                                        sobre los sectores más vulnerables.
+                                                    </p>
+                                                    <br>
+                                                    <p>En la Patagonia, el aumento será incluso mayor, para achicar la brecha de
+                                                        precios con el resto del país, debido a los elevados costos logísticos de
+                                                        transporte desde las refinerías.
+                                                    </p>
+                                                    <br>
+                                                    <p>El contexto económico y la continua suba de precios alimentan el descontento
+                                                        de los ciudadanos, que enfrentan un panorama de alta inflación y una
+                                                        constante pérdida del poder adquisitivo.
+                                                    </p>
+                                                    <br>
+                                                    <div class="text-start object-center">
+                                                    </div>
+                                                </div>
+                                </article>
+                            </li>
+                        </ul>
+                    </div>
+                    @livewire('lateral')
+                </div>
+            </section>
+        @elseif ($tituloSep == 'Politica-Noticia-Completa-pol93')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">CRISTINA KIRCHNER, NUEVA PRESIDENTA DEL PJ</a>
+                                        </h2>
+                                        <p class="font-light  text-right text-gray-500">Publicado: 06/11/2024</p>
+                                        <div class=" font-sans text-lg text-left col-span-6  ">
+                                            <p><i>La ex presidenta fue proclamada hoy titular del Consejo Nacional del PJ tras un
+                                                proceso judicializado, quedando como única candidata después de que se
+                                                impugnara la lista de Ricardo Quintela.
+                                                </i>
+                                            </p>
+                                            <br>
+                                            <figure>
+                                                <img class="w-full object-cover"
+                                                    src="{{ asset('../img/pol/pol_cristina.svg') }}" alt="">
+                                            </figure>
+                                            <br>
+                                            <div
+                                                class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                                <div class=" font-sans text-lg text-left col-span-6  ">
+                                                    <p>La Junta Electoral del Partido Justicialista (PJ) proclamó hoy a Cristina Kirchner
+                                                        como nueva presidenta del Consejo Nacional del partido, en un proceso que
+                                                        estuvo marcado por una fuerte judicialización interna. La ex presidenta asumirá
+                                                        formalmente el cargo el próximo 17 de noviembre, tras quedar como única
+                                                        candidata a la presidencia del PJ luego de que la Justicia Electoral impugnara
+                                                        la lista del gobernador de La Rioja, Ricardo Quintela, por no reunir los avales
+                                                        necesarios para su participación.
+                                                    </p>
+                                                    <br>
+                                                    <p>La lista &#39;Primero la Patria&#39;, encabezada por la compañera Cristina Fernández
+                                                        de Kirchner, fue proclamada como la ganadora”, declaró la Junta Electoral del
+                                                        PJ en un comunicado. La resolución fue aprobada con 13 votos positivos y uno
+                                                        en disidencia. Este fallo consagra a Kirchner al frente del peronismo nacional
+                                                        en un momento clave para el futuro político del país, en medio de un contexto
+                                                        electoral incierto y con la necesidad de reestructurar y fortalecer al PJ a nivel
+                                                        nacional.
+                                                    </p>
+                                                    <br>
+                                                    <p>La decisión fue celebrada por amplios sectores del peronismo, que destacaron
+                                                        el papel central que Kirchner ha jugado en la historia del partido y en la política
+                                                        argentina. Desde su espacio político, “Federales, un grito de Corazón”, que
+                                                        promovía la candidatura de Quintela, se convocó a la unidad del PJ, resaltando
+                                                        que el partido es mucho más que una simple fuerza política. Este sector aclaró
+                                                        que no apelarán la decisión judicial y afirmó que el peronismo debe seguir
+                                                        siendo un movimiento de transformación social y cultural, capaz de anticipar el
+                                                        futuro y construir un país con más inclusión y justicia.
+                                                    </p>
+                                                    <br>
+                                                    <p>A pesar de la impugnación de la lista de Quintela, la resolución de la Junta
+                                                        Electoral permitió que Cristina Kirchner se posicionara nuevamente como la
+                                                        principal figura del peronismo a nivel nacional. La ex mandataria, que se ha
+                                                        mostrado en diversas ocasiones como una voz influyente dentro del
+                                                        movimiento, tendrá ahora la responsabilidad de guiar al partido en un período
+                                                        crucial de cara a los próximos desafíos electorales.
+                                                    </p>
+                                                    <br>
+                                                    <p>La proclamación de Cristina Kirchner como presidenta del PJ también llega en
+                                                        un momento de recomposición del espacio político, donde el peronismo busca
+                                                        consolidar sus alianzas y fortalecer su presencia en la arena nacional. A través
+                                                        de su liderazgo, se espera que el partido pueda retomar la centralidad política y
+                                                        proyectar una estrategia renovada que responda a las necesidades del pueblo
+                                                        argentino.
+                                                    </p>
+                                                    <br>
+                                                    <p>Cristina Kirchner asumirá formalmente la presidencia del PJ el 17 de
+                                                        noviembre, momento en el cual el partido buscará avanzar en su
+                                                        reestructuración interna y en la consolidación de un proyecto político que
+                                                        representa los intereses de los sectores más postergados de la sociedad
+                                                        argentina.
+                                                    </p>
+                                                    <br>
+                                                    <div class="text-start object-center">
+                                                    </div>
+                                                </div>
+                                </article>
+                            </li>
+                        </ul>
+                    </div>
+                    @livewire('lateral')
+                </div>
+            </section>
         @endif
 
     </div>

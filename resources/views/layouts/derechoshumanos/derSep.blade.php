@@ -1699,11 +1699,11 @@
                                                     interiorizarse y participar de este proceso acercándose a la
                                                     Fundación Luisa Hairabedian o contactándose a través de algunas de
                                                     nuestras redes.</p>
-                                                <br>                    
+                                                <br>
                                             <figure>
                                                 Publicado: 12/11/2023
 
-                                                </figure> 
+                                                </figure>
 
 
                                             </div>
@@ -1830,11 +1830,11 @@
                                                 <p>Familiares y Compañeros de los 12 de la Santa Cruz</p>
                                                 <p>Fundación Memoria Histórica y Social Argentina</p>
                                                 <p>Movimiento Ecuménico por los Derechos Humanos</p>
-                                                <p></p>                 
+                                                <p></p>
                                             <figure>
-                                                
 
-                                                </figure> 
+
+                                                </figure>
 
 
                                             </div>
@@ -2060,7 +2060,7 @@
                                                 <br>
                                                 <p>Los organismos de derechos humanos han llamado la atención sobre la responsabilidad del gobierno de Milei en este contexto, recordando la importancia de respetar los derechos humanos y la memoria histórica, y exigiendo una revisión de las decisiones que ponen en peligro estos pilares fundamentales de la democracia. argentina.</p>
                                                 <br>
-                                                
+
                                                 {{-- <figure>
                                                     <img class="w-28 h-28 ml-10  object-cover"
                                                         src="{{ asset('../img/der/Adri.svg') }}" alt="">
@@ -2175,7 +2175,7 @@
                                                 <br>
                                                 <p>El cierre musical estará a cargo de Luis Caro, quien pondrá la nota emotiva al evento con su talento artístico. Será un momento para recordar, reflexionar y homenajear a aquellos que perdieron sus vidas luchando por un país más justo y democrático. En tiempos donde la memoria es más importante que nunca, eventos como este nos recuerdan la importancia de mantener viva la historia y continuar la lucha por la verdad y la justicia.</p>
                                                 <br>
-                                                
+
                                                 {{-- <figure>
                                                     <img class="w-28 h-28 ml-10  object-cover"
                                                         src="{{ asset('../img/der/Adri.svg') }}" alt="">
@@ -2271,7 +2271,7 @@
                                                         <img class="w-full object-cover object-center"
                                                             src="{{ asset('../img/der/der_laprimera2.svg') }}"alt="">
                                                     </a>
-                                                    
+
                                                 </figure>
                                                 {{-- <p class="font-light text-gray-500">Foto: La Tinta</p> --}}
                                                 <br>
@@ -2309,7 +2309,7 @@
                                                 <br>
                                                 <p>La historia  lo reclama.</p>
                                                 <br>
-                                                
+
                                                 <figure>
                                                     <img class="w-28 h-28 ml-10  object-cover"
                                                         src="{{ asset('../img/der/Adri.svg') }}" alt="">
@@ -2405,7 +2405,7 @@
                                                         <img class="w-full object-cover object-center"
                                                             src="{{ asset('../img/der/der_juicio2.svg') }}"alt="">
                                                     </a>
-                                                    
+
                                                 </figure>
                                                 {{-- <p class="font-light text-gray-500">Foto: La Tinta</p> --}}
                                                 <br>
@@ -2421,7 +2421,7 @@
                                                 <br>
                                                 <p>En nuestro medio, como defensores de los Derechos Humanos, celebramos esta sentencia y reafirmamos nuestro compromiso con la búsqueda de verdad y justicia. Continuaremos denunciando cualquier intento de negar o tergiversar la historia, y seguiremos apoyando a todas las víctimas y sus familias en su lucha por memoria, verdad y justicia.</p>
                                                 <br>
-                                                
+
                                                 {{-- <figure>
                                                     <img class="w-28 h-28 ml-10  object-cover"
                                                         src="{{ asset('../img/der/Adri.svg') }}" alt="">
@@ -2517,7 +2517,7 @@
                                                         <img class="w-full object-cover object-center"
                                                             src="{{ asset('../img/der/der_tata.svg') }}"alt="">
                                                     </a>
-                                                    
+
                                                 </figure>
                                                 {{-- <p class="font-light text-gray-500">Foto: La Tinta</p> --}}
                                                 <br>
@@ -2537,7 +2537,7 @@
                                                 <br>
                                                 <p>En conclusión, Juan Bautista Yofre representa una tendencia peligrosa hacia el negacionismo histórico en Argentina, promoviendo una visión distorsionada de los años 70 que borra el terrorismo de Estado y busca equiparar la responsabilidad de toda la sociedad en los crímenes de la dictadura militar. Su papel en el gobierno de Menem y su influencia en la construcción del relato oficial son motivo de preocupación, ya que amenazan con socavar la memoria colectiva y la búsqueda de justicia para las víctimas del pasado.</p>
                                                 <br>
-                                                
+
                                                 {{-- <figure>
                                                     <img class="w-28 h-28 ml-10  object-cover"
                                                         src="{{ asset('../img/der/Adri.svg') }}" alt="">
@@ -2633,11 +2633,11 @@
                                                         <img class="w-full object-cover object-center"
                                                             src="{{ asset('../img/der/der_tata.svg') }}"alt="">
                                                     </a>
-                                                    
+
                                                 </figure> --}}
                                                 <article>
                                             <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/YlzOOQQaZc8?si=bzEaHD2UN1YHc0mQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                                            
+
                                         </article>
                                                 {{-- <p class="font-light text-gray-500">Foto: La Tinta</p> --}}
                                                 <br>
@@ -2659,7 +2659,7 @@
                                                 <br>
                                                 <p>En un contexto donde la ONU insta a la eliminación del trabajo infantil, debemos reflexionar: ¿hacemos lo suficiente para proteger a nuestra niñez? Aunque parezca un ideal lejano, es posible si nos unimos como sociedad y trabajamos juntos para un futuro donde la niñez pueda vivir libre de explotación, con sus derechos plenamente garantizados.</p>
                                                 <br>
-                                                
+
                                                 {{-- <figure>
                                                     <img class="w-28 h-28 ml-10  object-cover"
                                                         src="{{ asset('../img/der/Adri.svg') }}" alt="">
@@ -2758,11 +2758,11 @@
                                                 </figure>
                                                 {{-- <article>
                                             <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/YlzOOQQaZc8?si=bzEaHD2UN1YHc0mQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                                            
+
                                         </article> --}}
                                                 <p class="font-light text-gray-500">Fotografía de @robertinocarles</p>
                                                 <br>
-                                                <p>Estela Carlotto representa a una generación de luchadores  surgidos por una tragedia como fue la dictadura cívico  militar eclesial 1976-1983. Recordó los duros años del comienzo del organismo Abuelas en búsqueda de los nietos nacidos en cautiverio  y apropiados por los genocidas. 
+                                                <p>Estela Carlotto representa a una generación de luchadores  surgidos por una tragedia como fue la dictadura cívico  militar eclesial 1976-1983. Recordó los duros años del comienzo del organismo Abuelas en búsqueda de los nietos nacidos en cautiverio  y apropiados por los genocidas.
                                                 </p>
                                                 <br>
                                                 <p>La homenajeada relató  que esta lucha tuvo inmensos logros con las restituciones de les nietes y la recuperación de sus identidades  pero  que aún quedan 300 de ellos  por encontrar.</p>
@@ -2774,14 +2774,14 @@
                                                 <br>
                                                 <p>Estela Carlotto,  finalizó  destacando que “el único camino es la lucha colectiva con amor y perseverancia”.</p>
                                                 <br>
-                                                
-                                                
+
+
                                                 <figure>
                                                     <img class="w-28 h-28 ml-10  object-cover"
                                                         src="{{ asset('../img/der/Adri.svg') }}" alt="">
                                                     <p> <strong> Nota por Adriana Zerdín </strong></p></a>
 
-                                                </figure> 
+                                                </figure>
 
 
                                             </div>
@@ -2858,7 +2858,7 @@
                                         <h2 class="text-xl font-serif  font-bold pb-6">
                                             <a href="">UN RETROCESO PELIGROSO EN LAS POLÍTICAS DE MEMORIA
                                             </a>
-                                            
+
                                             <p class="font-light  text-right text-gray-500">Publicado: 25/04/2024</p>
                                         </h2>
                                         <div
@@ -2875,11 +2875,11 @@
                                                 </figure>
                                                 {{-- <article>
                                             <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/YlzOOQQaZc8?si=bzEaHD2UN1YHc0mQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                                            
+
                                         </article> --}}
                                                 {{-- <p class="font-light text-gray-500">Fotografía de @robertinocarles</p> --}}
                                                 <br>
-                                                <p>El acto celebrado por militares retirados en la exESMA, con la aprobación del Gobierno nacional, marca un preocupante retroceso en las políticas de Memoria, Verdad y Justicia que Argentina ha construido con tanto esfuerzo. Este evento, en el cual se pidió "recuperar un predio que les fue usurpado", no solo insulta la memoria de las víctimas de la dictadura, sino que también pone en riesgo los cimientos de nuestra democracia. 
+                                                <p>El acto celebrado por militares retirados en la exESMA, con la aprobación del Gobierno nacional, marca un preocupante retroceso en las políticas de Memoria, Verdad y Justicia que Argentina ha construido con tanto esfuerzo. Este evento, en el cual se pidió "recuperar un predio que les fue usurpado", no solo insulta la memoria de las víctimas de la dictadura, sino que también pone en riesgo los cimientos de nuestra democracia.
                                                 </p>
                                                 <br>
                                                 <p>Este acto se enmarca en una serie de eventos recientes, como las visitas de Aldo Rico y Cecilia Pando a la exESMA, que buscan reescribir la historia y reivindicar lo indefendible.</p>
@@ -2893,14 +2893,14 @@
                                                 <br>
                                                 <p>Por eso, es urgente que la sociedad civil, las organizaciones de derechos humanos y todos aquellos que valoran la democracia y la justicia se unan para rechazar estos actos y exigir un compromiso firme con las políticas de Memoria, Verdad y Justicia. No podemos permitirnos un retroceso. La memoria de las víctimas y el futuro de nuestra democracia dependen de ello.</p>
                                                 <br>
-                                                
-                                                
+
+
                                                 <figure>
                                                     <img class="w-28 h-28 ml-10  object-cover"
                                                         src="{{ asset('../img/noteros/Gus.svg') }}" alt="">
                                                     <p> <strong> Nota de Gustavo Cano </strong></p></a>
 
-                                                </figure> 
+                                                </figure>
 
 
                                             </div>
@@ -2977,7 +2977,7 @@
                                         <h2 class="text-xl font-serif  font-bold pb-6">
                                             <a href="">NORA CORTIÑAS, EMBLEMA DE MADRES DE PLAZA DE MAYO, FALLECIÓ A LOS 94 AÑOS
                                             </a>
-                                            
+
                                             <p class="font-light  text-right text-gray-500">Publicado: 31/05/2024</p>
                                         </h2>
                                         <div
@@ -2994,11 +2994,11 @@
                                                 </figure>
                                                 {{-- <article>
                                             <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/YlzOOQQaZc8?si=bzEaHD2UN1YHc0mQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                                            
+
                                         </article> --}}
                                                 {{-- <p class="font-light text-gray-500">Fotografía de @robertinocarles</p> --}}
                                                 <br>
-                                                <p>Nora Cortiñas, una de las fundadoras de Madres de Plaza de Mayo Línea Fundadora, falleció este jueves 30 de mayo a los 94 años. Su familia confirmó la noticia a Infobae, destacando que Nora estuvo rodeada del amor de sus seres queridos hasta el último momento. "Nora estuvo acompañada por el amor de su familia", expresaron en un comunicado. La ex presidenta Cristina Fernández de Kirchner, entre otras figuras políticas, expresó sus condolencias, recordando la incansable lucha de Nora por los Derechos Humanos. 
+                                                <p>Nora Cortiñas, una de las fundadoras de Madres de Plaza de Mayo Línea Fundadora, falleció este jueves 30 de mayo a los 94 años. Su familia confirmó la noticia a Infobae, destacando que Nora estuvo rodeada del amor de sus seres queridos hasta el último momento. "Nora estuvo acompañada por el amor de su familia", expresaron en un comunicado. La ex presidenta Cristina Fernández de Kirchner, entre otras figuras políticas, expresó sus condolencias, recordando la incansable lucha de Nora por los Derechos Humanos.
                                                 </p>
                                                 <br>
                                                 <p>Nacida en 1930, Nora Cortiñas se convirtió en un símbolo de la lucha por los Derechos Humanos tras la desaparición de su hijo Gustavo en 1977, secuestrado por la dictadura militar. Gustavo, estudiante de Ciencias Económicas y militante de la Juventud Peronista, fue visto por última vez en la estación de trenes de Castelar. Este doloroso evento transformó la vida de Nora, quien dedicó el resto de sus días a la búsqueda de justicia y verdad.</p>
@@ -3013,7 +3013,7 @@
                                                 <br>
                                                 <p>En un país marcado por una historia de represión y lucha, Nora Cortiñas simboliza la esperanza y la resistencia. Su ejemplo seguirá vivo en cada marcha, en cada pañuelo blanco, y en cada voz que clama por justicia.</p>
                                                 <br>
-                                                
+
                                                 {{-- <figure>
                                                     <img class="w-28 h-28 ml-10  object-cover"
                                                         src="{{ asset('../img/noteros/Gus.svg') }}" alt="">
@@ -3097,7 +3097,7 @@
                                             <a href="">ADIÓS A LITA BOITANO, INCANSABLE DEFENSORA DE LOS DDHH
 
                                             </a>
-                                            
+
                                             <p class="font-light  text-right text-gray-500">Publicado: 06/06/2024</p>
                                         </h2>
                                         <div
@@ -3114,11 +3114,11 @@
                                                 </figure>
                                                 {{-- <article>
                                             <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/YlzOOQQaZc8?si=bzEaHD2UN1YHc0mQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                                            
+
                                         </article> --}}
                                                 {{-- <p class="font-light text-gray-500">Fotografía de @robertinocarles</p> --}}
                                                 <br>
-                                                <p>Lita Boitano, reconocida activista de derechos humanos en Argentina, falleció a los 92 años. Su incansable búsqueda de justicia por los desaparecidos durante la dictadura militar dejó una huella imborrable en la historia del país. Lita, quien perdió a dos de sus hijos en manos del terrorismo de Estado, dedicó su vida a exigir Memoria, Verdad y Justicia. 
+                                                <p>Lita Boitano, reconocida activista de derechos humanos en Argentina, falleció a los 92 años. Su incansable búsqueda de justicia por los desaparecidos durante la dictadura militar dejó una huella imborrable en la historia del país. Lita, quien perdió a dos de sus hijos en manos del terrorismo de Estado, dedicó su vida a exigir Memoria, Verdad y Justicia.
                                                 </p>
                                                 <br>
                                                 <p>Lita, en realidad, se llama Ángela. Ángela Paolín, viuda de Boitano. Fue una de las voces más fuertes y persistentes en la lucha por los derechos humanos en Argentina. Nacida el 20 de julio de 1931, Lita se convirtió en un símbolo de resistencia y valentía tras la desaparición de sus hijos, Miguel Ángel y Adriana Cecilia, durante la dictadura militar que asoló Argentina entre 1976 y 1983.</p>
@@ -3131,8 +3131,8 @@
                                                 <br>
                                                 <p>Lita nos deja un vacío imposible de llenar, pero su espíritu de lucha perdurará en las generaciones venideras. Su vida y obra son un recordatorio poderoso de que la búsqueda de Memoria, Verdad y Justicia nunca debe cesar. Hasta Siempre querida Lita, y que tu ejemplo siga iluminando el camino hacia un mundo más justo y humano.</p>
                                                 <br>
-                                                
-                                                
+
+
                                                 {{-- <figure>
                                                     <img class="w-28 h-28 ml-10  object-cover"
                                                         src="{{ asset('../img/noteros/Gus.svg') }}" alt="">
@@ -3248,7 +3248,7 @@
                                                 <br>
                                                 <p>En resumen, la implementación de este decreto por parte del Gobierno de la Libertad Avanza plantea serias preocupaciones sobre la protección de los derechos y libertades individuales, así como sobre la transparencia y el respeto al Estado de Derecho en Argentina.</p>
                                                 <br>
-                                        
+
                                                 <div class="text-start object-center">
                                                     {{-- <figure>
                                                         <img class="w-28 h-28  "
@@ -3349,7 +3349,7 @@
                                         </figure> --}}
                                         <article>
                                             <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/XSNYTBkbmx4?si=V9zwrQyh3h5dyKbu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                                            
+
                                         </article>
                                         <br>
                                         <div
@@ -3377,7 +3377,7 @@
                                                 <br>
                                                 <p>En resumen estuvieron presentes representantes de diversas organizaciones de derechos humanos y sindicales, entre las que destacaban la Asamblea Permanente por los Derechos Humanos (APDH), H.I.J.O.S. Capital, Abuelas de Plaza de Mayo, Madres de Plaza de Mayo, el Centro de Estudios Legales y Sociales (CELS), Familiares y Compañeros de los 12 de la Santa Cruz, la Comisión Provincial por la Memoria, la Liga Argentina por los Derechos Humanos, y el Movimiento Ecuménico por los Derechos Humanos. También estuvieron presentes referentes sindicales y políticos de Unión por la Patria (UxP) y del Frente de Izquierda y de los Trabajadores - Unidad (FIT-U), mostrando una sólida unidad en la demanda por la liberación de los detenidos.</p>
                                                 <br>
-                                        
+
                                                 <div class="text-start object-center">
                                                     {{-- <figure>
                                                         <img class="w-28 h-28  "
@@ -3478,7 +3478,7 @@
                                         </figure>
                                         {{-- <article>
                                             <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/XSNYTBkbmx4?si=V9zwrQyh3h5dyKbu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                                            
+
                                         </article> --}}
                                         <br>
                                         <div
@@ -3506,7 +3506,7 @@
                                                 <br>
                                                 <p><b>No fue una guerra, fue genocidio. No olvidamos, no perdonamos, no nos reconciliamos. Son 30.000. Nunca más. Memoria, verdad y justicia.</b></p>
                                                 <br>
-                                        
+
                                                 <div class="text-start object-center">
                                                     {{-- <figure>
                                                         <img class="w-28 h-28  "
@@ -3607,7 +3607,7 @@
                                         </figure>
                                         {{-- <article>
                                             <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/XSNYTBkbmx4?si=V9zwrQyh3h5dyKbu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                                            
+
                                         </article> --}}
                                         <br>
                                         <div
@@ -3633,8 +3633,8 @@
                                                 <br>
                                                 <p>La sociedad y las instituciones deben estar atentas y actuar con firmeza para preservar los principios democráticos y evitar el regreso a prácticas autoritarias que podrían poner en peligro el legado de la democracia y los derechos humanos en el país.</p>
                                                 <br>
-                                                
-                                        
+
+
                                                 <div class="text-start object-center">
                                                     {{-- <figure>
                                                         <img class="w-28 h-28  "
@@ -3737,7 +3737,7 @@
                                         </figure>
                                         {{-- <article>
                                             <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/XSNYTBkbmx4?si=V9zwrQyh3h5dyKbu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                                            
+
                                         </article> --}}
                                         <br>
                                         <div
@@ -3790,15 +3790,15 @@
                                                 <p>En la imagen se pueden ver:</p>
                                                 <br>
                                                 <p>1 Mario “El Cura” Marcote: miembro del Servicio de Informaciones y condenado a 17 años de prisión en Rosario.</p>
-                                                
+
                                                 <p>2 Alfredo Astiz, conocido como “el Ángel de la muerte” y condenado por infiltrarse en Madres de Plaza de Mayo, así como por desapariciones y torturas en la ESMA.</p>
-                                                
+
                                                 <p>3 Miguel Britos, ex miembro de la Superintendencia de Seguridad Federal, condenado por delitos en el circuito represivo ABO (Atlético-Banco-Olimpo).</p>
-                                                
+
                                                 <p>4 Honorio Carlos Martínez Ruíz, condenado a perpetua por los crímenes cometidos en el centro clandestino Automotores Orletti.</p>
-                                                
+
                                                 <p>5 Raúl Guglielminetti, también condenado por su accionar en Automotores Orletti.</p>
-                                                
+
                                                 <p>6 Beltrán Benedit, diputado nacional LLA, sindicado como el organizador de la visita al penal de Ezeiza.</p>
                                                 <p>7 Lourdes Arrieta, diputada nacional LLA. “Fue una reunión que fuimos engañados un grupo de diputados. No puedo decir si todos lo sabían o no, pero en el caso de la diputada Bonacci y como yo, empezamos a hablar de este tema porque en un momento teníamos angustia y entramos en un estado de shock”, sostuvo la semana pasada sobre el encuentro. Y, de manera insólita, agregó: “Nací en 1993, no tenía ni idea de quiénes eran”.</p>
                                                 <p>8 Marcos Williams Prim, asesor del diputado Beltran Benedit.</p>
@@ -3813,7 +3813,7 @@
                                                 <p>17 Antonio Pernías, (alias “Trueno” o “Rata”), condenado a perpetua por delitos de lesa humanidad en la ESMA.</p>
                                                 <p>18 Juan Carlos Vázquez Sarmiento, responsable de secuestros y torturas, prófugo de la Justicia durante casi 20 años.</p>
                                                 <b>
-                                        
+
                                                 <div class="text-start object-center">
                                                     {{-- <figure>
                                                         <img class="w-28 h-28  "
@@ -3914,7 +3914,7 @@
                                         </figure>
                                         {{-- <article>
                                             <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/XSNYTBkbmx4?si=V9zwrQyh3h5dyKbu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                                            
+
                                         </article> --}}
                                         <br>
                                         <div
@@ -4031,7 +4031,7 @@
                                             <a href="">DE LA CIÉNAGA A LA VERDAD
                                             </a>
                                             <p class="font-light text-gray-500">Por Adriana Zerdín
-                                            </p> 
+                                            </p>
                                         </h2>
                                         <p class="font-light  text-right text-gray-500">Publicado: 15/08/2024</p>
                                         <p><i>"Para descartar esta sensación, de perderlo todo, para analizar por dónde seguir, y elegir el modo..." VÍCTOR HEREDIA</i>
@@ -4044,7 +4044,7 @@
                                         </figure>
                                         {{-- <article>
                                             <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/XSNYTBkbmx4?si=V9zwrQyh3h5dyKbu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                                            
+
                                         </article> --}}
                                         <br>
                                         <div
@@ -4169,7 +4169,7 @@
                                             <a href="">DE LA CIÉNAGA A LA VERDAD
                                             </a>
                                             <p class="font-light text-gray-500">JUSTICIA TARDÍA Y OLVIDOS PERSISTENTES
-                                            </p> 
+                                            </p>
                                         </h2>
                                         <p class="font-light  text-right text-gray-500">Publicado: 16/09/2024</p>
                                         <p><i>A 48 años de la Noche de los Lápices, la justicia argentina aún debe enfrentar el desafío de visibilizar las violencias de género en el terrorismo de Estado</i>
@@ -4181,7 +4181,7 @@
                                         </figure>
                                         {{-- <article>
                                             <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/XSNYTBkbmx4?si=V9zwrQyh3h5dyKbu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                                            
+
                                         </article> --}}
                                         <br>
                                         <div
@@ -4270,7 +4270,7 @@
                                             <a href="">JORGE JULIO LÓPEZ, UN RECUERDO VIVO EN LA LUCHA POR LA JUSTICIA
                                             </a>
                                             <p class="font-light text-gray-500">JUSTICIA TARDÍA Y OLVIDOS PERSISTENTES
-                                            </p> 
+                                            </p>
                                         </h2>
                                         <p class="font-light  text-right text-gray-500">Publicado: 20/09/2024</p>
                                         <p><i>Se conmemoran 18 años de la desaparición del albañil y militante peronista, quien fue un testigo clave en el juicio al genocida Miguel Etchecolatz. Actividades en La Plata recordaron su legado y la lucha por justicia.
@@ -4283,7 +4283,7 @@
                                         </figure>
                                         {{-- <article>
                                             <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/XSNYTBkbmx4?si=V9zwrQyh3h5dyKbu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                                            
+
                                         </article> --}}
                                         <br>
                                         <div
@@ -4390,7 +4390,7 @@
                                         </figure>
                                         {{-- <article>
                                             <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/XSNYTBkbmx4?si=V9zwrQyh3h5dyKbu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                                            
+
                                         </article> --}}
                                         <br>
                                         <div
@@ -4498,7 +4498,7 @@
                                         </figure>
                                         {{-- <article>
                                             <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/XSNYTBkbmx4?si=V9zwrQyh3h5dyKbu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                                            
+
                                         </article> --}}
                                         <br>
                                         <div
@@ -4547,7 +4547,7 @@
                             </li>
                         </ul>
                         <br>
-                    </div>  
+                    </div>
                         @livewire('lateral')
                 </div>
             </section>
@@ -4580,7 +4580,7 @@
                                         </figure>
                                         {{-- <article>
                                             <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/XSNYTBkbmx4?si=V9zwrQyh3h5dyKbu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                                            
+
                                         </article> --}}
                                         <br>
                                         <div
@@ -4609,7 +4609,7 @@
                                                     &quot;Un Abrazo para Abuelas&quot; se levanta como un recordatorio de que la lucha por
                                                     la verdad y la justicia continúa. La campaña no solo pretende dar visibilidad a
                                                     los casi 300 nietos y nietas cuya identidad aún falta restituir, sino también
-                                                    subrayar que el pasado no puede ser borrado ni relativizado. Las Abuelas,                                                  
+                                                    subrayar que el pasado no puede ser borrado ni relativizado. Las Abuelas,
                                                     como símbolo de amor, valentía y resistencia, siguen marcando el camino de
                                                     una sociedad que apuesta a la memoria ya la construcción colectiva.
                                                 </p>
@@ -4635,7 +4635,7 @@
                             </li>
                         </ul>
                         <br>
-                    </div>  
+                    </div>
                         @livewire('lateral')
                 </div>
             </section>
@@ -4668,7 +4668,7 @@
                                         </figure>
                                         {{-- <article>
                                             <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/XSNYTBkbmx4?si=V9zwrQyh3h5dyKbu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                                            
+
                                         </article> --}}
                                         <br>
                                         <div
@@ -4732,7 +4732,7 @@
                             </li>
                         </ul>
                         <br>
-                    </div>  
+                    </div>
                         @livewire('lateral')
                 </div>
             </section>
@@ -4764,7 +4764,7 @@
                                         </figure>
                                         {{-- <article>
                                             <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/XSNYTBkbmx4?si=V9zwrQyh3h5dyKbu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                                            
+
                                         </article> --}}
                                         <br>
                                         <div
@@ -4795,7 +4795,7 @@
                                                 </p>
                                                 <br>
                                                 <p>Finalmente, exigieron una retractación pública de Milei, argumentando que el
-                                                    lenguaje figurado utilizado para encubrir sus palabras no es suficiente. &quot;No                                                   
+                                                    lenguaje figurado utilizado para encubrir sus palabras no es suficiente. &quot;No
                                                     podemos naturalizar la violencia&quot;, concluyeron, reafirmando la necesidad de
                                                     proteger los valores democráticos y el respeto hacia todas las personas.
                                                 </p>
@@ -4816,7 +4816,197 @@
                             </li>
                         </ul>
                         <br>
-                    </div>  
+                    </div>
+                        @livewire('lateral')
+                </div>
+            </section>
+        @elseif ($tituloSep == 'Derechos-Humanos-Noticia-Completa-der38')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">EL ESTADO APUNTA A VENDER LA PERLA Y OTROS
+                                                SITIOS HISTÓRICOS
+                                            </a>
+                                            {{-- <p class="font-light text-gray-500">JUSTICIA TARDÍA Y OLVIDOS PERSISTENTES
+                                            </p>  --}}
+                                        </h2>
+                                        <p class="font-light  text-right text-gray-500">Publicado: 31/10/2024</p>
+                                        <p><i>Organismos de derechos humanos denuncian un intento de despojar a la
+                                            memoria histórica y avanzan con acciones judiciales para frenar la enajenación
+                                            de sitios emblemáticos de la dictadura.
+                                        </i>
+                                    </p>
+                                        <br>
+                                        <figure>
+                                            <img class="w-full object-cover"
+                                                src="{{ asset('../img/der/der_laPerla.svg') }}" alt="">
+                                        </figure>
+                                        {{-- <article>
+                                            <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/XSNYTBkbmx4?si=V9zwrQyh3h5dyKbu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+                                        </article> --}}
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+                                                <p>El Gobierno avanzó con un decreto que selecciona 309 terrenos para su venta,
+                                                    entre los que se encuentran sitios emblemáticos de la dictadura, como el centro
+                                                    clandestino de detención La Perla chica, en Córdoba. La medida, que abarca
+                                                    terrenos en distintas provincias, generó una fuerte reacción de los organismos
+                                                    de derechos humanos, que denuncian un intento de borrar la memoria histórica
+                                                    y avanzar con la enajenación de estos espacios. En las próximas horas se
+                                                    presentarán acciones judiciales para frenar la venta.
+                                                </p>
+                                                <br>
+                                                <p>El 24 de octubre, se publicó el decreto 950, firmado por funcionarios de la
+                                                    actual administración, que detalla los terrenos a rematar. Según el Gobierno, la
+                                                    venta de tierras “ociosas” es necesaria ante la crisis económica del país. Sin
+                                                    embargo, la inclusión de terrenos vinculados a la memoria de la dictadura,
+                                                    como el caso de La Perla chica, ha generado una protesta generalizada.
+                                                </p>
+                                                <br>
+                                                <p>La Perla chica, situada en la zona de Malagueño, Córdoba, fue parte del mayor
+                                                    campo de concentración del interior del país durante la dictadura. Allí se
+                                                    cometieron torturas y desapariciones forzadas. En 1984, los sobrevivientes la
+                                                    reconocieron como un anexo de La Perla. Hoy, está señalizada como sitio de
+                                                    memoria.
+                                                </p>
+                                                <br>
+                                                <p>Para los organismos de derechos humanos, la venta de estos terrenos es un
+                                                    intento de &quot;negar el terrorismo de Estado&quot;. “Rechazamos profundamente esta
+                                                    acción, que banaliza los crímenes de la dictadura”, expresó la Red Nacional de
+                                                    HIJOS Además, denunciaron que el exRegimiento de Infantería 9 (RI9) de
+                                                    Corrientes, otro centro de represión, también está en la mira de la venta.
+                                                </p>
+                                                <br>
+                                                <p>En Córdoba, los defensores de la memoria han comenzado acciones legales
+                                                    para frenar la venta de La Perla chica. Julia Soulier, directora del espacio de
+                                                    memoria, confirmó que presentarán un recurso judicial con el apoyo de la
+                                                    justicia federal, el Ministerio de Desarrollo Humano y diversos organismos de
+                                                    derechos humanos. Estas tierras están bajo medidas cautelares, que prohíben
+                                                    su alteración mientras se sigan buscando restos de víctimas de la dictadura.
+                                                </p>
+                                                <br>
+                                                <p>Este intento de venta sigue la línea de la gestión anterior, que también intentó
+                                                    disponer de terrenos vinculados a la represión, como el RI9. Los organismos de
+                                                    derechos humanos aseguraron que no cesarán hasta frenar la venta de estos
+                                                    sitios, que son testimonio irrefutable de la brutalidad del terrorismo de Estado.
+                                                </p>
+                                                <br>
+                                                <div class="text-start object-center">
+                                                    {{-- <figure>
+                                                        <img class="w-28 h-28  "
+                                                            src="{{ asset('../img/der/Adri.svg') }}"
+                                                            alt="">
+                                                        <p> <strong>Por Adriana Zerdín<strong></p>
+                                                        <p><strong><strong></p>
+                                                    </figure> --}}
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+                            </li>
+                        </ul>
+                        <br>
+                    </div>
+                        @livewire('lateral')
+                </div>
+            </section>
+        @elseif ($tituloSep == 'Derechos-Humanos-Noticia-Completa-der39')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">MURIÓ MIRTA BARAVALLE, UNA VIDA DE BÚSQUEDA
+                                                Y DIGNIDAD
+                                            </a>
+
+                                        </h2>
+                                        <p class="font-light  text-right text-gray-500">Publicado: 03/11/2024</p>
+                                        <p><i>Fundadora de Madres y Abuelas de Plaza de Mayo, Mirta Baravalle falleció a
+                                            los 99 años sin encontrar a su nieto o nieta nacidos en cautiverio. Su lucha
+                                            incansable contra la dictadura y su lucha por la justicia siguen siendo un legado
+                                            irreemplazable.
+                                        </i>
+                                    </p>
+                                        <br>
+                                        <figure>
+                                            <img class="w-full object-cover"
+                                                src="{{ asset('../img/der/der_mirta.svg') }}" alt="">
+                                        </figure>
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+                                                <p>Mirta Baravalle, una de las figuras clave en la lucha por los derechos humanos,
+                                                    falleció a los 99 años dejando una huella profunda en la historia argentina.
+                                                    Fundadora de Madres y Abuelas de Plaza de Mayo, pasó casi toda su vida
+                                                    buscando a su hija, Ana María Baravalle, secuestrada por la dictadura en 1976,
+                                                    ya su nieto o nieta, nacidos en cautiverio. Pese a la incertidumbre que la
+                                                    acompañó hasta su último aliento, nunca perdió la esperanza de abrazar a su
+                                                    nieto o nieta, Camila o Ernesto, los nombres que su hija había elegido para su
+                                                    hijo/a.
+                                                </p>
+                                                <br>
+                                                <p>El secuestro de su hija embarazada de cinco meses y su año marcó el inicio de
+                                                    un recorrido imparable por la justicia, que la llevó a recorrer cárceles,
+                                                    regimientos y comisarías. Junto a otras madres y abuelas, Mirta contribuyó a la
+                                                    fundación de la organización histórica que desafió a la dictadura y la
+                                                    impunidad, luchando por los desaparecidos y por la restitución de los niños
+                                                    robados.
+                                                </p>
+                                                <br>
+                                                <p>Desde 1977, su búsqueda no solo se centró en su hija y su familia, sino en la
+                                                    de otros niños nacidos en cautiverio, junto a mujeres como María Isabel
+                                                    &quot;Chicha&quot; Chorobik de Mariani y Beatriz Aicardi de Neuhaus. Su incansable
+                                                    militancia fue también un faro de esperanza para quienes perdieron a sus seres
+                                                    queridos en la peor oscuridad de la historia argentina.
+                                                </p>
+                                                <br>
+                                                <p>Mirta vivió el dolor y la tragedia de la desaparición forzada, pero nunca dejó de
+                                                luchar. Su compromiso con la justicia y la memoria colectiva no se limitó al
+                                                ámbito de las Madres y Abuelas; También fue una militante incansable en
+                                                Madres de Plaza de Mayo - Línea Fundadora, una organización nacida de la
+                                                disidencia interna con el resto del movimiento, y continuó buscando respuestas,
+                                                haciendo un llamado a la construcción de un país más justo.
+                                                </p>
+                                                <br>
+                                                <p>En sus últimos años, Mirta mantuvo su militancia en la fotografía y en la
+                                                    documentación de la historia reciente, mostrando el compromiso
+                                                    inquebrantable por la justicia. La despedida a Mirta será este sábado en el
+                                                    Municipio de San Martín, en la provincia de Buenos Aires, su lugar de
+                                                    residencia. Se fue, pero su legado perdurará, no solo en su incansable
+                                                    búsqueda, sino también en las generaciones que continúan su lucha por la
+                                                    memoria, la verdad y la justicia.
+                                                </p>
+                                                <br>
+                                                <div class="text-start object-center">
+                                                    {{-- <figure>
+                                                        <img class="w-28 h-28  "
+                                                            src="{{ asset('../img/der/Adri.svg') }}"
+                                                            alt="">
+                                                        <p> <strong>Por Adriana Zerdín<strong></p>
+                                                        <p><strong><strong></p>
+                                                    </figure> --}}
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+                            </li>
+                        </ul>
+                        <br>
+                    </div>
                         @livewire('lateral')
                 </div>
             </section>

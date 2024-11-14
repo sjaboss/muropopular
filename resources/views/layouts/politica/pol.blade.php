@@ -1,6 +1,420 @@
 <x-app-layout>
     <div class="container ">
         @livewire('superior')
+{{--  --}}
+<section>
+            <ul>
+                <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                    <article>
+                        <div class="py-4 px-4 justify-between items-center">
+                            <h2 class="text-xl font-serif  font-bold pb-6">
+                                <a href="">CRISTINA KIRCHNER, NUEVA PRESIDENTA DEL PJ</a>
+                            </h2>
+                            <p class="font-light  text-right text-gray-500">Publicado: 06/11/2024</p>
+                            <div class=" font-sans text-lg text-left col-span-6  ">
+                                <p><i>La ex presidenta fue proclamada hoy titular del Consejo Nacional del PJ tras un
+                                    proceso judicializado, quedando como única candidata después de que se
+                                    impugnara la lista de Ricardo Quintela.
+                                    </i>
+                                </p>
+                                <br>
+                                <figure>
+                                    <img class="w-full object-cover"
+                                        src="{{ asset('../img/pol/pol_cristina.svg') }}" alt="">
+                                </figure>
+                                <br>
+                                <div
+                                    class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                    <div class=" font-sans text-lg text-left col-span-6  ">
+                                        <p>La Junta Electoral del Partido Justicialista (PJ) proclamó hoy a Cristina Kirchner
+                                            como nueva presidenta del Consejo Nacional del partido, en un proceso que
+                                            estuvo marcado por una fuerte judicialización interna. La ex presidenta asumirá
+                                            formalmente el cargo el próximo 17 de noviembre, tras quedar como única
+                                            candidata a la presidencia del PJ luego de que la Justicia Electoral impugnara
+                                            la lista del gobernador de La Rioja, Ricardo Quintela, por no reunir los avales
+                                            necesarios para su participación.
+                                        </p>
+                                        <br>
+                                        <p>La lista &#39;Primero la Patria&#39;, encabezada por la compañera Cristina Fernández
+                                            de Kirchner, fue proclamada como la ganadora”, declaró la Junta Electoral del
+                                            PJ en un comunicado. La resolución fue aprobada con 13 votos positivos y uno
+                                            en disidencia. Este fallo consagra a Kirchner al frente del peronismo nacional
+                                            en un momento clave para el futuro político del país, en medio de un contexto
+                                            electoral incierto y con la necesidad de reestructurar y fortalecer al PJ a nivel
+                                            nacional.
+                                        </p>
+                                        <br>
+                                        <p>La decisión fue celebrada por amplios sectores del peronismo, que destacaron
+                                            el papel central que Kirchner ha jugado en la historia del partido y en la política
+                                            argentina. Desde su espacio político, “Federales, un grito de Corazón”, que
+                                            promovía la candidatura de Quintela, se convocó a la unidad del PJ, resaltando
+                                            que el partido es mucho más que una simple fuerza política. Este sector aclaró
+                                            que no apelarán la decisión judicial y afirmó que el peronismo debe seguir
+                                            siendo un movimiento de transformación social y cultural, capaz de anticipar el
+                                            futuro y construir un país con más inclusión y justicia.
+                                        </p>
+                                        <br>
+                                        <p>A pesar de la impugnación de la lista de Quintela, la resolución de la Junta
+                                            Electoral permitió que Cristina Kirchner se posicionara nuevamente como la
+                                            principal figura del peronismo a nivel nacional. La ex mandataria, que se ha
+                                            mostrado en diversas ocasiones como una voz influyente dentro del
+                                            movimiento, tendrá ahora la responsabilidad de guiar al partido en un período
+                                            crucial de cara a los próximos desafíos electorales.
+                                        </p>
+                                        <br>
+                                        <p>La proclamación de Cristina Kirchner como presidenta del PJ también llega en
+                                            un momento de recomposición del espacio político, donde el peronismo busca
+                                            consolidar sus alianzas y fortalecer su presencia en la arena nacional. A través
+                                            de su liderazgo, se espera que el partido pueda retomar la centralidad política y
+                                            proyectar una estrategia renovada que responda a las necesidades del pueblo
+                                            argentino.
+                                        </p>
+                                        <br>
+                                        <p>Cristina Kirchner asumirá formalmente la presidencia del PJ el 17 de
+                                            noviembre, momento en el cual el partido buscará avanzar en su
+                                            reestructuración interna y en la consolidación de un proyecto político que
+                                            representa los intereses de los sectores más postergados de la sociedad
+                                            argentina.
+                                        </p>
+                                        <br>
+                                        <div class="text-start object-center">
+                                        </div>
+                                    </div>
+                    </article>
+                </li>
+            </ul>
+
+</section>
+{{--SUBE EL PRECIO DE LOS COMBUSTIBLES  --}}
+<section>
+    <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+        <div class=" col-span-4">
+            <ul>
+                <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                    <article>
+                        <div class="py-4 px-4 justify-between items-center">
+                            <h2 class="text-xl font-serif  font-bold pb-6">
+                                <a href="">SUBE EL PRECIO DE LOS COMBUSTIBLES</a>
+                            </h2>
+                            <p class="font-light  text-right text-gray-500">Publicado: 01/11/2024</p>
+                            <div class=" font-sans text-lg text-left col-span-6  ">
+                                <p><i>La medida rige desde la medianoche y se espera que el resto de las
+                                    compañías la sigan en las próximas horas. Afectará principalmente a los
+                                    usuarios de la Ciudad de Buenos Aires, con un incremento promedio del 2,7%.
+                                    </i>
+                                </p>
+                                <br>
+                                <figure>
+                                    <img class="w-full object-cover"
+                                        src="{{ asset('../img/pol/pol_nafta.svg') }}" alt="">
+                                </figure>
+                                <br>
+                                <div
+                                    class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                    <div class=" font-sans text-lg text-left col-span-6  ">
+                                        <p>YPF aumentó los precios de sus combustibles un 2,7% en promedio en la
+                                            Ciudad de Buenos Aires desde la medianoche, y se prevé que otras petroleras
+                                            sigan el mismo camino en las próximas horas. La suba de 2,75% aplicada por
+                                            YPF buscaría mitigar los efectos de la devaluación de octubre y la actualización
+                                            de impuestos.
+                                        </p>
+                                        <br>
+                                        <p>Este incremento se da tras la primera baja en casi seis años, cuando en
+                                            octubre los combustibles habían reducido sus precios en un 1% para el TLCAN
+                                            y un 2% en el gasoil, aunque en los márgenes de las petroleras fueron de 4% y
+                                            5. %, respectivamente.
+                                        </p>
+                                        <br>
+                                        <p>El ajuste tiene un impacto directo en el bolsillo de los consumidores, quienes ya
+                                            venían padeciendo las constantes subas. En la Ciudad de Buenos Aires, los
+                                            nuevos precios de YPF son:
+                                            Nafta Súper: $1077,
+                                            Nafta Premium: $1332,
+                                            Gasoil 500: $1092,
+                                            Gasoil G3: $1343.
+                                            Desde diciembre de 2023, el TLCAN Súper ha acumulado un incremento de
+                                            166,5%, lo que refleja el contexto inflacionario y el impacto de las políticas del
+                                            gobierno. A pesar de los aumentos, las ventas de combustibles al público han
+                                            caído un 6% en lo que va del año, una señal clara de la presión económica
+                                            sobre los sectores más vulnerables.
+                                        </p>
+                                        <br>
+                                        <p>En la Patagonia, el aumento será incluso mayor, para achicar la brecha de
+                                            precios con el resto del país, debido a los elevados costos logísticos de
+                                            transporte desde las refinerías.
+                                        </p>
+                                        <br>
+                                        <p>El contexto económico y la continua suba de precios alimentan el descontento
+                                            de los ciudadanos, que enfrentan un panorama de alta inflación y una
+                                            constante pérdida del poder adquisitivo.
+                                        </p>
+                                        <br>
+                                        <div class="text-start object-center">
+                                        </div>
+                                    </div>
+                    </article>
+                </li>
+            </ul>
+        </div>
+        @livewire('lateral')
+    </div>
+</section>
+{{--EL 50% DE LOS ARGENTINOS RECHAZA LA GESTIÓN DE MILEI  --}}
+<section>
+                    <ul>
+                        <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                            <article>
+                                <div class="py-4 px-4 justify-between items-center">
+                                    <h2 class="text-xl font-serif  font-bold pb-6">
+                                        <a href="">EL 50% DE LOS ARGENTINOS RECHAZA LA GESTIÓN
+                                            DE MILEI</a>
+                                    </h2>
+                                    <p class="font-light  text-right text-gray-500">Publicado: 01/11/2024</p>
+                                    <div class=" font-sans text-lg text-left col-span-6  ">
+                                        <p><i>Según una encuesta de la consultora brasileña Atlas y la agencia Bloomberg, la
+                                            mitad de los argentinos desaprueba la gestión del presidente, mientras que la
+                                            mayoría considera que la situación económica empeorará en los próximos
+                                            meses.
+                                            </i>
+                                        </p>
+                                        <br>
+                                        <figure>
+                                            <img class="w-full object-cover"
+                                                src="{{ asset('../img/pol/pol_gestion.svg') }}" alt="">
+                                        </figure>
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+                                                <p>Un estudio realizado por la consultora Atlas y la agencia Bloomberg midió el
+                                                    apoyo a los líderes políticos de Brasil, Colombia, México, Chile y Argentina. Los
+                                                    resultados muestran que el 50,7% de los argentinos desaprueba la gestión del
+                                                    presidente, mientras que el 42,8% la aprueba. Además, el 48,1% califica al
+                                                    gobierno como malo o muy malo, y solo el 34% lo considera excelente.
+                                                </p>
+                                                <br>
+                                                <p>En cuanto a la situación económica, los números son aún más preocupantes.
+                                                    El 64% de los encuestados considera que la situación de su familia es mala,
+                                                    mientras que un 78% piensa lo mismo sobre la economía argentina y el 76%
+                                                    sobre el mercado laboral. La mayoría de los consultados prevé un
+                                                    empeoramiento de la economía, la situación familiar y el mercado laboral en los
+                                                    próximos seis meses. Además, el 57,4% dice haber reducido su nivel de
+                                                    compra de bienes duraderos debido a la crisis inflacionaria.
+                                                </p>
+                                                <br>
+                                                <p>La encuesta también revela que los altos precios son la principal preocupación
+                                                    de los argentinos (50%), seguida por el desempleo (45,7%) y la corrupción
+                                                    (36,6%). Solo el 22,8% se muestra preocupado por el debilitamiento de la
+                                                    democracia y sus instituciones.
+                                                </p>
+                                                <br>
+                                                <p>En cuanto a la política exterior, el 60% de los consultados cree que Argentina
+                                                    debería tener una relación más estrecha con Brasil, y un 59% opina lo mismo
+                                                    respecto a Rusia y China. Por otro lado, el 48% considera que el país tiene
+                                                    más vínculos con Estados Unidos de los que debería.
+
+                                                    El estudio también menciona el creciente conocimiento del bloque BRICS, que
+                                                    un 39,3% de los argentinos reconoce. Sin embargo, un 34% aún no tiene
+                                                    conocimiento del grupo, y solo un 34,8% cree que el bloque tiene mucha
+                                                    influencia.
+                                                </p>
+                                                <br>
+                                                <p>Finalmente, la encuesta refleja un fuerte rechazo hacia las políticas migratorias,
+                                                    con un 65% de los consultados apoyando medidas restrictivas contra los
+                                                    inmigrantes.
+                                                </p>
+                                                <p>A nivel regional, Milei se encuentra por debajo de Lula (51%) y Claudia
+                                                    Sheinbaum (67%) en cuanto a aprobación, superando solo a Gabriel Boric
+                                                    (39%) y Gustavo Petro (40%).
+                                                </p>
+                                                <br>
+                                                <div class="text-start object-center">
+                                                </div>
+                                            </div>
+                            </article>
+                        </li>
+                    </ul>
+</section>
+{{--MILEI ECHA A MONDINO Y SE RADICALIZA  --}}
+<section>
+            <ul>
+                <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                    <article>
+                        <div class="py-4 px-4 justify-between items-center">
+                            <h2 class="text-xl font-serif  font-bold pb-6">
+                                <a href="">MILEI ECHA A MONDINO Y SE RADICALIZA</a>
+                            </h2>
+                            <p class="font-light  text-right text-gray-500">Publicado: 31/10/2024</p>
+                            <div class=" font-sans text-lg text-left col-span-6  ">
+                                <p><i>El despido de la excanciller marca un nuevo giro radical en la
+                                        política exterior
+                                        de Milei, que amenaza el vínculo con América Latina y hunde al país
+                                        en un
+                                        aislamiento global sin precedentes.
+                                    </i>
+                                </p>
+                                <br>
+                                <figure>
+                                    <img class="w-full object-cover"
+                                        src="{{ asset('../img/pol/pol_descarga.svg') }}" alt="">
+                                </figure>
+                                <br>
+                                <div
+                                    class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                    <div class=" font-sans text-lg text-left col-span-6  ">
+                                        <p>ELa destitución de Diana Mondino, tras la reciente votación en la
+                                            ONU contra el
+                                            bloqueo a Cuba, era un desenlace esperado: las tensiones entre
+                                            Mondino y el
+                                            entorno de Javier Milei crecía desde hace meses, especialmente
+                                            en torno a su
+                                            postura sobre la diplomacia latinoamericana y los BRICS. El voto
+                                            de Argentina
+                                            en la ONU, que acompañó a 187 países en el repudio al bloqueo,
+                                            se mantuvo
+                                            en la línea histórica de apoyo al multilateralismo y la
+                                            cooperación regional. Sin
+                                            embargo, esta decisión fue suficiente para que el gobierno de
+                                            Milei empujara a
+                                            Mondino fuera del gabinete y avanzara en un proceso de
+                                            depuración interna en
+                                            la Cancillería.
+                                        </p>
+                                        <br>
+                                        <p>Una &quot;limpieza ideológica&quot; en la Cancillería
+                                        </p>
+                                        <br>
+                                        <p>En el comunicado oficial de su destitución, el gobierno de Milei
+                                            calificó de
+                                            &quot;enemigos de la libertad&quot; a quienes, dentro de la
+                                            diplomacia argentina,
+                                            defienden posturas alineadas con derechos humanos, el combate al
+                                            cambio
+                                            climático y la cooperación latinoamericana. Este giro
+                                            ultraderechista implica
+                                            una purga interna al estilo macartista, donde las posiciones que
+                                            disientan de la
+                                            visión ultraliberal de Milei son desechadas o investigadas.
+                                            Mondino, quien
+                                            hasta hace poco era una de las figuras visibles en la
+                                            Cancillería, quedó en el
+                                            centro de esta limpieza ideológica por no someterse a la línea
+                                            dura del
+                                            “Triángulo de Hierro” conformado por los hermanos Milei y
+                                            Santiago Caputo.
+                                        </p>
+                                        <br>
+                                        <p>Argentina más sola y lejos de América Latina
+                                        </p>
+                                        <br>
+                                        <p>El impacto de esta decisión va más allá de la política doméstica
+                                            y tiene
+                                            profundas implicancias para el rol de Argentina en la región y
+                                            el mundo. Al
+                                            atacar la cooperación histórica en el tema Malvinas y alinearse
+                                            con un discurso
+                                            de confrontación, el gobierno argentino se aleja de países
+                                            estratégicos para la
+                                            estabilidad regional y se aísla en temas como derechos humanos,
+                                            género y
+                                            cambio climático. Mientras los BRICS se consolidan como una
+                                            plataforma de
+                                            cooperación multilateral, Argentina se desvincula de este
+                                            bloque, debilitando
+                                            sus lazos con naciones clave en términos geopolíticos, como
+                                            Brasil y China, y
+                                            acercándose a la posición aislacionista y confrontativa de
+                                            gobiernos como el de
+                                            Estados Unidos e Israel.
+                                        </p>
+                                        <p>Así, con la salida de Mondino, el país sigue profundizando su
+                                            aislamiento
+                                            global, sin espacios de diálogo regional y con la diplomacia
+                                            enfocada en
+                                            objetivos que desarticulan alianzas y empujan a Argentina cada
+                                            vez más a la
+                                            marginalidad en la arena internacional.
+                                        </p>
+                                        <br>
+                                        <div class="text-start object-center">
+                                        </div>
+                                    </div>
+                    </article>
+                </li>
+            </ul>
+{{--UN NUEVO ESPACIO PARA FRENAR A MILEI Y ELMACRISMO EN CABA  --}}
+<section>
+            <ul>
+                <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                    <article>
+                        <div class="py-4 px-4 justify-between items-center">
+                            <h2 class="text-xl font-serif  font-bold pb-6">
+                                <a href="">UN NUEVO ESPACIO PARA FRENAR A MILEI Y EL
+                                    MACRISMO EN CABA</a>
+                            </h2>
+                            <p class="font-light  text-right text-gray-500">Publicado: 30/10/2024</p>
+                            <div class=" font-sans text-lg text-left col-span-6  ">
+                            <p><i>En un esfuerzo por frenar el avance de la ultraderecha y devolver el control de
+                                la Ciudad a los sectores populares, dirigentes y movimientos políticos lanzan
+                                Confluencia.
+                            </i>
+                            </p>
+                            <br>
+                            <figure>
+                                <img class="w-full object-cover"
+                                src="{{ asset('../img/pol/pol_frenar.svg') }}" alt="">
+                            </figure>
+                            <br>
+                            <div
+                                class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                <div class=" font-sans text-lg text-left col-span-6  ">
+                                    <p>En un encuentro que reunió a referentes de múltiples agrupaciones políticas y
+                                        sociales en el centro porteño, se presentó oficialmente “Confluencia”, un
+                                        espacio que busca constituir un frente amplio en la Ciudad de Buenos Aires.
+                                        Este nuevo movimiento está impulsado por organizaciones como Unidad
+                                        Popular, Forja, Libres del Sur, Soberanxs, y otros colectivos, quienes
+                                        compartieron un manifiesto para denunciar las políticas del actual gobierno de
+                                        Javier Milei y el modelo macrista, que, afirman, ha consolidado la desigualdad.
+                                        y multiplicando la pobreza.
+                                    </p>
+                                    <br>
+                                    <p>Propuestas para una Buenos Aires más justa
+                                    </p>
+                                    <br>
+                                    <p>“Confluencia” se diferencia de otros movimientos en su rechazo a ser solo una
+                                        herramienta electoral, enfocándose en una propuesta de cambio estructural. Su
+                                        manifiesto señala como objetivo fundamental &quot;recuperar la ciudad para quienes
+                                        la habitan&quot;, y propone destinar parte del fondo anticrisis porteño a políticas de
+                                        impacto social inmediato. Entre las iniciativas destacan la construcción de
+                                        viviendas para alquiler social, el desarrollo de espacios verdes y la creación de
+                                        polideportivos gratuitos, medidas que buscan aliviar el contexto crítico de una
+                                        ciudad donde la pobreza y la falta de acceso a servicios básicos afectan a más
+                                        de la mitad de la población.
+                                    </p>
+                                    <br>
+                                    <p>Críticas a Milei y al macrismo
+                                    </p>
+                                    <br>
+                                    <p>Durante el acto, los referentes señalan el desmantelamiento del Estado y la
+                                    represión de Milei como el “proyecto autoritario” que reinstala paradigmas de la
+                                    última dictadura, mientras el modelo macrista es acusado de enriquecer a
+                                    pocos a la costa de la mayoría. Claudio Lozano, de Unidad Popular, sostuvo:
+                                    “Este frente requiere democracia participativa y apertura a la comunidad; no es
+                                    un mero acuerdo electoral ni una suma de fracasos”.
+                                    </p>
+                                    <p>Con este lanzamiento, &quot;Confluencia&quot; se presenta como un movimiento inclusivo
+                                        y popular, invitando a los porteños a unirse para construir una Buenos Aires
+                                        más democrática e igualitaria, capaz de poner fin a las políticas de Milei ya dos
+                                        décadas de gestión neoliberal en la capital.
+                                    </p>
+                                    <br>
+                                    <div class="text-start object-center">
+                                    </div>
+                                </div>
+                    </article>
+                </li>
+            </ul>
+</section>
 {{-- EL GOBIERNO DE MILEI LLAMA ‘FALKLANDS’ A LAS MALVINAS, UN ERROR QUE ESCONDE UNA TRAICION --}}
 <section>
             <ul>
@@ -53,7 +467,7 @@
                                     </p>
                                     <br>
                                     <p>SEl uso de ‘Falklands’ no es un desliz menor: jamás un gobierno argentino utilizó
-                                        este término en una declaración oficial. En contraste, el Reino Unido jamás ha                                                  
+                                        este término en una declaración oficial. En contraste, el Reino Unido jamás ha
                                         hecho referencia a las ‘Malvinas’ en un texto formal. Las consecuencias de este
                                         giro impactarán en las aspiraciones de Argentina en foros internacionales como
                                         el Comité de Descolonización de la ONU, donde la postura histórica del país ha
@@ -149,7 +563,7 @@
                 </li>
             </ul>
 </section>
-{{-->MILEI AMENAZA A LA DEMOCRACIA CON SU DISCURSO DE ODIO  --}} 
+{{-->MILEI AMENAZA A LA DEMOCRACIA CON SU DISCURSO DE ODIO  --}}
 <section>
             <ul>
                 <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
@@ -279,7 +693,7 @@
                                     <p>Es fundamental reflexionar sobre este vacío y reconocer que, como
                                         comunicadores del campo nacional y popular, debemos replantearnos por qué
                                         no estuvimos allí. Meses antes de esta fecha, cuando ya intuíamos que no
-                                        habría una convocatoria, debimos exigir desde nuestros medios la unidad del                                                  
+                                        habría una convocatoria, debimos exigir desde nuestros medios la unidad del
                                         peronismo, por el bien del campo nacional y popular, de la República y de los
                                         derechos de todos los argentinos y argentinas.
                                     </p>
@@ -360,7 +774,7 @@
                                         Moyano en el extranjero, y en medio de la renuncia de Mario Manrique, del
                                         Smata, quien se distanció de la conducción &quot;dialoguista&quot; por el acercamiento a
                                         la gestión de Milei. El documento critica abiertamente el modelo de gobierno
-                                        actual, denunciando que &quot;ajusta gravemente los ingresos de los que menos                                                    
+                                        actual, denunciando que &quot;ajusta gravemente los ingresos de los que menos
                                         tienen&quot; y favorece a sectores concentrados de la economía, al tiempo que
                                         posterga la atención a jubilados y desfinancia la salud y la educación pública.
                                     </p>
@@ -624,7 +1038,7 @@
                                     <br>
                                     {{-- <article>
                                         <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/YElDMxWtpio?si=B21D4BO6vjuKVj0Z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                                        
+
                                     </article> --}}
                                     <figure>
                                         <img class="w-full object-cover"
@@ -640,7 +1054,7 @@
                                             <p>El expresidente enfatizó que su meta es convertir a compañías extranjeras, como las automotrices alemanas, en fabricantes estadounidenses. Su enfoque se basa en obligar a las empresas a trasladar su producción a EE. UU. para evitar el elevado arancel, una estrategia que podría alterar significativamente la industria automotriz global. Muchas automotrices, que producen vehículos en México debido a menores costos de mano de obra, se verían obligadas a replantear sus operaciones.
                                             </p>
                                             <br>
-                                            <p>A diferencia de Javier Milei, quien promueve una política de mercado completamente abierta, sin intervención estatal y con una clara oposición a los impuestos y retenciones, Trump adopta un enfoque pragmático que incluye aranceles y medidas proteccionistas. Mientras Milei sostiene que la libertad económica absoluta es el camino para el crecimiento, Trump no descarta la intervención del Estado para proteger y desarrollar la industria nacional. Esta diferencia clave subraya que Trump está dispuesto a imponer barreras comerciales para asegurar que las fábricas y los empleos permanezcan en EE. 
+                                            <p>A diferencia de Javier Milei, quien promueve una política de mercado completamente abierta, sin intervención estatal y con una clara oposición a los impuestos y retenciones, Trump adopta un enfoque pragmático que incluye aranceles y medidas proteccionistas. Mientras Milei sostiene que la libertad económica absoluta es el camino para el crecimiento, Trump no descarta la intervención del Estado para proteger y desarrollar la industria nacional. Esta diferencia clave subraya que Trump está dispuesto a imponer barreras comerciales para asegurar que las fábricas y los empleos permanezcan en EE.
                                             </p>
                                             <br>
                                             <p>UU., mientras que Milei, con su ideología de mercado libre, corre el riesgo de desindustrializar a Argentina y dejar a su economía aún más vulnerable.
@@ -682,7 +1096,7 @@
                                     <br>
                                     {{-- <article>
                                         <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/YElDMxWtpio?si=B21D4BO6vjuKVj0Z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                                        
+
                                     </article> --}}
                                     <figure>
                                         <img class="w-full object-cover"
@@ -715,7 +1129,7 @@
                 </div>
 </section>
 {{-- CRISTINA A MILEI: “DEJE DE SEGUIR A FRIEDMAN Y ADMINISTRE EL PAÍS” --}}
-<section>          
+<section>
                     <ul>
                         <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
                             <article>
@@ -730,7 +1144,7 @@
                                     <br>
                                     {{-- <article>
                                         <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/YElDMxWtpio?si=B21D4BO6vjuKVj0Z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                                        
+
                                     </article> --}}
                                     <figure>
                                         <img class="w-full object-cover"
@@ -812,7 +1226,7 @@
                     </article>
                 </li>
             </ul>
-        </section>      
+        </section>
         {{-- MOREAU CUESTIONÓ AL GOBIERNO Y ALERTÓ SOBRE DERIVA AUTORITARIA....--}}
 <section>
     <ul>
@@ -830,7 +1244,7 @@
                     <br>
                     <article>
                         <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/Z4mV98JfsV4?si=s0FbdjMb5jjA76Yf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        
+
                     </article>
                     {{-- <figure>
                         <img class="w-full object-cover"
@@ -855,9 +1269,9 @@
                             <p>Para Moreau, estas acciones revelan una peligrosa deriva autoritaria y una falta de compromiso con la memoria histórica. Llamó a superar la polarización política y a enfocarse en la defensa de los valores democráticos: "Se está con la democracia o se está con el autoritarismo", concluyó, advirtiendo sobre los riesgos de permitir prácticas autoritarias en el corazón de la democracia argentina.
                             </p>
                             <br>
-                            
-                            
-                            
+
+
+
 
                             <div class="text-start object-center">
                                 {{-- <figure>
@@ -890,7 +1304,7 @@
                     <br>
                     {{-- <article>
                         <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/YElDMxWtpio?si=B21D4BO6vjuKVj0Z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                        
+
                     </article> --}}
                     <figure>
                         <img class="w-full object-cover"
@@ -919,8 +1333,8 @@
                             <br>
                             <p>A pesar de los desafíos, Kicillof se mantiene firme en su posición, confiando en que YPF y Petronas evaluarán la conveniencia técnica y económica de la ubicación del proyecto con total profesionalismo. Su postura destaca su compromiso con los derechos de Buenos Aires y su rechazo a las políticas perjudiciales de Milei, reafirmando su papel como defensor de los intereses de su provincia frente a las maniobras políticas del gobierno nacional.</p>
                             <br>
-                            
-                            
+
+
 
                             <div class="text-start object-center">
                                 {{-- <figure>
@@ -953,7 +1367,7 @@
                     <br>
                     {{-- <article>
                         <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/YElDMxWtpio?si=B21D4BO6vjuKVj0Z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                        
+
                     </article> --}}
                     <figure>
                         <img class="w-full object-cover"
@@ -980,9 +1394,9 @@
                             <br>
                             <p>En resumen, la asignación millonaria a la SIDE en un periodo de ajuste severo pone de relieve una contradicción en la política de Milei, que prioriza los gastos en inteligencia mientras enfrenta críticas por la creciente pobreza y desocupación en el país.</p>
                             <br>
-                            
-                            
-                            
+
+
+
 
                             <div class="text-start object-center">
                                 {{-- <figure>
@@ -1015,7 +1429,7 @@
                     <br>
                     {{-- <article>
                         <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/YElDMxWtpio?si=B21D4BO6vjuKVj0Z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                        
+
                     </article> --}}
                     <figure>
                         <img class="w-full object-cover"
@@ -1046,8 +1460,8 @@
                             <br>
                             <p>La denuncia contra Ponce y la tensión creciente dentro de La Libertad Avanza podrían tener repercusiones significativas en el futuro político del partido, exponiendo la corrupción y la falta de transparencia que impera en sus filas. Es imperativo que la justicia y la sociedad civil actúen con firmeza para desenmascarar y sancionar estas prácticas, asegurando que el verdadero espíritu democrático y representativo prevalezca.</p>
                             <br>
-                            
-                            
+
+
 
                             <div class="text-start object-center">
                                 {{-- <figure>
@@ -1080,7 +1494,7 @@
                     <br>
                     {{-- <article>
                         <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/YElDMxWtpio?si=B21D4BO6vjuKVj0Z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                        
+
                     </article> --}}
                     <figure>
                         <img class="w-full object-cover"
@@ -1105,8 +1519,8 @@
                             <p>El Pacto de Mayo, en lugar de consolidar un acuerdo nacional, se ha convertido en un símbolo de las divisiones políticas y sociales que caracterizan a la Argentina actual. La falta de consenso y la represión de la disidencia evidencian la falta de legitimidad y el carácter excluyente de las políticas impulsadas por Milei. En definitiva, el acto no ha logrado más que profundizar la fractura en la sociedad argentina, evidenciando la resistencia de un gobierno que parece más interesado en imponer su agenda que en construir verdaderos consensos.
                             </p>
                             <br>
-                            
-                            
+
+
 
                             <div class="text-start object-center">
                                 {{-- <figure>
@@ -1130,7 +1544,7 @@
                 <div class="py-4 px-4 justify-between items-center">
                     <h2 class="text-xl font-serif  font-bold pb-6">
                         <a href="">LA HORA DE LA VERDAD: EL FIN DEL GOBIERNO MILEI</a>
-                        <p class="font-light text-gray-500">Por Daniel Gomez, Politologo.</p> 
+                        <p class="font-light text-gray-500">Por Daniel Gomez, Politologo.</p>
                     </h2>
                     <p class="font-light  text-right text-gray-500">Publicado: 07/07/2024</p>
                     <div class=" font-sans text-lg text-left col-span-6  ">
@@ -1139,7 +1553,7 @@
                     <br>
                     {{-- <article>
                         <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/YElDMxWtpio?si=B21D4BO6vjuKVj0Z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                        
+
                     </article> --}}
                     <figure>
                         <img class="w-full object-cover"
@@ -1164,9 +1578,9 @@
                             <p>Como alguien dijo, no diré nada más, pero habrá señales.
                             </p>
                             <br>
-                           
-                            
-                            
+
+
+
 
                             <div class="text-start object-center">
                                 {{-- <figure>
@@ -1198,7 +1612,7 @@
                     <br>
                     {{-- <article>
                         <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/YElDMxWtpio?si=B21D4BO6vjuKVj0Z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                        
+
                     </article> --}}
                     <figure>
                         <img class="w-full object-cover"
@@ -1232,8 +1646,8 @@
                             <br>
                             <p>La situación en las Islas Malvinas se mantiene en el centro del conflicto diplomático entre Argentina y Reino Unido, con el accionar británico subrayando la necesidad de una respuesta firme y efectiva del gobierno argentino para defender los recursos naturales y la soberanía nacional.</p>
                             <br>
-                            
-                            
+
+
 
                             <div class="text-start object-center">
                                 {{-- <figure>
@@ -1265,7 +1679,7 @@
                     <br>
                     {{-- <article>
                         <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/YElDMxWtpio?si=B21D4BO6vjuKVj0Z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                        
+
                     </article> --}}
                     <figure>
                         <img class="w-full object-cover"
@@ -1294,8 +1708,8 @@
                             <p>"El objetivo es una patria justa, libre y soberana. El peronismo sigue de pie, va derecho al futuro", concluyó Kicillof, subrayando su compromiso de proteger los derechos sociales y económicos que considera amenazados por las políticas de Milei.
                             </p>
                             <br>
-                            
-                            
+
+
 
                             <div class="text-start object-center">
                                 {{-- <figure>
@@ -1327,7 +1741,7 @@
                     <br>
                     {{-- <article>
                         <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/YElDMxWtpio?si=B21D4BO6vjuKVj0Z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                        
+
                     </article> --}}
                     <figure>
                         <img class="w-full object-cover"
@@ -1354,8 +1768,8 @@
                             <br>
                             <p>El silenciamiento de Télam refleja una estrategia calculada de control de la información en un contexto político cada vez más polarizado. Este paso ha desatado un intenso debate sobre los límites del poder estatal en la comunicación pública y las implicancias para la democracia argentina.</p>
                             <br>
-                            
-                            
+
+
 
                             <div class="text-start object-center">
                                 {{-- <figure>
@@ -1387,7 +1801,7 @@
                     <br>
                     {{-- <article>
                         <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/YElDMxWtpio?si=B21D4BO6vjuKVj0Z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                        
+
                     </article> --}}
                     <figure>
                         <img class="w-full object-cover"
@@ -1419,7 +1833,7 @@
                             <br>
                             <p>Javier Milei ha conseguido un avance significativo con la aprobación de la Ley Bases y el paquete fiscal, pero el costo social y político de estas medidas se verá reflejado en la resistencia y la movilización de un pueblo que no está dispuesto a aceptar pasivamente estas reformas.</p>
                             <br>
-                            
+
 
                             <div class="text-start object-center">
                                 {{-- <figure>
@@ -1451,7 +1865,7 @@
                     <br>
                     {{-- <article>
                         <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/YElDMxWtpio?si=B21D4BO6vjuKVj0Z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                        
+
                     </article> --}}
                     <figure>
                         <img class="w-full object-cover"
@@ -1528,7 +1942,7 @@
                     <br>
                     {{-- <article>
                         <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/YElDMxWtpio?si=B21D4BO6vjuKVj0Z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                        
+
                     </article> --}}
                     <figure>
                         <img class="w-full object-cover"
@@ -1554,7 +1968,7 @@
                             <br>
                             <p>En resumen, la jornada legislativa fue intensa y dejó varias cuestiones para el debate público. La ley Bases y el paquete fiscal ahora deberán ser analizados en detalle en la Cámara de Diputados, donde se espera un nuevo round de discusiones y negociaciones políticas.</p>
                             <br>
-                            
+
 
                             <div class="text-start object-center">
                                 {{-- <figure>
@@ -1586,7 +2000,7 @@
                     <br>
                     {{-- <article>
                         <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/YElDMxWtpio?si=B21D4BO6vjuKVj0Z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                        
+
                     </article> --}}
                     <figure>
                         <img class="w-full object-cover"
@@ -1651,7 +2065,7 @@
                     <br>
                     {{-- <article>
                         <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/YElDMxWtpio?si=B21D4BO6vjuKVj0Z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                        
+
                     </article> --}}
                     <figure>
                         <img class="w-full object-cover"
@@ -1714,7 +2128,7 @@
                     <br>
                     {{-- <article>
                         <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/YElDMxWtpio?si=B21D4BO6vjuKVj0Z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                        
+
                     </article> --}}
                     <figure>
                         <img class="w-full object-cover"
@@ -1774,7 +2188,7 @@
                     <br>
                     {{-- <article>
                         <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/YElDMxWtpio?si=B21D4BO6vjuKVj0Z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                        
+
                     </article> --}}
                     <figure>
                         <img class="w-full object-cover"
@@ -1834,7 +2248,7 @@
                     <br>
                     {{-- <article>
                         <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/YElDMxWtpio?si=B21D4BO6vjuKVj0Z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                        
+
                     </article> --}}
                     <figure>
                         <img class="w-full object-cover"
@@ -1856,7 +2270,7 @@
                             <br>
                             <p>Finalmente, Del Plá sentenció: “Quedó demostrado que no podemos confiar en quienes ven la educación como un negocio. Sin salarios docentes, no hay Universidad. Tenemos que seguir la lucha por un aumento real del presupuesto que no puede quedar en manos de los voceros de las patronales y las burocracias. El jueves vamos todos al Congreso por un paro docente activo y de lucha.”</p>
                             <br>
-                            
+
                             <div class="text-start object-center">
                                 {{-- <figure>
                                     <img class="w-28 h-28  "
@@ -1887,7 +2301,7 @@
                     <br>
                     {{-- <article>
                         <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/YElDMxWtpio?si=B21D4BO6vjuKVj0Z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                        
+
                     </article> --}}
                     <figure>
                         <img class="w-full object-cover"
@@ -1945,7 +2359,7 @@
                     <br>
                     {{-- <article>
                         <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/YElDMxWtpio?si=B21D4BO6vjuKVj0Z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                        
+
                     </article> --}}
                     <figure>
                         <img class="w-full object-cover"
@@ -1969,8 +2383,8 @@
                             <br>
                             <p>En resumen, la falta de consenso en el Senado ha generado un impasse en la aprobación de la Ley Bases y la Reforma Fiscal, lo que pone en duda la posibilidad de que estas medidas sean aprobadas antes del 25 de mayo, como estaba previsto inicialmente por el Gobierno.</p>
                             <br>
-                            
-                            
+
+
                             <div class="text-start object-center">
                                 {{-- <figure>
                                     <img class="w-28 h-28  "
@@ -2001,7 +2415,7 @@
                     <br>
                     {{-- <article>
                         <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/YElDMxWtpio?si=B21D4BO6vjuKVj0Z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                        
+
                     </article> --}}
                     <figure>
                         <img class="w-full object-cover"
@@ -2029,7 +2443,7 @@
                             <br>
                             <p>En resumen, el Gobierno de Milei se enfrenta a críticas por su gestión económica, que ha resultado en un aumento de la pobreza y el desempleo, además de una serie de medidas que han impactado negativamente en los sectores más vulnerables de la sociedad, mientras busca desviar la atención con acusaciones hacia los movimientos sociales.</p>
                             <br>
-                            
+
                             <div class="text-start object-center">
                                 {{-- <figure>
                                     <img class="w-28 h-28  "
@@ -2060,7 +2474,7 @@
                     <br>
                     {{-- <article>
                         <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/YElDMxWtpio?si=B21D4BO6vjuKVj0Z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                        
+
                     </article> --}}
                     <figure>
                         <img class="w-full object-cover"
@@ -2120,7 +2534,7 @@
                     <br>
                     {{-- <article>
                         <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/YElDMxWtpio?si=B21D4BO6vjuKVj0Z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                        
+
                     </article> --}}
                     <figure>
                         <img class="w-full object-cover"
@@ -2142,7 +2556,7 @@
                             <br>
                             <p>La resolución de la justicia de Estados Unidos a favor de Argentina en el caso por los cupones PBI es un triunfo significativo para el país, que ha sido objeto de numerosas demandas de fondos buitre en los últimos años. Este fracaso refuerza la posición de Argentina en la defensa de sus intereses soberanos y en la protección de los derechos de sus ciudadanos frente a especuladores financieros.</p>
                             <br>
-                            
+
                             <div class="text-start object-center">
                                 {{-- <figure>
                                     <img class="w-28 h-28  "
@@ -2173,7 +2587,7 @@
                     <br>
                     {{-- <article>
                         <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/_bPQiSzfFxo?si=dNK9SBhfeNQ6hqYP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                        
+
                     </article> --}}
                     <figure>
                         <img class="w-full object-cover"
@@ -2193,7 +2607,7 @@
                             <p>Por más periodismo, por más libertad de prensa, por más libertad de expresión.
                             </p>
                             <br>
-                            
+
                             <div class="text-start object-center">
                                 <figure>
                                     <img class="w-28 h-28  "
@@ -2224,7 +2638,7 @@
                     <br>
                     <article>
                         <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/YElDMxWtpio?si=B21D4BO6vjuKVj0Z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                        
+
                     </article>
                     {{-- <figure>
                         <img class="w-full object-cover"
@@ -2250,7 +2664,7 @@
                             <br>
                             <p>En el cierre de su discurso, la intendenta llamó a construir una nueva mayoría popular que resuelva los problemas estructurales de Argentina y a dar la discusión en todos los barrios, escuchando y hablando con cada vecino. Participaron en la actividad diversas personalidades políticas y funcionarios, así como vecinos y militantes.</p>
                             <br>
-                            
+
                             <div class="text-start object-center">
                                 {{-- <figure>
                                     <img class="w-28 h-28  "
@@ -2280,7 +2694,7 @@
                     <br>
                     <article>
                         <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/_bPQiSzfFxo?si=dNK9SBhfeNQ6hqYP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                        
+
                     </article>
                     {{-- <figure>
                         <img class="w-full object-cover"
@@ -2334,7 +2748,7 @@
                     <br>
                     <article>
                         <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/cKmevL0Jgeg?si=v15MDd7wvBu2vayz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                        
+
                     </article>
                     {{-- <figure>
                         <img class="w-full object-cover"
@@ -2711,7 +3125,7 @@
                             <p>En una Argentina donde la violencia policial parece ser la respuesta predeterminada, se desvía la atención de los problemas estructurales que enfrenta el país. La brutalidad policial no solo atenta contra la democracia, sino que también refleja la prioridad dada a la represión en lugar de buscar soluciones para los desafíos reales de la sociedad.
                             </p>
                             <br>
-                            
+
 
 
 
@@ -2728,7 +3142,7 @@
             </article>
         </li>
     </ul>
-                        
+
 </section>
 
     {{-- IMPACTO MILEI:--}}
@@ -2797,7 +3211,7 @@
                 </article>
             </li>
         </ul>
-                            
+
     </section>
  {{-- BAJO EL CALOR POLÍTICO: RESISTENCIA ANTE UN GOBIERNO
                             MESIÁNICO --}}
@@ -2829,13 +3243,13 @@
                             <p>En medio de una ola de calor abrasante, las garras mesiánicas de un gobierno ultra derechista, fascistoide, y autoritario nos están ahogando hasta dejarnos con apenas un hilo de oxígeno. Los intereses de las grandes corporaciones monopólicas, las sociedades de inversión transnacionales, socios ávidos por enajenar recursos naturales y bienes del Estado, con los cubiertos en la mano esperando hincar los colmillos en el primer bocado.
                             </p>
                             <br>
-                            <p>Mientras en la Cámara de Diputados se está jugando el destino de la Patria, y en las manos alzadas de aquellos que voten a favor de un mamotreto que cambiaría la esencia y el espíritu de lo que conocimos como estado de bienestar y derecho, aparecen inevitables interrogantes. 
+                            <p>Mientras en la Cámara de Diputados se está jugando el destino de la Patria, y en las manos alzadas de aquellos que voten a favor de un mamotreto que cambiaría la esencia y el espíritu de lo que conocimos como estado de bienestar y derecho, aparecen inevitables interrogantes.
                             </p>
                             <br>
                             <p>La pregunta surge por sí sola: cómo los votantes ingenuos (sí, ingenuos), que no pudieron hacer un análisis sencillo, breve, lineal, sobre lo que significaba hacer campaña con una motosierra y el valor simbólico de destrucción que conllevaba, sumado a un candidato- personaje de historietas, panelista de la TV, sin formación intelectual, con particularidades bizarras, riesgosas y mesiánicas de personalidad.
                             </p>
                             <br>
-                            <p>Agrego: decepción por el gobierno que antecedió, enclenque, indeciso, con una guerra interna indisimulable y librada a cielo abierto de cara a la ciudadanía. Y como frutilla del postre el infaltable antiperonismo serril confrontando dos modelos antagónicos, uno con derechos plenos a les ciudadanes y el otro con la lisa y llana supresión de derechos. 
+                            <p>Agrego: decepción por el gobierno que antecedió, enclenque, indeciso, con una guerra interna indisimulable y librada a cielo abierto de cara a la ciudadanía. Y como frutilla del postre el infaltable antiperonismo serril confrontando dos modelos antagónicos, uno con derechos plenos a les ciudadanes y el otro con la lisa y llana supresión de derechos.
                             </p>
                             <br>
                             <p>Preguntas que siguen vigentes y que deberíamos seguir pensando y reflexionando sobre todo lo hecho y lo abandonado a su suerte, por cuanto esta nueva etapa que nos toca transitar no nos da tregua ni respiro. La sesión acaba de comenzar y quedará expuesta la decisión, la voluntad y la convicción de cada une de nuestros representantes. Mientras tanto, nos vamos organizando en una, también inevitable, resistencia a las impensadas horas que nos esperan.
@@ -2889,7 +3303,7 @@
                             <p>En las grandes ciudades en las que proliferan animales no deseados y combatidos de mil maneras, porque entre otras cosas son portadores de enfermedades como la rabia y otras, sus habitantes recurren a métodos varios para protegerse. Desde mosquiteros en las entradas, hasta la contratación de empresas especializadas que administran venenos caros a los muy debilitados bolsillos del contribuyente.
                             </p>
                             <br>
-                            <p>Años atrás y ante una plaga de murcièlagos invasores que tantas veces hacían nido en los portarrollos de las ventanas exteriores, especialistas desarrollaron y pusieron en prueba un sistema de ultrasonido, que siendo imperceptible al oído humano espantaba a los indeseables. 
+                            <p>Años atrás y ante una plaga de murcièlagos invasores que tantas veces hacían nido en los portarrollos de las ventanas exteriores, especialistas desarrollaron y pusieron en prueba un sistema de ultrasonido, que siendo imperceptible al oído humano espantaba a los indeseables.
                             </p>
                             <br>
                             <p>El recurso fue y es estudiado por las inteligencias militares tanto de EE.UU. como de Israel, pero para aplicaciones de otra índole. En ambos casos, el objeto del recurso dejó de ser las plagas, para direccionarlo a los hombres y mujeres víctimas de decisiones del poder que practican la discriminación y persecución política, económica y de derechos ya adquiridos.
@@ -2902,7 +3316,7 @@
 
                             </p>
                             <br>
-                            
+
 
 
                             <div class="text-start object-center">
@@ -2910,7 +3324,7 @@
                                     <img class="w-28 h-28  "
                                         src="{{ asset('../img/pol/Chino.svg') }}"
                                         alt="">
-                                    
+
                                     <p> <strong>Oscar Martínez Zemborain</strong></p>
 
                                 </figure>
@@ -2947,41 +3361,41 @@
                             class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
                             <div class=" font-sans text-lg text-left col-span-6  ">
 
-                               
-                                <p>Alguna vez nos escucharon como parte del campo nacional y popular reivindicar una narrativa criminal? justificar el atentado individual por parte de las organizaciones armadas? 
+
+                                <p>Alguna vez nos escucharon como parte del campo nacional y popular reivindicar una narrativa criminal? justificar el atentado individual por parte de las organizaciones armadas?
                                 </p>
                                 <br>
-                                <p> No, lo hemos condenado, hemos repudiado el asesinato selectivo y el secuestro para exaltar y poner en valor las acciones políticas territoriales y pacíficas de la militancia de base sin dejar de exponer el contexto en que tuvieron lugar esos crímenes pero no los celebramos, no decimos que se trataron de excesos o los exhibimos como una equivocación. 
+                                <p> No, lo hemos condenado, hemos repudiado el asesinato selectivo y el secuestro para exaltar y poner en valor las acciones políticas territoriales y pacíficas de la militancia de base sin dejar de exponer el contexto en que tuvieron lugar esos crímenes pero no los celebramos, no decimos que se trataron de excesos o los exhibimos como una equivocación.
                                 </p>
                                 <br>
                                 <p>Fueron crímenes sí dentro de un contexto histórico en dónde la violencia política era cotidiana y había empezado con un golpe de estado contra el gobierno democrático de Juan Domingo Perón y contemporáneos a una militancia que ayudaba al otro trasuntando barrios carenciados y villas. Ninguno de esos hechos, ninguno, habilitaban un plan sistemático de exterminio a nivel continental conocido como el plan cóndor ejecutado a partir del 24 de marzo de 1976.
                                 </p>
                                 <br>
-                                <p>"El camino que lleva a Milei no es la izquierda  -dice Bregman-  es  el ajuste".  Tal vez se refiera al ajuste de los recursos públicos,  a la disparada del precio del dólar por la escasez histórica de divisas de nuestro país que no tiene la máquina para producir dólares y  que tras la toma de una deuda de 47 mil millones de dólares con el FMI a pagar en dólares su gobierno ve reducida la cantidad disponible a utilizar.  Este desajuste aumenta, y por reflejo aumentan los productos de primera necesidad sobre todo los que se exportan generando ingresos en dólares, y para sostener sus ganancias unos y sueldos los otros, empresarios y trabajadores entran en el espiral de la puja distributiva: aumentan los precios, alquileres mientras los salarios por convenio suben pero en menor medida, con lo cual disminuye la capacidad de consumo de los sectores populares y se deteriora su calidad de vida, su expectativa de futuro deteniéndose la movilidad social ascendente, la aspiración de que los hijos estén mejor que sus padres y abuelos. 
+                                <p>"El camino que lleva a Milei no es la izquierda  -dice Bregman-  es  el ajuste".  Tal vez se refiera al ajuste de los recursos públicos,  a la disparada del precio del dólar por la escasez histórica de divisas de nuestro país que no tiene la máquina para producir dólares y  que tras la toma de una deuda de 47 mil millones de dólares con el FMI a pagar en dólares su gobierno ve reducida la cantidad disponible a utilizar.  Este desajuste aumenta, y por reflejo aumentan los productos de primera necesidad sobre todo los que se exportan generando ingresos en dólares, y para sostener sus ganancias unos y sueldos los otros, empresarios y trabajadores entran en el espiral de la puja distributiva: aumentan los precios, alquileres mientras los salarios por convenio suben pero en menor medida, con lo cual disminuye la capacidad de consumo de los sectores populares y se deteriora su calidad de vida, su expectativa de futuro deteniéndose la movilidad social ascendente, la aspiración de que los hijos estén mejor que sus padres y abuelos.
                                 </p>
                                 <br>
                                 <p>Entre todo esto: la pandemia, la digitalización creciente de las actividades sociales y económicas, el aislamiento, la pérdida del contacto y la diversidad social y la brindada por el sistema educativo, por ende la no enseñanza de los contenidos escolares, en definitiva un año perdido.
                                 </p>
                                 <br>
-                                <p>Internas a cielo abierto, exhibiendo impotencia en un sistema presidencialista dónde el presidente toma las decisiones exclusivamente y un Alberto Fernández que no estuvo a la altura. 
+                                <p>Internas a cielo abierto, exhibiendo impotencia en un sistema presidencialista dónde el presidente toma las decisiones exclusivamente y un Alberto Fernández que no estuvo a la altura.
                                 </p>
                                 <br>
                                 <p>El trabajo informal de las aplicaciones se multiplica durante la pandemia y el gobierno no interpela a este sector con medidas concretas apenas salimos de la crisis sanitaria global.</p>
-                                <p>Errores de la actual gestión, sí, pero errores lidiando con la criminalidad que supuso la toma de una deuda a cien años por Mauricio Macri cuando no era para nada necesario. Y de serlo en que se invirtió? Se sabe que fue para sostener a los bancos y a los grupos empresariales que fugaron los dolares. 
+                                <p>Errores de la actual gestión, sí, pero errores lidiando con la criminalidad que supuso la toma de una deuda a cien años por Mauricio Macri cuando no era para nada necesario. Y de serlo en que se invirtió? Se sabe que fue para sostener a los bancos y a los grupos empresariales que fugaron los dolares.
                                 </p>
                                 <p>Delito contra todo el pueblo argentino. Y a esto nos llevó la deuda con el FMI, deuda tomada por Juntos por el cambio que disminuyeron, socavaron la capacidad de la política para mejorar las condiciones de vida, que bajó el salario que era el mas alto de América latina a niveles por debajo de Uruguay y Brasil, un mandatario Mauricio Macri junto a un sector político que hicieron lo contrario a lo que prometieron en campaña diciendo que las advertencias de Scioli eran campaña del miedo y terminaron tomando la deuda más alta de la historia, dinero que no fue a escuelas, caminos, hospitales jardines de infantes, ciencia y tecnología, tampoco a mejorar el espacio público. </p>
-                                <p>Y sí el gobierno de Alberto después de una correcta gestión sanitaria de la pandemia, dilapido su legitimidad y ahi están las fotos de la fiesta de Fabiola, la vuelta atrás con Vicentin, el acuerdo inflacionario con el FMI firmado por Guzman, deficiente en tanto el establecimiento de los plazos de vencimientos de los pagos y las condiciones. 
+                                <p>Y sí el gobierno de Alberto después de una correcta gestión sanitaria de la pandemia, dilapido su legitimidad y ahi están las fotos de la fiesta de Fabiola, la vuelta atrás con Vicentin, el acuerdo inflacionario con el FMI firmado por Guzman, deficiente en tanto el establecimiento de los plazos de vencimientos de los pagos y las condiciones.
 
                                 </p>
                                 <br>
-                                <p>El reconocimiento de esos errores fue relevar al actual primer mandatario de la posibilidad de postularse para una reelección y consagrar a un candidato de la unidad cuya potencialidad de gestión, su enorme pericia como presidente de la cámara de diputados, su formación, su gestión en economía que frenó una sangría y un adelantamiento de la entrega de la presidencia, intendente más joven, director ejecutivo de Anses, jefe de gabinete y armador de su propio espacio a nivel nacional lo ponen al frente del gran desafío de recuperar las variables económicas del país y gestionar el estado para devolver la expectativas de un futuro mejor y privilegiar a los trabajadores de todos los sectores y sacar al FMI de la Argentina. 
+                                <p>El reconocimiento de esos errores fue relevar al actual primer mandatario de la posibilidad de postularse para una reelección y consagrar a un candidato de la unidad cuya potencialidad de gestión, su enorme pericia como presidente de la cámara de diputados, su formación, su gestión en economía que frenó una sangría y un adelantamiento de la entrega de la presidencia, intendente más joven, director ejecutivo de Anses, jefe de gabinete y armador de su propio espacio a nivel nacional lo ponen al frente del gran desafío de recuperar las variables económicas del país y gestionar el estado para devolver la expectativas de un futuro mejor y privilegiar a los trabajadores de todos los sectores y sacar al FMI de la Argentina.
 
                                 </p>
                                 <br>
                                 <p>Con el desafío y las herramientas para construir el país que soñamos con mayor inclusión, mejor calidad de vida, más poder adquisitivo para los sectores populares y clases medias, una expectativa real de futuro. Un candidato que incluso pidió perdón e invita a la escucha activa. Y en contraposición: dos candidatos, uno a presidente y la otra a vicepresidenta, cuyo marco teórico reivindica la venta de órganos, la libre portación de armas, el terrorismo de estado la desaparición física de personas, la tortura, el asesinato, las violaciones y apropiacion de menores, que insulta al Papa, que plantea romper relaciones comerciales con Brasil nuestro principal socio comercial y con China, que proclama a Menem como el mejor presidente, que admira a Margaret Tatcher, que renuncia a la soberanía de Malvinas ignorando el dolor de los familiares de caídos y los veteranos, que mercantiliza la vida al punto de que si un diabético no tiene para insulina el estado no tiene por qué hacerse cargo y entonces que se muera, que propone Vouchers para que los estudiantes elijan donde estudiar, contraigan deudas y pasen años de su vida trabajando para pagarla, que la salud se privatice, que te pagues la universidad parásito, sí a vos estudiante del conurbano pagatela con la tuya no seas rata dicen los partidarios de la libertad avanza, que en su plataforma anuncian el retorno de las afjp, que reivindican el bullying, que le dice mogolico a una persona con discapacidad, que disfrutan humillando a una mujer, que sienten placer ante la quiebra de una pyme, que usan términos de la guerra fría y los personeros de la dictadura cuando dicen zurdos de mierda o socialistas de manera despectiva, que hablan con un perro muerto al que clonó Milei, que tiene una relación dudosa con una actriz que se cristalizó en plena campaña, que buscan destruir el Banco Central -cosa inédita en el mundo y en los países que quieren imitar- que no creen en el sistema democrático en el que participan para llegar al poder porque no pueden utilizar a las fuerzas armadas, que incentivan trolls que agreden, que intimidan que insultan, que lastiman, que incitan a la violencia verbal para que eso derive en violencia física, que proponen el exterminio del otro o la otra porque no sostienen las aberraciones que ellos exaltan, que desacreditan a Lali Esposito porque no los votaría, que usan canciones que nadie los autorizó, que plagian libros, que utizan las fake news y difaman al candidato contra el que compiten, que te invitan a suicidarte colectivamente. Vos elegís este 19 de noviembre con plena conciencia tras lo que te dije, después... después, no tenes excusas.
                                 </p>
                                 <br>
-                             
+
 
                                 <div class="text-start object-center">
                                     <figure>
@@ -3059,7 +3473,7 @@
                                     cuestionables, como Margaret Thatcher, añadieron controversia al
                                     debate.
                                 </p>
-                               
+
                                 <p>Por otro lado, Massa destacó su alineamiento con otros países y el
                                     respeto a los tratados internacionales, subrayando la importancia de
                                     mantener relaciones bilaterales sólidas y respetuosas.</p>
@@ -3148,18 +3562,18 @@
                                 class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
                                 <div class=" font-sans text-lg text-left col-span-6  ">
 
-                                    <p>Pocos podrían negar que la derecha es creativa, en publicidad y, particularmente, en campaña electoral. Vimos como el ex JxC y el PRO hicieron todo lo ordenado por el FMI para radicalizar sus posturas de la mano de su coordinador italo-argentino, Mauricio Macri. 
+                                    <p>Pocos podrían negar que la derecha es creativa, en publicidad y, particularmente, en campaña electoral. Vimos como el ex JxC y el PRO hicieron todo lo ordenado por el FMI para radicalizar sus posturas de la mano de su coordinador italo-argentino, Mauricio Macri.
                                     </p>
                                     <br>
-                                    <p>El juego de ingeniería política consistió en quitar del camino sin miramientos a su muy antiguo amigo y socio, Enrique Rodríguez Larreta. Acto seguido, a la candidata de la interna, Patricia Bullrich, quien recriminó públicamente estar haciendo campaña a favor del libertario Javier Milei, sin ponerse colorado. Hoy, "la tira bombas en jardines de infante", de lo que Milei debió retractarse, no atina a encontrar su lugar político a sabiendas que se trata de su última oportunidad. 
+                                    <p>El juego de ingeniería política consistió en quitar del camino sin miramientos a su muy antiguo amigo y socio, Enrique Rodríguez Larreta. Acto seguido, a la candidata de la interna, Patricia Bullrich, quien recriminó públicamente estar haciendo campaña a favor del libertario Javier Milei, sin ponerse colorado. Hoy, "la tira bombas en jardines de infante", de lo que Milei debió retractarse, no atina a encontrar su lugar político a sabiendas que se trata de su última oportunidad.
                                     </p>
                                     <br>
-                                    <p>La introducción apunta a poner en contexto la pelea final por la Presidencia de la Nación por los próximos cuatro años. Se trata, sin duda, de dos modelos antagónicos de país. Y en esta realidad está el domingo 19 (votación), precedido por el domingo anterior: el esperado debate entre Sergio Massa, por el peronismo y aliados. Y Javier Milei, libertario y sus nuevos compañeros, Patricia Bullrich y Mauricio Macri. 
+                                    <p>La introducción apunta a poner en contexto la pelea final por la Presidencia de la Nación por los próximos cuatro años. Se trata, sin duda, de dos modelos antagónicos de país. Y en esta realidad está el domingo 19 (votación), precedido por el domingo anterior: el esperado debate entre Sergio Massa, por el peronismo y aliados. Y Javier Milei, libertario y sus nuevos compañeros, Patricia Bullrich y Mauricio Macri.
                                     </p>
                                     <br>
                                     <p>Faltan apenas unos días para que ambos candidatos se enfrenten en la Facultad de Derecho de la Universidad de Buenos Aires, con reglas de juego acordadas. Tal vez, para Milei la más difícil de cumplir sea la prohibición de leer durante el debate sobre sus posturas. Fue entonces que vino a la memoria de la política un grave episodio protagonizado por Zulemita Menem, en 2008, en la UADE. Entonces una compañera de la hija del ex presidente y en ocasión de estar rindiendo un examen, advirtió y denunció que Zulema, hija, estaba recibiendo las respuestas a la prueba a través de un mecanismo electrónico en el oído, conocido vulgarmente como cucaracha, de uso habitual en radio y TV. La Justicia Electoral no aclaró si este recurso fue tratado en el acuerdo celebrado entre los apoderados.</p>
                                     <br>
-                                 
+
                                     <div class="text-start object-center">
                                         <figure>
                                             <img class="w-28 h-28  " src="{{ asset('../img/pol/Chino.svg') }}"
@@ -3194,10 +3608,10 @@
                                     “acting” de alguien que construyó su ethos de político como alguien que
                                     coquetea a diario con la locura, como identidad marquetera. Hasta la
                                     mirada a lo Stanley Kubrick es parte del show, como señaló atinadamente
-                                    en facebook el usuario “el Pulpo” (https://www.facebook.co                                           
+                                    en facebook el usuario “el Pulpo” (https://www.facebook.co
                             </p>
-                            <br>                                  
-                         
+                            <br>
+
                             <figure>
                                 <img class="w-full object-cover"
                                     src="{{ asset('../img/pol/pol_locura.svg') }}" alt="">
@@ -3209,7 +3623,7 @@
                                 <div class=" font-sans text-lg text-left col-span-6  ">
 
                                     <p>También están las explicaciones de Rial en Radio 10, de que estaba muy nervioso por una reunión anterior en la que los propios le habrían dicho que lo abandonarían y otros cuestionamientos más (https://www.youtube.com/watch?v=WWhyGMegewc). Huelga decir que le irrita  sobremanera que lo contradigan. Además, hacer “la gran Bolsonaro” y denunciar fraude en San Juan le salió bastante mal: perdió un senador en el recuento de votos.  Hasta aquí, todo bastante “racional”.
-                                        Sin embargo, tal vez por influencia de las sustancias químicas y etílicas que me quedan de la adolescencia, tengo esa manía de  surfearme todas las olas del mar de la paranoia.                                                   
+                                        Sin embargo, tal vez por influencia de las sustancias químicas y etílicas que me quedan de la adolescencia, tengo esa manía de  surfearme todas las olas del mar de la paranoia.
                                     </p>
                                     <br>
                                     <p>Por eso aclaro que puedo estar muy equivocado, pero todo esto no me parece casual, huele a cosa armada por el “Gato Maula” que nos gobernó entre 2015-2019. Milei ya no corta más nada, el bacalao lo mira de lejos. El que mueve los hilos es el gato que está desesperado por que no sigan los 4 principales juicios de los que viene zafando. Hipotéticamente, a mi juicio, seguramente equivocado, si Massa le garantizase 4 años más de impunidad, El Gato "lo baja" a Milei de un plumazo. Pero Massa no va a cometer ese suicidio político porque sabe que Macri es un escorpión.
@@ -3228,7 +3642,7 @@
                                     <br>
                                     <p>Por ello no podemos olvidarnos lo que hicieron con Nisman en el 2015, al que en cada elección lo sacan a hacer campaña sin respetar ni siquiera su memoria ni el dolor de sus deudos. Menos aún la “cuchillada” oportuna que le permitió a Bolsonaro imponerse en el balotaje en Brasil, cuando iba muy atrás en las encuestas. Como si no fueran suficientes las olas en este mar de paranoia en el que me encuentro, tenemos lo que acaban de hacer en las elecciones en Ecuador, asesinando a un candidato de centro (Fernando Villavicencio) y “plantando socialmente” la idea de que la responsabilidad criminal fue del correísmo... ¡Y les dio resultado!!! Un tilingo sin historia ni ideas le ganó a Luisa González, una candidata brillante como pocos/as.</p>
                                     <p>Para finalizar, nunca me gustaron las metáforas futbolísticas, pero esta coyuntura electoral se asemeja mucho a una final del campeonato en la que el puntero, si gana el último partido, sale campeón. No podemos especular con que el segundo pierda o empate, hay que salir a todo o nada y asegurarse los 3 puntos. A ganar con la nuestra, con la militancia peronista y la de los aliados del campo popular que es la única garantía de que Massa ocupe el sillón de Rivadavia el 10 de diciembre y la república no ingrese en la larga noche del neoliberalfascismo.</p>
-                                    <p>Esto no es análisis, es teoría de la conspiración y, repito una vez más, puedo estar totalmente equivocado.</p>                                      
+                                    <p>Esto no es análisis, es teoría de la conspiración y, repito una vez más, puedo estar totalmente equivocado.</p>
                                     <div class="text-start object-center">
                                         <figure>
                                             <img class="w-28 h-28  "
@@ -3744,7 +4158,7 @@
                                                 alt="">
                                             <p> <strong>Nota de Pablo Arsegot</strong></p>
 
-                                          
+
 
                                         </figure>
                                     </div>
@@ -3878,7 +4292,7 @@
                                                 alt="">
                                             <p> <strong>Nota de Pablo Arsegot</strong></p>
 
-                                         
+
 
                                         </figure>
                                     </div>
@@ -4089,7 +4503,7 @@
                                                 alt="">
                                             <p> <strong>Nota de Pablo Arsegot</strong></p>
 
-                                  
+
 
                                         </figure>
                                     </div>
