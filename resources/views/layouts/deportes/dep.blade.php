@@ -2,6 +2,64 @@
     <div class="container ">
         @livewire('superior')
 
+{{-- SE TERMINAN LAS OPORTUNIDADES PARA COLAPINTO EN LA FÓRMULA 1 --}}
+<section>
+            <ul>
+                <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                    <article>
+                        <div class="py-4 px-4 justify-between items-center">
+                            <h2 class="text-xl font-serif  font-bold pb-6">
+                                <a href="">SE TERMINAN LAS OPORTUNIDADES PARA
+                                    COLAPINTO EN LA FÓRMULA 1
+                                </a>
+                            </h2>
+                            <p class="font-light  text-right text-gray-500">Publicado:11/11/2024</p>
+                            <p><i>La permanencia de ‘Checo’ Pérez en Red Bull y la escasa vacante en la parrilla
+                                dejan a Franco Colapinto sin chances de continuar en la Fórmula 1, mientras
+                                busca un hueco en Alpine.
+                                </i></p>
+                            <br>
+                            <figure>
+                                <a href="">
+                                    <img class="w-full object-cover object-center"
+                                        src="{{ asset('../img/dep/dep_colapinto.svg') }}" alt="">
+                                </a>
+                            </figure>
+                            <br>
+                            <div
+                                class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                <div class=" font-sans text-lg text-left col-span-6  ">
+                                    <p>La Fórmula 1 se pone aún más difícil para Franco Colapinto. A pesar de las
+                                        expectativas, el mexicano Sergio &#39;Checo&#39; Pérez continuará en Red Bull en
+                                        2025, cerrando así las puertas para el piloto argentino. Según el medio español
+                                        Marca, la escudería de Milton Keynes ha renovado el respaldo de los
+                                        patrocinadores de Pérez, lo que garantiza su permanencia.
+                                    </p>
+                                    <br>
+                                    <p>Los acuerdos con marcas clave que patrocinan al mexicano no solo aseguran
+                                        su salario de más de 10 millones de dólares, sino que también beneficiarán a
+                                        Red Bull con ingresos cercanos a los 30 millones de dólares anuales. Esta
+                                        poderosa red de apoyos económicos reduce al mínimo las posibilidades de
+                                        Colapinto de ingresar al equipo.
+                                    </p>
+                                    <br>
+                                    <p>La única opción viable que quedaría para el argentino sería unirse a Alpine,
+                                        pero allí la vacante está condicionada al eventual fracaso del piloto australiano
+                                        Jack Doohan, que ya ocupa un puesto como piloto de pruebas. De confirmarse
+                                        la continuidad de Pérez en Red Bull, el panorama para Colapinto se vuelve
+                                        cada vez más incierto, con las últimas carreras de la temporada como su última
+                                        oportunidad para demostrar su valía y, quizás, asegurar un futuro en la Fórmula
+                                        1.
+                                    </p><br>
+
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </li>
+            </ul>
+</section>
+
 {{--ARGENTINA CERRARÁ EL AÑO CON DOS CLAVES FRENTE A PARAGUAY Y PERÚ  --}}
  <section>
                         <ul>
@@ -206,8 +264,8 @@
                             <p>El próximo martes 15 de octubre, Argentina recibirá a Bolivia en el Monumental de Núñez, mientras que Venezuela viajará a Asunción para enfrentar a Paraguay en la décima fecha de las Eliminatorias.
                             </p>
                             <br>
-                            
-                            
+
+
                             <div class="text-start object-center">
                                 {{-- <figure>
                                     <img class="w-28 h-28  "
@@ -270,7 +328,7 @@
                                     <p>La definición se llevará a cabo el próximo sábado 28 de septiembre a las 12:00 (hora de Argentina) en Nelspruit. La nación entera aguarda con expectativa este crucial encuentro, con la esperanza de que Los Pumas consigan la ansiada consagración.
                                     </p>
                                     <br>
-                                    
+
                                     <div class="text-start object-center">
                                         {{-- <figure>
                                             <img class="w-28 h-28  "
@@ -287,7 +345,7 @@
                 </li>
             </ul>
             <br>
-        
+
     </div>
 
 </section>
@@ -299,7 +357,7 @@
 
                         <div class="py-4 px-4 justify-between items-center">
                             <h2 class="text-xl font-serif  font-bold pb-6">
-                                <a href="">RACING Y PLATENSE DIVIDEN PUNTOS EN UN EMOCIONANTE EMPATE 
+                                <a href="">RACING Y PLATENSE DIVIDEN PUNTOS EN UN EMOCIONANTE EMPATE
                                 </a>
                                 <p class="font-light  text-right text-gray-500">Publicado: 01/10/2024</p>
                             </h2>
@@ -330,7 +388,7 @@
                                     <p>Con este empate, Racing se prepara para un desafío crucial el próximo sábado, cuando visitará a Vélez, mientras que Platense se medirá ante River Plate el domingo. A medida que la Liga Profesional avanza, ambos equipos saben que cada punto cuenta en su búsqueda de un lugar privilegiado en la tabla.
                                     </p>
                                     <br>
-                                    
+
                                     <div class="text-start object-center">
                                         {{-- <figure>
                                             <img class="w-28 h-28  "
@@ -405,7 +463,7 @@
                                 <br>
                                 <p>En tiempos difíciles, este triunfo nos ofrece una razón para celebrar y sentir orgullo. La bandera albiceleste ondea en lo más alto del continente, recordándonos que, a pesar de los desafíos, siempre encontramos la manera de prevalecer.</p>
                                 <br>
-                                
+
                                 <div class="text-start object-center">
                                     {{-- <figure>
                                         <img class="w-28 h-28  "
@@ -468,7 +526,7 @@
                                 <br>
                                 <p>El debut sólido de Argentina en el torneo ha generado expectativas entre los aficionados y ha demostrado que el equipo está listo para enfrentar los desafíos que se presenten en la Copa América. Con Lionel Messi liderando el equipo y un grupo de jugadores talentosos y comprometidos, Argentina se perfila como uno de los favoritos para llegar a lo más alto en el torneo continental.</p>
                                 <br>
-                                
+
                                 <div class="text-start object-center">
                                     {{-- <figure>
                                         <img class="w-28 h-28  "
@@ -688,7 +746,7 @@
             </li>
         </ul>
     </section>
-    <br><br> 
+    <br><br>
         {{-- SE APROXIMA LA JORNADA DE CLÁSICOS EN LA COPA DE LA LIGA ARGENTINA  --}}
 <section>
     <ul>
@@ -728,7 +786,7 @@
                             <p>Así, con la expectativa en su punto máximo y la emoción en el aire, los clásicos argentinos prometen brindar un espectáculo inolvidable y reafirmar una vez más la grandeza y la intensidad del fútbol en Argentina. Que comience la fiesta del fútbol argentino, donde la pasión y la rivalidad se viven en cada gol, en cada jugada, en cada clásico.
                             </p>
                             <br>
-                            
+
                             <div class="text-start object-center">
                                 <figure>
                                     <img class="w-28 h-28  "
@@ -752,7 +810,7 @@
         </li>
     </
 </section>
-<br><br>  
+<br><br>
 
 {{-- RESULTADOS DE LA FECHA 7 DE LA COPA DE LA LIGA ARGENTINA  --}}
 <section>
@@ -862,7 +920,7 @@
 
                                 </figure>
                             </div>
-                            
+
 
                         </div>
 
@@ -874,14 +932,14 @@
         </li>
     </ul>
 </section>
-<br><br>  
+<br><br>
 
 {{-- RIVER CAMPEON DE LA LIGA PROFESIONAL ARGENTINA: ¿QUE ES LO QUE SE VIENE?  --}}
         <section>
                                         <ul>
                                             <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
                                                 <article>
-                
+
                                                     <div class="py-4 px-4 justify-between items-center">
                                                         <h2 class="text-xl font-serif  font-bold pb-6">
                                                             <a href="">RIVER CAMPEON DE LA LIGA PROFESIONAL ARGENTINA: ¿QUE ES
@@ -892,21 +950,21 @@
                                                             <a href="">AGENDA 2023: AGOSTO RECARGADO
                                                             </a>
                                                         </h2>
-                
+
                                                         <br>
                                                         <figure>
                                                             <img class="w-full object-cover"
                                                                 src="{{ asset('../img/dep/dep_copaliga.svg') }}" alt="">
-                
+
                                                         </figure>
                                                         <br>
-                
+
                                                         <div
                                                             class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
                                                             <div class=" font-sans text-lg text-left col-span-6  ">
-                
-                
-                
+
+
+
                                                                 <p>Con el “Millonario” coronado como campeón el primer semestre (aunque
                                                                     le tuvo que robar unos días a Julio para poder serlo) observamos el
                                                                     horizonte y vemos una agenda “engordadora” de futbol. Desde Agosto
@@ -919,7 +977,7 @@
                                                                     pocos días retomará la Copa Libertadores y Copa Sudamericana desde
                                                                     la fase que a todos nos encanta: desde los octavos de final.
                                                                 </p>
-                
+
                                                                 <p>El 19 de Agosto arranca este extraño torneo, uno más, elaborado por
                                                                     AFA que se llama la “Copa de la Liga” el cual participan los 360
                                                                     equipos de primera (mentira, son solo 28 clubes) divididos en dos
@@ -928,7 +986,7 @@
                                                                     que a la B se van 2 clubes, uno por promedio y el otro por ser el
                                                                     equipo que menos puntos sumo en el año (total de puntos entre el
                                                                     torneo que ganó River y ésta “Copa de la Liga”).
-                
+
                                                                 </p>
                                                                 <br>
                                                                 <p>También está la  <strong>Copa Argentina </strong> que actualmente se encuentra en
@@ -962,20 +1020,20 @@
                                                                 <br>
                                                                 <p class="font-light text-gray-500">Por: Luis Bonfiglio.</p>
                                                                 <p class="font-light text-gray-900 ">Periodista deportivo</p>
-                    
-                
+
+
                                                             </div>
-                
-                
-                
+
+
+
                                                         </div>
                                                     </div>
                                                 </article>
                                             </li>
-                                    
+
                                         </ul>
          </section>
-        <br><br>    
+        <br><br>
 
         {{-- Continúa la "Copa Igualdad" en las Regiones Capital,
                                     Primera y Tercera --}}

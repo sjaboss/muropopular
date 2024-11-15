@@ -2594,6 +2594,422 @@
                     @livewire('lateral')
                 </div>
             </section>
+        @elseif ($tituloSep == 'Sociedad-Noticia-Completa-soc146')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  pb-6">
+                                            <a href="">CONGRESO INMOBILIARIO 2024: UN ENCUENTRO
+                                                CLAVE PARA EL SECTOR
+                                            </a>
+                                        <p class="font-light  text-right text-gray-500">Publicado: 09/11/2024</p>
+                                        <div class=" font-sans text-lg text-left col-span-6  ">
+                                            <p><i>Durante dos jornadas, expertos del sector compartirán sus conocimientos sobre
+                                                temas clave como Inteligencia Artificial, técnicas de negociación y tendencias
+                                                del mercado, ofreciendo herramientas fundamentales para los profesionales del
+                                                rubro.
+                                                </i>
+                                            </p>
+                                            <br>
+                                            <figure>
+                                                <img class="w-full object-cover" src="../img/soc/soc_inmobiliario.svg"
+                                                    alt="">
+                                            </figure>
+                                            {{--  <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/Elj4W5gq3AM?si=Px86mJ-v6RAaS8Yh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> --}}
+                                            <br>
+                                            <div
+                                                class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                                <div class=" font-sans text-lg text-left col-span-6  ">
+                                                    <p>Durante las dos jornadas, los asistentes participarán de diversas conferencias
+                                                        en las que destacados especialistas abordarán temas de actualidad e interés
+                                                        para el sector. &quot;Contaremos con expertos que compartirán conocimientos
+                                                        valiosos, incluyendo aplicaciones de Inteligencia Artificial en el ámbito
+                                                        inmobiliario&quot;, explicó Colao, quien también destacó que el evento tendrá como
+                                                        objetivo primordial “brindar herramientas actualizadas de sumo interés para el
+                                                        martillero y corredor público que busca elevar su nivel profesional para esta
+                                                        nueva época en que estamos todos como comunidad transitando”.
+                                                    </p>
+                                                    <br>
+                                                    <p>Entre los conferencistas invitados se encuentran el Lic. Enrique Fraga; el Lic.
+                                                        Federico González Rouco; el Perito Judicial Hugo Lescano; la General
+                                                        Manager Silvana Negri; las Escribanas Graciela Curuchelar y Graciela ‘Gachi’
+                                                        Vilalta; el Ing. Jorge Brucetta; los martilleros y corredores públicos: Carmelo La
+                                                        Forgia; Ignacio O’Keefe; Osvaldo Botta; Verónica Berasueta y Mariano Gómez,
+                                                        junto a otros destacados profesionales. También participarán representantes
+                                                        del equipo técnico de la Universidad Nacional del Noroeste de la Provincia de
+                                                        Buenos Aires (UNNOBA) y de GISA Garantías Inmobiliarias, además de la
+                                                        intervención como presentadores y moderadores del evento de los presidentes
+                                                        de los Colegios departamentales que integran ‘Martilleros BA’: Fabián Acervo,
+                                                        (Pergamino); Daniel Di Palma (Junín); Daniel Ortíz (Lomas de Zamora);
+                                                        Guillermo Rossi (Mar del Plata); Alfredo Lavalle (Quilmes); entre otros”.
+                                                    </p>
+                                                    <br>
+                                                    <p>Los temas a tratar incluirán Inteligencia Artificial, estadística y datos
+                                                        inmobiliarios, créditos hipotecarios, emprendimientos inmobiliarios, lenguaje
+                                                        corporal, garantías inmobiliarias, técnicas de negociación, liderazgo emocional,
+                                                        y la presentación de nuevas herramientas y servicios de ‘Martilleros BA’.
+                                                    </p>
+                                                    <br>
+                                                    <p>Este evento también ha sido reconocido oficialmente, ya que el 31 de octubre,
+                                                        la Cámara de Diputados de la Provincia de Buenos Aires aprobó el proyecto del
+                                                        diputado Gustavo Pulti para declarar de &quot;Interés Legislativo&quot; al Congreso
+                                                        Inmobiliario 2024, subrayando su importancia para el desarrollo del sector.
+                                                        </p>
+                                                        <br>
+                                                    <div class="text-start object-center">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                </article>
+                            </li>
+                        </ul>
+                        <br>
+                    </div>
+                    @livewire('lateral')
+                </div>
+            </section>
+        @elseif ($tituloSep == 'Sociedad-Noticia-Completa-soc147')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  pb-6">
+                                            <a href="">COLONIA HINOJO: ESCAPADA CULTURAL AL ​​PRIMER
+                                                PUEBLO ALEMÁN DE ARGENTINA
+                                            </a>
+                                        <p class="font-light  text-right text-gray-500">Publicado: 10/11/2024</p>
+                                        <div class=" font-sans text-lg text-left col-span-6  ">
+                                            <p><i>Con su legado alemán intacto, Colonia Hinojo, a cuatro horas de Buenos Aires,
+                                                invita a vivir un fin de semana largo lleno de tradición, gastronomía típica y
+                                                eventos culturales únicos.
+                                                </i>
+                                            </p>
+                                            <br>
+                                            <figure>
+                                                <img class="w-full object-cover" src="../img/soc/soc_colonia.svg"
+                                                    alt="">
+                                            </figure>
+                                            {{--  <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/Elj4W5gq3AM?si=Px86mJ-v6RAaS8Yh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> --}}
+                                            <br>
+                                            <div
+                                                class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                                <div class=" font-sans text-lg text-left col-span-6  ">
+                                                    <p>Ubicada a solo cuatro horas de la Ciudad de Buenos Aires, Colonia Hinojo es
+                                                        una joya histórica que ofrece una experiencia cultural única en el corazón de la
+                                                        provincia. Fundado en 1878 por inmigrantes alemanes, este pequeño pueblo
+                                                        conserva un legado arquitectónico y gastronómico que lo convierte en un
+                                                        destino ideal para una escapada en familia.
+                                                    </p>
+                                                    <br>
+                                                    <p>Conocida también como “Kamenka” por sus raíces europeas, Colonia Hinojo se
+                                                        ubica a 15 kilómetros de Olavarría y mantiene viva la tradición de sus
+                                                        fundadores. Su encanto germánico se respira en cada rincón: los visitantes
+                                                        pueden deleitarse con una variada oferta de platos típicos alemanes, como
+                                                        kreppels, verenikes y strudel, disponibles en cafeterías y restaurantes que
+                                                        conservan recetas ancestrales.
+                                                    </p>
+                                                    <br>
+                                                    <p>Entre sus atractivos, destaca la Parroquia Natividad de la Santísima Virgen,
+                                                        una iglesia que resplandece con sus vitrales de época, y que actualmente
+                                                        busca ser declarada Monumento Histórico Provincial. Además, el pueblo
+                                                        celebra cada año el Kreppelfest, un festival en honor a su herencia cultural,
+                                                        donde la música, el baile y la gastronomía típica crean una experiencia
+                                                        inolvidable para los visitantes.
+                                                    </p>
+                                                    <br>
+                                                    <p>ECon el fin de semana largo de noviembre como una excelente oportunidad,
+                                                        Colonia Hinojo invita a vivir una escapada que combina historia, tradición y
+                                                        sabor en un rincón único de la Argentina.
+                                                        </p>
+                                                        <br>
+                                                    <div class="text-start object-center">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                </article>
+                            </li>
+                        </ul>
+                        <br>
+                    </div>
+                    @livewire('lateral')
+                </div>
+            </section>
+        @elseif ($tituloSep == 'Sociedad-Noticia-Completa-soc148')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  pb-6">
+                                            <a href="">GOBIERNO DESREGULA EL CORREO: ¿CAMBIO EN
+                                                EL FUTURO DE LAS ELECCIONES?
+                                            </a>
+                                        <p class="font-light  text-right text-gray-500">Publicado: 11/11/2024</p>
+                                        <div class=" font-sans text-lg text-left col-span-6  ">
+                                            <p><i>Con la desregulación del servicio postal, se abre la incertidumbre sobre el
+                                                papel del Correo Argentino en las elecciones nacionales. La medida del
+                                                Gobierno plantea dudas sobre la logística electoral y el futuro de una empresa
+                                                estatal clave.
+                                                </i>
+                                            </p>
+                                            <br>
+                                            <figure>
+                                                <img class="w-full object-cover" src="../img/soc/soc_correo.svg"
+                                                    alt="">
+                                            </figure>
+                                            {{--  <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/Elj4W5gq3AM?si=Px86mJ-v6RAaS8Yh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> --}}
+                                            <br>
+                                            <div
+                                                class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                                <div class=" font-sans text-lg text-left col-span-6  ">
+                                                    <p>El Gobierno nacional oficializó la desregulación del servicio postal a través de
+                                                        un decreto publicado en el Boletín Oficial. La medida, anunciada por el vocero
+                                                        presidencial Manuel Adorni, abre la puerta a la competencia privada y plantea
+                                                        interrogantes sobre el futuro de Correo Argentino, una empresa que ha sido
+                                                        pieza clave en la organización de las elecciones nacionales.
+                                                    </p>
+                                                    <br>
+                                                    <p>A pesar de que el decreto establece que el Gobierno garantizará un operador
+                                                        postal en todo el territorio, las dudas sobre la participación del Correo Argentino
+                                                        en los comicios persisten. La empresa estatal ha sido responsable del traslado
+                                                        de urnas, materiales electorales y la organización de los telegramas con los
+                                                        resultados, tareas que representan el 70% de los costos de cada elección. Con
+                                                        los recientes despidos y la reestructuración del servicio postal, los jueces
+                                                        electorales ya alertan sobre posibles complicaciones en el proceso electoral si
+                                                        el Correo pierde su exclusividad en las elecciones.
+                                                    </p>
+                                                    <br>
+                                                    <p>El decreto menciona que el Correo Argentino continuará a cargo del &quot;Servicio
+                                                        Electoral Nacional&quot;, pero no aclara si esta responsabilidad seguirá siendo
+                                                        exclusiva. La medida, que busca generar competencia y mejorar la
+                                                        digitalización y seguridad en el servicio postal, deja abierta la posibilidad de que
+                                                        otros operadores se hagan cargo de funciones clave en los comicios.
+                                                    </p>
+                                                    <br>
+                                                    <p>En paralelo, el vaciamiento y la quiebra del Correo Argentino, investigados en
+                                                        el marco de la gestión del PRO, suman un elemento de incertidumbre adicional.
+                                                        La Corte Suprema aún no se expidió sobre el caso, lo que deja en el aire las
+                                                        consecuencias legales y políticas de las maniobras de la empresa para licuar
+                                                        su deuda.
+                                                        </p>
+                                                        <br>
+                                                        <p>Los sindicatos, por su parte, denuncian que la desregulación pone en riesgo no
+                                                            solo miles de puestos de trabajo, sino también la calidad de un servicio
+                                                            esencial para la conectividad y la organización del país. Para la Federación de
+                                                            Obreros y Empleados de Correos y Telecomunicaciones (FOECYT), la
+                                                            privatización del Correo no es la solución, y advierten que la medida podría
+                                                            afectar tanto a los trabajadores como a los ciudadanos.
+                                                            </p>
+                                                            <br>
+                                                            <p>La desregulación del Correo se enmarca en un proceso más amplio de
+                                                                privatización de empresas del Estado, con implicancias que van más allá de la
+                                                                gestión de servicios y apuntan a un modelo económico que favorece la
+                                                                apertura y desprotección de lo público. A medida que se avanza en la
+                                                                privatización de servicios esenciales, el futuro de las elecciones nacionales
+                                                                parece cada vez más incierto.
+                                                                </p>
+                                                                <br>
+                                                    <div class="text-start object-center">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                </article>
+                            </li>
+                        </ul>
+                        <br>
+                    </div>
+                    @livewire('lateral')
+                </div>
+            </section>
+        @elseif ($tituloSep == 'Sociedad-Noticia-Completa-soc149')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  pb-6">
+                                            <a href="">MILEI PROMETE CRECIMIENTO A COSTA DEL ESTADO
+                                                Y LOS TRABAJADORES
+                                            </a>
+                                        <p class="font-light  text-right text-gray-500">Publicado: 12/11/2024</p>
+                                        <div class=" font-sans text-lg text-left col-span-6  ">
+                                            <p><i>El mandatario visitó la empresa Ualá para alentar el “crecimiento sin
+                                                restricciones” del sector privado y aseguró que “la recesión terminó”. Mientras
+                                                el país se ajusta, Milei promueve el desmantelamiento del Estado.
+                                                </i>
+                                            </p>
+                                            <br>
+                                            <figure>
+                                                <img class="w-full object-cover" src="../img/soc/soc_loco.svg"
+                                                    alt="">
+                                            </figure>
+                                            {{--  <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/Elj4W5gq3AM?si=Px86mJ-v6RAaS8Yh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> --}}
+                                            <br>
+                                            <div
+                                                class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                                <div class=" font-sans text-lg text-left col-span-6  ">
+                                                    <p>En un acto que muestra su visión privatista de la economía, Javier Milei visitó
+                                                        este lunes la empresa Ualá, donde ratificó su apoyo irrestricto al sector privado
+                                                        y volvió a afirmar, con optimismo cuestionable, que “la recesión terminó”. En un
+                                                        discurso breve y cargado de promesas, Milei alentó a los empresarios a
+                                                        “subirse al tren del progreso ahora” en lo que describió como “el mejor
+                                                        momento del país en los últimos 100 años”. Sin embargo, el efecto real de sus
+                                                        políticas neoliberales sobre la sociedad sigue siendo preocupante.
+                                                    </p>
+                                                    <br>
+                                                    <p>El acto se realizó en la sede de Ualá, ubicada en una zona emblemática de la
+                                                        Ciudad de Buenos Aires, y contó con la presencia de figuras clave de su
+                                                        administración, incluida su hermana y asesora, Karina Milei. Desde allí, el
+                                                        mandatario elogió al CEO de la empresa, Pierpaolo Barbieri, como ejemplo del
+                                                        “éxito del capitalismo”. Su discurso estuvo centrado en desvalorizar el rol del
+                                                        Estado y ensalzar el beneficio que los empresarios pueden lograr en su
+                                                        gestión: “Les digo a todos los actores del sector privado: aprovechen a subirse
+                                                        al tren del progreso porque es comprar más barato”, afirmó.
+                                                    </p>
+                                                    <br>
+                                                    <p>Milei afirmó que la economía argentina “ya está volando” y destacó que el
+                                                        “ajuste histórico” que implementó fue exitoso, ya que “cayó sobre el sector
+                                                        público y no sobre el privado”. Sus declaraciones dejan claro un desinterés
+                                                        alarmante por el impacto en las áreas sociales del Estado y en el bienestar de
+                                                        la población. Para el mandatario, la inflación “bajó al 2%” mensual, en gran
+                                                        parte gracias a la eliminación del gasto estatal, un discurso que parece obviar
+                                                        la precarización creciente en áreas como la salud y la educación, que sufren
+                                                        los efectos del ajuste.
+                                                    </p>
+                                                    <br>
+                                                    <p>El mandatario volvió a su tono provocador al jactarse de que no puede
+                                                        “inaugurar obras públicas” porque “la cortó de cuajo”, en alusión a los recortes
+                                                        en infraestructura que afectan al país y sus habitantes. Este comentario,
+                                                        presentado como una crítica a gobiernos anteriores, representa su visión: un
+                                                        Estado reducido y debilitado, sin capacidad de inversión pública en áreas
+                                                        necesarias.
+                                                        </p>
+                                                        <br>
+                                                        <p>En sus palabras finales, Milei fue claro en su rechazo al rol del Estado como
+                                                            generador de riqueza y afirmó que “la única forma de crecimiento es quitarle la
+                                                            bota del Estado al sector privado”. Mientras tanto, su equipo aplaudía,
+                                                            destacándose funcionarios como Guillermo Francos y Manuel Adorni. Pero
+                                                            detrás de la retórica y de los aplausos, lo que preocupa es el efecto que tendrá
+                                                            este “capitalismo sin restricciones” sobre una sociedad que necesita del Estado
+                                                            para asegurar derechos básicos.
+                                                            </p>
+                                                            <br>
+
+                                                    <div class="text-start object-center">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                </article>
+                            </li>
+                        </ul>
+                        <br>
+                    </div>
+                    @livewire('lateral')
+                </div>
+            </section>
+        @elseif ($tituloSep == 'Sociedad-Noticia-Completa-soc150')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  pb-6">
+                                            <a href="">KICILLOF RECLAMA EL CANAL MAGDALENA Y
+                                                CRITICA LA HIDROVÍA DE MILEI
+                                            </a>
+                                        <p class="font-light  text-right text-gray-500">Publicado: 12/11/2024</p>
+                                        <div class=" font-sans text-lg text-left col-span-6  ">
+                                            <p><i>El gobernador bonaerense exige la transferencia del Canal Magdalena y
+                                                avanza en legal contra la nueva concesión acciones de la Vía Navegable
+                                                Troncal, firmada por la Nación. Afirma que la obra es clave para la soberanía y
+                                                la competitividad de la provincia.
+                                                </i>
+                                            </p>
+                                            <br>
+                                            <figure>
+                                                <img class="w-full object-cover" src="../img/soc/soc_gob1.svg"
+                                                    alt="">
+                                            </figure>
+                                            {{--  <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/Elj4W5gq3AM?si=Px86mJ-v6RAaS8Yh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> --}}
+                                            <br>
+                                            <div
+                                                class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                                <div class=" font-sans text-lg text-left col-span-6  ">
+                                                    <p>El gobernador bonaerense, Axel Kicillof, reclamó este lunes la cesión de la
+                                                        competencia sobre el Canal Magdalena, una obra clave para la soberanía
+                                                        nacional y la competitividad de la región. Además, el mandatario anunció que
+                                                        evaluará iniciar acciones legales contra la nueva concesión de la Vía
+                                                        Navegable Troncal, firmada por la Administración General de Puertos (AGP),
+                                                        un contrato que considera perjudicial para los puertos bonaerenses y que fue
+                                                        firmado de manera unilateral por la Nación. .
+                                                    </p>
+                                                    <br>
+                                                    <p>Kicillof cuestionó la falta de inversiones del gobierno nacional, especialmente
+                                                        en obras estratégicas como el Canal Magdalena, que según los expertos
+                                                        podrían autofinanciarse con los beneficios que generaría para la navegación y
+                                                        servicios conexos. “Este Gobierno Nacional no va a hacer nada por la
+                                                        soberanía ni por mejorar la competitividad de la provincia”, afirmó el
+                                                        gobernador, quien destacó que las concesiones a los puertos privados y la falta
+                                                        de inversión en infraestructura perjudican directamente a los puertos públicos
+                                                        bonaerenses. como el de La Plata.
+                                                    </p>
+                                                    <br>
+                                                    <p>El ministro de Gobierno, Carlos Bianco, también criticó el contrato de la
+                                                        hidrovía, señalando que no contempla mejoras necesarias, como el
+                                                        ensanchamiento de la vía y la profundización de los canales, lo que
+                                                        consolidaría a Montevideo como puerto central en lugar de fortalecer a los
+                                                        puertos argentinos. Además, Bianco recordó que la Nación disolvió el Ente
+                                                        Nacional de Control y Gestión de la Vía Navegable (Ecovina), excluyendo a las
+                                                        provincias ribereñas de la toma de decisiones.
+                                                    </p>
+                                                    <br>
+                                                    <p>En una reunión con la Comisión Asesora del Canal Magdalena, Kicillof ratificó
+                                                        su voluntad de llevar adelante la obra a nivel provincial, al considerar que es
+                                                        una medida viable y necesaria. El ex canciller Jorge Taiana aseguró que el
+                                                        proyecto es accesible y podría recuperarse rápidamente. Por su parte, José
+                                                        Lojo, presidente del Puerto La Plata, destacó que el canal es fundamental para
+                                                        reducir costos y mejorar la navegación en la región.
+                                                        </p>
+                                                        <br>
+                                                        <p>El conflicto entre la provincia de Buenos Aires y la Nación refleja la creciente
+                                                            tensión por el control de recursos estratégicos, en un contexto donde las
+                                                            políticas neoliberales del gobierno de Milei parecen anteponer los intereses
+                                                            privados a los de la soberanía y la productividad nacional.
+                                                            </p>
+                                                            <br>
+
+                                                    <div class="text-start object-center">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                </article>
+                            </li>
+                        </ul>
+                        <br>
+                    </div>
+                    @livewire('lateral')
+                </div>
+            </section>
+
+
 
             @endif
 

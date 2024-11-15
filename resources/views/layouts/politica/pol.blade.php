@@ -1,7 +1,91 @@
 <x-app-layout>
     <div class="container ">
         @livewire('superior')
-{{--  --}}
+
+{{--CRISTINA ACUSA A MILEI DE BUSCAR UNA ARGENTINA COMO &quot;COLONIA AGROEXPORTADORA&quot;  --}}
+<section>
+            <ul>
+                <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                    <article>
+                        <div class="py-4 px-4 justify-between items-center">
+                            <h2 class="text-xl font-serif  font-bold pb-6">
+                                <a href="">CRISTINA ACUSA A MILEI DE BUSCAR UNA
+                                    ARGENTINA COMO &quot;COLONIA AGROEXPORTADORA&quot;</a>
+                            </h2>
+                            <p class="font-light  text-right text-gray-500">Publicado: 10/11/2024</p>
+                            <div class=" font-sans text-lg text-left col-span-6  ">
+                                <p><i>La exmandataria cuestionó la admiración de Milei por Trump y le pidió que
+                                    aprendiera del nacionalismo del republicano, quien promueve un modelo
+                                    proteccionista, frente al enfoque de apertura indiscriminada del libertario.
+                                    </i>
+                                </p>
+                                <br>
+                                <figure>
+                                    <img class="w-full object-cover"
+                                        src="{{ asset('../img/pol/pol_acusa.svg') }}" alt="">
+                                </figure>
+                                <br>
+                                <div
+                                    class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                    <div class=" font-sans text-lg text-left col-span-6  ">
+                                        <p>En un acto realizado en Lomas de Zamora, Cristina Kirchner lanzó duras
+                                            críticas contra Javier Milei, señalando una contradicción en su admiración por
+                                            el presidente electo de Estados Unidos, Donald Trump. Según la exmandataria,
+                                            el líder libertario debería reflexionar sobre el modelo económico del magnate
+                                            republicano, que se basa en políticas proteccionistas y la promoción del
+                                            mercado interno.
+                                        </p>
+                                        <br>
+                                        <p>“Este idiota, que está contento porque ganó Trump. ¡Pero que aprendas
+                                            de Trump! Que es nacionalista, que quiere que los trabajadores
+                                            industriales norteamericanos tengan buenos salarios”, disparó Cristina, en
+                                            una clara alusión al contraste con las propuestas de Milei. El exjefa de Estado
+                                            remarcó que el gobierno del libertario no está alineado con los intereses
+                                            nacionales, pues, según ella, su enfoque apuesta a la destrucción de la
+                                            estructura productiva local en favor de una apertura indiscriminada.
+                                        </p>
+                                        <br>
+                                        <p>En su intervención, Fernández de Kirchner enfatizó que la política de Milei
+                                            podría devolver al país a un modelo dependiente de la exportación de materias
+                                            primas. &quot;Quieren reducirnos de vuelta a una simple colonia
+                                            agroexportadora, y el resto que se joda&quot;, subrayó, rechazando esta visión
+                                            como “el país que no queremos y que ni siquiera es el mundo que viene”.
+                                        </p>
+                                        <br>
+                                        <p>Además, Cristina citó las polémicas declaraciones de Milei sobre su intención
+                                            de &quot;destruir el Estado desde adentro&quot;, un concepto que la exmandataria
+                                            parecía alarmante y perjudicial para la estructura nacional. Esta idea de
+                                            &quot;destrucción&quot; también se conecta con su crítica a las políticas de ajuste que el
+                                            gobierno de Milei promueve, algo que, según la exmandataria, afecta
+                                            directamente a la clase trabajadora y al bienestar general de la sociedad
+                                            Argentina.
+                                        </p>
+                                        <br>
+                                        <p>Con un fuerte tono crítico, Cristina también abordó la gestión del Poder Judicial
+                                            y la figura de quienes son percibidos como los “honestos” en la política. “Es
+                                            curioso porque cuando gobiernan los chorros, la gente puede comer, le
+                                            alcanza el salario, comen cuatro veces por día, los pibes estudian, se van
+                                            de vacaciones. Ahora, cuando gobiernan los que el Poder Judicial dice
+                                            que son &#39;los honestos&#39;, se caga todo el mundo de hambre”, lanzó,
+                                            poniendo en duda la legitimidad de las figuras asociadas a la nueva
+                                            administración.
+                                        </p>
+                                        <br>
+                                        <p>La exmandataria cerró su mensaje destacando la importancia de visibilizar lo
+                                            que está sucediendo en el país, mientras recorría una planta de reciclaje en
+                                            Avellaneda, junto a la diputada Natalia Zaracho, referente del Frente Patria
+                                            Grande, con quien compartió reflexiones sobre la situación económica y social.
+                                            en Argentina.
+                                        </p>
+                                        <br>
+                                        <div class="text-start object-center">
+                                        </div>
+                                    </div>
+                    </article>
+                </li>
+            </ul>
+</section>
+{{--CRISTINA KIRCHNER, NUEVA PRESIDENTA DEL P  --}}
 <section>
             <ul>
                 <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}

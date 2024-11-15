@@ -46,45 +46,44 @@
                 <!-- Nota 1 -->
                 <div class="rounded-lg border shadow border-emerald-600 p-2">
                     @php
-                        $tituloSep = 'Sociedad-Noticia-Completa-soc145';
+                        $tituloSep = 'Sociedad-Noticia-Completa-soc150';
                     @endphp
                     <a href="{{ route('sociedadSep.show', $tituloSep) }}">
-                        <img class="h-48 w-full object-cover object-center rounded-lg" src="../img/soc/soc_clima.svg"
+                        <img class="h-48 w-full object-cover object-center rounded-lg" src="../img/soc/soc_gob1.svg"
                             alt="Imagen Nota 1">
                     </a>
                     <div class="py-4 px-6">
                         <h1 class="text-lg font-serif">
                             <a href="{{ route('sociedadSep.show', $tituloSep) }}">
-                            LA OMS ALERTA: EL CAMBIO CLIMÁTICO PUEDE SALVAR MILLONES DE VIDAS
+                                KICILLOF RECLAMA EL CANAL MAGDALENA Y CRITICA LA HIDROVÍA DE MILEI
                             </a>
                             {{--   <p class="font-light  text-lef text-gray-500">Por Gustavo Cano</p> --}}
                         </h1>
                     </div>
                     <div class="pt-4 text-white font-light text-right">
-                        <p>Publicado: 08/11/2024</p>
+                        <p>Publicado: 12/11/2024</p>
                     </div>
                 </div>
                 <!-- Nota 2 -->
                 <div class="rounded-lg border shadow border-emerald-600 p-2">
-
                     @php
-                    $tituloSep = 'Deportes-Noticia-Completa-dep16';
+                    $tituloSep = 'Sociedad-Noticia-Completa-soc149';
                 @endphp
-                <a href="{{ route('deportesSep.show', $tituloSep) }}">
-                    <img class="h-48 w-full object-cover object-center rounded-lg"  src="{{ asset('../img/dep/dep_celbla.svg') }}"
+                <a href="{{ route('sociedadSep.show', $tituloSep) }}">
+                    <img class="h-48 w-full object-cover object-center rounded-lg" src="../img/soc/soc_loco.svg"
                         alt="Imagen Nota 1">
                 </a>
-                    </a>
-                    <div class="py-4 px-6">
-                        <h1 class="text-lg font-serif">
-                            <a href="{{ route('deportesSep.show', $tituloSep) }}">
-                                ARGENTINA CERRARÁ EL AÑO CON DOS CLAVES FRENTE A PARAGUAY Y PERÚ
-                            </a>
-                        </h1>
-                    </div>
-                    <div class="pt-4 text-white font-light text-right">
-                        <p>Publicado: 08/11/2024</p>
-                    </div>
+                <div class="py-4 px-6">
+                    <h1 class="text-lg font-serif">
+                        <a href="{{ route('sociedadSep.show', $tituloSep) }}">
+                            MILEI PROMETE CRECIMIENTO A COSTA DEL ESTADO Y LOS TRABAJADORES
+                        </a>
+                        {{--   <p class="font-light  text-lef text-gray-500">Por Gustavo Cano</p> --}}
+                    </h1>
+                </div>
+                <div class="pt-4 text-white font-light text-right">
+                    <p>Publicado: 12/11/2024</p>
+                </div>
                 </div>
             </div>
         </div>
@@ -110,6 +109,200 @@
 
 
 
+
+
+                        {{--  x4 --}}
+                        <section>
+                            <ul class="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 py-6">
+                                <!-- Nota B-1 -->
+                                <li class="rounded-lg  border shadow border-emerald-600">
+                                    <div class=" py-2 px-2 bg-gray-800">
+                                        @php
+                                        $tituloSep = 'Deportes-Noticia-Completa-dep17';
+                                    @endphp
+                                    <a href="{{ route('deportesSep.show', $tituloSep) }}">
+                                        <img class="h-48 w-full object-cover object-center rounded-lg"  src="{{ asset('../img/dep/dep_colapinto.svg') }}"
+                                            alt="Imagen Nota 1">
+                                    </a>
+                                        </a>
+                                        <div class="py-4 px-6">
+                                            <h1 class="text-lg font-serif">
+                                                <a href="{{ route('deportesSep.show', $tituloSep) }}">
+                                                    ¿SE TERMINAN LAS OPORTUNIDADES PARA
+                                                    COLAPINTO EN LA FÓRMULA I...?
+                                                </a>
+                                            </h1>
+                                        </div>
+                                        <div class="pt-4 text-white font-light text-right">
+                                            <p>Publicado: 11/11/2024</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <!-- Nota B-2 -->
+                                <li class="rounded-lg  border shadow border-emerald-600">
+                                    <div class=" py-2 px-2 bg-gray-800">
+                                        @php
+                                        $tituloSep = 'Sociedad-Noticia-Completa-soc148';
+                                    @endphp
+                                    <a href="{{ route('sociedadSep.show', $tituloSep) }}">
+                                        <img class="h-48 w-full object-cover object-center rounded-lg" src="../img/soc/soc_correo.svg"
+                                            alt="Imagen Nota 1">
+                                    </a>
+                                    <div class="py-4 px-6">
+                                        <h1 class="text-lg font-serif">
+                                            <a href="{{ route('sociedadSep.show', $tituloSep) }}">
+                                                GOBIERNO DESREGULA EL CORREO: ¿CAMBIO EN EL FUTURO DE LAS ELECCIONES?
+                                            </a>
+                                            {{--   <p class="font-light  text-lef text-gray-500">Por Gustavo Cano</p> --}}
+                                        </h1>
+                                    </div>
+                                    <div class="pt-4 text-white font-light text-right">
+                                        <p>Publicado: 11/11/2024</p>
+                                    </div>
+                                </li>
+                                <!-- Nota B-3 -->
+                                <li class="rounded-lg  border shadow border-emerald-600">
+                                    <div class=" py-2 px-2 bg-gray-800">
+                                        @php
+                                            $tituloSep = 'Politica-Noticia-Completa-pol94';
+                                        @endphp
+                                        <a href="{{ route('politicaSep.show', $tituloSep) }}">
+                                            <img class="h-48 w-full object-cover object-center rounded-lg"
+                                                src="{{ asset('../img/pol/pol_acusa.svg') }}" alt="">
+                                        </a>
+                                            <h1 class="text-lg  font-serif">
+                                                <a  class="p-2"href="{{ route('politicaSep.show', $tituloSep) }}">
+                                                    CRISTINA ACUSA A MILEI DE BUSCAR UNA ARGENTINA COMO &quot;COLONIA AGROEXPORTADORA&quot;
+                                                </a>
+                                            </h1>
+                                    </div>
+                                    <div class="pt-4 text-white font-light text-right">
+                                        <p class="p-2">Publicado: 10/11/2024</p>
+                                    </div>
+                                </li>
+                                <!-- Nota B-4 -->
+                                <li class="rounded-lg  border shadow border-emerald-600">
+                                    <div class=" py-2 px-2 bg-gray-800">
+                                        @php
+                                        $tituloSep = 'Sociedad-Noticia-Completa-soc147';
+                                    @endphp
+                                    <a href="{{ route('sociedadSep.show', $tituloSep) }}">
+                                        <img class="h-48 w-full object-cover object-center rounded-lg" src="../img/soc/soc_colonia.svg"
+                                            alt="Imagen Nota 1">
+                                    </a>
+                                    <div class="py-4 px-6">
+                                        <h1 class="text-lg font-serif">
+                                            <a href="{{ route('sociedadSep.show', $tituloSep) }}">
+                                                COLONIA HINOJO: ESCAPADA CULTURAL AL ​​PRIMER PUEBLO ALEMÁN DE ARGENTINA
+                                            </a>
+                                            {{--   <p class="font-light  text-lef text-gray-500">Por Gustavo Cano</p> --}}
+                                        </h1>
+                                    </div>
+                                    <div class="pt-4 text-white font-light text-right">
+                                        <p>Publicado: 10/11/2024</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </section>
+
+                        {{--  x4 --}}
+                        <section>
+                            <ul class="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 py-6">
+                                <!-- Nota B-1 -->
+                                <li class="rounded-lg  border shadow border-emerald-600">
+                                        <div class=" py-2 px-2 bg-gray-800">
+                                            @php
+                                            $tituloSep = 'Sociedad-Noticia-Completa-soc146';
+                                        @endphp
+                                        <a href="{{ route('sociedadSep.show', $tituloSep) }}">
+                                            <img class="h-48 w-full object-cover object-center rounded-lg" src="../img/soc/soc_inmobiliario.svg"
+                                                alt="Imagen Nota 1">
+                                        </a>
+                                        <div class="py-4 px-6">
+                                            <h1 class="text-lg font-serif">
+                                                <a href="{{ route('sociedadSep.show', $tituloSep) }}">
+                                                    CONGRESO INMOBILIARIO 2024: UN ENCUENTRO CLAVE PARA EL SECTOR
+                                                </a>
+                                                {{--   <p class="font-light  text-lef text-gray-500">Por Gustavo Cano</p> --}}
+                                            </h1>
+                                        </div>
+                                        <div class="pt-4 text-white font-light text-right">
+                                            <p>Publicado: 09/11/2024</p>
+                                        </div>
+                                </li>
+                                <!-- Nota B-2 -->
+                                <li class="rounded-lg  border shadow border-emerald-600">
+                                    <div class=" py-2 px-2 bg-gray-800">
+                                        <div class="pt-2 text-emerald-500">
+                                            <h2>
+                                                @php
+                                                    $tituloSep = 'Internacionales-Noticia-Completa-int38';
+                                                @endphp
+
+                                                <a href="{{ route('interSepNew.show', $tituloSep) }}">
+                                                    <img class="h-48 w-full object-cover object-center rounded-lg"
+                                                        src="../img/int/int_egypto.svg" alt="Imagen Nota 1">
+                                                </a>
+                                                <h1 class="text-lg font-serif animate-fade-right text-white pt-2">
+
+                                                    <a href="{{ route('interSepNew.show', $tituloSep) }}">NUEVO MUSEO EGIPCIO ABRE SUS PUERTAS EN EL CAIRO</a>
+                                                </h1>
+
+                                            </h2>
+                                        </div>
+                                    </div>
+                                    <div class="font-light  text-right text-white bg-gray-800">
+                                        <p class="p-4"> Publicado: 09/11/2024</p>
+                                    </div>
+                                </li>
+                                <!-- Nota B-3 -->
+                                <li class="rounded-lg  border shadow border-emerald-600">
+                                        <div class=" py-2 px-2 bg-gray-800">
+                                            @php
+                                            $tituloSep = 'Sociedad-Noticia-Completa-soc145';
+                                        @endphp
+                                        <a href="{{ route('sociedadSep.show', $tituloSep) }}">
+                                            <img class="h-48 w-full object-cover object-center rounded-lg" src="../img/soc/soc_clima.svg"
+                                                alt="Imagen Nota 1">
+                                        </a>
+                                        <div class="py-4 px-6">
+                                            <h1 class="text-lg font-serif">
+                                                <a href="{{ route('sociedadSep.show', $tituloSep) }}">
+                                                LA OMS ALERTA: EL CAMBIO CLIMÁTICO PUEDE SALVAR MILLONES DE VIDAS
+                                                </a>
+                                                {{--   <p class="font-light  text-lef text-gray-500">Por Gustavo Cano</p> --}}
+                                            </h1>
+                                        </div>
+                                        <div class="pt-4 text-white font-light text-right">
+                                            <p>Publicado: 08/11/2024</p>
+                                        </div>
+                                </li>
+                                <!-- Nota B-4 -->
+                                <li class="rounded-lg  border shadow border-emerald-600">
+                                    <div class=" py-2 px-2 bg-gray-800">
+                                        @php
+                                        $tituloSep = 'Deportes-Noticia-Completa-dep16';
+                                    @endphp
+                                    <a href="{{ route('deportesSep.show', $tituloSep) }}">
+                                        <img class="h-48 w-full object-cover object-center rounded-lg"  src="{{ asset('../img/dep/dep_celbla.svg') }}"
+                                            alt="Imagen Nota 1">
+                                    </a>
+                                        </a>
+                                        <div class="py-4 px-6">
+                                            <h1 class="text-lg font-serif">
+                                                <a href="{{ route('deportesSep.show', $tituloSep) }}">
+                                                    ARGENTINA CERRARÁ EL AÑO CON DOS CLAVES FRENTE A PARAGUAY Y PERÚ
+                                                </a>
+                                            </h1>
+                                        </div>
+                                        <div class="pt-4 text-white font-light text-right">
+                                            <p>Publicado: 08/11/2024</p>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+
+                        </section>
 
                         {{-- de dos --}}
                         <section>
@@ -165,6 +358,7 @@
                                     </li>
                                 </ul>
                         </section>
+
                         {{--  x4 --}}
                         <section>
                             <ul class="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 py-6">
@@ -537,195 +731,6 @@
                             </ul>
                         </section>
 
-                        {{-- de dos --}}
-                        <section>
-                            <ul class="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-2  gap-4 py-4">
-                                {{-- Nota A-1 --}}
-                                <li class="rounded-lg  border shadow border-emerald-600">
-                                    <div class=" py-2 px-2 bg-gray-800">
-                                        <div class="pt-2 text-emerald-500">
-                                            <h2>
-                                                @php
-                                                    $tituloSep = 'Sociedad-Noticia-Completa-soc138';
-                                                @endphp
-                                                <a href="{{ route('sociedadSep.show', $tituloSep) }}">
-                                                    <img class="h-48 w-full object-cover object-center rounded-lg"
-                                                        src="../img/soc/soc_paroNac.svg" alt="Imagen Nota 1">
-                                                </a>
-                                                <h1 class="text-lg font-serif animate-fade-right text-white pt-2">
-                                                    <a href="{{ route('sociedadSep.show', $tituloSep) }}">PARO NACIONAL
-                                                        DE
-                                                        TRANSPORTES: UNA ADVERTENCIA AL GOBIERNO DE MILEI
-                                                        VUELTA</a>
-                                                </h1>
-                                                <a href="{{ route('sociedadSep.show', $tituloSep) }}">Ir a la
-                                                    Noticía</a>
-                                            </h2>
-                                        </div>
-                                    </div>
-                                    <div class="font-light  text-right text-white bg-gray-800">
-                                        <p class="p-4">Publicado: 29/10/2024</p>
-                                    </div>
-                                </li>
-                                {{-- Nota A-2 --}}
-                                <li class="rounded-lg  border shadow border-emerald-600">
-                                    <div class=" py-2 px-2 bg-gray-800">
-                                        <div class="pt-2 text-emerald-500">
-                                            <h2>
-                                                @php
-                                                    $tituloSep = 'Legislatura-Noticia-Completa-leg64';
-                                                @endphp
-
-                                                <a href="{{ route('legislaturaSep.show', $tituloSep) }}">
-                                                    <img class="h-48 w-full object-cover object-center rounded-lg"
-                                                        src="../img/leg/leg_cultura.svg" alt="Imagen Nota 1">
-                                                </a>
-                                                <h1 class="text-lg font-serif animate-fade-right text-white pt-2">
-
-                                                    <a href="{{ route('legislaturaSep.show', $tituloSep) }}">LA
-                                                        LEGISLATURA
-                                                        DESTACA A LA CULTURA Y GASTRONOMÍA LOCAL </a>
-
-                                                </h1>
-
-                                                <a href="{{ route('legislaturaSep.show', $tituloSep) }}">Ir a la
-                                                    Noticía</a>
-                                            </h2>
-                                        </div>
-                                    </div>
-                                    <div class="font-light  text-right text-white bg-gray-800">
-                                        <p class="p-4"> Publicado: 29/10/2024</p>
-                                    </div>
-                                </li>
-                            </ul>
-                        </section>
-
-                        {{-- de dos --}}
-                        <section>
-                            <ul class="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-2  gap-4 py-4">
-                                {{-- Nota A-1 --}}
-                                <li class="rounded-lg  border shadow border-emerald-600">
-                                    <div class=" py-2 px-2 bg-gray-800">
-                                        <div class="pt-2 text-emerald-500">
-                                            <h2>
-                                                @php
-                                                    $tituloSep = 'Deportes-Noticia-Completa-dep15';
-                                                @endphp
-                                                <a href="{{ route('deportesSep.show', $tituloSep) }}">
-                                                    <img class="h-48 w-full object-cover object-center rounded-lg"
-                                                        src="../img/dep/dep_dibu.svg" alt="Imagen Nota 1">
-                                                </a>
-                                                <h1 class="text-lg font-serif animate-fade-right text-white pt-2">
-                                                    <a href="{{ route('deportesSep.show', $tituloSep) }}">
-                                                        DIBU MARTÍNEZ GANA EL PREMIO YASHIN Y SE
-                                                        AFIRMA COMO MEJOR ARQUERO DEL MUNDO</a>
-                                                </h1>
-                                                <a href="{{ route('deportesSep.show', $tituloSep) }}">Ir a la
-                                                    Noticía</a>
-                                            </h2>
-                                        </div>
-                                    </div>
-                                    <div class="font-light  text-right text-white bg-gray-800">
-                                        <p class="p-4">Publicado: 28/10/2024</p>
-                                    </div>
-                                </li>
-                                {{-- Nota A-2 --}}
-                                <li class="rounded-lg  border shadow border-emerald-600">
-                                    <div class=" py-2 px-2 bg-gray-800">
-                                        <div class="pt-2 text-emerald-500">
-                                            <h2>
-                                                @php
-                                                    $tituloSep = 'Internacionales-Noticia-Completa-int36';
-                                                @endphp
-
-                                                <a href="{{ route('interSepNew.show', $tituloSep) }}">
-                                                    <img class="h-48 w-full object-cover object-center rounded-lg"
-                                                        src="../img/int/int_evo.svg" alt="Imagen Nota 1">
-                                                </a>
-                                                <h1 class="text-lg font-serif animate-fade-right text-white pt-2">
-
-                                                    <a href="{{ route('interSepNew.show', $tituloSep) }}">MANRIQUE
-                                                        RENUNCIA A LA CGT Y DENUNCIA DIVISIÓN INTERNA </a>
-
-                                                </h1>
-
-                                                <a href="{{ route('interSepNew.show', $tituloSep) }}">Ir a la
-                                                    Noticía</a>
-                                            </h2>
-                                        </div>
-                                    </div>
-                                    <div class="font-light  text-right text-white bg-gray-800">
-                                        <p class="p-4"> Publicado: 28/10/2024</p>
-                                    </div>
-                                </li>
-                            </ul>
-                        </section>
-
-                        {{-- de dos --}}
-                        <section>
-                            <ul class="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-2  gap-4 py-4">
-                                {{-- Nota A-1 --}}
-                                <li class="rounded-lg  border shadow border-emerald-600">
-                                    <div class=" py-2 px-2 bg-gray-800">
-                                        <div class="pt-2 text-emerald-500">
-                                            <h2>
-                                                @php
-                                                    $tituloSep = 'Sociedad-Noticia-Completa-soc134';
-                                                @endphp
-                                                <article>
-                                                    <iframe class="w-full aspect-video"
-                                                        src="https://www.youtube.com/embed/Elj4W5gq3AM?si=Px86mJ-v6RAaS8Yh"
-                                                        title="YouTube video player" frameborder="0"
-                                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                                        referrerpolicy="strict-origin-when-cross-origin"
-                                                        allowfullscreen></iframe>
-
-                                                </article>
-                                                <h1 class="text-lg font-serif animate-fade-right text-white">
-                                                    <a href="{{ route('sociedadSep.show', $tituloSep) }}">EL OJO QUE
-                                                        ESPIA: EL ESPIONAJE EN LA HISTORIA
-                                                        ARG.</a>
-                                                </h1>
-                                                <a href="{{ route('sociedadSep.show', $tituloSep) }}">Ir a la
-                                                    Noticía</a>
-                                            </h2>
-                                        </div>
-                                    </div>
-                                    <div class="font-light  text-right text-white bg-gray-800">
-                                        <p class="p-4">Publicado: 19/10/2024</p>
-                                    </div>
-                                </li>
-                                {{-- Nota A-2 --}}
-                                <li class="rounded-lg  border shadow border-emerald-600">
-                                    <div class=" py-2 px-2 bg-gray-800">
-                                        <div class="pt-2 text-emerald-500">
-                                            <h2>
-                                                @php
-                                                    $tituloSep = 'Sociedad-Noticia-Completa-soc133';
-                                                @endphp
-
-                                                <a href="{{ route('sociedadSep.show', $tituloSep) }}">
-                                                    <img class=" h-56  w-full object-cover rounded-lg border-gray-900 "
-                                                        alt="a1"src="{{ asset('../img/soc/soc_liam1.svg') }}">
-                                                </a>
-                                                <h1 class="text-lg font-serif animate-fade-right text-white">
-
-                                                    <a href="{{ route('sociedadSep.show', $tituloSep) }}">MURIÓ LIAM
-                                                        PAYNE EN UN HOTEL DE PALERMO </a>
-                                                    </p>
-                                                </h1>
-
-                                                <a href="{{ route('sociedadSep.show', $tituloSep) }}">Ir a la
-                                                    Noticía</a>
-                                            </h2>
-                                        </div>
-                                    </div>
-                                    <div class="font-light  text-right text-white bg-gray-800">
-                                        <p class="p-4"> Publicado: 18/10/2024</p>
-                                    </div>
-                                </li>
-                            </ul>
-                        </section>
 
                         {{-- videos --}}
                         <section>

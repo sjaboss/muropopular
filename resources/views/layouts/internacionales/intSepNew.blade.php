@@ -211,7 +211,7 @@
                 </div>
 
             </section>
-   
+
             <section>
                 <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
                     <div class=" col-span-4">
@@ -387,7 +387,7 @@
                                                 <br>
                                                 <p>Frente a este escenario, gran parte del pueblo boliviano espera que la justicia y los jueces estén a la altura de las circunstancias, garantizando que los responsables del intento de golpe sean debidamente juzgados y que la democracia prevalezca.</p>
                                                 <br>
-                                                
+
                                             </div>
 
 
@@ -511,7 +511,7 @@
                                                 <br>
                                                 <p>La cumbre de la OCS, en este contexto, subraya la creciente importancia de las alianzas estratégicas y la búsqueda de una estabilidad global en tiempos de incertidumbre.</p>
                                                 <br>
-                                                
+
                                             </div>
 
 
@@ -617,8 +617,8 @@
                                                 <br>
                                                 <p>La situación continúa evolucionando, y el mundo observa con preocupación el desenlace de estos trágicos eventos, mientras se espera una respuesta concreta de la comunidad internacional para abordar la crisis humanitaria en Gaza.</p>
                                                 <br>
-                                                
-                                                
+
+
                                             </div>
 
 
@@ -736,8 +736,8 @@
                                                 <br>
                                                 <p>La campaña de Trump presentó una denuncia contra Harris por la recaudación de fondos, destacando el récord de 81 millones de dólares en solo 24 horas. Este contexto de acusaciones y ataques directos pinta un panorama electoral altamente polarizado y tenso, con el futuro de la democracia estadounidense en juego.</p>
                                                 <br>
-                                                
-                                                
+
+
                                             </div>
 
 
@@ -843,9 +843,9 @@
                                                 <br>
                                                 <p>La crisis de vivienda en América Latina y el Caribe es un desafío multifacético que requiere soluciones integrales. La colaboración entre organismos internacionales, gobiernos locales y estatales, y la implementación de políticas públicas eficaces son esenciales para garantizar que más familias tengan acceso a una vivienda digna. Los avances en México ofrecen un rayo de esperanza y un modelo a seguir para otros países de la región en la lucha contra el rezago habitacional.</p>
                                                 <br>
-                                                
-                                                
-                                                
+
+
+
                                             </div>
 
 
@@ -959,8 +959,8 @@
                                                 <br>
                                                 <p>Kirchner cerró su intervención destacando la importancia de la formación política y la información para el fortalecimiento de los movimientos progresistas en la región. La presencia de la expresidenta en México fue vista como un respaldo a la formación de un "think tank progresista" en América Latina, que busca promover un entendimiento más profundo y coordinado de los desafíos regionales.</p>
                                                 <br>
-                                                
-                                                
+
+
                                             </div>
 
 
@@ -1068,9 +1068,9 @@
                                                 <br>
                                                 <p>Con este panorama, el conflicto entre Arce y Morales no solo refleja una lucha interna dentro del MAS, sino que también plantea riesgos para la estabilidad política del país. La fragmentación de la izquierda y la posibilidad de que la oposición de derecha se beneficie de esta crisis podrían tener implicaciones significativas para el futuro político de Bolivia.</p>
                                                 <br>
-                                                
-                                                
-                                                
+
+
+
                                             </div>
 
 
@@ -1178,7 +1178,7 @@
                                                 <br>
                                                 <p>La discusión sobre la reforma del Poder Judicial se intensifica, con López Obrador defendiendo la necesidad de una purificación del sistema a través de un proceso democrático en el que, según él, “el pueblo” debe jugar un papel.
                                                 </p>
-                                                <br>                
+                                                <br>
                                             </div>
                                         </div>
                                     </div>
@@ -1203,7 +1203,7 @@
                                             <a href="">MARCHA MASIVA DE EVO MORALES RETA A ARCE EN BOLIVIA</a>
                                         </h2>
                                         <p class="font-light  text-right text-gray-500">Publicado: 20/09/2024</p>
-                                        <p><i>La presión del ex presidente aumenta mientras el gobierno lo acusa de intentar desestabilizar el país en medio de una crisis económica. 
+                                        <p><i>La presión del ex presidente aumenta mientras el gobierno lo acusa de intentar desestabilizar el país en medio de una crisis económica.
                                         </i>
                                         </p>
                                         <br>
@@ -1232,7 +1232,7 @@
                                                 <br>
                                                 <p>Con 200 mil personas en las calles y una crisis económica en curso, el desenlace de esta confrontación es incierto. Los días venideros podrían ser decisivos para el rumbo de Bolivia y para la historia política del país.
                                                 </p>
-                                                <br>                
+                                                <br>
                                             </div>
                                         </div>
                                     </div>
@@ -1592,7 +1592,7 @@
                                                 <p>Las encuestas de CNN y The New York Times reflejan un empate: un 47% de
                                                     apoyo para cada candidato, según CNN, y una mínima ventaja para Harris en
                                                     el sondeo de Siena College, que la ubica con un 49% frente al 48% de Trump.
-                                                    De mantenerse esta tendencia, Harris podría alcanzar los 276 votos electorales                                                   
+                                                    De mantenerse esta tendencia, Harris podría alcanzar los 276 votos electorales
                                                     necesarios, aunque el margen es estrecho y la posibilidad de un vuelco es
                                                     significativa en los estados “pendulares” como Georgia y Pensilvania.
                                                 </p>
@@ -1780,8 +1780,93 @@
                 @livewire('lateral')
                 </div>
             </section>
-           
-           
+        @elseif ($tituloSep == 'Internacionales-Noticia-Completa-int38')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">NUEVO MUSEO EGIPCIO ABRE SUS PUERTAS EN EL
+                                                CAIRO</a>
+                                    {{--  <p class="font-light  text-lef text-gray-500">Por Gustavo Cano</p> --}}
+                                        </h2>
+                                        <p class="font-light  text-right text-gray-500">Publicado: 09/11/2024</p>
+                                        <p><i>El nuevo museo de El Cairo ofrece una vista inigualable de la historia egipcia,
+                                            con más de 100.000 reliquias y una arquitectura monumental que promete
+                                            convertirse en uno de los principales destinos turísticos del mundo.
+                                        </i>
+                                        </p>
+                                        <br>
+                                        <figure>
+                                            <img class=" w-full object-cover" src="../img/int/int_egypto.svg"
+                                                alt="">
+                                        </figure>
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+                                                <p>El Gran Museo Egipcio, una majestuosa obra arquitectónica que promete
+                                                    convertirse en un referente mundial, abrió parcialmente sus puertas al público
+                                                    en El Cairo. Con más de 100.000 reliquias, el museo se perfila como el más
+                                                    grande del mundo y uno de los centros de exhibición arqueológica más
+                                                    impresionantes jamás construidos. Esta apertura, que abarca 12 salas de
+                                                    exposición, marca el inicio de su largo camino hacia su inauguración total,
+                                                    prevista para principios de 2025.
+                                                </p>
+                                                <br>
+                                                <p>Ubicado a pocos kilómetros de las imponentes pirámides de Guiza, el Gran
+                                                    Museo Egipcio se erige como un centro de atracción turística de primera
+                                                    magnitud. Con un presupuesto de más de 1000 millones de dólares, el museo
+                                                    tiene la capacidad de recibir hasta 4000 visitantes por día. Su construcción
+                                                    comenzó hace más de diez años, pero los retrasos derivados de la pandemia y
+                                                    otros factores, han pospuesto su apertura definitiva.
+                                                <br>
+                                                <p>Las 12 salas inauguradas este miércoles representan solo un anticipo de lo que
+                                                    será la vasta colección de artefactos egipcios, que abarca desde el Antiguo
+                                                    Reino hasta el período Grecorromano. El museo se organiza cronológicamente,
+                                                    ofreciendo al visitante un recorrido por las distintas dinastías que formaron la
+                                                    antigua civilización egipcia. Entre las piezas más destacadas se encuentran
+                                                    estatuas de la élite del rey y artefactos que ilustran la vida religiosa, social y
+                                                    política de Egipto.
+                                                </p>
+                                                <br>
+                                                <p>La exposición se extiende a través de diversas épocas, cuentos como el
+                                                    Periodo Tardío, el Nuevo Reino y el Periodo Grecorromano, con énfasis en las
+                                                    figuras de faraones y altos funcionarios. Además, la tecnología juega un papel
+                                                    clave en la experiencia, con presentaciones multimedia que permiten a los
+                                                    visitantes sumergirse en la historia de la cultura egipcia. Una de las
+                                                    innovaciones es el uso de realidad virtual en una de las salas, que ofrece un
+                                                    recorrido interactivo por los complejos funerarios de la época.
+                                                </p>
+                                                <br>
+                                                <p>Uno de los puntos de mayor atractivo es la escalinata de entrada, que se alza a
+                                                    seis pisos y ofrece una vista panorámica de las pirámides. En la zona comercial
+                                                    del museo, los visitantes pueden encontrar una variada oferta de monumentos,
+                                                    sarcófagos y estatuas, mientras que la emblemática colección del tesoro del
+                                                    rey Tutankamón se presentará en una fecha posterior.
+                                                </p>
+                                                <br>
+                                                <p>El Gran Museo Egipcio no solo es un homenaje a la grandeza de la civilización
+                                                    egipcia, sino también un testimonio del compromiso del gobierno egipcio por
+                                                    preservar y difundir su rica herencia cultural al mundo.
+                                                </p>
+                                                <br>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+                            </li>
+                        </ul>
+                        <br>
+                    </div>
+                @livewire('lateral')
+                </div>
+            </section>
+
+
             @endif
     </div>
 </x-app-layout>

@@ -352,9 +352,71 @@
                     @livewire('lateral')
                 </div>
             </section>
-          
-          
-          
+        @elseif ($tituloSep == 'Deportes-Noticia-Completa-dep17')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">SE TERMINAN LAS OPORTUNIDADES PARA
+                                                COLAPINTO EN LA FÓRMULA 1
+                                            </a>
+                                        </h2>
+                                        <p class="font-light  text-right text-gray-500">Publicado:11/11/2024</p>
+                                        <p><i>La permanencia de ‘Checo’ Pérez en Red Bull y la escasa vacante en la parrilla
+                                            dejan a Franco Colapinto sin chances de continuar en la Fórmula 1, mientras
+                                            busca un hueco en Alpine.
+                                            </i></p>
+                                        <br>
+                                        <figure>
+                                            <a href="">
+                                                <img class="w-full object-cover object-center"
+                                                    src="{{ asset('../img/dep/dep_colapinto.svg') }}" alt="">
+                                            </a>
+                                        </figure>
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+                                                <p>La Fórmula 1 se pone aún más difícil para Franco Colapinto. A pesar de las
+                                                    expectativas, el mexicano Sergio &#39;Checo&#39; Pérez continuará en Red Bull en
+                                                    2025, cerrando así las puertas para el piloto argentino. Según el medio español
+                                                    Marca, la escudería de Milton Keynes ha renovado el respaldo de los
+                                                    patrocinadores de Pérez, lo que garantiza su permanencia.
+                                                </p>
+                                                <br>
+                                                <p>Los acuerdos con marcas clave que patrocinan al mexicano no solo aseguran
+                                                    su salario de más de 10 millones de dólares, sino que también beneficiarán a
+                                                    Red Bull con ingresos cercanos a los 30 millones de dólares anuales. Esta
+                                                    poderosa red de apoyos económicos reduce al mínimo las posibilidades de
+                                                    Colapinto de ingresar al equipo.
+                                                </p>
+                                                <br>
+                                                <p>La única opción viable que quedaría para el argentino sería unirse a Alpine,
+                                                    pero allí la vacante está condicionada al eventual fracaso del piloto australiano
+                                                    Jack Doohan, que ya ocupa un puesto como piloto de pruebas. De confirmarse
+                                                    la continuidad de Pérez en Red Bull, el panorama para Colapinto se vuelve
+                                                    cada vez más incierto, con las últimas carreras de la temporada como su última
+                                                    oportunidad para demostrar su valía y, quizás, asegurar un futuro en la Fórmula
+                                                    1.
+                                                </p><br>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+                            </li>
+                        </ul>
+                        <br>
+                    </div>
+                    @livewire('lateral')
+                </div>
+            </section>
+
+
             @endif
     </div>
 
