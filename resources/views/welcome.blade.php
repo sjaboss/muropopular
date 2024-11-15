@@ -984,7 +984,7 @@
                     clima: [],
                 },
                 mounted() {
-                    axios.get("https://api.dailymotion.com/videos?channel=news&limit=6")
+                    axios.get("https://api.dailymotion.com/videos?channel=news&limit=4")
                         .then(response => {
                             this.info = response.data.list
                         });
