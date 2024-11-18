@@ -6230,6 +6230,78 @@
                     @livewire('lateral')
                 </div>
             </section>
-        @endif
+        @elseif ($tituloSep == 'Gremiales-Noticia-Completa-gre54')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  font-bold pb-6">
+                                            <a href="">ATE EXIGE PARAR LOS DESPIDOS EN EL MINISTERIO
+                                                DE JUSTICIA
+                                            </a>
+                                        </h2>
+                                        <p class="font-light  text-right text-gray-500">Publicado: 16/11/2024</p>
+                                        <div class=" font-sans text-lg text-left col-span-6  ">
+                                        <p><i>El sindicato denuncia despidos masivos en el Ministerio de Justicia y Derechos
+                                            Humanos bajo condiciones de precarización laboral. Convocan a una protesta
+                                            este martes 19 de noviembre.
+                                        </i>
+                                        </p>
+                                        <br>
+                                        <figure>
+                                            <img class=" w-full object-cover" src="../img/grem/grem_ateParar.svg"
+                                                alt="">
+                                        </figure>
+                                        <br>
+                                        <div
+                                            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                            <div class=" font-sans text-lg text-left col-span-6  ">
+                                                <p>Este martes 19 de noviembre, a las 10, la Junta Interna de ATE del Ministerio
+                                                    de Justicia y Derechos Humanos realizará una protesta en Sarmiento 329,
+                                                    contra los despidos masivos que afectan a más de 2500 trabajadores de la
+                                                    cartera. La medida, impulsada por el ministro Mariano Cúneo Libarona, busca
+                                                    desvincular a los empleados mediante un &quot;retiro voluntario&quot;, que los obliga a
+                                                    aceptar contratos precarios, con pérdida de salario y sin indemnización.
+                                                </p>
+                                                <br>
+                                                <p>Según el sindicato, esta maniobra es parte de una estrategia de precarización
+                                                    laboral que pone en riesgo el funcionamiento de un organismo clave,
+                                                    responsable de garantizar el acceso a la justicia y proteger los derechos
+                                                    humanos. En el marco de esta ofensiva, ya han fallecido tres trabajadores, lo
+                                                    que evidencia la gravedad de la situación.
+                                                </p>
+                                                <br>
+                                                <p>La medida afecta especialmente a los empleados contratados a través de la
+                                                    Asociación de Concesionarios de Automotores de la República Argentina
+                                                    (Acara), un ente cooperador del Ministerio. Los trabajadores que no acepten las
+                                                    condiciones impuestas serán despedidos sin indemnización, mientras que los
+                                                    que sigan en el Ministerio perderán sus incentivos salariales, y gran parte de la
+                                                    planta se quedará sin estabilidad laboral.
+                                                </p>
+                                                <br>
+                                                <p>En este contexto, ATE exige que se frene el ajuste y la precarización de los
+                                                    empleados, convocando a una lucha unificada con otras organizaciones
+                                                    sindicales, como UPCN. La movilización busca frenar la ofensiva del gobierno,
+                                                    que a través del plan &quot;motosierra&quot; del ministro Cúneo Libarona, avanza en una                                                  
+                                                    ola de despidos y ajustes, que afecta no solo a los trabajadores, sino también a
+                                                    los servicios públicos esenciales para la sociedad.
+                                                </p>
+                                                <br>
+                                            </div>
+                                        </div>
+                                </article>
+                            </li>
+                        </ul>
+                    </div>
+                    @livewire('lateral')
+                </div>
+            </section>
+          
+          
+          
+            @endif
     </div>
 </x-app-layout>

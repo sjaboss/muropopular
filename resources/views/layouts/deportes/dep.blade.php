@@ -2,6 +2,77 @@
     <div class="container ">
         @livewire('superior')
 
+
+{{--PARAGUAY VENCE A UNA ARGENTINA DESCONOCIDA  --}}
+<section>
+            <ul>
+                <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                    <article>
+                        <div class="py-4 px-4 justify-between items-center">
+                            <h2 class="text-xl font-serif  font-bold pb-6">
+                                <a href="">PARAGUAY VENCE A UNA ARGENTINA
+                                    DESCONOCIDA
+                                </a>
+                            </h2>
+                            <p class="font-light  text-right text-gray-500">Publicado:15/11/2024</p>
+                            <p><i>La selección argentina no logró sostener su ventaja inicial y sufrió una derrota
+                                ante Paraguay, que aprovechó las falencias del equipo de Scaloni,
+                                especialmente en defensa y mediocampo.
+                                </i></p>
+                            <br>
+                            <figure>
+                                <a href="">
+                                    <img class="w-full object-cover object-center"
+                                        src="{{ asset('../img/dep/dep_seleccion.svg') }}" alt="">
+                                </a>
+                            </figure>
+                            <br>
+                            <div
+                                class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                <div class=" font-sans text-lg text-left col-span-6  ">
+                                    <p>Paraguay sorprendió a Argentina en un partido donde las expectativas estaban
+                                        del lado del equipo de Scaloni, pero donde las debilidades de la Albiceleste se
+                                        hicieron demasiado evidentes. En una metáfora reveladora, el técnico
+                                        paraguayo Gustavo Alfaro comparó a Argentina con la humedad: &quot;Si tenés una
+                                        pared rajada, la humedad se filtra&quot;, y así fue. El equipo de Scaloni, aunque
+                                        empezó bien, con un gol de Lautaro Martínez que fue validado por el VAR, no
+                                        logró contener a una selección paraguaya que, desde el principio, se mostró
+                                        más decidida a aprovechar las fisuras del rival.
+                                    </p>
+                                    <br>
+                                    <p>El gol argentino fue polémico, ya que el asistente levantó el banderín por fuera
+                                        de juego, pero tras la revisión del VAR, el tanto fue aprobado, generando dudas
+                                        sobre las decisiones arbitrales. Sin embargo, más allá de la jugada inicial,
+                                        Argentina no consiguió sostener su juego. Los de Scaloni se vieron superados
+                                        por un Paraguay que, en lugar de especular, fue al frente, y rápidamente
+                                        consiguió el empate gracias a una chilena espectacular de Sanabria, tras un
+                                        centro preciso de Velázquez.
+                                    </p>
+                                    <br>
+                                    <p>La segunda mitad trajo consigo un golpe más para la Argentina: un gol de
+                                        cabeza de Alderete, tras una jugada de pelota parada, puso a Paraguay en
+                                        ventaja. A pesar de los intentos de reacción de la Albiceleste, con claras
+                                        oportunidades como un remate de De Paul que se fue desviado, el equipo local
+                                        no pudo encontrar respuestas. La falta de solidez defensiva y la ausencia de un
+                                        buen rendimiento individual, especialmente de figuras como Messi, Álvarez y
+                                        Otamendi, pesaron más que cualquier controversia arbitral.
+                                    </p><br>
+                                    Paraguay, por su parte, jugó con la urgencia de quien sabe lo que está en
+                                    juego, dejando todo en la cancha y mostrando que el fútbol, muchas veces, no
+                                    solo se trata de tener más posesión, sino de saber aprovechar las
+                                    oportunidades cuando se presentan. Al final, el 2-1 fue un reflejo de un partido
+                                    donde Argentina, sin la capacidad de corregir sus errores a tiempo, terminó
+                                    pagando caro cada filtración en su juego.
+                                </p><br>
+
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </li>
+            </ul>
+            <br>
+</section>
 {{-- SE TERMINAN LAS OPORTUNIDADES PARA COLAPINTO EN LA FÓRMULA 1 --}}
 <section>
             <ul>
@@ -59,9 +130,8 @@
                 </li>
             </ul>
 </section>
-
 {{--ARGENTINA CERRARÁ EL AÑO CON DOS CLAVES FRENTE A PARAGUAY Y PERÚ  --}}
- <section>
+<section>
                         <ul>
                             <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
                                 <article>

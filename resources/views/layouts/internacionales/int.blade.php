@@ -2,6 +2,72 @@
     <div class="container ">
 @livewire('superior')
 
+{{--ONU RECONOCE DERECHOS PALESTINOS PESE AL  VETO ARGENTINO  --}}
+<section>
+            <ul>
+                <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                    <article>
+                        <div class="py-4 px-4 justify-between items-center">
+                            <h2 class="text-xl font-serif  font-bold pb-6">
+                                <a href="">ONU RECONOCE DERECHOS PALESTINOS PESE AL
+                                    VETO ARGENTINO</a>
+                        {{--  <p class="font-light  text-lef text-gray-500">Por Gustavo Cano</p> --}}
+                            </h2>
+                            <p class="font-light  text-right text-gray-500">Publicado: 17/11/2024</p>
+                            <p><i>Con 170 votos a favor, la Asamblea General de la ONU aprobó una resolución
+                                histórica que exige el fin de la ocupación israelí y reconoce el derecho palestino
+                                a la autodeterminación.
+                            </i>
+                            </p>
+                            <br>
+                            <figure>
+                                <img class=" w-full object-cover" src="../img/int/int_onu.svg"
+                                    alt="">
+                            </figure>
+                            <br>
+                            <div
+                                class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                <div class=" font-sans text-lg text-left col-span-6  ">
+                                    <p>La Asamblea General de las Naciones Unidas adoptó una resolución histórica
+                                        que refuerza el derecho del pueblo palestino a la autodeterminación,
+                                        independencia y libertad frente a la ocupación israelí. Con un respaldo
+                                        abrumador de 170 países, el pronunciamiento también reiteró la ilegalidad de
+                                        las políticas de Israel en los territorios ocupados y exigió su cese inmediato.
+                                    </p>
+                                    <br>
+                                    <p>Pese al amplio consenso, seis países se opusieron, entre ellos Argentina, junto
+                                        a Estados Unidos, Israel, Paraguay, Micronesia y Nauru. Esta posición, que
+                                        generó críticas tanto dentro como fuera del país, se alinea con la narrativa de
+                                        seguridad impulsada por Tel Aviv, pero contradice la postura tradicional
+                                        argentina de apoyo a los derechos humanos y la justicia internacional.
+                                    <br>
+                                    <p>La resolución resalta que los derechos del pueblo palestino son “inalienables,
+                                        incondicionales y no negociables”. Además, cita la opinión consultiva de la
+                                        Corte Internacional de Justicia, que declaró ilegal la ocupación israelí y subrayó
+                                        la urgencia de terminar con estas prácticas.
+                                    </p>
+                                    <br>
+                                    <p>Riyad Mansour, representante de Palestina ante la ONU, destacó el
+                                        compromiso de su país para movilizar el respaldo internacional y aseguró que
+                                        el liderazgo palestino continuará exigiendo que Israel rinda cuentas por sus
+                                        crímenes. También urgió a la comunidad internacional a garantizar un cese al
+                                        fuego en Gaza y facilitar la ayuda humanitaria para mitigar el sufrimiento de la
+                                        población civil.
+                                    </p>
+                                    <br>
+                                    <p>Mientras el mundo refuerza su apoyo a Palestina, el voto argentino genera
+                                        dudas sobre la coherencia de su política exterior, que parece alejarse de los
+                                        principios históricos de defensa de los derechos humanos en foros
+                                        internacionales.
+                                    </p>
+                                    <br>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </li>
+            </ul>
+</section>
 {{--UEVO MUSEO EGIPCIO ABRE SUS PUERTAS EN EL CAIRO  --}}
 <section>
             <ul>

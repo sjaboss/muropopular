@@ -2,6 +2,103 @@
     <div class="container ">
         @livewire('superior')
 
+{{--EL FALLO JUDICIAL CONTRA CFK REVIENTA LA POLARIZACIÓN POLÍTICA EN ARGENTINA  --}}
+<section>
+            <ul>
+                <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                    <article>
+                        <div class="py-4 px-4 justify-between items-center">
+                            <h2 class="text-xl font-serif  font-bold pb-6">
+                                <a href="">EL FALLO JUDICIAL CONTRA CFK REVIENTA LA
+                                    POLARIZACIÓN POLÍTICA EN ARGENTINA</a>
+                            </h2>
+                            <p class="font-light  text-right text-gray-500">Publicado: 14/11/2024</p>
+                            <div class=" font-sans text-lg text-left col-span-6  ">
+                                <p><i>La condena de la Cámara de Casación a Cristina Kirchner por el caso
+                                    “Vialidad” desató una ola de críticas de dirigentes políticos, sindicalistas y
+                                    movimientos sociales.
+                                    </i>
+                                </p>
+                                <br>
+                                <figure>
+                                    <img class="w-full object-cover"
+                                        src="{{ asset('../img/pol/pol_fallo.svg') }}" alt="">
+                                </figure>
+                                <br>
+                                <div
+                                    class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                    <div class=" font-sans text-lg text-left col-span-6  ">
+                                        <p>El fallo de la Cámara de Casación contra Cristina Kirchner, que la declaró
+                                            culpable en la causa conocida como &quot;Vialidad&quot;, generó un torrente de
+                                            reacciones de apoyo hacia la expresidenta desde diversos sectores políticos,
+                                            sociales y sindicales. Las declaraciones apuntan a un intento de proscripción
+                                            orquestado por el poder judicial y sectores económicos que buscan frenar su
+                                            regreso a la política.
+                                        </p>
+                                        <br>
+                                        <p>Uno de los primeros en pronunciarse fue el diputado nacional y referente de la
+                                            CTA, Hugo Yasky, quien no dudó en calificar el fallo como una &quot;injusticia
+                                            flagrante&quot;. Yasky destacó la doble moral de un poder judicial que, mientras
+                                            &quot;encubrió los delitos de Macri&quot;, ahora ataca a Cristina Kirchner en lo que
+                                            considera un objetivo político para disciplinar a quienes se oponen al modelo
+                                            neoliberal.
+                                        </p>
+                                        <br>
+                                        <p>Por su parte, la dirigente del Frente de Izquierda y de los Trabajadores, Myriam
+                                            Bregman, también se manifestó en contra del fallo, denunciando un avance
+                                            antidemocrático en el cual la justicia decide quién puede o no ser parte del
+                                            escenario político. Bregman afirmó que esta decisión no solo ataca a la
+                                            expresidenta, sino que pone en riesgo la democracia misma, al reservarse la
+                                            facultad de &quot;proscribir&quot; a quienes representan una amenaza al poder
+                                            dominante.
+                                        </p>
+                                        <br>
+                                        <p>Wado de Pedro, comparó el caso con el proceso judicial que enfrentó Luiz
+                                            Inácio “Lula” da Silva en Brasil, destacando que tanto en Argentina como en
+                                            Brasil, las élites económicas y judiciales buscan proscribir a figuras populares
+                                            que desafían el modelo económico dominante. &quot;La verdad y los pueblos
+                                            siempre triunfan&quot;, aseguró de Pedro, quien recibió apoyo de diversos sectores
+                                            del progresismo latinoamericano.
+                                        </p>
+                                        <br>
+                                        <p>El jefe del bloque de Unión por la Patria en la Cámara de Diputados, Germán
+                                            Martínez, fue otro de los que rechazó el fallo, calificando la causa de
+                                            &quot;absolutamente armada&quot;. Martínez advirtió que sectores del poder judicial y
+                                            económico buscan &quot;disciplinar&quot; la política argentina para evitar que se
+                                            defiendan los intereses del pueblo, asegurando que la condena es parte de una
+                                            estrategia para alejar a Cristina Kirchner de la política.
+                                        </p>
+                                        <br>
+                                        <p>Desde la Provincia de Buenos Aires, el gobernador Axel Kicillof denunció que el
+                                            juicio contra Cristina Kirchner es un &quot;juicio armado&quot; sin pruebas, respaldado por
+                                            los medios de comunicación afines al poder. En un mensaje en sus redes
+                                            sociales, Kicillof expresó su total solidaridad con la expresidenta y subrayó que
+                                            esta persecución no es un hecho aislado, sino parte de un plan orquestado por
+                                            el poder judicial para controlar la política del país.
+                                        </p>
+                                        <br>
+                                        <p>Finalmente, el senador y vicepresidente del Partido Justicialista, José Mayans,
+                                            fue rotundo en su apoyo, asegurando que el verdadero objetivo detrás de la
+                                            condena es evitar que Cristina Kirchner regrese a la presidencia, dado su alto
+                                            nivel de aceptación popular. Mayans, en clara referencia a la persecución de
+                                            Lula en Brasil, subrayó que la expresidenta &quot;es la persona que mejor mide para
+                                            las próximas elecciones&quot; y que, si el pueblo la elige, no hay razón para que no
+                                            pueda volver a ser presidenta.
+                                        </p>
+                                        <br>
+                                        <p>Este rechazo generalizado pone de manifiesto la polarización creciente en la
+                                            política argentina, donde el poder judicial se ha convertido en un actor clave en
+                                            la disputa por la legitimidad de las instituciones y el futuro político del país.
+                                        </p>
+                                        <br>
+                                        <div class="text-start object-center">
+                                        </div>
+                                    </div>
+                    </article>
+                </li>
+            </ul>
+</section>
+
 {{--CRISTINA ACUSA A MILEI DE BUSCAR UNA ARGENTINA COMO &quot;COLONIA AGROEXPORTADORA&quot;  --}}
 <section>
             <ul>

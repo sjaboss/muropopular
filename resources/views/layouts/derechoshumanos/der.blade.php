@@ -2,6 +2,159 @@
     <div class="container ">
     @livewire('superior')
 
+
+{{-->PABLO LLONTO PRESENTA &#39;DERECHO A LA RESISTENCIA  --}}
+<section>
+            <ul>
+                <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                    <article>
+                        <div class="py-4 px-4 justify-between items-center">
+                            <h2 class="text-xl font-serif  font-bold pb-6">
+                                <a href="">PABLO LLONTO PRESENTA &#39;DERECHO A LA
+                                    RESISTENCIA
+                                </a>
+
+                            </h2>
+                            <p class="font-light  text-right text-gray-500">Publicado: 18/11/2024</p>
+                            <p><i>El alegato histórico sobre la Contraofensiva montonera se transforma en un
+                                libro, invitando al debate sobre las luchas por justicia y memoria.
+                            </i>
+                        </p>
+                            <br>
+                            <figure>
+                                <img class="w-full object-cover"
+                                    src="{{ asset('../img/der/der_llonto.svg') }}" alt="">
+                            </figure>
+                            <br>
+                            <div
+                                class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                <div class=" font-sans text-lg text-left col-span-6  ">
+                                    <p>El próximo martes, Pablo Llonto presentará su libro Derecho a la resistencia ,
+                                        una obra que recoge su emotivo alegato durante el juicio por la Contraofensiva
+                                        montonera. Este juicio permitió demostrar cómo la inteligencia militar del
+                                        Ejército argentino persiguió y exterminó a militantes políticos, construyendo
+                                        además relatos falsos para encubrir sus crímenes.
+                                    </p>
+                                    <br>
+                                    <p>El alegato de Llonto, pronunciado el 11 de marzo de 2021, fue un homenaje a
+                                        los jóvenes que lucharon por la esperanza, la fraternidad y la justicia: “Por esos
+                                        jóvenes que dieron todo y no pidieron nada… pedían lo mismo que nosotros:
+                                        Justicia ”, recordó en su discurso.
+                                    </p>
+                                    <br>
+                                    <p>El libro, editado por la cooperativa La Minga, integrada por militantes de
+                                        derechos humanos y de la cultura, busca abrir el debate sobre las formas de
+                                        resistencia ante la opresión. Adriana Taboada, del grupo editorial, destacó el
+                                        trabajo colectivo de los hijos e hijas de los militantes secuestrados, quienes
+                                        jugaron un papel clave en la reconstrucción de las historias durante el juicio.
+                                    <br>
+                                    <p>La presentación tendrá lugar el martes a las 18:30 en Solís 1158. Llonto estará
+                                        acompañado por el periodista Gustavo Campana, conductor de la AM750, y
+                                        Luciana Bertoia, periodista de Página/12. Este evento no solo rinde tributo a
+                                        quienes resistieron, sino que renueva la conversación sobre el legado de las
+                                        luchas por memoria, verdad y justicia en Argentina.
+                                    </p>
+                                    <br>
+                                    <div class="text-start object-center">
+                                        {{-- <figure>
+                                            <img class="w-28 h-28  "
+                                                src="{{ asset('../img/der/Adri.svg') }}"
+                                                alt="">
+                                            <p> <strong>Por Adriana Zerdín<strong></p>
+                                            <p><strong><strong></p>
+                                        </figure> --}}
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </li>
+            </ul>
+</section>
+{{-- CIDH ANALIZA LA SITUACIÓN DE LOS DDHH EN ARGENTINA ANTE LA POLÍTICA DE MILEI --}}
+<section>
+            <ul>
+                <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                    <article>
+                        <div class="py-4 px-4 justify-between items-center">
+                            <h2 class="text-xl font-serif  font-bold pb-6">
+                                <a href="">CIDH ANALIZA LA SITUACIÓN DE LOS DDHH EN
+                                    ARGENTINA ANTE LA POLÍTICA DE MILEI
+                                </a>
+
+                            </h2>
+                            <p class="font-light  text-right text-gray-500">Publicado: 14/11/2024</p>
+                            <p><i>Organismos de derechos humanos denuncian el retroceso en las políticas de
+                                Memoria, Verdad y Justicia durante la gestión de La Libertad Avanza.
+                            </i>
+                        </p>
+                            <br>
+                            <figure>a
+                                <img class="w-full object-cover"
+                                    src="{{ asset('../img/der/der_analiza.svg') }}" alt="">
+                            </figure>
+                            <br>
+                            <div
+                                class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                <div class=" font-sans text-lg text-left col-span-6  ">
+                                    <p>La Comisión Interamericana de Derechos Humanos (CIDH) dedicará tres
+                                        audiencias de su 191º período de sesiones a examinar la situación en la
+                                        Argentina, especialmente tras la llegada al gobierno de La Libertad Avanza.
+                                        Organismos de derechos humanos expresarán su preocupación por las
+                                        políticas del actual gobierno, centradas en la negación de los crímenes de
+                                        terrorismo de Estado y el retroceso en las políticas de Memoria, Verdad y
+                                        Justicia, que se implementaron tras el retorno de la democracia.
+                                    </p>
+                                    <br>
+                                    <p>Las audiencias se desarrollarán a partir de las 13 horas, con la participación de
+                                        diversas organizaciones argentinas que darán su testimonio sobre el impacto
+                                        del ajuste de la administración de Javier Milei en las políticas sociales, el
+                                        trabajo en la economía popular y los derechos de las mujeres. A las 16, se
+                                        abordará el retroceso en las políticas de género, mientras que a las 18
+                                        comenzará la denuncia contra la ofensiva contra las políticas de Memoria,
+                                        Verdad y Justicia.
+                                    </p>
+                                    <br>
+                                    <p>Representantes de organismos de derechos humanos participarán desde
+                                        Washington y desde el Espacio Memoria y Derechos Humanos, en la ex-
+                                        ESMA. Entre los oradores se destacan Estela de Carlotto (Abuelas de Plaza de
+                                        Mayo), Taty Almeida (Madres de Plaza de Mayo-Línea Fundadora) y
+                                        representantes de H.I.J.O.S. y Familiares de Desaparecidos por Razones
+                                        Políticas. También participarán desde EE. UU. figuras clave como Paula
+                                        Litvachky (CELS), Verónica Torras (Memoria Abierta) y el escritor Martín
+                                        Kohan.
+                                    </p>
+                                    <br>
+                                    <p>Por su parte, el gobierno estará representado por el secretario de Derechos
+                                        Humanos, Alberto Baños, quien ya se encuentra en Washington. Se espera
+                                        que Baños enfrente cuestionamientos sobre los despidos en la Secretaría de
+                                        Derechos Humanos y la venta de sitios de memoria, además de responder por
+                                        las restricciones al acceso a archivos sobre crímenes de lesa humanidad, un
+                                        tema que ha generado fuertes críticas.
+                                    </p>
+                                    <br>
+                                    <p>Una de las principales preocupaciones será el ataque a la Comisión Nacional
+                                        por el Derecho a la Identidad (Conadi), que bajo la actual administración ha
+                                        perdido su unidad de investigación y ha limitado el acceso a documentos clave
+                                        sobre los bebés robados durante la dictadura.
+                                    </p>
+                                    <br>
+                                    <div class="text-start object-center">
+                                        {{-- <figure>
+                                            <img class="w-28 h-28  "
+                                                src="{{ asset('../img/der/Adri.svg') }}"
+                                                alt="">
+                                            <p> <strong>Por Adriana Zerdín<strong></p>
+                                            <p><strong><strong></p>
+                                        </figure> --}}
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </li>
+            </ul>
+</section>
 {{-- MURIÓ MIRTA BARAVALLE, UNA VIDA DE BÚSQUEDA Y DIGNIDAD --}}
 <section>
             <ul>

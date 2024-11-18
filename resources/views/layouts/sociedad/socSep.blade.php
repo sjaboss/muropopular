@@ -3008,8 +3008,312 @@
                     @livewire('lateral')
                 </div>
             </section>
+        @elseif ($tituloSep == 'Sociedad-Noticia-Completa-soc151')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  pb-6">
+                                            <a href="">INVAP, UNA EMPRESA ESTRATÉGICA EN RIESGO DE
+                                                PRIVATIZACIÓN
+                                            </a>
+                                        <p class="font-light  text-right text-gray-500">Publicado: 13/11/2024</p>
+                                        <div class=" font-sans text-lg text-left col-span-6  ">
+                                            <p><i>A pesar de su éxito en sectores clave como la tecnología nuclear y
+                                                aeroespacial, el gobierno de Milei avanza con la privatización de INVAP, una
+                                                empresa estatal que, lejos de ser deficitaria, es un modelo de autogestión y
+                                                soberanía tecnológica.
+                                                </i>
+                                            </p>
+                                            <br>
+                                            <figure>
+                                                <img class="w-full object-cover" src="../img/soc/soc_invap.svg"
+                                                    alt="">
+                                            </figure>
+                                            {{--  <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/Elj4W5gq3AM?si=Px86mJ-v6RAaS8Yh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> --}}
+                                            <br>
+                                            <div
+                                                class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                                <div class=" font-sans text-lg text-left col-span-6  ">
+                                                    <p>INVAP SE, la empresa estatal con sede en Río Negro, ha sido un pilar de la
+                                                        ciencia y la tecnología argentina desde su creación en 1976. Especializada en
+                                                        proyectos estratégicos como la energía nuclear, la tecnología aeroespacial y la
+                                                        medicina, la empresa no solo ha posicionado a Argentina en el mapa
+                                                        internacional, sino que ha forjado alianzas con organismos de prestigio como la
+                                                        NASA y la OIEA, exportando productos clave como satélites y radares. Sin
+                                                        embargo, a pesar de su rentabilidad y trascendencia, el gobierno de Javier
+                                                        Milei parece decidido a privatizarla, socavando su potencial para el desarrollo
+                                                        nacional.
+                                                    </p>
+                                                    <br>
+                                                    <p>A través del Decreto 70/2023, que establece la obligatoriedad de convertir a
+                                                        todas las empresas con participación estatal en sociedades anónimas, el
+                                                        gobierno busca abrir las puertas a la inversión privada, sin importar el costo
+                                                        estratégico. INVAP, actualmente una Sociedad del Estado, se encuentra en
+                                                        proceso de transformación hacia una Sociedad Anónima Unipersonal, lo que
+                                                        allana el terreno para la privatización de una de las empresas más rentables
+                                                        del país. Esta decisión, lejos de estar motivada por un fracaso económico,
+                                                        obedece a una ideología que busca reducir el rol del Estado, sin importar las
+                                                        consecuencias a largo plazo para la soberanía tecnológica de Argentina.
+                                                    </p>
+                                                    <br>
+                                                    <p>El caso de INVAP resulta particularmente insostenible para la narrativa oficial,
+                                                        que intenta justificar la privatización como una medida para &quot;combatir la
+                                                        corrupción&quot; y &quot;mejorar la eficiencia&quot;. Sin embargo, los números hablan por sí
+                                                        mismos: en el último año fiscal, INVAP registró ventas por más de $230.000
+                                                        millones, con un patrimonio neto de $100.000 millones. La empresa no
+                                                        depende de subsidios, y su modelo de autogestión la convierte en un ejemplo
+                                                        de rentabilidad, eficiencia y capacidad técnica. No hay ninguna justificación
+                                                        económica que respalde su privatización; más bien, se trata de una decisión
+                                                        política que obedece a los intereses de reducir la presencia estatal en sectores
+                                                        estratégicos, en un contexto en el que la soberanía tecnológica se vuelve cada
+                                                        vez más crucial.
+                                                    </p>
+                                                    <br>
+                                                    <p>La privatización de INVAP no solo implicaría la pérdida de un actor clave para
+                                                        la innovación nacional, sino que también abriría las puertas a la dependencia
+                                                        externa en áreas fundamentales como la fabricación de reactores nucleares,
+                                                        satélites y radares. La pérdida de control sobre estos recursos estratégicos
+                                                        sería un golpe letal a la autonomía tecnológica de Argentina, con el peligro
+                                                        adicional de que empresas extranjeras, en lugar de contribuir al desarrollo
+                                                        local, se lleven los beneficios generados por estos productos al exterior.
+                                                        </p>
+                                                        <br>
+                                                        <p>Además, el proceso de transformación a Sociedad Anónima Unipersonal, lejos
+                                                            de ser &quot;estructural&quot; como sostienen desde el gobierno y el directorio de INVAP,
+                                                            es una maniobra clara para privatizar una empresa exitosa que podría seguir
+                                                            siendo un pilar de la soberanía tecnológica argentina. La exdirectora de INVAP,
+                                                            Adriana Serquis, ha denunciado esta estrategia como un intento de
+                                                            desmantelar la autonomía de la empresa, en un contexto de creciente apertura
+                                                            a la inversión extranjera que termina favoreciendo a las multinacionales, en
+                                                            detrimento de la producción nacional.
+                                                            </p>
+                                                            <br>
+                                                            <p>En lugar de fomentar el fortalecimiento de empresas estratégicas como INVAP,
+                                                                el gobierno de Milei parece optar por un camino peligroso, que amenaza con
+                                                                poner en riesgo tanto la soberanía tecnológica como la capacidad del país de
+                                                                seguir siendo un jugador relevante en la producción de tecnología avanzada. .
+                                                                La privatización de INVAP no es solo una mala decisión económica, sino un
+                                                                acto que socava los intereses nacionales a favor de un modelo económico que
+                                                                prioriza la apertura indiscriminada al capital privado y extranjero.
+                                                                </p>
+                                                                <br>
 
+                                                    <div class="text-start object-center">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                </article>
+                            </li>
+                        </ul>
+                        <br>
+                    </div>
+                    @livewire('lateral')
+                </div>
+            </section>
+        @elseif ($tituloSep == 'Sociedad-Noticia-Completa-soc152')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  pb-6">
+                                            <a href="">ALBERDI EN LOS BILLETES: REPUDIO FAMILIAR A LA
+                                                UTILIZACIÓN DEL PRÓCER
+                                            </a>
+                                        <p class="font-light  text-right text-gray-500">Publicado: 15/11/2024</p>
+                                        <div class=" font-sans text-lg text-left col-span-6  ">
+                                            <p><i>La familia de Juan Bautista Alberdi rechazó la inclusión de su figura en los
+                                                billetes de 20 mil pesos, señalando que lo asocia con la hiperinflación y
+                                                denunciando al gobierno de Javier Milei por traicionar el legado del prócer
+                                                liberal.
+                                                </i>
+                                            </p>
+                                            <br>
+                                            <figure>
+                                                <img class="w-full object-cover" src="../img/soc/soc_alberdi.svg"
+                                                    alt="">
+                                            </figure>
+                                            {{--  <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/Elj4W5gq3AM?si=Px86mJ-v6RAaS8Yh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> --}}
+                                            <br>
+                                            <div
+                                                class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                                <div class=" font-sans text-lg text-left col-span-6  ">
+                                                    <p>La decisión del gobierno de incluir la imagen de Juan Bautista Alberdi en los
+                                                        nuevos billetes de 20 mil pesos ha generado una reacción adversa por parte de
+                                                        sus descendientes. Gastón Alberdi, sobrino pentanieto del prócer, expresó
+                                                        públicamente el descontento familiar al considerar que la medida es un intento
+                                                        de asociar al fundador del liberalismo argentino con la crisis económica que
+                                                        atraviesa el país.
+                                                    </p>
+                                                    <br>
+                                                    <p>“Estamos muy molestos”, afirmó Gastón, quien calificó la medida como una
+                                                        “profanación” de las ideas de Alberdi. Según explicó, el billete con su rostro
+                                                        simboliza la hiperinflación, dado que “hoy 20 mil pesos no son nada”. A través
+                                                        de redes sociales y declaraciones radiales, acusó al gobierno de Milei de ser
+                                                        “fascista” y de apropiarse de un ícono histórico para maquillar su modelo
+                                                        económico de ajuste y represión.
+                                                    </p>
+                                                    <br>
+                                                    <p>Gastón Alberdi también denunció la contradicción del gobierno al fabricar estos
+                                                        billetes en China, pese a haber criticado al gigante asiático por sus principios
+                                                        comunistas. “El fascista Milei, que había dicho &#39;con los chinos nada&#39;, ahora
+                                                        manda a imprimir allí los billetes de una moneda devaluada”, agregó.
+                                                    </p>
+                                                    <br>
+                                                    <p>En un análisis más amplio, Alberdi cuestionó la supuesta adhesión del gobierno
+                                                        a las ideas liberales: “Milei no representa al liberalismo; es un conservador que
+                                                        usurpa nuestro legado”. Además, vinculó las políticas de ajuste, la represión a                                                       
+                                                        jubilados y la falta de inversión educativa como una traición al ideario de Juan
+                                                        Bautista Alberdi, que promovió un modelo de desarrollo y progreso inclusivo.
+                                                        </p>
+                                                        <br>
+                                                        <p>El billete de 20 mil pesos, en lugar de ser un homenaje, ha pasado a ser un
+                                                            símbolo del deterioro económico y político, dejando en evidencia las grietas
+                                                            entre el discurso oficialista y la realidad de su gestión.
+                                                            </p>
+                                                                <br>
 
+                                                    <div class="text-start object-center">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                </article>
+                            </li>
+                        </ul>
+                        <br>
+                    </div>
+                    @livewire('lateral')
+                </div>
+            </section>
+        @elseif ($tituloSep == 'Sociedad-Noticia-Completa-soc153')
+            <section>
+                <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                    <div class=" col-span-4">
+                        <ul>
+                            <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                                <article>
+                                    <div class="py-4 px-4 justify-between items-center">
+                                        <h2 class="text-xl font-serif  pb-6">
+                                            <a href="">LA JUSTICIA COMO HERRAMIENTA POLÍTICA EN UN
+                                                FALLO QUE REFUERZA EL LAWFARE
+                                            </a>
+                                        <p class="font-light  text-right text-gray-500">Publicado: 16/11/2024</p>
+                                        <div class=" font-sans text-lg text-left col-span-6  ">
+                                            <p><i>El polémico fallo que condena a Cristina Fernández de Kirchner se sostiene en
+                                                bases frágiles: pruebas circunstanciales, contradicciones y un preocupante uso
+                                                político del Poder Judicial, debilitando los cimientos democráticos.
+                                                </i>
+                                            </p>
+                                            <br>
+                                            <figure>
+                                                <img class="w-full object-cover" src="../img/soc/soc_fallo1.svg"
+                                                    alt="">
+                                            </figure>
+                                            {{--  <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/Elj4W5gq3AM?si=Px86mJ-v6RAaS8Yh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> --}}
+                                            <br>
+                                            <div
+                                                class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                                <div class=" font-sans text-lg text-left col-span-6  ">
+                                                    <p>La reciente condena de Cristina Fernández de Kirchner por parte de la Cámara
+                                                        de Casación no es simplemente una cuestión jurídica: es un nuevo capítulo del
+                                                        lawfare, ese fenómeno que ha logrado construir una narrativa de culpabilidad
+                                                        sin contar con las pruebas necesarias. Un análisis del fallo evidencia una serie
+                                                        de contradicciones y vacíos legales que, lejos de garantizar la justicia, apuntan
+                                                        a un uso político de la justicia, diseñado para debilitar a una figura clave de la
+                                                        oposición.
+                                                    </p>
+                                                    <br>
+                                                    <p>En primer lugar, la sentencia se cimienta sobre pruebas indirectas e
+                                                        inferencias, sin ofrecer elementos concluyentes que puedan establecer una
+                                                        relación causal directa entre los actos de la expresidenta y la supuesta
+                                                        administración fraudulenta. El estándar penal, que exige pruebas claras más
+                                                        allá de toda duda razonable, parece ser completamente ignorado en este caso.
+                                                        Sin evidencia directa, el tribunal construye una acusación cuya solidez se
+                                                        diluye en el aire de las inferencias y las especulaciones.
+                                                    </p>
+                                                    <br>
+                                                    <p>Otro punto alarmante es el uso de pruebas de otras causas, como los
+                                                        mensajes de texto y auditorías, que no fueron debidamente discutidas durante
+                                                        el juicio. Esto no solo vulnera el principio de oralidad, sino que también pone en
+                                                        duda la transparencia del proceso judicial. Al incorporar elementos ajenos, el
+                                                        tribunal socava la posibilidad de un juicio justo, uno en el que las pruebas
+                                                        presentadas sean evaluadas y confrontadas en el mismo contexto procesal.
+                                                    </p>
+                                                    <br>
+                                                    <p>Más preocupante aún es la contradicción interna del fallo. Mientras que se
+                                                        sostiene que ciertas decisiones políticas no pueden ser sometidas a juicio,
+                                                        como las políticas viales, se utiliza precisamente esa lógica para sostener la
+                                                        existencia de una supuesta maniobra delictiva. Al hacerlo, el tribunal introduce
+                                                        una ambigüedad sobre lo que es político y lo que es penal, dejando claro que la
+                                                        línea entre ambos se borra cuando interesa políticamente.
+                                                        </p>
+                                                        <br>
+                                                        <p>La cronología del caso también está plagada de incoherencias. Se asigna
+                                                            responsabilidad a Fernández de Kirchner sobre un “plan” que no existía en los
+                                                            términos descritos en la sentencia, ya que las pruebas que la implican surgen
+                                                            fuera del marco temporal de las acciones imputadas. La contradicción temporal
+                                                            entre los hechos y las decisiones atribuidas a la expresidenta no hace más que
+                                                            restar credibilidad a la acusación.
+                                                            </p>
+                                                                <br>
+                                                                <p>Sin embargo, lo más grave de este fallo es lo que no se menciona: el hecho de
+                                                                    que la condena de la expresidenta no está sustentada por un beneficio
+                                                                    personal claro derivado de los hechos acusados. El delito de administración
+                                                                    fraudulenta implica, por definición, la obtención de una ganancia ilegítima. Sin
+                                                                    embargo, el tribunal no ha logrado demostrar cómo Fernández de Kirchner se
+                                                                    vio beneficiado directamente por las decisiones que tomaron sus
+                                                                    colaboradores. El vacío en este aspecto refleja las falencias estructurales del
+                                                                    caso.
+                                                                    </p>
+                                                                        <br>
+                                                                        <p>La incorporación de hechos provenientes de otras causas, como Hotesur y Los
+                                                                            Sauces, a pesar de que no deben formar parte del objeto procesal del caso en
+                                                                            cuestión, también se utiliza para cimentar una condena que parece más política
+                                                                            que judicial. Esta estrategia refuerza la idea de que el fallo está destinado a
+                                                                            influir en la percepción pública, no a esclarecer los hechos con imparcialidad.
+                                                                            </p>
+                                                                                <br>
+                                                                                <p>La justicia, por su parte, se ve cada vez más alejada de su función primordial:
+                                                                                    ser una garantía de los derechos de los ciudadanos. En lugar de aplicar la ley
+                                                                                    de manera objetiva e imparcial, se ha convertido en un instrumento de
+                                                                                    persecución que busca empañar la figura de uno de los principales actores
+                                                                                    políticos del país. No se trata de una búsqueda de la verdad, sino de un intento
+                                                                                    de debilitar a la oposición política y deslegitimar a un liderazgo en crecimiento.
+                                                                                    </p>
+                                                                                        <br>
+                                                                                        <p>La justicia, lejos de ser un pilar de la democracia y la defensa de los derechos,
+                                                                                            se ha transformado en una herramienta al servicio de intereses políticos. El
+                                                                                            fallo contra Cristina Fernández de Kirchner es solo uno de los muchos ejemplos
+                                                                                            de cómo se está utilizando el poder judicial para atacar a actores políticos,
+                                                                                            manipular la opinión pública y desvirtuar el principio de legalidad. Este proceso
+                                                                                            no solo pone en jaque la independencia del sistema judicial, sino que también
+                                                                                            subraya el riesgo de que la justicia se convierta en un instrumento de
+                                                                                            persecución ideológica en lugar de una garantía de los derechos de la
+                                                                                            ciudadanía.
+                                                                                            </p>
+                                                                                                <br>
+
+                                                    <div class="text-start object-center">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                </article>
+                            </li>
+                        </ul>
+                        <br>
+                    </div>
+                    @livewire('lateral')
+                </div>
+            </section>
 
             @endif
 

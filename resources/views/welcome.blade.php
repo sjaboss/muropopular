@@ -45,45 +45,43 @@
                 class="grid grid-cols-1 md:grid-cols-2 gap-4 rounded-lg border shadow border-gray-600 p-4 bg-gray-800 text-white">
                 <!-- Nota 1 -->
                 <div class="rounded-lg border shadow border-emerald-600 p-2">
-                    @php
-                        $tituloSep = 'Sociedad-Noticia-Completa-soc150';
-                    @endphp
-                    <a href="{{ route('sociedadSep.show', $tituloSep) }}">
-                        <img class="h-48 w-full object-cover object-center rounded-lg" src="../img/soc/soc_gob1.svg"
-                            alt="Imagen Nota 1">
-                    </a>
-                    <div class="py-4 px-6">
+                    <div class=" py-2 px-2 bg-gray-800">
+                        @php
+                            $tituloSep = 'Agenda-Feminista-Completa-fem28';
+                        @endphp
+                        <a href="{{ route('feministaSep.show', $tituloSep) }}">
+                            <img class="h-48 w-full object-cover object-center rounded-lg"
+                                src="{{ asset('../img/fem/fem_diaz.svg') }}" alt="">
+                        </a>
                         <h1 class="text-lg font-serif">
-                            <a href="{{ route('sociedadSep.show', $tituloSep) }}">
-                                KICILLOF RECLAMA EL CANAL MAGDALENA Y CRITICA LA HIDROVÍA DE MILEI
+                            <a href="{{ route('feministaSep.show', $tituloSep) }}">
+                                ESTELA DÍAZ REFUERZA LAZOS FEMINISTAS ANTE LOS AJUSTES DEL GOBIERNO
                             </a>
-                            {{--   <p class="font-light  text-lef text-gray-500">Por Gustavo Cano</p> --}}
-                        </h1>
                     </div>
                     <div class="pt-4 text-white font-light text-right">
-                        <p>Publicado: 12/11/2024</p>
+                        <p class="p-2">Publicado: 18/11/2024</p>
                     </div>
                 </div>
                 <!-- Nota 2 -->
                 <div class="rounded-lg border shadow border-emerald-600 p-2">
                     @php
-                    $tituloSep = 'Sociedad-Noticia-Completa-soc149';
-                @endphp
-                <a href="{{ route('sociedadSep.show', $tituloSep) }}">
-                    <img class="h-48 w-full object-cover object-center rounded-lg" src="../img/soc/soc_loco.svg"
-                        alt="Imagen Nota 1">
-                </a>
-                <div class="py-4 px-6">
-                    <h1 class="text-lg font-serif">
-                        <a href="{{ route('sociedadSep.show', $tituloSep) }}">
-                            MILEI PROMETE CRECIMIENTO A COSTA DEL ESTADO Y LOS TRABAJADORES
-                        </a>
-                        {{--   <p class="font-light  text-lef text-gray-500">Por Gustavo Cano</p> --}}
-                    </h1>
-                </div>
-                <div class="pt-4 text-white font-light text-right">
-                    <p>Publicado: 12/11/2024</p>
-                </div>
+                       $tituloSep = 'Derechos-Humanos-Noticia-Completa-der41';
+                    @endphp
+                    <a href="{{ route('derechoSep.show', $tituloSep) }}">
+                        <img class="h-48 w-full object-cover object-center rounded-lg"   src="{{ asset('../img/der/der_llonto.svg') }}"
+                            alt="Imagen Nota 1">
+                    </a>
+                    <div class="py-4 px-6">
+                        <h1 class="text-lg font-serif">
+                            <a href="{{ route('derechoSep.show', $tituloSep) }}">
+                                PABLO LLONTO PRESENTA &#39;DERECHO A LA RESISTENCIA
+                            </a>
+                            {{--   <p class="font-light  text-lef text-gray-500">Por Gustavo Cano</p> --}}
+                        </h1>
+                    </div>
+                    <div class="pt-4 text-white font-light text-right">
+                        <p>Publicado: 18/11/2024</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -108,8 +106,202 @@
                     <div class=" col-span-4 gap-4 rounded-lg border  shadow border-gray-600 p-2 bg-gray-800 text-white">
 
 
+{{--  x4 --}}
+<section>
+    <ul class="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 py-6">
+        <!-- Nota B-1 -->
+        <li class="rounded-lg  border shadow border-emerald-600">
+            <div class=" py-2 px-2 bg-gray-800">
+                <div class="pt-2 text-emerald-500">
+                    <h2>
+                        @php
+                            $tituloSep = 'Internacionales-Noticia-Completa-int39';
+                        @endphp
 
+                        <a href="{{ route('interSepNew.show', $tituloSep) }}">
+                            <img class="h-48 w-full object-cover object-center rounded-lg"
+                                src="../img/int/int_onu.svg" alt="Imagen Nota 1">
+                        </a>
+                        <h1 class="text-lg font-serif animate-fade-right text-white pt-2">
 
+                            <a href="{{ route('interSepNew.show', $tituloSep) }}">ONU RECONOCE DERECHOS PALESTINOS PESE AL  VETO ARGENTINO
+                            </a>
+
+                        </h1>
+
+                    </h2>
+                </div>
+            </div>
+            <div class="font-light  text-right text-white bg-gray-800">
+                <p class="p-4"> Publicado: 17/11/2024</p>
+            </div>
+        </li>
+        <!-- Nota B-2 -->
+        <li class="rounded-lg  border shadow border-emerald-600">
+            <div class=" py-2 px-2 bg-gray-800">
+                @php
+                    $tituloSep = 'Legislatura-Noticia-Completa-leg67';
+                @endphp
+                <a href="{{ route('legislaturaSep.show', $tituloSep) }}">
+                    <img class="h-48 w-full object-cover object-center rounded-lg"
+                        src="{{ asset('../img/leg/leg_pagani.svg') }}" alt="">
+                </a>
+                <div class="p-2">
+                    <h1 class="text-lg font-serif">
+                        <a href="{{ route('legislaturaSep.show', $tituloSep) }}">
+                    HORACIO PAGANI NUEVA PERSONALIDAD DESTACADA EN EL ÁMBITO DE LA CULTURA
+                        </a>
+                        {{--   <p class="font-light  text-lef text-gray-500">Por Gustavo Cano</p> --}}
+                </div>
+                <div class="pt-4 text-white font-light text-right">
+                    <p>Publicado: 17/11/2024</p>
+                </div>
+            </div>
+        </li>
+        <!-- Nota B-3 -->
+        <li class="rounded-lg  border shadow border-emerald-600">
+            <div class=" py-2 px-2 bg-gray-800">
+                @php
+                    $tituloSep = 'Sociedad-Noticia-Completa-soc153';
+                @endphp
+                <a href="{{ route('sociedadSep.show', $tituloSep) }}">
+                    <img class="h-48 w-full object-cover object-center rounded-lg"
+                        src="../img/soc/soc_fallo1.svg" alt="Imagen Nota 1">
+                </a>
+                <div class="py-4 px-6">
+                    <h1 class="text-lg font-serif">
+                        <a href="{{ route('sociedadSep.show', $tituloSep) }}">
+                            LA JUSTICIA COMO HERRAMIENTA POLÍTICA EN UN  FALLO QUE REFUERZA EL LAWFARE
+                        </a>
+                        {{--   <p class="font-light  text-lef text-gray-500">Por Gustavo Cano</p> --}}
+                    </h1>
+                </div>
+                <div class="pt-4 text-white font-light text-right">
+                    <p>Publicado: 16/11/2024</p>
+                </div>
+        </li>
+        <!-- Nota B-4 -->
+        <li class="rounded-lg  border shadow border-emerald-600 ">
+            <div class=" py-2 px-4">
+                <div class="pt-2 text-emerald-500">
+                    <h2>
+                        @php
+                            $tituloSep = 'Gremiales-Noticia-Completa-gre54';
+                        @endphp
+                        <a href="{{ route('gremialSep.show', $tituloSep) }}">
+                            <img class="h-56  w-full object-cover rounded-lg border-gray-900 "
+                            src="../img/grem/grem_ateParar.svg" alt="">
+                        </a>
+                        <h1 class="text-lg font-serif animate-fade-right text-white">
+                            <a href="{{ route('gremialSep.show', $tituloSep) }}">CIDH ANALIZA
+                                LA SITUACIÓN DE LOS DDHH EN ARGENTINA ANTE LA POLÍTICA DE MILEI
+                            </a>
+                        </h1>
+                    </h2>
+                </div>
+            </div>
+            <div class="font-light  text-right text-white bg-gray-800">
+                <p class="p-4">Publicado: 16/11/2024</p>
+            </div>
+        </li>
+    </ul>
+</section>
+                        {{--  x4 --}}
+                        <section>
+                            <ul class="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 py-6">
+                                <!-- Nota B-1 -->
+                                <li class="rounded-lg  border shadow border-emerald-600">
+                                    <div class=" py-2 px-2 bg-gray-800">
+                                        @php
+                                            $tituloSep = 'Sociedad-Noticia-Completa-soc152';
+                                        @endphp
+                                        <a href="{{ route('sociedadSep.show', $tituloSep) }}">
+                                            <img class="h-48 w-full object-cover object-center rounded-lg"
+                                                src="../img/soc/soc_alberdi.svg" alt="Imagen Nota 1">
+                                        </a>
+                                        <div class="py-4 px-6">
+                                            <h1 class="text-lg font-serif">
+                                                <a href="{{ route('sociedadSep.show', $tituloSep) }}">
+                                                    ALBERDI EN LOS BILLETES: REPUDIO FAMILIAR A LA UTILIZACIÓN DEL
+                                                    PRÓCER
+                                                </a>
+                                                {{--   <p class="font-light  text-lef text-gray-500">Por Gustavo Cano</p> --}}
+                                            </h1>
+                                        </div>
+                                        <div class="pt-4 text-white font-light text-right">
+                                            <p>Publicado: 15/11/2024</p>
+                                        </div>
+                                </li>
+                                <!-- Nota B-2 -->
+                                <li class="rounded-lg  border shadow border-emerald-600">
+                                    <div class=" py-2 px-2 bg-gray-800">
+                                        @php
+                                            $tituloSep = 'Deportes-Noticia-Completa-dep18';
+                                        @endphp
+                                        <a href="{{ route('deportesSep.show', $tituloSep) }}">
+                                            <img class="h-48 w-full object-cover object-center rounded-lg"
+                                                src="{{ asset('../img/dep/dep_seleccion.svg') }}" alt="Imagen Nota 1">
+                                        </a>
+                                        </a>
+                                        <div class="py-4 px-6">
+                                            <h1 class="text-lg font-serif">
+                                                <a href="{{ route('deportesSep.show', $tituloSep) }}">
+                                                    PARAGUAY VENCE A UNA ARGENTINA DESCONOCIDA
+                                                </a>
+                                            </h1>
+                                        </div>
+                                        <div class="pt-4 text-white font-light text-right">
+                                            <p>Publicado: 15/11/2024</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <!-- Nota B-3 -->
+                                <li class="rounded-lg  border shadow border-emerald-600">
+                                    <div class=" py-2 px-2 bg-gray-800">
+                                        @php
+                                            $tituloSep = 'Politica-Noticia-Completa-pol95';
+                                        @endphp
+                                        <a href="{{ route('politicaSep.show', $tituloSep) }}">
+                                            <img class="h-48 w-full object-cover object-center rounded-lg"
+                                                src="{{ asset('../img/pol/pol_fallo.svg') }}" alt="">
+                                        </a>
+                                        <h1 class="text-lg  font-serif">
+                                            <a class="p-2"href="{{ route('politicaSep.show', $tituloSep) }}">
+                                                CREL FALLO JUDICIAL CONTRA CFK REVIENTA LA POLARIZACIÓN POLÍTICA EN
+                                                ARGENTINA
+                                            </a>
+                                        </h1>
+                                    </div>
+                                    <div class="pt-4 text-white font-light text-right">
+                                        <p class="p-2">Publicado: 14/11/2024</p>
+                                    </div>
+                                </li>
+                                <!-- Nota B-4 -->
+                                <li class="rounded-lg  border shadow border-emerald-600 ">
+                                    <div class=" py-2 px-4">
+                                        <div class="pt-2 text-emerald-500">
+                                            <h2>
+                                                @php
+                                                    $tituloSep = 'Derechos-Humanos-Noticia-Completa-der40';
+                                                @endphp
+                                                <a href="{{ route('derechoSep.show', $tituloSep) }}">
+                                                    <img class="h-56  w-full object-cover rounded-lg border-gray-900 "
+                                                        src="{{ asset('../img/der/der_analiza.svg') }}" alt="">
+                                                </a>
+                                                <h1 class="text-lg font-serif animate-fade-right text-white">
+                                                    <a href="{{ route('derechoSep.show', $tituloSep) }}">CIDH ANALIZA
+                                                        LA SITUACIÓN DE LOS DDHH EN ARGENTINA ANTE LA POLÍTICA DE MILEI
+                                                    </a>
+                                                </h1>
+                                            </h2>
+                                        </div>
+                                    </div>
+                                    <div class="font-light  text-right text-white bg-gray-800">
+                                        <p class="p-4">Publicado: 14/11/2024</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </section>
 
                         {{--  x4 --}}
                         <section>
@@ -118,12 +310,105 @@
                                 <li class="rounded-lg  border shadow border-emerald-600">
                                     <div class=" py-2 px-2 bg-gray-800">
                                         @php
-                                        $tituloSep = 'Deportes-Noticia-Completa-dep17';
-                                    @endphp
-                                    <a href="{{ route('deportesSep.show', $tituloSep) }}">
-                                        <img class="h-48 w-full object-cover object-center rounded-lg"  src="{{ asset('../img/dep/dep_colapinto.svg') }}"
-                                            alt="Imagen Nota 1">
-                                    </a>
+                                            $tituloSep = 'Agenda-Feminista-Completa-fem27';
+                                        @endphp
+                                        <a href="{{ route('feministaSep.show', $tituloSep) }}">
+                                            <img class="h-48 w-full object-cover object-center rounded-lg"
+                                                src="{{ asset('../img/fem/fem_gobierno1.svg') }}" alt="">
+                                        </a>
+                                        <h1 class="text-lg font-serif">
+                                            <a href="{{ route('feministaSep.show', $tituloSep) }}">
+                                                EL GOBIERNO DE KICILLOF IMPULSA DEBATES CLAVE SOBRE GÉNERO Y SALUD
+                                            </a>
+                                    </div>
+                                    <div class="pt-4 text-white font-light text-right">
+                                        <p class="p-2">Publicado: 13/11/2024</p>
+                                    </div>
+                                </li>
+                                <!-- Nota B-2 -->
+                                <li class="rounded-lg  border shadow border-emerald-600">
+                                    <div class=" py-2 px-2 bg-gray-800">
+                                        @php
+                                            $tituloSep = 'Sociedad-Noticia-Completa-soc151';
+                                        @endphp
+                                        <a href="{{ route('sociedadSep.show', $tituloSep) }}">
+                                            <img class="h-48 w-full object-cover object-center rounded-lg"
+                                                src="../img/soc/soc_invap.svg" alt="Imagen Nota 1">
+                                        </a>
+                                        <div class="py-4 px-6">
+                                            <h1 class="text-lg font-serif">
+                                                <a href="{{ route('sociedadSep.show', $tituloSep) }}">
+                                                    INVAP, UNA EMPRESA ESTRATÉGICA EN RIESGO DE PRIVATIZACIÓN
+                                                </a>
+                                                {{--   <p class="font-light  text-lef text-gray-500">Por Gustavo Cano</p> --}}
+                                            </h1>
+                                        </div>
+                                        <div class="pt-4 text-white font-light text-right">
+                                            <p>Publicado: 13/11/2024</p>
+                                        </div>
+                                </li>
+                                <!-- Nota B-3 -->
+                                <li class="rounded-lg  border shadow border-emerald-600">
+                                    <div class=" py-2 px-2 bg-gray-800">
+                                        @php
+                                            $tituloSep = 'Sociedad-Noticia-Completa-soc150';
+                                        @endphp
+                                        <a href="{{ route('sociedadSep.show', $tituloSep) }}">
+                                            <img class="h-48 w-full object-cover object-center rounded-lg"
+                                                src="../img/soc/soc_gob1.svg" alt="Imagen Nota 1">
+                                        </a>
+                                        <div class="py-4 px-6">
+                                            <h1 class="text-lg font-serif">
+                                                <a href="{{ route('sociedadSep.show', $tituloSep) }}">
+                                                    KICILLOF RECLAMA EL CANAL MAGDALENA Y CRITICA LA HIDROVÍA DE MILEI
+                                                </a>
+                                                {{--   <p class="font-light  text-lef text-gray-500">Por Gustavo Cano</p> --}}
+                                            </h1>
+                                        </div>
+                                        <div class="pt-4 text-white font-light text-right">
+                                            <p>Publicado: 12/11/2024</p>
+                                        </div>
+                                </li>
+                                <!-- Nota B-4 -->
+                                <li class="rounded-lg  border shadow border-emerald-600">
+                                    <div class=" py-2 px-2 bg-gray-800">
+                                        @php
+                                            $tituloSep = 'Sociedad-Noticia-Completa-soc149';
+                                        @endphp
+                                        <a href="{{ route('sociedadSep.show', $tituloSep) }}">
+                                            <img class="h-48 w-full object-cover object-center rounded-lg"
+                                                src="../img/soc/soc_loco.svg" alt="Imagen Nota 1">
+                                        </a>
+                                        <div class="py-4 px-6">
+                                            <h1 class="text-lg font-serif">
+                                                <a href="{{ route('sociedadSep.show', $tituloSep) }}">
+                                                    MILEI PROMETE CRECIMIENTO A COSTA DEL ESTADO Y LOS TRABAJADORES
+                                                </a>
+                                                {{--   <p class="font-light  text-lef text-gray-500">Por Gustavo Cano</p> --}}
+                                            </h1>
+                                        </div>
+                                        <div class="pt-4 text-white font-light text-right">
+                                            <p>Publicado: 12/11/2024</p>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </section>
+
+                        {{--  x4 --}}
+                        <section>
+                            <ul class="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 py-6">
+                                <!-- Nota B-1 -->
+                                <li class="rounded-lg  border shadow border-emerald-600">
+                                    <div class=" py-2 px-2 bg-gray-800">
+                                        @php
+                                            $tituloSep = 'Deportes-Noticia-Completa-dep17';
+                                        @endphp
+                                        <a href="{{ route('deportesSep.show', $tituloSep) }}">
+                                            <img class="h-48 w-full object-cover object-center rounded-lg"
+                                                src="{{ asset('../img/dep/dep_colapinto.svg') }}"
+                                                alt="Imagen Nota 1">
+                                        </a>
                                         </a>
                                         <div class="py-4 px-6">
                                             <h1 class="text-lg font-serif">
@@ -142,23 +427,24 @@
                                 <li class="rounded-lg  border shadow border-emerald-600">
                                     <div class=" py-2 px-2 bg-gray-800">
                                         @php
-                                        $tituloSep = 'Sociedad-Noticia-Completa-soc148';
-                                    @endphp
-                                    <a href="{{ route('sociedadSep.show', $tituloSep) }}">
-                                        <img class="h-48 w-full object-cover object-center rounded-lg" src="../img/soc/soc_correo.svg"
-                                            alt="Imagen Nota 1">
-                                    </a>
-                                    <div class="py-4 px-6">
-                                        <h1 class="text-lg font-serif">
-                                            <a href="{{ route('sociedadSep.show', $tituloSep) }}">
-                                                GOBIERNO DESREGULA EL CORREO: ¿CAMBIO EN EL FUTURO DE LAS ELECCIONES?
-                                            </a>
-                                            {{--   <p class="font-light  text-lef text-gray-500">Por Gustavo Cano</p> --}}
-                                        </h1>
-                                    </div>
-                                    <div class="pt-4 text-white font-light text-right">
-                                        <p>Publicado: 11/11/2024</p>
-                                    </div>
+                                            $tituloSep = 'Sociedad-Noticia-Completa-soc148';
+                                        @endphp
+                                        <a href="{{ route('sociedadSep.show', $tituloSep) }}">
+                                            <img class="h-48 w-full object-cover object-center rounded-lg"
+                                                src="../img/soc/soc_correo.svg" alt="Imagen Nota 1">
+                                        </a>
+                                        <div class="py-4 px-6">
+                                            <h1 class="text-lg font-serif">
+                                                <a href="{{ route('sociedadSep.show', $tituloSep) }}">
+                                                    GOBIERNO DESREGULA EL CORREO: ¿CAMBIO EN EL FUTURO DE LAS
+                                                    ELECCIONES?
+                                                </a>
+                                                {{--   <p class="font-light  text-lef text-gray-500">Por Gustavo Cano</p> --}}
+                                            </h1>
+                                        </div>
+                                        <div class="pt-4 text-white font-light text-right">
+                                            <p>Publicado: 11/11/2024</p>
+                                        </div>
                                 </li>
                                 <!-- Nota B-3 -->
                                 <li class="rounded-lg  border shadow border-emerald-600">
@@ -170,11 +456,12 @@
                                             <img class="h-48 w-full object-cover object-center rounded-lg"
                                                 src="{{ asset('../img/pol/pol_acusa.svg') }}" alt="">
                                         </a>
-                                            <h1 class="text-lg  font-serif">
-                                                <a  class="p-2"href="{{ route('politicaSep.show', $tituloSep) }}">
-                                                    CRISTINA ACUSA A MILEI DE BUSCAR UNA ARGENTINA COMO &quot;COLONIA AGROEXPORTADORA&quot;
-                                                </a>
-                                            </h1>
+                                        <h1 class="text-lg  font-serif">
+                                            <a class="p-2"href="{{ route('politicaSep.show', $tituloSep) }}">
+                                                CRISTINA ACUSA A MILEI DE BUSCAR UNA ARGENTINA COMO &quot;COLONIA
+                                                AGROEXPORTADORA&quot;
+                                            </a>
+                                        </h1>
                                     </div>
                                     <div class="pt-4 text-white font-light text-right">
                                         <p class="p-2">Publicado: 10/11/2024</p>
@@ -184,23 +471,24 @@
                                 <li class="rounded-lg  border shadow border-emerald-600">
                                     <div class=" py-2 px-2 bg-gray-800">
                                         @php
-                                        $tituloSep = 'Sociedad-Noticia-Completa-soc147';
-                                    @endphp
-                                    <a href="{{ route('sociedadSep.show', $tituloSep) }}">
-                                        <img class="h-48 w-full object-cover object-center rounded-lg" src="../img/soc/soc_colonia.svg"
-                                            alt="Imagen Nota 1">
-                                    </a>
-                                    <div class="py-4 px-6">
-                                        <h1 class="text-lg font-serif">
-                                            <a href="{{ route('sociedadSep.show', $tituloSep) }}">
-                                                COLONIA HINOJO: ESCAPADA CULTURAL AL ​​PRIMER PUEBLO ALEMÁN DE ARGENTINA
-                                            </a>
-                                            {{--   <p class="font-light  text-lef text-gray-500">Por Gustavo Cano</p> --}}
-                                        </h1>
-                                    </div>
-                                    <div class="pt-4 text-white font-light text-right">
-                                        <p>Publicado: 10/11/2024</p>
-                                    </div>
+                                            $tituloSep = 'Sociedad-Noticia-Completa-soc147';
+                                        @endphp
+                                        <a href="{{ route('sociedadSep.show', $tituloSep) }}">
+                                            <img class="h-48 w-full object-cover object-center rounded-lg"
+                                                src="../img/soc/soc_colonia.svg" alt="Imagen Nota 1">
+                                        </a>
+                                        <div class="py-4 px-6">
+                                            <h1 class="text-lg font-serif">
+                                                <a href="{{ route('sociedadSep.show', $tituloSep) }}">
+                                                    COLONIA HINOJO: ESCAPADA CULTURAL AL ​​PRIMER PUEBLO ALEMÁN DE
+                                                    ARGENTINA
+                                                </a>
+                                                {{--   <p class="font-light  text-lef text-gray-500">Por Gustavo Cano</p> --}}
+                                            </h1>
+                                        </div>
+                                        <div class="pt-4 text-white font-light text-right">
+                                            <p>Publicado: 10/11/2024</p>
+                                        </div>
                                 </li>
                             </ul>
                         </section>
@@ -210,13 +498,13 @@
                             <ul class="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 py-6">
                                 <!-- Nota B-1 -->
                                 <li class="rounded-lg  border shadow border-emerald-600">
-                                        <div class=" py-2 px-2 bg-gray-800">
-                                            @php
+                                    <div class=" py-2 px-2 bg-gray-800">
+                                        @php
                                             $tituloSep = 'Sociedad-Noticia-Completa-soc146';
                                         @endphp
                                         <a href="{{ route('sociedadSep.show', $tituloSep) }}">
-                                            <img class="h-48 w-full object-cover object-center rounded-lg" src="../img/soc/soc_inmobiliario.svg"
-                                                alt="Imagen Nota 1">
+                                            <img class="h-48 w-full object-cover object-center rounded-lg"
+                                                src="../img/soc/soc_inmobiliario.svg" alt="Imagen Nota 1">
                                         </a>
                                         <div class="py-4 px-6">
                                             <h1 class="text-lg font-serif">
@@ -245,7 +533,8 @@
                                                 </a>
                                                 <h1 class="text-lg font-serif animate-fade-right text-white pt-2">
 
-                                                    <a href="{{ route('interSepNew.show', $tituloSep) }}">NUEVO MUSEO EGIPCIO ABRE SUS PUERTAS EN EL CAIRO</a>
+                                                    <a href="{{ route('interSepNew.show', $tituloSep) }}">NUEVO MUSEO
+                                                        EGIPCIO ABRE SUS PUERTAS EN EL CAIRO</a>
                                                 </h1>
 
                                             </h2>
@@ -257,18 +546,18 @@
                                 </li>
                                 <!-- Nota B-3 -->
                                 <li class="rounded-lg  border shadow border-emerald-600">
-                                        <div class=" py-2 px-2 bg-gray-800">
-                                            @php
+                                    <div class=" py-2 px-2 bg-gray-800">
+                                        @php
                                             $tituloSep = 'Sociedad-Noticia-Completa-soc145';
                                         @endphp
                                         <a href="{{ route('sociedadSep.show', $tituloSep) }}">
-                                            <img class="h-48 w-full object-cover object-center rounded-lg" src="../img/soc/soc_clima.svg"
-                                                alt="Imagen Nota 1">
+                                            <img class="h-48 w-full object-cover object-center rounded-lg"
+                                                src="../img/soc/soc_clima.svg" alt="Imagen Nota 1">
                                         </a>
                                         <div class="py-4 px-6">
                                             <h1 class="text-lg font-serif">
                                                 <a href="{{ route('sociedadSep.show', $tituloSep) }}">
-                                                LA OMS ALERTA: EL CAMBIO CLIMÁTICO PUEDE SALVAR MILLONES DE VIDAS
+                                                    LA OMS ALERTA: EL CAMBIO CLIMÁTICO PUEDE SALVAR MILLONES DE VIDAS
                                                 </a>
                                                 {{--   <p class="font-light  text-lef text-gray-500">Por Gustavo Cano</p> --}}
                                             </h1>
@@ -281,12 +570,12 @@
                                 <li class="rounded-lg  border shadow border-emerald-600">
                                     <div class=" py-2 px-2 bg-gray-800">
                                         @php
-                                        $tituloSep = 'Deportes-Noticia-Completa-dep16';
-                                    @endphp
-                                    <a href="{{ route('deportesSep.show', $tituloSep) }}">
-                                        <img class="h-48 w-full object-cover object-center rounded-lg"  src="{{ asset('../img/dep/dep_celbla.svg') }}"
-                                            alt="Imagen Nota 1">
-                                    </a>
+                                            $tituloSep = 'Deportes-Noticia-Completa-dep16';
+                                        @endphp
+                                        <a href="{{ route('deportesSep.show', $tituloSep) }}">
+                                            <img class="h-48 w-full object-cover object-center rounded-lg"
+                                                src="{{ asset('../img/dep/dep_celbla.svg') }}" alt="Imagen Nota 1">
+                                        </a>
                                         </a>
                                         <div class="py-4 px-6">
                                             <h1 class="text-lg font-serif">
@@ -306,57 +595,60 @@
 
                         {{-- de dos --}}
                         <section>
-                                <ul class="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-2  gap-4 py-4">
-                                    {{-- Nota A-1 --}}
-                                    <li class="rounded-lg  border shadow border-emerald-600">
-                                        <div class=" py-2 px-2 bg-gray-800">
-                                            <div class="pt-2 text-emerald-500">
-                                                <h2>
-                                                    @php
-                                                        $tituloSep = 'Sociedad-Noticia-Completa-soc144';
-                                                    @endphp
-                                                    <a href="{{ route('sociedadSep.show', $tituloSep) }}">
-                                                        <img class="h-48 w-full object-cover object-center rounded-lg"
-                                                            src="../img/soc/soc_verdad.svg" alt="Imagen Nota 1">
+                            <ul class="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-2  gap-4 py-4">
+                                {{-- Nota A-1 --}}
+                                <li class="rounded-lg  border shadow border-emerald-600">
+                                    <div class=" py-2 px-2 bg-gray-800">
+                                        <div class="pt-2 text-emerald-500">
+                                            <h2>
+                                                @php
+                                                    $tituloSep = 'Sociedad-Noticia-Completa-soc144';
+                                                @endphp
+                                                <a href="{{ route('sociedadSep.show', $tituloSep) }}">
+                                                    <img class="h-48 w-full object-cover object-center rounded-lg"
+                                                        src="../img/soc/soc_verdad.svg" alt="Imagen Nota 1">
+                                                </a>
+                                                <h1 class="text-lg font-serif animate-fade-right text-white pt-2">
+                                                    <a href="{{ route('sociedadSep.show', $tituloSep) }}">DILLOM
+                                                        ENFRENTÓ A UN TROLL DE MILEI EN PLENO
+                                                        VUELO</a>
+                                                </h1>
+                                            </h2>
+                                        </div>
+                                    </div>
+                                    <div class="font-light  text-right text-white bg-gray-800">
+                                        <p class="p-4">Publicado: 07/11/2024</p>
+                                    </div>
+                                </li>
+                                {{-- Nota A-2 --}}
+                                <li class="rounded-lg  border shadow border-emerald-600">
+                                    <div class=" py-2 px-2 bg-gray-800">
+                                        <div class="pt-2 text-emerald-500">
+                                            <h2>
+                                                @php
+                                                    $tituloSep = 'Internacionales-Noticia-Completa-int37';
+                                                @endphp
+
+                                                <a href="{{ route('interSepNew.show', $tituloSep) }}">
+                                                    <img class="h-48 w-full object-cover object-center rounded-lg"
+                                                        src="../img/int/int_puttin.svg" alt="Imagen Nota 1">
+                                                </a>
+                                                <h1 class="text-lg font-serif animate-fade-right text-white pt-2">
+
+                                                    <a href="{{ route('interSepNew.show', $tituloSep) }}">RUSIA Y
+                                                        VENEZUELA REFUERZAN SU ALIANZA CONTRA LAS SANCIONES OCCIDENTALES
                                                     </a>
-                                                    <h1 class="text-lg font-serif animate-fade-right text-white pt-2">
-                                                        <a href="{{ route('sociedadSep.show', $tituloSep) }}">DILLOM ENFRENTÓ A UN TROLL DE MILEI EN PLENO
-                                                            VUELO</a>
-                                                    </h1>
-                                                </h2>
-                                            </div>
-                                        </div>
-                                        <div class="font-light  text-right text-white bg-gray-800">
-                                            <p class="p-4">Publicado: 07/11/2024</p>
-                                        </div>
-                                    </li>
-                                    {{-- Nota A-2 --}}
-                                    <li class="rounded-lg  border shadow border-emerald-600">
-                                        <div class=" py-2 px-2 bg-gray-800">
-                                            <div class="pt-2 text-emerald-500">
-                                                <h2>
-                                                    @php
-                                                        $tituloSep = 'Internacionales-Noticia-Completa-int37';
-                                                    @endphp
 
-                                                    <a href="{{ route('interSepNew.show', $tituloSep) }}">
-                                                        <img class="h-48 w-full object-cover object-center rounded-lg"
-                                                            src="../img/int/int_puttin.svg" alt="Imagen Nota 1">
-                                                    </a>
-                                                    <h1 class="text-lg font-serif animate-fade-right text-white pt-2">
+                                                </h1>
 
-                                                        <a href="{{ route('interSepNew.show', $tituloSep) }}">RUSIA Y VENEZUELA REFUERZAN SU ALIANZA CONTRA LAS SANCIONES OCCIDENTALES </a>
-
-                                                    </h1>
-
-                                                </h2>
-                                            </div>
+                                            </h2>
                                         </div>
-                                        <div class="font-light  text-right text-white bg-gray-800">
-                                            <p class="p-4"> Publicado: 07/11/2024</p>
-                                        </div>
-                                    </li>
-                                </ul>
+                                    </div>
+                                    <div class="font-light  text-right text-white bg-gray-800">
+                                        <p class="p-4"> Publicado: 07/11/2024</p>
+                                    </div>
+                                </li>
+                            </ul>
                         </section>
 
                         {{--  x4 --}}
@@ -375,7 +667,8 @@
                                         <div class="p-2">
                                             <h1 class="text-lg font-serif">
                                                 <a href="{{ route('legislaturaSep.show', $tituloSep) }}">
-                                                    JULIO RICARDO PERSONALIDAD DESTACADA DEL PERIODISMO DEPORTIVO ARGENTINO
+                                                    JULIO RICARDO PERSONALIDAD DESTACADA DEL PERIODISMO DEPORTIVO
+                                                    ARGENTINO
                                                 </a>
                                                 {{--   <p class="font-light  text-lef text-gray-500">Por Gustavo Cano</p> --}}
                                         </div>
@@ -394,11 +687,11 @@
                                             <img class="h-48 w-full object-cover object-center rounded-lg"
                                                 src="{{ asset('../img/pol/pol_cristina.svg') }}" alt="">
                                         </a>
-                                            <h1 class="text-lg  font-serif">
-                                                <a  class="p-2"href="{{ route('politicaSep.show', $tituloSep) }}">
-                                                    CRISTINA KIRCHNER, NUEVA PRESIDENTA DEL PJ
-                                                </a>
-                                            </h1>
+                                        <h1 class="text-lg  font-serif">
+                                            <a class="p-2"href="{{ route('politicaSep.show', $tituloSep) }}">
+                                                CRISTINA KIRCHNER, NUEVA PRESIDENTA DEL PJ
+                                            </a>
+                                        </h1>
                                     </div>
                                     <div class="pt-4 text-white font-light text-right">
                                         <p class="p-2">Publicado: 06/11/2024</p>
@@ -406,22 +699,22 @@
                                 </li>
                                 <!-- Nota B-3 -->
                                 <li class="rounded-lg  border shadow border-emerald-600">
-                                        <div class=" py-2 px-2 bg-gray-800">
-                                            @php
-                                                $tituloSep = 'Agenda-Feminista-Completa-fem26';
-                                            @endphp
+                                    <div class=" py-2 px-2 bg-gray-800">
+                                        @php
+                                            $tituloSep = 'Agenda-Feminista-Completa-fem26';
+                                        @endphp
+                                        <a href="{{ route('feministaSep.show', $tituloSep) }}">
+                                            <img class="h-48 w-full object-cover object-center rounded-lg"
+                                                src="{{ asset('../img/fem/fem_red.svg') }}" alt="">
+                                        </a>
+                                        <h1 class="text-lg pt-2 font-serif">
                                             <a href="{{ route('feministaSep.show', $tituloSep) }}">
-                                                <img class="h-48 w-full object-cover object-center rounded-lg"
-                                                    src="{{ asset('../img/fem/fem_red.svg') }}" alt="">
+                                                PRESENTARON FEMINISMOS EN RED
                                             </a>
-                                                <h1 class="text-lg pt-2 font-serif">
-                                                    <a href="{{ route('feministaSep.show', $tituloSep) }}">
-                                                        PRESENTARON FEMINISMOS EN RED
-                                                    </a>
-                                        </div>
-                                        <div class="pt-4 text-white font-light text-right">
-                                            <p class="p-2">Publicado: 05/11/2024</p>
-                                        </div>
+                                    </div>
+                                    <div class="pt-4 text-white font-light text-right">
+                                        <p class="p-2">Publicado: 05/11/2024</p>
+                                    </div>
                                 </li>
                                 <!-- Nota B-4 -->
                                 <li class="rounded-lg  border shadow border-emerald-600">
@@ -436,7 +729,8 @@
                                         <div class="py-4 px-6">
                                             <h1 class="text-lg font-serif">
                                                 <a href="{{ route('legislaturaSep.show', $tituloSep) }}">
-                                                    JAVIER CASTRILLI Y MARTÍN CABRALES SON NUEVAS PERSONALIDADES DESTACADAS DE LA CIUDAD
+                                                    JAVIER CASTRILLI Y MARTÍN CABRALES SON NUEVAS PERSONALIDADES
+                                                    DESTACADAS DE LA CIUDAD
                                                 </a>
                                                 {{--   <p class="font-light  text-lef text-gray-500">Por Gustavo Cano</p> --}}
                                         </div>
@@ -448,288 +742,6 @@
                             </ul>
                         </section>
 
-                        {{--  x4 --}}
-                        <section>
-                            <ul class="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 py-6">
-                                <!-- Nota B-1 -->
-                                <li class="rounded-lg  border shadow border-emerald-600">
-                                    <div class=" py-2 px-2 bg-gray-800">
-                                        @php
-                                            $tituloSep = 'Sociedad-Noticia-Completa-soc143';
-                                        @endphp
-                                        <a href="{{ route('sociedadSep.show', $tituloSep) }}">
-                                            <img class="h-48 w-full object-cover object-center rounded-lg"
-                                                src="../img/soc/soc_bochorno.svg" alt="Imagen Nota 1">
-                                        </a>
-                                        <div class="py-4 px-6">
-                                            <h1 class="text-lg font-serif">
-                                                <a href="{{ route('sociedadSep.show', $tituloSep) }}">
-                                                    MILEI, EL SHOW MEDIÁTICO Y LA DESVIACIÓN DE LOS PROBLEMAS REALES
-                                                </a>
-                                                {{--   <p class="font-light  text-lef text-gray-500">Por Gustavo Cano</p> --}}
-                                            </h1>
-                                        </div>
-                                        <div class="pt-4 text-white font-light text-right">
-                                            <p class="p-2">Publicado: 04/11/2024</p>
-                                        </div>
-                                    </div>
-                                </li>
-                                <!-- Nota B-2 -->
-                                <li class="rounded-lg  border shadow border-emerald-600">
-                                    <div class=" py-2 px-2 bg-gray-800">
-                                        @php
-                                            $tituloSep = 'Sociedad-Noticia-Completa-soc142';
-                                        @endphp
-                                        <a href="{{ route('sociedadSep.show', $tituloSep) }}">
-                                            <img class="h-48 w-full object-cover object-center rounded-lg"
-                                                src="../img/soc/soc_gobernador.svg" alt="Imagen Nota 1">
-                                        </a>
-                                        <div class="py-4 px-6">
-                                            <h1 class="text-lg font-serif">
-                                                <a href="{{ route('sociedadSep.show', $tituloSep) }}">
-                                                    KICILLOF DENUNCIA LA SUSPENSIÓN DE OBRAS Y EXIGE RECURSOS A MILEI
-                                                </a>
-                                                {{--   <p class="font-light  text-lef text-gray-500">Por Gustavo Cano</p> --}}
-                                            </h1>
-                                        </div>
-                                        <div class="pt-4 text-white font-light text-right">
-                                            <p class="p-2">Publicado: 04/11/2024</p>
-                                        </div>
-                                    </div>
-                                </li>
-                                <!-- Nota B-3 -->
-                                <li class="rounded-lg  border shadow border-emerald-600">
-                                    <div class=" py-2 px-2 bg-gray-800">
-                                        @php
-                                            $tituloSep = 'Agenda-Feminista-Completa-fem25';
-                                        @endphp
-                                        <a href="{{ route('feministaSep.show', $tituloSep) }}">
-                                            <img class="h-48 w-full object-cover object-center rounded-lg"
-                                                src="{{ asset('../img/fem/fem_orgullo_24.svg') }}" alt="">
-                                        </a>
-                                            <h1 class="text-lg font-serif">
-                                                <a href="{{ route('feministaSep.show', $tituloSep) }}">
-                                                    LA MARCHA DEL ORGULLO SE ALZA CONTRA EL GOBIERNO DE ULTRADERECHA
-                                                </a>
-                                    </div>
-                                    <div class="pt-4 text-white font-light text-right">
-                                        <p class="p-2">Publicado: 03/11/2024</p>
-                                    </div>
-                                </li>
-                                <!-- Nota B-4 -->
-                                <li class="rounded-lg  border shadow border-emerald-600 ">
-                                    <div class=" py-2 px-4">
-                                        <div class="pt-2 text-emerald-500">
-                                            <h2>
-                                                @php
-                                                    $tituloSep = 'Derechos-Humanos-Noticia-Completa-der39';
-                                                @endphp
-                                                <a href="{{ route('derechoSep.show', $tituloSep) }}">
-                                                    <img class="h-56  w-full object-cover rounded-lg border-gray-900 "
-                                                        src="{{ asset('../img/der/der_mirta.svg') }}" alt="">
-                                                </a>
-                                                <h1 class="text-lg font-serif animate-fade-right text-white">
-                                                    <a href="{{ route('derechoSep.show', $tituloSep) }}">MURIÓ MIRTA BARAVALLE, UNA VIDA DE BÚSQUEDA Y DIGNIDAD
-                                                    </a>
-                                                </h1>
-                                            </h2>
-                                        </div>
-                                    </div>
-                                    <div class="font-light  text-right text-white bg-gray-800">
-                                        <p class="p-4">Publicado: 03/11/2024</p>
-                                    </div>
-                                </li>
-                            </ul>
-                        </section>
-
-                        {{--  x4 --}}
-                        <section>
-                            <ul class="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 py-6">
-                                <!-- Nota B-1 -->
-                                <li class="rounded-lg  border shadow border-emerald-600">
-                                    <div class=" py-2 px-2 bg-gray-800">
-                                        @php
-                                            $tituloSep = 'Sociedad-Noticia-Completa-soc141';
-                                        @endphp
-                                        <a href="{{ route('sociedadSep.show', $tituloSep) }}">
-                                            <img class="h-48 w-full object-cover object-center rounded-lg"
-                                                src="../img/soc/soc_alfon.svg" alt="Imagen Nota 1">
-                                        </a>
-                                        <div class="py-4 px-6">
-                                            <h1 class="text-lg font-serif">
-                                                <a href="{{ route('sociedadSep.show', $tituloSep) }}">
-                                                    ALFONSÍN: &#39;LA DEMOCRACIA ES UNA ABERRACIÓN PARA EL PRESIDENTE&#39
-                                                </a>
-                                                {{--   <p class="font-light  text-lef text-gray-500">Por Gustavo Cano</p> --}}
-                                            </h1>
-                                        </div>
-                                        <div class="pt-4 text-white font-light text-right">
-                                            <p class="p-2">Publicado: 02/11/2024</p>
-                                        </div>
-                                    </div>
-                                </li>
-                                <!-- Nota B-2 -->
-                                <li class="rounded-lg  border shadow border-emerald-600">
-                                    <div class=" py-2 px-2 bg-gray-800">
-                                        @php
-                                            $tituloSep = 'Sociedad-Noticia-Completa-soc140';
-                                        @endphp
-                                        <a href="{{ route('sociedadSep.show', $tituloSep) }}">
-                                            <img class="h-48 w-full object-cover object-center rounded-lg"
-                                                src="../img/soc/soc_uni.svg" alt="Imagen Nota 1">
-                                        </a>
-                                        <div class="py-4 px-6">
-                                            <h1 class="text-lg font-serif">
-                                                <a href="{{ route('sociedadSep.show', $tituloSep) }}">
-                                                    ROBAN DOCUMENTOS EN NUEVO ATAQUE A LA UNIVERSIDAD DE LAS MADRES
-                                                </a>
-                                                {{--   <p class="font-light  text-lef text-gray-500">Por Gustavo Cano</p> --}}
-                                            </h1>
-                                        </div>
-                                        <div class="pt-4 text-white font-light text-right">
-                                            <p class="p-2">Publicado: 02/11/2024</p>
-                                        </div>
-                                    </div>
-                                </li>
-                                <!-- Nota B-3 -->
-                                <li class="rounded-lg  border shadow border-emerald-600">
-                                    <div class=" py-2 px-2 bg-gray-800">
-                                        @php
-                                            $tituloSep = 'Politica-Noticia-Completa-pol92';
-                                        @endphp
-                                        <a href="{{ route('politicaSep.show', $tituloSep) }}">
-                                            <img class="h-48 w-full object-cover object-center rounded-lg"
-                                                src="{{ asset('../img/pol/pol_nafta.svg') }}" alt="">
-                                        </a>
-                                            <h1 class="text-lg font-serif">
-                                                <a href="{{ route('politicaSep.show', $tituloSep) }}">
-                                                    SUBE EL PRECIO DE LOS COMBUSTIBLES
-                                                </a>
-                                    </div>
-                                    <div class="pt-4 text-white font-light text-right">
-                                        <p class="p-2">Publicado: 01/11/2024</p>
-                                    </div>
-                                </li>
-                                <!-- Nota B-4 -->
-                                <li class="rounded-lg  border shadow border-emerald-600">
-                                    <div class=" py-2 px-2 bg-gray-800">
-                                        @php
-                                            $tituloSep = 'Politica-Noticia-Completa-pol91';
-                                        @endphp
-                                        <a href="{{ route('politicaSep.show', $tituloSep) }}">
-                                            <img class="h-48 w-full object-cover object-center rounded-lg"
-                                                src="{{ asset('../img/pol/pol_gestion.svg') }}" alt="">
-                                        </a>
-                                        <div class="py-4 px-6">
-                                            <h1 class="text-lg font-serif">
-                                                <a href="{{ route('politicaSep.show', $tituloSep) }}">
-                                                    EL 50% DE LOS ARGENTINOS RECHAZA LA GESTIÓN DE MILEI
-                                                </a>
-                                                {{--   <p class="font-light  text-lef text-gray-500">Por Gustavo Cano</p> --}}
-                                        </div>
-                                        <div class="pt-4 text-white font-light text-right">
-                                            <p>Publicado: 01/11/2024</p>
-                                        </div>
-                                    </div>
-                                </li>
-                            </ul>
-                        </section>
-
-                        {{--  x4 --}}
-                        <section>
-                            <ul class="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 py-6">
-                                <!-- Nota B-1 -->
-                                <li class="rounded-lg  border shadow border-emerald-600 ">
-                                    <div class=" py-2 px-4">
-                                        <div class="pt-2 text-emerald-500">
-                                            <h2>
-                                                @php
-                                                    $tituloSep = 'Derechos-Humanos-Noticia-Completa-der38';
-                                                @endphp
-                                                <a href="{{ route('derechoSep.show', $tituloSep) }}">
-                                                    <img class="h-56  w-full object-cover rounded-lg border-gray-900 "
-                                                        src="{{ asset('../img/der/der_laPerla.svg') }}" alt="">
-                                                </a>
-                                                <h1 class="text-lg font-serif animate-fade-right text-white">
-                                                    <a href="{{ route('derechoSep.show', $tituloSep) }}">LAS PROVINCIAS
-                                                        EXIGEN ACCIONES CONCRETAS AL GOBIERNO NACIONAL
-                                                    </a>
-                                                </h1>
-                                            </h2>
-                                        </div>
-                                    </div>
-                                    <div class="font-light  text-right text-white bg-gray-800">
-                                        <p class="p-4">Publicado: 31/10/2024</p>
-                                    </div>
-                                </li>
-                                <!-- Nota B-2 -->
-                                <li class="rounded-lg  border shadow border-emerald-600">
-                                    <div class=" py-2 px-2 bg-gray-800">
-                                        @php
-                                            $tituloSep = 'Politica-Noticia-Completa-pol90';
-                                        @endphp
-                                        <a href="{{ route('politicaSep.show', $tituloSep) }}">
-                                            <img class="h-48 w-full object-cover object-center rounded-lg"
-                                                src="{{ asset('../img/pol/pol_descarga.svg') }}" alt="">
-                                        </a>
-                                        <h1 class="text-lg font-serif animate-fade-right text-white">
-                                            <a href="{{ route('politicaSep.show', $tituloSep) }}">
-                                                MILEI ECHA A MONDINO Y SE RADICALIZA
-                                            </a>
-                                            {{--   <p class="font-light  text-lef text-gray-500">Por Gustavo Cano</p> --}}
-                                    </div>
-                                    <div class="pt-4 text-white font-light text-right">
-                                        <p class="p-2">Publicado: 31/10/2024</p>
-                                    </div>
-                                </li>
-                                <!-- Nota B-3 -->
-                                <li class="rounded-lg  border shadow border-emerald-600">
-                                    <div class=" py-2 px-2 bg-gray-800">
-                                        @php
-                                            $tituloSep = 'Politica-Noticia-Completa-pol89';
-                                        @endphp
-                                        <a href="{{ route('politicaSep.show', $tituloSep) }}">
-                                            <img class="h-48 w-full object-cover object-center rounded-lg"
-                                                src="{{ asset('../img/pol/pol_frenar.svg') }}" alt="">
-                                        </a>
-                                        <div class="py-4 px-6">
-                                            <h1 class="text-lg font-serif">
-                                                <a href="{{ route('politicaSep.show', $tituloSep) }}">
-                                                    UN NUEVO ESPACIO PARA FRENAR A MILEI Y ELMACRISMO EN CABA
-                                                </a>
-                                                {{--   <p class="font-light  text-lef text-gray-500">Por Gustavo Cano</p> --}}
-                                        </div>
-                                        <div class="pt-4 text-white font-light text-right">
-                                            <p>Publicado: 30/10/2024</p>
-                                        </div>
-                                    </div>
-                                </li>
-                                <!-- Nota B-4 -->
-                                <li class="rounded-lg  border shadow border-emerald-600">
-                                    <div class=" py-2 px-2 bg-gray-800">
-                                        @php
-                                            $tituloSep = 'Sociedad-Noticia-Completa-soc139';
-                                        @endphp
-                                        <a href="{{ route('sociedadSep.show', $tituloSep) }}">
-                                            <img class="h-48 w-full object-cover object-center rounded-lg"
-                                                src="../img/soc/soc_ia.svg" alt="Imagen Nota 1">
-                                        </a>
-                                        <div class="py-4 px-6">
-                                            <h1 class="text-lg font-serif">
-                                                <a href="{{ route('sociedadSep.show', $tituloSep) }}">
-                                                    ¡BATALLA POR LA PROPIEDAD INTELECTUAL! 13.500
-                                                    ARTISTAS ENFRENTAN A LA IA
-                                                </a>
-                                                {{--   <p class="font-light  text-lef text-gray-500">Por Gustavo Cano</p> --}}
-                                            </h1>
-                                        </div>
-                                        <div class="pt-4 text-white font-light text-right">
-                                            <p>Publicado: 30/10/2024</p>
-                                        </div>
-                                    </div>
-                                </li>
-                            </ul>
-                        </section>
 
 
                         {{-- videos --}}

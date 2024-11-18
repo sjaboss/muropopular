@@ -3536,6 +3536,176 @@
                 @livewire('lateral')
             </div>
         </section>
+        @elseif ($tituloSep == 'Agenda-Feminista-Completa-fem27')
+        <section>
+            <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                <div class=" col-span-4">
+                    <ul>
+                        <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                            <article>
+
+                                <div class="py-4 px-4 justify-between items-center">
+                                    <h2 class="text-xl font-serif  font-bold pb-6">
+                                        <a href="">EL GOBIERNO DE KICILLOF IMPULSA DEBATES
+                                            CLAVE SOBRE GÉNERO Y SALUD</a>
+                                        <p class="font-light  text-right text-gray-500">Publicado: 13/11/2024</p>
+                                    </h2>
+                                    <p><i>La Jornada Preparatoria del 4° Congreso “Estado Presente” busca fortalecer
+                                        estrategias ante las violencias por razones de género, consumos problemáticos
+                                        y salud mental. Será el 28 de noviembre en Ensenada.</i>
+                                    </p>
+                                    <br>
+                                    <figure>
+                                        <img class="w-full object-cover" src="../img/fem/fem_gobierno1.svg"
+                                            alt="">
+                                    </figure>
+                                    {{-- <article>
+                                        <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/KgLeMhUAufY?si=LCmXJy-t6RqfgsUb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+                                    </article> --}}
+                                    <br>
+                                    <div
+                                        class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                        <div class=" font-sans text-lg text-left col-span-6  ">
+                                            <p>El próximo 28 de noviembre, la Facultad de Humanidades y Ciencias de la
+                                                Educación de la UNLP será sede de la Jornada Preparatoria hacia el 4°
+                                                Congreso “Estado Presente”. La iniciativa, impulsada por el Ministerio de
+                                                Mujeres y Diversidad de la provincia de Buenos Aires, busca generar un
+                                                espacio de debate sobre los nuevos desafíos en la intervención frente a
+                                                violencias por razones de género, salud mental y consumos problemáticos.
+                                            </p>
+                                            <br>
+                                            <p>La jornada se desarrollará en el marco del Día Internacional de la Eliminación
+                                                de las Violencias contra las Mujeres y contará con mesas temáticas, paneles y
+                                                actividades culturales. Según Laurana Malacalza, subsecretaria de Políticas
+                                                Contra las Violencias, “este evento es clave para construir respuestas
+                                                integrales basadas en derechos humanos y perspectiva de género”.
+                                            </p>
+                                            <br>
+                                            <p>Entre los temas a tratar, destacan la institucionalización de la perspectiva de
+                                                género, el impacto de la crisis socioeconómica en mujeres y personas LGBTI+,
+                                                y los desafíos en el uso de datos sobre violencias de género. También se
+                                                abordará cómo los consumos problemáticos y la salud mental se relacionan
+                                                con estas problemáticas.
+                                                <p>
+                                            <br>
+                                            <p>La jornada comenzará a las 10 de la mañana con un panel de apertura,
+                                                seguido por el conversatorio “Abordaje de las violencias por razones de género:
+                                                experiencias, desafíos y sentidos en contexto”. A partir de las 14:30 horas, se
+                                                desarrollarán mesas temáticas sobre ejes como las nuevas masculinidades, los
+                                                aportes de la investigación y la integralidad en el abordaje de las violencias.
+                                            </p>
+                                            <br>
+                                            <p>El evento finalizará con paneles simultáneos que explorarán estrategias
+                                                feministas frente al odio, el papel de las redes sociales en la construcción de
+                                                sentidos y el abordaje de violencias en las universidades, entre otros temas.
+                                                Además, habrá stands, ferias y actividades culturales que exhibirán las políticas
+                                                públicas impulsadas por el gobierno provincial.
+                                            </p>
+                                            <br>
+                                            <p>La inscripción es libre y gratuita, y quienes participen recibirán certificados. Con
+                                                esta jornada, el gobierno bonaerense reafirma su compromiso con la
+                                                construcción de un Estado presente en la lucha contra las violencias y la
+                                                promoción de la equidad de género.
+                                            </p>
+                                            <br>
+                                        </div>
+                                    </div>
+                            </article>
+                        </li>
+                    </ul>
+                    <br>
+                </div>
+                @livewire('lateral')
+            </div>
+        </section>
+        @elseif ($tituloSep == 'Agenda-Feminista-Completa-fem28')
+        <section>
+            <div class="grid grid-cols-1 pl-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 shrink-0 ">
+                <div class=" col-span-4">
+                    <ul>
+                        <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                            <article>
+
+                                <div class="py-4 px-4 justify-between items-center">
+                                    <h2 class="text-xl font-serif  font-bold pb-6">
+                                        <a href="">ESTELA DÍAZ REFUERZA LAZOS FEMINISTAS ANTE
+                                            LOS AJUSTES DEL GOBIERNO</a>
+                                        <p class="font-light  text-right text-gray-500">Publicado: 18/11/2024</p>
+                                    </h2>
+                                    <p><i>En una visita clave a Madrid, la ministra bonaerense destacó la importancia de
+                                        la cooperación internacional para contrarrestar los retrocesos en políticas de
+                                        género impulsadas desde Argentina.</i>
+                                    </p>
+                                    <br>
+                                    <figure>
+                                        <img class="w-full object-cover" src="../img/fem/fem_diaz.svg"
+                                            alt="">
+                                    </figure>
+                                    {{-- <article>
+                                        <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/KgLeMhUAufY?si=LCmXJy-t6RqfgsUb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+                                    </article> --}}
+                                    <br>
+                                    <div
+                                        class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                        <div class=" font-sans text-lg text-left col-span-6  ">
+                                            <p>En medio de un panorama global marcado por el avance de las ultraderechas,
+                                                la ministra de Mujeres y Diversidad de la provincia de Buenos Aires, Estela
+                                                Díaz, realizó una gira por Madrid donde participó en reuniones estratégicas con
+                                                referentes de la política y el feminismo. internacional. Invitada por la
+                                                Confederación Sindical de Comisiones Obreras (CCOO), su visita estuvo
+                                                destinada a fortalecer la cooperación en políticas públicas de género y
+                                                denunciar los recortes aplicados por el gobierno argentino en esta materia.
+                                            </p>
+                                            <br>
+                                            <p>Durante su encuentro con la ministra de Igualdad española, Ana Redondo
+                                                García, Díaz intercambió experiencias sobre la implementación de estrategias
+                                                para erradicar las violencias de género y promover la inclusión laboral de
+                                                mujeres y diversidades. Ambas funcionarias coincidieron en la necesidad de
+                                                resistir a los ataques que las fuerzas conservadoras lanzan contra los derechos
+                                                conquistados, una amenaza que en Argentina se materializa en drásticos
+                                                recortes presupuestarios y desmantelamiento de programas esenciales.
+                                            </p>
+                                            <br>
+                                            <p>En reuniones con la Agencia Española de Cooperación Internacional para el
+                                                Desarrollo y referentes de partidos progresistas como Sumar y el Bloque
+                                                Nacionalista Gallego, Díaz abogó por un trabajo conjunto que trascienda
+                                                fronteras. Asimismo, en el Congreso de los Diputados y el Senado español,
+                                                destacó la urgencia de proteger los avances logrados frente a los discursos de
+                                                odio y las políticas de ajuste.
+                                                <p>
+                                            <br>
+                                            <p>La presentación de su libro ¿Por qué odian? Diálogos feministas en tiempos de
+                                                ultraderechas fueron otro punto central de su agenda. En la Sala Trece Rosas
+                                                de Madrid, junto a referentes de la CCOO, la ministra reflexionó sobre el
+                                                impacto del auge global de la derecha extrema y la importancia de construir
+                                                redes feministas sólidas para resistir estos embates.
+                                            </p>
+                                            <br>
+                                            <p>La visita culminó con un encuentro con la comunidad argentina en Madrid,
+                                                donde Díaz reforzó el compromiso de la provincia de Buenos Aires como
+                                                bastión frente a las políticas neoliberales. “Garantizar la continuidad de las
+                                                políticas de género y luchar por los derechos humanos es una prioridad en este
+                                                contexto crítico”, aseguró la ministra.
+                                            </p>
+                                            <br>
+                                            <p>Frente a un gobierno nacional que fue el único en votar contra una resolución
+                                                de la ONU sobre la eliminación de la violencia contra las mujeres, Estela Díaz
+                                                subrayó la importancia de la solidaridad internacional y el papel clave de los
+                                                feminismos para salvar la justicia social y la igualdad.
+                                            </p>
+                                            <br>
+                                        </div>
+                                    </div>
+                            </article>
+                        </li>
+                    </ul>
+                    <br>
+                </div>
+                @livewire('lateral')
+            </div>
+        </section>
 
 
     @endif

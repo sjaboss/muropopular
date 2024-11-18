@@ -1,7 +1,94 @@
 <x-app-layout>
     <div class="container ">
 @livewire('superior')
-
+{{--HORACIO PAGANI NUEVA PERSONALIDAD DESTACADA EN EL ÁMBITO DE LA CULTURA  --}}
+<section>
+            <ul>
+                <li class=" bg-white rounded-lg shadow mb-2"> {{-- primera --}}
+                    <article>
+                        <div class="py-4 px-4 justify-between items-center">
+                            <h2 class="text-xl font-serif  font-bold pb-6">
+                                <a href="">HORACIO PAGANI NUEVA PERSONALIDAD
+                                    DESTACADA EN EL ÁMBITO DE LA CULTURA
+                                </a>
+                            </h2>
+                            <p class="font-light  text-right text-gray-500">Publicado:17/11/2024</p>
+                            <p><i>El empresario y diseñador de automóviles argentino-italiano fue reconocido por
+                                su trayectoria.
+                            </i></p>
+                            <br>
+                            <figure>
+                                <a href="">
+                                    <img class="w-full object-cover object-center"
+                                        src="{{ asset('../img/leg/leg_pagani.svg') }}"
+                                        alt="">
+                                </a>
+                            </figure>
+                            <br>
+                            <div
+                                class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 shrink-0 ">
+                                <div class=" font-sans text-lg text-left col-span-6  ">
+                                    <p>Durante un evento realizado en el Salón Dorado del Palacio Legislativo, se
+                                        llevó a cabo la entrega del diploma que declaró como Personalidad Destacada
+                                        en el ámbito de la Cultura y del Desarrollo Económico al empresario y
+                                        diseñador automovilístico Horacio Pagani. El acto contó con la presencia de la
+                                        diputada y autora del proyecto, Sandra Rey; el vicepresidente primero, Matías
+                                        López; el embajador de Italia en Argentina, Fabrizio Lucentini; el artista
+                                        plástico, Eugenio Cuttica; invitados y el homenajeado.
+                                    </p>
+                                    <br>
+                                    <p>Sandra Rey recorrió la trayectoria del diseñador marcando hitos que lo trajeron
+                                        a ser reconocido por la Legislatura de la Ciudad, no sólo por ser un
+                                        representante de la cultura sino también en el desarrollo económico. Además,
+                                        remarcó: “Es fundamental resaltar el valor del trabajo, el esfuerzo y el mérito,
+                                        así como el papel de la iniciativa privada en el desarrollo económico. Estos
+                                        principios pueden marcar una diferencia al promover la iniciativa empresarial,
+                                        donde diseñadores como Horacio Pagani, con su talento y creatividad,
+                                        contribuyen a fortalecer la industria y aportar valores e innovación.&quot;
+                                    </p>
+                                    <br>
+                                    <p>“El artista es quien tiene el poder de transformar la realidad, es el que puede
+                                        llevar los sueños a la materialidad y el señor Horacio Pagani es un artista con
+                                        mayúsculas, que nos enorgullece en todo el mundo.” remarcó Eugenio Cuttica                                                     
+                                        La diputada procedió a realizar una entrevista al homenajeado para abordar
+                                        qué lo llevó a iniciarse; dónde radica su inspiración y referentes; y qué consejos
+                                        daría a quiénes están del otro lado.
+                                        </p><br>
+                                        <p>“Quienes tienen un sueño, una vez que se instala hay que llevarlo adelante. No
+                                            rendirse y seguir la intuición, creyendo en las personas, en nuestro equipo para
+                                            poder seguir. Es esto lo que nos mantiene vivo” respondió Pagani. Por último,
+                                            agradeció a los presentes por el reconocimiento y el acompañamiento.
+                                            </p><br>
+                                            <p>Horacio Pagani, nacido en Casilda, Santa Fe, en 1955, mostró desde niño una
+                                                gran pasión por el automovilismo, la cual cultivó a lo largo de su vida. Estudió
+                                                diseño industrial en la Universidad Nacional de La Plata y luego ingeniería
+                                                mecánica en la Universidad Nacional de Rosario, aunque abandonó los
+                                                estudios para dedicarse al diseño automotriz. Su primer trabajo en el mundo de
+                                                los autos de carrera fue en la Fórmula 2 Renault. Tras ganar un concurso de
+                                                diseño, conectó con figuras importantes del sector, como Juan Manuel Fangio,
+                                                quien lo recomendó para trabajar en marcas como Ferrari y Lamborghini. En
+                                                Lamborghini, Pagani alcanzó el puesto de ingeniero en jefe y fundó Pagani
+                                                Composite Research, empresa que desarrollaba materiales compuestos para
+                                                vehículos y colaboraba en importantes proyectos de la marca.
+                                                </p><br>
+                                                <p>En 1991, fundó Pagani Modena Design, orientada a la producción de prototipos
+                                                    y servicios de diseño. Su primer modelo icónico, el Zonda C12, se presentó en
+                                                    el Salón de Ginebra en 1999, consolidando su reputación como fabricante de
+                                                    superdeportivos. La empresa lanzó otros modelos de gran éxito, como el Zonda
+                                                    Cinque, el Zonda HP Barchetta, y el Huayra. Pagani Automobili S.p.A., con
+                                                    sede en Módena, Italia, ha sido reconocida globalmente y es destacada por su
+                                                    innovación en el uso de fibra de carbono y su contribución a la industria
+                                                    automotriz. En 2022, presentó su más reciente creación, el modelo Utopia,
+                                                    consolidando su éxito en el mercado mundial de superdeportivos y generando
+                                                    empleo en su sector.
+                                                    </p><br>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </li>
+            </ul>
+</section>
 {{--JULIO RICARDO PERSONALIDAD DESTACADA DEL PERIODISMO DEPORTIVO ARGENTINO  --}}
 <section>
             <ul>
