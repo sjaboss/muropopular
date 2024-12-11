@@ -32,6 +32,7 @@ class SeccionsepController extends Controller
                 $noticias = $noticias->where('fecha', $request->input('fecha'));
             } */
 
+
             // Paginación
             $noticias = $noticias->orderBy('fecha', 'desc')
                 ->paginate(3);
@@ -39,7 +40,7 @@ class SeccionsepController extends Controller
             return view('noticiaSep.index', compact('seccion_obj', 'noticias', 'secciones', 'publicidades'));
         } else {
             // Mostrar un mensaje de error o redirigir a otra página
-            return redirect()->route('home')->withErrors('Sección no encontrada');
+            return redirect()->route('home')->withErrors('Sección no encontrada por el momento');
 
         }
     }
