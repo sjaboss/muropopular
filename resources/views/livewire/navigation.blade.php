@@ -1,7 +1,7 @@
 <header class="bg-gray-800 sticky top-0 z-50" x-data="dropdown()">
 
     <div class="container flex items-center h-16 justify-between md:justify-start">
-    
+
         <a :class="{ 'bg-opacity-100 text-emerald-700 ': open }" x-on:click="show()"
             class="flex flex-col items-center justify-center px-6 md:px-4 order-last md:order-first bg-white bg-opacity-25 text-white cursor-pointer font-semiboldsemi h-full">
             <svg class="h-6 w-6" stroke="currentColor" fill="none" viewBox="0 0 24 24">
@@ -17,22 +17,26 @@
             <img src="{{ asset('img/publi/logo_blanco.svg') }}" class="block  h-28 w-auto">
         </a>
 
-        
 
-         <div class="flex-1 hidden md:block">
-           {{--   @livewire('search')  --}}
-        </div> 
+
+        <div class="flex-1 hidden md:block">
+            {{--   @livewire('search')  --}}
+        </div>
 
         {{--     <a href="">{{ $now->format('d-m-Y'  ) }}</a>  --}}
 
         {{-- Redes Seociales --}}
+
+        <style>
+            .img_redes {
+                width: 25px;
+                height: 25px;
+                object-fit: cover;
+            }
+        </style>
         <div class="flex justify-end pt-6 pb-6 gap-3">
             <a href="https://x.com/AdnPopulares?t=vD2xXNELA_tShOoitX_ZzQ&s=09" target="_blank">
-                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
-                    class="bi bi-twitter" viewBox="0 0 16 16">
-                    <path
-                        d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
-                </svg>
+                <img src="{{ asset('img/redes/x.png') }}" class="img_redes" alt="FlowBite Logo" />
             </a>
             <a href="https://www.instagram.com/adnpopulares?utm_source=qr&igsh=M2xrd2Y4eWNjMDZ3" target="_blank">
                 <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
@@ -121,7 +125,7 @@
                             {{ __('Login') }}
                         </x-jet-dropdown-link>
 
-                        <x-jet-dropdown-link href="{{ route('register') }}">
+                         <x-jet-dropdown-link href="{{ route('register') }}">
                             {{ __('Register') }}
                         </x-jet-dropdown-link>
 
@@ -133,146 +137,63 @@
 
     </div>
 
+    <style>
+        .seccion-lista li {
+            padding: 10px;
+            margin-bottom: 1px;
+            border-bottom: 1px solid #ccc;
+
+            #navigation-menu {
+                transition: opacity 0.5s;
+            }
+        }
+    </style>
+
     <nav id="navigation-menu" x-show="open" :class="{ 'block': open, 'hidden': !open }"
         class="bg-gray-700 bg-opacity-25 absolute w-full hidden">
         <div class="container h-full hidden md:block">
             <div x-on:click.away="close()" class="grid grid-cols-4 h-full relative">
-                <ul class="bg-gray-900">
-
+                <ul class="seccion-lista li">
                     @php
-                        $titulo = 'Noticia-Completa';
-                        $tituloSoc = 'Sociedad-Noticia-Completa';
-                        $tituloPol = 'Policiales-Noticia-Completa';
-                        $tituloEco = 'Ecomomía-Noticia-Completa';
-                        $tituloGre = 'Gremiales-Noticia-Completa';
-                        $tituloCul = 'Cultura-Noticia-Completa';
-                        $tituloInt = 'Internacionales-Noticia-Completa';
-                        $tituloDer = 'Derechos-Humanos-Noticia-Completa';
-                        $tituloLeg = 'Legislatura-Noticia-Completa';
-                        $tituloDep = 'Deportes-Noticia-Completa';
-                        $tituloFem = 'Agenda-Feminista-Noticia-Completa';
+                        use App\Models\Seccion;
+                        $secciones = Seccion::all();
                     @endphp
-                    <li class="text-gray-500 hover:bg-emerald-600 hover:text-white "><a
-                            href="{{ route('sociedad.show', $tituloSoc) }}"
-                            class="py-2 px-4 text-sm flex items-center">Sociedad</a></li>
 
-                    <li class="text-gray-500 hover:bg-emerald-600 hover:text-white "><a
-                            href="{{ route('politica.show', $titulo) }}"
-                            class="py-2 px-4 text-sm flex items-center">Politica</a></li>
-
-                    <li class="text-gray-500 hover:bg-emerald-600 hover:text-white "><a
-                            href="{{ route('economia.show', $tituloEco) }}"
-                            class="py-2 px-4 text-sm flex items-center">Economía</a></li>
-
-                    <li class="text-gray-500 hover:bg-emerald-600 hover:text-white "><a
-                            href="{{ route('feminista.show', $tituloFem) }}"
-                            class="py-2 px-4 text-sm flex items-center">Agenda Feminista</a></li>
-
-
-                    <li class="text-gray-500 hover:bg-emerald-600 hover:text-white "><a
-                            href="{{ route('inter.show', $tituloInt) }}"
-                            class="py-2 px-4 text-sm flex items-center">Internacionales</a></li>
-
-
-                    <li class="text-gray-500 hover:bg-emerald-600 hover:text-white "><a
-                            href="{{ route('gremial.show', $tituloGre) }}"
-                            class="py-2 px-4 text-sm flex items-center">Gremiales</a></li>
-
-                    <li class="text-gray-500 hover:bg-emerald-600 hover:text-white "><a
-                            href="{{ route('cultura.show', $tituloCul) }}"
-                            class="py-2 px-4 text-sm flex items-center">Cultura</a></li>
-
-                    <li class="text-gray-500 hover:bg-emerald-600 hover:text-white "><a
-                            href="{{ route('derechos.show', $tituloDer) }}"
-                            class="py-2 px-4 text-sm flex items-center">Derechos Humanos</a></li>
-
-                    <li class="text-gray-500 hover:bg-emerald-600 hover:text-white "><a
-                            href="{{ route('policial.show', $tituloPol) }}"
-                            class="py-2 px-4 text-sm flex items-center">Policiales</a></li>
-
-                    <li class="text-gray-500 hover:bg-emerald-600 hover:text-white "><a
-                            href="{{ route('deportes.show', $tituloDep) }}"
-                            class="py-2 px-4 text-sm flex items-center">Deportes</a></li>
-                    <li class="text-gray-500 hover:bg-emerald-600 hover:text-white "><a
-                            href="{{ route('legislatura.show', $tituloLeg) }}"
-                            class="py-2 px-4 text-sm flex items-center">Legislatura</a></li>
+                    <li class="text-gray-500 bg-gray-800 hover:bg-emerald-600 hover:text-white">
+                        <a href="{{ route('historiales.index') }}"
+                            class="btn btn-success fw-medium text-decoration-none text-dark">Historial</a>
+                    </li>
+                    @foreach ($secciones->sortBy('orden') as $seccion)
+                        <li class="text-gray-500 bg-gray-800 hover:bg-emerald-600 hover:text-white">
+                            <a href="{{ route('seccion', $seccion->seccion) }}"
+                                class="btn btn-primary">{{ $seccion->seccion }}</a>
+                        </li>
+                    @endforeach
                 </ul>
             </div>
         </div>
 
 
-
-
         {{--  menu celular --}}
         <div class="bg-white h-full overflow-auto">
             <ul class="bg-white">
-
-                <div class="container bg-gray-200 pt-2 pb-2">
-                    @livewire('search')
-                </div>
-
-                @php
-                    $titulo = 'Noticia-Completa';
-                    $tituloSoc = 'Sociedad-Noticia-Completa';
-                    $tituloPol = 'Policiales-Noticia-Completa';
-                    $tituloEco = 'Ecomomía-Noticia-Completa';
-                    $tituloGre = 'Gremiales-Noticia-Completa';
-                    $tituloCul = 'Cultura-Noticia-Completa';
-                    $tituloInt = 'Internacionales-Noticia-Completa';
-                    $tituloDer = 'Derechos-Humanos-Noticia-Completa';
-                    $tituloLeg = 'Legislatura-Noticia-Completa';
-                    $tituloDep = 'Deportes-Noticia-Completa';
-                    $tituloFem = 'Agenda-Feminista-Noticia-Completa';
-                @endphp
-
-                <li class="text-gray-500 hover:bg-emerald-600 hover:text-white "><a
-                        href="{{ route('sociedad.show', $tituloSoc) }}"
-                        class="py-2 px-4 text-sm flex items-center">Sociedad</a></li>
-
-                <li class="text-gray-500 hover:bg-emerald-600 hover:text-white "><a
-                        href="{{ route('politica.show', $titulo) }}"
-                        class="py-2 px-4 text-sm flex items-center">Politica</a></li>
-
-                <li class="text-gray-500 hover:bg-emerald-600 hover:text-white "><a
-                        href="{{ route('economia.show', $tituloEco) }}"
-                        class="py-2 px-4 text-sm flex items-center">Economía</a></li>
-                <li class="text-gray-500 hover:bg-emerald-600 hover:text-white "><a
-                        href="{{ route('feminista.show', $tituloFem) }}"
-                        class="py-2 px-4 text-sm flex items-center">Agenda Feminista</a></li>
-
-                <li class="text-gray-500 hover:bg-emerald-600 hover:text-white "><a
-                        href="{{ route('inter.show', $tituloInt) }}"
-                        class="py-2 px-4 text-sm flex items-center">Internacionales</a></li>
-
-                <li class="text-gray-500 hover:bg-emerald-600 hover:text-white "><a
-                        href="{{ route('gremial.show', $tituloGre) }}"
-                        class="py-2 px-4 text-sm flex items-center">Gremiales</a></li>
-
-                <li class="text-gray-500 hover:bg-emerald-600 hover:text-white "><a
-                        href="{{ route('cultura.show', $tituloCul) }}"
-                        class="py-2 px-4 text-sm flex items-center">Cultura</a></li>
-
-                <li class="text-gray-500 hover:bg-emerald-600 hover:text-white "><a
-                        href="{{ route('derechos.show', $tituloDer) }}"
-                        class="py-2 px-4 text-sm flex items-center">Derechos Humanos</a></li>
-
-                <li class="text-gray-500 hover:bg-emerald-600 hover:text-white "><a
-                        href="{{ route('policial.show', $tituloPol) }}"
-                        class="py-2 px-4 text-sm flex items-center">Policiales</a></li>
-
-                <li class="text-gray-500 hover:bg-emerald-600 hover:text-white "><a
-                        href="{{ route('deportes.show', $tituloDep) }}"
-                        class="py-2 px-4 text-sm flex items-center">Deportes</a></li>
-                <li class="text-gray-500 hover:bg-emerald-600 hover:text-white "><a
-                        href="{{ route('legislatura.show', $tituloLeg) }}"
-                        class="py-2 px-4 text-sm flex items-center">Legislatura</a></li>
+                <ul class="seccion-lista li">
+                    @php
+                        $secciones = Seccion::all();
+                    @endphp
+                    <li class="text-gray-500 bg-gray-800 hover:bg-emerald-600 hover:text-white">
+                        <a href="{{ route('historiales.index') }}"
+                            class="btn btn-success fw-medium text-decoration-none text-dark">Historial</a>
+                    </li>
+                    @foreach ($secciones->sortBy('orden') as $seccion)
+                        <li class="text-gray-500 bg-gray-800 hover:bg-emerald-600 hover:text-white">
+                            <a href="{{ route('seccion', $seccion->seccion) }}"
+                                class="btn btn-primary">{{ $seccion->seccion }}</a>
+                        </li>
+                    @endforeach
+                </ul>
 
             </ul>
         </div>
-
-
-
     </nav>
 </header>
-
-

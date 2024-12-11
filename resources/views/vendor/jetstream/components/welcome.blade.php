@@ -1,22 +1,41 @@
 <div class="p-6 sm:px-20 bg-white border-b border-gray-200">
     <div>
-        <x-jet-application-logo class="block h-12 w-auto" />
+       {{--  <x-jet-application-logo class="block h-12 w-auto" /> --}}
     </div>
 
     <div class="mt-8 text-2xl">
-        Welcome to your Jetstream application!
+        <li >
+            <a class="nav-link menu-link" href="{{ route('secciones.index') }}" >
+                <i class="ri-dashboard-2-line"></i> <span>Mnt.Secciones</span>
+            </a>
+        </li>
+        <br>
+        <li >
+            <a class="nav-link menu-link" href="{{ route('noticias.index') }}" >
+                <i class="ri-dashboard-2-line"></i> <span>Mnt.Noticias</span>
+            </a>
+        </li>
+        <br>
+        <li >
+            <a class="nav-link menu-link" href="{{ route('publicidades.index') }}" >
+                <i class="ri-dashboard-2-line"></i> <span>Mnt.Publicidad</span>
+            </a>
+        </li>
+        <br>
+        <li>
+            <a class="nav-link menu-link" href="{{ route('videos.index') }}" >
+                <i class="ri-dashboard-2-line"></i> <span>Mnt.Videos</span>
+            </a>
+        </li>
     </div>
 
-    <div class="mt-6 text-gray-500">
-        Laravel Jetstream provides a beautiful, robust starting point for your next Laravel application. Laravel is designed
-        to help you build your application using a development environment that is simple, powerful, and enjoyable. We believe
-        you should love expressing your creativity through programming, so we have spent time carefully crafting the Laravel
-        ecosystem to be a breath of fresh air. We hope you love it.
-    </div>
+
+
+
 </div>
 
 <div class="bg-gray-200 bg-opacity-25 grid grid-cols-1 md:grid-cols-2">
-    <div class="p-6">
+   {{--  <div class="p-6">
         <div class="flex items-center">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8 text-gray-400"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6.042A8.967 8.967 0 006 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 016 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 016-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0018 18a8.967 8.967 0 00-6 2.292m0-14.25v14.25" /></svg>
             <div class="ml-4 text-lg text-gray-600 leading-7 font-semibold"><a href="https://laravel.com/docs">Documentation</a></div>
@@ -90,5 +109,5 @@
                 Authentication and registration views are included with Laravel Jetstream, as well as support for user email verification and resetting forgotten passwords. So, you're free to get started what matters most: building your application.
             </div>
         </div>
-    </div>
+    </div> --}}
 </div>

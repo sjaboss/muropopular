@@ -2,17 +2,22 @@
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="csrf-token" content="{{ csrf_token() }}">
+    <meta charset="utf-8" />
+    <title>ADN Populares | Noticias</title>
+    <meta property="og:url" content="{{ url()->current() }}">
+    <meta property="og:title" content="Noticias">
+    <meta property="og:description" content="Portal de noticias">
+    <meta property="og:site_name" content="adnpopulares">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- App favicon -->
+    <link rel="shortcut icon" href="{{ asset('img/10.png') }}">
 
-    <title>ADN Popular</title>
 
 
 
     <!-- Fonts -->
     <link rel="stylesheet" href="https://fonts.bunny.net/css2?family=Nunito:wght@400;600;700&display=swap">
-
     <!-- Scripts -->
     @vite(['resources/css/app.css', 'resources/js/app.js'])
     <script src="https://cdnjs.cloudflare.com/ajax/libs/glider-js/1.7.8/glider.min.js"
@@ -47,7 +52,8 @@
     {{-- sweetalert2 --}}
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
-    <script src="glider.js"></script>
+
+{{--     <script src="glider.js"></script> --}}
     <link rel="stylesheet" type="text/css" href="glider.css">
 
 
@@ -74,7 +80,6 @@
 
     <div class="min-h-screen bg-gray-900">
         @livewire('navigation')
-
 
         <main>
             {{ $slot }}

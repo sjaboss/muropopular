@@ -1,31 +1,39 @@
 <?php
 
+use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\RedController;
+use App\Http\Controllers\VideoController;
 use App\Http\Controllers\CulturaController;
-use App\Http\Controllers\CulturaSepController;
+use App\Http\Controllers\NoticiaController;
+use App\Http\Controllers\SeccionController;
+use App\Http\Controllers\WelcomeController;
+use App\Http\Controllers\DeportesController;
 use App\Http\Controllers\DHumanosController;
 use App\Http\Controllers\EconomiaController;
-use App\Http\Controllers\FeministaController;
-use App\Http\Controllers\GremialesController;
-use App\Http\Controllers\InternacionalesController;
-use App\Http\Controllers\InternacionalesSepController;
-use App\Http\Controllers\PolicialesController;
-use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\WelcomeController;
+use App\Http\Controllers\NosotrosController;
 use App\Http\Controllers\PoliticaController;
 use App\Http\Controllers\SociedadController;
-use App\Http\Controllers\DeportesController;
+use App\Http\Controllers\FeministaController;
+use App\Http\Controllers\GremialesController;
+use App\Http\Controllers\HistorialController;
+use App\Http\Controllers\CulturaSepController;
+use App\Http\Controllers\PolicialesController;
+use App\Http\Controllers\PublicidadController;
 use App\Http\Controllers\DeportesSepController;
-use App\Http\Controllers\derechosHumanosSepController;
 use App\Http\Controllers\EconomiaSepController;
-use App\Http\Controllers\FeministaSepController;
-use App\Http\Controllers\GremialesSepController;
-use App\Http\Controllers\InternacinalesNewController;
 use App\Http\Controllers\LegislaturaController;
-use App\Http\Controllers\legislaturaSepController;
-use App\Http\Controllers\NosotrosController;
 use App\Http\Controllers\policialSepController;
 use App\Http\Controllers\PoliticaSepController;
+use App\Http\Controllers\ReservationController;
 use App\Http\Controllers\SociedadSepController;
+use App\Http\Controllers\FeministaSepController;
+use App\Http\Controllers\GremialesSepController;
+use App\Http\Controllers\legislaturaSepController;
+use App\Http\Controllers\InternacionalesController;
+use App\Http\Controllers\InternacinalesNewController;
+use App\Http\Controllers\derechosHumanosSepController;
+use App\Http\Controllers\InternacionalesSepController;
+use App\Http\Controllers\SeccionsepController;
 
 /*
 |--------------------------------------------------------------------------
@@ -39,9 +47,11 @@ use App\Http\Controllers\SociedadSepController;
 */
 
 
+Route::get('/', [welcomeController::class, '__invoke'])->name('home');
 
+Route::get('welcome/fullcalendar',[ReservationController::class,'getAllReservationsLanding'])->name('welcome.fullcalendar');
 
-Route::get('/', WelcomeController::class);
+/* Route::get('/', WelcomeController::class); */
 Route::get('politica/{politica}',[PoliticaController::class,'show'])->name('politica.show');
 Route::get('politicasep/{tituloSep}',[PoliticaSepController::class,'show'])->name('politicaSep.show');
 
@@ -76,7 +86,22 @@ Route::get('deportessep/{tituloSep}',[DeportesSepController::class,'show'])->nam
 Route::get('legislatuta/{leg}',[LegislaturaController::class,'show'])->name('legislatura.show');
 Route::get('legislatutasep/{tituloSep}',[legislaturaSepController::class,'show'])->name('legislaturaSep.show');
 
-Route::post('/', [NosotrosController::class, 'store'])->name("nuestros.store"); 
+Route::post('/', [NosotrosController::class, 'store'])->name("nuestros.store");
+
+Route::get('secciones/index ',[SeccionController::class,'createSeccion'])->name('create.secciones');
+
+Route::resource('secciones',SeccionController::class);
+Route::resource('noticias',NoticiaController::class);
+Route::resource('publicidades',PublicidadController::class);
+Route::resource('historiales',HistorialController::class);
+Route::resource('redes',RedController::class);
+Route::resource('videos',VideoController::class);
+
+// Eso hace que la botonera del menu aparezca en la seccion correspondiente
+Route::get('/seccion/{seccion}', [ SeccionsepController ::class, 'index'])->name('seccion');
+Route::get('/noticias/{id}', function ($id) {
+    // Código para mostrar la noticia
+})->name('noticias');
 
 Route::middleware([
     'auth:sanctum',

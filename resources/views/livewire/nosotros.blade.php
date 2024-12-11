@@ -1,110 +1,45 @@
-
-
-
-
-<footer class="bg-gray-800">
+<footer class="bg-gray-800 pt-10">
     <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
 
-
-        @php
-            $titulo = 'Noticia-Completa';
-            $tituloSoc = 'Sociedad-Noticia-Completa';
-            $tituloPol = 'Policiales-Noticia-Completa';
-            $tituloEco = 'Ecomomía-Noticia-Completa';
-            $tituloGre = 'Gremiales-Noticia-Completa';
-            $tituloCul = 'Cultura-Noticia-Completa';
-            $tituloInt = 'Internacionales-Noticia-Completa';
-            $tituloDer = 'Derechos-Humanos-Noticia-Completa';
-            $tituloLeg = 'Legislatura-Noticia-Completa';
-            $tituloDep = 'Deportes-Noticia-Completa';
-            $tituloFem = 'Agenda-Feminista-Noticia-Completa';
-        @endphp
         <div class="md:flex md:justify-between">
             <div class="mb-12 md:mb-0">
                 <a class="flex items-center">
-                    <img src="{{ asset('img/10.png') }}" class="h-16 mr-3 " alt="FlowBite Logo" />
+                    <img src="{{ asset('img/10.png') }}" class="img_footer" alt="FlowBite Logo" />
                     <span class="self-center text-2xl font-semibold whitespace-nowrap text-white">Tu canal de
                         noticias</span>
                 </a>
 
-
+                @php
+                    use App\Models\Seccion;
+                    $secciones = Seccion::all();
+                @endphp
 
 
             </div>
-            <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
-
-                <map>
-                    <div>
-                        <h2 class="mb-2 text-sm font-semibol uppercase text-white">Secciones</h2>
-
-                        <ul class=" text-gray-400 font-medium">
-
-                            <li class="mb-2">
-                                <a href="{{ route('sociedad.show', $tituloSoc) }}" class="hover:underline">Sociedad</a>
-                            </li>
-
-                            <li class="mb-2">
-                                <a href="{{ route('politica.show', $titulo) }}" class="hover:underline">Politica</a>
-                            </li>
-
-                            <li class="mb-2">
-                                <a href="{{ route('gremial.show', $tituloGre) }}" class="hover:underline">Gremiales</a>
-                            </li>
-
-                            <li class="mb-2">
-                                <a href="{{ route('legislatura.show', $tituloLeg) }}"
-                                    class="hover:underline">Legislatura</a>
-                            </li>
-
-                            <li class="mb-2">
-                                <a href="{{ route('inter.show', $tituloInt) }}"
-                                    class="hover:underline">Internacionales</a>
-                            </li>
-
-                        </ul>
-                    </div>
-                </map>
-
-                <map>
-                    <div>
-                        <h2 class="mb-2 text-sm font-semibold text-gray-800 uppercase">colu2</h2>
-
-                        <ul class =" text-gray-400 font-medium">
-                            <li class="mb-2">
-
-                                <a href="{{ route('economia.show', $tituloEco) }}" class="hover:underline ">Economía</a>
-                            </li>
-
-                            <li class="mb-2">
-                                <a href="{{ route('feminista.show', $tituloFem) }}" class="hover:underline">Agenda
-                                    Feminista</a>
-                            </li>
-
-                            <li class="mb-2">
-                                <a href="{{ route('derechos.show', $tituloDer) }}" class="hover:underline">Derechos
-                                    Humanos</a>
-                            </li>
-
-                            <li class="mb-2">
-                                <a href="{{ route('deportes.show', $tituloDep) }}" class="hover:underline">Deportes</a>
-                            </li>
-
-
-                            <li class="mb-2">
-                                <a href="{{ route('cultura.show', $tituloCul) }}"class="hover:underline">Cultura</a>
-                            </li>
-                        </ul>
-                    </div>
-                </map>
-
+            <div>
+                <a type="button"   href="{{ route('historiales.index') }}" class="focus:outline-none text-white bg-green-700 hover:bg-green-800 focus:ring-4 focus:ring-green-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2">Historial</a>
             </div>
+            @foreach ($secciones->sortBy('orden')->chunk(5) as $grupoSecciones)
+                <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
+                    <ul class="text-gray-400 font-medium">
+
+                        @foreach ($grupoSecciones as $seccion)
+                            <li class="mb-2">
+                                <a href="{{ route('seccion', $seccion->seccion) }}"
+                                    class="btn btn-primary">{{ $seccion->seccion }}</a>
+                            </li>
+                        @endforeach
+                    </ul>
+                </div>
+            @endforeach
+
         </div>
 
 
 
         <hr class="my-6 border-gray-700 lg:my-8" />
         <div class="sm:flex sm:items-center sm:justify-between">
-            <span class="text-sm text-gray-500 sm:text-center">© 2023 <a class="hover:underline">Cooperativa de Trabajo
+            <span class="text-sm text-gray-500 sm:text-center">© 2024 <a class="hover:underline">Cooperativa de Trabajo
                     LTDA</a>. El Faro Comunicaciones.
 
 
@@ -118,17 +53,24 @@
                         prensa@adnpopulares.com</span>
                 </a>
             </span>
+            <style>
+                .img_footer {
+                    width: 70px;
+                    height: 70px;
+                    object-fit: cover;
+                }
 
-
+                .img_redes {
+                    width: 25px;
+                    height: 25px;
+                    object-fit: cover;
+                }
+            </style>
 
 
             <div class="flex mt-4 space-x-5 sm:justify-center sm:mt-0">
                 <a href="https://x.com/AdnPopulares?t=vD2xXNELA_tShOoitX_ZzQ&s=09" target="_blank">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
-                        class="bi bi-twitter" viewBox="0 0 16 16">
-                        <path
-                            d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
-                    </svg>
+                    <img src="{{ asset('img/redes/x.png') }}" class="img_redes" alt="FlowBite Logo" />
                 </a>
                 <a href="https://www.instagram.com/adnpopulares?utm_source=qr&igsh=M2xrd2Y4eWNjMDZ3" target="_blank">
                     <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
